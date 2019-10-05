@@ -1,0 +1,60 @@
+;Cave:		Top Sink - pie r squared, Walruss to Penknife
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:		22/12/07
+;Instruments:	Disto + MKO
+
+;*equate	t01bi.001 t01c.050 ;bottom of Walrus where rope lands
+;*equate t01bi.039 t01bii.001 ;st001 is knot on Y-hang on Penknife Pitch
+
+*begin	t01bi
+*export 001
+*export 039
+
+*calibrate compass	+1.00
+*calibrate clino	+1.00
+*calibrate tape		 0.00
+
+002	001	03.63	064.0	+01.0	;st001 is base of pitch
+002	003	05.55	342.0	-07.0	;st003 is where passage goes below upper pitch wall
+003	004	00.97	277.0	+06.0
+004	005	02.33	237.0	+04.0
+005	006	01.53	274.0	 00.0
+006	007	01.70	295.0	-01.0	;small roof tube to right
+007	008	05.77	261.0	 00.0	;st008 is sitting on ledge low down
+008	009	02.23	208.0	-10.0
+009	010	06.18	288.0	+01.0
+010	011	01.92	271.0	 00.0
+011	012	01.44	237.0	-04.0
+012	013	02.87	306.0	+07.0
+013	014	03.28	266.0	-02.0
+014	015	03.43	241.0	 00.0
+016	015	01.82	082.0	 00.0
+016	017	02.72	203.0	 00.0
+017	018	02.64	241.0	-01.0	;between stations is high ledge with stal on right
+018	019	01.82	154.0	 00.0
+019	020	03.38	254.0	+05.0	;st020 is v. small stal on corner right side at roof level
+021	020	01.03	342.0	+36.0
+021	022	02.34	193.0	-12.0
+022	023	01.71	160.0	+24.0	;st023 is on high stal
+024	023	03.22	018.0	+19.0
+024	025	01.50	193.0	+01.0	;st025 is head height sitting on low ledge
+025	026	01.50	121.0	-02.0	;between stations is stals high on left wall roof level
+026	027	02.85	250.0	-01.0	;st027 is below false floor
+027	028	01.37	181.0	 00.0
+028	029	01.98	234.0	+04.0
+029	030	01.72	275.0	-01.0
+030	031	02.37	159.0	+44.0	;st031 is on ledge 2m up on left wall
+031	032	05.49	252.0	-12.0	;slope of floor increases
+032	033	02.31	265.0	-10.0
+033	034	03.11	197.0	 00.0
+034	035	01.93	210.0	-05.0	;st035 is on upstream side of pool
+035	036	04.10	224.0	-04.0	;st036 is below pool
+037	036	01.55	356.0	-04.0	;slope steepens but station at head height
+037	038	01.56	262.0	-03.0	;st037 is head height standing on corner in pool
+
+038	038a	01.36	237.0	-04.0	;st038a is old bolt on right wall
+
+038	039	01.25	230.0	-13.0	;st039 is Y hang knot
+039	040	06.41	 -	DOWN	;st040 is bottom of pitch
+
+*end	t01bi

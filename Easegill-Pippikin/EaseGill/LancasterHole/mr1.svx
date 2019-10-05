@@ -1,0 +1,53 @@
+;Cave:	Magic Roundabout-from main drain
+;Surveyors:	Ray Duffy/Tim Eastwood
+;Date:	21/11/98
+;Instruments:	PAG
+
+;;*equate	Mr1.001	md7a.031a
+;;*equate	Mr1.031	L3.007
+;*equate	mr1.020	mr2.042
+;*equate	mr1.031	mr2.000
+;*equate	mr1.020	mr3.004
+;*equate	mr1.001	mr4.005
+
+*begin	mr1
+*export 001
+*export 031
+*export 020
+
+*calibrate compass	+5.00
+
+;*fix	001	
+
+001	002	01.60	 -	DOWN	;st001=tag at main drain entrance
+002	003	04.00	131.0	+02.0
+003	004	02.50	190.0	+30.0
+004	005	02.20	052.5	-33.0
+005	006	01.70	 -	UP
+006	007	01.20	088.0	-10.0
+007	008	03.05	064.0	+12.0
+008	009	01.65	170.0	+05.0
+009	010	00.30	 -	UP
+010	011	01.70	059.0	+06.0
+011	012	02.00	087.5	+23.0
+012	013	01.50	018.0	-10.0
+013	014	02.70	147.0	+19.0	;st014 has passage going up in roof on right with draught
+014	015	03.40	049.5	-09.0
+015	016	01.60	135.0	+29.0
+016	017	00.80	 -	DOWN
+017	018	03.40	066.5	+67.5
+018	019	03.90	113.0	+10.0
+019	020	01.20	246.0	+19.0	;st020=tag in floor of large passage on R of streamway
+020	021	01.40	 -	UP
+021	022	06.20	219.0	 00.0
+022	023	01.70	307.0	+30.0
+023	024	01.70	 -	UP
+024	025	05.40	023.0	+35.0
+025	026	00.90	299.0	+03.0
+026	027	07.00	001.0	+36.0
+027	028	02.35	 -	UP	;up ladder and into Bob's Boss area
+028	029	04.65	199.5	+40.0
+029	030	15.15	161.5	+02.5
+030	031	08.60	228.0	-08.0	;st031 is thread hole 2m R of entrance to Arson Shaft
+
+*end	mr1

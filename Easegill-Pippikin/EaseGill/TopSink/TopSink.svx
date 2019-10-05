@@ -1,0 +1,103 @@
+;Contains all Top Sink Files
+
+*begin TopSink
+
+*export t06aii.001
+*export t01bii.055
+*export t09c.001f
+*export t09a.031
+*export t01c.001
+
+*equate t01bi.001 t01c.050 ; from t01bi.svx
+*equate t01bi.039 t01bii.001 ; from t01bii.svx
+*equate t01bii.002 t10a.035 ; from t01bii.svx
+*equate t01bii.002 t10b.001a ; from t01bii.svx
+*equate t01bii.027 t10b.001 ; from t01bii.svx
+*equate t01bii.028 t01biii.001 ; from t01biii.svx
+*equate t01bii.055 t09b.001 ; from t01bii.svx
+*equate t01bii.100b t01biii.029 ; from t01biii.svx
+*equate t01biii.029 t02i.010 ; from t01biii.svx
+*equate t01c.014 t01d.001 ; from t01c.svx
+*equate t02a.001 t02i.042 ; from t02a.svx
+*equate t02a.006 t02b.003 ; from t02a.svx
+*equate t02i.001 t09b.001 ; from t02i.svx
+*equate t02i.042 t02ii.001 ; from t02ii.svx
+*equate t02ii.009a t05.045 ; from t02ii.svx
+*equate t02ii.009a t05a.000 ; from t02ii.svx
+*equate t02ii.013 t05a.014 ; from t02ii.svx
+*equate t04.025 t06b.025 ; from t04.svx
+*equate t04.202 t06biii.001 ; from t04.svx
+*equate t04a.012 t06b.007 ; from t04a.svx
+*equate t05a.014 t05b.011 ; from t05a.svx
+*equate t06a.001 t09b.001 ; from t06a.svx
+*equate t06a.006 t06b.001 ; from t06a.svx
+*equate t06a.017 t06ai.00a ; from t06ai.svx
+*equate t06ai.00a t06aii.016 ; from t06aii.svx
+*equate t06ai.021 t06aiii.e ; from t06aiii.svx
+*equate t06b.007 t06bi.002a ; from t06bi.svx
+*equate t06b.031 t06bii.001 ; from t06bii.svx
+*equate t06b.031 t06biv.001 ; from t06biv.svx
+*equate t06bii.003d t06biii.001 ; from t06biii.svx
+*equate t09a.007 t09d.001 ; from t09a.svx
+*equate t09a.011 t09e.001 ; from t09a.svx
+*equate t09a.017 t09c.005ki ; from t09a.svx
+*equate t09a.019 t09c.008 ; from t09c.svx
+*equate t09a.031 t09b.020 ; from t09a.svx
+*equate t09e.012 t09f.001 ; from t09e.svx
+*equate t09e.012 t11.e11 ; from t09e.svx
+*equate t10a.006 t10ai.00x ; from t10ai.svx
+*equate t10ai.011 t10aii.001 ; from t10aii.svx
+*equate t10aii.1 t10f.024 ; from t10aii.svx
+*equate t10b.005b t10c.005b ; from t10b.svx
+*equate t10c.005g t10d.0 ; from t10c.svx
+*equate t10d.13 t10e.019 ; from t10d.svx
+*equate t10d.13 t10f.001 ; from t10f.svx
+
+;;;;;;;;*Include	T01a ;not needed use T01c
+;;;;;;;;*Include	T01b
+*include	t01bi
+*include	t01bii
+*include	t01biii
+*include	t01c
+*include	t01d
+;*Include	T02
+*include	t02i
+*include	t02ii
+*include	t02a
+*include	t02b
+;;;;;;;;*Include	T03
+;;;;;;;;*Include	T03a
+*include	t04 ;check of compass in later surveys,not needed use T06a/b
+*include	t04a
+*include	t05
+*include	t05a
+*include	t05b
+;;;;;;;;*Include	T06
+*include	t06a
+*include	t06ai
+*include	t06aii
+*include	t06aiii
+*include	t06b
+*include	t06bi
+*include	t06bii
+*include	t06biii
+*include	t06biv
+;;;;;;;;*Include	T09
+*include	t09a
+*include	t09b
+*include	t09c
+*include	t09d
+*include	t09e
+*include	t09f
+;;;;;;;;*Include	t10 ;;not needed use t10a
+*include	t10a
+*include	t10ai
+*include	t10aii
+*include	t10b
+*include	t10c
+*include	t10d
+*include	t10e
+*include	t10f
+*include	t11
+
+*end TopSink

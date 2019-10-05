@@ -1,0 +1,52 @@
+;Cave:	County Pot - Trident - Paper floor passage Pitch to Whiteway
+;Surveyors:	A.Whitney/R.Duffy
+;Date:	30/10/02
+;Instruments:	PAG
+
+;*equate	trident15.001	trident13.019
+;*equate	trident15.005a	trident18.012
+;*equate	trident15.008	trident04.020
+;*equate	trident15.008	trident06.006
+;*equate	trident15.008	trident23a.001
+;*equate	trident15.016a	trident04.011a
+;;*equate	trident15.016a	trident26a.011a
+;;*equate trident15.018	trident04.008	;guessed station on trident stream survey
+
+*begin	trident15
+*export 016a
+*export 001
+*export 008
+*export 005a
+
+*calibrate compass	+3.00
+*calibrate clino	0.00
+*calibrate tape	+1.0
+
+
+001	002	01.37	 -	UP	;st001 bottom of rope, st002=tag13
+002	003	07.29	310.0	 00.0
+003	004	05.90	292.5	-10.0
+004	005	03.08	331.0	+05.0
+
+005	005a	03.94	068.5	+07.5	;st005a is bottom of pitch from Ray and Sam's stream passage from Boulder Chamber
+
+005	006	05.03	256.5	-13.0
+006	007	02.89	 -	DOWN
+007	008	04.35	262.0	-10.0	;st008=tag14 in Trident streamway
+008	009	04.29	281.0	+22.5	;from 008 onward is Whiteway
+009	010	07.29	318.0	-11.0
+010	011	08.04	320.0	-04.5
+011	012	06.08	310.0	-17.0
+;012	013	02.77	263.5	+07.5
+012	013	03.77	263.5	+07.5	;suspect tape misread
+013	014	03.77	350.0	-04.5
+014	015	05.92	304.0	-08.0
+015	016	04.23	270.0	-20.0	;st016 is just below step out of Whiteway into oxbow
+
+;016	016a	14.78	181.0	-04.0	;st016a=tag
+016	016a	11.78	181.0	-04.0	;st016a=tag took 3m off leg cos it works much better
+
+016	017	05.63	242.0	-18.0
+017	018	01.09	 -	DOWN	;st 018 is same position as station on trident04
+
+*end	trident15

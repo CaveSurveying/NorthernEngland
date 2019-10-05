@@ -1,0 +1,19 @@
+;Cave:	Lancaster Hole-Graveyard from Big Stal at Trench up right passage
+;Surveyors:	Ray Duffy/Tim Eastwood/Dave Edland
+;Date:	10/01/98 pm
+;Instruments:	PAG
+
+;;*equate	gv1.001	gv.012
+
+*begin	gv1
+*export 001
+
+*calibrate compass	+5.00
+
+001	002	12.62	008.0	+02.5	;st001=gv.012=UP162 Large Stal
+002	003	12.00	019.5	-03.0	;st003 has passage on right easy digable
+003	004	10.50	002.0	+05.0
+004	005	06.57	063.0	+24.0
+005	006	02.40	318.0	+40.0
+
+*end	gv1

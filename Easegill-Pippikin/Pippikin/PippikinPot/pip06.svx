@@ -1,0 +1,30 @@
+;Cave:	Pipikin-Cellar Pot
+;Surveyors:	Beardy/PWilkinson/LB/HE
+;Date:	28-12-97
+;Instruments:	kit 3
+
+;*equate	pip06.001	pip.007
+
+*begin	pip06
+*export 001
+
+*calibrate compass	+5.45
+
+001	002	10.35	 -	DOWN	;st001=tag st002 is bottom of pot
+002	003	01.70	012.0	 00.0
+003	004	02.90	 -	DOWN
+004	005	03.90	064.0	 00.0
+005	006	03.30	 -	DOWN
+006	007	02.60	122.0	+54.0
+007	007a	02.50	127.0	-04.0
+007a	007b	06.60	160.0	+47.0
+007b	007c	09.50	247.0	+32.0
+007b	007e	05.20	092.0	+25.0
+007	007j	02.00	 -	UP
+007j	007k	04.00	220.0	 00.0	;back toward hole at bottom of ??
+007	008	01.20	218.0	 00.0
+008	009	03.50	 -	DOWN
+009	010	02.00	230.0	-25.0
+010	011	02.00	157.0	-02.0
+
+*end	pip06

@@ -1,0 +1,14 @@
+;Every Corner sink file
+
+*begin CornerSink
+*export cns1.001
+*export cns1.015
+
+*equate cns1.001 cns2.001 ; from cns1.svx
+*equate cns1.008 cns2.010 ; from cns1.svx
+
+;*include	corn
+*include	cns1
+*include	cns2
+
+*end CornerSink

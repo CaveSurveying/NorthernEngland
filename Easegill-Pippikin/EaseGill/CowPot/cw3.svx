@@ -1,0 +1,26 @@
+;Cave:	cow pot fx5 inlet
+;sur:	Andy Hall/CA
+;date:	09/05/93
+
+;*equate cw3.000	cw.003
+;*equate	cw3.001	cw5.000
+
+*begin	cw3
+*export 001
+*export 000
+
+*calibrate compass	+5.67
+
+000	001	01.70	  -	DOWN	;from cow.003 to floor (pag)
+001	002	08.00	269.0	+13.0	;001=bottom of rope
+002	003	02.20	  -	  UP
+003	004	02.50	045.0	+22.0
+004	005	02.90	  -	  UP
+005	006	06.50	348.0	-13.0
+006	007	05.80	258.0	+01.0	;006 8m pitch in floor
+007	008	08.00	248.0	-02.0
+008	009	00.30	  -	  UP
+009	010	06.50	314.0	+01.0	;pass 6m aven
+010	011	06.60	346.0	 00.0
+
+*end	cw3

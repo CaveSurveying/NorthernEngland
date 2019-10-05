@@ -1,0 +1,31 @@
+; South Side of Ease Gill
+
+*begin Pippikin
+
+*export LinkPot.lk01.034	; tag at Echo aven
+*export LinkPot.lk12.033  	; via the Grind
+
+*equate	Mistral.ms.035	PippikinPot.pip02a.001
+*equate	Mistral.ms.035	LinkPot.lk03.044
+*equate ByeGeorge.bg2.044 PippikinPot.pip01.001
+*equate ByeGeorge.bg2.044 PippikinPot.pip.101f
+*equate ByeGeorge.mm1.079 PippikinPot.mm1i.079
+*equate ByeGeorge.bg2.044 PippikinPot.mm1i.089 ; from bg2.svx
+*equate PipSink.pipws.34 PippikinPot.pip.001
+*equate PippikinPot.pip15.012 Svengland.pip16.001
+*equate PippikinPot.pip15.030 Svengland.pip22.000
+*equate Peterson.pep.037a Svengland.pip23.018
+
+; BEGINTABLE
+
+*include Mistral\Mistral ; Mistral
+*include LinkPot\LinkPot ; Link Pot
+*include PippikinPot\PippikinPot ; Pippikin Pot
+*include ByeGeorge\ByeGeorge ; Bye George
+*include PipSink\PipSink ; Pippikin Sink
+*include Peterson\Svengland ; Peterson Pot
+*include Peterson\Peterson ; Peterson Pot
+
+; ENDTABLE
+
+*end Pippikin

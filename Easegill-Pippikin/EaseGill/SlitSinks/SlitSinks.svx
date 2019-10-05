@@ -1,0 +1,12 @@
+;Every Slit Sink file
+
+*begin SlitSinks
+
+*export ss01.000
+
+*equate ss01.025 ss02.000 ; from ss01.svx
+
+*include	ss01
+*include	ss02
+
+*end SlitSinks

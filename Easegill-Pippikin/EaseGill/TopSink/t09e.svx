@@ -1,0 +1,35 @@
+;Cave:		North West Passge end of Booth-Eyre
+;Surveyors:	R.Duffy/S.Lieberman/P.Wilkinson
+;Date:		14/10/07
+;Instruments:	PAG + disto
+
+;*equate	t09e.001 t09a.011 ;st001 is spike of rock at corner
+;*equate	t09e.012 t11.e11 ;st012=tag in roof at start of low section
+;*equate	t09e.012 t09f.001 ;st012=tag in roof at start of low section
+
+*begin	t09e
+*export 001
+*export 012
+
+*calibrate compass		+5.00
+*calibrate clino		+0.50
+*calibrate tape			 0.00
+
+*fix 012 67811.22 80963.86 276.48 ;st012=tag in roof at start of low section
+
+001	002	04.62	084.0	+07.0	;st001 is spike of rock at corner
+002	003	01.74	083.0	-01.0
+003	004	03.37	055.0	+03.0
+004	005	04.03	131.0	+05.0
+005	006	01.25	105.0	-09.0
+006	007	02.33	149.0	+23.0
+
+007	007a	03.91	223.0	+04.0	;st007a is choked bedding
+
+007	008	03.29	041.5	-01.0
+008	009	02.31	151.0	-06.0
+010	009	02.25	304.0	-18.0
+010	011	00.10	 -	UP
+011	012	00.90	058.0	+08.0	;st012=tag in roof at start of low section with choked chamber up to right
+
+*end	t09e

@@ -1,0 +1,20 @@
+;Cave:	Montague West Dig
+;Surveyors:	R.Duffy/Buster
+;Date:	Mw2	29/12/96
+;Instruments:	Red Rose Sunto Compass & Clino, 30m tape
+
+;;*equate	mw2.001	mw1.018	
+
+*begin	mw2
+*export 001
+
+*calibrate compass	+5.27
+
+001	002	07.50	219.0	+02.5
+002	003	04.10	324.0	+22.5
+003	004	05.80	254.0	+08.0
+004	005	03.40	281.0	-04.5
+005	006	05.20	257.0	+04.5
+006	007	01.90	238.0	-03.5
+
+*end	mw2

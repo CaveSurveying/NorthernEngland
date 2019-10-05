@@ -1,0 +1,26 @@
+;Cave:	Link Pot-Echo Crawl
+;Surveyors:	Neil Pacey/Dave Ramsey/Paul Windle
+;Date:	14/11/98
+;Instruments:	Kit 1
+
+;*equate	lk04.000	lk01.020
+;*equate	lk04.010	lk05.001
+
+*begin	lk04
+*export 010
+*export 000
+
+*calibrate compass	+6.50
+
+000	001	10.10	047.0	+05.0	;st000=tag lk01.020
+001	002	10.10	334.0	+01.0
+002	003	02.60	023.0	+02.0
+003	004	05.40	355.0	+01.0
+004	005	03.50	270.0	-06.0
+005	006	01.80	245.0	-05.0
+006	007	03.00	296.0	-04.0
+007	008	04.00	308.0	-06.0
+008	009	03.40	264.0	-05.0
+009	010	03.50	278.0	-05.0
+
+*end	lk04

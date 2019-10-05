@@ -1,0 +1,36 @@
+;Cave:	Top Sink - Booth-Eyre Crawl link to head of pitch
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:		30/07/06
+;Instruments:	PAG + disto
+
+;*equate	t05a.014 t02ii.013 ;st014 is small cairn on rock in chamber looking back toward Limerick
+;*equate t05a.014 t05b.011 ;is cairn in middle of chamber on boulder
+;*equate	t05a.000 t02ii.009a ;st000 is foot of waterfall
+
+*begin	t05a
+*export 000
+*export 014
+
+*calibrate compass		+3.00
+*calibrate clino		 -0.50
+*calibrate tape			  0.00
+
+*fix 000 67935.02 81046.88 302.38 ;Bottom of Pitch in CRG to Booth-Eyre
+
+000	001	09.57	 -	UP	;st000 is bottom of pitch
+002	001	02.06	302.0	-49.0
+003	002	01.72	324.0	+10.0
+003	004	02.05	125.0	+15.0
+004	005	01.79	104.0	+05.0
+005	006	01.96	190.0	-14.0	;up to st006 are up in tight rift
+006	007	01.87	142.0	+05.0
+007	008	02.82	209.0	+19.0	;st008 has small muddy aven on right
+008	009	03.42	128.0	+13.0
+009	009a	04.47	130.0	 00.0	;small inlet too tight at end
+009	010	05.08	081.0	+18.0	;small cairn on true left ledge with passage to right into chamber continuation
+010	011	02.49	079.0	+11.0
+011	012	03.28	133.0	+31.0	;st012 is on ledge to left leading to chamber
+012	013	05.47	028.0	+21.0
+013	014	01.69	324.0	-15.0	;st014 is small cairn on rock in chamber looking back toward Limerick
+
+*end	t05a

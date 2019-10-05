@@ -1,0 +1,42 @@
+;Cave:	Pool Sink - Magpie Grotto - part 4
+;Surveyors:	S.Lieberman/J.Baker
+;Date:	14/07/05
+;Instruments:	PAG
+
+;*equate p1i.005 p1h.016 ;tag opposite inlets in oxbow
+
+*begin	p1i
+*export 005
+
+*calibrate compass	+4.00
+*calibrate clino	+1.00
+*calibrate tape	-0.10
+
+002	001	04.82	222.0	+34.0
+003	002	00.91	173.0	+08.0
+004	003	04.57	259.0	-16.0
+004	005	01.17	334.0	-06.0	;st005=tag
+
+005	006	04.47	162.0	+15.0	;up inlet opposite tag in oxbow
+006	007	05.52	118.0	+19.0	;st007 is choke
+
+003	003a	01.10	 -	UP	;standing up in oxbow at bottom of small inlet
+003a	003b	05.74	348.0	-07.0	;st003b above streamway
+003b	003c	04.12	271.0	+06.0
+003c	003d	03.50	228.0	-01.0
+003d	003e	08.34	143.0	+38.0	;st003e is at top  of climbs
+003e	003f	03.89	150.0	-16.0	;st003f is on slope of cobbles down to st003g
+003f	003fi	04.74	124.0	+49.0	;st003fi is top of small climb in choked inlet to left of st003f
+
+003f	003g	04.37	273.0	-35.0	;st003g is bottom of slope above drop
+003g	003h	03.53	341.0	-27.0	;heading back upstream in small cobbled rift, lip of small drop
+003h	003x	01.92	318.0	-23.0
+003x	003j	05.04	337.0	-03.0
+003j	003k	04.02	 -	DOWN	;st003k=tag at 1st inlet upstream from main passage
+
+003d	003ii	03.57	232.0	+01.0
+003ii	003iii	03.51	266.0	+03.0
+003iii	003iv	03.07	305.0	-17.0	;st003IV is head height above lip dropping to stream
+
+
+*end	p1i

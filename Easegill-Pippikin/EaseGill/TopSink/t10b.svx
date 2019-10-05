@@ -1,0 +1,51 @@
+;Cave:		Skywalker Passage
+;Surveyors:	R.Duffy/A.Hall
+;Date:		26/08/07
+;Instruments:	PAG + disto
+
+;*equate	t10b.001a t01bii.002 ;st001a is head height on rope from Wisdom Tooth
+;;;;;;;;;;*equate	t10b.001 T01b.068	;st001 =UP104
+;*equate	t10b.001 t01bii.027 ;st001 on new survey of Upper Bradshaw
+;*equate	t10b.005b t10c.005b ;st005b=tag in thread in small chamber on false floor in Skywaalker Passage
+
+*begin	t10b
+*export 005b
+*export 001
+*export 001a
+
+*calibrate compass		+3.00
+*calibrate clino		+0.50
+*calibrate tape			 0.00
+
+002a	001a	04.18	054.0	-35.0	;head height station at Wisdom Tooth to floor of upper level with stal grill beyond
+003a	002a	03.15	120.0	-09.0	;through stal grill squeeze
+004a	003a	08.45	072.0	-02.0	;to first corner
+004a	011	04.72	133.0	+02.0	;st011 joins S.Lieberman/P.wilkinsons survey
+
+;Surveyors:	S.Lieberman/P.Wilkinson
+;Date:		26/08/07
+;Instruments:	kit4 + tape 1m short
+
+*calibrate compass		+1.00
+*calibrate clino		-3.00
+*calibrate tape		 	+1.00
+
+001	002	05.40	185.0	+60.0
+002	003	03.70	097.0	+05.0
+
+003	003b	05.90	015.0	+35.0
+	
+003	004	03.30	098.0	-02.0
+004	005	10.00	086.0	+07.0
+
+005b	005a	03.80	265.0	-32.0
+005	005a	02.60	254.0	+29.0
+
+005	006	07.30	052.0	-17.0
+006	007	04.30	354.0	+04.0
+007	008	08.10	064.0	+02.0
+008	009	04.00	358.0	+02.0
+009	010	04.20	057.0	+03.0
+010	011	08.80	009.0	+02.0
+
+*end	t10b

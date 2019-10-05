@@ -1,0 +1,32 @@
+;Cave:	Montague West to Cross Passage
+;Surveyors:	Ray Duffy/Angela Hare
+;Date:	08/02/97 pm
+;Instruments:	Red Rose Sunto Compass & Clino, 30m tape
+
+;;*equate	mw6.001	mw3.001
+;;;*equate	mw6.012	md8.120
+;;;*equate	mw6.006c	md8.105
+
+*begin	mw6
+*export 012
+*export 001
+*export 006c
+
+*calibrate compass	+5.17
+
+001	002	00.50	 -	DOWN	;st001=tag mw1.027 right hand passage
+002	003	12.40	004.0	 00.0
+003	004	20.00	345.5	-02.5
+004	005	14.80	331.5	-02.0
+005	006	01.70	 -	DOWN
+006	006a	06.45	273.5	-04.5
+006a	006b	06.20	157.0	-06.0
+006b	006c	06.45	269.0	-33.5	;006c=tag ww.105
+006	007	04.15	350.0	+04.0
+007	008	05.00	352.0	+14.0
+008	009	10.05	022.0	+02.0
+009	010	21.25	330.0	-01.0
+010	011	22.00	000.0	-02.0
+011	012	04.80	030.0	-03.0	;st012=ww.120
+
+*end	mw6

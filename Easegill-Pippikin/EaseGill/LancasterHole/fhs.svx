@@ -1,0 +1,41 @@
+;Cave:		JB's Fork Handle Series 
+;Surveyors:	P.(Beardy) Swire/J.Baker
+;Date:		24/08/08
+;Instruments:	1
+
+;;*equate fhs.022 l1.017	;boot-trapper corner
+
+*begin	fhs
+*export 022
+
+*calibrate compass	+03.0
+*calibrate clino	-01.5
+*calibrate tape		 00.0
+
+
+000	001	03.00	095.0	 00.0 	;000 continues too tight (Billhooks Passage) 	
+001	002	01.50	194.0	 00.0	;002 step up in passage
+002	003	02.30	175.0	-04.0	
+003	004	03.40	128.0	-01.0
+004	005	03.10	198.0	-04.0
+005	006	00.70	150.0	-05.0	
+006	006a	04.00	150.0	 0.00
+006	007	05.60	 -	DOWN	;(For Kendal Pitch)
+007	008	01.50	348.0	 00.0
+008	009	01.90	268.0	-18.0
+009	010	03.00	333.0	-40.0
+010	011	01.70	294.0	-52.0
+011	012	09.80	 -	DOWN	;(Freak Handel Pitch)
+012	013	01.50	264.0	-10.0
+012	012a	04.00	320.0	-60.0
+013	014	03.60	180.0	-28.0
+014	015	01.30	256.0	-30.0
+015	016	06.90	 -	DOWN	;(Toucan Dell Pitch)
+016	017	01.5	150.0	 00.0
+017	018	11.9	 -	DOWN	;(Wonk and Hell Pitch)
+018	019	09.10	148.0	-05.0
+019	020	02.40	115.0	+02.0
+020	021	06.30	155.0	 00.0
+021	022	07.50	065.0	 00.0  	;station 022 = rh corner of ankle grabber at end of Bill Taylors 
+
+*end	fhs

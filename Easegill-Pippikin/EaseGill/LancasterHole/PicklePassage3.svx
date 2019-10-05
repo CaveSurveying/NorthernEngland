@@ -1,0 +1,37 @@
+;*equate PicklePassage3.001 gri03.001
+;*equate PicklePassage3.006 PicklePassage2.005
+
+*begin PicklePassage3
+
+*export 001
+*export 006
+
+*title "Small section of pickle passage - from end of the Grind"
+
+*date 2013.03.03
+
+*team Instruments Tom Clayton 
+*team Notes Emma Wilson
+*team Tape Tom Clayton
+
+*instrument Tom Clayton's Tandem Comp and Clino
+
+*calibrate compass +1.0	; Calibrated on 03/03/2013
+*calibrate clino   +0.5 ; Calibrated on 03/03/2013
+*calibrate tape    0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+002	001	5.53	233	+1	; Station 001 is from origial Grind survey - check with Tom, James for name of file.
+003	002	4.54	272	-2	; 
+004	003	2.38	310	-4	;
+005	004	1.23	329	-5	; 	
+005	006	1.70	124	+4	; Station 006 is station 005 from PicklePassage2
+
+*data passage station left right up down ignoreall
+002	0.5	0.8	0.3	0.1 	; 
+003	0.5	1.0	0.2	0.5 	; lump at corner 
+004	0.1	0.5	0.2	0.4	; 
+005	0.1	0.3	0.2	0.4	; 
+006	0.0 	0.3	0.3	0.5	; 
+
+*end PicklePassage3

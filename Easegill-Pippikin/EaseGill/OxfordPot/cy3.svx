@@ -1,0 +1,75 @@
+;Survey Name:	Oxford Pot - Confusion Cnr
+;Survey Date:	11-09-82
+;Survey Notebook:	EG1 p.68
+;Surveyors:	FA&JM
+
+;*equate cy3.34   cy.039
+;*equate cy3.1	cya.009
+;*equate cy3.33	cy3b.001
+;*equate cy3.33	cy3c.001
+
+*begin cy3
+*export 1
+*export 33
+
+*calibrate compass	+7.17
+
+1	2	14.9	-	DOWN	;oxf.1=UP72 Oxford Pot top of shaft
+2	2a	7	130	0
+2	3	2.9	137	0
+3	4	8.7	7	-2
+4	5	4	357	-3
+5	6	5.8	298	-3
+6	7	4.9	329	-4
+7	8	3.5	32	-3
+8	9	4.3	62	0
+9	10	4.4	359	-4	;pool
+10	11	1.6	-	DOWN
+11	12	2.2	131	0
+12	13	3.6	-	DOWN	;waterfall
+
+;from bottom of waterfall to stal choke and draught at st59
+
+13	51	02.60	192.0	+03.0
+51	52	02.50	154.0	+01.0
+52	53	03.10	128.0	+07.0
+53	53b	03.60	355.0	 00.0	;4m high chamber
+53	54	03.82	092.0	+24.0
+54	55	03.00	145.0	+10.0
+55	56	02.60	150.0	+08.0
+56	57	02.50	128.0	+05.0
+57	58	01.00	359.0	+08.0
+58	59	03.00	112.0	+08.0
+
+13	14	1.9	44	0
+14	15	4	314	-10	;stal
+15	16	2.5	341	-10
+16	17	1.8	300	-3
+17	18	2	47	-8
+18	19	2.7	43	9
+19	20	1.7	290	-10
+20	21	1.8	14	-6
+21	22	3.4	318	-5
+22	23	3.5	25	-5
+23	24	2	272	-8
+24	25	2.5	290	0
+25	26	3.5	315	-5
+26	27	1.9	32	-10
+27	28	1.3	356	0
+28	29	2.8	322	-3
+29	30	2.2	244	-3
+30	31	3	273	0
+31	31c	6	172	16	;up to choke
+31	32	6	342	-10
+32	33	8.9	335	-3
+
+*flags splay ; (Confusion Corner) seem to be splay legs
+33	33f	03.70	275.0	 00.0
+33	33g	07.0	312.0	 00.0	;UP74=joint in roof of Spout Hall bypass tunnel
+33	33h	04.60	082.0	 00.0
+*flags not splay
+
+; the next leg is duplicated cut&paste into cy3i.svx for tie in purposes in County Pot 
+33	34	3.3	338	-33	;oxf.34=Co_PJ53/UP73 Confusion Cnr
+
+*end cy3

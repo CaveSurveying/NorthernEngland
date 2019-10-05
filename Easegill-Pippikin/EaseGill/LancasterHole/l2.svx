@@ -1,0 +1,33 @@
+;Cave:	Fall Pot to Stake Pot
+;Surveyors:	Ray Duffy	Alan Kerr	Paul Wilkinson
+;Date:	L2	29/09/96	afternoon
+;Instruments:	Red Rose Silva Compass & Clino, RD's 50m tape
+
+;*EQUATE	L2.001	CW.031
+;;*equate	l2.001	l1.026
+;;*equate	l2.012	md7b.001
+;;*equate	l2.013	l3.001
+
+*begin	l2
+*export 001
+*export 013
+*export 012
+
+*calibrate compass	+5.27
+
+*fix	010	66561.07	80778.04	250.24
+
+001	002	01.60	 -	UP	;001=UP524 , Fall Pot
+002	003	19.50	070.0	+35.0
+003	004	06.80	049.5	+19.0
+004	005	22.65	088.0	+02.3
+005	006	07.15	032.0	+02.5
+006	007	28.70	127.5	-02.5
+007	008	18.20	158.5	+01.5
+008	009	27.60	088.0	+04.0
+009	010	13.35	155.5	-02.2
+010	011	24.10	085.0	 00.0
+011	012	07.10	150.0	-11.5
+012	013	16.05	102.5	+02.2	;013=Black carbide mark on opposite side of stake pot
+
+*end	l2

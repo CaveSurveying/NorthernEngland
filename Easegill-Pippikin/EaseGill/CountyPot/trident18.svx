@@ -1,0 +1,45 @@
+;Cave:	County Pot - Trident - Boulder Chamber side passage
+;Surveyors:	A.Whitney/S.Lieberman
+;Date:	12/11/02
+;Instruments:	2
+
+;*equate	trident18.001	trident14.006
+;*equate	trident18.012	trident15.005a
+;*equate trident18.017	trident28b.001
+;*equate	trident18.020	trident13.015
+;*equate	trident18.020	trident28a.001
+
+
+*begin	trident18
+*export 001
+*export 012
+*export 020
+*export 017
+
+*calibrate compass	+4.00
+*calibrate clino	00.0
+*calibrate	tape	+2.00
+
+001	002	06.08	083.0	+05.0	;st001 is scratch on top of rock in Boulder Chamber
+002	003	07.18	137.0	+03.0	;st003 is at small streamway 3 to 12 are downstream
+003	004	03.30	 -	DOWN
+004	005	03.43	275.0	-17.0
+005	006	04.02	255.0	-27.0
+006	007	04.04	292.0	-26.0
+007	008	02.78	217.0	-34.0
+008	009	04.07	311.0	-21.0
+009	010	04.50	254.0	-08.0	;between 9 & 10 is bedding then cross-rift
+010	011	04.00	288.0	-35.0
+011	012	04.83	 -	DOWN	;st012 is bottom of chimney to side passage from bottom of Paper Floor pitch(adjusted to head height at bottom of pitch
+
+;upstream from st003
+003	013	05.37	120.0	 00.0
+013	014	04.12	073.0	+02.0	;st014 has inlet on left, too tight
+014	015	04.70	167.0	+03.0
+015	016	04.87	110.0	+10.0	;st016 is squeeze through tight slot to passage above
+016	017	03.09	 -	UP	;st017 to 018 is oxbow on right joins back at018 with side passage near 018 too tight
+017	018	04.69	225.0	+08.0
+018	019	06.18	181.0	-08.0
+019	020	03.79	 -	DOWN	;st020=tag11 in Paper Floor Passage
+
+*end	trident18

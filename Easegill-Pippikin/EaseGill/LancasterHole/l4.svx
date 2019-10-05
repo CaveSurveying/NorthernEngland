@@ -1,0 +1,62 @@
+;Cave:	Lanc.Hole from Oxbow corner to Snail Cavern
+;Surveyors:	Ray Duffy & Hugh St.Lawrence
+;Date:	21/09/96pm
+;Instruments:	Club Silva Compass & Clino RD's 50m tape
+
+;;*equate	l4.014	dh.000
+;;*equate	l4.005	l3.031
+;;*equate	l4.030	l5.021
+;;*equate	l4.028a	md6.130
+;;*equate	l4.001	md7a.081
+;*EQUATE	L4.025	maw1.001
+;;*equate	l4.005a	md7c.011g
+;;*equate	l4.017	l4a.011
+;;*equate	l4.017	l4b.001	;joined to the Minarets
+
+*begin	l4
+*export 025
+*export 001
+*export 014
+*export 005
+*export 017
+*export 005a
+*export 030
+*export 028a
+
+*calibrate compass	+5.27
+
+*fix	028	67161.09	80802.87	264.69
+
+001	002	10.25	198.0	+03.3	;001=UP157[upstream end of Oxbow top boulder] TAGGED
+002	003	04.30	270.0	+07.0
+003	004	19.85	304.5	-04.0	;004 TAGGED OXSN 004
+004	005	29.55	298.5	+18.0	;005 TAGGED 0XSN 005
+005	005a	05.20	041.5	-24.5	;005A=UP 156
+005	006	13.55	139.0	+09.0
+006	007	33.78	142.0	+03.5
+007	008	01.85	 -	DOWN
+008	009	06.30	119.0	+07.5
+009	010	05.00	055.5	-00.5
+010	011	07.60	034.5	+02.0
+011	012	01.80	 -	UP
+012	013	10.75	077.5	+20.0
+013	014	02.60	115.5	-13.0	;014=UP 160 [Diamond Hall]
+014	015	16.75	050.5	+02.3
+015	016	21.40	082.0	+12.5
+016	017	17.65	082.5	-02.3
+017	018	01.00	 -	DOWN
+018	019	07.53	057.5	-08.8
+019	020	06.70	002.5	-15.0
+020	021	04.63	063.5	+02.0
+021	022	02.90	025.0	+37.5
+022	023	32.70	063.5	+04.5
+023	024	39.65	095.0	+00.5
+024	025	24.80	139.2	+04.0	;025 TAGGED [Entrancae to Mancunian Way]
+025	026	16.63	113.0	+03.0
+026	027	19.90	041.2	-01.6
+027	028	23.75	045.5	-06.7
+028	029	38.50	124.0	+06.5
+028	028a	16.75	118.5	-15.7	;Between 028A=UP 69 climb down to streamway from Snail Cavern
+029	030	11.60	078.5	-27.0	;030=SOX 021
+
+*end	l4

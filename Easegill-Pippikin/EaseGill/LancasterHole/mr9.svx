@@ -1,0 +1,21 @@
+;Cave:	Lancaster Hole - Magic Roundabout - Downstream above final Pitch
+;Surveyors:	N.Pacey/P.Swire
+;Date:	16/07/02
+;Instruments:	2
+
+;*equate	mr9.007	mr2.034
+
+*begin	mr9
+*export 007
+
+*calibrate compass	+4.00
+
+000	001	06.50	 -	UP
+002	001	01.70	256.0	+01.0	;chimney between these stations
+003	002	04.40	327.0	 00.0	;st003 has tight shaft down rift 6m
+004	003	07.00	332.0	-02.0	;st004 is stal corner
+005	004	02.10	256.0	+02.0	;st005 has pothole in floor
+006	005	03.70	270.0	-03.0
+007	006	04.00	321.0	+02.0	;st007 is top of new pitch head
+
+*end	mr9

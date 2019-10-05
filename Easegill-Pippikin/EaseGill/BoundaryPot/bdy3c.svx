@@ -1,0 +1,31 @@
+;Cave:		Boundary Pot - downstream from ladder and crossovers
+;Surveyors:	S.Lieberman/R.Duffy/P.Wilkinson
+;Date:		29/07/07
+;Instruments:	PAG + disto
+
+;*equate	bdy3c.010 bdy3.015 ;tag in main passage
+
+*begin	bdy3c
+*export 010
+
+*calibrate compass		+3.00
+*calibrate clino		+0.50
+*calibrate tape		 0.00	
+
+002	001	01.87	-	DOWN	;st001 is top of very large cobble in main crossover passage
+002	003	04.02	003.0	-37.0
+003	004	01.18	 -	DOWN
+004	005	03.99	013.0	+18.0	;st005 is in downstream ladder streamway
+*flags duplicate ; (Boundary Pot) seems to duplicate 015-022 in bdy3.svx
+005	006	03.83	259.0	-48.0
+007	006	05.27	081.0	+11.0	;st007 is at junction, left to Fusion, right down 2m climb
+007	008	02.62	318.0	-39.0
+009	008	07.19	101.0	+13.0
+009	010	03.22	217.0	+18.0	;st010=tag in Fusion Chamber
+*flags not duplicate
+
+008a	008	01.46	275.0	-24.0	;st008a is start of right hand passage at bottom of climb down
+008b	008a	01.01	191.0	-33.0
+008c	008b	03.43	258.0	-13.0	;cobble choke on right possible to connect to wet passage below ladder at st006-ish
+
+*end	bdy3c

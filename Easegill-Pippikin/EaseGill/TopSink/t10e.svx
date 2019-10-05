@@ -1,0 +1,37 @@
+;Cave:		Top Sink - Danish Passage
+;Surveyors:	Paul(Beardy)Swire/Helen Blythe
+;Date:		01/06/08
+;Instruments:	kit2+tape 1m short
+
+;*equate t10e.019 t10d.13 ;cable tie
+
+*begin	t10e
+*export 019
+
+*calibrate compass	+3.00
+*calibrate clino	 0.00
+*calibrate tape		+1.00
+
+*fix 019 67925.89 81083.44 319.60 ;st019=cable at start of Danish Passage
+
+001	00x	06.00	095.0	+31.0	;st001 is head height & 00x is choked with sand
+001	002	07.06	277.0	-09.0	;st 222deg from st001 is Q, P is 028deg both 5m up wall of chamber both continue
+002	003	03.37	346.0	-07.0
+003	004	02.73	307.0	 00.0
+004	005	03.33	349.0	-02.0
+005	006	02.11	307.0	-06.0
+006	007	03.80	215.0	-12.0
+007	008	04.76	298.0	-04.0
+008	009	02.89	016.0	+03.0
+009	010	02.44	288.0	 00.0
+010	011	04.13	264.0	-13.0
+011	012	03.68	359.0	+01.0
+012	013	05.97	275.0	-03.0	;between st. is helectites
+013	014	03.09	300.0	 00.0
+014	015	03.15	341.0	-06.0
+015	016	06.92	271.0	-02.0
+016	017	03.14	355.0	+03.0
+017	018	05.22	058.0	-20.0
+018	019	01.98	288.0	-04.0	;st019=cable at start
+
+*end	t10e

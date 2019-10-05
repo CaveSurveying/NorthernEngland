@@ -1,0 +1,77 @@
+;Cave:	Top Sink - repeat of entrance to Walruss Pitch
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:	01/06/06
+;Instruments:	PAG + disto
+
+;;;;;;;;;*equate	T01c.001	T01a.001 ;tag on scaffold	;not needed
+;;*equate T01c.001 sf1a.024
+;*equate	t01c.014 t01d.001 ;st001 is junction
+;*equate	t01c.050 t01bi.001 ;bottom of Walrus where rope lands
+;;;;;;;;;*equate	T01c.050 T01b.001
+;;*equate	T01c.001	sf1.007b
+
+*begin	t01c
+*export 050
+*export 001
+*export 014
+
+*calibrate compass		+3.00
+*calibrate clino		-0.50
+*calibrate tape		  	 0.00
+
+*entrance 001
+
+*fix 001 68037.63 81111.85 343.09
+
+001	002	02.95	 -	DOWN	;st001=tag on scaffold
+003	002	03.32	148.0	+35.0	;cobbles in floor to st014
+003	004	04.07	324.0	+00.5
+004	005	02.10	287.0	-06.0
+005	006	03.58	315.0	-05.0	;st006 just before large slab in roof
+006	007	02.71	002.0	-04.0
+007	008	05.88	313.0	+04.0	;st008 is on left bend leaving chamber (5m right from here)
+008	009	06.43	259.0	+00.5
+009	010	03.63	242.0	-05.0	;st010 is just d.stream side of red stal
+010	011	07.33	306.0	-01.0
+011	012	04.67	283.5	-01.0
+012	013	03.96	312.0	 00.0
+013	014	02.63	284.0	 00.0	;st014 is middle of junction at head height
+;junction with upstream section to left unre-surveyed
+014	015	02.28	355.0	-09.0	;floor clean washed to pitch
+015	016	01.51	273.0	+05.0	;st016 has small shelf on left head height
+016	017	01.86	318.0	-03.0
+017	018	02.13	251.0	 00.0
+018	019	01.86	339.0	+00.5
+019	020	01.85	304.5	 00.0
+020	021	01.11	001.0	+03.0
+021	022	01.81	034.0	+00.5
+022	023	02.68	351.0	+02.0	;st023 has shelf on right at head height to st024
+023	024	02.06	01.80	 00.0
+024	025	02.50	044.0	-05.0
+025	026	01.10	347.0	-04.5	;st026 has ledge on left to st027
+026	027	03.93	280.0	+00.5	;st027 has bedding at roof height to st028
+027	028	01.15	353.0	+03.0
+028	029	01.17	325.0	 00.0
+029	030	02.10	015.0	+01.0	;passage steepens slightly to pitch
+030	031	02.58	304.0	-01.0
+031	032	02.53	332.5	-03.0
+032	033	01.17	349.0	-02.0
+033	034	02.26	026.0	-01.0
+034	035	01.30	352.0	+01.0
+035	036	03.66	341.0	-04.0
+036	037	01.78	008.0	+10.0
+037	038	01.22	077.0	-01.0
+038	039	01.22	077.0	-01.0
+039	040	01.18	051.0	 00.0
+040	041	01.85	097.0	-09.0
+041	042	04.58	066.0	-16.0	;st042 is rock projection knee level at small alcove on corner
+042	043	01.36	 -	UP	;st043 is head height at alcove
+043	044	01.79	145.0	-10.0	;st043 to 046 is down small twisting cascades
+044	045	01.30	176.0	-15.0
+045	046	02.14	154.0	-24.0
+046	047	00.71	 -	UP
+047	048	03.58	015.0	-10.0	;st048 is on wall of fin of rock in shaft in line with traverse rope
+049	048	01.25	337.0	-31.0	;st049 is knot on Y hang
+049	050	19.66	 -	DOWN	;base of pitch measuring from Y hang
+
+*end	t01c

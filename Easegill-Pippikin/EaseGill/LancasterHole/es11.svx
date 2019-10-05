@@ -1,0 +1,17 @@
+;Cave:	Lanc. Hole - Earby Series - Mortuary Passage (cont.)
+;Surveyors:	Sam Lieberman/Cath Thompson/Andy Pringle
+;Date:	24/11/01
+;Instruments:	3
+
+;*equate	es11.004	es10.040
+
+*begin	es11
+*export 004
+
+*calibrate compass	+3.50
+
+002	001	01.70	106.0	+10.0
+003	002	00.80	053.0	-02.0
+004	003	00.55	101.0	+20.0	;st004 is tag on rubber band around flake at archway
+
+*end	es11

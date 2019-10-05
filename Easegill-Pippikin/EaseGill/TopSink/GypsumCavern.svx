@@ -1,0 +1,20 @@
+;Contains all Gypsum Cavern files
+
+*begin GypsumCavern
+
+*export gyc3.016
+*export gyc3.119
+*export gyc1.001
+*equate gyc1.012 gyc4.094 ; from gyc1.svx
+*equate gyc1.016 gyc2.000 ; from gyc1.svx
+*equate gyc1.020 gyc4.081 ; from gyc1.svx
+*equate gyc1.024 gyc3.001 ; from gyc3.svx
+*equate gyc1.024 gyc5.001 ; from gyc1.svx
+
+*include	gyc1
+*include	gyc2
+*include	gyc3
+*include	gyc4
+*include	gyc5
+
+*end GypsumCavern

@@ -1,0 +1,36 @@
+;Cave:	County Pot - form Cotton chamber to Wotacunt Passage
+;Surveyors:	S.lieberman/B.Lawson
+;Date:	17/10/04
+;Instruments:	2
+
+;;*equate cy16b.017	cy16a.007d
+;;*equate cy16b.006	cy16c.001 ;st006 is X on wall over pit	
+
+*begin	cy16b
+*export 006
+*export 017
+
+*calibrate compass	+5.00
+*calibrate clino	-1.00
+*calibrate tape		+9.00
+
+002	001	10.90	298.0	+64.0	;st001 is in Wotacunt chamber
+003	002	11.66	305.0	-04.0
+004	003	12.97	309.0	-35.0
+005	004	15.60	310.0	+15.0
+005	006	17.86	129.0	+05.0
+006	007	10.47	 -	UP	;st006 is X on wall over pit
+007	007a	09.46	203.0	 00.0	;st007a=tag
+007	008	27.44	128.0	+08.0
+009	008	13.16	335.0	+12.0	;st009 is far wall above Cotton Chamber
+
+007	010	15.96	127.0	+01.0	;st010 is stood over hole
+010	011	13.51	 -	DOWN
+012	011	14.27	314.0	-14.0
+012	013	12.36	 -	DOWN
+014	013	13.54	327.0	+19.0
+015	014	11.42	359.0	-37.0
+016	015	12.46	350.0	+05.0
+016	017	10.84	 -	DOWN
+
+*end	cy16b

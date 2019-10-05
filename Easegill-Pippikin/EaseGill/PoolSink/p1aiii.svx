@@ -1,0 +1,30 @@
+;Cave:	Pool Sink - Craven extension
+;Surveyors:	S.Lieberman/A/Whitney
+;Date:	22/06/06
+;Instruments:	PAG + disto
+
+;*equate	p1aiii.001 p1a.038 ;eyehole at start of traverse to second pitch
+
+*begin	p1aiii
+*export 001
+
+*calibrate compass		+3.00
+*calibrate clino		 -0.50
+*calibrate tape		  0.00
+
+001	002	09.44	190.0	+48.0	;st001 is head height at eyehole at sec.pitch
+002	003	02.90	177.0	+04.0	;st002 is entrance to crawl
+004	003	05.61	088.0	+05.0	;st003 has passsage to tight on left
+005	004	06.85	114.0	+05.0	;st005 has too tight passage to right
+006	005	04.04	135.0	+04.0
+007	006	02.03	095.0	+01.0	;passage too tight on right betweem stations
+008	007	06.35	148.0	+01.0	;st007 has choked bedding to left
+009	008	03.64	091.0	+10.0	;st008 has passage too tight on right
+010	009	02.16	140.0	+01.0	;st009 has passage too tight on left in trench
+011	010	01.78	036.0	 00.0
+011	012	03.29	333.0	-03.0	;st012 is ladder pitch head
+012	012a	07.82	 -	DOWN
+012	013	07.82	333.0	-43.0
+013	014	13.83	 -	DOWN	;st014 is foot of aven
+
+*end	p1aiii

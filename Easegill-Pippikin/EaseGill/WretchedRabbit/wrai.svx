@@ -1,0 +1,23 @@
+;Cave:	Wretched Rabbit - Tree Root Inlet
+;Surveyors:	S.Lieberman/R.Duffy
+;Date:	16/01/05
+;Instruments:	PAG
+
+;*equate wrai.008 wra.006 ;white mark head height at bottom of first drop, right side facing out
+
+*begin	wrai
+*export 008
+
+*calibrate compass	+3.00
+*calibrate clino	-0.50
+*calibrate tape		+1.00
+
+001	002	04.16	265.0	-14.0	;st001 is head height sitting at end of right hand fork facing down slope
+002	003	04.29	326.0	-17.0	;st002 is left wall at junction
+003	004	02.00	020.0	-04.0	;st004 has hole to right down to thin rift(explore-dig?)
+004	005	05.44	306.0	-31.0
+005	006	02.30	350.0	-31.0	;st005 to 007 is clean washed limestone prior was cobbled-gravelled and/or bouldered
+006	007	05.53	302.0	-37.0	;st007 is in small chamber at bottom of second drop
+007	008	04.60	203.0	+40.0
+
+*end	wrai

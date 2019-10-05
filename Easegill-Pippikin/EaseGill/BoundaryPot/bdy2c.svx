@@ -1,0 +1,18 @@
+;Cave:	Boundary Pot - Barstewards Crawl ent. to base of climbs
+;Surveyors:	R.Duffy/S.Lieberman/J.Baker
+;Date:	18/07/06
+;Instruments:	PAG +disto
+
+;*equate	bdy2c.001 bdy2a.005
+
+*begin	bdy2c
+*export 001
+
+*calibrate compass		+3.00
+*calibrate clino		-0.50
+*calibrate tape		 0.00
+
+001	002	04.19	071.0	+48.0	;st001=tag
+002	003	04.70	140.0	+04.0	;st003 is end of bedding not entered, too tight
+
+*end	bdy2c

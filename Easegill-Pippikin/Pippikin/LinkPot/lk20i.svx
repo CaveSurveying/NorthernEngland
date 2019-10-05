@@ -1,0 +1,56 @@
+;Cave:		Link Pot - Tiger's Inlet Upstream from the Ramp to Tigers Inlet Bolt (resurvey)
+;Surveyors:	R,Duffy/S.Lieberman
+;Date:		19/03/09
+;Instruments:	MKO + disto
+
+;*equate	lk20i.001 lk20.013 ;st001=cable tie on small stal at junction
+;*equate	lk20i.007 lk20.008 ;cable tie on small stal at oxbow now removed
+;*equate lk20i.014 lk19i.012 ;st014=tag at junction
+;*equate lk20i.014 lk20.001 ;st014=tag at junction
+;*equate	lk20i.014 lk22.025 ;st025=tag at gloopy junctions
+;*equate lk20i.027 lk02i.014b ;bolt at Tiger's Inlet
+;*equate	lk20i.004 lk02i.007a ;pebble on white mark
+
+*begin	lk20i
+*export 014
+*export 001
+*export 007
+*export 027
+*export 004
+
+*calibrate compass	 0.00
+*calibrate clino	 0.00
+*calibrate tape		 0.00
+
+*flags duplicate ; (Tiger's inlet) explicitly stated resurvey duplicates lk19 and 001-013 in lk20
+
+002	001	03.38	288.0	-12.0	;st001=cable tie on small stal at junction
+002	003	06.74	086.0	+11.0
+003	004	02.36	108.0	-04.0	;st004 is pebble on white patch located from Lk2i
+005	004	02.11	284.0	-28.0	;st005 is start of crawl and oxbow
+005	006	04.46	068.0	-02.0
+007	006	02.38	220.0	-22.0	;st 007 is small straw on left wall was a cable tie previously, end of crawl and oxbow
+008	007	03.76	286.0	 00.0
+008	009	02.14	066.0	+01.0
+009	010	02.70	039.0	+16.0	;st010 is lump on shelf on left wall above head height
+010	011	04.54	101.0	-09.0
+011	012	03.21	128.0	+11.0	;st011 is small stal first of row of stalactites on right wall
+013	012	04.50	227.0	+04.0
+013	014	03.32	094.0	-01.0	;st014=tag at gloopy junction
+014	015	09.27	042.0	+02.0
+015	016	05.00	039.0	+07.0
+016	017	02.86	305.0	+07.0
+017	018	02.23	006.0	+01.0
+018	019	00.30	 -	DOWN
+019	020	05.36	051.0	-02.0
+020	021	03.42	036.0	-10.0	;st021 is station scratched on underside of lip of stream passage
+022	021	05.51	265.0	-16.0
+022	023	01.80	249.0	+57.0	;start of alternate route up to high level
+*flags not duplicate
+024	023	03.16	283.0	-15.0
+024	025	05.23	048.0	+25.0
+026	025	03.92	255.0	-41.0
+026	027	02.71	116.0	-15.0	;st027=old chain bolt at Tigers Inlet
+
+
+*end	lk20i

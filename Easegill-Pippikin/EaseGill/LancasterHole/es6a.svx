@@ -1,0 +1,27 @@
+;Cave:	Lancaster Hole - Earby Series - Rabbit Warren continuation
+;Surveyors:	R.Duffy/A.Kerr/A.Whitney
+;Date:	03/06/02
+;Instruments:	PAG
+
+;*equate	es6a.001	es.008
+;*equate	es6a.008	es6.009
+
+*begin	es6a
+*export 001
+*export 008
+
+*calibrate compass	+3.00
+
+001	002	01.34	048.0	-25.0	;st001=drop down to lower passage on bend near start of Earby Series
+002	003	02.90	 -	DOWN	;st003 has hole to streamway below, too tight
+003	004	04.02	003.0	-23.0
+004	005	02.91	056.0	-34.0
+005	006	01.00	 -	DOWN	;st006 is head height after drop through hole
+
+006	006a	02.97	070.0	-17.0	;passage away from water
+006a	006b	02.40	342.0	-10.0	;st006b is in small passage near choked end
+
+006	007	01.82	264.0	-05.0
+007	008	05.23	178.0	+01.0	;st008 is Tjunction where water enters from right
+
+*end	es6a

@@ -1,0 +1,33 @@
+;Cave:		new Cave (Beyond the pitch, upstream)
+;Surveyors:	S.Lieberman(Everything), Toby Speight (Psychological support)
+;Date:		13/05/2012
+;Instruments:	PAG + Leica DXT disto
+
+*begin	new03
+
+*export 001
+
+*date 2012.05.13
+
+*calibrate compass	+6.00
+*calibrate clino	 0.00
+*calibrate tape		 0.00
+
+002	001	05.81	333.0	-35.0	;St001 is station at base of pitch from previous survey
+002	003	03.40	164.0	+17.0
+003	004	00.70	-	UP
+004	005	05.29	161.0	+06.0
+005	006	00.62	-	DOWN
+006	007	03.14	148.0	+05.0	;St007 is tight mud choked inlet
+
+*end	new03
+
+;St	L	R	U	D	Comments
+;001	1.2	0.8	7.0	1.0	Station at base of pitch from previous survey on 10/07/2011
+;002	0.5	0.5	2.1	2.3	sitting above 2m climb, inlet and pit to the left
+;003	0.3	0.5	1.3	1.2	Top of stal on sloping slab, shelf and tight inlet to left in roof
+;					Inscription on left wall nearby "RRCPC 1969 - 1972"
+;004	0.3	0.3	0.6	1.9	Raise station above stal
+;005	0.5	0.0	1.4	1.2	Right wall where inlet joins the terminal chamber
+;006	0.6	0.1	2.0	0.6	Lower station to see into inlet
+;007	0.2	0.2	1.0	0.1	Near end of inlet, bends right, too tight and chokes.

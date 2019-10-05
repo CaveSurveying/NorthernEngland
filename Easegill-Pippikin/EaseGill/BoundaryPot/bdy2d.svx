@@ -1,0 +1,22 @@
+;Cave:		Boundary Pot - right side passage loop below climbs
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:		10/06/07
+;Instruments:	SAP + disto
+
+;*equate bdy2d.007 bdy2b.004 ;st004 is middle of main passage from loop
+
+*begin	bdy2d
+*export 007
+
+*calibrate compass		0.00
+*calibrate clino		0.00
+*calibrate tape		0.00
+
+001	002	01.47	020.0	+10.0	;from hole in roof of passage
+002	003	00.99	046.0	-21.0
+003	004	02.86	355.0	-24.0
+004	005	02.57	311.0	 00.0	;st005 is right wall at start of left hand passage, passage to right 2m to right hand bend
+005	006	01.44	317.0	+02.0
+006	007	02.59	272.0	-01.0
+
+*end	bdy2d

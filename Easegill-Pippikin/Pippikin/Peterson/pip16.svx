@@ -1,0 +1,26 @@
+;Cave:	Pipikin-Aven off Hall of the Mountain King
+;Surveyors:	R.Duffy/H.St.Lawrence
+;Date:	21/03/99
+;Instruments:	PAG
+
+;*equate	pip16.001	pip15.012
+;*equate	pip16.009	pip22.009c
+
+*begin	pip16
+*export 001
+*export 009
+
+*calibrate compass	+4.00
+
+;*fix	001	
+
+001	002	02.50	+053.0	+15.0	;st001=tag
+002	003	03.60	 -	UP
+003	004	05.00	046.0	+45.0
+004	005	02.00	017.0	+02.0
+005	006	01.30	098.0	+05.0
+006	007	07.90	152.0	+05.5
+007	008	03.45	185.0	+38.0
+008	009	03.30	117.0	+46.0	;st009 is sharp bend in upward tight rift(dig?)
+
+*end	pip16

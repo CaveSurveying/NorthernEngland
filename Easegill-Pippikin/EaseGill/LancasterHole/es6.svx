@@ -1,0 +1,33 @@
+;Cave:	Lancaster Hole-Earby Series-Below Boulder between Stake and Thirsty Junc.
+;Surveyors:	Ray Duffy/Tim Eastwood/Hugh St.Lawrence
+;Date:	28/11/98
+;Instruments:	PAG
+
+;*equate	es6.000	es3.011
+;*equate	es6.009	es6a.008
+
+*begin	es6
+*export 009
+*export 000
+
+*calibrate compass	+4.00
+
+;*fix	001	
+
+000	001	03.40	 -	DOWN	;st001 is in small alcove of dry passage near climb down
+001	002	01.00	328.0	-07.0
+002	002a	08.10	223.0	+15.0	;st002a is small mud filled chamber in abandoned inlet passage(digable)
+002	003	01.30	011.0	-05.0	;old short rope hangs down between 2&3
+003	004	02.30	274.0	+06.0
+004	005	04.50	300.0	-05.0
+005	006	04.20	319.0	-15.0
+006	007	04.00	049.0	-01.0
+007	008	03.50	076.0	-11.0
+008	009	01.90	112.0	-03.0	;between 8&9 water enters from inlet but too small
+*flags duplicate ; (Earby Series - Stake Pot) seems to duplicate 006-008 (006a,b) in es6a.svx
+009	010	05.00	003.0	-03.0	;possible to climb down to stream if thin at st010
+010	011	04.20	078.0	-12.0
+011	012	03.00	345.0	-10.0	;beyond st012 passage closes down v.small but conts.
+*flags not duplicate
+
+*end	es6

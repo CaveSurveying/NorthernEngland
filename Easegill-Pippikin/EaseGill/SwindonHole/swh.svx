@@ -1,0 +1,125 @@
+;Cave:	Swindon Hole - entrance to tag - up to Corner Sink end chamber
+;Surveyors:	R.Duffy/A.Whitney
+;Date:	17/04/03
+;Instruments:	PAG
+
+;;*equate	swh.031	cns1.015
+;;*equate	swh.001	sf3.013b
+;;*equate	swh.026	trident25b.010
+
+
+*begin	swh
+*export 001
+*export 026
+*export 031
+
+*entrance 001
+
+*calibrate compass	+5.00
+*calibrate clino	+0.05
+*calibrate tape	+1.00
+
+*fix	001	67570.13 80603.81 314.30 ;ev.sf3.013b
+
+001	002	03.05	345.0	+16.0	;st001=tag
+002	003	02.68	 -	DOWN
+003	004	02.39	272.0	+01.0
+004	005	02.36	337.0	-05.0
+005	006	02.80	261.0	-12.0
+006	007	03.95	032.0	-15.0	;tight upward stemple rift enters on left climb up nearer entrance
+007	008	02.65	 -	DOWN	;drop into bedding crawl
+008	009	03.13	026.0	-01.0	;water enters on right through low bedding
+
+;Surveyors:	S.Lieberman Instruments
+;		R.Duffy	 tape, notes, pictures
+;Date:	19/04/03
+;Instruments:	PAG
+
+*calibrate compass	+5.00
+*calibrate clino	+0.05
+*calibrate tape	+2.00
+
+009	009a	04.80	083.0	+01.0	;water enters stright ahead passage trends right
+
+;Surveyors:	R.Duffy/A.Whitney
+;Date:	17/04/03
+;Instruments:	PAG
+
+*calibrate compass	+5.00
+*calibrate clino	+0.05
+*calibrate tape	+1.00
+
+009	010	02.93	328.0	-02.0
+010	011	05.61	358.0	-01.0
+011	012	04.77	333.0	-03.0
+012	013	07.50	005.0	 00.0	;st008-013 is flat out crawling in low cobbled passage
+013	014	04.82	090.0	+01.0	;more like streamway
+014	015	04.02	008.0	 00.0
+015	016	04.10	058.0	-08.0
+016	017	03.16	338.0	-05.0
+017	018	04.69	034.0	+01.0
+018	019	01.94	115.0	 00.0	;st019=tag on Trident connection, streamway enters on right(dry on day)
+
+;Surveyors:	S.Lieberman Instruments
+;		R.Duffy	 tape, notes, pictures
+;Date:	19/04/03
+;Instruments:	PAG
+
+*calibrate compass	+5.00
+*calibrate clino	+0.05
+*calibrate tape	+2.00
+
+019h	019i	03.00	105.0	+01.0	;st019i is drip on roof reflecting daylight
+019h	019g	04.84	 -	DOWN	;chimney
+019g	019f	07.95	325.0	-04.0	;boulder slope to right
+019f	019e	04.15	224.0	-11.0
+;019f	019e	04.15	324.0	-11.0
+019e	019d	03.05	 -	DOWN	;st019d=st015 trident25b
+019d	019c	04.40	337.5	-05.0
+019b	019c	02.97	219.0	-26.0
+019a	019e	05.83	069.0	+04.0
+019a	019	06.65	354.0	+01.0	;st019=tag
+
+;Surveyors:	R.Duffy/A.Whitney
+;Date:	17/04/03
+;Instruments:	PAG
+
+*calibrate compass	+5.00
+*calibrate clino	+0.05
+*calibrate tape	+1.00
+
+
+019	020	03.30	141.0	+01.0
+020	021	03.16	072.0	-08.0	;passage enters on right(dry on day)
+021	022	01.50	 -	UP	;st22=tag
+021	023	05.53	350.0	-07.0	;st023 is probably where passage sumps in normal weather,small passage enters right between stats.
+023	024	04.58	021.0	+13.0	;st024 is floor of complex bedding chamber area
+
+;Surveyors:	S.Lieberman Instruments
+;		R.Duffy	 tape, notes, pictures
+;Date:	19/04/03
+;Instruments:	PAG
+
+*calibrate compass	+5.00
+*calibrate clino	+0.05
+*calibrate tape	+2.00
+
+024	024a	10.87	078.0	+06.5	;st024a is small inlet at end of side passage with 3m dogleg right
+
+;Surveyors:	R.Duffy/A.Whitney
+;Date:	17/04/03
+;Instruments:	PAG
+
+*calibrate compass	+5.00
+*calibrate clino	+0.05
+*calibrate tape	+1.00
+
+024	025	16.46	295.0	-03.0
+025	026	07.37	333.0	-01.0	;st026=tag  in roof at Corner Sink inlet in wide cobbled bedding passage
+026	027	05.76	013.0	-01.0
+027	028	02.74	057.0	-06.0	;st028 is edge of pool in bedrock
+028	029	07.00	052.0	+03.0	;st029 is in chamber at end of Corner Sink
+029	030	01.40	 -	UP	;st030 is knobbly cncretion on wall near floor
+030	031	02.42	174.0	+38.0	;st031=tag on small stal in chamber next to climb up into bypass passage
+
+*end	swh

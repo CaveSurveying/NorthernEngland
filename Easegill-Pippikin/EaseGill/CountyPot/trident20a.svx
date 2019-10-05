@@ -1,0 +1,20 @@
+;Cave:	County Pot - Trident - Aven off to right facing downstream of Final Chamber
+;Surveyors:	R.Duffy/S.Lieberman/H.St.Lawrence
+;Date:	13/05/03
+;Instruments:	4
+
+;*equate	trident20a.001 trident20.002ci ;tag into aven on right facing downstream
+
+*begin	trident20a
+*export 001
+
+*calibrate compass	+4.00
+*calibrate clino	0.00
+*calibrate tape		+3.00
+
+001	002	06.33	078.0	+20.0	;st001=tag
+002	003	08.67	 -	UP
+003	004	06.35	315.0	+26.0	;through awkward entrance to next chamber
+004	005	08.50	 -	UP	;st005 top of next aven too tight beyond
+
+*end	trident20a

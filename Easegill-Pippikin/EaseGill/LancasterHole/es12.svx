@@ -1,0 +1,18 @@
+;Cave:	Lanc.Hole - Earby Series - Birthday Junc. to Archway Aven
+;Surveyors:	A.Hall/T.Eastwood/L,Rice
+;Date:	24/11/01
+;Instruments:	PAG
+
+;*equate	es12.003	es10.001
+
+*begin	es12
+*export 003
+
+*calibrate compass	+5.00
+
+000	000a	02.00	072.0	 00.0	;sighting onto 10m aven with inlet above and pool below
+000	001	06.80	151.0	+10.0	;st000 is base of jammed boulder at +8m aven bolts in place, st001 is just before drop after traverse above stream, passage on right closes down
+001	002	06.70	166.0	-20.5	;st002 has bedding underneath with straws and is just after higher oxbow to above pitch
+002	003	01.75	056.5	-31.0	;st003 is bolt
+
+*end	es12

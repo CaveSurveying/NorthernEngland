@@ -1,0 +1,67 @@
+;Cave:	County Pot - continuing along toward Gallery extensions from near Razor Pass.
+;Surveyors:	R.Duffy/S.Lieberman/D.Thompson
+;Date:	22/08/04
+;Instruments:	PAG
+
+;;*equate	cy10c.001 cy10b.009	;Dismal Bypass
+;;*equate cy10c.041 cy12.017 ;Platypus junc. tag
+;;*equate cy10c.008 cy10ci.001
+;;*equate cy10c.006 cy10d.001 ;tag on boulder beside muddy slab to Dis. Byp.
+;;*equate cy10c.021 cy10cii.001 ;Guano jrcc marked on wall by tag
+
+*begin	cy10c
+*export 001
+*export 008
+*export 021
+*export 006
+*export 041
+
+*calibrate compass	+3.00
+*calibrate clino	+0.50
+*calibrate tape		+1.00
+
+
+001	002	04.18	286.0	+01.0	;st001 is front left end of block on floor edge of pool
+002	003	06.10	268.0	-03.0
+003	004	02.35	285.0	+01.0
+004	005	02.19	 -	UP	;up over boulders into bouldery chamber
+005	006	04.78	291.0	-16.0	;st006=tag in chamber near bottom of steep muddy slab to Bypass, passage straight on needs surveying
+006	007	05.03	285.0	+13.0
+007	008	03.10	 -	UP	;st008 is head height at top of climb into chamber above, chamber needs surveying
+008	009	04.84	312.0	+12.0
+009	010	03.65	035.0	+09.0
+010	011	06.66	304.0	+02.0
+011	012	01.60	 -	UP	;st012 is head height standing in hole up into Funnel chamber
+012	013	06.21	301.0	-09.0
+013	014	05.38	280.0	-46.0	;st014 is start of bedding from funnel ch.
+014	015	09.45	304.0	-04.5
+015	016	17.32	245.0	-01.5	;st016 is climb over boulders to right of bedding which continues in straight line but chokes.
+016	017	03.98	256.0	+10.0
+017	018	03.92	246.0	+05.0
+018	019	03.30	249.0	-25.0
+019	020	04.36	302.0	+13.0
+020	021	04.45	245.0	+10.0	;st021=tag in roof at junc. in small chamber lots of writing on walls, low muddy passge to right needs surveying (Guano)
+021	022	01.60	 -	DOWN
+022	023	05.97	250.0	+27.0	;up through trench to bedding
+023	024	04.31	314.0	+07.0
+024	025	04.66	276.0	+05.0
+025	026	03.55	249.0	+39.0	;up through squeeze to Molluscan Hall upper level
+026	027	08.26	316.5	+03.0
+027	028	06.73	321.0	-49.0
+028	029	06.90	229.0	-14.0	;st029 is bottom of slope in middle of chamber, head height
+029	030	10.14	306.5	+16.0
+030	031	07.20	303.5	-11.0	;st031 is standing over small cairn showing hole to streamway
+031	032	03.36	023.0	-39.0	;st031 to 037 is down through boulder choke to streamway
+032	033	02.60	 -	DOWN
+033	034	02.17	191.0	-34.0
+034	035	02.73	287.0	-47.0
+035	036	02.68	089.0	-44.0
+036	037	05.11	354.0	-35.0	;st037 is boulder at start of wet crawl
+*flags duplicate ; (Dismal Junction - Molluscan Hall) tie-in duplicates 017-019 in cy12
+037	038	02.70	126.0	-11.0
+038	039	09.39	104.0	 00.0	;st039 is on slab just in water
+039	040	04.27	113.0	 00.0
+040	041	05.70	096.0	+02.0	;st041=tag at Cloughs Passage junc.
+*flags not duplicate
+
+*end	cy10c

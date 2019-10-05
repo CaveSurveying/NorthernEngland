@@ -1,0 +1,8 @@
+;Peterson Pot
+
+*begin	Peterson
+*export pep.037a
+
+*include pep
+
+*end Peterson

@@ -1,0 +1,34 @@
+;Cave:	Lancaster Hole - Main Drain from rope Oxbow Boulders along side passage
+;Surveyors:	J.Baker/P.Windle/F.Tully
+;Date:	20/07/02
+;Instruments:	3
+
+;;*equate	md7j.001	md7c.011a
+
+*begin	md7j
+*export 001
+
+*calibrate compass	+3.50
+
+*flags duplicate ; (Oxbow Corner) explicitly stated tie-in, duplicates 062-064 in md7a
+001	002	04.80	293.0	-50.0	;st001=bottom of rope
+002	003	10.70	338.0	 00.0	;downstream in main drain
+003	004	06.50	065.0	+22.0	;st004 is in side passage
+*flags not duplicate
+004	005	05.00	113.0	+02.0
+005	006	07.80	145.0	+12.0
+006	006a	04.20	260.0	-10.0
+006	007	07.00	138.0	-01.0
+007	008	05.50	158.0	+12.0
+008	009	03.60	100.0	 00.0
+009	010	08.60	 -	UP	;up to high level route
+010	011	15.10	274.0	+05.0
+*flags duplicate ; (Oxbow Corner) explicitly stated tie-in, duplicates 011b-011f in md7c
+011	012	02.20	 -	DOWN
+012	013	04.60	340.0	-32.0
+013	014	01.60	312.0	-10.0
+014	015	01.50	060.0	+02.0
+015	016	06.20	 -	DOWN	;back to bottom of rope
+*flags not duplicate
+
+*end	md7j

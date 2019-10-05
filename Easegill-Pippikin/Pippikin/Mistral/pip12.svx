@@ -1,0 +1,52 @@
+;Cave:	Pipikin-Far Steamway
+;Surveyors:	Hugh StLawrence/Mike Allen/Pete Hall
+;Date:	22/02/99
+;Instruments:	1
+
+;;*equate	Pip12.001	ms.018
+;*equate	pip12.006b	pip13.004
+;*equate	pip12.009k	pip14.001
+
+*begin	pip12
+*export 009k
+*export 001
+*export 006b
+
+*calibrate compass	+5.00
+
+;*fix	001	
+
+001	002	10.00	251.0	-30.0	;st001=tag Mistral on large boulder end of Hobbit
+002	003	05.70	019.0	-20.0
+003	004	02.20	344.0	-04.0
+004	005	03.80	320.0	-07.0
+005	006	07.30	002.0	-04.0
+
+006	006a	03.70	029.0	+09.0	;start of loop 
+006a	006b	09.00	307.0	+07.0	;boulders possibly back to the Hobbit?
+006b	006c	07.40	160.0	-18.0
+006c	006	03.60	124.0	+05.0
+006c	007	03.70	274.0	-04.0
+007	008	05.30	239.0	-04.0
+008	009	05.30	254.0	 00.0
+;continuation of Far Streamway
+009	009a	13.50	211.0	-10.0	;st009=small stal, big ledge & junction
+009a	009b	09.30	226.0	-04.0
+009b	009c	23.00	253.0	-03.0
+009c	009d	14.00	256.0	-03.0
+009d	009e	09.50	192.0	+02.0	;in between +6m aven dribble from roof
+009e	009f	20.20	253.0	-03.0
+009f	009g	10.40	240.0	-02.0
+009g	009h	04.00	284.0	-02.0
+009h	009i	02.40	200.0	+16.0
+009i	009k	01.15	 -	UP	;st009k=tag in roof
+;side passages
+009	010	08.50	327.0	+04.0
+010	010a	09.00	034.0	+03.0	;st010a=aven +10m with rope
+010	011	05.20	239.0	-04.0
+011	012	05.20	311.0	-03.0
+012	013	07.40	252.0	-03.0
+013	014	04.00	200.0	+02.0
+014	015	08.30	258.0	 00.0	;st015=tag in mud on right wall
+
+*end	pip12

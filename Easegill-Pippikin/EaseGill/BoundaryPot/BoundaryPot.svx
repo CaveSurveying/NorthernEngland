@@ -1,0 +1,45 @@
+;Every Boundary pot file
+
+*begin BoundaryPot
+
+*export bdy1.001b 
+*export bdy1.001
+
+*equate bdy1.008 bdy1a.001 ; from bdy1a.svx
+*equate bdy1.008 bdy2a.001 ; from bdy2a.svx
+*equate bdy2a.003a bdy2b.008g ; from bdy2a.svx
+*equate bdy2a.005 bdy2c.001 ; from bdy2a.svx
+*equate bdy2a.011 bdy2b.011 ; from bdy2b.svx
+*equate bdy2b.001 bdy3.034 ; from bdy2b.svx
+*equate bdy2b.001 bdy7a.008 ; from bdy2b.svx
+*equate bdy2b.004 bdy2d.007 ; from bdy2b.svx
+*equate bdy3.003 bdy3b.005a ; from bdy3b.svx
+*equate bdy3.008a bdy3a.007 ; from bdy3a.svx
+*equate bdy3.015 bdy3c.010 ; from bdy3c.svx
+*equate bdy3.015 bdy3d.001 ; from bdy3d.svx
+*equate bdy3.015 bdy4.001 ; from bdy3.svx
+*equate bdy3.023 bdy5.009 ; from bdy3.svx
+*equate bdy3.023 bdy6.011 ; from bdy6.svx
+*equate bdy3b.001 bdy3bi.012 ; from bdy3bi.svx
+*equate bdy4.003a bdy7a.001b ; from bdy4.svx
+
+;*include	Bdy ;shite
+*include	bdy1
+*include	bdy1a
+*include	bdy2a
+*include	bdy2b
+*include	bdy2c
+*include	bdy2d
+*include	bdy3
+*include	bdy3a
+*include	bdy3b
+*include	bdy3bi
+*include	bdy3c
+*include	bdy3d
+*include	bdy4
+*include	bdy5
+*include	bdy6
+;;;;;*include	Bdy7 ;replaced by Bdy7a
+*include	bdy7a
+
+*end BoundaryPot

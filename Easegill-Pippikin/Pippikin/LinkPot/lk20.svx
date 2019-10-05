@@ -1,0 +1,45 @@
+;Cave:		Link Pot - Tiger's Inlet Downstream toward the Ramp (part 2)
+;Surveyors:	R,Duffy/S.Lieberman
+;Date:		05/11/08
+;Instruments:	MKO + disto
+
+;*equate	lk20.001 lk20i.014 ;st001=tag at junction
+;*equate lk20.008 lk20i.007 ;cable tie on small stal at oxbow now removed
+;*equate lk20.013 lk20i.001 ;cable tie on small stal at junction
+
+*begin	lk20
+*export 013
+*export 001
+*export 008
+
+*calibrate compass	+9.00
+*calibrate clino	+1.00
+*calibrate tape		 0.00
+
+001	002	03.36	284.0	+02.0	;st001=tag at junction
+002	003	04.41	233.0	+03.0
+003	004	03.12	328.0	-05.0	;low crawl on right, muddy
+005	004	02.99	091.0	+04.0
+005	006	01.88	271.0	+21.0
+006	007	02.35	212.0	-22.0
+007	008	05.56	282.0	+04.0	;st008 is small stal on right at junction, passage to left is oxbow
+
+;main passage is low crawl straight ahead
+
+008	009	04.85	246.0	-09.0
+009	010	03.55	280.0	+11.0
+
+;back through oxbow
+
+010a	010	04.27	299.0	-28.0
+010a	010b	01.60	 -	DOWN
+010c	010b	03.90	256.0	-08.0
+010c	008	02.48	006.0	-26.0
+
+;back in main passage
+
+010	011	07.73	292.0	-21.0	;pooh passage on left between station and another on right at station
+011	012	04.93	284.0	-04.0
+012	013	00.75	340.0	+01.0	;st013=cable tie on small stal at junction
+
+*end	lk20

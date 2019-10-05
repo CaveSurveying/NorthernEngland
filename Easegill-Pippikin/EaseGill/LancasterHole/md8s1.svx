@@ -1,0 +1,25 @@
+;Cave:	Lancaster Hole - Wilf Taylor's to Bull Pot sump (first attempt)
+;Surveyors:	P.Devlin (diver)
+;Date:	31/03/07
+;Instruments:	P.D.
+
+;;*equate	md8s1.009 md8.122c ;sump line end
+
+*begin	md8s1
+*export 009
+
+;*calibrate compass	NEED TO WORK OUT
+;*calibrate clino		NEED TO WORK OUT
+;*calibrate tape		
+
+001	002	05.00	180.0	00.0 ;obviously the depths are wrong but the dive computer should tell us the depths
+002	003	05.00	190.0	00.0
+003	004	27.00	090.0	00.0
+004	005	08.00	060.0	00.0 ;airbell
+005	006	10.00	130.0	00.0 ;enter restriction
+006	007	15.00	120.0	00.0 ;exit restriction
+007	008	15.00	130.0	00.0
+008	008a	03.00	270.0	00.0 ;passage to Waterfall Sump
+008	009	15.00	180.0	00.0 ;SHOULD BE END OF SUMP LINE
+
+*end	md8s1

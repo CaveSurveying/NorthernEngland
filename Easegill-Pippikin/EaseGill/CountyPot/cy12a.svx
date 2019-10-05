@@ -1,0 +1,46 @@
+;Cave:	County Pot - Ease Gill Aven to Main Drain
+;Surveyors:	R.Duffy/A.Whitney/D.Davis
+;Date:	03/08/03
+;Instruments:	PAG
+
+;;;*equate	cy12a.001	maw1.026	;bottom of rope in Ease Gill Aven
+;;;*equate	cy12a.004	cy12.038	;bottom of climb up to passage to Ease Gill Aven
+
+*begin	cy12a
+;*export 001
+*export 004
+
+*calibrate compass	+5.00
+*calibrate clino	+00.5
+;*calibrate tape	
+
+*fix 013 67165.14 80758.07 243.53	
+
+; the following stations moved to cy12ai in Mancunian Way
+;001	002	11.20	345.0	-04.0	;st001=bottom of rope in Ease Gill Aven
+
+;002	002a	02.88	338.0	 00.0	;carries on over climb dowm to main passage
+;002a	002b	06.07	275.0	-02.0	;st002b is at small hole in floor poss. to main passage below? too tight
+
+;002	003	03.16	 -	DOWN
+;003	004	07.69	351.0	-03.0	;st004 is hole down to continuation passsage
+
+004	005	01.76	 -	DOWN
+005	006	02.79	290.0	-16.0	;st006 is below main boulders and leads to streamway
+006	007	02.31	180.0	-19.0
+007	008	01.85	 -	DOWN	;st008 is in large streamway
+008	009	04.18	299.0	-14.0
+009	010	15.15	341.0	-04.5
+010	011	05.95	307.0	-02.0
+011	012	08.10	339.5	-09.0	;st012 to 015 follow the stream through boulders, large passage over boulders above
+012	013	04.52	326.0	-07.0
+013	014	07.24	339.0	-01.0
+014	015	02.99	332.0	+15.0	;st015 is standing again in large stream passage
+015	016	06.66	351.0	 00.0	;st016 has stream leaving on left can be followed to Main Drain (wet)
+016	017	09.72	346.0	-01.0	;following drier route through to boulders
+017	018	04.33	228.0	-09.0	;gravel choke straight ahead, way on left through boulders
+018	019	01.93	253.0	+15.0
+019	020	02.60	270.0	-05.0
+020	021	02.82	329.0	-17.5	;small boulder filled chamber with Main Drain water flowing from right to left
+
+*end	cy12a

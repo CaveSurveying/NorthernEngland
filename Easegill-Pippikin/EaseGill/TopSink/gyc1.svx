@@ -1,0 +1,50 @@
+;Cave:	Gypsum Cavern to Perfection Passage
+;Surveyors:	Ray Duffy/Hugh St.Lawrence/Mark Savage/Stephen Lee/Julie Marshall
+;Date:	28/03/98
+;Instruments:	PAG Kit
+
+;;*equate	GyC1.001	md4.002
+;*equate	gyc1.016	gyc2.000
+;*equate	gyc1.020	gyc4.081
+;*equate	gyc1.012	gyc4.094
+;*equate	gyc1.024	gyc5.001 ;tag at end of Gypsum
+
+*begin	gyc1
+*export 024
+*export 001
+*export 012
+*export 016
+*export 020
+
+*calibrate compass	+5.00
+
+*fix 023 67616.67 80947.22 287.78 ;edge of sheet 3c
+
+;start to	dist.	compass	clino	;comments
+
+001	002	03.00	074.5	+28.0	;St.001=TAG at MB4 Haolbeck Junction
+002	003	14.37	00.85	+11.0
+003	004	02.30	 -	UP
+004	005	04.45	304.5	+13.0
+005	005a	05.40	300.0	+16.0	;end of decorated alcove
+005	006	06.15	068.0	+05.0
+006	007	12.25	059.0	-12.0
+007	008	04.50	023.0	+12.0
+008	009	06.70	040.0	-00.5
+009	010	01.80	 -	UP
+010	011	04.45	040.5	+25.0
+011	012	10.30	005.5	+01.0
+012	013	05.90	238.0	-31.0
+013	014	06.00	317.5	+11.0
+014	015	08.40	339.5	+16.0
+015	016	07.48	057.0	-09.0	;Line from here down slope to 016a/001 on GyC2 crawls and digs
+016	017	10.05	113.0	+09.0
+017	018	19.55	076.0	+05.0
+018	019	19.55	118.0	+03.0
+019	020	16.30	102.5	+03.0	;st.020 passage on right up slope not checked????
+020	021	03.30	080.0	+20.0
+021	022	17.10	078.5	+10.0
+022	023	30.75	125.0	+03.0
+023	024	19.40	103.5	+04.0	;st.024=tag at start of Perfection Passage
+
+*end	gyc1

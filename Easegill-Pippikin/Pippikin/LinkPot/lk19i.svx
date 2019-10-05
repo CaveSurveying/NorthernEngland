@@ -1,0 +1,28 @@
+;Cave:		Link Pot - Upstream from below Tiger's Inlet
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:		05/06/08
+;Instruments:	PAG + disto
+
+;*equate	lk19i.001 lk19.001 ;bolt at Tiger's Inlet
+;*equate	lk19i.012 lk20i.014 ;st012=tag at junction
+
+*begin	lk19i
+*export 010
+*export 001
+*export 012
+
+*calibrate compass	+3.00
+*calibrate clino	+0.50
+*calibrate tape		 00.0
+
+002	001	05.35	176.5	+47.0	;st001=bolt at Tiger's Inlet
+002	003	07.10	012.5	+09.0
+003	004	05.13	347.0	-05.0
+004	005	04.37	024.0	-04.0
+006	005	02.41	178.0	-21.5
+006	007	05.44	328.0	+01.0
+007	008	05.03	034.0	+03.0
+008	009	04.37	092.0	+05.0
+009	010	00.30	 -	UP	;st010=tag wedged in crack near roof of crossover passage
+
+*end	lk19i

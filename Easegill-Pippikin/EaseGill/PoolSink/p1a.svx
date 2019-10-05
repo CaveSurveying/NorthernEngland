@@ -1,0 +1,172 @@
+;Cave:	Pool Sink - entrance to Holbeck Junction
+;Surveyors:	R.Duffy/A.Whitney
+;Date:	17/11/02
+;Instruments:	PAG
+
+;;;*equate	P1a.029	P1b.153	;joined to Baby feeder	;not needed see p1bi
+;*equate	p1a.083	p2a.044	;joined to stream loop at Borehole
+;*equate	p1a.078	p2a.048	;joined to stream loop at Borehole
+;*equate	p1a.048	p3a.000	;joined to last pitch bypass
+;*equate	p1a.065	p3a.052	;joined to last pitch bypass
+;*equate	p1a.057	p3a.010	;joined to last pitch bypass
+;*equate	p1a.068	p3a.054	;joined to last pitch bypass
+;*EQUATE	P1a.067	P4a.039	;joined to last pitch bypass EXTENSIONS
+;*equate	p1a.023 p1d.001	;joined to upstream to Magpie
+;*equate	p1a.105	p6a.000	;joined to Upper Green & Smelly
+;*equate p1a.105 p1ai.001 ;Holbeck Junction
+;*equate p1a.103	p1aii.000 ;start of side passage
+;*equate p1a.023 p1bi.001 ;survey down to Baby Feeder
+;*equate p1a.038	p1aiii.001 ;eyehole at start of traverse to second pitch
+
+;;*EQUATE	P1a.023	P5a.013	;joined to upstream to Magpie NOT NEEDED SEE P1d
+;;;;;;;*EQUATE	P1a.078	B1.212d	;joined to Borehole through bedding in T piece
+;*EQUATE	P1a.078	B03.212d	;joined to Borehole through bedding in T piece
+
+*begin	p1a
+*export 065
+*export 083
+*export 068
+*export 038
+*export 078
+*export 001
+*export 023
+*export 048
+*export 103
+*export 057
+*export 105
+
+*calibrate compass	+4.5
+*calibrate clino	0.0
+*calibrate tape	+2.00
+
+*entrance 001
+
+*fix 001 67717.83 80746.24 323.33 ;ev.sf3.001
+*fix 023 67721.03 80780.33 303.58 ;Anemonite Junction
+*fix 065 67636.01 80825.15 276.33 ;mole phone base at bottom of dry last pitch
+;*fix	105	67497.03	80888.29	266.67
+*fix 070 67589.04 80830.84 270.62 ;near edge of sheet 3c
+
+001	002	05.20	001.0	-17.0	;st001=tag
+002	003	05.23	302.0	-02.0
+003	004	03.00	200.0	-01.0
+004	005	03.76	292.0	-08.0
+005	006	03.68	323.0	 00.0	;st006 has choked bedding to left
+006	007	04.00	020.0	+04.0
+007	008	05.61	355.0	-06.0
+008	009	04.75	024.0	+01.0
+009	010	05.56	040.0	-01.0
+010	011	07.16	062.0	-02.0
+011	012	07.58	074.0	+03.0
+012	013	03.20	 -	DOWN	;st013 is head height in small chamber two inlets enter but are too small
+013	014	03.43	104.0	+03.0
+014	015	03.86	012.0	-11.0
+015	016	04.21	093.0	-12.0
+016	017	05.21	032.0	-06.0
+017	018	06.10	306.0	-05.0
+018	019	03.39	348.0	-21.0	;st019=1st P-hanger
+019	020	02.68	279.0	+23.0
+020	021	04.21	037.0	-07.0
+021	022	13.60	 -	DOWN	;st022 is where rope hits sloping part of pitch
+022	023	08.31	313.0	-30.0	;st023=UP61
+023	024	04.28	233.0	-15.0
+024	025	05.82	201.0	 00.0
+025	026	05.34	280.0	-03.0
+026	027	07.45	007.0	 00.0
+027	028	06.92	255.0	-05.0
+028	029	04.75	218.0	-06.0	;st029 is below inlet high up Baby Feeder
+029	030	06.47	321.0	+04.0
+030	031	06.22	233.0	-02.0	;st031 is below inlet high up
+031	032	05.41	321.0	-02.0
+032	033	04.46	015.0	-04.0
+033	034	05.29	296.0	+02.0
+034	035	04.40	325.0	-01.0
+035	036	05.65	274.0	-01.0
+036	037	10.75	334.0	-04.0
+037	038	04.83	038.0	+02.0
+038	039	07.50	272.0	-04.0
+
+039	039a	09.00	 -	DOWN	;st039a is bottom of wet pitch
+
+;Wet Route by R.Duffy/Paul? 14/08/05 PAG
+*calibrate compass	+4.0
+*calibrate clino	+1.0
+*calibrate tape		-0.10
+
+039b	039a	03.42	109.0	-03.0
+039c	039b	02.97	160.0	-04.0
+039d	039c	04.10	082.0	+29.0
+
+*calibrate compass	+4.5
+*calibrate clino	0.0
+*calibrate tape	+2.00
+
+039	040	04.96	244.0	+15.0	;traverse over hole to wet way
+040	041	05.12	286.0	-07.0
+041	042	05.97	015.0	-28.0
+042	043	05.56	326.0	+05.0
+043	044	04.83	228.0	+04.0
+044	045	10.80	 -	DOWN	;st045 is pool edge below pitch
+045	046	04.23	283.0	+06.0
+046	047	05.38	336.0	+05.0
+047	048	07.57	 -	DOWN	;st048 is edge of pool where rope lands
+048	049	04.70	306.0	+34.0
+049	050	05.63	344.0	-15.0
+050	051	08.50	273.0	-03.0
+051	052	08.27	350.0	-09.0
+052	053	05.28	304.0	-15.0
+053	054	05.14	327.0	+01.0
+054	055	06.16	269.0	-19.0
+055	056	04.42	021.0	-01.0	;st057 is below inlet from bypass route
+056	057	04.13	248.0	-06.0
+057	058	05.34	356.0	+04.0
+058	059	07.33	269.0	-12.0
+059	060	05.19	201.0	-01.0
+060	061	06.85	336.0	-07.0
+061	062	08.96	276.0	+02.0	;st062 to 064 is traverse to last pitch
+062	063	04.68	342.0	+25.0
+063	064	05.21	052.0	+03.0
+064	065	07.96	 -	DOWN	;st065=MB206
+065	066	10.88	249.0	-14.0
+066	067	08.55	300.0	-17.0	;between stations is oxbow on left
+067	068	10.10	273.0	-02.0
+068	069	10.81	306.0	-03.0
+069	070	20.69	288.0	-01.0
+070	071	03.96	029.0	+30.0
+071	072	10.44	310.0	+09.0
+072	073	11.03	295.0	-02.0
+073	074	08.87	244.0	-16.0
+074	075	08.23	219.0	-15.0
+075	076	04.24	253.0	-07.0
+076	077	04.90	229.0	+12.0
+077	078	11.30	265.0	+03.0	;st078 is on bedding through to Borehole
+078	079	04.30	312.0	-09.0
+079	080	07.50	315.0	+07.0
+080	081	03.44	247.0	-12.0
+081	082	13.40	298.0	-06.0
+082	083	07.30	249.0	-01.0	;st083 is where passage left goes toward Spiral Stairs and Eccles Bypass
+083	084	05.00	278.0	-04.0
+084	085	05.20	220.0	-14.0
+085	086	05.63	307.0	-07.0
+086	087	07.60	015.0	+07.0
+087	088	06.76	329.0	+01.0	;st088 is head height at downstream end of large boulder
+088	089	05.50	345.0	 00.0
+089	090	06.73	015.0	-01.0
+090	091	08.00	336.0	 00.0	;st091 is head height at upstream end of boulder blocking passage
+091	092	06.70	003.0	-10.0
+092	093	05.03	255.0	+06.0
+093	094	09.60	306.0	-08.0
+094	095	04.74	237.0	+02.0
+095	096	02.98	138.0	-18.0	;st096 is stooping at dip through to chamber from pool
+096	097	04.09	233.0	 00.0
+097	098	12.82	303.0	 00.0
+098	099	04.57	337.0	+24.0
+099	100	04.32	310.0	-05.0
+100	101	05.82	332.0	+04.0
+101	102	06.66	355.0	+21.0
+102	103	06.79	053.0	-21.0	;st103 is RRCPC dig loop
+103	104	09.79	038.0	-10.0
+104	105	03.15	339.0	+03.0	;st105=UP18 Holbeck Junction
+
+
+*end	p1a

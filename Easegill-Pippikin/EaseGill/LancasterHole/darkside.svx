@@ -1,0 +1,67 @@
+;Instrument set unknown so no calibration data.
+
+;*equate darkside.1  grindinghalt3.0
+;;*equate darkside.44 Grind.8	;connection to made up data set based on original CUCC tracing paper survey.
+;*equate darkside.44 gri03.001	;Connects to new Grind survey
+
+*begin darkside
+
+*export 1
+*export 44
+
+*title "The Dark Side of the Grind"
+*date 2007.04.28
+*team "George North" compass clino
+*team "Ben Shaw" tape
+*team "Tom Clayton" notes
+
+*calibrate compass 2.6	; Approximate magnetic variation for 2007
+
+*units clino percent
+
+2	1	3.30	139	+05
+3	2	2.4	050	+03
+4	3	2.1	080	+06
+5	4	2.1	028	-01
+6	5	2.02	034	  0
+6	7	1.7	313	-04
+7	8	1.4	014	-04
+8	9	1.6	049	-08
+9	10	1	033	-01
+10	11	1	026	-06
+11	12	2.6	290	  0
+12	13	1.9	311	-03
+13	14	2	336	-07
+14	15	2.1	350	-06
+15	16	1.4	334	-06
+16	17	2	280	-01
+17	18	2.9	267	-04
+18	19	1.1	215	+06
+19	20	1.2	182	+08
+20	21	1.3	219	-06
+21	22	1.6	237	-03
+22	23	3.5	252	-10
+23	24	1.9	355	+03
+24	25	1	331	+03
+25	26	0.8	257	-18
+26	27	1.2	317	-02
+27	28	1.3	314	-01
+28	29	0.6	021	-01
+29	30	1.3	334	+02
+30	31	1.8	025	-07
+31	32	1.6	033	+02
+32	33	1.5	007	-03
+33	34	1.7	039	-08
+34	35	1.8	009	-06
+35	36	1.6	342	+04
+36	37	0.5	049	-12
+37	38	2.5	113	+01
+38	39	2.5	063	+01
+39	40	3.7	008	  0
+6	41	6.3	193	  0
+*flags duplicate ; (Dark Side Grind) tie-in duplicates 001-003 in picklepassage3
+41	42	2.7	078	+01
+42	43	3.3	125	-04
+41	44	6.6	238	-01
+*flags not duplicate
+*end darkside

@@ -1,0 +1,22 @@
+;Cave:	Lancaster Hole-Wilf Taylors alt. start
+;Surveyors:	R.Duffy/H.St.Lawrence
+;Date:	05/08/00
+;Instruments:	PAG
+
+;;*equate	md8c.001	md8.079
+
+*begin	md8c
+*export 001
+
+*calibrate compass	+5.00
+
+001	002	22.00	064.0	-01.0	;boulder in drain next to Waterfall Passage
+002	003	13.65	080.5	-00.5
+003	004	07.45	343.0	-08.0
+004	005	07.07	355.0	+05.0
+005	006	02.90	327.0	 00.0
+006	007	05.60	348.0	+05.0	;sump on right down slope
+007	008	07.55	333.0	+15.0	;next readings estimated length
+008	009	03.00	345.0	+05.0	;too tight mud choke
+
+*end	md8c

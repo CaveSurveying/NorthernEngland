@@ -1,0 +1,49 @@
+;Cave:	Borehole - entrance to bedding at end of streamway
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:	02/11/06
+;Instruments:	PAG + disto
+
+;;;;;;;;;;;;*equate	B01.001 B1.001 ;st001=ent tag
+;*equate	b01.021	 b02.001   ;is roof of passage at entrance to small aven
+;*equate	b01.007a b04.017	;tag at foot of ent. pit
+;*equate	b01.015	 b06.001	;st015=tag on nose at junction
+
+*begin	b01
+*export 007a
+*export 001
+*export 021
+*export 015
+
+*calibrate compass		+3.00
+*calibrate clino		-0.50
+*calibrate tape		 0.00
+
+*entrance 001
+
+*fix 001 67703.70 80708.48 322.56 ;ev.sf3.003	
+
+001	002	03.21	171.0	-12.0	;st001=ent.tag
+002	003	02.07	 -	DOWN	;short climb down
+003	004	02.22	121.0	-01.0
+004	005	03.50	199.0	-20.0
+005	006	04.34	130.0	-17.0	;st006 is head at level with lip of pit climb
+006	007	02.24	 -	DOWN	;st007 is head height lying at bottom of pit
+
+007	007a	00.84	072.0	+06.0	;st007a is tag in thread at start of upstream passage, unsurveyed
+
+007	008	02.58	021.0	-06.0	;st008 is lying with head at edge of large boulder above canal
+008	009	03.06	317.0	-02.0	;1 metre deep canal to boulders/cobbles at st009 with boulder filled aven to left
+009	010	06.02	009.0	-04.0
+010	011	04.38	033.0	+03.0
+011	012	04.33	020.0	 00.0	;st012 has small tube at roof level to right too tight
+012	013	02.38	333.0	 00.0
+013	014	00.70	021.0	-02.0	;st014 is head height sitting at foot of aven 3.5 m tall to too samll inlet
+014	015	04.66	034.0	-01.0	;st015=tag on nose at junction. Passage to right crawled up by S.L. for long way needs skinny surveyors.  Deep water at junction.
+015	016	00.10	 -	UP	;station raised to see over bends
+016	017	02.07	309.0	-01.0
+017	018	03.06	332.0	+01.0
+018	019	01.66	282.0	+01.0	;st020 has inlet to left, station is head height crouched in middle of passge at junc.
+019	020	04.20	335.0	-01.0
+020	021	02.52	280.0	+03.0	;st021 is roof of passage at entrance to small aven on right, tag in aven 30cm above lip as marker
+
+*end	b01

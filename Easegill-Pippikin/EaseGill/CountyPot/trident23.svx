@@ -1,0 +1,18 @@
+;Cave:	Trident - RH Branch of crystal passage above pitch
+;Surveyors:	H.St.Lawrence/S.Lieberman
+;Date:	13/03/03
+;Instruments:	4
+
+;*equate	trident23.001	trident10.011
+
+*begin	trident23
+*export 001
+
+*calibrate compass	+4.50
+*calibrate clino	0
+*calibrate tape	+1.00
+
+001	002	04.10	153.0	+04.0
+002	003	08.13	123.5	+06.0
+
+*end	trident23

@@ -1,0 +1,71 @@
+;Survey Name: Pool Sink  Last Pitch By Pass Area
+;Survey Date:  P4	???March 1996
+;Survey Notebook:  
+;Surveyors:	A.Hodgson/R.Duffy
+
+;*equate	p4a.000	p3a.044	;joined to last pitch bypass
+;*EQUATE	P4a.039	P1a.067	;joined to main line
+;*equate	p4a.039	p3a.054
+
+*begin	p4a
+*export 000
+*export 039
+
+*calibrate compass	+5.27
+*calibrate tape	+0.5
+
+*fix 025 67597.21 80826.17 280.75 ;edge of sheet 3c
+
+000	001	05.00	242.0	+25.0	;P4.000=P3.044 Top of block on shelf
+001	002	03.80	245.0	-20.0
+002	003	04.10	282.0	 00.0
+003	004	04.10	293.0	-30.0
+004	005	04.40	295.0	-07.0
+005	005a	06.00	 -	DOWN	;P4.005=hole in the floor which connects with inlet on left
+001	006	04.80	277.0	-42.0
+006	007	01.70	331.0	-21.0
+007	008	03.10	296.0	-10.0	;P4.007=Inlets coming in on right
+008	009	01.70	348.0	-10.0
+009	010	06.10	316.0	-05.0
+010	011	01.00	003.0	-02.0
+011	012	04.00	340.0	-02.0
+012	013	03.10	255.0	-03.0
+013	014	02.00	002.0	-08.0
+014	015	01.80	304.0	-04.0
+015	016	01.10	254.0	-25.0
+016	017	01.00	313.0	-10.0
+017	018	01.90	001.0	-20.0
+018	019	04.20	328.0	-03.0
+019	020	01.00	354.0	-15.0
+020	021	03.70	304.0	-15.0
+021	022	04.80	337.0	-12.0
+022	023	01.90	295.0	-42.0
+023	024	01.10	248.0	-08.0
+024	024a	20.00	149.0	 00.0	;P4.024a=bearing up a tight inlet AH crawled along several metres but gets too tight to continue. L & Clino estimates
+024	025	02.90	337.0	-11.0
+025	026	02.90	300.0	-05.0
+026	027	02.70	340.0	-16.0
+027	028	08.00	313.0	-05.0
+028	029	06.90	 -	DOWN	;Drop down to T-piece Passage
+025	030	02.40	115.0	+07.0
+030	031	02.70	078.0	+02.0
+031	032	02.00	 -	DOWN	;Large flakes of unstable rock
+032	033	01.00	310.0	 00.0	;next stations are climb down to streamway thru chossy,hanging death
+033	034	03.20	 -	DOWN
+034	035	04.20	320.0	-12.0
+035	036	03.60	 -	DOWN
+036	037	01.60	064.0	-09.0
+037	038	03.10	 -	DOWN	;(1.7m removed for measure to head height not floor)
+*flags duplicate ; (Pool Sink) last pitch bypass, seems to be covered by 061-070 in p1a
+038	039	19.50	114.0	+04.0	;P4.39=PSb.54
+*flags not duplicate
+007	040	02.00	022.0	+05.0
+040	040a	02.90	110.0	+10.0
+040	041	03.00	053.0	+09.0
+041	042	02.50	310.0	-10.0
+042	043	07.50	005.0	-07.0
+043	044	01.60	 -	DOWN
+044	045	01.70	345.0	-14.0
+045	046	04.60	 -	DOWN	;Block suspended in streamway=a point in PSb
+
+*end	p4a

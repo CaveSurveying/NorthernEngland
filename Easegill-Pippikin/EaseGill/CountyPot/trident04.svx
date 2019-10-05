@@ -1,0 +1,57 @@
+;Cave:	County Pot - Trident - Trident Corner(Pierces) to Bottom of White Line in WL Chamber
+;Surveyors:	R.Duffy/A.Hall
+;Date:	17/08/02
+;Instruments:	PAG
+
+;;*equate	trident04.001	cy.067a
+;;*equate	trident04.008	trident15.018	;Didn't join up too well, left disconnected.
+;*equate	trident04.011a	trident15.016a
+;;*equate	trident04.011a	trident26a.011a
+;*equate	trident04.015a	trident05.011a
+;;*equate	trident04.019	trident05.013	;removed cos not sure stations are the same
+;*equate	trident04.020	trident06.006
+;*equate	trident04.020	trident15.008
+;*equate	trident04.020	trident23a.001
+;*equate	trident04.022	trident05.005y
+
+*begin	trident04
+*export 022
+*export 001
+*export 011a
+*export 020
+*export 015a
+
+*calibrate compass	+5.00
+*calibrate tape +1.00
+
+*fix	001	67431.04 80722.77 262.32
+
+001	002	04.29	001.0	+05.0	;st001=tag on stal at Trident Corner in Pierces Passage
+002	003	05.85	067.0	+05.0	;st003	has v.steep rift on left with 3m climb to start
+003	004	04.10	339.0	+04.0
+004	005	07.25	080.0	+01.5
+005	006	05.32	131.0	+02.0
+006	007	03.55	156.0	+06.0
+007	008	04.62	105.0	-01.0
+008	009	04.37	142.0	+03.0
+009	010	02.44	198.0	+17.0
+010	011	06.24	144.0	-11.0
+
+011	011a	01.50	232.0	+15.0	;st011a=tag RH head ht. facing upstream with passage on left needs surveying
+
+011	012	08.27	117.0	+04.5
+012	013	03.94	130.0	+09.0
+013	014	06.15	108.0	+06.0
+014	015	02.56	178.5	 00.0
+
+015	015a	02.70	 -	UP	;st015a=tag on stream side of eyehole at start of bypass to high level with rope on
+
+015	016	03.40	075.0	-01.0
+016	017	02.75	150.0	+12.0
+017	018	03.45	081.0	+13.0
+018	019	05.40	144.0	+12.0	;st019 is on same side and close to other entry to bypass to high level
+019	020	05.67	050.0	+19.0	;st020=TAG14 LH high facing upstream passage to Whiteway
+020	021	17.25	126.0	+02.0
+021	022	07.40	130.5	-06.5	;st022=bottom of the White Line at water level
+
+*end	trident04

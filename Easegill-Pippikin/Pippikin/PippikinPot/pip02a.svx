@@ -1,0 +1,33 @@
+;Cave:	Mistral-Dusty Junc. to Hall of the Ten
+;Surveyors:	Ray Duffy/Zoey & Tim Eastwood
+;Date:	29/11/97 pm
+;Instruments:	PAG kit
+
+;*equate	pip02a.013	pip01.021
+;;*equate	pip02a.001	ms.035
+;*equate	pip02a.013	pip05.022
+;*equate	pip02a.013	pip04.038b
+;*equate	pip02a.001	pip25.001 ;st001=tag in roof at Dusty Junction
+
+*begin	pip02a
+*export 001
+*export 013
+
+*calibrate compass	+5.13
+
+*fix 001 66701.59 80152.17 259.62 ;all1.lk1.pml1.pkn1.pip02a.001
+
+001	002	06.26	182.0	 00.0	;st001=tag Dusty Junc.
+002	003	03.60	169.0	+10.0
+003	004	04.80	234.5	-07.0
+004	005	09.15	221.0	+02.0
+005	006	12.55	181.5	 00.0	;between 005-006 pass. on right small goes 20m at least
+006	007	00.90	 -	UP	;st006 has echoing pass. too small on left with water heard
+007	008	09.00	188.0	+09.0
+008	009	13.25	199.0	-09.0
+009	010	11.50	257.5	+14.0
+010	011	15.55	213.0	-02.0	;st011 is aven pool/trench on left stals on right
+011	012	13.80	203.0	+06.0
+012	013	14.70	205.0	-25.0	;st013=tag Hall of the Ten
+
+*end	pip02a

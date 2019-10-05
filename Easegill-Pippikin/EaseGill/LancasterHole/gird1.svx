@@ -1,0 +1,46 @@
+;Cave/Series:	Girder Route to Sand Caverns via Kath's Way(CHECK SLUG st 2)
+;Date:	Gird	23.04.95 and 2/7/95					
+;Surveyors:	A. Hall,A.Hine, R Duffy
+;Instruments:	????
+
+;;*equate	gird1.001	l1.012
+;;;*equate	gird1.016	sc1.008
+;;*equate	gird1.013f	l1.004
+
+*begin	gird1
+*export 001
+*export 013f
+*export 016
+
+*calibrate compass	+5.37
+
+001	002	03.90	116.0	-08.0	;st001=old39=SS10 in Slug's Survey(see photo) St 11
+002	003	07.00	144.0	-05.0
+003	004	03.50	110.0	+08.0
+004	005	05.10	075.0	+06.0
+005	006	01.80	135.0	+03.0	;6m pitch down. 10m Aven above
+006	006a	06.00	 -	DOWN	;water sinks in rift
+006	007	02.40	 -	UP
+007	008	02.10	225.0	+08.0
+008	009	05.10	152.0	+08.0
+009	010	01.30	 -	UP
+010	011	02.80	250.0	+23.0	
+011	012	03.00	238.0	 00.0	;girder
+012	012a	03.30	335.0	-30.0
+012a	012b	00.50	 -	DOWN
+012b	012c	03.30	255.0	+05.0	;choke
+012	013	05.90	050.0	+35.0	;T junct
+013	014	04.40	155.0	+02.0
+014	015	07.00	 -	DOWN
+015	016	02.00	085.0	 00.0	;back in Sand Caverns. Closed loop(old18)
+013	013a	03.50	350.0	+24.0
+013a	013b	02.20	340.0	+07.0
+013b	013c	08.50	261.0	-05.0
+013b	013d	04.20	 -	UP
+
+*calibrate compass	+5.50
+
+013d	013e	08.93	054.5	+14.0
+013e	013f	03.72	077.0	-30.0	;st013f=tag L1.004
+
+*end	gird1

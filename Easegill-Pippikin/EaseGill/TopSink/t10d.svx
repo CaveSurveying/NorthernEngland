@@ -1,0 +1,100 @@
+;Cave:		Upper Molar Passage - part 2
+;Surveyors:	S.Lieberman/B.Lawson(intruments)
+;Date:		12/04/08
+;Instruments:	MKO + disto
+
+;*equate t10d.0 t10c.005g
+;*equate t10d.13 t10e.019 ;cable tie
+
+*begin t10d
+*export 0
+*export 13
+
+*calibrate compass	+1.00
+*calibrate clino	+0.50
+*calibrate tape		 0.00
+
+*fix 34 67956.39 81086.27 316.28 ;st34 is l wall white dot in middle of calcite numbered in pencil
+
+;From	To	Disto	Comp	Clino
+0	1	2.32	181	+06
+1	2	0.88	105	+16
+2	3	1.30	152	+14	
+3	4	2.05	137	+16
+4	5	2.06	167	-50
+5	6	3.12	284	+12
+6	7	2.37	200	+33
+8	7	2.04	346	+15
+
+8	9	1.46	126	+22
+9	10	4.18	024	-09
+10	5	1.27	083	-64
+10	11	3.92	128	+23
+11	12	2.06	336	+65
+12	13	1.01	229	+50
+14	13	3.64	277	+17
+14	15	3.06	079	+07
+15	16	3.48	093	-65
+
+16	17	1.55	100	-29
+17	18	2.71	067	-30
+18	19	2.37	155	-29
+19	20	2.15	077	+45
+20	21	2.03	106	+23
+21	22	1.90	025	+12
+22	23	1.86	106	+8
+23	24	2.94	031	+10
+
+24	25	0.93	096	-17
+25	26	1.93	203	-10
+26	27	1.88	095	+27
+27	28	2.62	054	-12
+28	29	2.28	183	+01
+;29	30	1.16	263	-26 ;leg should be a back bearing
+30	29	1.16	263	-26
+30	31	1.93	051	+21
+31	32	2.59	094	+09
+32	33	2.13	046	-13
+33	34	0.78	078	-21
+
+*end t10d
+
+;station lrud description
+;0	0	1	4	4	triangle scratched "5G" on l wall at corner
+;1	0.1	0.2	2	4	corner
+;2	0.3	0	3	4	r wall at corner
+;3	0	0.5	3	4	l wall at corner
+;4	0.4	0	2.5	3.5	r wall
+;5	0	0.6	3.7	3.5	l wall at oxbow junction
+;6	0.8	0	4	0.5	r wall crevice
+;7	0.4	0	3	1.7	stal r wall
+;8	0.2	0.2	5.3	1.1	corner
+;
+;9	0.6	0	5.5	1.5	r wall marked "13" from older survey
+;10	0	1	3	4.2	top of arch l wall end of oxbow
+;11	0.2	0.3	6	3.5	corner mid passage before helictites
+;12	1	2	3.6	5.2	top of c2 into chamber
+;13	1.5	1.5	2.6	2(5)	cable tie in chamber
+;14	0.5	1	3.7	6	mid passage above stal
+;15	0.2	1.3	2	5	l wall before climb down
+;16	1	0.2	4	5	r wall
+;17	0	1	4.3	3.5	l wall
+;
+;18	0.6	0	5	2.1	r wall at corner with pencil
+;19	0.7	0	4	0.8	r wall with graffiti just beyond saying "13.7.58 WVL TD" I think
+;20	0.2	0.2	4	0.6	beyond switchback
+;21	0	0.3	3	1.2	mid passage
+;22	0	0.3	3	1.4	l wall
+;23	0.5	0	7	1.2	r wall centre of white Y
+;24	0.2	0.1	3	1.5	midpassage (up estimated to boulder in roof)
+;
+;25	0	0.3	3	1	l wall
+;26	0.4	0	6.7	0.5	r wall
+;27	0.15	0.15	1.4	4.2	mid passage
+;28	0	0.3	4.5	0.4	l wall
+;29	0.4	0	3.9	0.4	white mark r wall
+;30	0	0.4	3.3	1	l wall
+;31	0.15	0.15	 3	1.5	mid passage
+;32	0.3	0	2.5	1.6	r wall marked and numbered in pencil on white calcite
+;33	0	0.2	3	0.9	l wall
+;34	0	0.4	3.5	0.5	l wall white dot in middle of calcite numbered in pencil as not as obvious as station 32

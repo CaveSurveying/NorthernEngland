@@ -1,0 +1,77 @@
+;Cave:		Top Sink - Old Limerick Passage
+;Surveyors:	Mark Shinwell/Martin Green
+;Date:		01/12/07
+;Instruments:	kit1
+
+;*equate	t06a.001 t09b.001	;tag at Limerick Juntion
+;*equate	t06a.006 t06b.001 	;tag on right wall
+;*equate t06a.017 t06ai.00a	;Piece of paper at end of previous survey T06a.017
+
+*begin	t06a
+*export 001
+*export 006
+*export 017
+
+*calibrate compass	+5.00
+*calibrate clino	 0.00
+*calibrate tape		+0.12
+
+001	002	01.49	110.0	+03.5	;tag at Limerick Juntion
+002	003	04.00	130.0	+10.0
+004	003	07.33	194.0	-09.0
+005	004	04.80	299.0	-44.0
+006	005	03.28	282.0	-16.0
+007	005	03.59	332.0	-06.0
+008	007	02.46	019.0	-30.0
+009	008	01.93	045.0	+08.0
+
+;Surveyors:	Martin Green (Notes)
+;		Becka Lawson (Instruments)
+;		Julian Todd (Tape)
+;Date:		12/01/08
+;Instruments:	Becka's Shetland Attack Pony, Yellow open reel tape
+
+
+008	0081	01.61	086.0	-32.0	;008 top of boulder on previous survey labelled stn8.
+0082	0081	02.71	333.0	+09.0	;0081 unmarked boulder.
+0082	0083	02.08	059.0	+07.0	;0082 unmarked RH wall.
+0083	0084	01.61	145.0	+15.0	;0084 below aven at end of passage, too tight above.
+
+*calibrate compass	+5.00
+*calibrate clino	 0.00
+*calibrate tape		+0.12
+
+009	010	02.20	233.0	-69.0
+011	010	03.08	002.0	-01.0
+012	011	03.09	049.0	+16.5
+013	012	01.46	028.0	-01.0
+014	013	04.49	015.0	+12.0
+015	014	02.59	027.5	-15.0
+016	015	05.74	009.0	-11.5
+016	017	03.94	204.0	+24.0
+
+*end	t06a
+
+;st	L	R	U	D	;details
+;008	0.2	0.9	~5.0	3.0	;top of boulder at junction marked with 2 pencil arrows 1m from st8
+;0081	0.6	0.2	~6.0	1.8
+;0082	0.5	0.0	~6.0	1.2
+;0083	0.0	0.6	~6.0	1.2
+;0084			~6.0	1.2
+;001					;tag at Limerick Juntion
+;002	0.4	0.3	0.0	0.8	;roof
+;003	1.4	0.2	0.2	0.45	;roof nodule
+;004	1.8	1.2	2.5	0.4	point on rock marked "4" + arrow
+;005	0.6	0.7	1.6	5.0	;point on wall
+;006	0.6	0.3	4.0	1.1	tag on R Wall in L passage
+;007	0.25	0.75	6.0	2.8	;cross on L wall
+;008			8.0	2.7	;top of boulder at junction marked with 2 pencil arrows 1m from st8
+;009	0.0	1	~8	0.9	;red rawlplug L wall
+;010				0.4	;point in mud
+;011	0.3	0.9	3.0	0.7	;opoint L wall
+;012	0.4	1.1	0.0	0.5	;Point on ceiling
+;013	0.5	0.7	1.2	0.3	;yellow tag
+;014	0.85	0.5	0.3	12	;wobbly boulder on floor
+;015					;top of boulder
+;016	2.7	0.7	1.7	12/7	;top of boulder fallen of R wall
+;017					;paper on wall marked " CA 6-12-92"

@@ -1,0 +1,38 @@
+;Cave:	Lancaster Hole - Carrot Chamber from Mainline Passage
+;Surveyors:	Ray Duffy/Sam Lieberman
+;Date:	13/12/04
+;Instruments:	pag
+
+;*equate	car1.001 man1.047 ;tag Main Line Passage
+;*equate	car1.011 cry.012
+;*equate	car1.015 car2.001
+
+*begin	car1
+*export 011
+*export 001
+*export 015
+
+
+
+*calibrate compass	+3.00
+*calibrate clino	-0.50
+*calibrate tape		+1.00
+
+*flags duplicate ; (Carrot Passage) tie-in duplicates 047-048 in man1
+001	002	08.31	334.5	+01.5	;st.001=tag at mainline passage
+*flags not duplicate
+002	003	19.35	103.5	+04.0
+003	004	08.99	101.0	+01.0
+004	005	06.34	140.0	-10.0
+005	006	09.00	104.0	-28.0
+006	007	08.65	069.0	 00.0
+007	008	09.84	116.0	+30.0	;st008 is foot of climb up to upper chamber through boulders
+008	009	02.65	 -	UP
+009	010	13.11	123.5	+04.0
+010	011	09.40	111.0	+01.0	;stal on boulder at start of Crystal Passage to OEC
+011	012	18.90	057.0	+03.0
+012	013	15.25	099.0	+03.0
+013	014	08.09	101.0	+04.0	;head height kneeling after small drop into sandy chamberette
+014	015	08.16	172.0	+03.0	;level with cluster of stals on left in crawl, arrow in mud
+
+*end	car1

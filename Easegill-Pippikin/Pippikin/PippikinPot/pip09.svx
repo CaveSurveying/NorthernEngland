@@ -1,0 +1,33 @@
+;Cave:	Pipikin-Over last pitch
+;Surveyors:	Beardy & wiggle
+;Date:	10/01/98
+;Instruments:	kit3
+
+;*equate	pip09.001	pip.060
+
+*begin	pip09
+*export 001
+
+*calibrate compass	+5.45
+
+001	002	02.80	 -	UP	;st001 tat on pitch
+;001	001a	follows pip route in roof towards ratbag c.15m horizontal
+002	003	05.00	141.0	+06.0
+002	003a	04.00	209.0	+35.0
+003	004	03.40	041.0	+39.0
+004	005	04.20	329.0	+25.0
+005	008	02.00	135.0	+25.0
+008	009	03.00	242.0	+31.0
+009	010	03.50	215.0	+40.0	;aven body length across 2 bodies long
+005	006	07.00	238.0	+35.0
+006	007	06.10	344.0	+15.0
+
+010	011	10.00	076.0	+62.0
+011	012	05.00	076.0	 00.0	;tight, pretty chamber
+012	013	14.00	090.0	+60.0	;2.5m wide 2m high
+;013	014	2m high climb out 80deg
+;014	015	false calcite floor 10-15m horizontal crawl
+;015	016	ends in chamber very thin calcite floor deep water underneath
+;way on through calcite boulders other side not investigated.
+
+*end	pip09

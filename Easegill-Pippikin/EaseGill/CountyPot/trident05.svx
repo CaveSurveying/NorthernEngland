@@ -1,0 +1,59 @@
+;Cave:	County Pot - Trident - Just before Splash Chamber to Lower Stramway via Iron Chain Ladder
+;Surveyors:	R.Duffy/P.Whitney
+;Date:	01/09/02
+;Instruments:	PAG
+
+;*equate	trident05.001	trident01.yt2
+;*equate	trident05.001	trident07.001
+;*equate	trident05.001	trident17.001
+;*equate	trident05.001	trident25.001
+;*equate	trident05.001	trident25a.008
+;*equate	trident05.005	trident09.001
+;*equate	trident05.005y	trident04.022
+;*equate	trident05.011a	trident04.015a
+;;*equate	trident05.013	trident04.019	;removed cos not sure stations are the same
+
+*begin	trident05
+*export 001
+*export 011a
+*export 005y
+*export 005
+
+*calibrate compass	+5.00
+*calibrate clino	0.0
+*calibrate tape	+2.00
+
+;001	002	07.52	012.0	-21.0	;st001=tag at YT2 just before Splash Chamber
+001	002	07.52	062.0	-21.0	;Bearing 062 makes the whole survey work!!!!
+002	003	04.38	323.0	-10.0	;st003 is right hand side of cobble crawl through down stream, bypass crawl on left, passage on right leads back to scaffold bar crawl thr.
+003	004	07.27	333.0	-05.0	;small inlet on left choked
+004	005	04.86	002.0	-22.0	;st005=tag on rope to Cadbury Traverse
+
+005	005a	06.25	318.0	-02.0	;st005a is start of small tube above pitch to White Line
+
+005a	005x	13.84	 -	DOWN
+005x	005y	03.92	098.0	 00.0	;st005y is trident04.022
+
+005a	005b	06.26	297.0	+05.0	;along small tube shaped passage
+005b	005c	04.49	000.0	-30.0	;st005c is nose of rock overlooking drop to streamway, passage high on right leads to Boulder Chamber pitch traverse, smaller passage downstream also in roof possibly to Boulder Ch. itself
+
+005a	005d	09.92	241.0	+34.0	;st005d is back wall of large chamber above pitch to lower passage with iron chain ladder
+
+005	006	04.45	294.0	-02.0	;st006 is start of crawl thro to iron chain ladder pitch
+006	007	06.18	214.0	-33.0
+007	008	07.33	 -	DOWN	;st008 is bottom of pitch at floor level
+
+007	009	06.98	305.0	-20.0	;this is ledge route to bypass ptich
+009	010	04.89	 -	DOWN	;st010 is head height in lower passage below steps
+010	011	10.58	302.0	-13.0	;st011 is sitting bridged across 2m drop to lower passsage other bypass near on left
+;011	012	13.80	332.0	-18.0
+011	012	13.80	322.0	-18.0	;possible mishearing or dyslexia 322 works much better
+012	013	03.34	 -	DOWN	;st013=trident04.019
+
+011a	011b	02.83	 -	UP	;st011a=tag trident04.015a
+011b	011c	05.74	168.0	+32.0	;st011c is before small step up +1.5m
+011c	011d	05.69	145.0	+13.0	;st011d is before small step up +1m
+011d	011e	10.00	110.0	+07.0
+011e	011	08.11	117.0	+04.0
+
+*end	trident05

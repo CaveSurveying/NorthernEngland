@@ -1,0 +1,23 @@
+;Cave:	County Pot - Side passage off bottom of Snake
+;Surveyors:	R.Duffy/T.Eastwood/H.Blyth
+;Date:	20/03/04
+;Instruments:	PAG
+
+;;*equate	cy3b.001 cy3.33
+
+*begin	cy3b
+*export 001
+
+*calibrate compass	+5.00
+*calibrate clino	+0.50
+*calibrate tape		00.0
+
+*flags duplicate ; (Confusion Corner) tie-in duplicates 32-33 in cy3
+001	002	10.54	151.5	+15.0	;st001=st33cy3 Pinnacle up Snake from junction with Showerbath Passage
+*flags not duplicate
+002	003	03.80	266.0	+40.0	;st003 is top of loose boulder pile at ent. to passage up high
+003	004	04.17	200.5	+18.0
+004	005	01.60	 -	UP
+005	006	03.40	135.0	+10.0	;st006 is choke (passage was open in 94 now blocked
+
+*end	cy3b

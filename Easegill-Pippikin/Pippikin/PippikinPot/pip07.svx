@@ -1,0 +1,23 @@
+;Cave:	Pipikin- head of 50ft pitch
+;Surveyors:	Beardy/PW/LB/EH
+;Date:	28/12/98
+;Instruments:	kit3
+
+;*equate	pip07.001	pip.018
+
+*begin	pip07
+*export 001
+
+*calibrate compass	+5.45
+
+001	002	03.30	241.0	 00.0
+002	003	06.40	263.0	 00.0
+003	003a	01.50	152.0	 00.0
+003a	003b	07.80	 -	DOWN	;continues tight outlet lead?
+003	004	05.70	152.0	 00.0
+004	005	07.20	245.0	 00.0
+005	006	03.50	278.0	 00.0
+006	007	01.80	204.0	 00.0
+007	008	04.00	230.0	 00.0	;continues tight, lead?
+
+*end	pip07

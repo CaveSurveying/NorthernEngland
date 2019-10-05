@@ -1,0 +1,23 @@
+;Cave:	Borehole - Stal Passage from climb up from streamway Pool Sink end
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:	04/09/05
+;Instruments:	PAG/disto
+
+;*equate	b2.008 b03.221 ;cairn on ledge opposite climb through boulders
+
+*begin	b2
+*export 008
+
+*calibrate compass	+4.00
+*calibrate clino	+1.00
+*calibrate tape		 0.00
+
+002	001	03.86	249.0	+01.0	;st001 is head height with back against large boulder at start of boulder choke
+003	002	02.30	210.0	-26.0
+004	003	03.51	270.0	-04.0
+005	004	01.08	301.0	 00.0
+006	005	08.83	235.0	-01.0
+007	006	06.67	313.0	-02.0
+008	007	11.36	308.0	+01.0	;st008=small cairn on ledge
+
+*end	b2

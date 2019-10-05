@@ -1,0 +1,44 @@
+; all Bull Pot of the Witches files
+
+*begin BullPotOfTheWitches
+
+*equate bw01.012 bw10.015 ; from bw01.svx
+*equate bw01.012 bw12.007 ; from bw01.svx
+*equate bw01.022 bw02.019 ; from bw01.svx
+*equate bw01.022 bw03.001 ; from bw01.svx
+*equate bw01.032 bw04.001 ; from bw01.svx
+*equate bw02.019 bw03.001 ; from bw02.svx
+*equate bw03.027 bw06.017 ; from bw03.svx
+*equate bw03.027 bw09.011 ; from bw03.svx
+*equate bw04.019 bw05.001 ; from bw04.svx
+*equate bw06.001 bw09.001 ; from bw06.svx
+*equate bw06.003 bw07.001 ; from bw06.svx
+*equate bw06.017 bw09.011 ; from bw06.svx
+*equate bw07.002 bw08.009 ; from bw07.svx
+*equate bw10.002 bw11.018 ; from bw10.svx
+*equate bw10.002 bw13.001 ; from bw10.svx
+*equate bw10.015 bw12.007 ; from bw10.svx
+*equate bw11.001 bw12.001 ; from bw11.svx
+*equate bw11.018 bw13.001 ; from bw11.svx
+*equate bw13.004 bw14.001 ; from bw13.svx
+
+*fix bw01.000 66221.29 81294.57 293.84 	;ev.ss26.008a
+
+*entrance bw01.004
+
+*include	bw01
+*include	bw02
+*include	bw03
+*include	bw04
+*include	bw05
+*include	bw06
+*include	bw07 ; most of superceded by Bw08
+*include	bw08
+*include	bw09
+*include	bw10
+*include	bw11
+*include	bw12
+*include	bw13
+*include	bw14
+
+*end BullPotOfTheWitches

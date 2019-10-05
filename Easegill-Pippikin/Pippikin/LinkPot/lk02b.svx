@@ -1,0 +1,28 @@
+;Cave:		Link Pot - Black Holes digs
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:		14/06/07
+;Instruments:	SAP + disto	
+
+;*equate	lk02b.005 lk02.032 ;tag at Black Holes	
+
+*begin	lk02b
+*export 005
+
+*calibrate compass		0.00
+*calibrate clino		0.00
+*calibrate tape		0.00	
+
+002	001	03.33	254.0	+02.0	;st001 is far side of small chamber
+
+002	002a	04.30	 -	DOWN	;st002a is bottom of pit
+
+002	003	05.74	055.0	+02.0	;s002 is above drop to pit
+004	003	08.71	241.0	-10.0
+004	005	00.40	 -	UP	;st005=tag Black Holes chamber
+
+
+006	005	05.91	064.0	+16.0	;st006 is heaad height sitting in crater of dig
+006	007	00.97	 -	DOWN
+007	008	05.30	156.0	-36.0	;st008 is end of dig
+
+*end	lk02b

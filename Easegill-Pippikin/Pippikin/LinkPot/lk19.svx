@@ -1,0 +1,44 @@
+;Cave:		Link Pot - Tiger's Inlet Downstream toward the Ramp (part 1)
+;Surveyors:	R,Duffy/S.Lieberman
+;Date:		03/04/08
+;Instruments:	MKO + disto
+
+;*equate	lk19.001 lk02.020 ;bolt at Tiger's Inlet
+;*equate	lk19.001 lk02i.014b ;bolt at Tiger's Inlet
+;*equate lk19.000 lk02i.014a ;bolt on opposite side of Tiger's Inlet
+;*equate	lk19.000 lk06.007 ;tag at new bolt for ladder to stream
+;*equate lk19.001 lk19i.001 ;bolt at Tiger's Inlet
+;*equate lk19.012 lk20.001 ;st012=tag at junction
+;;*equate lk19.012 lk22.025 ;st012=tag at junctions
+
+*begin	lk19
+*export 001
+*export 000
+*export 012
+
+*calibrate compass	+5.00
+*calibrate clino	+1.00
+*calibrate tape		 0.00
+
+*fix 001 66878.69 80331.22 258.13 ;st001 is old chain bolt at Tigers Inlet
+
+002	001	05.20	171.0	+46.0	;st001=bolt at Tiger's Inlet
+002	003	02.37	216.0	-25.0
+003	004	03.86	295.0	-09.0	;st004 has high oxbow to left absk to st006
+004	005	05.87	232.0	-11.0
+005	006	03.83	260.0	-05.0
+006	007	04.28	258.0	-09.0	;between st006 and st007 stream leaves to right
+008	007	03.28	033.0	-14.0
+008	009	03.45	242.0	+01.0
+009	010	02.43	198.0	+05.0	;st010 is standing on block
+010	011	03.40	128.0	-12.0
+011	012	14.14	227.0	-02.0	;st012=tag at junction
+
+;Surveyors:	R,Duffy/S.Lieberman
+;Date:		27/04/08
+;Instruments:	MKO + disto
+
+
+000	001	04.23	150.0	-06.0	;st000=tag next to bolt for ladder to stream
+
+*end	lk19

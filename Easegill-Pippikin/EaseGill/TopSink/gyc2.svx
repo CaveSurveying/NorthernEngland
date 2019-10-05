@@ -1,0 +1,25 @@
+;Cave:	Gypsum Cavern crawls & digs off GyC1.016
+;Surveyors:	Ray Duffy/Hugh St.Lawrence/Mark Savage/Stephen Lee/Julie Marshall
+;Date:	28/03/98pm
+;Instruments:	PAG Kit
+
+;*equate	gyc2.000	gyc1.016
+
+*begin	gyc2
+*export 000
+
+*calibrate compass	+5.00
+
+;start to	dist.	compass	clino	;comments
+
+000	001	07.50	268.5	-36.0	;st000=gyc1.016
+001	002	05.00	050.0	-09.0	;001=st.016a on GyC1 notes is lip of overhang at bottom of slope
+002	003	01.60	076.5	 00.0
+003	004	03.00	326.0	-35.0	;st.004=016d crawl junction / Right branch not survey yet????
+004	005	03.60	280.0	-04.0
+005	006	06.10	219.0	+01.0
+006	007	15.60	170.0	+01.0
+007	008	03.90	149.0	+04.0
+;008	009		214.0		;sighting up to wards end too tight
+
+*end	gyc2

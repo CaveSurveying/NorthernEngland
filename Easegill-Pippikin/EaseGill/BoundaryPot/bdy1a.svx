@@ -1,0 +1,19 @@
+;Cave:		Boundary Pot - Inlet high in second chamber
+;Surveyors:	S.Lieberman/R.Duffy/P.Wilkinson
+;Date:		29/07/07
+;Instruments:	PAG + disto
+
+;*equate	bdy1a.001 bdy1.008 ;tag on corner
+
+*begin	bdy1a
+*export 001
+
+*calibrate compass		+3.00
+*calibrate clino		+0.50
+*calibrate tape		 0.00
+
+001	002	04.66	161.0	+05.0	;st001=tag on corner
+003	002	04.72	063.0	-42.0	;st003 is lying at ent. to passage
+003	004	04.78	220.0	+02.0	;3m beyond st004  bedding too tight
+
+*end	bdy1a

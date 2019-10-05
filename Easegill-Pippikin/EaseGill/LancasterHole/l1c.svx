@@ -1,0 +1,25 @@
+;Cave:	Hole at start of Lanc Hole in trench
+;Surveyors:	James/hugh Penney/Ray Duffy
+;Date:	04/12/99
+;Instruments:	PAG
+
+;;*equate	l1c.000	l1.004
+
+*begin	l1c
+*export 000
+
+*calibrate compass	+6.00
+
+000	001	04.50	240.0	+02.0	;st000=tag bottom fo shaft
+001	002	05.60	 -	DOWN
+001	002a	14.60	 -	DOWN
+002a	002b	08.00	 -	DOWN	;st002b is bottom of hole??
+002	003	07.10	241.0	-03.0
+003	004	01.70	 -	DOWN
+004	005	05.20	272.0	-54.0
+005	006	04.60	137.0	-03.0
+006	007	06.40	157.0	-06.0
+007	008	05.00	 -	DOWN
+008	009	07.70	152.0	+32.0	;st009 is bottom of climbs from route to Sand Caverns
+
+*end	l1c

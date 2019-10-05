@@ -1,0 +1,22 @@
+;Cave:	Borehole - Stream Passage off from awkward 10ft climb down from Mottershead's Chamber passage
+;Surveyors:	S.Lieberman/R.Duffy
+;Date:	04/09/05
+;Instruments:	PAG/disto
+
+;*equate b3.005	b03.106 ;head height at foot of 10ft climb
+
+*begin	b3
+*export 005
+
+*calibrate compass	+4.00
+*calibrate clino	+1.00
+*calibrate tape		 0.00
+
+002	001	08.34	147.0	+22.0	;st001 is at foot of boulder chake at end of stream passage
+003	002	09.12	150.0	+07.0	;st002 has small aven to left and small wet oxbow to right
+004	003	03.89	187.0	-43.0
+005	004	06.40	165.0	-31.0	;st005 is head height at foot of 10 ft climb
+006	005	02.14	240.0	+20.0	;st006 is entrance to small side passage and choke
+006	007	07.60	080.0	+33.0	;st007 is top of choke
+
+*end	b3

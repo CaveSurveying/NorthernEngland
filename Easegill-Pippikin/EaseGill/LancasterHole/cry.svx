@@ -1,0 +1,29 @@
+;Cave:	Lancaster Hole - Crystal Passage from Carrot Chamber to Old English Chamber
+;Surveyors:	S.Lieberman/A.Whitney
+;Date:	06/12/04
+;Instruments:	5
+
+;*equate cry.012	car1.011
+;*equate cry.001	man1.034 ;tag OEC
+
+*begin	cry
+*export 001
+*export 012
+
+*calibrate compass	-3.00
+*calibrate clino	+2.00
+*calibrate tape		+9.10
+
+001	002	13.44	321.0	-06.0	;st001=tag in OEC at MBy end
+002	003	10.29	 -	DOWN	;inot crawl MLT end
+003	004	10.55	329.0	-27.0
+005	004	17.48	249.0	-02.5
+006	005	14.51	215.0	-01.0
+007	006	12.48	132.0	+09.0
+008	007	11.43	082.0	+01.0
+009	008	15.58	154.0	 00.0
+010	009	10.97	096.0	+04.0
+011	010	21.58	144.0	+01.0
+012	011	12.00	178.0	+16.0	;st012 is stal on large boulder in chamber
+
+*end	cry

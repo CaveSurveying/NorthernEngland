@@ -1,0 +1,25 @@
+;Cave:	Pool Sink - Side Passage just before Holbeck Junction in Green & Smelly
+;Surveyors:	A.Whitney/S.Lieberman
+;Date:	10/11/05
+;Instruments:	PAG + disto
+
+;*equate	p1aii.000 p1a.103 ;start of side passage
+
+*begin	p1aii
+*export 000
+
+*calibrate compass	+4.00
+*calibrate clino	+1.00
+*calibrate tape		 00.0
+
+000	001	00.60	-	UP	;made up leg to get survey to right height
+001	002	02.45	134.0	-20.0
+002	003	01.43	098.0	+15.0
+003	004	02.17	120.0	+33.0
+004	005	01.99	122.0	+25.0	;bedding with rift in roof
+005	006	02.66	135.0	+10.0
+006	007	01.63	092.0	+03.0
+007	008	01.73	198.0	-04.0	;beyond is squeeze past death boulder
+008	009	06.50	104.0	 00.0	;passage of crumbly shite estimated
+
+*end	p1aii

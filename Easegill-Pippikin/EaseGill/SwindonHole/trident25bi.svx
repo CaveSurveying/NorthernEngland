@@ -1,0 +1,54 @@
+;Cave:	Trident - bedding abovve splash inlet, upstream connection to Swindon Hole
+;Surveyors:	Hugh St Lawrence Instruments
+;		S.Lieberman	 tape, notes, pictures
+;Date:	15/04/03
+;Instruments:	PAG
+
+;*equate trident25b.001	trident17.007b
+;;*equate trident25b.010 swh.026
+
+*begin	trident25bi
+*export 010
+*export 001
+
+*calibrate compass	+4.50
+*calibrate clino	+1.00
+*calibrate tape		+1.00
+
+;001	002	05.48	141.0	+06.0	;Surveyed to wrong point
+001	002	03.48	141.0	+06.0	;Actual tape reading was 05.48 but stn001 was not coincedent with a stn in trident17
+002	003	03.46	063.0	-01.0	;stn002 entrance to crossover crawl dug through
+003	004	08.93	144.0	+17.0	;stn003 breakthrough chamber, base of rift.
+004	005	08.92	146.0	+23.0	;stn004 cobble step in rift
+005	006	04.53	-	 UP	;stn005 base of chimney climb
+006	007	04.42	067.0	 00.0	;stn006 top of chimney climb
+007	008	04.68	135.0	+08.0	;stn007 cobble slope after climb down from bedding above chimney climb
+008	009	13.72	078.0	+06.0
+;Surveyors:	S.Lieberman Instruments
+;		R.Duffy	 tape, notes, pictures
+;Date:	19/04/03
+;Instruments:	PAG
+
+*calibrate compass	+5.00
+*calibrate clino	+0.05
+*calibrate tape	+2.00
+
+009	009a	13.34	353.0	+01.0	;*on left wall of roof of open cobbled bedding needs crowbar
+	
+;Surveyors:	Hugh St Lawrence Instruments
+;		S.Lieberman	 tape, notes, pictures
+;Date:	15/04/03
+;Instruments:	PAG
+*calibrate compass	+4.50
+*calibrate clino	+1.00
+*calibrate tape		+1.00
+010	009	12.95	292.0	-01.0	;stn009 second longest stal in roof opposite possible branch in wide bedding
+;011	010	12.16	315.0	-02.0	;stn010	stal in roof just past jct to the left in cobbled bedding
+;012	011	03.27	252.0	-02.0	;stn011 just out from wall in twisting rift above bedding
+;013	012	07.89	304.0	-01.0	;stn012 next to stal column RH side
+;014	013	05.02	027.0	+20.0	;stn013 roof in centre of jct, sumpy looking bit to the right
+;015	014	05.04	339.0	 00.0	;stn014 lip of roof on corner of the sumpy bit
+;016	015	03.87	065.0	-08.0	;stn015 lip of roof leading out of sumpy bit, cobble slope to the left
+;017	016	03.17	143.5	+05.0	;stn016 nose of rock on RHS, stn017 is tag on RH wall
+
+*end	trident25bi

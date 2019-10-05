@@ -1,0 +1,32 @@
+;Cave:		Top Sink - Old Limerick Passage - continuation
+;Surveyors:	S.Lieberman (Notes)
+;		M.Shinwell (Instruments)
+;Date:		15/03/08
+;Instruments:	1 + tape
+
+;*equate t06aiii.e t06ai.021	;tip of stal RH wall near climb down
+
+*calibrate compass	+5.00
+*calibrate clino	 0.00
+*calibrate tape		 0.00
+
+*begin	t06aiii
+*export e
+
+021	020	05.01	037.0	+34.0	;stream heard below st020
+022	021	01.45	352.0	+19.0
+023	022	02.73	054.0	+12.0
+023	024	02.00	206.0	-05.0
+e	020	03.08	030.0	+09.0	;stE is stal on last part of T06ai
+026	e	01.65	025.0	 00.0
+027	026	02.00	025.0	 00.0	;estimated leg	
+
+*end	t06aiii
+
+;st	L	R	U	D	;details
+;020	0.2	0.2	2.0	0.2
+;021	0.5	0.3	0.8	1.5
+;022	0.3	0.2	0.9	0.4
+;023	0.2	0.1	0.4	0.2
+;024	0.1	0.2	0.4	0.3
+;026	0.2	0.1	1.2	2.2

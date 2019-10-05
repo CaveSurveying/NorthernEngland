@@ -1,0 +1,34 @@
+;Cave:		Pipikin Pot - Red Wall Chamber toward Rat Bag
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:		24/10/07
+;Instruments:	PAG + disto
+
+;*equate	pip26.001 pip25.014 ;st001=tag on stal on right wall
+;*equate	pip26.004 pip27.001 ;moveable stal on edge of Red Wall Chamber
+
+*begin	pip26
+*export 001
+*export 004
+
+*calibrate compass		+3.00
+*calibrate clino		+0.50
+*calibrate tape		  0.00		
+
+001a	001	01.83	121.0	+17.0
+001a	001b	04.05	240.0	-36.0	;st001b is floor of alcove below climb down
+
+002	001	06.28	296.0	+10.0	;st002 is floor of small chamber with phreatic tubes in roof?
+002	003	06.46	111.0	+01.0
+004	003	02.91	335.0	-06.0	;st004 is moveable stal on edge of Red Wall Chamber
+005	004	06.43	342.0	+52.0	;st005=tag at entrance to streamway
+005	006	03.71	154.0	-20.0
+006	007	05.76	158.0	+01.0
+007	008	06.12	065.0	+05.0	;st008 is junction with passge to left oxbow to White Wall
+008	009	02.73	128.0	+03.0
+009	010	05.68	092.0	+06.0
+011	010	00.60	204.0	-04.0	;st011=tag in roof of false floor at junction
+011	012	02.77	142.0	+04.0
+012	013	04.69	182.0	 00.0
+013	014	07.51	190.0	-01.0	;st014 is right wall of wet crawl on first bend
+
+*end	pip26

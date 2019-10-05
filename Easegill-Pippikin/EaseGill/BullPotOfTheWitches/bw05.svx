@@ -1,0 +1,21 @@
+;Cave:		Bull Pot of the Witches (Downstream from Duck through the Trap)
+;Surveyors:	Ray Duffy/Andy Hall
+;Date:		08/06/97 pm
+;Instruments:	No.2 kit
+
+;*equate	bw05.001	bw04.019
+
+*begin	bw05
+*export 001
+
+*calibrate compass	+5.17
+
+001	002	14.30	161.0	-11.0	;st001=st019=knot on end of duck line
+002	003	01.80	 -	DOWN	;st003=water level the TRAP
+003	004	07.20	169.0	 00.0
+004	005	03.90	140.0	+30.0
+005	006	04.50	195.0	+06.5
+006	007	06.10	195.5	-03.5	;bearing should be 195.5 not 015.5
+007	008	01.00	 -	UP	;st008=knot st end of divers line
+
+*end	bw05

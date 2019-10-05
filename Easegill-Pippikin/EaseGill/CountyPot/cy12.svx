@@ -1,0 +1,69 @@
+;Cave:	County Pot
+;Surveyors:	R.Duffy/P.Swire/A.Clarke/D.Davis
+;Date:	30/12/00
+;Instruments:	PAG
+
+;;*equate	cy12.001	cy10.041
+;;;;*equate	cy12.041	maw1.026 ;not needed as cy12a.001 does the job
+;equate	cy12.001	cy2a.016
+;;;*equate	cy12.017	sylv1.syl2.425
+
+;;*equate	cy12.002	cy15.001
+;;*equate	cy12.038	cy12a.004	;bottom of climb up to passage to Ease Gill Aven
+;;*equate cy12.017 cy10c.041 ;Platypus junc. tag
+;;*equate cy12.025	cy12b.002 ;downstream end of Molluscan Hall before slope to stream
+
+*begin	cy12
+*export 025
+*export 002
+*export 001
+*export 038
+*export 017
+
+*calibrate compass	+5.00
+
+*fix 001 67403.14 80673.44 259.51 ;aadw.cy12.001
+*fix 017 67286.07 80677.75 251.46 ;aadw.cy12.017 tag at Dismal Junc.
+
+001	002	01.40	333.0	-20.0	;st001=tag left of platypus nose
+002	003	07.20	271.0	-09.0	;st002 is end of Platypus Nose
+003	004	07.10	250.0	-01.0	;st1 to 4 is in stream with dry oxbow to left
+004	005	16.80	254.0	 00.0
+005	006	12.57	281.0	-05.0
+006	007	06.80	318.0	+07.0
+007	008	05.35	282.0	 00.0
+008	009	06.10	292.0	-02.0	;st009 has small oxbow to left
+009	010	09.95	272.0	+02.0	;st010 has inlet to left?
+010	011	06.80	236.0	+03.0	;st011 has inlet to left and oxbow to left to st12
+011	012	16.60	284.0	-01.0
+012	013	06.40	214.0	+05.0	;st013 has inlet to left 174deg for 7m?
+013	014	05.60	264.0	-12.0
+014	015	10.30	308.0	-01.0
+015	016	12.60	321.0	-03.0
+016	017	05.60	252.0	 00.0	;st017=tag in roof on corner of Clough's Passage
+017	018	07.80	290.0	 00.0	;st018 on dryish ledge right of passage
+018	019	09.90	284.0	+01.0	;st019 is boulder top as leaving water
+019	020	01.10	 -	UP
+020	021	01.70	347.0	-16.0	;st021=UP70 top of obvious large boulder in Molluscan Hall start(A.Halls st.A for Dismal Bypass)
+021	022	12.60	311.0	+06.0
+022	023	09.40	326.0	-07.0
+023	024	10.50	289.0	 00.0
+024	025	07.20	359.0	-31.0	;gravelly drop back to stream from left hand side of M.H.
+025	026	13.90	333.0	+01.0	;st026 on ledge left out of stream 
+026	027	07.40	339.0	+09.0	;st027 is start of gravelly bedding crawl
+027	028	13.60	299.0	 00.0
+028	029	01.00	293.0	-21.0	;st029 is drop out of crawl
+029	030	03.90	209.0	 00.0
+030	031	00.80	 -	UP
+031	032	02.70	253.0	-02.0
+032	033	01.50	199.0	-08.0
+033	034	02.30	251.0	+41.0
+034	035	01.75	 -	UP	;st29 to 35 is through boulder chambers
+035	036	06.90	281.0	+23.0	;st035 is top of glutinous mud ledge
+036	037	09.30	276.0	 00.0	;st037 has trench below?
+037	038	08.10	304.0	 00.0
+;038	039	06.90	159.0	+05.0	;st039 has passage off to right to (Snail????)
+;039	040	03.20	 -	UP	;between 40 & 41 is small passage to left
+;040	041	11.20	143.0	+03.0	;st041=bottom of rope Ease Gill Aven
+
+*end	cy12

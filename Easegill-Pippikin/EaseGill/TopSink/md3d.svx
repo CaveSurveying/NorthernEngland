@@ -1,0 +1,35 @@
+;Cave:	Lancaster Hole - Assembly Hall part 2 (crawls at bottom)
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:	28/05/06
+;Instruments:	PAG + disto
+
+;;*equate	md3d.001 md3.001 ;bolt hole at bottom of climb
+
+*begin	md3d
+*export 001
+
+*calibrate compass		+4.00
+*calibrate clino		+1.00
+*calibrate tape		  0.00
+
+
+002	001	08.79	192.0	+22.0	;st001 is bolt hole
+002	003	08.90	066.0	+08.0
+
+;start of left hand branch
+
+003	004	02.77	034.0	 00.0	;st004 is start of flat out calcite crawl
+004	005	04.62	328.0	+05.0	;st005 is standing part of passage kne height
+005	006	00.91	 -	UP	;st006 is head height
+006	007	01.50	329.0	+03.0
+008	007	01.59	245.0	-22.0	;st008 is start of level and straw filled passage
+008	009	11.41	074.0	+03.0	;no way to here without destroying stals
+
+;start of right hand passage
+
+003	003a	04.23	089.0	+03.0	;boulder filled passage
+003a	003b	04.89	059.0	+22.0	;st003b is in higher level passage with large stal boss
+003b	003c	06.47	126.0	+12.0
+003c	003d	03.23	063.0	-05.0	;st003d is choke with rift above draughting strongly inwards
+
+*end	md3d

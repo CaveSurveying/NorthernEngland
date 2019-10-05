@@ -1,0 +1,58 @@
+;Cave:	Coutny Pot - Trident -Tag2 near Splash Chamber to Paper Floor over the top route in Jim's Climb
+;Surveyors:	H.St.Lawrence/S.Lieberman
+;Date:	05/11/02
+;Instruments:	1
+
+;*equate	trident17.001	trident01.yt2
+;*equate	trident17.001	trident05.001
+;*equate	trident17.001	trident07.001
+;*equate	trident17.001	trident25.001
+;*equate	trident17.001	trident25a.008
+;*equate trident17.002	trident16.004a
+;*equate trident17.007b	trident25b.001
+;*equate	trident17.010	trident22a.001	;joined to station above rope climb
+;*equate	trident17.013	trident22.001	
+;*equate	trident17.017	trident13.005a
+
+*begin	trident17
+*export 007b
+*export 010
+*export 002
+*export 001
+*export 013
+*export 017
+*export 008
+
+*calibrate compass	+7.00
+*calibrate clino	+3.50
+*calibrate tape	+2.00
+
+001	002	08.01	162.0	+40.5	;st001=tag2 at corner to Broken Ladder Passage and Splash Chamber
+002	003	06.16	167.0	+10.0	;st002 is chipped corner in small oxbow to rope climb
+003	004	06.67	108.0	+23.0	;st003 is right side of large cobble slope
+004	005	05.78	 -	UP	;st005 is top of rope climb
+005	006	03.68	035.0	+11.0	
+006	007	04.94	022.0	-02.0	;st007 is slightly downstream of entrance to streamway
+
+*flags duplicate ; (Trident) duplicated (cut&paste) to trident17i in Swindon Hole
+007	007a	08.37	159.0	+10.0	;a&b are upstream into bedding
+007a	007b	06.35	112.0	 00.0	;st007b is below rift in very low wide bedding filled with cobbles (siting 151deg along joint in roof)
+007	008	04.90	353.0	-01.0	;st008 is right hand side facing downstream just before wiggles to Splash Chamber
+*flags not duplicate
+
+008	009	06.22	120.0	+13.0	;between st008 & st009 through squeeze
+
+009	009i	09.62	140.0	+23.0	;i,ii & iii are in Hanging Roof Hall
+009i	009ii	07.49	133.0	+39.0
+009	009iii	07.50	345.0	+05.0
+
+009	010	09.82	024.0	-05.0
+010	011	04.58	333.0	-01.0
+011	012	07.73	 -	DOWN	;rope pitch
+012	013	05.04	111.0	+05.0
+013	014	04.67	059.0	+04.0
+014	015	04.04	092.0	-07.0
+015	016	05.37	 -	DOWN	;drop from small crawl into Paper-Floor Passage
+016	017	02.50	092.0	 00.0	;st017=tag10
+
+*end	trident17

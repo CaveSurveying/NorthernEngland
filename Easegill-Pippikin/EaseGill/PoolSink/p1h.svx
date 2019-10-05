@@ -1,0 +1,47 @@
+;Cave:	Pool Sink - Magpie Grotto inlets part 3
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:	12/06/05
+;Instruments:	PAG
+
+;*equate p1h.003 p1d.028a ;first inlet downstream of Magpie
+;*equate p1h.016 p1i.005 ;tag opposite inlets in oxbow
+
+*begin	p1h
+*export 003
+*export 016
+
+*calibrate compass	+3.00
+*calibrate clino	-0.50
+*calibrate tape		 0.00
+
+002	001	01.50	178.0	-02.0	;st001 is cobble filled streamway too tight
+002	003	02.64	309.0	-27.0	;st003=tag
+003	004	01.46	306.0	+20.0
+004	005	03.49	 -	UP	;st005 is start of inlet high up in main stream passage
+006	005	03.23	137.0	-04.0
+007	006	02.62	073.0	-34.0	;st007 is head height sitting on boulder in chamber
+
+007a	007	03.10	183.0	-09.0	;st007a is back wall of small blind chamber
+
+007	007x	04.31	188.0	+03.0	;st007x is below 5m blind aven and above Large Oxbow
+007x	007y	05.00	 -	UP	;est to top of aven
+
+007	008	05.11	125.0	+30.0	;climb up into higher part of chamber (well decorated)
+008	009	02.55	195.0	+23.0
+009	010	01.70	170.0	+07.0	;st010 is above first pit into small stream passage
+
+010	010a	04.06	160.0	+04.0	;st010a is choke in inlet beyond pits
+
+010	011	02.27	 -	DOWN
+012	011	02.30	078.0	+23.0
+013	012	02.91	030.0	+22.0
+014	013	01.32	117.0	+33.0
+014	015	02.33	 -	DOWN 	;st015 is bottom of pit into Large Oxbow against wet drippy wall
+015	016	02.64	022.0	-14.0	;st016=tag opposite inlets
+*calibrate compass	-3.50
+*calibrate clino	+5.50
+*calibrate tape		+0.20
+017	016	06.63	222.0	+12.0
+017	018	01.34	113.0	-35.0	;st018=tag at st003
+
+*end	p1h

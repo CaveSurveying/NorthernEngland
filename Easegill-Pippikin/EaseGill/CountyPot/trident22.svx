@@ -1,0 +1,31 @@
+;Cave:	Trident - Various connections from rope climb above Paper Floor tag
+;Surveyors:	H.St.Lawrence/S.Lieberman
+;Date:	07/01/03
+;Instruments:	3
+
+;*equate	trident22.001	trident17.013	;joined to continuation below rope climb
+
+*begin	trident22
+*export 001
+
+*calibrate compass	-2.00
+*calibrate clino	+3.50
+*calibrate tape	+2.00
+
+002	001	04.28	110.0	+03.0	;st001 is one leg back from bottom of rope pitch at cairn
+002	003	03.53	201.5	-02.0
+
+003a	003	03.48	-	UP	;start of hole in the floor stuff
+003b	003a	03.81	174.0	+20.0
+003b	003c	03.42	005.0	-28.0
+003d	003c	03.08	060.0	+39.0
+003d	003e	03.00	300.0	-10.0	;too tight beyond st003e, sound of water and vocal connection to key passage.
+
+003	004	02.82	201.5	-02.0
+004	005	03.45	189.0	+02.0
+
+005	005a	05.20	118.0	+05.0	;st005a is aven with vocal connection at top to top of rope climb.
+
+005	006	05.99	150.0	+05.0	;st006 is aven in bedding, bedding diggable.
+
+*end	trident22

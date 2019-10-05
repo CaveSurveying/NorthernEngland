@@ -1,0 +1,28 @@
+;Cave:	Trident - side passage from tag 11 before boulder chamber
+;Surveyors:	S.Lieberman (Instruments) / H.St.Lawrence (Notes, pictures, tape)
+;Date:	08/07/03
+;Instruments:	4
+
+;*equate	trident28b.001	trident18.017
+
+*begin	trident28b
+*export 001
+
+*calibrate compass	+4.00
+*calibrate clino	 0.00
+*calibrate tape		+3.00
+
+001	002	05.45	035.5	+18.0
+002	003	05.70	127.0	+04.0
+003	004	04.70	047.0	-08.0
+004	005	04.70	  -	 UP
+005	006	05.70	040.0	 00.0
+004	a	04.20	105.0	+03.0
+a	b	05.25	175.0	+04.0
+b	c	06.80	096.0	+09.0
+c	d	04.70	133.0	+38.0
+d	e	04.90	176.0	+05.0
+e	f	07.95	147.0	+01.0
+f	g	11.00	119.0	+05.0
+
+*end	trident28b

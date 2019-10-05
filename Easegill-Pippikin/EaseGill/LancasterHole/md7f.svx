@@ -1,0 +1,36 @@
+;Cave:	Lancaster Hole - Breakdown Chamber part1
+;Surveyors:	S.Lieberman/A.Whitney/Milton grimshaw
+;Date:	29/06/02
+;Instruments:	1
+
+;;*equate	md7f.001	md7c.001
+;;*equate	md7f.016	md7g.001
+;;*equate	md7f.014	md7h.001
+;;*equate	md7f.001	md7h.007
+
+*begin	md7f
+*export 001
+*export 014
+*export 016
+
+*calibrate compass	+3.00
+
+001	002	06.30	163.0	+47.0
+002	003	03.84	139.0	+02.0
+003	004	01.67	 -	UP
+004	005	11.65	127.0	+16.0
+005	006	15.16	150.0	-09.0
+006	007	08.65	193.0	-07.0
+007	008	17.82	111.0	+05.0	;overshot side passage
+
+008	010	09.78	326.0	+14.0	;'The Wormery' side passage on left looping back towards entrance of chamber
+010	011	09.07	352.0	-03.0
+011	012	04.77	323.0	-03.0
+012	013	02.92	317.0	+06.0
+013	014	06.37	330.0	-19.0
+
+008	009	08.13	069.0	+05.0	;continuing in main passage
+009	015	06.44	103.0	+19.0
+015	016	26.45	092.0	+01.0	;st016 is cross on roof of chamber near end
+
+*end	md7f

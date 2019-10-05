@@ -1,0 +1,33 @@
+; all Mistral files
+
+*begin Mistral
+
+*export ms.035
+
+*equate ms.010 ms2.001 ; from ms2.svx.bak
+*equate ms.016a ms1.001 ; from ms1.svx.bak
+*equate ms.016a ms4.001 ; from ms4.svx.bak
+*equate ms.018 ms4.004a ; from ms4.svx.bak
+*equate ms.022 ms3a.008c ; from ms3a.svx.bak
+*equate ms1.001 ms4.001 ; from ms1.svx.bak
+*equate ms3a.010 ms3b.001 ; from ms3b.svx.bak
+*equate pip12.006b pip13.004 ; from pip12.svx.bak
+*equate pip12.009k pip14.001 ; from pip12.svx.bak
+*equate	ms.018	pip12.001
+*equate	ms4.004a	pip12.001
+*equate	ms.016a	pip13.001
+*equate	ms1.001	pip13.001
+*equate	ms4.001	pip13.001
+
+*include	ms
+*include	ms1
+*include	ms2
+*include	ms3a
+*include	ms3b
+*include	ms4
+*include	pip12
+*include	pip13
+*include	pip14
+
+*end Mistral
+

@@ -1,0 +1,38 @@
+;Stop Pot to Holbeck Junction
+
+*begin UpperMainDrain
+
+*export md2ai.022
+*export md2ci.001
+*export md2b.024
+*export md2ci.016
+*export md2ai.106
+*export md3c.010
+*export md3c.009
+*export md3.027
+
+*equate md2ai.001 md3c.006 ; from md2ai.svx
+*equate md2ai.101 md2b.010a ; from md2ai.svx
+*equate md2ai.101 md2ci.001 ; from md2ai.svx
+*equate md2ai.107 md2bi.021 ; from md2ai.svx
+*equate md3.001 md3c.001 ; from md3c.svx
+*equate md3.001 md3d.001 ; from md3d.svx
+*equate md3.006 md3b.001 ; from md3b.svx
+*equate md3.027 md3i.001 ; from md3i.svx
+*equate md3b.008 md3bi.009 ; from md3bi.svx
+*equate md3i.022 md3ii.004 ; from md3ii.svx
+
+*include	md2ai
+*include	md2b
+*include	md2bi
+*include	md2ci
+*include	md3
+*include	md3i
+*include	md3ii
+*include	md3b
+*include	md3bi
+*include	md3c
+*include	md3d
+;*include	md3a
+
+*end UpperMainDrain

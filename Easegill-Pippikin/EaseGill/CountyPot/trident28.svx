@@ -1,0 +1,26 @@
+;Cave:	Trident - Tight passage from tag in Key passage LH branch
+;Surveyors:	S.Lieberman (Instruments) / H.St.Lawrence (Notes, pictures, tape)
+;Date:	08/07/03
+;Instruments:	4
+
+;*equate	trident28.001	trident12.007
+
+*begin	trident28
+*export 001
+
+*calibrate compass	+4.00
+*calibrate clino	 0.00
+*calibrate tape		+3.00
+
+002	001	03.50	162.4	 00.0
+003	002	03.85	295.0	+05.0
+004	003	04.70	342.0	-02.0
+005	004	05.25	316.0	-02.0
+006	005	04.15	256.0	-06.0
+007	006	11.60	331.0	-07.0
+
+; Grade 1 bit
+007	008	04.50	109.0	-07.0
+008	009	05.50	174.0	+02.0
+
+*end	trident28

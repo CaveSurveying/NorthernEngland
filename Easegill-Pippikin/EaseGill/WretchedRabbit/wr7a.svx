@@ -1,0 +1,27 @@
+;Cave:	Wretched Rabbit - Inlet of Parallel Streamway
+;Surveyors:	H.St.Lawrence/A.Hall
+;Date:	12/01/03
+;Instruments:	5
+
+;*equate	wr7a.003	wrb.017
+
+*begin	wr7a
+*export 003
+
+*calibrate compass	0.00
+*calibrate clino	+1.00
+*calibrate tape	+1.00
+
+;001	002	06.00	036.0	-20.0	;st001 is start of passage off Big Rift
+;002	003	06.40	008.0	-03.0	;st003 is junction of inlet and Parallel Streamway
+003	004	03.80	142.0	+09.0
+004	005	02.35	091.0	+04.0	;between 4 & 5 is small oxbow on left
+005	006	02.75	175.0	+24.0
+006	007	02.80	221.0	+19.0
+007	008	06.40	127.0	+09.0
+008	009	02.10	078.0	-08.0
+009	010	02.40	144.0	-05.0
+010	011	06.10	093.0	+06.0
+011	012	12.00	118.0	+10.0	;st012 is choke,4m after st011 is small inlet on left where water enters
+
+*end	wr7a

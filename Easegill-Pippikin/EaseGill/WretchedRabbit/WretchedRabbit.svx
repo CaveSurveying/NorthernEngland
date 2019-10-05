@@ -1,0 +1,90 @@
+;Contains all Wretched Rabbit files
+
+*begin WretchedRabbit
+
+*export wra.001
+*export wr.117
+*export wr15.010
+*export wr16.004
+*export wr18.005d
+
+*equate wr.010 wra.017 ; from wra.svx
+*equate wr.010 wrb.001 ; from wrb.svx
+*equate wr.038 wr16.001 ; from wr16.svx
+*equate wr.053 wr18.001 ; from wr18.svx
+*equate wr.066 wr19.001 ; from wr19.svx
+*equate wr.078 wr24.004 ; from wr24.svx
+*equate wr.084a wr12a.006a ; from wr12a.svx
+*equate wr.098 wr14.012 ; from wr14.svx
+*equate wr12.001 wr12a.002 ; from wr12a.svx
+*equate wr12a.007 wr13.001 ; from wr12a.svx
+*equate wr13.001 wr24.001 ; from wr13.svx
+*equate wr13.009 wr13a.029 ; from wr13a.svx
+*equate wr13a.009 wr18.007m ; from wr13a.svx
+*equate wr18.003 wr19.016 ; from wr18.svx
+*equate wr18.007e wr18a.007 ; from wr18a.svx
+*equate wr18.007 wr21.001 ; from wr18.svx
+*equate wr7a.003 wrb.017 ; from wr7a.svx
+*equate wra.006 wrai.008 ; from wrai.svx
+*equate wra.006 wrc.022a ; from wra.svx
+*equate wra.006 wrg.001 ; from wra.svx
+*equate wra.017 wraii.001 ; from wraii.svx
+*equate wra.017 wre.001b ; from wra.svx
+*equate wrb.017 wrc.017 ; from wrb.svx
+*equate wrc.021a wrg.010c ; from wrc.svx
+*equate wrc.028 wrci.001 ; from wrci.svx
+*equate wrd.001 wrf.008k ; from wrd.svx
+*equate wrd.015 wrg.008 ; from wrd.svx
+*equate wre.008b wrf.008b ; from wre.svx
+*equate wre.011 wri.001 ; from wre.svx
+*equate wrf.008fi wrh.013 ; from wrf.svx
+*equate wrg.010 wrh.001 ; from wrg.svx
+*equate wr14.012 wr15.019 ; from wr14.svx
+*equate wr.105a wr15.010e ; from wr15.svx
+*equate wr.105a wr15a.001
+*equate wr16.004 wr17i.001
+*equate wr18.005d wr17i.005
+
+*include	wr
+*include	wra
+*include	wrb
+*include	wrc
+*include	wrci
+*include	wrd
+*include	wre
+*include	wrf
+*include	wrg
+*include	wrh
+*include	wri
+*include	wrai
+*include	wraii
+*include	wr7a
+;;*include	wr8i ;not needed any more
+;;*include	wr8ii ;not needed any more
+*include	wr12
+*include	wr12a
+*include	wr13
+*include	wr13a
+*include	wr14
+*include	wr15
+*include	wr15a
+*include	wr16
+;;*include	wr16a	;used to check wr16
+; *include	wr17 ; included in Depot passages
+*include wr17i ; contains that part of Depot passage survey actually in WR
+*include	wr18
+*include	wr18a
+*include	wr19
+; *include	wr20 ; included in Depot passages
+*include	wr21
+; *include	wr22 ; included in Depot passages
+; *include	wr22a ; included in Depot passages
+; *include	wr22b ; included in Depot passages
+; *include	wr22c ; included in Depot passages
+; *include	wr22d ; included in Depot passages
+*include	wr24
+; *include	wr25 ; included in County Pot passages
+; *include	wr26 ; included in Depot passages
+; *include	wr27 ; included in Depot passages
+
+*end WretchedRabbit

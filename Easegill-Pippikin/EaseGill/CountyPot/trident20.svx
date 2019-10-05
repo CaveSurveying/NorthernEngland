@@ -1,0 +1,40 @@
+;Cave:	County Pot - Trident - from tag at bottom of Guillotine Aven (Final Chamber) to tag 9a at bottom of Bedsted Chamber
+;Surveyors:	R.Duffy/A.Whitney/S.Lieberman
+;Date:	10/02/12
+;Instruments:	PAG
+
+;*equate	trident20.001	trident12.004	;joined at Final Chamber(bottom of Guil.Aven)
+;*equate	trident20.001	trident19.005c	;joined at Final Chamber(bottom of Guil.Aven)
+;*equate	trident20.001	trident21.001	;joined at Final Chamber(bottom of Guil.Aven)
+;*equate	trident20.002h	trident13.002	;tag in bottom of Bedstead Chamber
+;*equate	trident20.002h	trident19.001	;tag in bottom of Bedstead Chamber
+;*equate	trident20.002h	trident22a.006	;tag in bottom of Bedstead Chamber
+;*equate trident20.002ci trident20a.001 ;tag into aven on right facing downstream
+
+*begin	trident20
+*export 001
+*export 002ci
+*export 002h
+
+*calibrate compass	+4.50
+*calibrate clino	00.0
+*calibrate tape	+1.00
+
+001	002	05.89	142.0	+35.0	;st001=tag 9a at bottom of Guillotine Aven in Final chamber
+002	002a	04.11	000.0	+11.5	;st002a is on lip of passage on left facing up slope of chamber at head height
+002a	002b	04.39	328.0	-23.0	;heading downstream st002b is opposite an eyehole through to wet Final Chamber
+002b	002c	04.14	350.0	-12.0
+
+002c	002ci	02.36	 -	UP	;st002ci=tag for survey into aven on right facing downstream
+
+002c	002d	01.80	000.0	+05.0
+002d	002e	02.95	270.0	-42.0
+
+002e	002ei	01.87	 -	DOWN
+002ei	002eii	01.55	289.0	+04.0	;st002eii is 10cm from roof of stream passage below this survey
+
+002e	002f	02.80	007.0	+49.0
+002f	002g	06.03	310.5	-13.0
+002g	002h	05.02	240.0	-06.5	;st002h=tag in Bedstead Chamber
+
+*end	trident20

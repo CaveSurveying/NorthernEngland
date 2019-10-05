@@ -1,0 +1,73 @@
+;Cave:	Pipikin - Far Streamway (cont.)
+;Surveyors:	Hugh St.Lawrence/Sam Lieberman
+;Date:	27/02/99
+;Instruments:	1
+
+;*equate	pip14.001	pip12.009k
+
+*begin	pip14
+*export 001
+
+*calibrate compass	+5.00
+
+;*fix	001	
+
+
+001	001a	03.49	299.0	-21.5	;side passage to sump
+001a	001b	05.63	284.0	-05.0
+001b	001c	06.16	313.0	-01.0	;st001c is junction
+001c	001d	02.00	270.0	-05.0	;st001d=sump
+001c	001e	04.07	358.0	+02.0	;10m of passage beyond not surveyed
+
+001	002	04.87	190.0	-04.0
+002	003	04.50	170.0	-10.0
+003	004	04.34	162.5	 00.0
+004	005	02.30	188.0	+20.0
+005	006	01.75	 -	UP
+006	007	04.48	231.0	-08.0
+007	008	01.47	 -	DOWN
+008	009	06.25	205.0	+11.0
+009	010	10.34	229.0	-06.0
+010	011	06.78	203.0	+03.0
+011	012	05.60	222.0	-01.0
+012	013	06.62	199.0	 00.0
+013	014	05.54	243.0	+02.0
+014	015	09.78	198.0	-07.0
+015	016	07.26	190.0	-12.0	;st016 is junction with Far Streamway
+
+;upstream
+
+016	016a	07.45	326.0	-02.0
+016a	016b	05.80	282.0	-02.0
+016b	016c	06.45	335.0	 00.0
+016c	016d	02.30	011.0	+03.0
+016d	016e	03.50	325.0	 00.0	;continues unsurveyed !!!!!! low and wet
+
+;continuing downstream
+
+016	017	03.87	146.0	-08.0	;small inlet enters at st017 and is small stal next to water level
+
+;up inlet
+
+017	017a	05.30	073.0	+06.0
+017a	017b	05.00	120.0	+03.0	;continues beyond unsurveyed for quite a distance, See Dave Ramsey
+
+;continuing downstream
+
+017	018	08.58	199.0	+02.0
+018	019	09.70	166.0	-01.0
+
+;oxbow
+
+019	019a	10.71	303.0	+11.0
+019a	019b	09.50	010.0	-04.0	;Red Rope aven +15m?
+019b	017	08.33	072.0	-12.0
+
+019	020	19.28	209.0	 00.0
+020	021	28.30	169.0	+04.0	;unsurveyed passage straight ahead under large boulder
+021	022	08.29	108.0	+01.0
+022	023	05.18	168.0	-09.5	;st023 is obvious stal at junction rope hangs down to right unsurveyed chamber in roof?
+023	024	09.41	088.0	-04.5	;slot on shelf to left leads to more passage unsurveyed
+024	025	05.17	116.0	+11.0	;st025 is total mud choke
+
+*end	pip14

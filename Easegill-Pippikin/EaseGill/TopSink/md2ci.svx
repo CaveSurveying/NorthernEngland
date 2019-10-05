@@ -1,0 +1,43 @@
+;Cave:		Lancaster Hole - Rock of Ages to Limerick Junction
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:		21/03/08
+;Instruments:	MKO + disto
+
+;;*equate	md2ci.001 md2ai.101 ;tag Rock of Ages
+;;;*equate md2ci.001 T06aii.001 ;st001=tag Rock of Ages
+;;;*equate	md2ci.016 T01bii.055 ;tag Limerick Juntion UP105
+
+*begin	md2ci
+*export 001
+*export 016
+
+*calibrate compass	+1.00
+*calibrate clino	+0.50
+*calibrate tape		 0.00	
+
+*fix 001 67813.55 81032.37 305.30 ;st001=tag at Rock of Ages
+
+001	002	01.52	 -	UP	;st001=tag at Rock of Ages
+002	003	02.44	321.0	-14.0
+003	004	03.75	048.0	+11.0 ;st004 is head height standing on sandy slope behind huge boulder
+004	005	03.73	123.0	 00.0	;st005 is far side of samll climb down and back up
+005	006	05.50	117.0	-02.0	;st006 is edge of boulder to climb down
+006	007	04.84	072.0	-16.0	
+007	008	05.70	 -	DOWN	;down climbs to lower passage	
+009	008	03.31	231.0	-19.0	;st008 is on floor of climb down,st009 has low 2m bedding to left
+009	010	06.22	081.0	-02.0	;st010is hd.ht.sitting on edge of trench
+
+;oxbow low down on left to Bridge of Sighs
+
+010	010a	01.61	306.0	-30.0	;several 6m holes in floor
+010b	010a	05.14	126.0	-05.0
+010b	012	02.33	028.0	+12.0
+
+010	011	03.39	000.0	+27.0	;st011 is sitting at edge of Bridge of Sighs
+011	012	05.36	306.0	-14.0	;st012 is hd ht in oxbow at edge
+012	013	03.69	026.0	+02.0	;1m step over streamway, bank of fill oxbow to left, BOS to right
+013	014	04.77	347.0	 00.0	;end of other oxbow on opp. side after larger step over streamway
+014	015	06.03	078.0	-02.0	;st014 has oxbow of fill in roof to left and step over to oxbow and st015 straight ahead
+015	016	03.06	031.0	-02.0	;st016=tag Limerick Passage UP105
+
+*end	md2ci

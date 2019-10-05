@@ -1,0 +1,30 @@
+;Cave:	Wretched Rabbit - Upper entrance series - Cross-over Passage
+;Surveyors:	A.Whitney/S.Lieberman
+;Date:	09/05/05
+;Instruments:	kit 4
+
+;*equate wrh.001	wrg.010	;corner of slide through from pitch
+;*equate wrh.013 wrf.008fi ;tag at junction of Cross-over Passage
+
+*begin	wrh
+*export 001
+*export 013
+
+*calibrate compass	+5.00
+*calibrate clino	 0.00
+;*calibrate tape		
+
+002	001	04.67	130.0	+01.0	;hole down Big Rift in between stations
+003	002	02.65	089.0	+10.0	;3m aven on right just beyond st002
+004	003	00.92	045.0	+21.0
+005	004	01.52	117.0	+01.0
+006	005	03.71	126.0	+01.0
+007	006	01.42	149.0	+05.0
+008	007	01.92	111.0	 00.0
+009	008	03.94	108.0	+08.0	;pools in between st008 & 9
+010	009	01.59	150.0	+03.0
+011	010	00.98	120.0	+25.0	;30cm drop in between st010 & 11
+012	011	01.70	103.0	+11.0
+013	012	01.06	073.0	+10.0
+
+*end	wrh

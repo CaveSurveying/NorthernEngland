@@ -1,0 +1,48 @@
+;Cave:		Link Pot - Handpump Hall - long entrance and bits
+;Surveyors:	S.Lieberman/R.Duffy
+;Date:		18/07/07
+;Instruments:	disto + PAG
+
+;*equate lk02e.004 lk02d.013a ;tag on way to Tigers Inlet
+;*equate lk02e.025 lk02d.021 ;st021 is left corner in Tigers Inlet on 15/07/07 survey
+;*equate lk02e.020 lk02.010 ;tag in Tigers Inlet on Prow
+
+*begin	lk02e
+*export 025
+*export 020
+*export 004
+
+*calibrate compass		+3.00
+*calibrate clino		+0.50
+*calibrate tape		 0.00
+
+002	001	05.68	093.0	+05.0	;st001 is end of bedding inlet opposite tag
+002	003	00.62	 -	UP
+003	004	10.02	270.0	-01.5	;st004=tag on tip of boulder above longer entrance crawl
+005	004	02.49	307.0	+30.0
+005	006	03.73	225.0	-28.0
+006	007	02.31	306.0	-50.0	;drop down into low crawl
+008	007	02.24	061.0	 00.0
+
+008	008a	00.59	 -	DOWN	;st008a is top of boulder at entrance to v.small crawl on left to sump?
+
+008	009	01.87	248.0	-09.0
+009	010	02.99	309.0	 00.0
+010	011	03.11	245.0	-02.0
+011	012	02.38	340.0	 00.0
+012	013	03.09	357.0	-02.0
+013	014	01.28	022.0	+10.0
+014	015	04.72	326.0	-04.0
+015	016	02.55	291.0	-03.0
+016	017	04.99	000.0	-02.5
+017	018	01.93	042.0	+03.0
+018	019	03.74	325.0	-20.0	;st019 in main Tigers Passage
+019	020	02.31	024.0	+07.5	;st020=tag in Tigers Inlet on Prow
+
+021	020	01.87	321.0	+25.0
+021	022	04.60	035.0	-02.0
+023	022	03.78	161.0	-06.0
+023	024	01.53	 -	UP
+024	025	01.28	278.0	+14.0	;st025=st021 is left corner in Tigers Inlet on 15/07/07 survey
+
+*end	lk02e

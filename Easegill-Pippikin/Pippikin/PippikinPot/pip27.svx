@@ -1,0 +1,48 @@
+;Cave:		Pippikin Pot - Red to White Wall Chamber
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:		14/11/07
+;Instruments:	PAG + disto
+
+;*equate	pip27.001 pip26.004 ;moveable stal on edge of Red Wall Chamber
+
+*begin	pip27
+*export 001
+
+*calibrate compass		+3.00
+*calibrate clino		+0.50
+*calibrate tape		  0.00		
+
+001	001a	07.04	155.0	 00.0 ;across chamber
+
+001	002	06.73	108.0	+03.5 ;slope to crawl to White Wall
+
+002	002a	02.23	330.0	+47.0
+002a	002b	10.83	231.0	 00.0	;across chamber to bedding in roof(climbed AW)
+
+002	003	02.04	096.0	-17.0
+003	004	03.08	059.0	+05.0
+004	005	01.07	 -	UP
+
+005	005a	05.03	343.0	+12.0	;into alcove on left of chamber
+
+005	006	03.62	090.0	-48.0	;st006 is edge of boulder opposite climb down to chamber floor
+
+006a	006	04.50	259.0	+15.0	;crawl through opposite climb down
+006a	006b	01.37	 -	UP	;st006b is head height standing in a chamber with white on walls
+
+006	006i	06.63	045.0	+08.0
+006i	006ii	04.25	055.0	+05.0	;st006ii is end of clay dig
+
+006	007	03.09	045.0	+05
+008	007	01.93	185.0	+06.0
+009	008	03.51	207.0	+04.0	;st009 is end of lower part of dig passage
+
+006	010	00.63	 -	UP
+010	011	01.80	187.0	-10.0
+
+011	011a	05.33	132.0	-25.0	;st011a is top of tight drop to lower level
+
+012	011	06.27	353.0	-21.0	;st012 is head height standing above pit on climb up
+012	013	06.00	 -	DOWN	;st013 is floor of bedding at bottom of pit
+
+*end	pip27

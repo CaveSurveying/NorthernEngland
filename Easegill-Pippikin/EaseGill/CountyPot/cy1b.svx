@@ -1,0 +1,28 @@
+;Cave:	County Pot - Showerbath traverse
+;Surveyors:	R.Duffy/S.Lieberman/A.Whitney
+;Date:	9/03/04
+;Instruments:	PAG
+
+;;*equate cy1b.009	cy.022 ;molephone base tag at bottom of first pitch
+;;*equate cy1b.009	cy3a.001
+
+*begin	cy1b
+*export 009
+
+*calibrate compass	+5.00
+*calibrate clino	+0.50
+*calibrate tape		 00.0
+
+002	001	08.00	077.0	+18.0	;estimated leg to very dangerous boulder chamber
+002	003	01.93	 -	DOWN
+004	003	01.98	081.0	+28.0
+005	004	01.30	114.0	+14.0	;st005 is on lip of drop to Showerbath
+
+005	005a	07.00	 -	DOWN
+
+006	005	04.45	034.0	-01.0	;st006 is at end of passage above main meanders
+007	006	07.07	355.0	-04.0
+008	007	06.19	289.0	+03.0
+008	009	02.74	057.0	-40.0	;st009=tag at bottom of first pitch chamber
+
+*end	cy1b

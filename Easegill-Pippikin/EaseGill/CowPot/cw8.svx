@@ -1,0 +1,22 @@
+;Cave:	Cow Pot-Shale Caver redo part3
+;Surveyors:	Ray Duffy/Jane Chilton/Bernice
+;Date:	01/04/00
+;Instruments:	PAG
+
+;*equate	cw8.001	cw7.005
+
+*begin	cw8
+*export 001
+
+*calibrate compass	+6.00
+
+001	002	02.80	162.5	+28.0	;st001=st005 cw7, st002 has tight passage on rightlooping back to st004 cw7
+002	003	01.60	115.5	+02.5
+003	004	04.34	178.5	-08.5
+004	005	04.90	120.0	 00.0
+005	006	05.72	174.0	+12.0
+006	007	05.34	255.0	-02.5	;st007 is sitting on ledge in streamway, downstream to small drop to 2m wide chamber small phreatic tube in opposite wall soon too small to right. Stream sinks on left in floor of ch.
+007	008	03.74	130.0	+13.0	;upstream
+008	009	04.24	159.0	-11.0	;st009 is flat out at end of wet crawl to boulder choke
+
+*end	cw8

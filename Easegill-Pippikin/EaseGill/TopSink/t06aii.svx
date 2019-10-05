@@ -1,0 +1,56 @@
+;Cave:		Top Sink - Saki Rift to Old Limerick Passage
+;Surveyors:	S.Lieberman/M.Shinwell
+;Date:		15/03/08
+;Instruments:	1 + tape
+
+;;*equate T06aii.001 md2ci.001 ;st001=tag Rock of Ages
+;*equate t06aii.016 t06ai.00a ;piece of paper on previous surveys
+
+*begin	t06aii
+*export 001
+*export 016
+
+*calibrate compass	+5.00
+*calibrate clino	 0.00
+*calibrate tape		 0.00
+
+002	001	04.54	005.0	-36.0	;st001=tag Rock of Ages
+002	003	04.12	104.0	+39.0
+003	004	02.29	115.0	+29.0
+005	004	02.40	269.0	-19.0
+005	006	00.54	 -	DOWN
+007	006	01.95	326.0	-17.0
+007	008	01.43	113.0	-13.0
+009	008	01.68	237.0	-05.0
+009	010	02.20	082.0	+02.5
+010	011	03.43	072.0	 00.0
+
+011	011a	10.64	350.0	-82.0
+
+011	012	02.93	053.0	-15.0
+012	013	06.24	079.0	-09.0
+013	014	02.30	 -	DOWN
+014	015	03.85	122.0	-16.0
+015	016	00.75	247.0	-17.0	;st016=piece of paper on previous surveys
+
+*end	t06aii
+
+;station details
+
+;st001=tag Rock of Ages
+;st002 0.5, 0.3, 0.0, 4.0 point of rock on climb up
+;st003 0.2, 0.3, 1.0, 1.4 Sam's head as rift comes in 1.8 towards st002
+;st004 0.0, .05, 1.1, 1.4 left wall
+;st005 0.1, 0.3, 1.0, 0.4 Sam's head
+;st006                    mud bank left wall
+;st007 0.2, 0.2, 0.9, 0.5 
+;st008 0.5, 0.0, 0.8, 0.2, right hand wall
+;st009 0.6, 0.0, 0.7, 0.3
+;st010
+;st011 0.0, 0.8, 1.2, 10
+;st011a
+;st012 0.1, 0.5, 2.5, 9.0
+;st013 0.0, 0.6, 1.0, 2.5
+;st014 0.0, 0.4, 3.0, 0.5
+;st015 3.5, 0.8, 11 , 2.5
+;st016=piece of paper on previous surveys

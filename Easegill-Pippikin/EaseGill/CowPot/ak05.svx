@@ -1,0 +1,22 @@
+;Cave:	Ardvaark Country- passage off before Keyhole Passage near Newton Pot
+;Surveyors:	Ben Young/Johnny Baker
+;Date:	17/09/99
+;Instruments:	3
+
+;*equate	ak05.000	ak04.023
+
+*begin	ak05
+*export 000
+
+*calibrate compass	+6.50
+
+000	001	04.80	268.0	+03.0	;st000 = star X on wall at Keyhole Y junc.
+001	002	03.60	206.0	 00.0
+002	003	05.10	261.0	+03.0
+003	004	04.80	284.0	 00.0
+004	005	07.20	250.0	-01.0
+005	006	03.10	352.0	+03.0
+006	007	10.20	273.0	+01.0
+007	008	01.20	276.0	+01.0	;slot continuing
+
+*end	ak05

@@ -1,0 +1,74 @@
+;Cave:		Mayday Series to Neutron Cavern
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:		01/06/08
+;Instruments:	PAG + disto
+
+;*equate t11.e11	t09e.012 ;st012=tag in roof at start of low section
+
+*begin	t11
+*export e11
+
+*calibrate compass	+3.00
+*calibrate clino	+0.50
+*calibrate tape		 0.00
+
+;from side chamber back to streamway
+e	e1	02.71	265.0	-05.0
+e1	e2	01.52	280.0	-47.0	;E1 to E2 is slide through to low continuation
+e2	e3	02.46	268.0	-20.0	;stE3 is pointed rock in crawl
+e4	e3	01.61	044.0	+10.0	;stE4 is on lip of boulder at drop to boulder choke climb
+e4	e5	04.49	239.0	-38.0	;stE5 is head height sitting on lip of climb down
+e5	e6	02.95	 -	DOWN	;stE6 is foot of climb floor level
+e7	e6	01.68	026.0	+10.0
+e7	e8	07.78	269.0	-26.0
+e8	e9	02.98	284.0	-33.0	;st009 is foot of 1st squeeze on cobble in streamway
+e9	e10	04.53	297.0	-13.0	;stE10 is past tag in stream
+e10	e11	02.27	100.0	+18.0	;stE11=tag
+
+;low chamber to right of main way on
+b	a	04.65	292.0	-22.0	;stA is corner of loose low chamber with stal in opp. corner
+c	b	03.89	173.0	-28.0	;stB is base of loose entrance slope
+c	d	03.11	301.0	-04.0	;stD is floor level at rocking boulder crawl
+d	e	01.60	 -	UP	;stE is head height at 2nd sqeeze
+
+;continuation of main way on
+e	001	03.38	106.0	+38.0	;through squeeze to pretty passage
+001	002	00.91	 -	UP
+002	003	06.34	117.5	+13.0
+003	004	08.68	085.0	+05.0	;st004 is corner where passage narrows
+004	005	06.84	092.0	+06.0	;st005 is after crawl passing long boulder
+005	006	08.75	108.0	+05.0	;st006 is foot of 3rd hard squeeze
+006	007	01.75	097.0	+29.0	;st007 is on other side of squeeze measured through eyehole to low chamber
+007	008	02.24	104.0	-08.0
+008	009	02.15	056.0	+13.0	;st009 is foot of climb up
+009	010	01.60	 -	UP
+
+010	010a	04.83	090.0	+31.0	;st010a is choked end of intermediate level 7m in opposite diretion is choked
+
+010	011	01.47	 -	UP
+011	012	00.80	194.0	+28.0	;st012 is foot of climb up to 4th squeeze
+012	013	01.60	 -	UP
+013	014	01.61	241.0	+20.0	;st014 is end of squeeze
+
+014	014a	00.59	 -	UP	;st014A Raise station
+014a	014b	01.88	074.0	 00.0	;st014B above edge of hole looking back down climb up to squeeze
+014b	014c	05.85	104.0	+02.0	;st014C back wall of stal infested bedding - not entered past stn 14b
+
+015	014	03.89	337.0	-04.0	;st014 is Point on wall at end of squeeze
+016	015	05.46	322.0	-03.0	;st015  Stal on LH side of passage floor past crystal patch on floor
+016	017	06.69	061.0	+17.0	;st016  lying down on floor at exit of crawl into lower section of final chamber
+
+;Neutron Cavern
+017	018	07.41	079.0	+18.0	;st017  Stal on LH side of gully heading up to final chamber,st018  Top of 4ft high calcite encrustation RH side at the top of the gully
+
+018	018a	05.57	203.0	+13.0	;st018a Possible phreatic tube choked with sand
+
+018	018b	06.72	016.0	+17.0	;st018B Top LH of cobble slope
+
+018	018c	05.62	071.0	+20.0	;st018B Top RH of cobble slope
+
+019	018	08.29	269.0	-07.0	;st019  Above small drop in bouldery collapse chamber
+019	020	00.78	 -	DOWN	;st020  Drop station
+020	021	03.57	194.0	-05.0	;st021  Far side of lower section of collapse chamber
+
+*end	t11

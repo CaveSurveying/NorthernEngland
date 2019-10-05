@@ -1,0 +1,41 @@
+;Cave:	County Pot - Trident - from tag1 up from Battle of Britain to bouldery chamber on way to Splash Chamber
+;Surveyors:	R.Duffy/A.Whitney
+;Date:	05/11/02
+;Instruments:	PAG
+
+;*equate	trident16.001	trident01.yt1
+;*equate trident16.004a	trident17.002
+
+*begin	trident16
+*export 004a
+*export 001
+
+*calibrate compass	+3.00
+*calibrate clino	0.00
+
+;from tag1 up into roof tube above entrance to small chamber after crawls from Battle of Britain
+001	002	08.32	155.0	+60.0
+002	003	03.62	120.0	+10.0	;passage too small
+
+;up slope from tag1 
+001	004	03.72	073.0	+15.0	;st004 is crossroads below small aven
+
+;into small oxbow on left of slope
+004	004a	02.36	336.0	+22.0	;st004a is H.St.L/s.Lieberman survey same date
+
+004	004b	04.44	139.0	+30.0	;passage on right of slope at st004b
+004b	004b1	03.70	141.0	+49.0	;large cobble boulder slope
+004b1	004b2	04.40	118.0	+35.0	;st004b2 is on back wall of solid chamber with stream inlets all over but too small
+
+004b	004b3	03.25	174.0	+18.0	;right hand passage on boulder slope
+004b3	004b4	01.60	154.0	-03.0	;very low crawl
+004b4	004b5	03.00	154.0	 00.0	;estimated leg as too small but digable to wider passage, draughting towards surveyors
+
+004	004c1	02.88	193.0	-04.0	;st004c1 is in small low chamber below the above passage 004b to004b5 with hole through right wall to same
+004c1	004c2	02.48	182.0	+06.0
+;004c2	004c3	05.00	150.0	+02.0	;Suspect bearing should be 120deg to nearly join 4b4-4b5
+;004c2	004c3	05.00	120.0	+02.0	;we are sure the passages join here but needs a bit of work
+004c2	004c3	05.00	155.0	+02.0	;Remeasured at this bearing - must be 4b4-4b5 that is wrong
+
+
+*end	trident16

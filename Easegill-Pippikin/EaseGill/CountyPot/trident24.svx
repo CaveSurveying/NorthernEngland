@@ -1,0 +1,22 @@
+;Cave:	Trident - Odd bit upstream of scaffold bar
+;discovered this was already surveyed by Martin & Becka in trident03.
+;Surveyors:	Andy Whitney / S.Lieberman
+;Date:	20/03/03
+;Instruments:	4
+
+;*equate	trident24.yt4	trident02.yt4
+;*equate	trident24.yt4	trident03.yt4
+
+*begin	trident24
+*export yt4
+
+*calibrate compass	+4.50
+*calibrate clino	0
+*calibrate tape	+1.00
+
+yt4	002	04.66	116.0	+04.5
+002	003	05.05	134.0	+15.0
+003	004	05.23	117.0	+07.0	
+004	005	02.60	083.0	+08.0
+
+*end	trident24

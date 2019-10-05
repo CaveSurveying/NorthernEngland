@@ -1,0 +1,81 @@
+;Cave:	Link Pot - China Dog Chamber
+;Surveyors:	Pete Hall/Rob Garrett
+;Date:	09/05/99
+;Instruments:	2
+
+;;*equate lk06.006 lk02.019 ;probably joined to wrong point
+;;*equate lk06.006 lk02.020
+;*equate	lk06.007 lk19.000 ;tag at new bolt for ladder to stream
+;*equate	lk06.007 lk07.015
+;*equate	lk06.106 lk07.007 ;junction
+
+*begin	lk06
+*export 106
+*export 007
+
+*calibrate compass	+6.50
+*calibrate tape		+0.40
+
+;000	001	04.40	238.0	-27.0	;st000=tag
+;001	002	12.60	295.0	-04.0
+;002	003	07.80	244.0	-06.0
+;003	004	13.30	230.0	-10.0
+;004	005	04.10	291.0	-10.0
+;005	006	06.10	272.0	-08.0	;st006=Tigers Inlet
+;006	007	06.30	323.0	-05.0
+007	008	12.60	034.0	+05.0
+008	009	05.20	343.0	+17.0	;st009 is high level upstream choke
+
+;upstream inlet down to Tigers Inlet
+
+;101	102	05.50	232.0	-39.0	;st101 is boulder choke
+;102	103	05.20	233.0	-06.0
+;103	104	07.90	200.0	 00.0	;st104(D*)tag
+;104	105	05.10	203.0	-07.0	;inlet on L too tight
+;105	106	01.90	276.0	+03.0	;st106(0A*)tag
+;106a	106	05.90	087.0	+08.0	;st106a continues as outlet unsurveyed
+106	107	03.90	145.0	+11.0
+107	107a	03.50	070.0	+11.0	;st107a(0C)is dig
+107	108	08.50	186.0	+02.0	;st108 is inlet on L
+108	109	05.70	185.0	 00.0
+109	110	04.70	223.0	+02.0
+110	008	03.50	008.0	+23.0	;return to Tigers Inlet area
+
+;Bottom of streamway to Tigers inlet going upstream
+
+;201	202	03.00	051.0	+01.0	;st201 is choked crawl/dig
+;202	203	06.90	335.0	+08.0
+;203	204	19.90	329.0	+15.0
+;204	205	14.40	334.0	+16.0	;on right is small tight continuation of streamway outlet
+;205	206	04.70	335.0	+22.0
+;206	206a	07.30	324.0	+36.0	;st206a(1G) is branch on L to boulder choke
+;206	206b	01.00	050.0	 00.0	;st206b=tag
+;206	206c	05.70	111.0	+11.0	;passage on R with 3m climb continues unsurveyed
+;206	207	03.60	349.0	+15.0
+;207	208	05.40	018.0	-09.0	;st208 has inlet on L
+;208	209	03.50	116.0	+22.0
+;209	210	06.30	056.0	+14.0	;start of lk08.001
+;210	211	03.40	105.0	+18.0	;st211=tag, passage between stations continues unsurveyed to T junct. with stream at 208
+;211	212	10.30	096.0	+10.0	;between stations is small cross rift
+;212	212a	02.80	108.0	+39.0	;start of oxbow
+;212a	212b	04.30	067.0	-16.0
+;212b	213	02.60	012.0	-28.0	;end of oxbow
+
+;212	213	08.00	070.0	+01.0
+;213	214	04.80	091.0	-06.0
+;214	215	02.80	049.0	+12.0
+;215	216	05.00	104.0	-05.0
+;216	217	03.00	132.0	+08.0	;st217 is start of oxbow on right
+;217	218	04.50	053.0	-02.0
+;218	219	03.00	092.0	 00.0	;st219 end of oxbow
+;219	220	14.20	043.0	+02.0
+;220	221	03.30	313.0	+10.0
+;221	222	03.40	037.0	-03.0
+;222	223	05.90	050.0	-10.0
+;223	224	08.60	074.0	+03.0
+;224	225	02.70	024.0	+38.0
+;225	226	03.10	083.0	+24.0
+;226	227	03.60	 -	UP
+;227	007	02.00	043.0	+10.0	;back to tag at Tigers Inlet junction
+
+*end	lk06

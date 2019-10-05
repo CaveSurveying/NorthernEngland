@@ -1,0 +1,36 @@
+;Cave:		Bull Pot of the Witches-Sump to Junction Chamber (The Dry Way)
+;Surveyors:	Zig & Zag/Ray Duffy/Hugh St.Lawrence
+;Date:		11/04/98pm
+;Instruments:	PAG kit
+
+;;*equate	bw06.001	bw06a.001
+;*equate	bw06.001	bw09.001
+;*equate	bw06.003	bw07.001
+;*equate	bw06.017	bw03.027
+;*equate	bw06.017	bw09.011
+
+*begin	bw06
+*export 003
+*export 001
+*export 017
+
+*calibrate compass	+5.00
+
+001	002	04.57	030.0	-02.0	;st.001=Knot on divers line
+002	003	07.80	027.0	 00.0
+003	004	14.10	025.0	+10.0	;st.004 is stumpy stal next to stal column, two passages on left 3.5m & 8.0m from st.003
+004	005	05.65	079.0	+02.0
+005	006	07.10	012.0	+04.0
+006	007	07.20	008.0	 00.0
+007	008	06.28	041.0	+03.5
+008	009	06.30	132.0	+01.0
+009	010	02.30	123.0	-02.0
+010	011	08.20	035.0	+01.5
+011	012	12.00	004.0	+01.5
+012	013	07.20	003.0	-01.5
+013	014	08.50	024.0	-14.0
+014	015	06.90	274.0	-08.0
+015	016	06.00	308.0	-19.0
+016	017	02.85	061.0	+21.0	;st.017=tag Junction Chamber
+
+*end	bw06

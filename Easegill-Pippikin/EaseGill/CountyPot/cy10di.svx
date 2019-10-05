@@ -1,0 +1,30 @@
+;Cave:	County Pot - Luff's Passage from Delicate Sound of Thunder choke to Hall Hall
+;Surveyors:	S.Lieberman/A.Whitney
+;Date:	07/04/05
+;Instruments:	PAG
+
+;;;*equate Cy10di.001 syl3.025 ;bottom of Delicate Sound Of Thunder Choke
+;;*equate cy10di.013 cy10d.011 ;tag in Hall Hall
+
+*begin	cy10di
+*export 001
+*export 013
+
+*calibrate compass	+3.00
+*calibrate clino	-0.50
+*calibrate tape		+1.00
+
+002	001	03.79	201.0	-03.0	;st001is 1st arrow scratched intoL wall facing out of choke
+002	003	06.15	332.0	-15.0
+003	004	05.20	315.0	-15.0	;between st003 & 4 is trench at roof bedding possibly connects to inlet beyond st008 on L
+004	005	02.99	349.0	-30.0	;st004 to 6 has route above boulders on left
+005	006	01.91	290.0	-03.0
+006	007	03.56	005.0	+18.0	;st007 has inlet on right too tight
+007	008	03.18	334.0	+02.0
+008	009	05.00	305.0	-21.0
+009	010	04.92	326.0	+02.0
+010	011	03.14	343.0	-16.0	;stream disappears just beyond st011
+011	012	03.00	008.0	-10.0
+012	013	04.14	309.0	 00.0	;st013=tag in Hall Hall
+
+*end	cy10di

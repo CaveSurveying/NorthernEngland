@@ -1,0 +1,33 @@
+;Cave:	Cow Pot-Shale Caver redo
+;Surveyors:	Ray Duffy/Jane Chilton/Bernice
+;Date:	01/04/00
+;Instruments:	PAG
+
+;*equate	cw6.001	cw.003
+
+;*equate	cw6.007	cw7.001
+;*equate	cw6.005	cw9.003b
+;*equate	cw6.006	cw9.006
+;*equate	cw6.007	cw10.001
+;;*equate	cw6.008a	ak03.001
+
+*begin	cw6
+*export 001
+*export 007
+*export 006
+*export 005
+*export 008a
+
+*calibrate compass	+6.00
+
+001	002	03.32	319.0	-37.0	;st001=head height on rope from surface
+002	003	07.87	328.0	-10.0
+003	004	03.15	283.0	-05.0
+004	005	03.85	328.0	-15.0	;star and st no. on rock above hole to bedding in shale cavern
+005	006	05.29	330.5	-06.0	;st006 is junction with passage from bedding st003b cw9
+006	007	04.15	001.0	-21.0	;st007=star in roof of bedding right side opposite phreatic tube
+007	008	05.77	342.0	-14.0	;Top of Aardvark NPC dig
+008	008a	01.00	 -	UP	;bolt in roof
+008	009	04.56	 -	DOWN	;to bottom of first shaft
+
+*end	cw6

@@ -1,0 +1,22 @@
+;Cave:	Wretched Rabbit - entrance series - Crawl at end of Big Rift
+;Surveyors:	R.Duffy
+;Date:	09/05/05
+;Instruments:	PAG + disto
+
+;*equate wraii.001 wra.017 ;lowering of rock at end of Big Rift	
+
+*begin	wraii
+*export 001
+
+*calibrate compass	+2.00
+*calibrate clino	-0.50
+;*calibrate tape		
+
+002	001	03.06	020.0	+02.0	;st002 left edge of bedding in puddle looking through to st001
+002	003	03.63	144.0	+02.0
+003	004	01.93	120.0	+01.0
+004	005	01.25	145.0	+02.0	;st005 is middle of pass.just beyond small inlet on right
+005	006	02.08	077.0	+04.0
+006	007	03.71	153.0	+03.0	;St007 near end of bedding X scratch on roof
+
+*end	wraii

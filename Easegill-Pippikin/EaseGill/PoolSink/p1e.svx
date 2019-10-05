@@ -1,0 +1,31 @@
+;Cave:	Pool Sink - Right Hand Passage at Magpie Grotto Junction
+;Surveyors:	S.Lieberman/H.Blyth/P.Swire
+;Date:	03/04/05
+;Instruments:	PAG + disto
+
+;*equate p1e.001 p1d.006
+;*equate p1e.007 p1ei.001 ;above large rock on ledge beyond upper trench
+
+*begin	p1e
+*export 001
+*export 007
+
+*calibrate compass	+3.00
+*calibrate clino	-0.50
+;*calibrate tape		
+
+001	002	03.42	106.0	+09.0 ;st001=tag at Magpie Grotto jnc.
+002	003	01.59	154.0	+08.0
+003	004	02.14	091.0	+03.0
+004	005	01.93	151.0	+13.0
+005	006	04.73	115.0	+06.0
+006	007	08.33	162.0	+22.0
+007	008	10.46	105.0	+03.0
+008	009	08.09	122.0	+10.0
+009	010	05.99	037.0	+02.0
+010	011	03.62	111.0	+03.0
+011	012	03.36	030.0	+01.0
+012	013	05.58	090.0	+03.0
+013	014	04.58	055.0	 00.0 ;continues wet and low requires wetsuit
+
+*end	p1e

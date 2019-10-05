@@ -1,0 +1,144 @@
+;Cave/Series:	Borehole	
+;Date:	B03	April-(11/05/96)June 1996
+;Surveyors:	RRCPC
+
+;*equate	b03.050 b02.041
+;*equate	b03.221 b2.008 ;cairn on ledge opposite climb through boulders
+;*equate	b03.106 b3.005 ;head height at foot of 10ft climb
+;*EQUATE	B03.212d	P1a.078
+;;*EQUATE	B03.201	P2a.074
+;;*EQUATE	B03.208a	P7a.087 ;not needed anymore
+;;*equate B03.208 P7b.001 ;head height sitting astride drop to Borehole from Ecles Bypass
+;;*equate B03.050 nss01.000 ;middle of scaffold bar
+
+*begin	b03
+*export 106
+*export 050
+*export 212d
+*export 221
+*export 208
+
+*fix 051 67621.80 80732.84 293.09 ;head height at bottom of main pitch
+*fix 208 67543.19 80811.17 273.73 ;head height sitting astride drop to Borehole in Eccles Bypass
+*fix 087g 67604.03 80771.50 293.98 ;edge of sheet 3c
+*fix 076 67600.04 80756.39 288.26 ;edge of sheet 3c
+
+*calibrate compass	+5.27	;(pete hall 11/05/96)
+
+050a	050	06.80	108.0	+10.0	;top of pitch
+050	051	15.00	 -	DOWN	;Start of way on down 15m pitch
+051	052	11.40	315.0	-19.0
+052	053	05.70	050.0	-09.0
+053	054	03.30	325.0	+11.0	;start of side pass on right
+054	055	02.60	100.0	+03.0
+055	056	02.10	136.0	+07.0
+056	057	01.70	164.0	+09.0
+057	058	01.80	121.0	+07.0
+058	059	02.30	145.0	+05.0
+059	060	04.40	105.0	+07.0
+060	061	01.90	143.0	+05.0
+061	062	02.20	182.0	 00.0
+062	063	02.70	080.0	+11.0
+063	064	04.00	168.0	+04.0
+064	065	02.20	110.0	 00.0
+065	066	03.70	184.0	 00.0
+066	067	01.00	118.0	-08.0
+067	068	03.10	158.0	-06.0
+068	069	01.00	107.0	 00.0
+069	070	03.30	154.0	-01.0
+070	071	03.30	100.0	+12.0	;passage blocked by cobbles
+054	072	04.60	312.0	 00.0	;main way on;main passage continues	
+072	073	04.00	351.0	-03.0
+073	074	04.40	296.0	 00.0
+074	075	02.80	269.0	-08.0
+075	076	04.40	289.0	-11.0
+076	077	08.80	323.0	-05.0
+077	078	03.00	285.0	+06.0
+078	079	01.30	330.0	-08.0
+079	080	01.80	263.0	-10.0
+080	081	01.40	349.0	 00.0
+081	082	03.30	273.0	+01.0
+082	083	01.30	303.0	 00.0
+083	084	01.70	258.0	+04.0
+084	085	02.20	304.0	-08.0
+085	086	01.70	008.0	-17.0
+086	087	02.50	341.0	-02.0	;junct at 087
+087	087a	05.40	128.0	+28.0
+087a	087b	04.30	197.0	 00.0
+
+*calibrate compass	+4.00	;(ray duffy 11/11/2005)
+*calibrate clino	+1.00
+
+087i	087j	06.50	130.0	+04.0
+
+*calibrate compass	+5.27	;(pete hall 11/05/96)
+				
+087i	087h	08.30	300.0	-03.0
+087h	087g	07.60	200.0	+03.0
+087g	087f	15.60	272.0	-03.0
+087f	087d	04.50	243.0	-04.0
+087d	087c	02.50	 -	DOWN
+087c	087a	01.30	313.0	-23.0
+087	088	09.80	355.0	-02.0
+088	089	02.00	270.0	+03.0
+089	090	02.60	000.0	+08.0
+090	091	04.00	299.0	+03.0
+091	092	02.50	277.0	-08.0
+092	093	07.80	357.0	-01.0	;2 inlets on right too tight
+093	094	04.00	330.0	-04.0
+094	095	02.50	270.0	-03.0
+095	096	09.40	358.0	-05.0	;St096 is on block Motterhead Chamber
+096	097	10.20	265.0	+03.0	;St097 is Junction
+097	098	05.60	196.0	+18.0	;tight 0.25m wide
+097i	097h	07.10	318.0	 00.0	;extension off Motterheads
+097h	097g	04.20	122.0	+30.0
+097g	097f	08.40	122.0	+03.0
+097f	097d	09.30	088.0	-08.0
+097d	097c	01.00	 -	DOWN
+097c	097b	03.00	207.0	 00.0
+097b	097a	03.70	118.0	-17.0
+097a	097	03.60	080.0	-15.0
+096	096a	05.10	070.0	-17.0	;main way on from Motterheads
+096a	099	07.20	058.0	-02.0	;2m climb down
+099	100	05.00	143.0	-13.0	;X roads. pass on left goes to St111
+100	101	02.70	133.0	+02.0
+101	102	04.00	161.0	 00.0
+102	103	02.30	090.0	+05.0
+103	104	04.30	155.0	+07.0	;X roads
+104	105	04.30	101.0	+06.0
+105	106	01.50	 -	DOWN	;10ft climb
+106	107	04.00	037.0	-37.0
+107	108	04.30	349.0	-14.0
+108	109	04.20	305.0	-18.0
+109	110	03.50	027.0	-30.0
+110	111	05.30	263.0	-18.0	;pass on left goes to St100,st111=bra.20
+
+*calibrate compass	+5.27	;(RD/DE/TE 06/0796)
+
+;201	202	04.40	184.0	+10.0	;st201=pool.psa.74;bottom ;end of borehole
+;202	203	03.90	275.0	+05.0
+;203	204	03.60	184.0	 00.0
+;204	205	02.30	214.0	+17.0	;ent short crawl ;frmlowrpass. to chamb
+;205	206	01.40	318.0	-30.0	;floor of chamber
+;206	207	03.30	 -	UP	;top of chamber
+;207	208	09.40	122.0	-02.0
+;208	208a	04.64	268.0	-01.0	;top of boulders at foot; ;spir.st ss.87=208a
+208	209	03.70	 -	DOWN
+209	210	05.90	042.0	-01.0
+210	211	03.60	064.0	-01.0
+211	212	05.60	081.0	-01.0	;pass. on left to poolsink
+212	212a	01.00	 -	DOWN	;leg to floor to go thr. bedding
+212a	212b	03.90	335.0	+02.0	;bedding connection to psa.48
+212b	212c	04.70	355.0	+02.0	;lump in bedding
+212c	212d	01.70	300.0	-06.0	;st212d= pool.psa.48
+212	213	11.60	112.0	+03.0	;carry on into borehole
+213	214	04.70	078.0	+05.0
+214	215	07.10	089.0	 00.0
+215	216	04.90	114.0	+03.0
+216	217	02.00	060.0	 00.0
+217	218	03.40	238.0	+05.0
+218	219	01.90	 -	UP	;up thro boulder choke
+219	111	02.70	148.0	+38.0	;in choke to top st220=brb.111
+111	221	04.80	052.0	+33.0	;cairn on ledge in chamber st247=221
+					
+*end	b03

@@ -1,0 +1,24 @@
+;Cave:	Cow Pot-Shale Caver redo part2
+;Surveyors:	Ray Duffy/Jane Chilton/Bernice
+;Date:	01/04/00
+;Instruments:	PAG
+
+;*equate	cw7.001	cw6.007
+;*equate	cw7.005	cw8.001
+;*equate	cw7.007	cw11.009
+
+*begin	cw7
+*export 001
+*export 007
+*export 005
+
+*calibrate compass	+6.00
+
+001	002	03.79	045.0	-03.0	;st001=st007 cw6 roof of bedding
+002	003	01.92	043.0	+08.0	;st003=star 3 on entrance to phreatic passage not surveyed (MAY NEED LADDER)
+003	004	03.32	085.0	-03.0	;passage on right in roof links to st002 cw8 and pit on left at bottom links to bottom of pit st007
+004	005	03.14	087.5	-01.0	;st005=st001 cw8 and is lip at junction
+005	006	04.70	354.0	-15.0	;small pit
+006	007	05.40	 -	DOWN	;plumbed pitch to passage running off previous pit
+
+*end	cw7

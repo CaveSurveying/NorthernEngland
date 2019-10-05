@@ -1,0 +1,31 @@
+;Cave:		Link Pot - Tiger's Inlet upper left hand branch
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:		12/07/07
+;Instruments:	SAP + disto
+
+;*equate  lk02c.008 lk02.008 ;tag at Tiger's Inlet upper left hand branch
+
+*begin	lk02c
+*export 008
+
+*calibrate compass		0.00
+*calibrate clino		0.00
+*calibrate tape		0.00
+
+002	001	05.17	263.0	+03.0	;st002 is wall of boulder choked rift
+
+002	002a	05.23	154.0	+02.0	;st002a is stal on ledge
+
+002	003	09.48	083.0	+04.0	;st003 is in bedding crawl
+004	003	01.71	342.0	-02.0	;st004 is small stumpy stal in other passage
+
+004	004a	04.33	064.0	+04.0	;st004a is in too tight bedding inlet
+
+004	002a	08.29	243.0	-03.0	;st002a is stal on ledge
+
+005	002a	02.97	255.0	-02.0
+005	006	01.31	 -	DOWN	;st006 is floor of bedding in boulders
+007	006	08.14	286.0	-01.0
+007	008	07.15	078.0	-01.0	;st008=tag at junction
+
+*end	lk02c

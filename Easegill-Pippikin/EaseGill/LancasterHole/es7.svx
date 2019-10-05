@@ -1,0 +1,22 @@
+;Cave:	Lancaster Hole-Earby Series-Thirsty Junction to Razor Aven
+;Surveyors:	H.St.Lawrence/Tim Eastwood/Ray Duffy
+;Date:	28/11/98
+;Instruments:	PAG
+
+;*equate	es7.001	es.023
+
+*begin	es7
+*export 001
+
+*calibrate compass	+4.00
+
+;*fix	001	
+
+001	002	05.30	042.0	-04.0	;st001=tag at Thirsty Junction
+002	003	08.00	115.5	+20.0
+003	004	04.50	096.0	-20.0
+004	004a	03.40	148.0	 00.0	;st004a is middle of aven head height
+004a	004b	05.60	148.0	+13.0	;st004b is end of possible dig in phreatic mud tube
+004	005	02.90	051.0	 00.0	;st005 is middle of waterfall in Razor Aven
+
+*end	es7

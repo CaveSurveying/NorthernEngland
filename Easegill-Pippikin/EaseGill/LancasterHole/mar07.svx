@@ -1,0 +1,29 @@
+;Cave:	Lancaster Hole - Maracaibo the end bedding
+;Surveyors:	M.Green/M.Shinwell
+;Date:	30/04/05
+;Instruments:	Martins
+
+;*equate mar07.006 mar06.045
+
+*begin	mar07
+*export 006
+
+;*calibrate compass	
+;*calibrate clino	
+;*calibrate tape		
+
+001	002	06.15	107.0	+03.0	;st001 scratch on  wall
+
+004	003	02.23	230.0	-40.0	;st004 estimated point
+004	005	00.70	 -	UP	;st004 Martin's Welly
+
+001	005	01.50	208.0	-05.0	;st005 point of rock
+001	006	03.05	215.0	+52.0	;x2003near RRCPC 1978?
+001	007	03.90	145.0	 00.0	;not marked
+001	008	03.10	010.0	-23.0
+
+009	008	02.69	238.0	-13.0
+009	010	02.47	144.0	+42.0
+010	011	04.00	150.0	+30.0	;estimated up loose boulder slope
+
+*end	mar07

@@ -1,0 +1,41 @@
+;Cave:	Lancaster Hole - Mancunian Way - Bits at end of Nice Way
+;Surveyors:	S.Lieberman/T.Rooke
+;Date:	31/10/04
+;Instruments:	2
+
+;*equate	maw5.001 maw2.12
+;*equate	maw5.011 maw2.18
+;*equate	maw5.021 maw2.20
+
+*begin	maw5
+*export 011
+*export 001
+*export 021
+
+*calibrate compass	+3.00
+*calibrate clino	-2.50
+*calibrate tape		+9.00
+
+001	002	17.42	198.0	-01.0	;st001=st12 on Maw2, st002 kneeling in Pass.
+002	003	14.85	174.0	-01.0	;st003 kneeling in Pass.
+003	004	11.78	228.0	+02.5	;st004 lying on false floor
+004	005	16.05	193.5	+07.0	;st005 is end of grotto
+
+004	006	11.58	193.5	+07.0	;st006 below bedding climb
+006	007	09.63	 -	UP	;st007 is above false floor
+007	008	15.53	108.5	+04.0	;st008 is corner
+008	009	14.19	176.0	+05.0	;st009 is end bedding pinching in
+
+011	012	12.22	161.0	+05.0	;st011=tag at junction
+012	013	11.33	193.0	 00.0	;st002 & 003 are mud
+
+021	022	11.45	061.0	+01.0	;st021=tag, st022 is corner
+022	023	11.90	122.0	+03.0	;st023 is above pit
+023	024	12.68	037.0	-04.0
+024	025	12.69	065.0	 00.0
+025	026	10.80	126.0	-03.0	;between st005-6 is very tight excavated crawl
+027	026	15.48	348.0	-09.0	;st007 is before pool
+027	028	13.58	140.0	+04.0	;st008 is squeeze over boulder
+028	029	13.33	143.0	+04.0	;st009 is too tight, to left is choke
+
+*end	maw5

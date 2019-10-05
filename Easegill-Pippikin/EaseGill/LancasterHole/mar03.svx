@@ -1,0 +1,95 @@
+;Cave:	Lancaster Hole - Maracaibo - from tag at Torugua Way to Squeezes
+;Surveyors:	R.Duffy/A.Whitney
+;Date:	15/09/02
+;Instruments:	PAG
+
+;*equate	mar03.001 mar02.014
+;*equate mar03.401 mar05.011
+
+*begin	mar03
+*export 001
+*export 401
+
+*calibrate compass	+5.00
+*calibrate clino	0.00
+*calibrate tape	+2.00
+
+*fix 011 67161.84 80639.07 257.12
+
+001	002	02.50	 -	UP	;st001=tag at Tortuga Way
+002	003	07.25	105.0	+11.0	;st003 is head level,lying on large boulder upstream end of chamber
+003	004	04.94	056	-20.0	;st004 is head height in streamway
+004	005	12.26	077.0	 00.0
+005	006	06.78	102.0	 00.0
+006	007	08.65	143.0	+07.0
+007	008	07.18	115.0	+08.0	;st008 is downstream, worse, entrance to Wurlizer
+008	009	06.43	204.0	+06.0	;st009 is small stumpy stal at foot of slope to Ballerinas
+
+a	b	10.35	095.0	-05.0	;stA is small choked chamber at end of Ballerinas Passage (draught from rift in roof-just climable)
+b	c	08.60	141.0	+01.0	;boulders
+c	009	07.66	133.0	-28.0
+
+009	010	07.29	111.0	-01.0	;st010 has small inlet on right sound of water in small aven
+010	011	05.19	074.0	+12.0	;st011 is left side of stream aat Wurlitzer passage junction
+
+011	011a	08.90	327.0	+14.0	;st011a is at calcite step, at same level but 3m away from actual Wurlitzer
+011a	011b	03.70	 -	UP	;st011b is lip of upper level of flow into Crystal Pool
+011b	011c	08.00	020.0	 00.0	;sighting down Crystal Pool
+
+011	012	02.50	 -	DOWN
+012	013	07.37	098.0	+02.0
+013	014	16.45	134.0	+03.0
+014	015	02.92	 -	DOWN
+015	016	08.60	110.0	-02.0
+016	017	04.73	114.0	 00.0
+017	018	09.09	104.0	-01.0
+018	019	03.70	 -	UP
+019	020	04.32	118.0	+06.0	;st020 is infront of first boulder blockage in passage, stream appears from low bedding on right
+020	021	04.70	081.0	+06.0	;st020 to 028 are in dry oxbow
+021	022	05.68	141.0	-01.0
+022	023	05.47	162.0	-22.0
+023	024	03.70	 -	UP
+024	025	06.09	129.0	+03.0
+025	026	04.86	101.0	+05.0
+026	027	07.49	122.0	+04.0
+027	028	08.89	071.0	 00.0	;st028 is sitting on calcite slope where water goes into bedding
+028	029	15.96	354.0	 00.0
+029	030	03.09	020.0	-06.0	;st030 is tag on very small column on right hand bend where roof lowers to gravel floor, Squeezes beyond
+
+;Cave:		Maracaibo - The Keel Hauler
+;Surveyors:	M.Shinwell/A.Day
+;Date:		22/02/03
+;Instruments:	5
+
+*calibrate compass	+4.50
+*calibrate clino	 00.0
+*calibrate tape		+1.00
+
+502	030	6.61	281	+01 ; end of Mar03
+503	502	6.17	247	-02
+503	504	4.07	115	+00
+505	506	1.35	-	up
+505	504	2.50	352	-02
+506	507	10.28	135	-01
+507	508	6.13	099	+04
+508	509	2.21	069	+10
+509	510	3.46	107	+02
+510	511	5.36	129	+08
+
+;Cave:		Maracaibo - squeezes and just beyond
+;Surveyors:	M.Shinwell/A.Day
+;Date:		11/01/03
+;Instruments:	CUCC set
+
+*calibrate compass	+5.00
+*calibrate clino	 00.0
+*calibrate tape		+1.00
+
+402	401	3.03	095	+11
+403	402	3.33	136	-06
+403	404	1.40	-	up
+404	405	6.43	314	+00
+406	405	4.86	134	+16
+406	511	2.67	242	+11
+
+*end	mar03

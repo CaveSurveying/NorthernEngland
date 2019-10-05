@@ -1,0 +1,41 @@
+;Cave:	Pipikin - upper HOTMK into Svengland
+;Surveyors:	R.Duffy/J/Baker/A.Whitney/P.Windle
+;Date:	15/06/02
+;Instruments:	PAG
+
+;*equate	pip23.001	pip22.010
+;*equate pip23.018	pep.037a
+
+*begin	pip23
+*export 018
+*export 001
+
+*calibrate compass	+5.0
+
+001	002	02.95	138.0	+05.0	;st001=bolt=st010 on Pip22
+002	003	04.15	 -	UP	;pitch to saddle
+003	004	01.85	087.0	 00.0	;across to down pitch rope
+004	005	06.20	 -	DOWN	;st005 is head height at bottom of rope in large rift passage
+005	006	04.90	064.0	+22.0	;st006 is bottom of short climb
+006	007	02.35	 -	UP
+007	008	03.00	077.0	+06.0
+008	009	07.50	044.0	+32.0
+009	010	03.15	049.0	+09.0
+
+010	010a	01.70	 -	UP
+010a	010b	07.70	068.0	+31.0	;(suspect clino reading)could be 81?
+
+010b	010bi	04.80	102.0	-20.0	;st010bi is far corner of aven on right
+
+010b	010c	07.55	042.0	+26.0
+
+010	011	01.10	020.0	-12.0	;into small side passage on left of passage
+011	012	02.70	352.0	+02.0	;st012 sound of water falling into echoing chamber below boulder in floor
+012	013	05.00	033.0	 00.0
+013	014	02.20	081.0	+01.0	;st014 is stooping height in middle of dribbly aven
+014	015	09.20	148.0	+02.0	;horrid wet muddy flat out crawl into small aven poosible connection to st010Bi
+015	016	04.20	248.0	-03.0
+016	017	03.25	155.0	-05.0
+017	018	00.30	 -	UP	;st018 is TAG in roof of streamway
+
+*end	pip23

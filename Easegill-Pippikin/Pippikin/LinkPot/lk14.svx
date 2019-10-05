@@ -1,0 +1,40 @@
+;Cave:	Link Pot - Damnation Aven, upper passages
+;Surveyors:	S.Lieberman (notes+pics), Andy Whitney (Instruments)
+;Date:	25/05/07
+;Instruments:	Disto + Shetland attack pony
+
+;*equate	lk14.001 lk02a.019	;tag, base of Damnation Aven
+;*equate	lk14.001 lk15.001 ;st001=tag, base of Damnation Aven
+
+*begin	lk14
+*export 001
+
+*calibrate compass	0.00
+*calibrate clino	0.00
+*calibrate tape		0.00
+
+002	001	05.63	304.0	-85.0	;001 is tag at base of aven, 002 is bolt at top of aven
+003	002	02.38	113.0	-09.0	;003 exit of tube at top of crumbly climb
+003	004	06.06	116.0	+06.0	;004 roof height at entrance to bedding complex over aven
+003	005	07.37	152.0	+20.0	;005 top of choke opposite blowhole
+003	006	06.57	024.0	+08.0	;006 through tube to opposite wall of dangling doom
+003	007	15.73	215.0	+03.0	;007 LH side at end of mudbank	
+007	008	09.21	234.0	+06.0	;008 sitting on boulder in aven / chamber
+008	009	08.32	338.0	-01.0	;009 back wall through tight rift at floor level
+008	010	09.56	339.0	+42.0	;010 stood in pit in chamber above dodgy squeeze up
+010	010a	06.30	052.0	+09.0	;010a into bedding
+010	011	07.31	301.0	+01.0	;011 step in floor after tight bedding
+011	012	05.32	281.0	-04.0	;012 above drop into small chamber and vadose trench
+012	012a	03.50	  -	 DOWN	;012a base of climb to vadose trench below
+012	013	07.40	341.0	 00.0	;013 RH branch boulder in floor below 4m joint in roof at junction
+013	014	02.86	354.0	+02.0	;014 RH branch another junction
+014	015	05.38	326.0	+21.0	;015 RH branch back wall of choke at end of tight rift
+012	016	06.39	313.0	-04.0	;016 LH branch
+016	017	03.40	350.0	 00.0	;017 LH branch junction to right goes to RH branch stn 14
+017	018	08.12	327.0	 00.0	;018 LH branch far end of miserable pool
+
+018	019	04.00	075.0	+05.0	;019 (Grade 2b) crawl beyond pool
+019	020	02.50	075.0	+05.0	;020 (Grade 2b) jointed chamber / boulders
+020	021	05.00	  -	  UP	;021 (Grade 2b) roof of jointed chamber
+
+*end	lk14

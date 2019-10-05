@@ -1,0 +1,40 @@
+;Cave:	Earby Series from Ramsden and Maple Junction
+;Surveyors:	Ray Duffy/Tim Eastwood/Paul Windle
+;Date:	20/02/00
+;Instruments:	PAG
+
+;*equate	es8.021	es13a.001
+;*equate	es8.001	es1.010
+;;;*equate	es8.021	es13.001
+;*equate	es8.005	es15.000
+;*equate	es8.005	es16a.001
+
+*begin	es8
+*export 001
+*export 021
+*export 005
+
+*calibrate compass	+6.00
+
+001	002	00.30	 -	DOWN	;st001=tag in roof at junction
+002	003	08.10	117.0	+02.0	;through squeeze
+003	004	07.50	076.0	+05.0
+004	005	02.00	121.5	+25.0	;st005=tag in roof beside squeeze up to Cape Kennedy
+005	006	10.60	090.5	+03.0
+006	007	05.30	141.0	+08.0
+007	008	11.30	087.5	+01.0
+008	009	03.30	082.0	+01.0	;st009 has hole to stream on right
+009	010	12.40	036.5	+00.5	;inlet on right half way between st009 & st010 just past stal floor
+010	011	11.60	068.5	+01.0	;between st010 & st011 is squeeze through stal grill
+011	012	07.70	025.0	-02.0	;st011 is start of vadose trench proper
+012	013	07.60	071.5	+03.0
+013	014	04.10	055.0	+01.0
+014	015	14.30	065.5	+01.0
+015	016	06.80	069.0	-06.0
+016	017	18.40	070.5	 00.0
+017	018	12.70	151.5	+06.0
+018	019	12.00	067.5	-02.0
+019	020	06.80	052.5	+03.0
+020	021	04.90	077.5	-08.0	;st021=cairn at start of dig on left and streamway to Maple Leaf paper left on station
+
+*end	es8

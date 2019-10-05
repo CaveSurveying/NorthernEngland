@@ -1,0 +1,30 @@
+;Cave:		Limerick Passage - part 5 -left hand branch (wet)
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:		03/05/08
+;Instruments:	MKO + disto
+
+;*equate t06biv.001 t06b.031 ;st001=tag at major stream junction
+
+*begin	t06biv
+*export 001
+
+*calibrate compass	+1.00
+*calibrate clino	+0.50
+*calibrate tape		 0.00
+
+001	002	00.30	 -	UP	;st001=tag at major stream junction
+002	003	02.05	151.0	+05.0
+003	004	05.29	084.0	+03.0	;st004 is left side of stream at junction
+
+004	004a	08.25	142.0	+05.0	;right hand branch
+004a	004b	02.11	116.0	+01.0
+004c	004b	05.01	329.0	-06.0	;st004c is foot of aven with crawl to left to Pllel aven 4m high
+004c	004d	04.82	 -	UP	;st004d is top ofJelly Baby Aven 
+
+004	005	05.01	097.0	+06.0	;st005 is right of pillar with window to other passage to right
+005	006	04.06	055.0	+01.0
+006	007	04.49	158.0	+04.0
+007	008	06.51	141.0	+06.0	;st008 has 3m high clean washed narrow rift 4m to left at edge of cobbled bedding
+008	009	07.34	141.0	+02.0	;no  way on
+
+*end	t06biv

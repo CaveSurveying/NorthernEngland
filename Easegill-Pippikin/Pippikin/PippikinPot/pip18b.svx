@@ -1,0 +1,25 @@
+;Cave:	Pipikin - Gour Hall to Extreme Ways
+;Surveyors:	Dave Ramsay/Brian Ward
+;Date:	12/10/05
+;Instruments:	kit 1
+
+;*equate pip18b.008	pip18a.005 ;bottom of Electric Wine Gum
+;*equate	pip18b.001	pip24.015 ;roof above small square block
+
+*begin	 pip18b
+*export 001
+*export 008
+
+*calibrate compass	+2.00
+*calibrate clino	-2.50
+*calibrate tape		+10.0
+
+001	002	32.94	353.0	+13.0	;st001 on roof at ent. to Ex.Ways small square dropped block
+002	003	21.75	020.0	-01.0	;st002 is 1m stal by 'pot'
+003	004	22.40	021.0	-26.0
+004	005	25.65	045.0	-23.0
+005	006	33.15	035.0	-07.0
+006	007	22.20	036.0	-04.0
+007	008	17.05	028.0	-01.0	;st008 is bottom of rope up to E.W.G
+
+*end	 pip18b

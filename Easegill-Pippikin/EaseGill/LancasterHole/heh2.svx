@@ -1,0 +1,22 @@
+;Cave:	Lancaster Hole-Hemmingway Hall in Waterfall passage again( Infinity Bedding Plane)
+;Surveyors:	Neil pacey/R.Garrett/D.Ramsey/J.Alker
+;Date:	15/11/98
+;Instruments:	Kit 1
+
+;;*equate	heh2.005	heh1.009
+
+*begin	heh2
+*export 005
+
+*calibrate compass	+185.00
+
+;*fix	001	
+
+000a	000	05.00	212.0	 00.0	;guestimated leg
+000	001	02.40	221.0	-03.0
+001	002	05.70	255.0	-07.0
+002	003	02.22	250.0	-01.0
+003	004	05.80	244.0	-15.0
+004	005	05.40	276.0	+01.0
+
+*end	heh2

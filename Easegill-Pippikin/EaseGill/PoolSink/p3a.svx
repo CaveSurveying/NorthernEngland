@@ -1,0 +1,59 @@
+;Cave/Series:	Pool Sink: Last Pitch Bypass Series
+;St 0/1 below bolt at top of 3rd Pitch
+;Date:	P3	17/03/96
+;Surveyors:	H.St.Lawrence/R.Duffy
+
+;*equate	p3a.000	p1a.048
+;*equate	p3a.052	p1a.065
+;*equate	p3a.010	p1a.057
+;*equate	p3a.054	p1a.068
+;*equate	p3a.044	p4a.000
+;*equate	p3a.054	p4a.039
+
+*begin	p3a
+*export 010
+*export 054
+*export 000
+*export 052
+*export 044
+*calibrate compass	+5.27
+
+000	001	01.70	 -	UP	;St000=St001 on PSINK2(3.3.96)
+001	002	05.60	335.0	-09.0
+002	003	07.20	272.0	+12.0
+003	004	06.30	251.0	+06.0	;St004=Junction
+;004	005	06.70	324.0	+10.0
+004	005	06.70	324.0	-10.0
+;005	006	06.30	007.0	+05.0
+005	006	06.30	007.0	-05.0
+006	007	01.60	 -	UP
+;007	008	01.90	309.0	+16.0
+007	008	01.90	309.0	-16.0
+;008	009	02.00	022.0	+42.0
+008	009	02.00	022.0	-42.0
+009	010	05.00	 -	DOWN	;vertical to Main Stream
+007	007a	03.10	328.0	+32.0
+007a	007b	06.70	133.0	+30.0
+007b	007c	04.80	044.0	+05.0
+007c	007d	05.20	118.0	+05.0	;end of side pass. with heligmite field
+007a	007aa	03.80	292.0	-15.0
+007aa	007ab	03.80	247.0	+22.0	;pass. turns R thru slot & ends above main Stream
+;004	041	03.70	 -	DOWN
+004	041	03.70	 -	UP
+041	042	06.70	305.0	-07.0
+042	043	08.60	260.0	-18.0	;3.8m along this leg +10m Aven
+043	044	09.30	279.0	-02.0	;St044 inscribed on top of block on shelf
+044	045	07.90	354.0	-23.0
+045	046	08.10	345.0	-31.0	;St046=T Junct
+046	047	05.80	265.0	-12.0
+047	048	03.70	252.0	-02.0
+048	048a	05.60	 -	DOWN	;station below on ledge
+048a	049	01.00	000.0	 00.0
+046	050	03.10	052	-22.0
+050	051	04.40	328	-35.0	;St051=T. Junct
+051	052	09.30	075	-08.0	;St052=stP2.060=MB206
+;051	049	10.70	270	-26.0	;6.8m from 051 is St049
+051	051a	10.70	270	-26.0	;6.8m from 051 is St049
+049	054	03.80	300	-23.0	;St054=St055 on P2(3.3.96)also st054=stp4.039
+
+*end	p3a

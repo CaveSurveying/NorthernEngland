@@ -1,0 +1,59 @@
+;Cave:	Pipikin-Hall of the Ten towards Gour Hall via Hall of the Mountain King(Wellington Traverse)
+;Surveyors:	Ray Duffy/Andy Hall
+;Date:	06/03/99
+;Instruments:	PAG
+
+;*equate	pip15.001	pip01.021
+;*equate	pip15.012	pip16.001
+;*equate	pip15.009	pip17.001
+;*equate	pip15.040	pip18.028
+;*equate	pip15.040	pip19.001
+;*equate	pip15.030	pip22.000
+;*equate	pip15.004	pip01.018
+
+*begin	pip15
+*export 001
+*export 012
+*export 004
+*export 009
+*export 030
+*export 040
+
+*calibrate compass	+4.50
+
+;*fix	001	
+
+001	002	22.4	170.0	+14.0	;st001=tag Hall of the Ten,st002 top of slope
+002	003	17.6	233.0	-01.0
+003	004	08.00	145.5	+11.0
+004	005	11.3	151.0	+12.0
+005	006	05.40	167.0	-13.0
+006	007	07.40	215.0	-34.5
+007	008	17.00	222.0	+04.0
+008	009	22.40	201.0	+02.0	;st009=tag in mud below slope probably up to Hall of the Damned
+009	010	09.60	344.0	-03.0	;st010 is below boulder squeeze up into aven
+010	011	03.00	270.0	+37.0
+011	012	05.80	325.0	-02.0	;st012=tag in aven we passed on traverse,right of tag is climb up into passage still going? Needs surveying
+
+003	030	07.00	210.0	-10.0	;st030=knot in rope from aven at junction above pool
+
+;addition by H.St.Lawrence/Frog 31/03/99 same instruments
+
+030	030a	06.50	 -	UP
+030a	030b	00.80	160.0	 00.0
+030b	030c	04.00	 -	UP
+030c	030d	04.00	118.0	 00.0	;continues too tight poss.bang!
+
+
+030	031	20.10	237.0	-01.0
+031	032	11.20	245.5	-02.0
+032	033	07.50	208.0	-03.0
+033	034	00.50	 -	DOWN
+034	035	07.70	195.0	+03.0
+035	036	01.00	 -	UP
+036	037	15.10	246.0	-01.0
+037	038	07.60	250.0	-02.5
+038	039	01.30	 -	UP
+039	040	03.90	250.0	+19.0	;st040=tag junction above pile of rocks
+
+*end	pip15

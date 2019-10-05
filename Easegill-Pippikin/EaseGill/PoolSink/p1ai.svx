@@ -1,0 +1,26 @@
+;Cave:	Pool Sink - Holbeck Junction loop
+;Surveyors:	R.Duffy/A.Whitney
+;Date:	25/04/05
+;Instruments:	PAG + disto
+
+;*equate p1ai.001 p1a.105 ;Holbeck Junction
+
+*begin	p1ai
+*export 001
+
+*calibrate compass		+7.00
+*calibrate clino		-0.50
+;*calibrate tape		
+
+002	001	00.84	157.0	+06.5	;st001=bolt hole at Holbeck Junction pillar
+002	003	00.53	-	DOWN
+004	003	27.33	070.0	 00.0	;st004 is sitting on ledge at start of crawl
+
+004	004a	06.70	260.0	-11.0	;st004a is start of huge boulders in choke ways through not pleasant
+
+005	004	06.96	012.0	+00.5
+006	005	08.76	301.0	-01.5
+007	006	08.76	275.5	-02.5
+008	007	17.93	293.0	-03.5	;st008 is at duck through from pool in Green & Smelly
+
+*end	p1ai

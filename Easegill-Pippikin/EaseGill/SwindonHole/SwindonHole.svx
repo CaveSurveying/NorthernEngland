@@ -1,0 +1,18 @@
+;Every Swindon Hole file
+
+*begin SwindonHole
+
+*export swh.031 ; connection with slit sinks
+*export swh.001 ; entrance
+*export trident25bi.001 
+
+*equate	trident25bi.010 swh.026
+*equate trident17i.008 trident25ai.001
+*equate trident17i.007b trident25bi.001
+
+*include	swh
+*include	trident17i
+*include	trident25ai
+*include	trident25bi
+
+*end SwindonHole

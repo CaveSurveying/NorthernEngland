@@ -1,0 +1,36 @@
+;*equate PicklePassage2.001 PicklePassage1.021
+
+*begin PicklePassage2
+
+*export 001
+*export 005
+
+*title "small section of pickle passage"
+
+*date 2013.02.16
+
+*team Instruments Tom Clayton 
+*team Notes Emma Wilson
+*team Tape Tom Clayton
+
+*instrument Tom Clayton's Tandem Comp and Clino
+
+*calibrate compass +1.0	; Calibrated on 03/03/2013
+*calibrate clino   +0.5 ; Calibrated on 03/03/2013
+*calibrate tape	   0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+002	001	01.63	179	+08	; Station 21X is from PicklePassage1,
+003	002	02.15	172	+05	; 
+004	003	02.09	106	+10	; 
+005	004	02.65	165	+03	; passage by station 5 tight and prone to cobbling up
+
+*data passage station left right up down ignoreall
+
+001	0.5	0.5	0.3	0.8 	; nose on wall a couple of mtrs from pickle corner, in small 'chamber'
+002	1.0	0.4	0.4	0.8	; 
+003	0.8	0.4	0.3	0.8	; 
+004	0.2	1.0	0.2	0.7	; 
+
+*end PicklePassage2

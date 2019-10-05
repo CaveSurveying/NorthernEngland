@@ -1,0 +1,43 @@
+;Cave:	Trident - from tag 3 to Battle of Britain tag
+;Surveyors:	Anthony(notes)/Julia Bradshaw(instr.)/Dinny(tape)
+;Date:	09/02/02
+;Instruments:	3
+
+;;*equate	trident01.YTBB	man1.007
+;*equate	trident01.yt3	trident02.yt3
+;*equate	trident01.yt3	trident09.012
+;*equate	trident01.yt2	trident05.001
+;*equate	trident01.yt2	trident07.001
+;*equate	trident01.yt2	trident17.001
+;*equate	trident01.yt2	trident25.001
+;*equate	trident01.yt2	trident25a.008
+;*equate trident01.yt1	trident16.001
+;;*equate	trident01.YTBB	tridentscale.001
+
+*begin	trident01
+*export ytbb
+*export yt2
+*export yt3
+*export yt1
+
+*calibrate compass	-3.0
+
+;*fix	YTBB	67486.75 80674.30 278.73
+
+002	yt3	03.55	032.0	-35.0	;YT3=tag on scaffold bar in streamway
+003	002	05.50	082.0	-11.0
+003	yt2	03.84	272.0	+16.0
+
+;004a	YT2	03.58	068.0	+33.0	;resurveyed as 1st leg of trident7 survey
+
+005	yt2	03.20	007.0	-04.0
+005	006	02.70	215.0	+19.0
+006	yt1	02.94	158.0	+10.0
+yt1	008	02.76	140.0	-43.0
+008	009	05.34	263.0	-26.0
+009	010	03.40	283.0	-39.0
+010	011	03.06	223.0	-01.0
+011	012	03.35	291.0	+02.0
+012	ytbb	01.62	 -	DOWN	;YTBB=tag Battle of Britain Chamber
+
+*end	trident01

@@ -1,0 +1,54 @@
+;Cave:		Link Pot - Tiger's Inlet Downstream - The Ramp (part 3)
+;Surveyors:	R,Duffy/S.Lieberman
+;Date:		17/01/09
+;Instruments:	MKO + disto
+
+;*equate	lk21.021 lk20.013 ;st001=tag at junction on straw
+;*equate lk21.010 lk22.001 ;st001=tag on flake at head height
+
+*begin	lk21
+*export 010
+*export 021
+
+*calibrate compass	 0.00
+*calibrate clino	 0.00
+*calibrate tape		 0.00
+
+002	001	06.30	250.0	-01.0	;st001 is end of bedding
+003	002	05.63	150.0	-10.0
+003	004	04.09	321.0	+17.0
+005	004	02.53	140.0	-48.0	;st004 is top of wedged slab causing constriction
+005	006	10.49	328.0	+28.0
+006	007	09.91	327.0	+13.0	;st007 is head height sitting opposite sink
+
+007	007a	02.99	064.0	-22.0	;st007a is where water runs in parallel tight tube
+
+007	008	07.24	338.0	+21.0	;st008 is sitting in low arch after larger passage
+008	009	04.61	321.0	+32.0
+009	010	00.53	033.0	+17.0	;st010=tag on flake at head height, passage up climb to be surveyed
+
+010	011	02.98	039.0	+10.0	;st011 is end of outlet
+011	012	07.90	323.0	+01.0	;passage continues very low
+
+013	010	03.29	135.0	-24.0
+013	013a	07.60	330.0	+50.0	;st013a is top of choke (possibly Black Holes)
+
+013	014	06.91	014.0	-05.0
+015	014	01.78	318.0	-29.0	;st015=tag on corner of Way Out passage,on spike
+
+;up streamway to wet aven and Tigers Inlet Water?
+
+015	016	04.85	005.0	-09.0
+016	017	01.50	 -	UP
+017	018	02.51	025.0	-02.0	;st018=old survey tag on corner of unsurveyed passage on left
+018	019	05.92	096.0	+36.0	;up dribbly aven climb
+020	019	05.15	324.0	+10.0
+020	021	02.99	295.0	-13.0	;st021=cable tie on small stal at junction
+
+;down dry Way Out passage oxbow
+
+022	021	03.11	047.0	+23.0
+022	023	02.91	243.0	-13.0
+023	015	01.65	281.0	-14.0	;st015=tag
+
+*end	lk21

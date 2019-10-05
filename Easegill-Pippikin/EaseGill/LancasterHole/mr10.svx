@@ -1,0 +1,25 @@
+;Cave:	Lancaster Hole - Magic Roundabout - Quality Street
+;Surveyors:	S.Lieberman/P.Windle
+;Date:	20/04/03
+;Instruments:	4
+
+;*equate	mr10.010	mr5.012
+
+*begin	mr10
+*export 010
+
+*calibrate compass	+4.00
+*calibrate clino	00.0
+*calibrate tape	+2.00
+
+002	001	07.01	158.0	+03.0
+003	002	08.90	165.0	 00.0
+004	003	09.19	155.0	+02.0
+005	004	06.11	169.0	+01.0
+006	005	06.40	095.0	-04.0
+007	006	04.27	085.0	+01.0
+008	007	03.79	160.0	+06.0
+009	008	03.00	 -	UP
+010	009	06.05	178.0	+01.0	;end of tight crawl
+
+*end	mr10

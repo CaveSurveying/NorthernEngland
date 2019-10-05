@@ -1,0 +1,31 @@
+;Cave:	County Pot - Trident - Cadbury Traverse to Scaffold Pole
+;Surveyors:	A.Day/J.Bradshaw
+;Date:	07/09/02
+;Instruments:	kit4
+
+;*equate	trident09.001	trident05.005
+;*equate	trident09.012	trident01.yt3
+;*equate	trident09.012	trident02.yt3
+;*equate	trident09.007	trident11.001
+*begin	trident09
+*export 001
+*export 007
+*export 012
+
+*calibrate compass	+4.00
+*calibrate clino	0.00
+
+
+002	001	02.83	155.0	+09.5	;st001=tag on Cadbury Traverse
+002	003	01.38	057.0	+24.0
+004	003	03.04	306.0	-03.5
+004	005	04.54	 -	DOWN
+006	005	02.49	315.0	-46.0
+007	006	01.31	206.0	+07.0	;st007=tag6 Key Passage
+007	008	04.32	182.0	+20.5
+009	008	02.33	312.0	-01.0
+009	010	03.44	115.0	+03.0
+011	010	02.34	354.0	 00.0
+011	012	02.39	141.0	+24.5	;st012=tag3 on scaffold Bar
+
+*end	trident09

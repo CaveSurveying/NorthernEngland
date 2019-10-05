@@ -1,0 +1,43 @@
+;Cave:	Lancaster Hole - Assembly Hall part 1
+;Surveyors:	R.Duffy/S.Lieberman/A.Whitney
+;Date:	16/03/06
+;Instruments:	PAG + disto
+
+;;*equate	md3c.001 md3.001 ;bolt hole at bottom of climb
+;;;*equate	md3c.010 GyC3.016 ;stal with tape on right looking up E.Grot
+;;;*equate	md3c.009 GyC3.119 ;UP2
+;;*equate md3c.006 md2ai.001 ;st001 is back against crack next to small chamney in chamber
+
+*begin	md3c
+*export 009
+*export 010
+*export 001
+*export 006
+
+*calibrate compass		+4.00
+*calibrate clino		+1.00
+*calibrate tape		  0.00
+
+*flags splay ; (Assembly Hall) explicitly stated as splays
+001a	001	06.83	123.0	+05.0 ;chamber sizing
+001b	001	09.86	146.0	+21.5 ;chamber sizing
+001c	001	08.88	189.0	+21.0 ;chamber sizing
+*flags not splay
+
+001	002	02.85	 -	UP	;st002 is lip at back of first climb up
+003	002	03.46	178.0	-30.0	;top of climb to next chamber
+003	004	01.17	 -	UP	;st004 head height with back on wall of chamber
+004	005	08.03	338.5	+16.0	;st005 is sitting on large boulder start of next chamber
+005	006	03.42	008.0	+02.0	;st006 is back against crack next to small chamney in chamber
+006	007	08.40	140.0	+48.0	;up climb to ledge below top
+007	008	00.55	 -	UP	;st008 is top of stal above climb
+;start of Easter Grotto
+*flags duplicate ; (Easter Grotto) also contained in 114-119 gyc3 
+009	008	01.26	276.0	-20.0	;st009 is UP2
+009	010	08.18	188.0	-01.0	;st010 is stal next to pit on left
+010	011	36.90	260.5	 00.0	;st011 is foot of sloping crawl to next chamber
+012	011	02.29	035.0	-27.0
+012	013	06.94	275.0	+23.5	;st013 is foot of small vertical from bedding
+*flags not duplicate
+
+*end	md3c

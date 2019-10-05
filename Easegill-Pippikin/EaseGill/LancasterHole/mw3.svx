@@ -1,0 +1,24 @@
+;Cave:	Montague West to Cross Passage
+;Surveyors:	Ray Duffy/Angela Hare
+;Date:	08/02/97 pm
+;Instruments:	Red Rose Sunto Compass & Clino, 30m tape
+
+;;*equate	mw3.001	mw1.027
+;;*equate	mw3.006	mw4.001
+;;*equate	mw3.006	mw7.015
+;;;*equate	mw3.006	mw5.001
+
+*begin	mw3
+*export 001
+*export 006
+
+*calibrate compass	+5.17
+
+001	002	09.80	201.0	-18.0	;001=tag mw1.027,st002 is hole to Waterfall Pass.
+002	003	09.40	197.0	+17.5	;alcove on left
+003	003a	04.00	085.0	 00.0	
+003	004	03.09	253.5	+06.0
+004	005	06.08	208.5	+01.0
+005	006	02.54	243.0	+07.5	;T junction
+
+*end	mw3

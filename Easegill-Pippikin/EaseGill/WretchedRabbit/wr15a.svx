@@ -1,0 +1,23 @@
+;Cave:	Wretched Rabbit - Lower 4 ways chamber side passage
+;Surveyors:	R.Duffy/A.Whitney
+;Date:	27/05/03
+;Instruments:	PAG
+
+;*equate	wr15a.001	wr15.010e
+
+*begin	wr15a
+*export 001
+
+*calibrate compass	+5.00
+*calibrate clino	+0.50
+*calibrate tape		+1.00
+
+001	002	10.12	072.0	+05.0	;st001=st010e on 4 Ways survey ad is on large rounded boulder above streamway after drop down hole from 4 ways
+002	003	13.42	117.0	+03.0
+003	004	03.06	155.0	+02.0
+004	005	06.07	096.5	+06.5
+005	006	06.56	059.0	 00.0
+006	007	03.15	016.0	-02.5	;st007 has small crawl to right very tight to right angled bend
+007	008	06.58	092.0	+03.5	;st008 is in small bouldery chamber, choked
+
+*end	wr15a

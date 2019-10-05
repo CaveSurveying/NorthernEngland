@@ -1,0 +1,29 @@
+;Cave:		Boundary Pot - downstream from ladder dry crossover
+;Surveyors:	S.Lieberman/R.Duffy
+;Date:		08/08/07
+;Instruments:	PAG + disto
+
+;*equate	bdy3d.001 bdy3.015 ;tag in main passage
+
+*begin	bdy3d
+*export 001
+
+*calibrate compass		+3.00
+*calibrate clino		+0.50
+*calibrate tape		 0.00	
+
+*flags duplicate ; (Boundary Pot) looks like a tie-in already covered by 001-004 in bdy4.svx
+001	002	12.89	145.0	+14.0	;st001=tag in main passage
+*flags not duplicate
+002	003	08.34	060.0	+06.0
+003	004	05.54	070.0	+61.0
+004	005	03.29	098.0	+29.0
+
+005	005a	09.65	126.0	+70.0	;leg up steep climb to boulders prob. below climb from ent. crawl
+
+005	006	03.88	037.0	+01.0
+*flags duplicate ; (Boundary Pot) looks like a tie-in to the pitch base, already covered by 022-023 in bdy3.svx
+006	007	09.55	149.0	+10.0	;st007 is head height at foot of ladder
+*flags not duplicate
+
+*end	bdy3d

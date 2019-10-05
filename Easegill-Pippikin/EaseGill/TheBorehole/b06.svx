@@ -1,0 +1,47 @@
+;Cave:		Borehole - 2nd Inlet, from tag at pool at T junction
+;Surveyors:	S.Lieberman instuments / disto
+;Surveyors:	M.Shinwell Notes & Pics
+;Date:		04/10/07
+;Instruments:	PAG + disto
+
+;*equate	b06.001 b01.015	;st015=tag on nose at junction.
+
+*begin b06
+*export 001
+
+*calibrate compass	+3.00
+*calibrate clino	+0.50
+*calibrate tape		 0.00
+
+001	002	01.46	095.0	 00.0
+002	003	04.79	071.0	+06.0
+004	003	01.34	296.0	+12.0
+004	005	01.13	068.0	 00.0
+006	005	00.71	257.0	-05.0
+006	007	01.62	135.0	+17.0
+007	008	02.28	078.0	+03.0
+009	007	00.40	001.0	+07.0
+009	010	03.79	133.0	+07.0
+011	010	01.45	346.0	+01.0
+012	011	00.73	284.0	+02.0
+012	013	02.47	060.0	+04.0
+012	014	06.57	151.0	+06.0
+
+*end b06
+
+; stn	L	R	U	D	desc
+; 001	0.6	0.1	0.3	1.1	tag at T-junction
+; 002	0.3	0	0.4	1	pt LW
+; 003	0	0.3	0.3	0.7	pt LW
+; 004	0.1	0.2	0.6	0.2	Sam's head
+; 005	0.4	0	0.8	0.3	pt RW
+; 006	0.2	0.2	0.7	0.3	Sam's head
+; 007	0.4	0.5	0.3	0.8	at junction
+; 008	0.3	0	0.2	0.9	RW as passage turns left
+; 009	0.1	0.2	0.4	0.7	Sam's head
+; 010	0.1	0.5	0.1	1.0	stal LW
+; 011	0	0.3	0.2	0.7	-
+; 012	0.3	0.8	0.2	0.6	at junction
+; 013	-	-	-	-	at cobble choke	in passage 30-40cm wide
+; 014	-	-	-	-	-
+

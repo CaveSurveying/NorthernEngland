@@ -1,0 +1,33 @@
+;Cave:	County - Trident - end of Hourglass Passage to Broken Ladder
+;Surveyors:	R.Duffy/A.Whitney/A.Hall/T.Eastwood
+;Date:	07/09/02
+;Instruments:	PAG
+
+;*equate	trident08.009	trident10.015
+;*equate	trident08.014	trident06.001
+;*equate	trident08.014	trident07.012d
+;*equate	trident08.014	trident23b.001
+
+*begin	trident08
+*export 009
+*export 014
+
+*calibrate compass	+5.00
+*calibrate clino	0.00
+*calibrate tape	+2.00
+
+001	002	05.58	110.0	+15.0	;st001 is top of pointed large boulder wedged across drop at end of Hourglass Passage
+002	003	16.30	128.0	+01.0	;st003 is end of passage beside large boulder
+003	004	03.90	139.0	+30.0
+004	005	07.15	049.0	-04.0
+005	006	04.80	131.0	+14.0
+006	007	04.20	234.0	+10.0
+007	008	06.10	164.0	+21.0
+008	009	09.70	101.0	-05.0	;st009=tag at junction, aven on right near st009 end of leg
+009	010	04.68	119.0	-36.0
+010	011	04.38	114.0	+31.0
+011	012	03.00	 -	UP
+012	013	05.81	122.0	+02.0
+013	014	05.35	147.0	+27.0	;st014=tag on rope of Broken Ladder pitch
+
+*end	trident08

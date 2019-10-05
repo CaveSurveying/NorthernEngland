@@ -1,0 +1,22 @@
+;Cave:		Boundary Pot - Inlet above stal boss in main passage
+;Surveyors:	S.Lieberman/R.Duffy/P.Wilkinson
+;Date:		29/07/07
+;Instruments:	PAG + disto
+
+;*equate	bdy3a.007 bdy3.008a ;st008a is bolt hole on wall
+
+*begin	bdy3a
+*export 007
+
+*calibrate compass		+3.00
+*calibrate clino		+0.50
+*calibrate tape		 0.00
+
+002	001	04.68	070.0	+05.0
+003	002	01.68	098.0	+04.0
+003	004	04.70	323.0	-15.0
+005	004	01.49	107.0	-31.0
+005	006	09.20	246.0	-48.0
+007	006	04.09	264.0	+20.0	;st007 is bolt hole on wall
+
+*end	bdy3a

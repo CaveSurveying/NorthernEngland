@@ -1,0 +1,26 @@
+;Cave:	Lancaster Hole - Magic Roundabout - Pristine Way aven
+;Surveyors:	P.Swire/D.Ramsey/R.Gerrish
+;Date:	04/05/03
+;Instruments:	5
+
+;*equate	mr6a.000	mr6.009
+
+*begin	mr6a
+*export 000
+
+*calibrate compass	+2.00
+*calibrate clino	-1.00
+*calibrate tape		+3.00
+
+000	001	06.50	 -	UP	;aven on right going into Pristine Way
+001	002	06.50	252.0	+01.0	;bit lost off tape
+*calibrate tape		+3.70
+002	003	05.50	255.0	+02.0
+003	004	08.00	285.0	+03.0
+004	005	06.90	264.0	+08.0
+005	006	06.60	001.0	+25.0
+006	007	06.40	211.0	+43.0	;inlet on bend between st006 & st007
+007	008	07.50	190.0	+05.0	;inlet just before st008
+008	009	05.70	190.0	+03.0	;st009 is cobbles with inlet
+
+*end	mr6a

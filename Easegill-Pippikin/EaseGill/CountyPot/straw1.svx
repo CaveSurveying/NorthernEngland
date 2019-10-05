@@ -1,0 +1,29 @@
+;Cave:	Lancaster Hole - Straw Chamber side passage to Gren & Smelly
+;Surveyors:	R.Duffy/S.Lieberman/A.Whitney
+;Date:	10/11/05
+;Instruments:	PAG + disto
+
+;;*equate	straw1.001 straw.005 ;tag on stal at start of Dry Dock
+
+*begin	straw1
+*export 001
+
+*calibrate compass	+2.50
+*calibrate clino	+1.00
+*calibrate tape		 00.0
+
+*flags duplicate ; (Straw Chamber) tie-in duplicates 004-005 in md4c
+002	001	06.27	087.0	+17.0	;st001=tag in Dry Dock
+*flags not duplicate
+002	003	10.17	328.0	-30.0	;st003 is bottom of dangerous climb up to passage at roof level
+004	003	04.13	233.0	-33.0
+005	004	02.75	236.0	+04.0	;st005 is head height sitting on left side of block in small chamber
+006	005	05.53	226.5	-04.0
+007	006	05.02	237.0	-02.5	;st007 has small oxbow to right
+008	007	03.36	230.0	 00.0	;between stations is squeeze
+009	008	04.71	261.0	+01.0	
+009	010	01.40	 -	DOWN
+011	010	02.56	268.0	+16.0	;st011 is at tight drop through slot
+012	011	06.85	220.0	+44.0	;st012 is at 2m drop to Green & Smelly
+
+*end	straw1

@@ -1,0 +1,72 @@
+;Cave:	Top Sink - North West Passage (re-survey)
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:	13/08/06
+;Instruments:	PAG + disto
+
+;;*equate	T09a.031 md2ai.106 ;tag above slope to NW Passage
+;*equate	t09a.031 t09b.020 ;tag  in Nagasaki
+;*equate	t09a.017 t09c.005ki ;st017 scratched on streamway wall below climb up to small oxbow
+;*equate	t09a.007 t09d.001 ;tag on boulder in small chamber
+;*equate	t09a.011 t09e.001 ;st001 is spike of rock at corner
+
+*begin	t09a
+*export 031
+*export 011
+*export 019
+*export 007
+*export 017
+
+*calibrate compass		+3.00
+*calibrate clino		 -0.50
+*calibrate tape			  0.00
+
+002	001	02.00	258.0	+11.0	;small pass. on left at st001 all too tight
+002	003	02.52	053.0	 00.0
+003	004	02.74	024.0	+07.0
+004	005	02.75	077.0	+14.0
+005	006	01.35	 -	UP	;st006 on roof at start of crawl to stream
+007	006	02.60	272.0	+10.0	;st007=tag on boulder in chamber
+
+007	007a	02.96	127.0	+09.0	;across chamber into bedding plane
+007a	007b	03.24	093.0	+08.0	;st007b has passage to left into chamber
+
+007b	007bi	04.14	317.0	+27.0	;st007bi is foot of climb into oxbow leading upstream entering at lodged boulder in roof above st011
+
+007b	007c	04.18	080.0	+08.0	;straight ahead at 007c chokes after 3m
+007c	007d	01.55	 -	UP	;small chimney into higher bedding
+007d	007e	03.98	091.0	+06.0	;st007e is choke, has been dug
+
+007	008	02.21	339.0	-13.0	;heading back toaward Nagasaki upstream out of chamber
+008	009	01.12	065.0	+16.0
+009	010	01.67	356.0	+10.0
+
+010	010a	03.79	069.0	+10.0	;st010a=tag at start of inlet from Booth-Eyre direction
+
+010	011	01.50	062.0	+07.0	;st011 is top of spike of rock on corner of chamber
+011	012	03.44	010.0	-01.0	;st012 near foot of waterfall
+012	013	02.85	 -	UP	;st013 is head height at top leaning against wall
+014	013	01.84	195.0	-22.0
+014	015	02.76	336.0	+11.0	;chutes and pools to st017
+015	016	04.59	002.0	+12.0
+016	017	03.74	335.0	+08.0	;st017 has climb to small passage in roof
+
+017b	017c	05.83	179.0	 00.0	;small tube in roof leads to streamway roof at st017c
+017b	017a	02.74	230.0	+02.0	;st017b is in small chamber 2m dia.
+017a	017	03.75	 -	DOWN
+
+017	018	02.18	305.0	+28.0
+018	019	09.92	007.0	+01.0	;st019 has ledges either side, on right ledge is climb up to the 5m pit from Nagasaki, and downstream crawl to drop into stream at st018 (both need surveying)
+019	020	03.59	269.0	+02.0
+020	021	04.14	346.0	+15.0	;st021 is head height leaning at downstream end af large boulder
+021	022	03.44	009.0	+04.0	;roof of stream lowers at this point
+022	023	10.24	044.0	+08.0
+023	024	08.30	043.0	+08.0	;boulder run in on left starts at this leg
+024	025	04.93	036.0	+28.0
+025	026	04.69	064.0	-07.0	;st026=tag in stream on true left wall
+026	027	06.13	312.0	+25.0	;up boulder slope to Nagasaki
+027	028	05.99	049.0	+39.0	;st028 is head height sitting on boulder above tube to upstream NW Passage
+028	029	00.87	 -	UP
+029	030	03.46	045.0	+54.0
+030	031	01.09	277.0	-16.0	;st031=tag in Nagasaki on boulder at top of slope	
+
+*end	t09a

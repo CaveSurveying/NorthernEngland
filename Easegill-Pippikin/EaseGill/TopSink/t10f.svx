@@ -1,0 +1,85 @@
+;Cave:		Top Sink - Dire Straits from Upper Molar end
+;Surveyors:	Ray Duffy (notes)/Sam Lieberman (instr)/Martin Green (ferret)
+;Date:		30/05/2011
+;Instruments:	PAG + disto
+
+;*equate t10f.001 t10d.13 ;cable tie
+
+*begin	t10f
+
+*date 2011.05.30
+
+*export 001
+*export 024
+
+*calibrate compass	+6.00
+*calibrate clino	 0.00
+*calibrate tape		 0.00
+
+002	001	01.80	263.0	+04.0	;st001=cable tie
+002	003	03.54	098.0	-17.0
+003	004	02.96	080.0	+19.0
+004	005	01.60	 -	UP
+005	006	01.50	094.0	-07.0
+006	007	01.80	 -	DOWN
+007	008	01.28	067.0	-03.0
+008	009	03.34	124.0	+05.0
+009	010	00.76	 -	UP
+
+010	010a	01.50	240.0	 0.00
+010a	010b	01.50	300.0	 0.00
+
+010	011	01.70	059.0	+03.0
+011	012	01.12	108.0	 00.0
+012	013	05.18	051.0	+01.5
+014	013	02.23	305.0	-07.0
+014	015	02.83	064.0	+11.0
+015	016	01.92	139.0	-13.0
+016	017	02.66	052.0	+08.0
+017	018	02.13	091.0	-15.0
+018	019	04.66	092.0	+11.0
+
+019a	019	03.22	224.0	-21.0
+019a	019b	03.03	088.0	-06.0
+
+019	020	00.66	 -	DOWN
+021	020	01.20	268.0	+03.0
+021	022	06.86	143.0	+04.0
+022	023	04.15	096.0	-27.0
+023	024	01.60	 -	DOWN
+
+
+*end	t10f
+
+;	stat.	l	r	u	d
+;	1					cable tie start of Danish Pass.
+;	2	0.3	0.5	4.6	1.0	Mud and rock bridge
+;	3	0.5	0.5	6.0	1.0	Mud and rock bridge
+;	4	0.4	0.4	5.5	0.0bd	climb up through boulders
+;	5	0.3	0.3	4.0	1.6	head height top of climb up
+;	6	0.2	1h/.2l	1.0	6.8	head height top of climb back down
+;	7	0.7bed	2.0bed	3.0	7.2	back in tight rift
+;	8	0.2	0.4	0.4	7.0	hd.ht.wedged in rift
+;	9	pass.	alcove	6.0	0&7.0	floor in cross rift
+;	10	pass.	alcove	6.0	7.0	station raised to hd.ht.sitting
+;
+;	small alcove on right 1.5m @ approx.240deg then 1.5m @ approx.300deg. heads back to climb
+;
+;	11	0.2	0.3	6.0	7.0	hd.ht.wedged in rift
+;	12	0.2	0.6	6.1	0.5	hd.ht.lying on ledge
+;	13	0.1	0.4	6.1	0.0	mud lump on floor of ledge
+;	14	0.4	0.3	6.1	5.2	hd.ht.wedged in rift
+;	15	0.5	.5h/3l	1.0	0.7	hd.ht sitting on ledge
+;	16	0.5	1bed/.5h4.6	4.5	hd.ht.wedged in rift
+;	17	0.5	0.4	3.1	0.7	hd.ht sitting on ledge, rift under bedding
+;	18	0.2	0.7	5.2	4.0	hd.ht.wedged in rift
+;	19	0.5	0.0	6.0	1.0	small helectite on R wall above ledge, rift under bedding
+;
+;	019a	0.4	0.4	5.1	1.6	Side passage with rift too tight 2m above
+;	019b	0.0	0.3	0.8	0.8	stal choked end
+;
+;	20	0.5	.07	hel.	0.0	ledge floor
+;	21	0.2	0.5	0.2	3.8	hd.ht.wedged in rift
+;	22	4.0	0.5	6.5	0.7	hd.ht sitting on ledge in chamber
+;	23	1.8/1l	0.3	6.5	.7h/3.7lhd.ht. standing at 3m climb up	
+;	24	floor level at the foot of the 3m climb up to the continuation of Dire Straits to Wisdom Tooth

@@ -1,0 +1,29 @@
+;Cave:		Link Pot - Damnation Aven, lower passages
+;Surveyors:	S.Lieberman (notes+pics)/Ray Duffy(SAP)/Mark Shinwell(disto)
+;Date:		31/05/07
+;Instruments:	SAP/disto
+
+;*equate	lk15.001 lk14.001 ;st001=tag, base of Damnation Aven
+
+*begin	lk15
+*export 001
+
+*calibrate compass		0.00
+*calibrate clino		0.00
+*calibrate tape		0.00
+
+002	001	02.67	316.0	-23.0	;st001=tag at base of aven
+
+002	002a	07.10	039.0	+02.0	;st002a is in side passage to right of choke from climb up to top of aven
+002a	002b	03.87	346.0	+06.0	;st002b has choke to left
+
+002	002i	05.10	341.0	+08.0	;st022i is ent. to slope to upper level, (10m to roof) with perched boulder above
+
+002	003	06.30	292.0	+02.0	;st003 is first corner on right wall of lower passage left of aven
+003	004	02.51	340.0	-01.0	;st004 is right wall just above mud layer
+004	005	03.06	268.0	+01.0	;st005 is left wall
+005	006	02.17	353.0	-06.0	;st006 is right wall just above mud
+006	007	03.90	310.0	 00.0	;st007 is between two pools on right wall
+007	008	02.93	257.0	 00.0	;st008 is wall across pool, passage bends ot right 90 deg.
+
+*end	lk15

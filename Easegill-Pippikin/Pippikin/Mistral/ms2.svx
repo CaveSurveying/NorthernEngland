@@ -1,0 +1,30 @@
+;Cave:	Mistral-Start of Frontier
+;Surveyors:	Ray Duffy/Andy Hall
+;Date:	05/12/98
+;Instruments:	PAG
+
+;*equate	ms2.001	ms.010
+
+*begin	ms2
+*export 001
+
+*calibrate compass	+4.00
+
+;*fix	001	
+
+001	001a	00.55	 -	DOWN
+001a	001b	06.80	239.0	+06.0	;st001b is across pitch to choke where verbal connection to Crumbles was made????
+001	002	04.10	 -	DOWN	;st001=tag=ms.010 -20cms pitch at Left turn to Hobbit
+002	003	02.80	260.0	-10.0	;st003 is head ht. sitting on boulder above rift??push??
+003	004	04.30	233.0	-11.0	;st004 is start of rift in breakdown chamber
+004	005	05.10	159.0	-36.0
+005	006	04.00	282.0	-35.0
+006	007	03.60	209.0	+04.0	;6 to 7 is under very dangerous boulder bridge
+007	008	03.20	188.0	-04.0
+008	009	03.80	230.0	-05.0
+009	010	05.70	299.0	-08.0	;between 9 & 10 draft goes up chimney to left very strong needs pushing!!!!!!!
+010	011	04.50	011.0	+02.0
+011	012	00.90	 -	DOWN
+012	013	02.20	255.0	-14.0	;st013 is knob of rock in small streamway in crawl to way on. Tight.
+
+*end	ms2

@@ -1,0 +1,51 @@
+;Cave:	Boundary Pot - Barstewards Crawl ent. to base of climbs
+;Surveyors:	R.Duffy/A.Hall
+;Date:	15/07/06
+;Instruments:	PAG +disto
+
+;*equate	bdy2b.011 bdy2a.011
+;*equate	bdy2b.008g bdy2a.003a
+;*equate	bdy2b.001 bdy3.034
+;*equate	bdy2b.004 bdy2d.007 ;st004 is middle of main passage from loop
+;*equate	bdy2b.001 bdy7a.008 ;st001 is head at entrance to Barstewards Crawl with legs in crawl
+
+*begin	bdy2b
+*export 011
+*export 001
+*export 008g
+*export 004
+
+*calibrate compass		+3.00
+*calibrate clino		-0.50
+*calibrate tape		 0.00
+
+002	001	05.42	023.0	-01.0	;st001 is head at entrance to Barstewards Crawl with legs in crawl
+
+002y	002z	04.10	112.0	+35.0	;st002z is end of choke in new passage
+002y	002x	02.90	338.0	-33.0
+002	002x	03.48	051.0	-02.0
+
+002	003	05.54	248.0	-01.0
+003	004	05.38	149.0	+06.0
+
+;;004	004a	03.07	099.0	 00.0	;leg replaced by Bdy2d
+
+004	004b	02.50	209.0	+07.0
+
+004	005	01.57	163.0	+02.0
+005	006	03.20	192.0	+05.0
+006	007	03.47	115.0	 00.0
+007	008	03.78	129.0	+05.0
+008	009	01.40	168.0	+03.0
+009	010	01.30	206.0	+02.0
+010	011	03.00	123.0	+08.0
+
+008	008a	01.90	298.0	-14.0
+008a	008b	01.42	 -	UP	;up through hole in roof of passage into upper passage
+008b	008c	00.70	 -	UP	;st008c head height standing over hole
+008c	008d	03.57	192.0	+16.0	;start of climbs up
+008d	008e	00.97	108.0	 00.0
+008e	008f	01.80	 -	UP
+008f	008g	02.80	152.0	+10.0
+
+*end	bdy2b

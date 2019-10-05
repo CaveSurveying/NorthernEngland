@@ -1,0 +1,26 @@
+;Cave:	Misty Mountain - Leck Fell Lane part
+;Surveyors:	Sue Smith	Pete Hall	Paul Swire
+;Date:	Mm1	19/10/96
+;Instruments:	Red Rose Silva Compass & Clino, RRCPC 30m tape
+
+;*equate	mm1.089	bg2.044
+;*equate	mm1.089	pip01.001
+
+*begin mm1i
+*export 089
+*export 079
+
+*calibrate compass	+5.27
+
+079	080	06.50	305.0	-09.0
+080	081	07.75	264.0	+10.0
+081	082	05.50	320.0	-13.0
+082	083	12.00	237.0	-07.0
+083	084	02.50	258.0	-02.0
+084	085	04.75	322.0	-09.0
+085	086	03.50	270.0	+07.0
+086	087	09.00	230.0	-03.0
+087	088	06.25	196.0	-08.0
+088	089	03.90	237.0	+02.0	;st 089=st 044 of Cigalere Survey
+
+*end mm1i

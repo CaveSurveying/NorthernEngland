@@ -1,0 +1,103 @@
+;All County Pot
+
+*begin CountyPot
+
+*export cy10di.001
+*export cy.067a
+*export cy.046
+*export cy12a.004
+*export cy12.017
+*export cya.001
+*export cyb.012
+*export cya.009
+*export cy3i.33
+*export wrii.117
+*export wrii.119
+
+*equate cy.006 cya.007 ; from cya.svx
+*equate cy.022 cy1b.009 ; from cy1b.svx
+*equate cy.023 cy10.001 ; from cy10.svx
+*equate cy.023 cy1a.001 ; from cy1a.svx
+*equate cy.046 cyb.001 ; from cyb.svx
+*equate cy.055 cy18.001 ; from cy18.svx
+*equate cy.055 cy2a.001 ; from cy2a.svx
+*equate cy.067a cy16.113 ; from cy16.svx
+*equate cy.067 cy16a.001 ; from cy16a.svx
+*equate cy.078 cy16.015p ; from cy16.svx
+*equate cy10.009 cy11.018 ; from cy10.svx
+*equate cy10.020a cy10a.001 ; from cy10a.svx
+*equate cy10.020a cy13.001 ; from cy10.svx
+*equate cy10.041 cy10a.012j4 ; from cy10a.svx
+*equate cy10.041 cy12.001 ; from cy10.svx
+*equate cy10a.012d cy10ai.000b ; from cy10ai.svx
+*equate cy10a.012h2 cy10b.001 ; from cy10a.svx
+*equate cy10b.006 cy10bi.001 ; from cy10bi.svx
+*equate cy10b.009 cy10c.001 ; from cy10b.svx
+*equate cy10c.006 cy10d.001 ; from cy10c.svx
+*equate cy10c.008 cy10ci.001 ; from cy10ci.svx
+*equate cy10c.021 cy10cii.001 ; from cy10cii.svx
+*equate cy10c.041 cy12.017 ; from cy10c.svx
+*equate cy10d.003 cy10dii.021 ; from cy10dii.svx
+*equate cy10d.011 cy10di.013 ; from cy10di.svx
+*equate cy12.001 cy2a.016 ; from cy2a.svx
+*equate cy12.002 cy15.001 ; from cy12.svx
+*equate cy12.025 cy12b.002 ; from cy12b.svx
+*equate cy12.038 cy12a.004 ; from cy12.svx
+*equate cy13.009 cy132.001 ; from cy13.svx
+*equate cy15.013 cy16.001 ; from cy15.svx
+*equate cy16.001 cy18.019 ; from cy16.svx
+*equate cy16.015c cy17.001 ; from cy16.svx
+*equate cy16.015h cy16a.009 ; from cy16a.svx
+*equate cy16.015m cy16a.007d ; from cy16a.svx
+*equate cy16a.007d cy16b.017 ; from cy16a.svx
+*equate cy16b.006 cy16c.001 ; from cy16b.svx
+*equate cy17.007 cy17a.001 ; from cy17a.svx
+*equate cy17.024 cy17i.005 ; from cy17i.svx
+*equate cy18.012di cy2a.007 ; from cy18.svx
+*equate cy1b.009 cy3a.001 ; from cy1b.svx
+*equate cy3c.012 cy3d.001 ; from cy3c.svx
+*equate cyb.006 cyc.001 ; from cyb.svx
+*equate cy3i.33 cy3c.001
+*equate cy3i.34 cy.039
+*equate wrii.119 wr25i.008
+
+*include	cy
+*include	cya
+*include	cyb
+*include	cyc
+*include	cy1a
+*include	cy1b
+*include	cy2a
+*include	cy3a
+*include	cy3c
+*include	cy3d
+*include	cy10
+*include	cy10a
+*include	cy10ai
+*include	cy10b
+*include	cy10bi
+*include	cy10c
+*include	cy10ci
+*include	cy10cii
+*include	cy10d
+*include	cy10di
+*include	cy10dii
+*include	cy11
+*include	cy12
+*include	cy12a
+*include	cy12b
+*include	cy13
+*include	cy15
+*include	cy16
+*include	cy16a
+*include	cy16b
+*include	cy16c
+*include	cy17
+*include	cy17i
+*include	cy17a
+*include	cy18
+*include	wr25i
+*include	wrii
+*include	cy3i
+
+*end CountyPot

@@ -1,0 +1,25 @@
+;Cave:	Tag before Waterfall Pitch to Pip downstream sump
+;Surveyors:	Jason Mallinson/Steve (dangerous)
+;Date:	Pip1	18/05/97 afternoon
+;Instruments:	Red Rose Sunto Compass & Clino, 30m tape
+
+;*equate	pip03.000	pip04.000
+
+*begin	pip03
+*export 000
+
+*calibrate compass	+5.17
+
+000	001	03.30	295.0	-05.0	;st000=tag before pitch (Pete Hall's 001)
+001	002	11.20	 -	DOWN
+002	003	05.50	150.0	-38.0
+003	004	03.90	150.0	-66.0	;climb down to pool
+004	005	07.20	165.0	-02.0
+005	006	04.60	147.0	-34.0	;climb down
+006	007	03.20	162.0	+02.0	;enter chamber
+007	008	06.65	156.0	-18.0	;st008=dive line belay
+
+;a1	a2	10.40	114.0	-35.0	;a1=yellow tag on wall opp. hole down to streamway
+;a2	a3	03.00	295.0	-50.0	;hole down through boulders(a1 to a3 see Pete Hall's notes)
+
+*end	pip03

@@ -1,0 +1,14 @@
+*begin Svengland
+
+*export pip16.001
+*export pip22.000
+*export pip23.018
+
+*equate pip16.009 pip22.009c ; from pip16.svx
+*equate pip22.010 pip23.001 ; from pip22.svx
+
+*include	pip16
+*include	pip22
+*include	pip23
+
+*end Svengland

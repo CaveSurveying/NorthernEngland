@@ -1,0 +1,40 @@
+;Cave:		new Cave (Beyond the pitch, downstream)
+;Surveyors:	S.Lieberman(Everything), Toby Speight (Psychological support)
+;Date:		13/05/2012
+;Instruments:	PAG + Leica DXT disto
+
+*begin	new04
+
+*export 010
+
+*date 2012.05.13
+
+*calibrate compass	+6.00
+*calibrate clino	 0.00
+*calibrate tape		 0.00
+
+;Surveying upstream back to pitch
+
+002	001	02.58	350.0	-06.0	;Floor level below inscription on wall 'RRCPC'
+002	003	01.93	087.0	+08.0
+003	004	00.48	  -	  UP	;Raise station
+004	005	02.42	179.0	 00.0
+005	006	01.85	137.0	+12.0
+006	007	01.01	246.0	+03.0
+007	008	02.87	157.0	+26.0	;St008 is stal on ledge near roof
+009	008	01.25	332.0	+21.0
+009	010	01.47	185.0	-07.5	;St010 is station at base of pitch in previous surveys
+
+*end	new04
+
+;St	L	R	U	D	Comments
+;001	0.8	0.0	2.8	0.0	At floor level below inscription on wall 'RRCPC'
+;002	0.1	0.3	2.5	0.3	Corner of L.H. bend
+;003	0.2	0.2	2.5	0.3	Corner at R.H. bend
+;004	0.2	0.2	2.0	0.8	Raise station
+;005	0.3	0.1	2.0	0.8	Corner of L.H. bend
+;006	0.2	0.3	1.5	1.5	Corner at R.H. bend
+;007	0.2	0.3	1.4	1.5	Corner of L.H. bend
+;008	0.6	0.1	0.2	2.1	Stal on ledge near roof R.H.S.
+;009	0.2	0.6	0.1	1.7	Sitting on corner entering pitch chamber
+;010	1.2	0.8	7.0	1.0	St010 is station at base of pitch in previous surveys

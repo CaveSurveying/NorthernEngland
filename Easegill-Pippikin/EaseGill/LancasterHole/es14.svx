@@ -1,0 +1,21 @@
+;Cave:	Lancaster Hole - Earby Series - Maple Leaf (Neil's Dig)
+;Surveyors:	D&H.Foxton/B.Young
+;Date:	01/12/01
+;Instruments:	1
+
+;*equate	es14.001	es13a.001
+;;;*equate	es14.001	es13.001
+
+*begin	es14
+*export 001
+
+*calibrate compass	+4.00
+
+001	002	00.49	091.0	+05.0	;st001=cairn at 'Wailing Wall'
+002	003	07.77	032.0	+02.0
+003	004	02.55	338.0	 00.0
+004	005	02.70	053.0	+10.0
+005	006	06.89	086.0	+01.0	;st006 is inlet on right, too small
+006	007	07.49	069.0	+01.0	;st007 ends in mud choke, dry after st006
+
+*end	es14

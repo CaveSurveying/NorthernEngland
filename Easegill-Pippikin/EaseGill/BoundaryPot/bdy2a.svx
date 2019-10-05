@@ -1,0 +1,35 @@
+;Cave:	Boundary Pot - 1st tag to Climbs base
+;Surveyors:	R.Duffy/A.Hall
+;Date:	15/07/06
+;Instruments:	PAG +disto
+
+;*equate	bdy2a.001 bdy1.008
+;*equate	bdy2a.003a bdy2b.008g
+;*equate	bdy2a.005 bdy2c.001
+
+*begin	bdy2a
+*export 011
+*export 001
+*export 003a
+*export 005
+
+*calibrate compass		+3.00
+*calibrate clino		-0.50
+*calibrate tape		 0.00
+
+001	002	02.09	030.0	 0.00	;st001=tag
+002	003	03.35	068.0	-03.0
+
+003	003a	00.80	085.0	-39.0	;st003a is start of crawl to alternatative climb down
+
+003	004	02.18	103.0	-05.0
+004	005	03.60	078.0	+05.0	;st005=tag left wall of small chamber where upstream needs surveying(now Bdy2c)
+
+005	006	01.29	 -	DOWN
+007	006	01.20	168.0	+03.0
+007	008	01.96	 -	DOWN
+008	009	01.60	 -	DOWN	;climb down in steps to small chamber
+010	009	01.64	056.0	-16.0
+010	011	01.52	 -	DOWN	;st011 is flat cobble in floor of chamber
+
+*end	bdy2a

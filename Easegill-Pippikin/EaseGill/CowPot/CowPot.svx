@@ -1,0 +1,43 @@
+; All Cow Pot files
+
+*begin CowPot
+
+*export cw.031
+*export ak01.014
+
+*equate	ak03.001 cw6.008a
+*equate ak01.000 ak04.023 ; from ak01.svx
+*equate ak01.002 ak02.007 ; from ak01.svx
+*equate ak03.024 ak04.001 ; from ak03.svx
+*equate ak04.023 ak05.000 ; from ak04.svx
+*equate cw.001 cw1.001 ; from cw1.svx
+*equate cw.003 cw3.000 ; from cw3.svx
+*equate cw.003 cw6.001 ; from cw6.svx
+*equate cw10.001 cw6.007 ; from cw10.svx
+*equate cw11.009 cw7.007 ; from cw11.svx
+*equate cw3.001 cw5.000 ; from cw3.svx
+*equate cw6.005 cw9.003b ; from cw6.svx
+*equate cw6.006 cw9.006 ; from cw6.svx
+*equate cw6.007 cw7.001 ; from cw6.svx
+*equate cw6.007 cw9.001 ; from cw9.svx
+*equate cw7.005 cw8.001 ; from cw7.svx
+
+*fix cw.001 66432.11 80853.89 300.44 	;ev.ss26.044a
+
+*include	cw
+*include	cw1
+*include	cw3
+*include	cw5
+*include	cw6
+*include	cw7
+*include	cw8
+*include	cw9
+*include	cw10
+*include	cw11
+*include	ak01
+*include	ak02
+*include	ak03
+*include	ak04
+*include	ak05
+
+*end CowPot

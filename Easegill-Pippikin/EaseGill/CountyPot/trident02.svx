@@ -1,0 +1,37 @@
+;Cave:	Trident - from tag 3 Upstream
+;Surveyors:	Becka Lawson(notes)/Sam Lieberman(instr.)
+;Date:	09/02/02
+;Instruments:	1
+
+;*equate	trident02.yt3	trident01.yt3
+;*equate	trident02.yt3	trident09.012
+;*equate	trident02.yt4	trident03.yt4
+;*equate	trident02.yt4	trident24.yt4
+;*equate	trident02.yt5	trident03.yt5
+;*equate	trident02.yt5	trident02a.yt5
+
+*begin	trident02
+*export yt4
+*export yt5
+*export yt3
+
+*calibrate compass	+2.0
+
+yt3	002	03.98	136.0	+05.0
+003	002	02.70	011.0	-10.0
+003	004	05.48	154.0	 00.0
+005	004	03.83	005.0	-08.0
+005	yt4	01.29	199.0	+07.0
+yt4	007	03.53	250.0	-09.0
+007	yt5	01.70	201.0	+41.0
+
+*end	trident02
+
+;YT3=0/0 2/0 3/0 1/6	Yellow tag 3 by scaffold in Trident
+;002=0/0 0/5 2/5 1/5	Scratch on LH wall
+;003=0/5 0/1 2/0 1/8	Knobble on RH wall
+;004=0/0 0/7 2/5 1/0	Scratch on LH wall 1/35m before water inlet/spout
+;005=0/7 0/0 1/7 1/5	RH wall, scratch
+;YT4=1/2 0/3 1/5 1/5	Yellow tag 4 by inlet junction
+;007=1/2 0/4 2/0 0/4	Floorknobble, middle passage, LRUD only taken to roof overhang
+;YT5=0/0 1/5 5/0 1/5	Yellow tag 5, inlet and small aven

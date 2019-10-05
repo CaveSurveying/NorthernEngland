@@ -1,0 +1,23 @@
+;Cave:	Link Pot- Downstream from Tigers Inlet
+;Surveyors:	Fleur Loveridge/Duncan/Helen
+;Date:	27/06/99
+;Instruments:	1
+
+;*equate	lk08.001	lk07.001
+
+*begin	lk08
+*export 001
+
+*calibrate compass	+6.50
+
+;*fix	001	
+
+001	002	02.84	300.0	+32.0
+002	003	02.88	244.0	+50.0
+003	004	01.98	248.0	+26.0
+
+001	102	04.40	103.0	+35.0
+102	103	01.75	113.0	-03.0
+103	104	04.58	141.0	+13.0	;st104=green tag
+
+*end	lk08

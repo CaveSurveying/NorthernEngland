@@ -1,0 +1,39 @@
+;Cave:	County Pot - Iraqnaphobia
+;Surveyors:	N.Pacey/P.Swire
+;Date:	04/06/05
+;Instruments:	4 + Neil's Tape
+
+;;*equate cy10dii.021 cy10d.003 ;small cross rift
+
+*begin	cy10dii
+*export 021
+
+;*calibrate compass	+5.00
+*calibrate compass	 -0.85
+*calibrate clino	-1.75
+*calibrate tape		-0.25
+
+000	001	01.80	 -	UP	;st000 is below wedged large boulder in first stand up bit of Cloughs streamway, st001 is top of Boulder
+001	002	01.90	180.0	+36.0	;st002 is top of squeeze
+002	003	04.55	120.0	+03.0
+003	004	02.50	076.0	+01.0	;between st003 & 4 is squeeze
+004	005	02.50	125.0	 00.0
+005	006	02.20	160.0	 00.0
+006	007	02.95	111.0	+01.0
+007	008	02.10	073.0	+08.0
+008	009	03.20	129.0	+02.0
+009	010	01.40	120.0	+02.0
+010	011	01.90	166.0	+04.0
+011	012	01.00	111.0	+16.0
+012	013	02.80	061.0	-08.0	;between st012 & 13 is squeeze
+013	014	04.00	136.0	 00.0
+014	015	07.50	087.0	+01.0	;st015 is start of Iraqnaphobia proper, tight squeeze to 014
+015	016	01.80	070.0	 00.0
+016	017	02.25	125.0	+14.0
+017	018	05.20	095.0	+03.0	;st018 is in big bedding
+018	019	02.50	046.0	+01.0
+019	020	04.40	105.0	+03.0
+020	021	09.25	040.0	+02.0	;st021 is bend small cross rift
+021	022	05.20	095.0	 00.0	;small cross rift
+
+*end	cy10dii

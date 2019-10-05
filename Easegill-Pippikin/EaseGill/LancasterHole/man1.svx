@@ -1,0 +1,79 @@
+;Cave:	Manchester Bypass
+;Surveyors:	R.Duffy/Tim Eastwood/Terry Regan/A.Carradice
+;Date:	22/03/97pm
+;Instruments:	Red Rose Sunto Compass & Clino, 30m tape
+
+;;*equate	man1.049	L5.016
+;;*equate	man1.001	cy.046
+;*equate	man1.034	oec.001
+;;;*equate	man1.047	car.001 ;superceded by car1
+;;;*equate	Man1.047	mlp.002
+;;*equate	man1.007	trident01.YTTB
+;;*equate man1.007 cyb.012 ;tag at Battle of Britain Chamber
+;*equate	man1.034 cry.001 ;tag OEC
+;*equate	man1.047 car1.001 ;tag Main Line Passage
+
+*begin	man1
+*export 047
+*export 001
+*export 007
+*export 049
+*export 034
+
+*calibrate compass	+5.13
+
+*fix 007 67486.38 80670.00 279.46 ;tag at Battle of Britain
+
+*flags duplicate ; (Manchester Bypass - Spout Hall) tie-in duplicates 001-003 in cyb
+001	002	03.70	004.5	+07.0	;st001=tag at Spout Hall
+002	003	05.60	304.0	-04.0	;passage to PJ is straight ahead
+*flags not duplicate
+003	004	05.19	035.0	+11.0
+004	005	00.50	 -	UP
+005	006	02.30	001.5	+26.0
+006	007	03.00	346.0	+07.0	;st007=tag Boulder in Battle of Britain Chamber
+007	008	02.15	030.0	-06.0
+008	009	02.60	 -	DOWN	;start of crawl under boulders
+009	010	04.60	290.0	-11.0
+010	011	04.32	311.0	+12.0
+011	012	03.15	 -	UP	;top of small climb up
+012	013	06.89	334.0	-08.0
+013	014	01.29	209.0	+06.0
+014	015	08.15	299.5	-33.5
+015	015a	03.95	292.0	+20.0	;end of chamber past ladder
+015	016	04.82	 -	UP	;st016 is roof above chain ladder
+016	017	01.28	025.0	+10.0	;st017 has passage on right Cono Crawl??
+017	018	02.80	308.0	+26.5
+018	019	05.30	326.5	-18.0	;passage in floor to right
+019	020	09.77	279.0	+08.0	;st020 Brown & Smelly is head height at rope, passage in roof & passage in floor
+020	021	02.35	 -	UP
+021	022	01.33	001.5	-06.0
+022	023	02.50	 -	UP
+023	024	17.35	335.0	+01.0
+024	025	05.19	344.0	-02.0
+025	026	08.00	014.0	-03.0
+026	027	15.40	338.5	-02.0
+027	028	08.45	294.0	-01.5
+028	029	02.35	335.5	-01.5
+029	030	03.23	240.0	+02.0
+030	031	01.80	315.5	+01.5
+031	032	08.70	291.0	-02.0
+032	033	04.05	317.5	-02.0
+033	034	01.70	 -	UP	;st034=tag Old English chamber
+034	035	06.60	328.0	-20.0	;passage on right through bedding
+035	036	06.70	281.0	+03.0	;small chamber
+036	037	05.30	288.5	-14.5
+037	038	17.40	320.5	-11.5
+038	039	01.70	 -	UP
+039	040	05.49	313.5	-04.0
+040	041	05.50	266.5	-04.0
+041	042	05.89	338.0	-01.0
+042	043	07.84	310.0	-02.5
+043	044	17.15	291.5	-04.0
+044	045	03.43	342.0	+15.0
+045	046	02.00	274.0	+07.0
+046	047	09.70	310.5	-03.5	;st047=tag Main Line Passage
+047	048	26.70	331.5	-02.0	;Between 047 & 048 is Carrot
+048	049	05.30	074.0	+01.0	;st049=L5.016=tag Main Line Terminus
+
+*end	man1

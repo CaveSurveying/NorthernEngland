@@ -1,0 +1,38 @@
+;Cave:		Top sink CRG extension (part 2)
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:		15/02/09
+;Instruments:	MKO + Disto
+
+;*equate t02ii.001  t02i.042 ;tag on spike on route to Cobweb Chamber
+;*equate t02ii.013 t05a.014 ;st014 is small cairn on rock in chamber looking back toward Limerick
+;*equate t02ii.009a t05a.000 ;st000 is foot of waterfall
+;*equate	t02ii.009a t05.045 ;st045 is foot of waterfall
+
+*begin	t02ii
+*export 001
+*export 013
+*export 009a
+
+*calibrate compass	00.0
+*calibrate clino	00.0
+*calibrate tape		00.0
+
+001	002	05.02	103.0	-06.0	;st001=tag on spike on route to Cobweb Chamber
+002	003	03.00	178.0	+17.0
+004	003	02.37	249.0	-48.0	;up hole in boulders on mud slope
+004	005	02.84	144.0	+04.0	;small alcove to left of st004
+005	006	02.45	002.0	-86.0	;down hole at traverse
+007	006	02.09	339.0	-07.0
+007	008	05.19	122.0	+09.0
+008	009	02.39	063.0	-11.0	;st009 is half drilled bolt hole at top of pitch to streamway below
+
+009	009a	14.45	009.0	-82.0	;st009a is foot of waterfall into chamber
+009b	009a	02.81	023.0	-16.0	;st009b is CRG034 written on tape from original survey
+009b	009c	01.38	354.0	-47.0	;st009c is foot of ladder
+
+009	010	04.85	160.0	+20.0	;st010 is below 10.5m wet aven
+010	011	02.35	058.0	+29.0	;traversing on large boulders over streamway hidden from sight
+011	012	06.37	113.0	+03.0
+012	013	10.44	073.0	+03.0	;st013 is small cairn in chamber
+
+*end	t02ii

@@ -1,0 +1,46 @@
+;Cave:	County Pot - Confusion Corner to Spout Hall and return thro Bypass
+;Surveyors:	R.Duffy/A.Whitney
+;Date:	01/04/04
+;Instruments:	PAG
+
+;;*equate	cy3c.001 cy3.33
+;;*equate	cy3c.012 cy3d.001	;dry bypass down to PJ
+
+*begin	cy3c
+*export 001
+*export 012
+
+*calibrate compass	+5.00
+*calibrate clino	+0.50
+*calibrate tape		 00.0
+
+*flags duplicate ; (Confusion Corner - Spout Hall) seems to duplicate 33-34 in cy3 plus 039-045 in cy
+001	002	03.85	337.0	-26.0	;st001 is top downstream edge of Pinnacle at end of Snake at Confusion Corner
+002	003	07.48	344.0	-06.0	;st002 is edge of Confusion Corner head height
+003	004	03.14	040.0	-14.0
+004	005	03.62	327.0	-11.0
+005	006	02.87	295.0	-01.0
+006	007	03.49	013.0	+05.0	;st007 is head height with back in side passage unsurveyed
+*flags not duplicate
+
+007	007a	02.20	143.0	-30.0
+007a	007b	02.40	120.0	+22.0	;foot of climb to inlet above
+007b	007c	03.00	 -	UP	;inlet very tight
+
+*flags duplicate ; (Confusion Corner - Spout Hall) seems to duplicate 045-047 in cy
+007	008	03.94	271.0	-09.0	;st008=tag at Spout/Trident junction
+008	009	00.30	 -	DOWN
+009	010	01.70	246.0	-16.0
+010	011	03.92	300.0	-10.0	;st011 is head height over drop to Spout Hall
+*flags not duplicate
+011	012	02.38	 -	DOWN
+013	012	05.74	046.0	-26.0
+013	014	05.63	182.0	+31.0
+014	015	01.70	 -	UP	;st015 is head height standing in loose chamber of bypass
+015	016	05.58	129.0	+22.0	;st016 is head height at lip of abandoned stream passage
+016	017	08.56	148.0	+04.0
+017	018	02.15	085.0	+17.0
+018	019	03.74	053.0	+05.0
+019	001	05.73	143.0	-05.0	;pinnacle
+
+*end	cy3c

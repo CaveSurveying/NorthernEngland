@@ -1,0 +1,38 @@
+;Cave:	Wretched Rabbit - Upper Parallel Streamway
+;Surveyors:	R.Duffy/A.Whitney
+;Date:	27/01/05
+;Instruments:	PAG
+
+;*equate	wrb.001 wr.010
+;*equate	wrb.017	wr7a.003
+;*equate	wrb.017	wrc.017 ; tag with inlet to left
+
+*begin	wrb
+*export 001
+*export 017
+
+*calibrate compass	+3.00
+*calibrate clino	-0.50
+;laser disto
+
+001	002	02.25	152.0	+30.0	;st001 is fang bottom of Big Rift,st002 is below inlet in roof
+
+002	002a	10.55	 -	UP	;st002a is roof of inlet
+
+002	003	07.03	102.0	+06.0	;st003 is foot of climb up to Upper Parallel Streamway
+003	004	03.46	 -	UP
+005	004	00.80	212.0	-18.0
+005	006	01.88	140.0	+02.0	;st006 is below 1/5m step
+006	007	02.83	043.0	+31.0	;st007 has outlet to left (could be stream beside fang)
+007	008	01.04	118.0	+15.0
+008	009	02.40	163.0	-11.0	;st009 is hd.ht. sitting on lip of dry oxbow
+009	010	02.35	090.0	+06.0
+010	011	05.35	141.0	+10.0	;st011 is on corner beyond fin of oxbow
+011	012	03.77	049.0	+04.0
+012	013	03.08	139.0	+08.0
+013	014	03.82	224.0	+08.0
+014	015	01.67	106.0	+10.0
+015	016	01.73	085.0	+10.0
+016	017	02.20	165.0	+05.0	;st017=tag with passage entering streamway to left
+
+*end	wrb

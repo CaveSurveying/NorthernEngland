@@ -1,0 +1,23 @@
+;Cave:	Lancaster Hole-Wilf Taylors small passage near bottom of Double Decker climb
+;Surveyors:	R.Duffy/H.St.Lawrence
+;Date:	05/08/00
+;Instruments:	PAG
+
+;;*equate	md8d.001	md8.135
+
+*begin	md8d
+*export 001
+
+*calibrate compass	+5.00
+
+001	002	01.10	 -	UP	;from head height at corner where side passage starts
+002	003	03.20	156.0	-06.0
+003	004	02.40	090.0	+06.0
+004	005	03.00	352.0	+12.0
+005	006	02.25	071.0	+12.0
+006	007	02.50	353.0	+07.0	;upward passage to mud choke easily dug
+007	007a	04.00	345.0	 00.0
+007	008	02.60	053.0	-31.0
+008	009	03.10	162.0	-40.0	;conitues at 175deg tight past boulder
+
+*end	md8d

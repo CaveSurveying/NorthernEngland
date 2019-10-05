@@ -1,0 +1,23 @@
+;Contains all Mancunian Way-Nice Way files
+
+*begin MancunianWay
+
+*export maw2.24
+*export maw1.001
+*export maw4.021
+*export cy12ai.004
+
+*equate maw1.025 maw2.0 ; from maw1.svx
+*equate maw2.12 maw5.001 ; from maw2.svx
+*equate maw2.18 maw5.011 ; from maw2.svx
+*equate maw2.20 maw5.021 ; from maw2.svx
+*equate maw2.4 maw4.001 ; from maw2.svx
+*equate	maw1.026 cy12ai.001
+
+*include	maw1
+*include	maw2
+*include	maw4
+*include	maw5
+*include 	cy12ai
+
+*end MancunianWay

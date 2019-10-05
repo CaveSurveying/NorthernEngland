@@ -1,0 +1,156 @@
+;Lancaster hole (high level and main drain) to Stop Pot
+
+*begin LancasterHole
+
+*export l5.021
+*export l1a.010
+*export md7a.001
+*export l1a.001
+*export l3.004a
+*export l5.016
+*export md7a.031a
+*export l4.025
+*export l3.007
+*export md7e.004
+*export md8.079a
+*export md8.122c
+*export l4.028a
+*export l5.007
+
+*equate	l1.026 l1a.001 ; from main
+*equate bark.005 col.019 ; from bark.svx
+*equate col.016 l1.006 ; from col.svx
+*equate dh.000 l4.014 ; from dh.svx
+*equate dh.016 dha.stal ; from dha.svx
+*equate fhs.022 l1.017 ; from fhs.svx
+*equate gird1.001 l1.012 ; from gird1.svx
+*equate gird1.013f l1.004 ; from gird1.svx
+*equate l1.004 l1b.001 ; from l1b.svx
+*equate l1.004 l1b2.000 ; from l1b2.svx
+*equate l1.004 l1c.000 ; from l1c.svx
+*equate l1.026 l2.001 ; from l1.svx
+*equate l1a.010 md7a.005 ; from l1a.svx
+*equate l1b2.007 l1b2i.001 ; from l1b2.svx
+*equate l1b2.007 l1b2i.001 ; from l1b2i.svx
+*equate l2.012 md7b.001 ; from l2.svx
+*equate l2.013 l3.001 ; from l2.svx
+*equate l3.031 l4.005 ; from l3.svx
+*equate l4.001 md7a.081 ; from l4.svx
+*equate l4.005a md7c.011g ; from l4.svx
+*equate l4.017 l4a.011 ; from l4a.svx
+*equate l4.017 l4b.001 ; from l4b.svx
+*equate l4.030 l5.021 ; from l4.svx
+*equate l5.016b mlp.001 ; from l5.svx
+*equate l5.016 l5a.001 ; from l5a.svx
+*equate l5.021 lsc.001 ; from l5.svx
+*equate l5.021 mlp.029 ; from l5.svx
+*equate lsc.006 lsc1.001 ; from lsc1.svx
+*equate md7a.001 md8.075 ; from md7a.svx
+*equate md7a.031a md7b.006 ; from md7a.svx
+*equate md7a.053 md7c.001 ; from md7a.svx
+*equate md7a.068 md7c.015 ; from md7a.svx
+*equate md7a.081 md7d.001 ; from md7a.svx
+*equate md7c.001 md7f.001 ; from md7c.svx
+*equate md7c.011a md7g.012 ; from md7c.svx
+*equate md7c.011a md7j.001 ; from md7c.svx
+*equate md7d.001 md7e.008c ; from md7d.svx
+*equate md7d.003 md7e.001 ; from md7d.svx
+*equate md7f.001 md7h.007 ; from md7f.svx
+*equate md7f.014 md7h.001 ; from md7f.svx
+*equate md7f.016 md7g.001 ; from md7f.svx
+*equate md8.079 md8c.001 ; from md8c.svx
+*equate md8.117 md8a.000 ; from md8a.svx
+*equate md8.132 md8b.001 ; from md8b.svx
+*equate md8.135 md8d.001 ; from md8d.svx
+*equate heh1.009 heh2.005 ; from heh2.svx
+*equate	md8.094	heh1.000 ; from main
+*equate sc1.015a sc2.001 ; from sc1.svx
+*equate	l1.005 sc1.001 ; from main
+*equate	sc1.008 gird1.016 ; from main
+*equate crat.001 crat2.000 ; from crat2.svx
+*equate	crat.001 l1.017 ; from main
+*equate	sc2.020 crat2.010 ; from main
+*equate gv.012 gv1.001 ; from gv1.svx
+*equate gv.012 gv2.001 ; from gv2.svx
+*equate gv.025 gv3.015 ; from gv3.svx
+*equate gv.042 mtgs.001 ; from gv.svx
+*equate gv.042 sa1.000 ; from gv.svx
+*equate gv2.007 gv6.005 ; from gv2.svx
+*equate gv2.013 gv3.001 ; from gv2.svx
+*equate gv2.016a gv5.001 ; from gv2.svx
+*equate sa1.000 sa4.001 ; from sa1.svx
+*equate sa1.008a sa3.001a ; from sa1.svx
+*equate sa1.009 sa2.001 ; from sa1.svx
+*equate	l1.006 gv.000 ; from main
+*equate mw1.018 mw2.001 ; from mw1.svx
+*equate mw1.027 mw3.001 ; from mw1.svx
+*equate mw3.001 mw6.001 ; from mw6.svx
+*equate mw3.006 mw4.001 ; from mw3.svx
+*equate mw3.006 mw7.015 ; from mw3.svx
+*equate mw7.000 mw8.007 ; from mw7.svx
+*equate	md8.120	mw6.012 ; from main
+*equate	md8.105	mw6.006c ; from main
+*equate	l1.023 mw1.001 ; from main
+
+*include	bark
+*include	col
+*include	dh
+*include	dha
+*include	fhs
+*include	gird1
+*include	lsc
+*include	lsc1
+*include	l1
+*include	l1a
+*include	l1b
+*include	l1b2
+*include	l1b2i
+*include	l1c
+*include	l2
+*include	l3
+*include	l4
+*include	l4a
+*include	l4b
+*include	l5
+*include	l5a
+*include	mlp
+*include	md7a
+*include	md7b
+*include	md7c
+*include	md7d
+*include	md7e
+*include	md7f
+*include	md7g
+*include	md7h
+*include	md7j
+*include	md8
+*include	md8a
+*include	md8b
+*include	md8c
+*include	md8d
+*include	heh1
+*include	heh2
+*include	sc1
+*include	sc2
+*include	crat
+*include	crat2
+*include	gv
+*include	gv1
+*include	gv2
+*include	gv3
+*include	gv5
+*include	gv6
+*include	mtgs
+*include	sa1
+*include	sa2
+*include	sa3
+*include	sa4
+*include	mw1
+*include	mw2
+*include	mw3
+*include	mw4
+*include	mw6
+*include	mw7
+*include	mw8
+
+*end LancasterHole

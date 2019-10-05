@@ -1,0 +1,28 @@
+;Every Borehole file
+
+*begin TheBorehole
+
+*export b02.041
+*export b03.208
+*export b01.001
+*export b03.212d
+
+*equate b01.007a b04.017 ; from b01.svx
+*equate b01.015 b06.001 ; from b01.svx
+*equate b01.021 b02.001 ; from b01.svx
+*equate b02.021 b05.001 ; from b02.svx
+*equate b02.041 b03.050 ; from b02.svx
+*equate b03.106 b3.005 ; from b03.svx
+*equate b03.221 b2.008 ; from b03.svx
+
+;;;;;;;;*include	B1	;not needed any more
+*include	b2
+*include	b3
+*include	b01
+*include	b02
+*include	b03
+*include	b04
+*include	b05
+*include	b06
+
+*end TheBorehole

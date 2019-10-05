@@ -1,0 +1,33 @@
+;Cave:	Lancaster Hole - Maracaibo - dry passage in roof near start
+;Surveyors:	R.Duffy/A.Whitney
+;Date:	15/12/02
+;Instruments:	PAG
+
+;*equate	mar01a.001b	mar01.006	;joined to small passage in roof near entrance
+
+*begin	mar01a
+*export 001b
+
+*calibrate compass	+4.50
+*calibrate clino	00.0
+*calibrate tape	+1.00
+
+001b	001a	02.94	282.5	-04.0	;st001b is foot of climb down from Bloody Thigh
+001a	001	03.30	344.0	-06.0
+
+001	002	02.07	349.0	+05.0
+002	003	02.99	 -	UP	;st002 is foot of climb up to traverse into small passage
+003	004	03.40	254.0	-10.0
+004	005	03.93	291.0	+12.0
+005	006	03.35	331.0	+05.0
+006	007	06.01	058.0	-01.0
+007	008	02.45	042.0	-11.0
+008	009	07.50	319.0	-03.0
+009	010	06.28	309.0	-05.0	;st010 is beginning of boulder choke
+
+*calibrate compass	+00.0
+
+010	011	10.00	000.0	00.0
+011	012	10.00	090.0	00.0
+
+*end	mar01a

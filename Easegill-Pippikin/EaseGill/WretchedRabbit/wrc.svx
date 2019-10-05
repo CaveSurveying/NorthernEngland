@@ -1,0 +1,53 @@
+;Cave:	Wretched Rabbit - Upper Parallel Streamway(cont.)
+;Surveyors:	R.Duffy solo
+;Date:	27/01/05
+;Instruments:	PAG
+
+;*equate	wrc.022a wra.006 ;white mark bottom 1st climb
+;*equate	wrc.017 wrb.017 ; tag with inlet to left
+;*equate wrc.021a wrg.010c ;top of boulder cobble above Big Rift in Parallel Passage off-shoot
+;*equate wrc.028	wrci.001 ;tag at start of passage
+
+*begin	wrc
+*export 021a
+*export 022a
+*export 028
+*export 017
+
+*calibrate compass	+3.00
+*calibrate clino	-0.50
+;laser disto
+
+017	018	05.46	189.0	+12.5	;st018 is on fin with small alcove to right
+018	019	01.30	178.0	-20.0
+019	020	01.53	 -	UP
+020	021	03.17	211.0	+16.0	;st021 is on prow from small passage to Big Rift (high up)
+
+021	021a	02.94	284.0	+14.0	;st021a is top of boulder jammed above Big Rift
+
+021	022	01.43	158.0	-07.0	;st022 is below bedding squeeze to top of Big Rift
+
+022	022d	02.20	 -	UP	;st022d is roof at end of bedding
+022d	022c	01.32	200.0	 00.0	;st022c is placed stone in bedding
+022b	022c	04.90	059.0	+07.0	;st022b is lip of 2nd climb down
+022a	022b	03.30	011.0	-44.0	;st022a is white mark on right of 1st climb facing out
+
+022	023	03.11	105.0	 00.0	;st023 has inlet on ledge to left
+023	024	03.66	156.0	+22.0	;st024=tag on spike to right with oxbow on right
+
+024a	024	02.20	287.0	-04.0	;st024a is start of passage on left
+024b	024a	02.49	243.0	+01.0	;st024b is hd. ht. at small climb
+024b	024c	03.83	135.0	+45.0	;st024c
+024c	024d	03.30	210.0	+37.0	;thro squeeze to small chamber
+024d	024e	02.00	095.0	 00.0	;st024e is Choke
+
+024	025	03.07	130.0	-06.0	;st025 is tip of sharp flake in floor
+
+025	025a	02.47	128.0	 00.0	;st025a is in too small inlet passage on left
+
+026	025	07.34	347.0	-04.0
+027	026	06.32	341.0	-12.0
+027	028	01.26	184.0	+12.0	;st028=tag at start of wet passage
+;028	029	02.20	202.0	-15.0	;st029 is middle of first wet bend
+
+*end	wrc

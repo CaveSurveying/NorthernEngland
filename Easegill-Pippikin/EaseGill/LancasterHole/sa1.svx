@@ -1,0 +1,28 @@
+;Cave:	Skittle Alley
+;Date:	Sa1	13-06-93
+;Surveyors:A.Hall,A.Hine,R.Duffy
+
+;;*equate	sa1.000	gv.042
+;;*equate	sa1.009	sa2.001
+;;*equate sa1.008a	sa3.001a
+;;*equate sa1.000	sa4.001
+
+*begin	sa1
+*export 009
+*export 000
+*export 008a
+
+*calibrate compass	+5.67
+
+000	001	09.20	130.0	-19.0	;sa.000=gv.st042
+001	002	06.80	133.0	-12.0
+002	003	07.50	160.0	 00.0
+003	004	07.90	154.0	-10.0
+004	005	05.90	189.0	-10.0
+005	006	09.30	169.0	-04.0	;Inlet on right at SA1.006
+006	007	06.00	173.0	-07.0
+007	008	08.80	172.0	-33.0	;From SA1.008 2.1m down to sump
+008	008a	02.10	 -	DOWN	;sump
+006	009	00.90	292.0	 00.0	;Start of inlet
+
+*end sa1

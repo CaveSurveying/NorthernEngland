@@ -1,0 +1,56 @@
+;Cave:	Wretched Rabbit
+;Surveyors:	R.Duffy/A.Whitney/L.Rice
+;Date:	24/03/02
+;Instruments:	kit1
+
+;*equate	wra.017	wr.010
+;;*equate	wra.001	sf3.008a
+;*equate wra.006	wrc.022a ;white mark bottom 1st climb
+;*equate wra.006 wrai.008 ;white mark head height at bottom of first drop, right side facing out
+;*equate wra.017 wre.001b ;lowering of rock at end of Big Rift
+;*equate wra.006	wrg.001 ;white mark at hd ht bottom of first climb
+;*equate wra.017 wraii.001 ;lowering of rock at end of Big Rift
+
+*begin	wra
+
+*date 2002.03.24
+
+*export 001
+*export 006
+*export 017
+
+*entrance 001
+
+*fix 001 67632.71 80676.93 318.72 ;ev.sf3.008a
+
+*calibrate compass	+5.00
+
+*flags surface
+
+000	001	05.70	334.0	-07.0	;st000=gill3.008
+
+*flags not surface
+
+001	002	00.90	 -	DOWN	;st001=tag
+002	003	08.40	345.0	-06.0	;st003 corner of entrance crawl
+003	004	03.30	292.0	-20.0
+
+004	004a	02.00	 -	UP	;st004 is corner where small passage enters
+004a	004b	01.50	212.0	-02.0	;roof of passage on left,small stal in frnt of rock bridge
+004b	004c	01.00	150.0	 00.0	;passage too tight continues
+
+004	005	03.70	062.0	-08.5	;st005 is head height standing on scaffold bar at rith facing rift
+005	006	03.99	 -	DOWN	;(1st Climb down) st006 is small white mark at head height at bottom of first climb down
+006	007	03.50	008.0	-11.5	;st007 is head height on left of next drop
+007	008	01.95	 -	DOWN	;(2nd Climb down)st008 is head height at bottom of drop
+008	009	01.10	000.0	-12.0	;st009 is head height over drop to to boulder scoop
+009	010	01.60	 -	DOWN ;(3rd Climb down)
+010	011	01.14	345.0	-16.0
+011	012	02.30	 -	DOWN	;(4th Climb down)st012 is head height at bottom of next drop
+012	013	04.19	358.0	-22.0	;st013 is on edge of drop into rift
+013	014	02.15	332.0	-36.0	;st014 is further out in rift
+014	015	05.00	 -	DOWN	;(5th Climb down)st015 is boulder at bottom of climb
+015	016	12.00	325.0	-00.5
+016	017	15.43	317.0	-08.0	;st017 is fang at start of low section beyond rift
+
+*end	wra

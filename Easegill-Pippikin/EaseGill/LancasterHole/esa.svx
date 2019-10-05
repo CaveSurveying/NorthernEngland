@@ -1,0 +1,37 @@
+;Cave:	re-survey of Earby Series from Long Gallery to 88' pitch
+;Surveyors:	R.Duffy/S.Mabbett/J.Carter/A.Whitney
+;Date:	03/02/01
+;Instruments:	PAG
+
+;*equate	esa.015	es1.001
+;*equate	esa.003	es.091
+;*equate	esa.015	wm.093
+;*equate	esa.001	es9.001
+;*equate	esa.008	esb.013
+
+*begin	esa
+*export 003
+*export 001
+*export 008
+*export 015
+
+*calibrate compass	+5.00
+
+001	002	05.60	152.0	-01.0	;st001=tag in Long Gallery
+002	003	03.04	142.0	+05.0	;st003 is at bottom of hanging bolder on chimney from Gallery above
+003	004	04.70	147.0	-03.0
+004	005	02.96	141.0	-03.0	;st005 is start of climb down into chamber
+005	006	01.30	150.0	-24.0
+006	007	05.90	169.0	-30.0	;st007 is large boulder far end of chamber
+007	008	02.40	146.0	-34.0
+008	009	01.50	069.0	+08.0	;st009 is at start of stream rift traverse
+009	010	03.13	134.0	+07.0
+010	011	04.80	160.0	+08.0
+011	012	02.37	184.0	-04.0	;st012 is boulder jammed across chimney down pit into Rat Pit
+012	013	02.60	 -	DOWN
+013	014	04.00	148.0	-11.0
+014	015	02.30	061.0	-14.0	;st015 is broken end of stal curtain, last station on es. survey
+;015	016	04.30	054.0	+05.0
+;016	017	02.00	101.0	 00.0	;st017 is old bolt and hanger start of traverse to 88' pitch
+
+*end	esa

@@ -1,0 +1,47 @@
+;Cave/Series:	Pool Sink 2
+;Date:	P2	2-3.03.96
+;Surveyors:	Ray Duffy/A.Hare/H.St.Lawrence
+
+
+;*equate	p2a.044	p1a.083	;joined to straight through line from ent. Holbeck
+;*equate	p2a.048	p1a.078	;joined to straight through line from ent. Holbeck
+
+;;*EQUATE	P2a.074	B1.201	;joined to Borehole at end of T Piece streamway
+;;*EQUATE	P2a.074	B03.201	;joined to Borehole at end of T Piece streamway
+;*equate	p2a.208a p7b.002 ;cairn at bottom of Spiral Staircase
+
+*begin	p2a
+*export 044
+*export 208a
+*export 048
+
+*calibrate compass	+5.27
+
+048	070	03.90	277.0	-08.0
+070	071	02.60	225.0	-02.0
+071	072	03.40	276.0	-04.0
+072	073	01.90	215.0	+12.0
+073	074	01.70	278.0	-10.0	;St074=junct with Borehole
+
+*calibrate compass	+5.27	;(RD/DE 1996?)
+
+074	202	04.40	184.0	+10.0	;st201=pool.psa.74;bottom end of borehole
+202	203	03.90	275.0	+05.0
+203	204	03.60	184.0	 00.0
+204	205	02.30	214.0	+17.0	;ent short crawl frmlowrpass. to chamb
+205	206	01.40	318.0	-30.0	;floor of chamber
+206	207	03.30	 -	UP	;top of chamber
+207	208	09.40	122.0	-02.0
+208	208a	04.64	268.0	-01.0	;top of boulders at foot spir.st ss.87=208a
+
+
+*calibrate compass	+5.27
+;Ray Duffy/A.Hare/H.St.Lawrence
+
+074	075	06.30	338.0	+02.0
+075	076	04.70	272.0	-20.0	;stream leaves via bedding to left
+076	077	03.60	343.0	-03.0
+077	078	02.00	310.0	 00.0
+078	044	01.40	 -	UP	;closes loop
+
+*end	p2a

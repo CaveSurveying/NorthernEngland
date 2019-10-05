@@ -1,0 +1,31 @@
+;Cave:		Bull Pot of the Witches - Roberts Inlet to Open Pot
+;Surveyors:	Hugh St.Lawrence
+;Date:		12/12/03
+;Instruments:	Kit 4
+;Notes/Pics:	HStL
+;Tape: 		HStL
+
+;;*equate bw12.001	bpw02.000
+;*equate bw12.001	bw11.001
+;*equate bw12.007	bw01.012
+;*equate bw12.007	bw10.015
+
+*begin bw12
+*export 001
+*export 007
+
+*calibrate compass	+4.00
+*calibrate clino	0.00
+*calibrate tape		+3.00
+
+001	002	07.10	235.0	+15.0	; 1, cairn (?), base of 30' pitch Roberts inlet.
+002	003	09.75	228.0	-13.0	; 2, obvious pinnacle on edge of climb.
+*flags duplicate ; (Bull Pot of the Witches) seems to duplicate 032-037(012) in bw01
+003	004	19.85	178.0	+20.0	; 3, head height on right of dry climb up (scratched mark)
+004	005	12.00	186.0	+28.0	; 4, hollow in left wall looking up towards entrance by waterfall.
+; 004	005	12.00	168.0	+28.0	; try this, dyslexia on compass bearing?
+005	006	18.45	174.0	+25.0	; 5, stunted branch on tree lying on slope.
+006	007	08.15	166.0	+14.0	; 8, pointed boulder in open pot
+*flags not duplicate
+
+*end	bw12

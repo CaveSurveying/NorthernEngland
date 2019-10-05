@@ -1,0 +1,33 @@
+;Cave:		Boundary Pot - Hiroshima bits and pieces
+;Surveyors:	S.Lieberman/R.Duffy/P.Wilkinson
+;Date:		29/07/07
+;Instruments:	PAG + disto
+
+;*equate	bdy3b.005a bdy3.003
+
+*begin	bdy3b
+
+*date 2007.07.07
+
+*export 001
+*export 005a
+
+*calibrate compass		+3.00
+*calibrate clino		+0.50
+*calibrate tape		 0.00	
+
+002a	001a	03.52	205.0	-49.0	;st001a is floor level left side of slot down 2m climb
+002a	003a	03.75	118.0	+28.0	;2m climb out of chamber
+005	003a	01.73	200.0	+28.0	;st005 is standing at false floor
+
+001	002	07.19	339.0	+02.0	;st001 is start of slot down too tight at end of bedding
+
+002	022a	00.10	 -	DOWN
+022a	022b	07.19	079.0	+03.0
+
+003	002	10.07	049.0	-25.0
+003	004	07.97	213.0	-06.0
+004	005	09.10	174.0	-17.5
+005	005a	00.60	 -	DOWN	;st005a is height of false floor
+
+*end	bdy3b

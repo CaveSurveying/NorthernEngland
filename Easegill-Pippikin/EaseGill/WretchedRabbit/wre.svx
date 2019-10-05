@@ -1,0 +1,43 @@
+;Cave:	Wretched Rabbit - Upper Series (near entrance from Big rift end up rope to top of rift passage)
+;Surveyors:	R.Duffy solo
+;Date:	14/04/05
+;Instruments:	PAG + disto
+
+;*equate wre.001b wra.017 ;lowering of rock at end of Big Rift
+;*equate wre.008b wrf.008b ; climb up to passage to Stalactite Chamber
+;*equate	wre.011 wri.001
+
+*begin	wre
+*export 011
+*export 001b
+*export 008b
+
+*calibrate compass	+3.00
+*calibrate clino	-0.50
+;*calibrate tape		
+
+001b	001a	01.69	141.0	-15.0	;st001b was fang of rock at start of low section at end of Big Rift
+001	001a	07.93	 -	DOWN	;st001 is on wall opposite high passage
+002	001	03.02	010.0	-28.0	;st002 is middle of first bend in passage
+002	003	02.10	317.0	+18.0	;st003 is next to small hole in fin of rock on corner
+004	003	01.55	043.0	+13.0
+004	005	01.60	345.0	-05.0
+006	005	01.32	088.0	-05.0	;st006 is thread in oxbow bridge
+006	007	01.33	189.0	-11.0
+008	007	03.06	117.0	-13.0	;st008=tag on fin in wet passage
+
+;start of wet passage at junction
+
+008	009	01.20	032.0	+11.5
+010	009	01.70	105.0	+02.0
+011	010	01.60	044.0	-21.0	;st011 is head height on corner with ledge in front, good place to start climb up to inlet between st011 and 12
+011	012	02.83	324.0	-05.0	;st012 is head height on rib before corner of pool
+012	013	01.40	302.0	-02.0
+013	014	01.40	042.0	-07.0	;st014 is level bit of gravel bank at v.tight corner, unsurveyed beyond
+
+;drier passage
+
+008a	008	03.65	007.0	-14.0
+008a	008b	01.47	124.0	+02.0	;st008b is lip of climb up at head height
+
+*end	wre

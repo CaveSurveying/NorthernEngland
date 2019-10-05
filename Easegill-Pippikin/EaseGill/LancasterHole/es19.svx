@@ -1,0 +1,38 @@
+;Cave:	Lancaster Hole - Earby Series - Subway to nasty bit
+;Surveyors:	N.Pacey/S.Lieberman
+;Date:	15/08/02
+;Instruments:	1
+
+;*equate	es19.002	es.076
+;*equate	es19.020	es19a.001
+
+*begin	es19
+*export 002
+*export 020
+
+*calibrate compass	+6.00
+*calibrate clino	+3.50
+
+
+;001	002	06.72	244.0	+23.0	;st001 is top of drop down from Brew Chamber to Long Gallery
+;002	003	17.80	324.0	-09.0	;we think this was 5m too long?
+002	003	12.80	324.0	-09.0
+003	004	09.55	344.0	-22.0
+004	005	04.40	072.0	+04.0
+005	006	04.00	330.0	-10.5	;st006 is top of stal
+006	007	07.57	348.0	+03.0	;st007 pendant of roof
+007	008	07.55	312.0	-01.0	;st008 is opp. cross joint bedding could be dug
+008	009	04.20	330.0	-04.0
+009	010	03.64	344.0	-01.0
+010	011	03.63	304.0	+01.0
+011	012	01.72	271.0	 00.0
+012	013	02.34	327.0	 00.0
+013	014	02.90	284.0	 00.0
+014	015	01.98	340.0	+04.0	;st015 is stal in floor
+015	016	04.24	274.0	+06.0
+016	017	05.00	238.0	+04.0
+017	018	04.97	246.0	+09.0
+017	019	01.09	 -	DOWN
+019	020	07.76	305.0	 00.0	;st020=tag RH wall
+
+*end	es19

@@ -1,0 +1,48 @@
+;Cave:	Lancaster Hole - Breakdown Chamber to Upper Oxbow corner tag
+;Surveyors:	R.Duffy/A.Hare/A.Whitney/James(BUSS)
+;Date:	17/03/02
+;Instruments:	PAG
+
+;;*equate	md7c.011g	l4.005a
+;;*equate	md7c.015	md7a.068
+;;*equate	md7c.001	md7f.001
+;;*equate	md7c.011a	md7g.012
+;;*equate	md7c.001	md7a.053
+;;*equate	md7c.011a	md7j.001
+
+*begin	md7c
+*export 001
+*export 011a
+*export 011g
+*export 015
+
+*calibrate compass	+5.00
+
+*flags duplicate ; (Oxbow Corner, downstream) seems to duplicate 053-063 in md7a and 010-012 in md7g
+001	002	12.45	074.0	+04.0	;tag at start of climb up to Breakdown chamber
+002	003	07.65	126.0	+05.0
+003	004	07.50	141.0	+12.0
+004	005	31.49	107.0	+02.0
+005	006	07.47	121.0	+06.0
+006	007	10.10	067.0	+03.0
+007	007a	02.50	156.0	+17.0	;tag on stal on right facing upstream at entrance to tight bedding squeeze
+007	008	12.93	098.0	+03.0
+008	009	24.83	139.0	+01.0
+009	010	08.13	175.0	+06.0
+010	011	05.34	165.0	+01.0
+011	011a	04.60	105.0	+46.0	;st011a is bottom of rope on left facing upstream at entry to boulder choke
+*flags not duplicate
+011a	011b	05.40	 -	UP	;up climb
+011b	011c	01.68	284.0	+70.0
+011c	011d	00.97	171.0	-10.0
+011d	011e	05.50	145.0	+32.0
+011e	011f	02.70	 -	UP
+011f	011g	23.00	121.0	 00.0	;st011g=tag at UP156
+*flags duplicate ; (Oxbow Corner) seems to duplicate 065-068 in md7a
+011	012	03.12	108.0	+02.0
+012	013	03.80	109.0	+14.0
+013	014	03.10	203.0	+11.0
+014	015	05.10	135.0	+03.0	;st015 is small chamber where there's a climb up to letter box
+*flags not duplicate
+
+*end	md7c

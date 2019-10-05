@@ -1,0 +1,21 @@
+;Cave:	Lancaster Hole - Magic Roundabout - Inlet Old Kent Road
+;Surveyors:	P.Hall/D.Foxton
+;Date:	06/07/02
+;Instruments:	3
+
+;*equate	mr7.001	mr2.008
+;*equate	mr7.005	mr5.006
+
+*begin	mr7
+*export 001
+*export 005
+
+*calibrate compass	+183.5
+*calibrate tape	+1.00
+
+001	002	04.70	097.0	+03.0	;st001 is boulder at T junc.
+002	003	03.20	037.0	 00.0
+003	004	02.90	090.0	+03.0
+004	005	03.90	 -	DOWN	;st005 is sat on junc. V passage
+
+*end	mr7

@@ -1,0 +1,21 @@
+;Cave:	Aardvark Country (Left passage at top of last pitch)
+;Surveyors:	Ray Duffy/Andy Hall
+;Date:	07/11/98
+;Instruments:	PAG
+
+;*equate	ak02.007	ak01.002
+
+*begin	ak02
+*export 007
+
+*calibrate compass	+5.00
+
+000	001	03.90	297.0	-06.0	;Bell at end of crawl
+001	002	00.70	 -	UP
+002	003	02.10	320.0	+06.0
+003	004	03.70	053.0	-05.0
+004	005	02.80	307.0	-02.0
+005	006	06.20	048.0	 00.0
+006	007	01.60	001.0	+13.0	;st007=knot on Y-hang
+
+*end	ak02

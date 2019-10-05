@@ -1,0 +1,28 @@
+;Cave:	Lancaster-Earby Series
+;Surveyors:	R.Duffy/T.Eastwood
+;Date:	18/07/98pm
+;Instruments:	PAG
+
+;;*equate	es1.001	es.098	;not needed any more
+;*equate	es1.001	esa.015
+;*equate	es1.010	es5.000
+
+*begin	es1
+*export 010
+*export 001
+
+*calibrate compass	+5.00
+
+
+
+001	002	04.60	064.0	-04.0	;st001=broken stal
+002	003	02.70	168.0	+14.0
+003	004	03.85	124.0	+07.0
+004	005	03.30	074.0	+01.0
+005	006	04.70	168.0	+00.5
+006	007	04.80	222.5	+02.0
+007	008	04.65	160.0	+03.0
+008	009	04.10	076.0	-09.5
+009	010	05.30	147.0	+09.0	;st010=tag in roof on junction Maple Leaf & Ramsdens Crawl
+
+*end	es1

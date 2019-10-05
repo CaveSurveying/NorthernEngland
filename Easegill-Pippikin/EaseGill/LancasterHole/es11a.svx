@@ -1,0 +1,29 @@
+;Cave:	Lancaster Hole - Earby Series - Mortuary passage cont.
+;Surveyors:	H.Blyth/P.Windle/P.Swire
+;Date:	16/11/02
+;Instruments:	2
+
+;*equate	es11a.010	es10.040
+;*equate	es11a.000	es11b.014
+
+*begin	es11a
+*export 010
+*export 000
+
+*calibrate compass	+4.00
+*calibrate clino	0.00
+
+000	000a	09.00	 -	UP	;st001 is well decorated Archway Aven
+
+000	001	07.12	315.0	+20.0	;st000 is spike 1/5m off floor next to knotted rope
+001	002	05.24	165.0	-10.0
+002	003	04.59	160.0	-10.0	;between stations is tight descending rift with calcite floor
+003	004	10.04	152.0	-11.0
+004	005	07.49	149.0	-08.0
+005	006	01.95	229.0	-13.0
+006	007	00.85	 -	UP
+007	008	02.90	285.0	-02.0	;boulder squeeze between 007 and 008
+008	009	02.11	288.0	 00.0
+009	010	00.96	266.0	 00.0	;st010=tag at archway
+
+*end	es11a

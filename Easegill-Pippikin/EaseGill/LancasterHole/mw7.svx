@@ -1,0 +1,46 @@
+;Cave:	Montague West Extension part3
+;Surveyors:	Montague West Extension dug by R.D/P.A.G/D.E. then breakthrough by A.Hare/N.Pacey
+;Date:	26/04/97pm
+;Instruments:	Red Rose Sunto Compass & Clino, 30m tape
+
+;;;*equate	mw7.015	mw5.001
+;;*equate	mw7.015	mw3.006
+;;*equate	mw7.000	mw8.007
+
+*begin	mw7
+*export 000
+*export 015
+
+*calibrate compass	+5.17
+
+000	001	04.30	078.0	-15.0	;st000=tag
+000	101a	07.00	323.0	+02.0	;query clino+-15deg???see notes
+101a	101b	07.00	323.0	 00.0	;st001b is dig
+000	201a	03.90	138.0	+07.0
+201a	201b	05.00	 -	UP	;tight aven
+001	001p	04.40	340.0	 00.0
+001p	001q	03.00	340.0	 00.0	;p & q low level "unreadable comment" rift choke ??????
+001p	001r	03.40	 -	UP	;up large sloping aven
+001r	001s	05.00	341.0	+46.0
+001	002	05.00	112.0	-03.0	;"comment unreadable"????
+002	221	04.60	084.0	+22.0
+221	222	06.10	 -	UP	;st222 is aven
+002	321	02.20	322.0	+07.0	;"comment unreadable"???? trench 1.5m down from ?????
+321	322	05.70	073.0	+03.0
+002	002a	04.00	160.0	+03.0
+002	003	07.40	340.0	-14.0
+003	004	06.30	344.0	+08.0
+004	005	05.60	329.0	+02.0
+005	006	09.10	339.0	+01.0
+006	007	06.20	078.0	 00.0	;clino+-5?? st007 breakthrough dig 7b&6g? tight
+007	008	01.60	353.0	 00.0
+008	009	03.20	309.0	-01.0
+009	010	03.30	352.0	-03.0
+010	011	02.70	296.0	-02.0
+011	012	03.40	317.0	-06.0
+012	013	01.80	282.0	-05.0
+013	014	09.10	335.0	 00.0
+014	014a	02.00	080.0	 00.0	;st014a poss. dig pretty
+014	015	03.20	343.0	+05.0	;st015 is TR1 Jnc????? "unreadable comment"
+
+*end	mw7

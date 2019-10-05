@@ -1,0 +1,22 @@
+;Cave:	Stake Pot to Magic roundabout in main drain
+;Surveyors:	Ray Duffy/Tim Eastwood/Dave Thompson
+;Date:	04/04/98pm
+;Instruments:	PAG kit
+
+;;*equate	md7b.001	l2.012
+;;*equate	md7b.006	md7a.031a
+
+*begin	md7b
+*export 001
+*export 006
+
+*calibrate compass	+5.45
+
+
+001	002	10.20	094.0	-34.0	;st.001 is P bolt for Y hang at stake pot
+002	003	08.40	315.0	-40.0
+003	004	10.10	045.0	-24.0
+004	005	15.70	085.5	-11.0
+005	006	01.96	035.0	-24.0	;st.006=tag Magic Roundabout in stream
+
+*end	md7b

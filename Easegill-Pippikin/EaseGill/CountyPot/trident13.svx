@@ -1,0 +1,50 @@
+;Cave:	County Pot - Trident - tag8 into Bedsted Chamber downstream to Pitch next to Boulder Chamber
+;Surveyors:	R.Duffy/A.Whitney/J.Wilder
+;Date:	09/10/02
+;Instruments:	PAG
+
+;*equate	trident13.001	trident11.011a
+;*equate	trident13.002	trident19.001	;tag in bottom of Bedstead Chamber
+;*equate	trident13.002	trident20.002h	;tag in bottom of Bedstead Chamber
+;*equate	trident13.002	trident22a.006	;tag in bottom of Bedstead Chamber
+;*equate	trident13.005a	trident17.017
+;*equate	trident13.015	trident18.020
+;*equate	trident13.015	trident28a.001
+;*equate	trident13.017	trident14.001
+;*equate trident13.019	trident15.001
+
+*begin	trident13
+*export 002
+*export 001
+*export 015
+*export 017
+*export 019
+*export 005a
+
+*calibrate compass	+3.00
+*calibrate clino	0.00
+*calibrate tape	+1.00
+
+001	002	03.87	022.0	+34.0	;st001=tag8 in streamway, st002=tag in Bedsted chamber
+002	003	04.80	034.0	+05.0
+003	004	03.55	260.0	-06.0
+004	005	04.84	008.0	-06.0
+
+005	005a	01.78	094.0	-24.0	;st005a=tag10 just before Paper Floor Passage, passage, aven&chamber in roof on opposite side
+
+005	006	04.05	010.0	+04.0
+006	007	03.64	269.0	+01.0
+007	008	02.57	358.0	-04.0
+008	009	03.45	296.0	 00.0
+009	010	04.15	351.0	-25.0
+010	011	04.00	324.0	-04.0	;between st010 and 011 passage in roof is oxbow entering chamber at tag11
+011	012	04.35	354.0	-07.0
+012	013	03.10	290.0	-09.0
+013	014	02.72	250.0	+15.0
+014	015	01.80	357.0	-11.0	;st015=tag11 passage above tag goes to Boulder Chamber tight route
+015	016	08.10	276.0	+05.0
+016	017	04.40	272.0	-25.0	;st017=tag12
+017	018	01.93	290.0	-50.0	;st018 is Y hang knot
+018	019	08.50	 -	DOWN	;st019 is top of pool in chamber below pitch tag13 is nearby
+
+*end	trident13

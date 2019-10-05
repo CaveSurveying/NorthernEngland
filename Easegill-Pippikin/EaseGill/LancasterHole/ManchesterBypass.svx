@@ -1,0 +1,23 @@
+;Contains Manchester By pass files etc
+
+*begin ManchesterBypass
+
+*export man1.001
+*export man1.007
+*export man1.049
+
+*equate car1.001 man1.047 ; from car1.svx
+*equate car1.011 cry.012 ; from car1.svx
+*equate car1.015 car2.001 ; from car1.svx
+*equate cry.001 man1.034 ; from cry.svx
+*equate man1.034 oec.001 ; from man1.svx
+
+*include	man1
+;*include	Car
+*include	car1
+*include	car2
+*include	oec
+*include	cry
+
+*end ManchesterBypass
+

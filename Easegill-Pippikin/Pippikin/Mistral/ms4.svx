@@ -1,0 +1,31 @@
+;Cave:	Mistral, Hobbit area
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:	25/01/07
+;Instruments:	PAG + disto
+
+;*equate	ms4.001  ms1.001
+;*equate	ms4.001	 ms.016a
+;*equate	ms4.004a ms.018
+
+*begin	ms4
+*export 004a
+*export 001
+
+*calibrate compass		+3.00
+*calibrate clino		 -0.50
+*calibrate tape		  0.00
+
+002	001	03.64	282.0	-02.0	;Stn 001 is Tag above climb down to Far Streamway
+002	003	05.84	056.5	+10.5	;Stn 002 sitting on mud slope
+004	003	09.84	006.0	+11.0	;Stn 003 Possibly stn 003 in Bargain passage survey?
+004	004a	12.60	170.0	+05.0	;Stn 004 below step in roof. Stn 004a tag on top of boulder
+004	005	06.38	312.0	+06.0	;
+006	005	07.58	164.0	-22.0	;
+006	007	06.77	010.0	+10.5	;
+008	007	06.27	239.0	+02.5	;Stn 008 end of bedding in from mistral
+008	009	11.10	186.0	-03.0	;
+009	010	01.50	-	DOWN	;Stn 009, 010 against wall next to step in roof
+011	010	01.94	001.0	+12.0	;
+011	003	02.71	058.0	+02.5	;
+
+*end	ms4

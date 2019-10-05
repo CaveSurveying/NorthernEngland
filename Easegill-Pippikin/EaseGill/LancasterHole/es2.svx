@@ -1,0 +1,28 @@
+;Cave:	Lancaster-Earby Series(Equinox Hall)
+;Surveyors:	Tanya/Dave Ramsey/Sam Lieberman
+;Date:	18/07/98pm
+;Instruments:	kit2
+
+;*equate	es2.001	es.081
+;*equate	es2.010	es4.001
+;*equate	es2.003	es2a.001
+
+*begin	es2
+*export 003
+*export 010
+*export 001
+
+*calibrate compass	+7.0
+
+
+001	002	03.06	156.0	+21.0	;st.001 is centre of pool in crawl end of part survey by R.Duffy/A.Hall
+002	003	10.07	129.0	-02.0
+003	004	11.75	141.0	+04.0
+004	005	07.74	091.0	+05.0
+005	006	04.70	041.0	-22.0
+006	007	05.43	149.0	-01.0
+007	008	02.21	 -	DOWN
+008	009	02.80	016.0	-05.0
+009	010	02.80	002.0	-63.0	;st009 marked with carbide black mark
+
+*end	es2

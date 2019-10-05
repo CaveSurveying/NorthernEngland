@@ -1,0 +1,35 @@
+;Cave:	Wretched Rabbit - entrance series - from first drop up in roof to Cross Over to Parallel Streamway
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:	16/04/05
+;Instruments:	PAG + disto
+
+;*equate wrg.001 wra.006	;white mark at hd ht bottom of first climb
+;*equate wrg.008 wrd.015	;end of Unsurveyed Passage
+;*equate wrg.010c wrc.021a ;top of boulder cobble above Big Rift in Parallel Passage off-shoot
+;*equate	wrg.010 wrh.001	;corner of slide through from pitch
+
+*begin	wrg
+*export 010
+*export 001
+*export 008
+*export 010c
+
+*calibrate compass	+3.0
+*calibrate clino	-0.50
+;*calibrate tape		
+
+001	002	01.93	346.0	-26.0	;st001 is head height next ot white mark at bottom of first drop
+002	003	03.82	056.0	+64.0	;st003=bolt on climb to upper passage, High Level Oxbow
+003	004	02.67	282.0	-36.0	;across to paper thin floor
+004	005	03.50	353.0	-13.0
+006	005	02.04	043.0	-23.0
+006	007	03.29	328.0	-27.0
+007	008	00.90	342.0	+44.0	;st008 is lip of Unsurveyed Passage
+009	008	03.40	230.0	+51.0	;st009 is in small chamber withslide through at bottom into Cross Over Passge
+009	010	03.07	016.0	-19.0	;st010 is left corner of junction with Cross Over Passage crawl
+;passage back upstream in bedding
+010	010a	04.62	122.5	+03.0
+010b	010a	03.16	021.0	 00.0
+010b	010c	01.00	 -	DOWN	;st010c is top of boulder cobble
+
+*end	wrg

@@ -1,0 +1,35 @@
+;Cave:	Wretched Rabbit - Streamway below traverses in lower WR
+;Surveyors:	A.Whitney/H.St.Lawrence
+;Date:	29/04/03
+;Instruments:	kit1
+
+;*equate	wr12.001	wr12a.002
+
+*begin	wr12
+*export 001
+
+*calibrate compass	+7.00
+*calibrate clino	+4.00
+*calibrate tape		+3.00
+
+001	002	05.50	 -	DOWN	;drop down from traverse
+002	003	07.00	295.0	-02.0
+003	004	08.60	047.0	+06.0
+004	005	04.85	322.0	+04.0
+005	006	06.35	257.0	+03.0
+
+006	006a	12.40	205.0	+05.0	;
+006a	006b	09.50	150.0	+05.0	;good estimate of length
+
+006	007	04.35	005.0	+05.0
+007	008	05.63	264.0	+02.0
+008	009	07.00	316.0	+02.0
+009	010	05.10	256.0	+01.0
+010	011	05.90	194.0	-02.0
+011	012	10.80	263.0	 00.0
+012	013	04.25	 -	UP
+013	014	03.85	344.0	+25.0
+014	015	05.00	248.0	+08.0
+015	016	09.00	277.0	-02.0	;estimated length
+
+*end	wr12

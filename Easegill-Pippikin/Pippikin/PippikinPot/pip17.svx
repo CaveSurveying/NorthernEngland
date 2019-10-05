@@ -1,0 +1,23 @@
+;Cave:	Pipikin- Hall of the Mountain King to Gothic Series via Hall of the Damned
+;Surveyors:	H.St.Lawrence/Footleg
+;Date:	13/03/99
+;Instruments:	1
+
+;*equate	pip17.001	pip15.009
+
+*begin	pip17
+*export 001
+
+*calibrate compass	+6.50
+
+;*fix	001	
+
+001	002	10.91	240.4	+30.0	;st001=tag in mudbank at st009 Pip15
+002	003	02.00	 -	UP
+003	004	04.03	212.5	+41.0
+004	005	04.93	150.0	+08.0
+005	006	05.28	215.0	+08.0
+006	007	05.15	313.0	-12.0
+007	008	03.22	334.0	-16.0
+
+*end	pip17

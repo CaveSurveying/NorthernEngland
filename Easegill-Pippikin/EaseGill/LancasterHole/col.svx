@@ -1,0 +1,37 @@
+;Cave:	Lanc.Hole-Colonnades
+;Surveyors:	R.Duffy/H.St.L/Sarah Blundell
+;Date:	Col	30/11/96
+;Instruments:	Red Rose Sunto Compass & Clino, 30m tape
+
+;;*equate	col.016	l1.006
+;;*equate	col.019	bark.005
+
+*begin	col
+*export 019
+*export 016
+
+*calibrate compass	+5.27
+
+
+001	001a	07.90	342.0	-19.0	;st001 is centre of Y junction after crawl
+001	001b	06.90	090.0	+20.0
+001	002	01.00	 -	DOWN
+002	003	03.50	178.0	-05.0
+003	004	03.30	134.0	-04.0
+004	005	02.00	142.0	-15.0
+005	006	02.40	132.0	+20.0
+006	007	10.55	075.0	 00.0	
+007	008	10.90	160.5	 00.0
+008	009	09.85	253.0	 00.0
+009	010	23.00	168.5	-06.0	;4m from st010 towards 011 is calcite slope and hole on right,blind
+010	011	15.55	062.0	+10.0	;st011 right wall looking toward Br.Hall
+011	012	16.50	082.0	-06.5
+012	013	07.70	053.0	+00.5
+013	014	07.50	058.5	-17.5
+014	015	08.20	087.5	-10.0
+015	016	04.10	 -	DOWN	;Pointed boulder below Bridge L1.st006
+016	017	12.55	324.5	+03.5	;across Bridge Hall to ent. to Barkers Pot pass.
+017	018	05.10	009.0	+46.0
+018	019	09.45	254.0	+22.0	;st019 is arrow on right wall above pitch
+
+*end	col

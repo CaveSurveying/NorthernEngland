@@ -1,0 +1,67 @@
+;*equate PicklePassage1.001 GrindEasyStRoofTube.045 
+
+*begin PicklePassage1
+*export 001
+*export 021
+
+*title "Survey of Section of Pickle Passage from Roof Tube out of Easy street towards Grind"
+
+*date 2013.02.02
+
+*team Instruments Tom Clayton 
+*team Notes Emma Wilson
+*team Tape Tom Clayton
+
+*instrument Tom Clayton's Tandem Compass and Clino, RRCPC tape. 
+
+*calibrate compass +1.0	; Calibrated on 03/03/2013
+*calibrate clino   +0.5 ; Calibrated on 03/03/2013
+*calibrate tape    0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+001	002	1.30	263 	-47	; 001= GrindEasyStRoofTube.045, small manky stal at start of passage into Grind 
+003	002	2.45	095	+05 	;
+004	003	2.46	132	+03	; 
+005	004	1.60	134	+02	; 
+006	005	1.02	131	+09	; 
+007	006	2.39	154	+02	;
+008	007	1.54	096	+04	; 
+009	008	0.87	119	-01	; 
+010	009	2.95	106	+07	;
+011	010	2.02	088	-06	;
+012	011	2.26	145	+05	; 
+013	012	4.37	093	+04	; 
+014	013	2.27	088	+03	; 
+015	014	2.66	141	+05	; 
+016	015	1.84	080	+03	; 
+017	016	3.32	174	+04	; 
+018	017	2.75	088	+02	; 
+019	018	1.87	053	+03	; 
+020	019	1.02	131	+08	; 
+021	020	2.05	131	+07	; 
+
+*data passage station left right up down ignoreall
+
+;001					; Not recorded
+002	0.5	1.5	0.3	0.5	; LRUDs given as travelling down passage, i.e. looking from roof tube towards Grind. 
+003	0.2	0.5	0.5	1.0 	; T shaped passage, LRUDs at furthest points of T, narrow central trench ~0.4m wide
+004	0.5	1.0	0.5	1.0	; 
+005	2.0	0.2	0.2	1.2	; 
+006	0.5	0.4	0.3	1.2	; 
+007	1.0	0.2	0.2	1.0	; 
+008	2.0	0.5	0.2	1.5	;
+009	0.5	0.4	0.2	1.5	; 
+010	1.5	1.0	0.3	1.4	; 
+011	1.0	0.8	0.2	1.3	; 
+012	2.0	0.5	0.5	1.2	; 
+013	0.5	0.0	0.5	1.5	; stn 13 is in narrower constriction
+014	0.2	1.5	0.2	1.5	; 
+015	2.0	0.2	0.2	1.0	; 
+016	0.3	1.5	0.2	1.0	; 
+017	2.0	0.5	0.2	1.0	; 
+018	1.0	0.5	0.2	0.6	; stn 18 is on nose part way round pickle corner 
+019	0.4	0.3	0.2	1.1	; 
+020	0.6	0.7	0.1	1.0 	;
+;021					; Not recorded 
+
+*end PicklePassage1

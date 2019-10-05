@@ -1,0 +1,76 @@
+;Cave:		Top Sink - Wisdom Tooth Passge
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:		23/06/07
+;Instruments:	SAP + disto
+
+;*equate	t10a.035 t01bii.002 ;st035 is head height on rope from Wisdom Tooth
+
+*begin	t10a
+
+*export 006
+*export 035
+
+*calibrate compass		0.00
+*calibrate clino		0.00
+*calibrate tape			0.00
+
+*fix 006 67979.84 81070.70 314.26 ;st006=cable tie on spike near waterfall passage
+
+001	001a	03.70	260.0	 -	;right hand side of choke facing in
+001	001b	04.30	153.0	+06.0	;left hand side of choke facing in
+
+001	002	04.48	022.0	 -	;st002 is 0.5m befor side pass. with view through bedding
+
+002	002a	04.33	140.0	+03.0	;st002a is choked end of inlet on right
+
+002	003	07.06	053.0	+02.0
+
+003	003a	04.06	114.0	-03.0	;st003a is passage on right just before small inet in roof
+003a	003b	03.43	137.0	+08.0	;passage cont. 3m turning to right beyond st003b but too small
+
+003a	003c	08.36	201.0	 -	;sighting through bedding at roof level passing small chamber to choke end
+
+003	004	06.57	058.0	-17.0	;st003 is old survey st036 ans is on pile of rubble in passage below roof boulder dome, scary
+004	005	04.53	044.0	-03.0	;st004 is passage loop to st003a with loose boulder choked small chamber
+
+005	005a	02.62	098.0	-07.0	;st005a is at foot of tight slope up inlet
+005a	005b	03.69	147.0	+36.0	;st005b is left wall of tight right hand bend
+005c	005b	03.04	034.0	-13.0	;st005c is left hand bend
+005c	005d	05.05	141.0	+37.0	;st005d is choked end
+
+005	006	08.09	033.0	-14.0	;st006=cable tie on spike near waterfall passage
+006	007	05.66	023.0	+11.0	;water disappears under right wall to beyond calcite ramps
+007	008	02.73	310.0	-04.0
+008	009	03.52	042.0	+01.0	;st009 is about 2m before calcite ramp and stals, next leg through hole below ramps
+009	010	06.12	016.0	-01.0	;st010 is at downstream end of ramps
+010	011	07.68	324.0	-08.0
+011	012	01.88	266.0	+21.0
+012	013	03.41	350.0	-01.0
+013	014	07.97	325.0	-01.0
+014	015	02.07	017.0	-01.0
+015	016	03.61	313.0	+03.0	;1m beyond st015 is group of helectites low down on right
+016	017	04.39	331.0	-07.0
+017	018	02.46	070.0	+08.0
+018	019	02.93	015.0	 -
+019	020	02.13	300.0	 -
+020	021	04.90	052.0	-07.0
+021	022	03.41	029.0	-07.0
+023	022	03.48	094.0	-07.0
+023	024	03.65	012.0	+16.0	;passage roof higher, passage wider around here and draught increases
+
+024	024a	08.27	055.0	+24.0	;passage turns right into inpenetrable calcite ckoke im beyond st024a
+
+024	025	05.52	311.0	-16.0
+025	026	05.74	262.0	-06.0
+026	027	02.64	303.0	+07.0
+027	028	05.51	264.0	 -
+028	029	05.52	335.0	-05.0
+029	030	09.72	251.0	+01.0
+030	031	04.50	255.0	-02.0
+031	032	03.13	199.0	+03.0
+032	033	04.57	232.0	-08.0
+033	034	04.54	 -	DOWN	;st034 is floor level at ent. to Wisdom Tooth where rope lands
+034	035	01.43	 -	UP	;st035 is head height on rope
+035	036	03.41	340.0	-10.0	;st036 is base of Peknife Pitch
+
+*end	t10a

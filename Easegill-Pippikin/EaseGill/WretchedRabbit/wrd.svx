@@ -1,0 +1,32 @@
+;Cave:	Wretched Rabbit - Upper Series (near entrance)
+;Surveyors:	S.Lieberman/A.Whitney
+;Date:	14/04/05
+;Instruments:	3
+
+;*equate wrd.001 wrf.008k ;tag at start of Unsurveyed Passage
+;*equate wrd.015	wrg.008 ;end of Unsurveyed Passage
+
+*begin	wrd
+*export 001
+*export 015
+
+*calibrate compass	+2.00
+*calibrate clino	-2.00
+;*calibrate tape		
+
+001	002	02.00	152.0	-02.0	;st001=tag at junction
+002	003	03.47	146.0	+11.0	;st002 has passage to right
+003	004	01.83	082.0	-08.0
+004	005	03.06	 -	UP
+005	006	02.22	105.0	+11.0
+006	007	04.56	077.0	+09.0	;between st006 & 7 is too tight passage pn left
+007	008	01.41	220.0	-04.0
+008	009	02.79	137.0	+02.0
+009	010	01.29	076.0	+05.0
+010	011	03.20	130.0	+06.0
+011	012	02.08	081.0	+02.0
+012	013	01.50	157.0	 00.0
+013	014	01.28	050.0	-02.0
+014	015	02.04	095.0	-02.0	;st015 is junctio with Crossover Passage
+
+*end	wrd

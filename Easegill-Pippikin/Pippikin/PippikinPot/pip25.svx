@@ -1,0 +1,37 @@
+;Cave:		Pipikin Pot - Red/White Wall Chamber(nearly)
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:		19/09/07
+;Instruments:	PAG + disto
+
+;*equate	pip25.001 pip02a.001 ;st001=tag in roof at Dusty Junction
+;*equate	pip25.014 pip26.001 ;st001=tag on stal on right wall
+
+*begin	pip25
+*export 001
+*export 014
+
+*calibrate compass		+3.00
+*calibrate clino		+0.50
+*calibrate tape		  0.00
+
+001	002	00.79	 -	DOWN	;st001=tag in roof at Dusty Junction
+002	003	07.20	078.0	+05.0
+
+003	003a	04.85	016.0	+05.0	;st003a is small chamber in bedding crawl to left
+
+003	004	10.46	145.0	+01.5	;st004 is head height sittingon rock at lip of drop
+004	005	06.10	114.0	-09.0	;st005=tag on pointed rock near drop to Dickeries
+006	005	07.53	300.0	-01.5
+
+006	006a	10.25	248.0	+06.0	;st006a is far wall of chamber
+
+006	007	05.61	113.0	-03.5	;st007 is tip of pointed rock
+008	007	07.05	278.0	-19.0
+008	009	01.50	158.0	+33.0
+009	010	01.20	 -	UP
+010	011	05.30	062.0	+21.0
+011	012	02.50	 -	DOWN	;climb down to lower chamber
+013	012	02.45	254.0	+22.0
+013	014	01.67	140.0	+04.0	;st014=tag on stal to left of passage
+
+*end	pip25

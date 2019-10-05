@@ -1,0 +1,61 @@
+;Cave:	County Pot - Upper Razor Passage from Toadstool Junction to Platypus Junction
+;Surveyors:	R.Duffy/H.St.Lawrence
+;Date:	10/04/04
+;Instruments:	PAG
+
+;;*equate	cy10a.012j4	cy10.041 ;Platupus Junc
+;;*equate	cy10a.001	cy10.020a ;Toadstool
+;;*equate cy10a.012h2	cy10b.001 ;Gallery extensions
+;;*equate	cy10a.012d	cy10ai.000b ;Upper Upper Razor Passage bedding
+
+*begin	cy10a
+*export 001
+*export 012d
+*export 012j4
+*export 012h2
+
+*calibrate compass	+5.00
+*calibrate clino	+0.50
+*calibrate tape		 00.0
+
+001	002	06.35	302.0	-03.0	;st001 is Toadstool
+002	003	05.58	310.0	+15.0	;st002 is sitting on large boulder above stream in bouldery chamber, st003 is far side of chamber above climb down to stream
+003	004	01.65	 -	DOWN
+004	005	02.10	122.0	-32.0	;st005 has stream entering on right from too narrow slot
+005	006	01.95	 -	DOWN	;next to helter shelter slide
+006	007	07.40	338.0	+06.0	;leg along streamway
+007	008	01.75	 -	DOWN	;leg is squeezing drop through obvious boulders to stream
+008	009	08.75	008.0	-05.0	;cobbly crawl with bedding to left and choked chambers to right
+009	010	02.70	329.0	+08.0
+010	011	01.00	 -	DOWN
+011	012	05.10	321.0	-05.0	;steam has dropped to lower level, holes in floor
+012	012a	05.25	042.0	-05.0	;st012a is start of climb up through boulders
+012a	012b	03.60	156.0	+52.0
+012b	012c	02.50	192.0	+59.0	;st102c is top of climb
+012c	012d	06.15	319.0	+09.0	;st012d is sitting on boulder overlooking steep funnel-shaped loose chamber with 1m high bedding on far side
+012d	012e	08.00	319.0	-33.0	;st012e is bottom of slope with drop to right to lower boulder chamber
+012e	012f	05.40	328.0	+03.0	;just before st012f has small loose boulder chamber to right, climb down into lower passage level
+012f	012g	15.00	322.0	-23.0
+012g	012h	01.92	233.0	-13.0	;st012h is kneeling above drop to bedding
+
+;start of route to Gallery
+
+012h	012h1	05.10	331.0	+02.0
+012h1	012h2	03.11	286.0	-04.0	;st012h2=tag boulder above crawl from small chamber
+
+;down to bedding and streamway
+
+012h	012i	01.60	 -	DOWN	;st012i is lying in bedding, crawl to right leads to tag
+012i	012j	06.27	094.0	-07.0	;st012j is standing in stream trench
+012j	012k	03.20	200.0	+22.0	;st012k=tag at stream confluence
+
+;downstream to Platypus
+
+012j	012j1	09.47	336.0	-02.0
+*flags duplicate ; (Razor Passage) tie-in duplicates 038-041 in cy10
+012j1	012j2	03.65	016.0	+01.0
+012j2	012j3	04.47	319.0	-12.0
+012j3	012j4	05.78	278.5	+03.0	;st012j4=tag at Platypus Junction
+*flags not duplicate
+
+*end	cy10a

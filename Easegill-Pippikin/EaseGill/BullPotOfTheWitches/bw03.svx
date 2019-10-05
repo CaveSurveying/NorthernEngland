@@ -1,0 +1,46 @@
+;Cave:		Bull Pot of the Withces
+;Surveyors:	Mark Savage/Steve Lee
+;Date:		24/05/97pm
+;Instruments:	Red Rose 3
+
+;*equate	bw03.001	bw01.022
+;*equate	bw03.001	bw02.019
+;*equate	bw03.027	bw06.017
+;*equate	bw03.027	bw09.011
+
+*begin	bw03
+*export 001
+*export 027
+
+*calibrate compass	+5.17
+
+001	002	03.00	 -	DOWN	;st001=bw1.st022 is X-on wall	
+002	003	01.50	246.0	-02.0
+003	004	03.18	218.0	 00.0
+004	005	05.20	292.0	-34.0
+005	006	02.73	323.0	-23.0
+006	007	05.15	010.0	-10.0
+007	008	02.90	 -	DOWN	;pitch
+008	009	02.50	017.0	-14.0
+009	010	03.10	282.0	-31.0
+010	011	02.30	 -	DOWN
+011	012	02.10	302.0	-10.0
+012	013	04.10	289.0	+12.0	;st013 is going to be Marks TAG????????
+013	014	08.70	199.0	+08.0
+014	015	22.00	181.0	 00.0
+015	016	09.70	188.0	 00.0
+016	017	00.30	 -	DOWN	;st017 is tag
+017	018	01.70	 -	DOWN	;climb down to ledge before Wet Passage
+018	019	00.80	299.0	-12.0
+019	020	03.70	 -	DOWN	;st020 is spike at bottom of pitch
+020	021	28.60	180.0	 00.0
+021	022	16.45	183.0	-01.0
+022	023	07.55	221.0	+07.0
+023	024	08.85	179.0	-04.0
+024	025	01.70	260.0	-03.0
+025	026	14.90	202.0	+01.0
+026	027	06.15	172.0	-08.0	;st027 is tag at junction of Wet & Dry way to sump
+027	028	07.70	242.0	-13.0
+028	029	08.50	214.0	+04.0	;st029 is white mark in roof???
+
+*end	bw03

@@ -1,0 +1,31 @@
+;Cave:	Lancaster Hole - Earby Series - end of Mortuary Passage
+;Surveyors:	S.Lieberman/P.Windle
+;Date:	22/02/03
+;Instruments:	4
+
+;*equate	es11b.014	es11a.000
+
+*begin	es11b
+*export 014
+
+*calibrate compass	+4.50
+*calibrate clino	0.0
+
+001	002	02.30	090.0	-05.0	;st001=tag in roof before calcite choke
+002	003	03.31	000.0	 00.0	;st002 has vadose trench to right, st003 on knobble pencil marked
+003	004	05.40	342.0	-03.0
+004	005	06.55	293.0	-03.0
+005	006	03.19	332.0	 00.0
+006	007	04.96	294.0	-04.0
+007	008	02.71	321.0	 00.0
+008	009	04.52	 -	DOWN
+009	010	04.08	344.0	-28.0
+010	011	08.21	 -	DOWN
+
+011	012	05.15	320.0	+30.0
+
+013	011	05.31	120.0	+04.0
+013	014	06.92	 -	DOWN
+;013	014	08.42	 -	DOWN	;-1.5m for matching stations
+
+*end	es11b

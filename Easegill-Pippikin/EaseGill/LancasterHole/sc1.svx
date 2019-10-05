@@ -1,0 +1,45 @@
+;Cave:	Bridge Hall - Sand Caverns(st015 onwards is AH/PHall's survey 23.04.95)
+;Surveyors:	R.Duffy/H.St.L also P.Hall & A.Hall
+;Date:	Sc1	30/11/96 and 23/04/95
+;Instruments:	Red Rose Sunto Compass & Clino, 30m tape
+
+;;;*equate	sc1.001	L1.005
+;;;*equate	sc1.008	gird1.016
+;;*equate	sc1.015a	sc2.001
+
+*begin	sc1
+*export 001
+*export 008
+*export 015a
+
+*calibrate compass	+5.27
+
+
+001	002	03.50	208.0	-13.0	;st001=L1.005
+002	003	04.85	145.0	-26.0
+003	004	03.50	119.5	-22.0	;ent. to sand cavern passage
+004	005	04.30	143.5	+11.5
+005	006	07.10	116.5	-21.0
+006	007	07.50	 -	DOWN	;bottom of climb down
+007	008	06.30	347.0	-30.0
+008	009	14.20	061.0	-03.5
+009	010	03.20	022.5	+07.5
+010	011	01.70	000.0	+10.0
+011	012	04.10	056.5	+02.0
+012	013	08.00	347.5	+05.5
+013	014	06.70	061.0	-00.5
+014	015	05.60	020.5	+04.0	;mud chamber with crawl to st33(now st019) AH/PH 23/4/95
+
+*calibrate compass	+5.37
+
+015	015a	02.80	011.0	-35.0
+;015a	015b	01.70	 -	DOWN
+;015b	015c	10.00	061.0	-02.0	;dig at end
+015	016	05.20	129.0	+04.0	;st021=old 30
+016	017	05.20	074.0	-01.0	;low crawl
+017	018	07.10	121.0	-10.0
+018	019	10.00	044.0	+07.0
+019	019a	03.00	310.0	+05.0	;dig
+019	019b	07.00	072.0	-02.0	;dig
+
+*end	sc1

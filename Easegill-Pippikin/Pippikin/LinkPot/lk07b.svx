@@ -1,0 +1,24 @@
+;Cave:	Upstream Tiger's Inlet upper passage in roof
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:	09/09/06
+;Instruments:	PAG + disto
+
+;*equate	lk07b.007 lk07.010 ;st007 is main passge at foot of climb up from puddle
+
+*begin	lk07b
+*export 007
+
+*calibrate compass		+3.00
+*calibrate clino		-0.50
+*calibrate tape		 0.00
+
+002	001	04.21	309.0	-08.0	;st001 is mud choke
+002	002a	03.82	122.0	+20.0	;st002 is boulder, st002a is choke
+002	002b	03.16	182.0	-01.0	;st002b is choke above exit passage
+002	003	01.60	202.0	-42.0	;st002 to 004 is flat out tight bedding
+004	003	02.34	105.0	+04.0	;beyond st004 is small stream trench
+004	005	04.41	224.0	-03.0
+005	006	02.07	218.0	-03.0	;st006 has ramp to left up 3m to start of upper passage? choked
+006	007	02.47	 -	DOWN	;st007 is floor of passage
+
+*end	lk07b

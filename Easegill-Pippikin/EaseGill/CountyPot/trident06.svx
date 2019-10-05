@@ -1,0 +1,27 @@
+;Cave:	County Pot - Trident - From Broken Ladder to Trident Streamway
+;Surveyors:	R.Duffy/P.Whitney
+;Date:	01/09/02
+;Instruments:	PAG
+
+;*equate	trident06.001	trident07.012d
+;*equate	trident06.001	trident08.014
+;*equate	trident06.001	trident23b.001
+;*equate	trident06.006	trident04.020
+;*equate	trident06.006	trident15.008
+;*equate	trident06.006	trident23a.001
+
+*begin	trident06
+*export 001
+*export 006
+
+*calibrate compass	+5.00
+*calibrate clino	0.0
+*calibrate tape	+2.00
+
+001	002	03.51	326.0	-13.0	;st001=tag on rope next to broken ladder,passage continues beyond drop through bouldery passage to Y fork both passages end in drops
+002	003	09.72	 -	DOWN
+003	004	02.80	 -	UP	;station raised to eye level
+004	005	08.05	112.0	-16.0
+005	006	06.63	048.0	+17.0	;st006=tag14 trident04.020
+
+*end	trident06

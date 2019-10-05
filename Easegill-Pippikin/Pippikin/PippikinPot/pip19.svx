@@ -1,0 +1,26 @@
+;Cave:	Pipikin- from tag at Gothic Junction to connection to Hall of the Damned
+;Surveyors:	H.St.Lawrence/Footleg
+;Date:	13/03/99
+;Instruments:	1
+
+;*equate	pip19.001 pip15.040
+;*equate	pip19.001 pip19a.000
+
+*begin	pip19
+*export 001
+
+*calibrate compass	+6.50
+
+;*fix	001	
+
+001	002	01.15	 -	DOWN
+002	003	07.36	202.0	-05.0
+003	004	04.64	249.0	+01.0
+004	005	05.97	145.0	 00.0
+005	006	06.76	164.0	-21.0
+006	007	19.27	148.0	+14.5
+007	008	20.26	073.0	+05.0
+008	009	05.50	090.0	+39.0
+009	010	04.96	014.0	+17.0
+
+*end	pip19

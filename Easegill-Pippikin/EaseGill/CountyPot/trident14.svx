@@ -1,0 +1,36 @@
+;Cave:	County Pot - Trident - from tag 12 Paper Floor Passage Pitch to Boulder Chamber
+;Surveyors:	R.Duffy/A.Whitney
+;Date:	15/10/02
+;Instruments:	PAG
+
+;*equate	trident14.001	trident13.017
+;*equate	trident14.006	trident18.001
+
+*begin	trident14
+*export 001
+*export 006
+
+*calibrate compass	+3.00
+*calibrate clino	0.00
+
+001	001a	02.29	281.0	+32.0	;st001a is across pitch in continuation passage
+001a	001b	03.07	246.0	+01.0
+001b	001c	14.70	 -	DOWN	;st001c is Trident Streamway (not very accurate as couldn't see floor properly
+
+001	002	01.00	 -	UP	;raising station to bedding level
+003	002	01.23	181.0	-09.0	;st003 is 10cm stal at start of bedding
+003	004	03.55	345.0	-02.0	;st004 is sitting on right after bedding near stal,slope up behind to sandy mud tubes upward, start of Boulder Chamber
+004	005	03.89	334.0	+05.0
+005	006	04.57	336.0	-10.0	;st006 scratched on top0 of rock leading to passage on right explored by Sam & Ray
+006	007	05.67	261.0	+06.0	;st007 is tip of stal on piece of false floor with passage on left
+
+007	007a	02.86	187.0	-11.0	;st007a is tight entrance to side passage
+007a	007b	02.10	130.0	+05.0
+007b	007c	03.07	167.0	+03.0
+007c	007d	03.47	163.0	+04.0	;st007d is above Trident Streamway approx.15m below
+
+007	008	04.65	333.0	-02.0	;st008=tag at bottom of aven in Boulder Chamber
+008	008a	20.00	-	UP	; made up leg up the aven
+008	009	07.63	275.0	-08.0	;st009 is on back wall to right of small dig
+
+*end	trident14

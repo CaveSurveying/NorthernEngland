@@ -1,0 +1,31 @@
+;Cave:	County Pot - Iggy Bliss through Fatarse Squeeze to Brown & Smelly Chamber
+;Surveyors:	S.Lieberman/A.Whitney
+;Date:	01/11/04
+;Instruments:	2
+
+;;*equate	cy17a.001 cy17.007 ;Y junction
+
+*begin	cy17a
+*export 001
+
+*calibrate compass	-12.00
+*calibrate clino	-1.50
+*calibrate tape		+9.00
+
+001	002	16.10	106.0	+03.0
+002	003	12.39	141.0	+04.0
+003	004	11.60	145.0	+06.0
+004	004a	11.68	127.0	-15.0	;st004a is X on RH wall
+
+002	005	11.59	 -	DOWN
+006	005	09.78	031.0	-23.0
+006	007	10.54	148.0	-36.0	;st006 to 008 is Fatarse Squeeze
+007	008	11.16	096.0	-03.0
+008	009	11.86	130.0	+09.0
+009	010	11.40	178.0	-02.0
+010	011	12.18	135.0	+31.0	;st011 is X on wall
+012	011	15.90	305.0	-26.0
+012	013	14.92	097.0	+09.0	;st 013 is stall boss on boulder in B & S
+013	014	14.00	276.0	+31.0	;st014=bolt on climb out of Brown & Smelly
+
+*end	cy17a

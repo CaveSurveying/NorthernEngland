@@ -1,0 +1,37 @@
+;Cave:	County Pot - Cotton Chamber upsrteam to Trident Corner high level
+;Surveyors:	R.Duffy/A.Whitney
+;Date:	17/10/04
+;Instruments:	PAG
+
+;;*equate	cy16a.009 cy16.015h
+;;*equate	cy16a.007d cy16b.017
+;;*equate	cy16a.007d cy16.015m
+;;*equate	cy16a.001 cy.067
+
+*begin	cy16a
+*export 009
+*export 001
+*export 007d
+
+*calibrate compass	0.00
+*calibrate clino	-0.50
+*calibrate tape		+0.85
+
+*flags duplicate ; (Trident Corner) tie-in duplicates 067-068 in cy
+002	001	04.50	110.0	+02.0	;st001=tag at Trident Corner (T.C.)
+*flags not duplicate
+003	002	14.90	137.0	-48.0	;st002 is high in the roof downstream of T.C.
+003	004	09.47	308.0	-24.0	;st002 to 005 are in high abandonned streamway above  Pierces passage
+004	005	10.22	303.0	-24.0	
+005	006	04.40	-	DOWN	;drop into lower passage
+006	007	13.32	307.0	+05.0	;st007 is bottom of ladder from Upper Pierce's Passage
+
+007	007a	07.28	300.0	-28.0
+007a	007b	04.78	302.0	+16.0	;st007b is at foot of step up to choked mud slopes R & L above streamway
+007b	007c	07.16	316.0	-21.0
+007c	007d	03.13	021.0	+10.0	;st007d is bottom of climb down from Cotton chamber where it lands in trench behind V. Large boulder on HStL survey
+
+007	008	06.70	 -	UP	;st008=bolt at top of ladder
+009	008	06.62	128.0	-32.0	;st009 is corner looking into Cotton Chamber
+
+*end	cy16a

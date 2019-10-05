@@ -1,0 +1,48 @@
+;Cave:		Top Sink - Dire Straits
+;Surveyors:	S.Lieberman(instr)/M.Shinwell(notes)
+;Date:		09/04/11
+;Instruments:	PAG + disto
+
+;*equate	t10ai.00x t10a.006
+;*equate	t10ai.011 t10aii.001
+
+*begin	t10ai
+
+*date 2011.04.09
+
+*export 00x
+*export 011
+
+*calibrate compass	+6.00
+*calibrate clino	 0.00
+*calibrate tape		 0.00
+
+00x	001	01.33	135.0	 00.0
+001	002	02.75	 -	UP
+003	002	01.03	265.0	-49.0
+003	004	02.60	113.0	+14.0
+004	005	03.25	038.0	-01.0
+005	006	01.96	093.0	 00.0
+006	007	01.66	132.0	-03.0
+007	008	02.23	146.0	+06.0
+007	009	03.67	070.0	+04.0
+008	010	01.42	222.0	+02.0
+011	010	03.33	292.0	-39.0
+;011	012	02.29	083.0	+15.0	;subsequent survey proved this leg to be crap
+
+*end	t10ai
+
+;st	l	r	u	d	comments
+;X	0	3.5	4.2	1.6	st00x=cable tie on spike near waterfall passage
+;1	0.5	0.4	3.7	1.5	head height on rope
+;2	0.2	0	1.6	?	knot at top
+;3	0.1	0.1	0.6	2.2down to pool	point above lip
+;4	1.5	1	0.6	1.6
+;5	1	1.2	0.3	1.2	stal
+;6	0.2	0.7	0.1	1.1	point on wall
+;7	0.8	1	0.25	1	point at junction
+;8	0.15	0.7	0.1	0.4	point in crawl
+;9	0	0.5	0.3	1	floor of bedding
+;10	0.7	0	0.05	0.2	point in roof of squeeze
+;11	1.1	0.5	0.6	1.2	pebble on promontry
+;12	0.2	1.2	0.2/4	0.6/1	flake on wall

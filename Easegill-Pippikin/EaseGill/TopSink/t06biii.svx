@@ -1,0 +1,37 @@
+;Cave:		Limerick Passage - part 4 -right hand branch right steamway
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:		03/05/08
+;Instruments:	MKO + disto
+
+;*equate t06biii.001 t06bii.003d ;st001=cable tie
+;*equate	t06biii.001 t04.202
+
+*begin	t06biii
+*export 001
+
+*calibrate compass	+1.00
+*calibrate clino	+0.50
+*calibrate tape		 0.00
+
+001	002	08.90	141.0	+06.0	;st001=cable tie in parallel streamway
+002	003	03.48	172.0	+05.0	;lower stream trench runs below to st005
+003	004	06.61	130.0	+02.0
+004	005	04.62	180.0	+06.0
+005	006	03.67	129.0	+03.0 ;st110A on wall at st005
+
+;right hand passage at cobbled junction
+006	006a	02.28	198.0	-02.0
+006a	006b	02.48	172.0	+10.0
+006b	006bi	01.60	 -	UP	;small aven draughting up
+006b	006c	01.75	198.0	+04.0
+
+;left hand passage at cobbled junction
+006	007	06.71	117.0	+03.0
+
+007	007a	03.75	358.0	 00.0	;passage cont. too small needs digging
+	
+008	007	02.46	285.0	-70.0
+008	008a	03.09	170.0	+09.0	;cobble choke to right half way up aven
+008	008b	02.77	111.0	+67.0	;top of aven
+
+*end	t06biii

@@ -1,0 +1,39 @@
+;Cave:	Corner Sink - Rift entrance
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:	19/04/03
+;Instruments:	PAG
+
+;;*equate	cns1.001	sf3.011
+;;*equate	cns1.015	swh.031
+;*equate	cns1.001	cns2.001
+;*equate	cns1.008	cns2.010
+
+*begin	cns1
+*export 001
+*export 008
+*export 015
+
+*entrance 001
+
+*calibrate compass	+5.00
+*calibrate clino	+00.5
+*calibrate tape	+2.00
+
+*fix	001	67586.94 80650.43 316.93 ;ev.sf3.011
+
+001	002	03.69	 -	DOWN	;st001=tag at entrance
+002	003	08.13	315.0	-22.0	;tight cobbly rift
+003	004	07.90	312.0	-13.0
+004	005	04.61	278.0	-13.0
+005	006	03.66	326.0	-01.0
+006	007	03.32	274.0	-01.0
+007	008	02.88	 -	DOWN
+008	009	03.20	344.5	-04.0
+009	010	02.96	286.0	-19.0	;st010 standing in pool above bedding
+010	011	03.84	338.0	-29.0
+011	012	02.90	343.0	 00.0
+012	013	04.36	 -	UP	;climb up into bedding bypass
+013	014	05.98	297.0	-17.0
+014	015	02.67	055.0	-02.0	;st015=tag on stal Swindon Survey
+
+*end	cns1

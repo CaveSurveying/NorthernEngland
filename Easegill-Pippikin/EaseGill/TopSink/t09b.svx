@@ -1,0 +1,39 @@
+;Cave:	Top Sink - North West Passage downstream from Limerick junction toT09a
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:	06/04/07
+;Instruments:	disto + S.A.P. Phil Underwood's electronic
+
+;*equate t09b.020 t09a.031 ;tag in Nagasaki
+;*equate t09b.001 t01bii.055 ;tag at Limerick Juntion
+;*equate t09b.001 t06a.001 ;tag at Limerick Juntion
+;*equate t09b.001 t02i.001 ;tag at Limerick Juntion
+
+*begin	t09b
+*export 001
+*export 020
+
+;*calibrate compass	
+;*calibrate clino	
+;*calibrate tape		
+
+001	002	03.85	346.0	-16.0	;st001=tag at Limerick Junction
+002	003	02.60	 -	DOWN	;st002 standing at lip of small waterfall
+004	003	04.29	003.0	-11.0	;st003 foot of waterfall on floor
+004	005	06.99	247.0	-10.0
+005	006	11.16	207.0	-13.0	;st006 has slope to to two small chambers below Bridge of Sighs B.O.S.
+006	007	01.23	 -	DOWN
+007	008	03.99	254.0	-10.0	;just upstream  of st009 is 2m climb into small passage on right back to bedding and on left to chamber with poss. link back to below B.O.S.
+008	009	05.34	254.0	-10.0	;from st009 roof lowers as high rift is lost
+009	010	06.62	308.0	 00.0
+010	011	05.40	271.0	-10.0
+011	012	00.57	 -	DOWN	;st012 is floor at start of low wet bedding
+012	013	06.32	206.0	-06.0
+013	014	06.59	251.0	-08.0	;st014 is on right angled left bend and has bedding and small inlet to right
+014	015	02.60	171.0	-01.0	;st015 has water sink in v.small passs. to right on cross rift
+015	016	03.63	144.0	+31.0	;st015 is halfway up bolder mud slope
+016	017	03.00	174.0	+18.0	;st016 is head height sitting on boulder in larger passage
+017	018	03.37	187.0	+34.0
+018	019	04.94	085.0	+48.0
+019	020	03.22	297.0	-03.0	;st020=tag in Nagasaki
+
+*end	t09b

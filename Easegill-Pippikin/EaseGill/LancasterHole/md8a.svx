@@ -1,0 +1,29 @@
+;Cave:	Lancaster Hole-Waterfall passage to sump	
+;Surveyors:	Ray Duffy/John Baker/Helen & Dave
+;Date:	12/06/99
+;Instruments:	PAG
+
+;;*equate	md8a.000	md8.117
+
+*begin	md8a
+*export 000
+
+*calibrate compass	+4.50
+
+000	001	02.00	 -	DOWN	;st000 junction with Cross Passage
+001	002	02.10	351.0	+11.0
+002	003	04.60	322.0	+03.0
+003	004	02.70	266.0	 00.0
+004	005	05.10	255.0	+03.0
+005	006	02.30	263.0	+04.0
+006	007	03.50	286.0	 00.0
+007	008	02.40	330.0	-01.0
+008	009	02.70	350.0	+05.0
+009	010	01.50	294.0	+06.0
+010	011	06.70	257.0	+02.0
+011	012	12.40	316.0	 00.0
+012	013	00.90	325.0	-09.0	;st013=remains of divers lime to Wilf Taylors
+013	014	08.20	306.0	-01.0
+014	015	05.30	307.0	 00.0	;st015=tag in dig of stream
+
+*end	md8a

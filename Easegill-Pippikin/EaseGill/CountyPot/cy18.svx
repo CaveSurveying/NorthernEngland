@@ -1,0 +1,57 @@
+;Cave:	County Pot - Poetic justice to junction tag in Ignorance Is Bliss
+;Surveyors:	R.Duffy
+;Date:	23/11/03
+;Instruments:	PAG
+
+;;*equate	cy18.001	cy.055 ;stal at bottom of PJ chimney
+;;*equate	cy18.019	cy16.001 ;tag at junction in Ignor. Is  Bliss
+;;*equate cy18.012di	cy2a.007 ;boulder across stream =UP8
+
+*begin	cy18
+*export 012di
+*export 001
+*export 019
+
+*calibrate compass	+5.00
+*calibrate clino	+00.5
+*calibrate tape		00.0
+
+*flags duplicate ; (Ignorance is Bliss) tie-in duplicates 001-002 in cy2a
+002	001	05.35	109.0	-01.0	;stal at bottom of PJ chimney
+*flags not duplicate
+002	003	02.81	 -	UP	;climb up at other side of PJ
+003	004	00.85	025.0	-01.0
+004	005	01.70	 -	UP
+005	006	02.70	302.0	-19.0
+007	006	06.20	169.0	-01.0
+008	007	05.95	122.0	-16.0	;st008 is stal on top of huge long boulder from st7/8 to 11
+009	008	03.00	096.0	+01.0
+010	009	07.95	124.0	+07.0
+011	010	05.40	125.0	-02.0
+012	011	05.60	114.5	+04.0	;st12 is stal on corner above climb down to stream
+
+;Surveyors:	R.Duffy/J.Baker
+;Date:	30/11/03
+;Instruments:	PAG
+
+012	012a	00.81	211.0	044.0	;start of climb down to stream.
+012a	012b	03.20	 -	DOWN	;st012a=UP45
+012b	012c	02.25	116.0	-16.0
+012c	012d	05.29	054.0	-14.0
+012d	012di	01.50	262.5	-20.0	;st012di=UP8
+;012d	012e	03.46	298.0	-07.0
+;012f	012e	14.51	050.0	+05.0	;Johnny's Junction at oxbow
+
+;Surveyors:	R.Duffy
+;Date:	23/11/03
+;Instruments:	PAG
+
+013	012	07.00	037.0	-03.0	;st013 is on other side of climb downs
+014	013	04.60	058.0	-02.0	;along bedding
+015	014	01.38	145.0	+17.0	;into standing up passage
+016	015	06.00	042.0	-05.0	;st016 is in roof at right-hand bend
+017	016	05.24	098.0	+22.0
+018	017	06.35	115.0	-02.5
+018	019	00.60	 -	UP	;st019=tag
+
+*end	cy18

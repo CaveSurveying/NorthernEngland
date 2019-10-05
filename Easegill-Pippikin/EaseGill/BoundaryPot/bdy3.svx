@@ -1,0 +1,74 @@
+;Cave:	Boundary Pot - Hiroshima Chamber to Barstewards Crawl
+;Surveyors:	R.Duffy/S.Lieberman/Jer
+;Date:	18/07/06
+;Instruments:	PAG + disto
+
+;*equate	bdy3.034 bdy2b.001
+;*equate	bdy3.015 bdy4.001
+;*equate	bdy3.023 bdy5.009
+;*equate	bdy3.008a bdy3a.007 ;st008a is bolt hole on wall
+;*equate	bdy3.003 bdy3b.005a
+;*equate	bdy3.015 bdy3c.010 ;tag in main passage
+;*equate	bdy3.015	 bdy3d.001 ;tag in main passage
+
+*begin	bdy3
+*export 003
+*export 034
+*export 008a
+*export 023
+*export 015
+
+*calibrate compass		+3.00
+*calibrate clino		-0.50
+*calibrate tape		 0.00
+
+;;;;;;*fix 034 67855.70 80859.66 315.96	;corner at Bar Steward's Crawl
+
+
+001	001a	08.56	290.0	-17.0	;st001a is end of small rift with small 3m hole down
+001	001b	13.05	034.0	-08.0	;across chamber to wall
+001	001c	21.60	060.0	+02.0	;across chamber and into bedding
+001	001d	15.06	100.0	+31.0	;across chamber and into high level alcove in roof with aven
+001	002	10.00	116.0	-20.0	;st001 is left wall of Hiroshima Chamb. at start of left passage
+002	003	02.55	197.0	-16.0	;st002 is start of stream passage
+003	004	06.21	170.5	+02.0
+004	005	04.20	055.0	+06.0	;false floor above st 003/4/5
+005	006	06.07	157.0	+12.0	;st006 is sitting on ledge of small rift passage, small passage to left too small?
+006	007	05.19	094.0	+02.5	;st007 is start of long straight section to stals and aven with rope
+007	008	21.29	160.0	+06.5	;st008 is before large boulder in stream passage
+008	008a	03.72	104.0	+21.0	;st008a is bolt at bottom of rope climb
+008	009	21.34	154.0	+09.0	;st009 to 010 is long low wide section with stals, st009 has inlet to left unsurveyed ??????????
+009	010	06.14	135.0	+16.0	;st010 is below steep slope to stream choke, right is small and low stream passage
+010	011	05.00	182.0	+03.0
+011	012	05.45	146.0	+03.5	;passage splits, to right is bedding of cobbles, rejoins further on
+012	013	05.60	111.0	+03.0	;st013 is just beyond oxbow back to paralle passage d/s choke toward st010
+013	014	01.50	 -	UP
+014	015	03.75	141.0	+07.5	;st015=tag, passage continues on same line to Fusion Cavern and pitch from Barstewards Crawl.  Beyond chamber is stream passage unsurveyed.
+
+015	016	02.87	032.0	-18.0	;heading over to parallel streamway
+
+016	016a	06.00	357.0	-13.0	;st016a is  downstream choke see st010
+
+016	017	03.57	088.0	+22.0
+017	018	04.63	105.0	+11.0	;st018 has large inlet to left unsurveyed???????
+018	019	01.81	134.0	+40.0	;st019 has connecting crawl to Fusion ch.
+019	020	02.75	087.0	+12.0
+020	021	03.25	045.0	+08.0	;st021 has inlet to left and passage to right
+021	022	09.62	106.0	+34.0
+022	023	11.75	156.0	+18.0	;between stations is passage on right linking to Fusion and to previous passage to right at st021
+;st023 is foot of ladder at head height with inlets bhind to left at 4m height, on left at 8m height and ahead at 7m
+023	024	06.40	 -	UP	;1m above height of ladder
+024	024a	07.10	 -	UP	;boulder choke hanging in roof
+024a	024b	20.00	 -	UP	;leg to surface
+025	024	03.52	058.0	-12.0	;st025 is kneelin at foot of climb up
+025	026	01.73	-	UP	;st026 is top of cobble at start of crawl
+026	027	01.78	135.0	+28.0	;st026 to 030 is tight twisting streamway
+027	028	01.42	168.0	+10.0
+028	029	01.79	192.0	+04.0
+029	030	01.66	216.0	+03.0	;st030 is start of crawl through cobbled bypass
+030	031	03.85	166.0	+06.0
+031	032	01.63	258.0	-03.0
+032	033	03.51	273.0	-03.0
+033	034	01.57	240.0	-03.0	;st034 is head at Barstewards Crawl junction with Bypass with feet down BS crawl
+
+*end	bdy3

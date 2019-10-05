@@ -1,0 +1,44 @@
+;Cave:	County Pot - Ignorance is Bliss tag at end of crawl right hand passage
+;Surveyors:	H.St.Lawrence/P.Windle
+;Date:	01/09/02
+;Instruments:	4
+
+;;*equate	cy17.001 cy16.015c
+;;*equate cy17.007 cy17a.001 ;Y junction
+;;*equate cy17.024 cy17i.005 ;boulder on corner of entry to chamber
+
+*begin	cy17
+*export 024
+*export 001
+*export 007
+
+*calibrate compass	+3.50
+*calibrate clino	0.0
+
+001	002	12.90	125.0	+03.0	;st001=tag in roof of passage just out of crawl
+002	003	08.55	138.0	-05.0
+003	004	03.85	165.0	+05.0
+004	005	05.00	053.0	+01.0
+005	006	11.35	135.0	+02.0
+006	007	10.50	132.0	+01.0
+007	008	02.00	173.0	+12.0	;st007 is corner of Y junction 1m off floor
+008	009	01.70	156.0	+05.0
+009	010	02.60	207.0	+05.0
+010	011	03.20	160.0	+02.0
+011	012	02.40	105.0	+05.0
+012	013	00.55	 -	UP
+013	014	02.50	142.0	-01.0
+014	015	02.00	162.0	-01.0
+015	016	03.75	099.0	+13.0
+016	017	03.20	143.0	+02.0
+017	018	02.15	154.0	+06.0
+018	019	02.50	138.0	+04.0
+019	020	01.70	179.0	-04.0
+020	021	03.30	135.0	+05.0
+021	022	03.00	156.0	 00.0
+022	023	01.60	100.0	+42.0
+023	024	03.25	158.0	+05.0	;st024 has strong draught from passage to right
+024	025	05.30	118.0	+02.0	;false floor between stations, just beyond st025 are bolts to upper passage
+025	026	04.90	151.0	-01.0	;st026 is top of thinner big stal at end of choked main passage, small passage to right too tight at 186 deg.
+
+*end	cy17

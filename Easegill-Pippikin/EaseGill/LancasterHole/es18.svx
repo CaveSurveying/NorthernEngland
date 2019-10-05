@@ -1,0 +1,25 @@
+;Cave:	Lancaster Hole - Earby Series - Ramsdens Crawl to Wormway via Sausage Junction
+;Surveyors:	Rich Gerrish/Hilary Greaves
+;Date:	06/07/02
+;Instruments:	4
+
+;*equate	es18.000	es5.039
+;*equate	es18.008	wm.046a
+
+*begin	es18
+*export 000
+*export 008
+
+*calibrate compass	+4.5
+
+000	001	05.58	336.5	-20.0	;st000=tag above rope belay
+001	002	12.56	305.0	-81.0
+002	003	06.28	332.5	-11.0
+003	004	07.32	336.0	-15.0	;st004 is mud sump
+
+002	005	03.77	138.0	+61.0
+005	006	08.53	148.0	-55.0
+006	007	01.82	130.5	-14.0
+007	008	04.32	142.0	-45.0	;st008=wm.046a head height in middle of chamber
+
+*end	es18

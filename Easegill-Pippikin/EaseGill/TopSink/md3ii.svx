@@ -1,0 +1,48 @@
+;Cave:	Lancaster Hole - side passage upstream of Calcite Grille in Thackray's Passage
+;Surveyors:	S.Lieberman/A.Hall
+;Date:	14/01/06
+;Instruments:	PAG + disto
+
+;;*equate md3ii.004 md3i.022
+
+*begin	md3ii
+*export 004
+
+*calibrate compass		+4.00
+*calibrate clino		+1.00
+*calibrate tape		  0.00
+
+*fix 007 67599.01 80965.73 270.71 ;edge of sheet 3c
+
+;re-survey for position (so close it isn't needed)
+;001	002	16.74	070.0	+01.0	;st001=tag at calcite grille
+;002	003	07.59	118.0	+03.0
+;003	004	06.82	044.0	+01.0
+;start of side passage
+004	005	02.36	331.0	+28.0
+005	006	01.58	 -	UP	;passage behind goes over stream, choked
+006	007	04.73	313.0	+10.0
+007	008	05.36	271.0	+08.0
+008	009	03.04	328.0	-18.0	;st008 has choke straight ahead
+009	010	06.10	265.0	-04.0	;st010 has boulders to left, choke?
+010	011	10.01	315.0	 00.0
+011	012	08.42	268.0	+04.0	;st012 is junction
+
+012z	012y	03.40	021.0	-10.0	;st012z has ESKI  CADGE WILH? NPC 1966 on wall
+012y	012x	03.91	070.0	-02.0
+012w	012x	00.98	270.0	-18.0
+012w	012v	01.88	023.0	+01.0
+012v	012u	02.21	095.0	-04.0
+012u	012t	04.41	127.0	+07.0	;between st012u & 012t is dig on right
+012t	012	02.40	083.0	-02.0
+
+012	012i	03.29	334.0	-11.0
+012i	012ii	01.95	020.0	-16.0
+
+012ii	012iia	03.13	349.0	-08.0
+012iia	012iib	04.48	323.0	-02.0	;too tight dig?
+
+012ii	012iii	03.42	089.0	-06.0
+012iii	012iv	08.25	084.0	+04.0
+
+*end	md3ii

@@ -1,0 +1,50 @@
+;Cave:	Wretched Rabbit - Ulrika Junction part 1
+;Surveyors:	R.Duffy/A.Hall/J.Baker
+;Date:	17/01/04
+;Instruments:	PAG
+
+;*equate wr21.001 wr18.007 ;Ulrika Junction
+
+*begin	wr21
+*export 001
+
+*calibrate compass	+5.00
+*calibrate clino	+0.50
+*calibrate tape		00.0
+
+001	002	05.40	323.0	 00.0 ;st001=tag at Ulrika Junction
+
+001	101	01.31	190.0	+06.0 ;from tag into Wrong Passage
+101	102	01.15	 -	UP	;st102 is kneeling with back against wall looking up to large blocking boulder
+102	103	02.66	268.0	+13.0	;passage to right st103 has small passage on left with stals
+103	104	02.32	355.0	-13.0
+104	105	01.37	323.0	-06.0
+105	106	01.50	 -	DOWN
+106	003	01.57	000.0	+09.0	;st003
+
+
+002	003	01.22	222.0	+12.0
+003	004	03.42	354.0	-15.0 ;st003 is star on lip of easy climb to upper level
+004	005	01.50	278.0	-08.0
+005	006	02.85	356.0	-07.0
+006	007	01.38	310.0	+16.0 ;st007 is below too small chimney to upper passage
+
+;from small chamber straight on to Marble Chamber roof
+
+007	071	02.68	338.0	-08.0
+071	072	01.69	000.0	-04.0
+072	072a	08.00	 -	DOWN	;tape lowered into Marble Chamber
+072	073	01.38	000.0	+09.0	;st073 has poss. chamber to right and rift to left
+
+076	075	02.75	140.0	+04.0	;st076 is over small pit in calcited chamber
+075	074	01.60	 -	DOWN
+074	071	02.63	123.0	+01.0	;st074 t0 071 is squeeze
+
+007	008	01.95	 -	UP
+008	009	01.85	050.0	+68.0	;st009 is calcited end of upper level not reached by chimney but climb at st003
+009	010	06.90	207.0	+02.5
+010	011	05.59	105.0	+05.0
+011	012	02.22	 -	DOWN
+012	003	00.50	351.0	-04.0	;back to st003 at lip of climb
+
+*end	wr21

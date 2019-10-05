@@ -1,0 +1,46 @@
+;Cave:	Montague West Part1
+;Surveyors:	R.Duffy/Buster
+;Date:	Mw1	29/12/96
+;Instruments:	Red Rose Sunto Compass & Clino, 30m tape
+
+;;;*equate	mw1.001	L1.023
+;;*equate	mw1.018	mw2.001
+;;*equate	mw1.027	mw3.001
+
+*begin	mw1
+*export 018
+*export 001
+*export 027
+
+*calibrate compass	+5.27
+
+001	002	05.00	302.0	+24.0	;st001=L1.023 tag(replaced)
+002	003	08.00	265.0	+05.5
+003	004	03.10	332.0	-04.0	;st004 sitting at foot of small ladder
+004	005	01.20	 -	UP
+005	006	01.90	329.5	+15.0
+006	007	02.40	272.5	-22.0
+007	008	04.50	288.5	-10.0
+008	009	00.60	 -	DOWN
+009	010	05.00	218.5	-01.5
+010	011	04.80	002.0	+03.5
+011	012	04.00	004.5	-08.0
+012	013	00.70	 -	UP
+013	014	08.00	350.5	-06.5
+014	015	04.00	358.0	-14.0	;st015 is crack in floor -5.8m to slope
+015	016	03.60	284.5	+03.0	;st016 is hole in floor -4.5m
+016	017	02.50	345.0	+01.5	;st017 is hole in floor -5.0m
+017	018	13.60	324.0	+01.0	;st018 = mw2.001
+018	019	10.40	327.0	-02.5
+019	020	23.00	294.0	+01.0
+020	021	05.70	319.0	+03.5	;st021 is dig on left
+021	021a	04.50	230.5	+04.5
+021a	021b	02.60	199.0	-04.0	;ends in too tight rifts
+021	022	07.00	307.5	+01.5
+022	023	10.00	282.5	+00.5
+023	024	07.40	242.5	+03.5
+024	025	13.70	329.5	-01.5
+025	026	13.80	260.0	+03.0
+026	027	11.80	280.5	-01.0	;junction with portcullus passage TAG in roof
+
+*end	mw1

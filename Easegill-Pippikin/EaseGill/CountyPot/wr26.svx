@@ -1,0 +1,42 @@
+;Cave:	Depot 1.5 - Pretty Passage area near Ahaa Chamber
+;Surveyors:	H.St.Lawrence(book)/A.Hall(instrs.)
+;Date:	02/07/05
+;Instruments:	Kit 1
+
+;*equate	wr26.001 wr17.014 ;tag opposite chamber
+
+*begin	wr26
+*export 001
+
+*calibrate compass	+2.00
+*calibrate clino	-2.50
+
+001	002	02.90	230.0	+28.0	
+002	002a	02.60	327.0	 00.0	;stn2a=north end of aven chamber
+002	003	04.30	133.0	+14.0	;stn3=bottom of south end of aven chamber
+003	004	02.60	-	UP	;vertical up aven climb
+004	005	02.20	099.0	+05.0	
+005	006	01.20	-	UP	;head height vertical adjustment
+006	007	04.10	135.0	+36.0
+007	008	09.60	134.0	+17.0	;this leg through 'onion' crawl, stn8 in chamber
+008	008a	05.10	278.0	+11.0	;leg into west corner of chamber (choke)
+008	009	01.95	085.0	+01.0	
+009	010	09.50	127.0	+15.0	;end of large passage (choke + too tight to left)
+009	009a	02.00	032.0	-14.0
+009a	009b	01.60	-	DOWN
+009b	009c	04.00	312.0	-35.0	;downstream rift in floor, continues too tight?
+009	011	04.60	043.0	+24.0	;leg up into main inlet passage (dry)
+011	012	05.10	080.0	+02.0	
+012	013	08.40	150.0	+05.0	
+013	013a	05.20	062.0	-06.0	;leg upstream in low oxbow
+013	014	05.30	103.0	+06.0	;leg past 'pretties'
+014	015	04.20	053.0	-05.0
+015	016	04.15	074.0	+05.0	;stn16=obvious right angled corner as passage widens
+016	016a	02.90	073.0	 00.0	
+016a	016b	03.00	045	 00.0	;16a/16b is small inlet passage (flood overflow), echoes
+016	017	05.55	142.0	-02.0	;stn17=junction
+017	017a	02.90	127.0	+05.0	;stn17a=choke in dry left passage (fab helictites!)
+017	018	07.45	178.0	+03.0
+018	019	02.80	110.0	+05.0	;stn18=feasible end of active inlet, gets too low
+
+*end	wr26

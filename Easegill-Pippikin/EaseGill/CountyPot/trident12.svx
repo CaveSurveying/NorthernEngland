@@ -1,0 +1,35 @@
+;Cave:	County Pot - Trident - Downstream loop Key Passage
+;Surveyors:	R.Duffy/S.Lieberman/A.Whitney
+;Date:	25/09/02
+;Instruments:	PAG
+
+;*equate	trident12.001	trident11.015
+;*equate	trident12.004	trident19.005c	;tag in Final Chamber loop
+;*equate	trident12.004	trident20.001	;joined to Downstream loop Key Passage
+;*equate	trident12.004	trident21.001	;joined to Downstream loop Key Passage
+;*equate trident12.007	trident28.001	;Tag jct with tight passage
+;*equate	trident12.012	trident11.005
+
+*begin	trident12
+*export 001
+*export 007
+*export 012
+*export 004
+
+*calibrate compass	+3.00
+*calibrate clino	0.00
+*calibrate tape	+1.00
+
+001	002	01.96	182.0	+10.0
+002	003	02.37	128.0	-05.0
+003	004	02.71	085.0	+45.0	;st004=tag9A in chamber below Guillotine Aven
+004	005	09.09	348.0	-13.0	;st005 is lip of side passage on right
+005	006	03.82	350.0	-04.0
+006	007	02.30	027.0	-08.0	;st007=tag tight passage on right facing downstream
+007	008	04.34	327.0	-10.0
+008	009	04.00	311.0	-08.0
+009	010	03.49	337.0	-10.0
+010	011	02.56	289.0	-01.0
+011	012	04.15	248.0	-08.0	;st012=tag7 end of loop
+
+*end	trident12

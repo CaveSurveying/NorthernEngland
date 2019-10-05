@@ -1,0 +1,52 @@
+;Cave:		Upstream Thackray's Passage from Assembly Hall Step to Choke below Hiroshima
+;Surveyors:	R.Duffy/s.Lieberman
+;Date:		08/01/06
+;Instruments:	PAG + disto
+
+;;*equate	md3b.001 md3.006
+;;*equate md3b.008 md3bi.009
+
+*begin	md3b
+*export 001
+*export 008
+
+*calibrate compass	+4.00
+*calibrate clino	+1.00
+*calibrate tape		 0.00
+
+001	002	04.69	139.0	-03.0	;st001=bolt hole in calcite flow on ledge just before climb up to Assembly Hall from Thackrays
+002	003	04.88	117.0	+04.0
+003	004	14.56	092.0	 00.0
+004	005	08.35	111.0	+02.0
+005	006	11.19	071.0	+03.0
+006	007	06.90	062.0	+01.0
+007	008	05.65	038.0	-02.0
+;oxbow on left
+008	008a	05.85	056.0	+12.0
+008a	009	10.66	121.0	+02.0
+;end of oxbow
+009	010	00.74	 -	DOWN	;st009 head height standing on boulder in stream
+
+;Surveyors:	R.Duffy/s.Lieberman
+;Date:		31/08/08
+;Instruments:	MKO + disto
+
+*calibrate compass	0.00
+*calibrate clino	0.00
+*calibrate tape		0.00
+
+010a	010	04.65	313.0	-38.0	;st010a is thigh height on rock at huge boulder up slope
+010a	010b	05.18	092.0	+41.0	;st010b is top of slope wih step up in roof level
+
+;Surveyors:	R.Duffy/s.Lieberman
+;Date:		08/01/06
+;Instruments:	PAG + disto
+
+*calibrate compass	+4.00
+*calibrate clino	+1.00
+*calibrate tape		 0.00
+
+010	011	06.84	273.0	-02.0	;leg back downstream from choke
+008	011	07.53	103.0	-04.0	;back to start of oxbow	
+
+*end	md3b

@@ -1,0 +1,28 @@
+*begin ByeGeorge
+
+*export	mm1.079
+*export	bg2.044
+
+*equate bg1.193 bg5.001 ; from bg5.svx
+*equate bg1.212 bg2.001 ; from bg1.svx
+*equate bg1.212 bg4.007 ; from bg4.svx
+*equate bg3.019 mm4.008a ; from bg3.svx
+*equate bg5.053a cig1.000 ; from bg5.svx
+*equate bg5.054 mm4.002 ; from bg5.svx
+*equate mm1.042 mm3.043 ; from mm3.svx
+*equate mm3.000 mm4.050 ; from mm3.svx
+
+*include	mm1
+;*include	mm2	;see Pete Hall/JAK/Jim Stevenson
+*include	mm3
+*include	mm4
+
+*include	bg1
+*include	bg2
+*include	bg3
+*include	bg4
+*include	bg5
+
+*include	cig1
+
+*end ByeGeorge

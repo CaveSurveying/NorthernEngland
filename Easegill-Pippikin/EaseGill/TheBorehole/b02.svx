@@ -1,0 +1,71 @@
+;Cave:	Borehole from bedding to pitch
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:	17/12/06
+;Instruments:	PAG + disto
+
+;*equate	b02.001 b01.021 ;is roof of passage at entrance to small aven
+;*equate	b02.041 b03.050
+;;*equate	B02.041 Nss01.000 ;middle of scaffold bar
+;;*equate	B02.041 Ss01.021 ;middle of scaffold bar
+;;*equate	B02.041 Ss01.000 ;middle of scaffold bar
+;*equate	b02.021 b05.001 ;tip of fin of rock low down at juction of stream passages
+
+*begin	b02
+*export 001
+*export 021
+*export 041
+
+*calibrate compass		+3.00
+*calibrate clino		 -0.50
+*calibrate tape		  0.00
+
+001	002	05.79	301.0	-06.0	;below tag in small aven on right of passage
+002	003	02.78	311.0	+10.0
+
+003	003a	09.36	109.0	+39.0	;st003a is top of boulder filled rift on right of stream, ends in huge blocks of choke
+
+003	003b	02.02	244.0	-11.0	;survey up passage to left of stream
+003b	003c	03.48	180.0	-02.0	;st003c is small rock bridge near floor
+003c	003d	02.37	124.0	+30.0	;st003d id passage junction head height, passage to left joins near 003e and is choked
+003d	003e	04.78	175.0	+34.0	;st003e is head height on fin of rock at foot of 3m aven, behind aven foot is bedding????
+
+003	004	00.47	 -	DOWN
+004	005	02.92	325.0	-17.0	;st005 is just beyond small drop to bedding continuation
+005	006	04.02	305.0	-03.0
+006	007	07.99	300.0	-02.5	;st007 is in middle of roof tube level with bend to left
+007	008	06.46	273.0	-02.0	;st008 is on sharp bend to right
+008	009	04.80	027.0	-02.0	;st009 is level with and about 30cm to right of large stal, oxbow start on left
+009	010	08.17	324.0	-01.0
+010	011	05.77	255.0	-06.0	;st011 is head height sitting on ledge at end of oxbow with small aven to choked passage above
+011	012	08.37	281.0	 00.0
+012	013	02.04	204.0	+23.0	;st013 is in top of passage with small blocke aven above and passage visible above
+013	014	06.90	224.0	-05.0	;st014 is in top of passage
+014	015	03.25	156.0	-03.0	;st015 has choked inlet to left in roof, back near floor of passage
+015	016	03.58	163.0	-05.0
+016	017	02.23	199.0	-08.0
+017	018	02.90	111.0	+02.0
+018	019	03.63	150.0	+04.0	;st019 is start of short  wider section
+019	020	03.88	167.0	-05.0
+020	021	03.12	233.0	-15.0	;st021 is tip of fin of rock low down at juction of stream passages
+022	021	01.81	112.0	-08.0
+022	023	02.27	191.0	-15.0
+023	024	02.49	285.0	-04.0
+024	025	01.77	189.0	+01.0
+025	026	03.97	286.0	-06.0	;st026 has small incut in wall to right
+026	027	04.54	246.0	-04.0
+027	028	01.44	332.0	+07.0
+028	029	01.37	269.0	-02.0
+029	030	00.98	213.0	 00.0	;st030 has small inlet to left
+030	031	04.91	278.0	-01.0
+031	032	02.29	256.0	-07.0
+032	033	01.61	306.0	+07.0
+033	034	03.11	283.0	 00.0	;st034 has wet inlet at floor and dry inlet 3m up, both on left, boulders span passage between stations
+034	035	05.61	304.0	-12.0	;crawling at floor level
+035	036	02.13	255.0	+03.0
+036	037	03.74	339.0	+17.0	;standing again
+037	038	02.25	012.0	-03.0
+038	039	02.64	350.0	-14.0
+039	040	02.83	266.0	-09.0	;st040 is roof level of this passage on rope
+040	041	01.40	 -	UP	;st041=middle of scaffold bar on Borehole Pitch
+
+*end	b02

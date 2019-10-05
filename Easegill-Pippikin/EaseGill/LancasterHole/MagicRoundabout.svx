@@ -1,0 +1,35 @@
+;Contains all Magic Roundabout files
+
+*begin MagicRoundabout
+
+*export mr1.001
+*export mr1.031
+
+*equate mr10.010 mr5.012 ; from mr10.svx
+*equate mr1.001 mr4.005 ; from mr1.svx
+*equate mr1.020 mr2.042 ; from mr1.svx
+*equate mr1.020 mr3.004 ; from mr1.svx
+*equate mr1.031 mr2.000 ; from mr1.svx
+*equate mr2.000 mr3.016a ; from mr2.svx
+*equate mr2.005 mr5.001 ; from mr2.svx
+*equate mr2.008 mr7.001 ; from mr2.svx
+*equate mr2.012 mr6.013 ; from mr2.svx
+*equate mr2.021 mr8.001 ; from mr2.svx
+*equate mr2.034 mr9.007 ; from mr2.svx
+*equate mr3.023 mr4.001 ; from mr3.svx
+*equate mr5.006 mr7.005 ; from mr5.svx
+*equate mr6.009 mr6a.000 ; from mr6a.svx
+
+*include	mr1
+*include	mr2
+*include	mr3
+*include	mr4
+*include	mr5
+*include	mr6
+*include	mr6a
+*include	mr7
+*include	mr8
+*include	mr9
+*include	mr10
+
+*end MagicRoundabout

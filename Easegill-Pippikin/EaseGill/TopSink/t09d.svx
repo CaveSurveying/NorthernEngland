@@ -1,0 +1,21 @@
+;Cave:		Lower North West Passage - upper crossover bypassing wet climb
+;Surveyors:	R.Duffy/S.Lieberman/P.Wilkinson
+;Date:		14/10/07
+;Instruments:	PAG + disto
+
+;*equate	t09d.001 t09a.007	;tag on boulder in small chamber
+
+*begin	t09d
+*export 001
+
+*calibrate compass		+3.00
+*calibrate clino		+0.50
+*calibrate tape			  0.00
+	
+002	001	03.92	265.0	-48.0	;st001=tag
+002	003	02.24	021.0	+37.0	;st003 is edge of upper passage top of chamber
+004	003	02.51	088.0	-34.0
+004	005	03.28	019.0	+21.0
+005	006	07.50	 -	DOWN	;floor of lower stream between B-E and NW
+
+*end	t09d

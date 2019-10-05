@@ -1,0 +1,52 @@
+;Cave:	Lancaster Hole - Slug World
+;Surveyors:	Andy Hall/Paul Windle
+;Date:	14/10/00
+;Instruments:	PAG
+
+;;*equate	l1b2.000 l1.004
+;;*equate l1b2.007 l1b2i.001
+
+*begin l1b2
+
+*date 2000.10.14
+
+*export 000
+*export 007
+
+*calibrate compass	+5.00
+
+;re-renumbered stations to match original notes 23/04/2012 Sam Lieberman
+000	001	06.4	119.0	+17.0	;st000 is tag stub at trench at base of Lanc. Hole
+001	002	06.6	162.0	+32.0
+002	003	11.4	143.0	+13.0
+003	004	05.3	158.0	-03.0
+004	005	04.4	151.0	+09.0
+005	006	02.1	155.0	+42.0	;st005 is breakthrough point in floor
+006	007	18.7	155.0	+06.0
+007	008	03.8	089.0	-03.0
+
+;Note there is no station 9 in the original notes
+
+;back over breakthrough hole
+006	010	03.2	336.0	+15.0
+010	011	07.6	266.0	-20.0
+011	012	03.9	276.0	+14.0
+012	013	07.2	225.0	-32.0	;small aven with 2 holes in floor
+
+*end l1b2
+
+;st	l	r	u	d	comments
+;000					Tag at bottom of Lancaster hole, No details
+;001					No details
+;002	0	2	4	3
+;003	2	0	3	1.5
+;004	0	0.7	0.7	1
+;005	0.4	0	0.2	0.2	Breakthrough point
+;006	0	1	1.5	0.5	
+;007	1	1	1	0	near helictites on corner
+;008	0	0.8	0.7	0.7
+;009					Station not used
+;010					No details
+;011	1	0	0.5	1
+;012	1	2	1	2
+;013	1	0.5	4	1.7	Hole, 4-5m hading

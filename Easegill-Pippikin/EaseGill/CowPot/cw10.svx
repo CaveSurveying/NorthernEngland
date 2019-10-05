@@ -1,0 +1,18 @@
+;Cave:	Cow Pot-Shale Caver redo part5
+;Surveyors:	Ray Duffy/Jane Chilton/Bernice
+;Date:	01/04/00
+;Instruments:	PAG
+
+;*equate	cw10.001	cw6.007
+
+*begin	cw10
+*export 001
+
+*calibrate compass	+6.00
+
+001	002	07.56	342.0	+03.0	;st001=st007 cw6 into small phreatic tube over to of NPC dig
+002	003	02.14	299.00	+01.0
+003	004	03.00	351.0	+05.0
+004	005	01.80	 -	UP	;tube ends in small sentry box
+
+*end	cw10

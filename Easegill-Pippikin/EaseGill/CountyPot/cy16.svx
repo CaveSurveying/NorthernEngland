@@ -1,0 +1,75 @@
+;Cave:	County Pot - Ignorance is Bliss tag loop through cotton Chamber to Lower Pierces and Trident Corner tag
+;Surveyors:	H.St.Lawrence/A.Whitney
+;Date:	17/08/02
+;Instruments:	3
+
+;;*equate	cy16.113	cy.067a
+;;*equate	cy16.001	cy15.013
+;;*equate	cy16.015p	cy.078
+;;*equate	cy16.015c	cy17.001
+;;*equate	cy16.001	cy18.019
+;;*equate cy16.015h	cy16a.009
+;;*equate cy16.015m	cy16a.007d
+
+*begin	cy16
+*export 015c
+*export 015p
+*export 015m
+*export 015h
+*export 001
+*export 113
+
+*calibrate compass	-2.00
+*calibrate clino	+2.5
+
+001	002	00.80	290.0	-19.0	;st001=tag at junction with passage to Platypus
+002	003	10.00	322.0	+03.0
+003	004	06.25	005.0	+20.0
+004	005	02.25	027.0	-01.0
+005	006	00.90	114.0	+10.0
+006	007	01.45	044.0	 00.0
+007	008	01.15	081.0	-02.0
+008	009	01.80	031.0	+05.0
+009	010	01.15	303.0	+13.0
+010	011	01.50	355.0	-10.0
+011	012	02.10	102.0	+19.0
+012	013	01.75	357.0	+13.0
+013	014	02.35	038.0	 00.0
+014	015	01.70	088.0	-01.0	;st015 is below bedding
+
+015	016	01.90	104.0	+04.0	;cotinuing passed bedding
+016	017	03.90	155.0	+27.0	;st017 is choke at very end of passage
+
+015	015a	01.65	 -	UP	;st015a is start of bedding crawl
+015a	015b	06.50	004.0	-01.0
+015b	015c	10.00	022.0	-03.0	;st015c=nearly tag in roof in stal at end of crawl above junc. passage
+015c	015d	04.40	323.0	-22.0
+015d	015e	03.30	029.0	-15.0
+015e	015f	04.25	320.0	+10.0
+015f	015g	02.00	 -	DOWN
+015g	015h	03.80	315.0	-04.0
+015h	015i	05.80	293.0	-11.0
+015i	015j	03.10	350.0	-29.0
+015j	015k	04.50	 -	DOWN
+015k	015l	04.75	355.0	-54.0
+015l	015m	02.30	 -	DOWN
+015m	015n	05.80	305.0	-26.0
+015n	015p	02.00	 -	DOWN	;st015p is jammed rock in crack 2m above stream in Lower Pierces
+
+*flags duplicate ; (Lower Pierces) tie-in duplicates 067-067a-078 in cy 
+015p	102	01.45	170.0	-13.0	;continuing upstream in Lower Pierces
+102	103	04.35	132.0	+04.0
+103	104	02.00	160.0	-06.0
+104	105	05.00	131.0	+03.0
+105	106	04.35	155.0	+11.0
+106	107	04.60	111.0	-03.0
+107	108	05.00	138.0	+07.0
+108	109	03.70	096.0	+02.0
+;109	110	14.40	131.0	+04.0
+109	110	14.40	131.0	+14.0
+110	111	00.78	 -	UP
+111	112	19.00	136.0	+12.0
+112	113	03.55	048.0	+04.0	;st113=tag at Trident Corner
+*flags not duplicate
+
+*end	cy16

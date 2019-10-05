@@ -1,0 +1,27 @@
+;Cave:	Straw chamber passage needs md4a connecting to main drain at tag
+;Surveyors:	F.Addis/J.Mundy
+;Date:	Md4c	09/09/84
+;Instruments:	????
+
+;;*equate	md4c.004	md4a.010
+
+*begin	md4c
+*export 004
+
+*calibrate compass	+6.87
+
+001	002	08.20	071.0	+24.0	;st001=UP15
+002	003	12.50	091.0	+42.0	;clino Not Very Accurate?
+003	004	06.00	110.0	+04.0	;st004=UP10
+004	004a	05.50	358.0	-35.0
+004a	004b	04.30	351.0	-30.0
+004b	004c	04.30	064.0	-08.0
+004c	004d	10.30	002.0	-35.0	;st004d=UP16
+004	005	21.20	087.0	+21.0
+005	006	12.80	129.0	+07.0
+006	007	10.40	115.0	 00.0
+007	008	15.90	134.0	 00.0
+008	009	12.00	119.0	+06.0
+009	010	06.00	140.0	+20.0	;st010 is choke
+
+*end	md4c

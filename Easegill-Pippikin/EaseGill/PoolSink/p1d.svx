@@ -1,0 +1,62 @@
+;Cave:	Pool Sink - Anemolite Junction to Magpie Junction and up to Magpie grotto
+;Surveyors:	S.Lieberman/R.Duffy
+;Date:	19/03/05
+;Instruments:	PAG/disto
+
+;*equate p1d.001	p1a.023 ;anemolite jnc.
+;*equate p1d.006	p1e.001 ;magpie grotto jnc.
+;*equate p1d.031 p1f.001	;tag at Magpie Grotto
+;*equate p1d.031 p1g.001	;tag at Magpie Grotto
+;*equate p1d.028a p1h.003 ;first inlet downstream of Magpie
+
+*begin	p1d
+*export 001
+*export 031
+*export 006
+*export 028a
+
+*calibrate compass	+3.00
+*calibrate clino	-0.50
+;*calibrate tape		
+
+001	002	02.76	039.0	+05.0	;st001=P1a.023 tip of rock on left facing Jnc.
+002	003	05.20	090.5	+10.5	;st001 has inlet on right
+
+003	003a	03.00	160.0	+03.5	;continues very small poss. to pitch
+
+003	004	03.10	039.0	-02.0
+004	005	02.60	342.0	+04.0
+005	006	02.30	046.0	+24.0	;st006=tag on fang head ht. at junction
+006	007	02.50	354.0	-01.5	;following Magpie Grotto passage
+007	008	01.30	320.0	+01.5	;st008 is curtains
+008	009	02.25	095.0	-04.0	;st009 just downstream of wedged cobble
+009	010	02.47	031.0	+09.0
+010	011	03.57	124.0	+12.5
+011	012	01.98	139.5	+02.5	;st012 has aven in roof 4m above roof
+012	013	03.26	040.5	+03.0
+013	014	04.70	105.0	+10.5	;st014 just downstream of wedged cobble
+014	015	02.55	020.5	+10.5
+015	016	05.38	092.0	+11.5
+016	017	01.30	 -	DOWN	;st017=tag at stream junction
+017	018	01.75	039.0	+15.0
+018	019	01.76	344.0	-01.0
+019	020	03.36	094.5	+04.5
+020	021	01.86	015.0	+14.5
+021	022	02.14	112.0	+00.5
+022	023	02.19	154.5	-01.5
+023	024	01.96	106.5	+06.0
+
+024	024a	00.72	138.0	+54.0	;st024a=tag at junction
+
+024	025	02.95	097.0	+05.0	;st025 has aven above tight
+025	026	03.33	121.5	+07.5	;st026 has inlet on right too tight at this level but can be reached from ledge above
+026	027	03.28	027.0	+10.0
+027	028	01.88	070.0	+07.0
+
+028	028a	00.70	089.0	-10.5	;st028a=tag
+
+028	029	02.24	012.0	+04.0	;st029 has small tube above to Grotto
+029	030	02.88	342.0	+16.0
+030	031	07.60	045.0	+13.0	;st031=tag on large stal flow on right of grotto
+
+*end	p1d

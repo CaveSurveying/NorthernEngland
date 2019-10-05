@@ -1,0 +1,21 @@
+;Survey Name:	Oxford Pot - Confusion Cnr - cut&paste from cy3.svx for tie-in purposes
+;Survey Date:	11-09-82
+;Survey Notebook:	EG1 p.68
+;Surveyors:	FA&JM
+
+;*equate cy3.34   cy.039
+;*equate cy3.1	cya.009
+;*equate cy3.33	cy3b.001
+;*equate cy3.33	cy3c.001
+
+*begin cy3i
+*export 33
+*export 34
+
+*calibrate compass	+7.17
+
+*flags duplicate ; (Confusion Corner) extra tie-in duplicates 33-34 in cy3
+33	34	3.3	338	-33	;oxf.34=Co_PJ53/UP73 Confusion Cnr
+*flags not duplicate
+
+*end cy3i

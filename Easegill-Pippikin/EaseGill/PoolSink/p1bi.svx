@@ -1,0 +1,84 @@
+;Cave:	Pool Sink - Baby Feeder re-survey with drawings
+;Surveyors:	R.Duffy/S.Lieberman/P.Wilkinson
+;Date:	19/02/06
+;Instruments:	PAG + disto
+
+;;*equate P1bi.001 P1a.023 ;survey down to Baby Feeder
+
+*begin	p1bi
+*export 001
+
+*calibrate compass		+4.00
+*calibrate clino		+1.00
+*calibrate tape		  0.00
+
+*flags duplicate ; (Baby Feeder) tie-in to tag, already covered by 023-031 in p1a
+001	002	01.96	228.0	-11.0	;st001=UP61
+002	003	03.85	195.0	 00.0
+003	004	03.04	274.0	-02.0
+004	005	05.93	001.0	-00.5
+005	006	03.74	262.0	-02.0
+006	007	04.09	219.0	-06.0
+007	008	04.50	322.0	+01.5
+008	009	04.25	229.0	-01.5
+*flags not duplicate
+009	010	03.43	335.0	+41.0	;st010 start of climb up to Baby Feeder
+010	011	01.81	018.0	+42.0
+011	012	02.29	240.0	+27.0
+012	013	03.00	 -	UP	;st013 is roof of climb
+014	013	02.47	053.0	+03.5
+014	015	01.70	283.0	+42.0	;st015 is head height sitting on boulder above small trench from pitch
+
+015	015a	04.96	071.0	+05.0	;survey upstream
+015a	015b	03.59	117.0	+04.0
+015b	015c	06.17	073.0	+01.0	;trench drops to main stream
+
+015	016	06.77	219.0	+04.5	;into Baby Feeder proper
+016	017	08.14	190.0	+02.0
+017	018	02.55	252.0	 00.0
+018	019	03.12	189.0	+01.0
+019	020	01.45	233.0	+03.0	;st020=tag on stal above pitch to lower passages
+021	020	01.73	036.0	+02.5
+
+;addition of extension survey from 03/02/96
+;surveyed by P.Hall/S.Helsdon(stan)
+
+*calibrate compass	+4.5
+*calibrate clino		+0.00
+*calibrate tape	+0.75
+		
+020	208	01.25	 -	UP	;joined our station 20 to their st 8
+207	208	09.50	 -	UP	;St208 top of new pitch (squeeze)
+206	207	01.30	154.0	 00.0
+205	206	04.40	 -	UP
+204	205	01.90	155.0	+06.0
+203	204	06.70	175.0	+36.0
+202	203	04.40	149.0	+42.0
+201	202	03.00	167.0	+16.0	;too tight (stream can be heard)
+
+;back to 19/02/06 survey
+
+*calibrate compass		+4.00
+*calibrate clino		+1.00
+*calibrate tape		  0.00
+
+021	022	03.78	119.0	+02.0
+022	023	03.17	110.0	 00.0	;leg passes the Baby Feeder formation tight
+024	023	02.05	239.0	-17.0	;st024 is sitting on ledge below small aven 3m high
+024	025	00.60	 -	DOWN
+025	026	04.19	098.0	+08.0	;inlet on L between stns links to sm. chamb. at st 035
+026	027	02.42	164.0	+10.0	;st027 is start of helectite rift
+027	028	02.06	147.0	-10.0
+028	029	01.41	 -	UP
+029	030	02.08	129.0	+19.0
+030	031	01.31	087.0	-28.0
+031	032	03.39	116.0	+01.0
+032	033	00.91	 -	UP
+033	034	02.85	140.0	+12.0
+034	035	01.70	039.0	-09.0	;st035 is sitting across trench inot small chamb.
+035	036	02.77	136.0	+11.0	;st036 is head ht. at junc of two passages
+;left passage joins right at foot of aven but continues to choke of its own just beyong junc.
+036	037	03.95	160.0	+03.5	;st037 is floor level at bottom of dribbly aven/rift
+037	038	06.25	 -	UP	;cobbles loose block in roof
+
+*end	p1bi

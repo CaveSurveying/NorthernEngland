@@ -1,0 +1,30 @@
+;Cave:	Wretched Rabbit - Depot 1 extensions from junction Depot 1.5
+;Surveyors:	R.Duffy/A.Hall/H.St.Lawrence
+;Date:	18/12/04
+;Instruments:	PAG
+
+;*equate wr22b.009 wr22.005 ;st009 is sandy col
+
+*begin	wr22b
+*export 009
+*export 004c
+
+*calibrate compass	+3.00
+*calibrate clino	-0.50
+*calibrate tape		+1.00
+
+001	002	03.60	145.0	+42.0	;st001 is middle of small sandy pit boulders in floor no obvious way on without digging
+002	003	04.90	151.0	+02.0
+003	004	05.80	131.0	+04.0	;st004 is x scratched on big boulder from roof
+
+004	004a	02.00	 -	DOWN	;st004a onward is left hand passage
+004a	004b	03.70	098.0	+23.0 ;st004b is just beyond first squeeze
+004b	004c	09.30	142.5	+23.0	;st004c is x scratched on RH wall passage continues tight with good echo beyond second squeeze
+
+004	005	04.40	192.0	-23.0	;st004 on is right hand passage
+005	006	05.40	170.0	+17.0	;st006 is small stal on wall
+006	007	01.70	316.0	 00.0	;st007 is head height at foot of climb
+007	008	02.90	 -	UP
+009	008	04.75	020.0	-40.0	;st009 is sandy col head height
+
+*end	wr22b

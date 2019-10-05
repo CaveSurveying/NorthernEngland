@@ -1,0 +1,34 @@
+;Cave:	County Pot - Spout Hall to PJ and back through Bypass to Spout again
+;Surveyors:	R.Duffy/A.Whitney
+;Date:	06/04/04
+;Instruments:	PAG
+
+;;*equate	cy3d.001	cy3c.012
+
+*begin	cy3d
+*export 001
+
+*calibrate compass	+2.50
+*calibrate clino	+0.00
+*calibrate tape		+4.00
+
+*flags duplicate ; (Spout Hall - Poetic Justice) seems to duplicate 046-049 in cy 
+002	001	18.60	108.0	+10.0
+002	003	11.67	297.0	-11.0	;st003 is corner prow of both passages
+*flags not duplicate
+
+*calibrate tape		+9.00
+
+003	004	15.45	335.0	-06.0	;wet passage to PJ
+004	005	27.88	311.0	-02.0
+*flags duplicate ; (Spout Hall - Poetic Justice) seems to duplicate 049-055 in cy 
+006	005	13.00	205.0	+03.0	;st006 is foot of PJ chimney
+005	005a	13.24	173.0	+06.5	;starting up dry bypass crawl
+005a	005b	21.86	140.0	+05.0
+005b	005c	13.38	111.0	+11.0
+005c	005d	10.18	 -	UP
+005d	005e	13.55	130.0	-13.0
+003	005e	10.37	215.0	+23.0	;back at prow
+*flags not duplicate
+
+*end	cy3d

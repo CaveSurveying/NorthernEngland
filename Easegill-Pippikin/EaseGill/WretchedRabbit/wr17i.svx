@@ -1,0 +1,19 @@
+;Cave:	Wretched Rabbit - from Wretched to half way to Depot Passage - cut&paste from wr17  
+;Surveyors:	S.Lieberman/H.St.Lawrence
+;Date:	12/10/03
+;Instruments:	4
+
+*begin wr17i
+*export 001
+*export 005
+
+*calibrate compass	+5.0
+*calibrate clino	-0.5
+*calibrate tape		+3.00
+
+001	002	05.70	352.0	+21.0
+002	003	07.70	308.5	-12.0
+003	004	06.75	331.0	-25.0
+004	005	05.40	253.0	+33.0	;st005=tag
+
+*end wr17i

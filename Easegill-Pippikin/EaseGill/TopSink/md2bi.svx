@@ -1,0 +1,41 @@
+;Cave:	Lancaster Hole - Fukuyama
+;Surveyors:	P.Swire/P.Windle
+;Date:	26/12/04
+;Instruments:	5
+
+;;;;;;;;;;;;*equate md2bi.021 md2b.005a ;tag at base of climb to Fukyama
+;;*equate md2bi.021 md2ai.107 ;tag at base of climb to Fukyama
+
+*begin	md2bi
+*export 021
+
+*calibrate compass	-3.00
+*calibrate clino	-1.50
+*calibrate tape		+1.00
+
+000	999	17.00	296.0	+50.0 ;st999 is in dig up choked rift
+
+000	001	06.00	227.0	-04.0 ;st000 has inlet on left facing 001
+
+001	002	05.10	238.0	-03.0 ;st002 has inlet to left
+002	003	06.00	298.0	-13.0
+003	004	08.70	264.0	-11.0
+004	005	07.00	290.0	-06.0
+005	006	06.00	236.0	-09.0
+006	007	02.00	183.0	 00.0
+007	008	06.00	277.0	-10.0
+008	009	03.00	210.0	-03.0
+009	010	03.00	310.0	-13.0
+010	011	04.00	250.0	-03.0
+011	012	03.00	336.0	-05.0 ;st012 is false floor
+012	013	04.00	230.0	-08.0
+013	014	08.00	306.0	 00.0
+014	015	05.00	252.0	 00.0
+015	016	06.00	316.0	-16.0
+016	017	03.00	310.0	-01.0
+017	018	06.00	270.0	-08.0 ;st018 is bolt on ptch
+018	019	06.00	314.0	-37.0 ;st019 is second bolt on pitch
+019	020	09.00	 -	DOWN
+020	021	04.00	216.0	-71.0 ;St021=tag in Nagasaki
+
+*end	md2bi

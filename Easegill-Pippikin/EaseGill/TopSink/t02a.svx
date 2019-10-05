@@ -1,0 +1,46 @@
+;Cave:		Top sink CRG extension (part 1 connection to Cobweb Chamber survey)
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:		15/02/09
+;Instruments:	MKO + Disto
+
+;*equate t02a.001 t02i.042 ;tag on spike on route to Cobweb Chamber
+;*equate	t02a.006 t02b.003 ;st006 is top of chimney loking across traverse
+
+*begin	t02a
+*export 001
+*export 006
+
+*calibrate compass	00.0
+*calibrate clino	00.0
+*calibrate tape		00.0
+
+002	001	01.87	159.0	-52.0	;st001=tag on spike in chamber
+002	003	08.46	100.0	+50.0	;st003 is head height on ledge above larve boulder
+004	003	05.54	295.0	-23.0	;top of boulder slope
+
+;Cave:	CRG	en-route to Cobweb Chamber
+;Surveyors:	Ray Duffy	Rick Scott
+;Date:	T7	12/10/96 afternoon
+;Instruments:	Red Rose Silva Compass & Clino,Mel Wilkinson 30m tape
+
+*calibrate compass	+5.26
+
+201	202	07.30	276.0	-34.0	;small chamber beyond dangerous crawl poss. way on in floor
+202	203	02.00	253.5	-20.0
+203	204	01.00	 -	UP
+204	205	06.80	201.7	-10.0
+;205a	205	06.60	252.0	-45.5	;205a is up in roof at right end of chamber after climbing up boulder slope back over chamber is way on to COBWEB CHAMBER not needed because of T02b
+205	004	04.30	268.0	+01.5	;st 206 is Top of Boulder slope
+
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:		15/02/09
+;Instruments:	MKO + Disto
+*calibrate compass	00.0
+*calibrate clino	00.0
+*calibrate tape		00.0
+
+004	005	05.31	066.0	+05.0	;head ht.sitting on boulder below chimney in chamber
+005	006	04.43	088.0	+60.0	;top of chimney climb
+;006	007	09.81	255.0	 00.0	;leg to check
+
+*end	t02a

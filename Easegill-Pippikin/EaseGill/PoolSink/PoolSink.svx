@@ -1,0 +1,53 @@
+;All Pool Sink files
+
+*begin	PoolSink
+
+*export p1a.078
+*export p1a.105
+*export p1a.001
+*export p2a.208a
+
+*equate p1a.023 p1bi.001 ; from p1a.svx
+*equate p1a.023 p1d.001 ; from p1a.svx
+*equate p1a.038 p1aiii.001 ; from p1aiii.svx
+*equate p1a.048 p3a.000 ; from p1a.svx
+*equate p1a.057 p3a.010 ; from p1a.svx
+*equate p1a.065 p3a.052 ; from p1a.svx
+*equate p1a.068 p3a.054 ; from p1a.svx
+*equate p1a.078 p2a.048 ; from p1a.svx
+*equate p1a.083 p2a.044 ; from p1a.svx
+*equate p1a.103 p1aii.000 ; from p1aii.svx
+*equate p1a.105 p1ai.001 ; from p1ai.svx
+*equate p1a.105 p6a.000 ; from p1a.svx
+*equate p1d.006 p1e.001 ; from p1d.svx
+*equate p1d.028a p1h.003 ; from p1d.svx
+*equate p1d.031 p1f.001 ; from p1d.svx
+*equate p1d.031 p1g.001 ; from p1d.svx
+*equate p1e.007 p1ei.001 ; from p1ei.svx
+*equate p1h.016 p1i.005 ; from p1h.svx
+*equate p3a.044 p4a.000 ; from p3a.svx
+*equate p3a.054 p4a.039 ; from p3a.svx
+
+*include	p1ai
+*include	p1aii
+*include	p1aiii
+*include	p1a
+;;*include	P1b ;not needed anymore see P1bi
+*include	p1bi
+;;*include	P1c ;not needed anymore
+*include	p1d
+*include	p1e
+*include	p1ei
+*include	p1f
+*include	p1g
+*include	p1h
+*include	p1i
+*include	p2a
+*include	p3a
+*include	p4a
+;*include	P5a
+*include	p6a
+;;*include	P7a ;not needed anymore
+; *include	p7b ; renamed as Spiral Staircase
+
+*end PoolSink

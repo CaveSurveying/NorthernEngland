@@ -1,0 +1,28 @@
+;Cave:	Lancaster Hole-Earby Series-Right hand passage at big block
+;Surveyors:	Ray Duffy/Tim Eastwood/Hugh St.Lawrence
+;Date:	28/11/98
+;Instruments:	PAG
+
+;*equate	es3.010	es.011
+;*equate	es3.011	es6.000
+
+*begin	es3
+*export 010
+*export 011
+
+*calibrate compass	+4.00
+
+;*fix	001	
+
+001	002	03.00	045.0	 00.0	;st001 is at tight crawl poss. cont.
+002	003	03.70	312.0	-06.0
+003	004	02.90	341.0	 00.0
+004	005	04.70	043.0	 00.0	;st005 is  large stal
+005	006	06.50	326.0	-09.0
+006	007	04.20	348.0	-04.0
+007	008	04.15	047.0	+01.0	;007 to 008 is tight squeeze for R.D.
+008	009	08.80	333.0	-07.0
+009	010	06.50	024.0	+19.0	;st010=es011 is large block on junc.between stake and thirsty junc.
+010	011	03.70	 -	DOWN	;st011 is in passage below junction
+
+*end	es3

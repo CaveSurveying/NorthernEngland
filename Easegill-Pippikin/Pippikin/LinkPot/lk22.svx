@@ -1,0 +1,45 @@
+;Cave:		Link Pot - Tiger's Inlet Downstream - The Ramp's Mudy Passage in roof (part 4)
+;Surveyors:	R,Duffy/S.Lieberman
+;Date:		05/03/09
+;Instruments:	MKO + disto
+
+;*equate	lk22.001 lk21.010 ;st001=tag on flake at head height
+;*equate	lk22.025 lk20i.014 ;st025=tag at gloopy junctions
+
+*begin	lk22
+*export 025
+*export 001
+
+*calibrate compass	 0.00
+*calibrate clino	 0.00
+*calibrate tape		 0.00
+
+001	002	02.53	059.0	+16.0	;st001=tag on flake at head height
+002	003	04.99	121.0	+41.0	;st003 is top of climb-up head height in roof at pass. ent.
+003	004	01.85	108.0	 00.0	;passage is mud and pools on calcited floor for full length
+004	005	02.11	074.0	+08.0
+005	006	01.35	097.0	-09.0
+006	007	01.67	063.0	+08.0
+007	008	00.93	091.0	-08.0	;st008 has tiny oxbow at roof level on right
+008	009	03.22	052.0	+05.0
+009	010	04.69	034.0	+03.0	;tube at roof level
+
+010	010a	07.40	345.0	 00.0	;tube continues but too tight?
+
+010	011	01.04	095.0	+01.0
+011	012	01.52	041.0	+03.0
+012	013	02.58	087.0	+04.0
+013	014	02.56	066.0	+06.0
+014	015	02.31	081.0	+03.0
+015	016	01.33	120.0	 00.0
+016	017	02.41	018.0	+02.0	;st017 has tube in roof to left too tight
+017	018	02.80	059.0	+01.0	;passage low crawl and wider from here to end
+018	019	04.69	108.0	+04.0
+019	020	01.49	064.0	+04.0
+020	021	03.63	102.0	+06.0
+021	022	04.49	030.0	+05.0
+022	023	02.57	065.0	+03.0
+023	024	01.72	000.0	 00.0	;st024 is floor level at junction
+024	025	01.13	 -	UP	;st025=tag in main passage at muddy junction
+
+*end	lk22

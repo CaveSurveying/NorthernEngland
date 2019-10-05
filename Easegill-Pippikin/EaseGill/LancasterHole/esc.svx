@@ -1,0 +1,25 @@
+;Cave:	Lancater Hole - Earby Series - side passage just beyond Breakthrough Chamber
+;Surveyors:	R.Duffy/A.Hall
+;Date:	07/12/02
+;Instruments:	PAG
+
+;*equate	esc.001	es.045
+
+*begin	esc
+*export 001
+
+*calibrate compass	+4.50
+*calibrate clino	00.0
+
+001	002	04.00	312.0	-17.0	;st001 is big column in sandy chamber just after Breakthrough Chamber
+002	003	00.60	 -	DOWN	;down into small connecting tube to small chamber
+003	004	05.20	240.0	+02.0	;st004 is junction of two passages
+
+004	004a	03.90	247.0	+02.0	;left hand passage
+004a	004b	04.00	295.0	+08.0	;crawl ends in bedding dig in clay/sand
+
+004	005	04.10	331.0	-13.0	;right hand passage roomy crawl in arched-shaped passage(gothic crawl?)
+005	006	07.20	336.0	+02.0	;st006 is on junction, very tight passage to right drops down slot to v.narrow rift with two holes in floor beyond(vocal connection to Canuck?), down 2m along 5m too tight to survey
+006	007	05.20	265.0	+04.0	;left hand branch ends in sand/clay dig
+
+*end	esc

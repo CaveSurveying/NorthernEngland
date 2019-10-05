@@ -1,0 +1,19 @@
+;Cave:	Link Pot - Missed Passage
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:	12/07/07
+;Instruments:	SAP+ disto
+
+;*equate	lk02ai.001 lk02a.006 ;star mark in roof at junction with Missed  Passage to right
+
+*begin	lk02ai
+*export 001
+
+*calibrate compass		0.00
+*calibrate clino		0.00
+*calibrate tape		0.00
+
+001	002	07.02	136.0	 00.0	;star mark in roof at junction with Missed  Passage to right
+002	003	14.95	097.0	+03.0	;muddy pools and mud banks to crawl through between st002 & 003
+003	004	03.85	134.0	 00.0	;chokes to left and right is very tight wet tube
+
+*end	lk02ai

@@ -1,0 +1,81 @@
+;Cave:	Perfection Passage to Easter Grotto
+;Surveyors:	Pete & Julie Mohr
+;Date:	20/06/98
+;Instruments:	Zig & Zag
+
+;*equate	gyc3.001	gyc1.024
+;;*equate	GyC3.017	md2a.008 ;not correct point
+;;*equate	GyC3.016	md3c.010 ;stal with tape on right looking up E.Grot
+;;*equate	GyC3.119	md3c.009 ;UP2
+
+*begin	gyc3
+*export 001
+*export 119
+*export 016
+
+;*calibrate compass	+4.97 ;original
+;*calibrate compass	+2.97
+*calibrate compass		+3.40
+*calibrate clino		+1.35
+*calibrate tape		-0.17
+
+*flags duplicate ; (Easter Grotto) seems to duplicate 100-119 in this same file 
+001	002	03.00	115.0	+31.0	;st001=tag gyc1
+002	003	09.20	165.0	 00.0
+003	004	03.20	209.0	+05.0
+004	005	04.80	148.0	+03.0
+005	006	04.30	115.0	+07.0	;st002 to 006 passage 1.5mwide&0.5high
+006	007	04.10	110.0	+23.0	;st007 is end of Perfection
+007	008	05.30	032.0	+05.0	;st008 is 2m from Wedding Cake centre
+008	009	01.00	 -	UP
+009	010	16.70	057.0	+03.0
+010	011	14.70	111.0	+04.0
+;011	012	14.40	143.0	-06.0	;original
+011	012	04.40	143.0	-06.0
+012	013	01.00	 -	DOWN
+;013	014	02.90	087.0	-19.0	;original
+013	014	05.90	087.0	-19.0
+014	015	09.20	075.0	+01.0
+015	016	28.00	082.0	+01.0
+016	017	06.80	356.0	+04.0	;st017=tag on string around stal
+*flags not duplicate
+
+;*calibrate compass	+7.17
+*calibrate compass		+4.65
+*calibrate clino		+0.82
+*calibrate tape	-0.12
+
+101	102	02.30	050.0	 00.0
+102	103	02.20	154.0	 00.0
+103	002	01.80	 -	UP	;start of calcite crawl
+002	105	09.80	165.0	 00.0
+105	106	02.90	190.0	 00.0
+106	107	06.30	154.0	+02.0
+107	108	06.00	127.0	+20.0
+108	109	03.30	 -	UP	;bouldery chamber
+
+109	109a	05.70	114.0	+20.0
+109	109b	07.20	074.0	+20.0
+109b	109c	06.70	058.0	 00.0
+109	109d	11.40	209.0	+25.0
+
+109	152	11.20	139.0	+30.0
+152	153	03.10	172.0	+10.0
+153	154	04.00	120.0	 0.00
+154	155	06.00	109.0	 00.0	;st155 to 156 is mud dig
+
+109	110	11.50	032.0	-02.0
+110	111	12.00	071.0	 00.0
+111	112	09.50	103.0	+04.0
+112	113	03.80	124.0	+04.0
+113	114	04.40	153.0	-10.0
+
+114	114a	06.00	132.0	 00.0
+
+114	115	06.90	078.0	-20.0
+115	116	04.40	075.0	-10.0
+116	117	30.00	083.0	+01.0
+117	118	05.00	077.0	+02.0
+118	119	07.20	009.0	-04.0
+
+*end	gyc3

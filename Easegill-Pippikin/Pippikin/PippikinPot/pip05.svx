@@ -1,0 +1,37 @@
+;Cave:	Pipikin streamway to Hall of Ten
+;Surveyors:	Ray Duffy/Hugh St.Lawrence
+;Date:	30/11/97pm
+;Instruments:	PAG kit
+
+;*equate	pip05.001	pip.101a	
+;*equate	pip05.022	pip02a.013
+
+*begin	pip05
+*export 001
+*export 022
+
+*calibrate compass	+5.45
+
+001	002	02.15	-	DOWN	;st001 in roof at start of crawl to Leck Fell Lane
+002	003	02.20	263.5	-06.5
+003	004	02.50	318.5	-03.0
+004	005	05.85	353.0	+03.5
+005	006	03.00	280.0	+01.0
+006	007	02.60	310.0	+01.0
+007	008	03.05	344.5	-07.0
+008	009	01.95	084.0	-06.0
+009	010	02.95	034.5	-06.0
+010	011	03.70	313.0	-02.5	;st011 inlet on right 2m from floor
+011	012	02.80	232.0	+13.0
+012	013	01.80	279.5	+01.0
+013	014	01.90	223.0	-05.0
+014	015	01.40	266.0	+05.0
+015	016	03.30	309.0	-03.0	;st016 is point of rock start of bedding&boulder choke/passage in roof 2.5m up?
+016	017	02.90	243.0	+03.5	;st017 other side of bedding
+017	018	05.60	340.0	+22.0
+018	019	01.55	-	UP	;st019 nasty squeeze up through boulders
+019	020	02.35	005.5	-04.0
+020	021	01.90	292.0	+37.0	;st021 is sitting on rock other side of boulder choke
+021	022	11.30	314.5	+20.0	;st022=tag Hall of Ten
+
+*end	pip05

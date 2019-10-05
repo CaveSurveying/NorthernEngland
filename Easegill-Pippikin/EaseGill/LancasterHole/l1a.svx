@@ -1,0 +1,26 @@
+;Cave: Fall Pot and then Lanc.Main Drain MB217
+;Surveyors: Ray Duffy,Dave Edland
+;date	19/08/96
+
+;;;*equate L1a.010	wh.001
+;;;*equate	L1a.001	Cw.031
+;;*equate	l1a.010	md7a.005
+
+*begin	l1a
+*export 010
+*export 001
+
+*calibrate compass	+5.27
+
+001	002	04.50	291.0	-38.5	;!!!!!!!!!!!!001 to 011 patched from cw file!!!!!!!!!!!!
+002	003	02.10	337.0	-38.0	;in boulders of fall pot
+003	004	01.10	 -	DOWN
+004	005	01.70	258.5	-23.0
+005	006	02.75	010.0	-42.0
+006	007	00.70	282.0	-22.0
+007	008	04.55	 -	DOWN
+008	009	03.50	355.5	-13.0	;st009=pete hall st73
+009	010	06.20	095.0	-01.5	;st010=mb217(fall pot)TAGGED
+010	011	01.70	063.5	-40.0	;ST011=head height in front of dribble from Woodhouse Way
+
+*end	l1a

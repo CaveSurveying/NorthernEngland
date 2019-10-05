@@ -1,0 +1,35 @@
+;Cave:	Pool Sink - Right Hand Passage at Magpie Grotto Junction extensions
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:	31/07/05
+;Instruments:	PAG
+
+;*equate p1ei.001 p1e.007 ;above large rock on ledge beyond upper trench
+
+*begin	p1ei
+*export 001
+
+*calibrate compass	+4.00
+*calibrate clino	+1.00
+*calibrate tape		-0.10
+
+001	002	12.20	321.0	-01.5	;st001 is sitting with head over rock on ledge
+
+002a	001a	03.50	076.0	+01.0	;st001a is draughting choke at end of passage
+002a	003a	03.44	316.0	-10.0
+003a	004a	05.39	328.0	-01.0
+004a	005a	03.84	319.0	+02.0
+005a	006a	02.14	272.0	-01.0	;st006a is sitting on downstream lip of passage above pit
+006a	007a	01.65	328.0	-06.0
+007a	008a	02.60	329.0	-10.0
+008a	009a	01.70	 -	DOWN	;drop to exit of passage
+010a	009a	03.27	194.0	+22.0
+010a	002	02.09	062.0	-34.0
+
+006a	006a1	01.97	 -	DOWN	;st006a1 is on ledge at bottom of drop
+006a2	006a1	01.94	021.0	021.0	;006a2 is sitting on corner
+006a2	006a3	04.00	276.0	-05.0	;passage choked with stal and cobbles, main streamway heard
+
+010a	011a	01.35	252.0	-12.0
+011a	012a	04.00	214.0	+46.0	;passage ends in choked aven
+
+*end	p1ei

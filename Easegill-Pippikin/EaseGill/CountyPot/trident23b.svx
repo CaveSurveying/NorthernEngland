@@ -1,0 +1,22 @@
+;Cave:	Trident - Traverse over trident stream from broken ladder pitch
+;Surveyors:	H.St.Lawrence/S.Lieberman
+;Date:	13/03/03
+;Instruments:	4
+
+;*equate	trident23b.001	trident06.001
+;*equate	trident23b.001	trident07.012d
+;*equate	trident23b.001	trident08.014
+
+*begin	trident23b
+*export 001
+
+*calibrate compass	+4.50
+*calibrate clino	0
+*calibrate tape	+1.00
+
+002	001	02.95	225.0	+07.0
+002	003	12.20	141.0	+25.0
+003	004	03.25	171.0	-17.0
+004	005	05.40	124.0	+13.0	
+
+*end	trident23b

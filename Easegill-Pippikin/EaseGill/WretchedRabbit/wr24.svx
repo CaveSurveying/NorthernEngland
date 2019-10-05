@@ -1,0 +1,43 @@
+;Cave:	Wretched Rabbit - Widowmaker Aven
+;Surveyors:	R.Duffy/S.Leberman
+;Date:	16/01/05
+;Instruments:	PAG
+
+;*equate	wr24.001 wr13.001 ;tag on corner at start of Dreamweaver
+;*equate	wr24.004 wr.078 ;tag on climb up to rope chamber
+
+*begin	wr24
+*export 001
+*export 004
+
+*calibrate compass	+3.00
+*calibrate clino	-0.50
+*calibrate tape		+1.00
+
+001	002	06.79	115.0	+05.0	;st001=tag
+002	003	03.82	072.0	+01.0
+003	004	04.11	153.0	+11.0	;st004=tag on rib at bottom of climb up
+004	005	03.58	 -	UP
+005	006	04.16	172.0	+54.0	;st006 is standing on sharp fins of rock looking into bedding plane crawl
+
+006	006a	06.03	319.0	-01.0	;crawl to right into boulders with hole down to stream chaos
+
+006	006b	05.01	279.0	-01.0	;crawl to left of bedding
+006b	006c	04.30	 -	DOWN	;st006c is floor of blind pit sound of stream through v. small hole to right
+
+006	007	02.83	155.0	+04.0	;st007 is mall knob of stal in bedding crawl to left of climb
+007	008	03.18	092.0	+08.0	;st008 is round cobble on floor of step up
+008	009	03.40	-	UP	;st009 is pencil mark on wall above climp up
+009	010	04.14	083.0	+04.0	;st010 is head height kneeling across small pit after crawl over boulder bridge
+010	011	03.96	054.0	+36.0	;st011 is H.height sitting on mud bank in chamber
+
+011e	011d	03.39	112.0	-40.0	;st011e is top of sand slope
+011d	011c	03.14	 -	DOWN	;st011c is floor of mud slope squeeze	
+011b	011c	02.40	316.0	 00.0	;st011b is lump on roof of crawl
+011b	011a	03.87	101.0	+01.0
+011	011a	01.75	 -	DOWN	;st011a is 0.4 above floor looking into bedding
+
+011	012	03.69	118.0	+14.0	;st012 is lump of boulder in tightest bit of boulder squeeze to chamber(the Widowmaker)
+013	012	03.21	287.0	-33.0
+
+*end	wr24

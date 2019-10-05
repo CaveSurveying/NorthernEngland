@@ -1,0 +1,20 @@
+;Cave:	Lancaster Hole - Earby Series - Long Gallery to Birthday Jnc.
+;Surveyors:	R.Duffy/L.Bishop/P.Windle
+;Date:	28/02/01
+;Instruments:	PAG
+
+;*equate	es9.001	esa.001
+;;*equate	es9.001	es.091
+;*equate	es9.004	es10.001
+
+*begin	es9
+*export 001
+*export 004
+
+*calibrate compass	+5.00
+
+001	002	04.40	319.0	-02.0	;st001=tag es.st087 in start of Long Gallery
+002	003	05.05	010.0	 00.0
+003	004	01.81	108.0	-09.0	;st004=bolt at top of Bithday Junction
+
+*end	es9

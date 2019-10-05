@@ -1,0 +1,31 @@
+;Cave:	Lancaster Hole-Hemmingway Hall in Waterfall passage
+;Surveyors:	Neil pacey/R.Garrett/D.Ramsey/J.Alker
+;Date:	07/11/98 & 15/11/98
+;Instruments:	Kit 1
+
+;;;*equate	Heh1.000	md8.094
+
+*begin	heh1
+*export 009
+*export 000
+
+*calibrate compass	+5.00
+
+;*fix	001	
+
+000	001	04.40	 -	UP	;st000 is knotted rope bottom on md8 survey
+001	002	04.60	211.0	+08.0	;T-piece passage
+002	003	03.20	160.0	-01.0
+003	004	06.10	169.0	+03.0	;Bloody Tight Bit
+004	005	05.30	188.0	+01.0
+005	006	07.20	257.0	+02.0
+006	007	03.40	261.0	+05.0
+007	008	08.10	216.0	+04.0	;Virgin's grip
+008	009	04.10	241.0	+11.0	;Hemmingway Hall, st009 is stal on L going upstream
+009	009n	07.78	335.0	+13.0
+009	009w1	04.60	286.0	+01.0
+009w1	009w2	08.00	311.0	 00.0
+009	009e1	05.67	166.0	+09.0
+009	009e2	04.00	126.0	 00.0
+
+*end	heh1

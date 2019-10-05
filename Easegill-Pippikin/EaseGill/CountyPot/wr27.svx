@@ -1,0 +1,25 @@
+;Cave:	Depot 1.5 - passages off Ahaa Chamber
+;Surveyors:	H.St.Lawrence(book)/A.Hall(instrs.)
+;Date:	02/07/05
+;Instruments:	Kit 1
+
+;*equate	wr27.101 wr17.017 ;tag in Ahaa Chamber
+
+*begin	wr27
+*export 101
+
+*calibrate compass	+2.00
+*calibrate clino	-2.50
+
+101	102	03.75	233.0	+12.0	;stn101=tag Ahaa Chamber (Wr17.017)
+102	103	04.35	281.0	-22.0	;leg into start of west passage
+103	104	01.70	276.0	-42.0
+104	105	02.25	326.0	-21.0
+105	106	01.60	275.0	-34.0	;leg through squeeze
+106	107	04.00	235.0	-30.0	;est length into crap rock choke
+
+102	202	06.10	339.0	-38.0	;leg to start of straight passage
+202	203	03.10	310.0	-30.0
+203	204	30.00	309.0	-08.0	;stn204=end of straight passage, choke
+
+*end	wr27

@@ -1,0 +1,33 @@
+;Survey:	From Stop Pot to Eureka Junction
+;Date:	Md5	10/09/96	evening
+;Surveyors:	R.Duffy/Dave Edland
+;Instruments:	RRCPC	Silva Compass/Clino
+
+;;*equate	md5.012	md4.012
+;;*equate	md5.012	l5.001
+;;;*equate	md5.025	wr.119
+;;*equate	md5.025	md6.001
+;;*equate	md5.019	md5a.001
+
+*begin	md5
+*export 025
+*export 019
+*export 012
+
+*calibrate compass	+5.27
+
+012	013	08.15	264.0	-20.5
+013	014	06.65	280.0	-08.0
+014	015	03.90	280.0	-03.5
+015	016	02.80	252.0	-03.5
+016	017	00.75	 -	DOWN
+017	018	02.60	276.5	-10.0
+018	019	21.20	235.5	+00.5	;019 TAGGED in streamway end of dry bypass to Stop pot on eureka side
+019	020	06.75	297.0	+06.5
+020	021	13.10	313.5	-01.5
+021	022	30.90	277.0	-01.7
+022	023	23.65	298.0	-02.0
+023	024	05.60	209.0	+07.0	;Bolt hole in roof at Eureka Junction
+024	025	01.50	 -	DOWN	;025=MB2
+
+*end	md5

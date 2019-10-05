@@ -1,0 +1,21 @@
+;Cave:	Lancaster Hole - Carrot Chamber - dig at end
+;Surveyors:	M.Green/T.Speight
+;Date:	03/01/05
+;Instruments:	CUCC comp#5/clino#3
+
+;*equate car2.001 car1.015
+
+*begin	car2
+*export 001
+
+*calibrate compass	+5.00
+;*calibrate clino	
+;*calibrate tape		
+
+002	001	03.84	315.0	-01.0 ;st001 is cluster of stals, st002 is lump of rock on RH wall
+003	002	02.71	290.0	-05.0 ;st003 bottom of wide curtain/stal broken
+004	003	04.55	352.0	-02.0 ;st004 is top of hand-placed stal
+005	004	05.10	296.0	-04.0 ;st005 is top of thick stal hand-placed
+006	005	03.35	304.0	-04.0 ;st006 is corner on ceiling above #6 in mud
+
+*end	car2

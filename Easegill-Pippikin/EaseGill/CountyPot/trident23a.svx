@@ -1,0 +1,30 @@
+;Cave:	Trident - route off pitch in Crystal passage connects to White way
+;Surveyors:	H.St.Lawrence/S.Lieberman
+;Date:	13/03/03
+;Instruments:	4
+
+;*equate	trident23a.001	trident04.020
+;*equate	trident23a.001	trident06.006
+;*equate	trident23a.001	trident15.008
+;*equate trident23a.012	trident10.009
+
+*begin	trident23a
+*export 001
+*export 012
+
+*calibrate compass	+4.50
+*calibrate clino	0
+*calibrate tape	+1.00
+
+001	002	04.92	287.5	+22.0
+002	003	08.15	321.0	-16.0
+004	003	03.75	157.0	-04.0
+004	005	06.82	134.5	+32.0
+005	006	02.85	024.0	+14.0
+006	007	02.60	325.0	+23.0
+007	008	02.54	290.0	+52.0
+008	009	04.32	352.0	+08.0
+009	010	05.13	282.5	-05.0
+010	011	04.44	337.0	+20.0
+011	012	03.45	-	UP
+*end	trident23a

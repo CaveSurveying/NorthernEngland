@@ -1,0 +1,26 @@
+;Cave:	Lancaster Hole - Woddhouse Way (extensions - Pit Pot)
+;Surveyors:	Becca Lawson/Paul (Beardy) Swire
+;Date:	17/02/07
+;Instruments:	BL personal
+
+;*equate	wh01.010 wh.31 ;floor of climb up to Bat Chamber
+
+*begin	wh01
+*export 010
+
+;*calibrate compass	
+;*calibrate clino	
+;*calibrate tape		
+
+000	999	08.00	 -	UP	;st000=bolt at start of bolt climb (st999 estimated top of aven)
+
+001	000	03.00	184.0	+63.0	;st001 is on nest ledge down
+001	002	03.87	112.0	-47.0	;st002 is on floor proper
+003	002	03.32	322.0	+22.0	;st003 in cross rift with mini aven part way along pasage
+003	004	03.14	146.0	-06.0	;st004 big cobble at ent, 3-4 v narrow NB.note 004 is corner in old main passage    	
+005	004	00.80	285.0	-54.0	;st005 obvious nobble in roof centre of passage   	
+006	005	08.30	232.0	+02.0	
+006	007	05.97	333.0	-04.0	;st007 junction of wrong dogleg & way to entrance	
+010	005	4.57	318	-03.0	;010 floor level base of climb up to bat chamber
+
+*end	wh01

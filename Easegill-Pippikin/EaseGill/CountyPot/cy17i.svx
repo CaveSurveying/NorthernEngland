@@ -1,0 +1,23 @@
+;Cave:	County Pot - Upper Pierces Right Hand passage end in Ignorance is Bliss,  Pit in floor at end of right fork
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:	16/06/05
+;Instruments:	PAG new
+
+;;*equate cy17i.005 cy17.024 ;boulder on corner of entry to chamber
+
+*begin	cy17i
+*export 005
+
+*calibrate compass	+5.50
+*calibrate clino	+1.00
+*calibrate tape		 0.00
+
+002	001	05.32	290.0	-06.0	;st001 is at end of crawl at bottom of pit
+002	003	00.95	137.0	+17.0	;st003 is head height sitting at bottom of ladder
+
+003	003a	04.80	119.0	+01.0	;st003a is end of chamber at pretty bedding
+
+003	004	04.82	 -	UP	;st004 is lip of false floor
+005	004	02.92	133.0	-13.0	;st005 is boulder on corner
+
+*end	cy17i

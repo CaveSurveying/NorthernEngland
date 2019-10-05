@@ -1,0 +1,27 @@
+;Cave:	Top Sink - Grapes of Wrath (off Limerick Passage)
+;Surveyors:	A.Hall et al
+;Date:	poss.92
+;Instruments:	?
+
+;*equate	t04a.012 t06b.007 ;small cairn on ledge near ladder
+
+*begin	t04a
+*export 012
+
+*calibrate compass	+5.77	
+;*calibrate clino	
+;*calibrate tape		
+
+002	001	03.55	138.0	+20.0	;st001 is draughting hole in sandy choke
+003	002	02.90	094.0	+40.0
+004	003	02.70	138.0	+14.0
+005	004	01.30	 -	UP
+006	005	01.90	145.0	-13.0
+007	006	00.80	 -	DOWN
+008	007	05.10	137.0	+12.0
+009	008	02.90	140.0	+40.0
+010	009	02.50	204.0	+21.0
+011	010	07.00	 -	UP
+012	011	02.40	268.0	-32.0	;st012 is pile of stones in main pass.
+
+*end	t04a

@@ -1,0 +1,66 @@
+;Cave:	Pipikin Downstream Pitch
+;Surveyors:	Pete Hall/Ben
+;Date:	04/05/97 & 18/05/97
+;Instruments:	Red Rose Sunto Compass & Clino, 30m tape
+
+;*equate	pip04.000	pip03.000
+;*equate	pip04.038b	pip01.021
+;*equate	pip04.038b	pip02a.013
+
+*begin	pip04
+*export 000
+*export 038b
+
+*calibrate compass	+5.45
+
+
+000	001	09.80	043.0	+02.0	;St001=tag near top of pitch
+001	002	06.50	066.0	+12.0
+002	002a	06.10	110.0	-06.0	;a1 ends at wet boulder choke inlet + tight outlet
+002a	002b	04.30	348.0	+15.0
+002	003	05.10	264.0	-02.0
+003	004	03.10	242.0	-12.0
+004	005	07.00	298.0	-04.0
+005	006	11.90	303.0	 00.0
+006	007	02.80	256.0	+07.0	;007 = tight outlet
+007	008	09.30	323.0	+02.0
+008	009	05.10	312.0	-01.0
+009	010	06.90	298.0	 00.0
+010	011	05.10	344.0	-05.0
+011	012	04.70	292.0	-04.0
+012	013	08.80	310.0	-01.0	;013 = inlet on right - tag
+013	014	04.30	006.0	-04.0
+014	015	08.00	102.0	 00.0
+015	016	11.00	050.0	 00.0
+016	017	13.20	045.0	 00.0
+017	018	10.00	099.0	 00.0
+018	019	06.60	078.0	 00.0
+019	020	05.80	024.0	+02.0
+020	021	03.50	002.0	 00.0
+021	022	09.90	053.0	 00.0
+022	023	06.90	120.0	-03.0
+023	024	04.90	075.0	+01.0	;024 = crawl on right - tag in roof
+024	025	14.30	050.0	+01.0	;025 = passage on L end of oxbow? Tag
+025	026	02.40	050.0	+01.0
+026	027	06.50	037.0	 00.0	;027 = start of choke inlet on R 
+027	028	03.70	325.0	+04.0	;028 = other end of oxbow on L Tag
+028	029	08.00	353.0	+04.0	;029 = Two other ways on in choke - tag
+029	030	03.20	078.0	+22.0	;030 = Way on on L?
+030	031	06.30	147.0	+02.0
+031	032	04.60	103.0	+08.0
+032	033	02.60	030.0	+02.0
+033	034	01.00	 -	UP
+034	035	04.80	071.0	+04.0
+035	036	02.50	 -	UP
+036	037	01.40	084.0	+17.0
+037	038	03.70	 -	UP	;St038:Drilled hole in wall in hall of 10 above hole down
+
+;Surveyors:	Jason Mallinson/Steve (dangerous)
+;Date:	Pip1	18/05/97 afternoon
+
+*calibrate compass	+5.45
+
+038	038a	03.00	115.0	+50.0	;hole down through boulders(a1 to a3 see Pete Hall's notes)
+038a	038b	10.40	294.0	+35.0	;a1=yellow tag on wall opp. hole down to streamway
+
+*end	pip04

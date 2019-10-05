@@ -1,0 +1,41 @@
+;Cave:	County Pot - Pit in Wotacunt Passage
+;Surveyors:	R.Duffy/S.Lieberman/R.Lawson/A.Whitney
+;Date:	09/06/05
+;Instruments:	PAG
+
+;;*equate	cy16c.001 cy16b.006 ;st001 is X on wall over pit
+
+*begin	cy16c
+*export 001
+
+*calibrate compass	+3.00
+*calibrate clino	-0.50
+*calibrate tape		+3.00
+
+001	002	05.36	 -	DOWN	;st001 is X on wall over pit
+002	003	04.60	298.0	-55.0
+003	004	04.60	 -	DOWN	;from st001 to 4 is down through holes to abandoned upper streamway
+
+004	004a	05.42	094.0	-03.0
+004a	004b	06.68	146.0	-04.0
+004b	004c	08.73	130.0	+11.0	;end of upstream branch small hole/squeeze probably to W.pass. above
+
+;downstream continuation
+
+004	005	06.80	320.0	-15.0
+005	006	08.02	303.0	-02.0
+006	007	12.52	308.0	-14.0
+007	008	04.00	 -	DOWN	;drop to below boulder
+008	009	07.60	310.0	-09.0	;st009 is floor of bedding
+010	009	04.82	081.0	-19.0
+010	011	05.32	315.0	-16.0	;back to bedding again
+
+;st011 has JE 1975 could be Jim Eyres
+
+011	011a	07.47	356.0	-21.0	;chamber off to right leads to too tight hole to stream
+
+012	011	07.14	056.0	+03.0	;st012 is in small passage to left side of bedding
+013	012	07.20	124.0	+03.0
+014	013	07.32	077.0	+04.0	;st014 is in small cross rift chamber
+
+*end	cy16c

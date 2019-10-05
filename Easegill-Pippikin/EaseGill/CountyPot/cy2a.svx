@@ -1,0 +1,42 @@
+;Cave:	County Pot-Re-Survey check of Poetic Justice to Platypus Junc.
+;Surveyors:	Johnny (braindead) Baker & friend
+;Date:	16/10/00
+;Instruments:	kit3
+
+;;*equate	cy2a.001	cy.055
+;;*equate	cy2a.016	cy12.001
+;;*equate	cy2a.007 cy18.012di ;boulder across stream =UP8
+
+*begin	cy2a
+*export 001
+*export 007
+*export 016
+
+*calibrate compass	+6.00
+
+001	002	03.90	269.0	+01.0	;st001 is step at bottom of PJ chimney
+002	003	06.50	354.0	-05.0	;st002 is bottom of 5m climb to Ignorance is Bliss
+003	004	05.75	272.0	-04.0
+004	005	05.30	339.0	-02.0
+005	006	06.90	299.0	-08.0
+006	007	12.50	319.0	 00.0
+007	008	03.55	298.0	-12.0
+008	009	12.30	235.0	-09.0
+
+009	009a	06.00	220.0	+020.0	;high oxbow
+009a	009b	04.40	230.0	-02.0
+009b	009c	04.75	291.0	-04.0
+009c	009d	04.15	230.0	-12.0
+009d	009e	01.30	 -	DOWN
+009e	011	02.90	360.0	-05.0
+
+009	010	10.90	273.0	-04.0
+010	011	06.50	205.0	+01.0
+011	012	07.50	152.0	-15.0
+012	013	06.10	142.0	-08.0
+013	014	03.10	195.0	-01.0
+014	015	03.45	183.0	-07.0	;st015 is tip of Platypus Nose
+015	016	01.40	153.0	+20.0	;st016=tag left of platypus nose
+
+
+*end	cy2a

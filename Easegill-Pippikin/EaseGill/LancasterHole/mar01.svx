@@ -1,0 +1,38 @@
+;Cave:	Main Drain area around Maracaibo and Oxbow Corner
+;Surveyors:	R.Duffy/A.Hall/S.Lieberman
+;Date:	18/05/02
+;Instruments:	1
+
+;;*equate	Mar01.021	Md7e.004
+;*equate	mar01.001	mar02.001
+;*equate	mar01.006	mar01a.001b	;joined to small passage in roof near entrance
+
+*begin	mar01
+*export 001
+*export 021
+*export 006
+
+*calibrate compass	+3.00
+
+001	002	00.55	 -	DOWN	;st001=tag at step up to Oxbow after Bloody Thigh Rift starts twisting, on left wall 2m up
+002	003	23.82	314.0	-04.0
+003	004	21.55	321.0	+01.0
+004	005	34.32	318.0	-02.0
+005	006	02.10	 -	DOWN
+006	007	02.60	320.0	-20.0
+007	008	01.80	261.0	-12.0
+008	009	04.30	345.0	+04.0
+009	010	02.50	253.0	-14.0
+010	011	01.26	 -	DOWN
+011	012	03.35	310.0	-05.0
+012	013	02.50	335.0	+02.0
+013	014	05.20	294.0	-05.0
+014	015	03.90	349.0	-06.0
+015	016	01.50	259.0	+01.0
+016	017	04.00	308.0	-04.0
+017	018	02.25	322.0	-09.0
+018	019	00.46	 -	DOWN
+019	020	03.35	310.0	+10.0
+020	021	00.80	155.0	+19.0	;st021=st004md7e base of chimney above start of Maracaibo entrance tube over drain
+
+*end	mar01

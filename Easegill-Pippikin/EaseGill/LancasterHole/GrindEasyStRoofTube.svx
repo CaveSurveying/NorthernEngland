@@ -1,0 +1,106 @@
+;;*equate GrindEasyStRoofTube.001 lk12.033 ; Equate moved to top level file. Links Easegill to Link / Pippikin
+
+*begin GrindEasyStRoofTube
+
+*export 001
+*export 022
+*export 045
+
+*title "From survey tag in Easy Street up into and along roof tube"
+
+*date 2012.03.18
+
+*team Instruments Tom Clayton 
+*team Notes Emma Wilson
+*team Tape Tom Clayton
+
+*instrument RRCPC Sightmaster Comp and Clino set (Kit A)
+
+*calibrate compass	+5.0	;Instrumets not calibrated until 03/03/2013
+*calibrate clino	+0.5	;Instrumets not calibrated until 03/03/2013
+*calibrate tape		0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+*flags duplicate ; (Grind - Easy Street) tie-in duplicates 017-033 in lk12
+001	002	04.27	088	+02	; 1 is old station part way down easy street - yellow tag on RH wall 
+002	003	03.03	074	-08	
+003	004	04.42	058	-05
+005	004	03.18	176	-15 	; Check compass
+005	006 	12.28	063	-01
+006 	007	03.77	010	+07	
+007	008	04.15	045	+01
+008	009	03.28	003	-01
+009	010 	04.64	066	-04
+010	011	06.28	038	+06
+011	012	02.49	123	+06 
+012	013	06.22	007	+05
+013	014	02.66	080	-11
+014	015	05.16	027	+03 
+015	016	04.54	079	+08
+016	017	04.97	024	+03
+017	018	04.59	070	+81
+*flags not duplicate
+
+018	019	03.22	299	-02	; Stn 18 is start of new stuff, on roof of Easy St by ceiling boulder
+019	020	02.08	334	-03
+020	021	02.67	312	-05
+021	022	01.97	001	+04	; Stn 22 choked side passage (surveyed later on 2012.04.28)
+022	023	03.13	325	-01
+023	024	03.35	345	-05
+024	025	04.19	005	  0 
+025	026	02.73	318	+03
+026	027	04.03	290	-02
+027	028	03.68	333	+01
+028	029	04.79	326	-06 
+030	029	03.58	193	-03 
+030	031	02.21	309	+04
+031	032	03.71	258	-09	
+033	032	02.73	177	  0
+033	034	04.33	330	+01
+034	035	02.82	043	+10 
+035	036	02.93	078	-01
+036	037	02.82	018	+02 
+037	038	03.57	296	-08 
+038	039	05.46	348	+04
+039	040	03.33	295	-04
+040	041	03.50	012	-01 
+041	042	03.46	052	-01 
+042	043	02.91	315	-04 
+043	044	01.94	029	+01
+044	045	05.93	321	+01	;Stn 045 is at T junction
+045	046	03.91	320	-01	;Stn 046 is continuation at T junction, too tight.
+
+*data passage station left right up down ignoreall
+
+018	1.0	2.0	0.0	4.5 	; Nobble on ceiling
+019	0.1	0.8	0.3	0.2
+020	0.9	0.3	0.0	0.4
+021	0.3	1.2	0.5	0.0 	; floor on left 
+022	1.2	0.6	0.2	0.3	; floor on boulder side passage will be tied into this station 
+023	0.0	1.2	0.1	0.5 
+024	0.0	0.8	0.4	0.4
+025	1.0	0.1	0.3	0.3
+026 	0.7	0.2	0.2	0.8 	
+027	0.0	1.0	0.5	0.4 
+028	0.3	0.4	0.1	0.6
+029	0.2	1.2	0.4	0.0
+030	1.5	0.4	0.0	0.3
+031	1.0	1.5	0.1	0.5
+032	0.1	1.5	0.4	0.2 	; end of nose on LH wall above pool
+033	0.8	1.0	0.6	0.1
+034	1.0	0.8	1.2	0.2
+035	0.1	1.0	0.2	0.5
+036	0.6	0.3	0.2	0.4
+037	0.6	0.6	0.0	0.6
+038	0.8	1.0	1.0	0.1	; floor cobble
+039	0.8	0.1	0.1	0.7	
+040	1.2	0.6	0.3	0.6
+041	0.0	0.5	0.4	0.5
+042	1.0	0.0	0.3	0.8
+043	0.2	0.6	0.6	0.6
+044	0.5	0.4	0.4	0.8
+045	0.7	0.4	0.0	1.2	; Small ~2cm mank stall above cross on  ledge, opposite small passage to Grind
+046	0.4	0.2	0.2	0.2
+
+*end GrindEasyStRoofTube

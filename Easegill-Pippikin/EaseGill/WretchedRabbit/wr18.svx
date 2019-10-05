@@ -1,0 +1,71 @@
+;Cave:	Wretched Rabbit - Mystery & Imagination Passage in  Upper Middle Series
+;Surveyors:	H.St.Lawrence/S.Lieberman
+;Date:	27/05/03
+;Instruments:	Kit4
+
+;*equate	wr18.001 wr.053	;bolt hole
+;*equate	wr18.007m wr13a.009 ;connection to Dreamweaver
+;*equate	wr18.005d wr17.005 ;tag at start of Depot connection
+;*equate	wr18.003 wr19.016 ;Marble Chamber tag
+;*equate wr18.007 wr21.001 ;Ulrika Junction
+;*equate wr18.007e wr18a.007 ;Mystery & Imagination Passage
+
+*begin	wr18
+*export 007e
+*export 007m
+*export 003
+*export 001
+*export 007
+*export 005d
+
+*calibrate compass	+5.00
+*calibrate clino	-0.5
+*calibrate tape		+2.00
+
+002	001	04.18	317.0	-35.0	;st001=bolt hole above cascades
+002	003	02.38	109.0	 00.0	;st003=tag to Marble Chamber
+003	004	05.02	111.0	+23.0	
+004	005	04.87	145.0	+30.0	;st005=tag in streamway by climb up to Upper Middle Series
+
+;Surveyors:	R.Duffy/A.Hall
+;Date:	08/11/03
+;Instruments:	Kit PAG
+
+*calibrate compass	+5.00
+*calibrate clino	+0.5
+*calibrate tape		0.00
+
+005	005a	00.70	 -	UP
+005a	005b	02.70	138.0	+25.0
+005b	005c	03.10	099.0	+20.0
+005c	005d	00.90	 -	UP	;st005d=tag at start of Depot connection
+
+*calibrate compass	+5.00
+*calibrate clino	-0.5
+*calibrate tape		+2.00
+
+005	006	04.74	264.0	+31.0
+006	007	05.59	260.0	+03.0	;st007=tag in roof beside hole down and step up
+
+007a	007	02.63	195.0	 00.0	;this is the way on to Mystery & Imagination
+007a	007b	03.92	 -	UP
+007b	007c	06.02	139.0	+25.0
+007c	007d	02.55	 -	UP
+007d	007e	06.64	166.0	+55.0	;st007e is junc. small passages to left, choke ahead, and main way on to right
+007e	007f	05.34	279.0	 00.0
+007f	007g	02.99	254.0	-07.0
+007g	007h	04.09	326.0	+02.0
+007i	007h	04.98	062.0	+04.0
+
+;from here the passage is very tight and the tape estimated
+
+007j	007i	05.50	108.0	 00.0
+007k	007j	04.00	052.0	 00.0
+007l	007k	03.00	013.0	 00.0
+007l	007m	06.00	294.0	 00.0	;st007m=block with bang wire connecting Mystery & Imagination with Dreamweaver
+
+007	008	03.30	195.0	+10.0
+008	009	02.85	 -	UP
+009	010	08.50	178.0	+13.0	;st010 is choke and estimated length
+
+*end	wr18

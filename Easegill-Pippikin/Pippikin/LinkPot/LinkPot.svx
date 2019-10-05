@@ -1,0 +1,102 @@
+;;Contains All Link Files
+
+*begin LinkPot
+
+*export lk01.034
+*export lk03.044
+*export lk12.033
+
+*equate lk01.002 lk01a.008a ; from lk01a.svx
+*equate lk01.003 lk01a.009 ; from lk01a.svx
+*equate lk01.003 lk02.042 ; from lk01.svx
+*equate lk01.008 lk01a.014 ; from lk01a.svx
+*equate lk01.020 lk04.000 ; from lk01.svx
+*equate lk01.034 lk13.007 ; from lk01.svx
+*equate lk01a.008b lk01c.001 ; from lk01a.svx
+*equate lk01a.009 lk01b.012 ; from lk01a.svx
+*equate lk01a.014 lk01b.001 ; from lk01a.svx
+*equate lk01b.009 lk17.001 ; from lk01b.svx
+*equate lk01c.005 lk17.006 ; from lk01c.svx
+*equate lk02.005 lk11.001 ; from lk02.svx
+*equate lk02.008 lk02c.008 ; from lk02c.svx
+*equate lk02.008 lk02d.022 ; from lk02d.svx
+*equate lk02.010 lk02e.020 ; from lk02e.svx
+*equate lk02.020 lk19.001 ; from lk02.svx
+*equate lk02.032 lk02a.001 ; from lk02a.svx
+*equate lk02.032 lk02b.005 ; from lk02b.svx
+*equate lk02.034 lk03.001 ; from lk02.svx
+*equate lk02a.001 lk02i.001 ; from lk02a.svx
+*equate lk02a.005 lk16.001 ; from lk02a.svx
+*equate lk02a.006 lk02ai.001 ; from lk02ai.svx
+*equate lk02a.012a lk16.010 ; from lk02a.svx
+*equate lk02a.019 lk14.001 ; from lk02a.svx
+*equate lk02d.013a lk02e.004 ; from lk02d.svx
+*equate lk02d.021 lk02e.025 ; from lk02d.svx
+*equate lk02i.007a lk20i.004 ; from lk02i.svx
+*equate lk02i.014a lk19.000 ; from lk02i.svx
+*equate lk02i.014b lk19.001 ; from lk02i.svx
+*equate lk02i.014b lk20i.027 ; from lk02i.svx
+*equate lk04.010 lk05.001 ; from lk04.svx
+*equate lk05.014 lk13.000b ; from lk05.svx
+*equate lk06.007 lk07.015 ; from lk06.svx
+*equate lk06.007 lk19.000 ; from lk06.svx
+*equate lk06.106 lk07.007 ; from lk06.svx
+*equate lk06.106 lk19i.010 ; from lk07.svx
+*equate lk07.001 lk07a.006 ; from lk07a.svx
+*equate lk07.001 lk08.001 ; from lk07.svx
+*equate lk07.010 lk07b.007 ; from lk07b.svx
+*equate lk10.044 lk12.130a ; from lk10.svx
+*equate lk11.001 lk11a.001 ; from lk11a.svx
+*equate lk11.009a lk11a.007a ; from lk11a.svx
+*equate lk11.011 lk11a.013 ; from lk11a.svx
+*equate lk11.012 lk12.001 ; from lk11.svx
+*equate lk11.012 lk18.013 ; from lk11.svx
+*equate lk14.001 lk15.001 ; from lk14.svx
+*equate lk19.001 lk19i.001 ; from lk19i.svx
+*equate lk19.012 lk20.001 ; from lk19.svx
+*equate lk19i.012 lk20i.014 ; from lk19i.svx
+*equate lk20.001 lk20i.014 ; from lk20i.svx
+*equate lk20.008 lk20i.007 ; from lk20i.svx
+*equate lk20.013 lk20i.001 ; from lk20i.svx
+*equate lk20.013 lk21.021 ; from lk21.svx
+*equate lk20i.014 lk22.025 ; from lk20i.svx
+*equate lk21.010 lk22.001 ; from lk21.svx
+
+*include	lk01
+*include	lk01a
+*include	lk01b
+*include	lk01c
+*include	lk02
+*include	lk02i
+*include	lk02a
+*include	lk02ai
+*include	lk02b
+*include	lk02c
+*include	lk02d
+*include	lk02e
+*include	lk03
+*include	lk04
+*include	lk05
+*include	lk06
+*include	lk07
+*include	lk07a
+*include	lk07b
+*include	lk08
+*include	lk10
+*include	lk11
+*include	lk11a
+*include	lk12
+*include	lk13
+*include	lk14
+*include	lk15
+*include	lk16
+*include	lk17
+*include	lk18
+*include	lk19
+*include	lk19i
+*include	lk20
+*include	lk20i
+*include	lk21
+*include	lk22
+
+*end LinkPot

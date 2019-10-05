@@ -1,0 +1,28 @@
+;Cave:	County Pot - continuing along toward Gallery extensions from near Razor Pass.
+;Surveyors:	R.Duffy/H.St.Lawrence
+;Date:	03/05/04
+;Instruments:	PAG
+
+;;*equate	cy10b.001 cy10a.012h2 ;Gallery extensions
+;;*equate cy10b.009 cy10c.001 ;Dismal Bypass
+;;*equate cy10b.006 cy10bi.001 ;connection to Spout Pass.
+
+*begin	cy10b
+*export 009
+*export 001
+*export 006
+
+*calibrate compass	+5.00
+*calibrate clino	+0.50
+*calibrate tape		 00.0
+
+001	002	00.30	 -	DOWN	;st001=tag Cy10a st012h2 
+002	003	04.27	302.0	-05.0	;st003 to 005 is awkward boulder crawl
+003	004	01.33	327.0	-07.0
+004	005	06.30	293.0	-02.0
+005	006	02.95	241.0	-04.0	;st006 is laid in left hand side of bedding with with head in corner and roof to get longest leg to st007, this is good place to survey back into Gallery=tag in roof
+006	007	14.80	254.0	-00.5
+007	008	05.56	246.0	+02.5
+008	009	02.35	300.0	-10.0	;st009 is front left end of block on floor edge of pool
+
+*end	cy10b

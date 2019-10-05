@@ -1,0 +1,18 @@
+;Cave:	Lancaster Hole ent.-Slug's Dig
+;Surveyors:	R.Duffy/Ian Lawton/Jack Taylor
+;Date:	01/08/98
+;Instruments:	kit 2 tape 1
+
+;;*equate	l1b.001	l1.004
+
+*begin	l1b
+*export 001
+
+*calibrate compass	+7.00
+
+
+001	002	06.80	120.0	+20.0	;st001=tag bottom of Lanc. Hole
+002	003	11.40	149.0	+23.0
+003	004	08.00	156.0	+03.0	;dig face
+
+*end	l1b

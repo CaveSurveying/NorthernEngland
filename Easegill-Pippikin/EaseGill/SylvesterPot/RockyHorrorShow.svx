@@ -1,0 +1,8 @@
+; Sylvester Pot -  Rocky Horror Show/Delicate Sound of Thunder
+
+*begin RockyHorrorShow
+*export syl3.025
+
+*include syl3
+
+*end RockyHorrorShow

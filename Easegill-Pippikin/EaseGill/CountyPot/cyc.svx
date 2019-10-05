@@ -1,0 +1,35 @@
+;Cave:	County Pot - Spout Bedding to PJ pitch
+;Surveyors:	S.Lieberman/A.Whitney
+;Date:	25/10/04
+;Instruments:	2
+
+;;*equate	cyc.001 cyb.006 ;tag in bedding from Spout
+
+*begin	cyc
+*export 001
+
+*calibrate compass	-1.80
+*calibrate clino	-6.00
+*calibrate tape		+9.60
+
+;001	002	09.63	 -	DOWN	;sst001=tag
+001	002	10.38	 -	DOWN	;sst001=tag
+003	002	12.90	106.0	+01.5
+
+003	003a	14.09	335.0	+03.0	;st003 is top of climb
+;003a	003b	09.20	 -	DOWN	;st003b=tag in bedding
+003a	003b	09.95	 -	DOWN	;st003b=tag in bedding
+
+003	004	10.98	 -	DOWN	;st004 is base of climb
+005	004	11.76	143.0	+06.0	;st005 is corner of squeeze
+006	005	11.26	103.0	+01.0	;st006 is end of squeeze
+007	006	12.77	159.0	+08.0
+008	007	18.86	139.0	+03.0
+009	008	18.85	143.5	+02.0	;st008 is sat in passage
+010	009	11.23	113.0	+08.0
+011	010	10.06	065.0	+01.0	;st011 is base of climb from PJ bedding
+011	012	11.42	325.0	+07.0	;st012=p hanger LHS
+;012	013	09.27	 -	DOWN ;st013=old bolt
+012	013	10.02	 -	DOWN ;st013=old bolt
+
+*end	cyc

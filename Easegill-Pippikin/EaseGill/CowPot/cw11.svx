@@ -1,0 +1,22 @@
+;Cave:	Cow Pot - old BSA dig
+;Surveyors:	R.Duffy/A.Ives/grant
+;Date:	29/04/00
+;Instruments:	PAG
+
+;*equate	cw11.009	cw7.007
+
+*begin	cw11
+*export 009
+
+*calibrate compass	+6.00
+
+001	002	04.19	336.0	+04.5	;st001 is bolt hole in right wall looking into dig
+002	003	00.80	 -	UP	;st002 is top of wood in spoil heap
+003	004	02.13	000.0	+05.0	;st004 is bottom of ladder
+004	005	04.20	 -	UP	;st005 is near old bolt top of pitch
+005	006	02.70	305.0	+40.0	;st006 is carbide mark on wall of chamberette
+006	007	02.90	173.0	+38.0	;up step to corner
+007	008	02.34	271.0	+11.0
+008	009	01.17	110.0	-25.0	;st009 is floor  where cw7.007 lands.
+
+*end	cw11

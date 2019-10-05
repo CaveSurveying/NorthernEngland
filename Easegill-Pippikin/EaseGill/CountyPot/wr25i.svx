@@ -1,0 +1,37 @@
+;Cave:		County Pot & Wretched Rabbit - from step up at end of Pierces Pass. to main drain via wet crawl
+;Surveyors:	S.Lieberman/R.Duffy/A.Whitney
+;Date:		25/04/05
+;Instruments:	PAG + disto
+
+;;*equate wr25.008 wr.119
+
+*begin	wr25i
+*export 008
+
+*calibrate compass		+0.00
+*calibrate clino		-0.50
+;*calibrate tape		
+
+001	002	01.47	 -	DOWN	;st001 is head height at step up at end of Pierces Passage
+002	003	08.09	321.0	-02.0
+003	004	08.00	041.0	+01.0	;st004 has oxbow into wretched pass. joining to near st003
+004	005	03.67	356.5	 00.0	;some of stream sinks on left between st004-5
+005	006	10.58	035.0	 00.0	;st006 is in Main Drain there is wide bedding on right between stations
+
+;downstream to Eureka Junction
+
+*flags duplicate ; (Eureka - Stop Pot) tie-in duplicates 022-024 in md5
+007	006	28.71	112.0	 00.0	;st007 is sat on ledge
+007	008	05.18	187.0	+06.5	;st008=MB2 hole in roof edge start of wr/cy passage left side
+*flags not duplicate
+
+;upstream of Eureka Junction fro station 006
+
+*flags duplicate ; (Eureka - Stop Pot) tie-in duplicates 019-022 in md5
+006	006a	10.39	103.0	+10.0
+006a	006b	18.72	096.0	+02.0
+006b	006c	12.64	132.0	+03.0
+006c	006d	06.35	116.0	-08.0	;st006d=tag at start of wet and dry routes to Stop Pot
+*flags not duplicate
+
+*end wr25i

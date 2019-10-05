@@ -1,0 +1,59 @@
+;Cave:		Top Sink - North West Passage links and roof tube
+;Surveyors:	R.Duffy/S.Lieberman/M.shinwell
+;Date:		06/10/07
+;Instruments:	PAG + disto
+
+;;*equate	T09c.001f md2ai.022 ;from North West Passage pitch route
+;*equate	t09c.005ki t09a.017 ;st017 scratched on streamway wall below climb up to small oxbow
+;*equate	t09c.008 t09a.019
+
+*begin	t09c
+*export 005ki
+*export 001f
+*export 008
+
+*calibrate compass		+3.00
+*calibrate clino		+0.50
+*calibrate tape			  0.00
+
+
+001a	001	02.35	165.0	-18.0	;st001 is star scratched on small prow above pitch
+001a	001b	01.59	 -	UP
+001b	001c	03.56	275.0	+42.0
+*flags duplicate ; (Nagasaki west) seems to be a tie-in duplicating 111-113 in md2ai.svx 
+001d	001c	08.01	073.5	+06.0
+001e	001d	16.05	080.0	+13.0
+001e	001f	00.20	008.0	 00.0	;st001f=tag at end of sideways passage to Nagasaki
+*flags not duplicate
+
+001	002	04.16	 -	DOWN	;st002 is floor of pitch
+003	002	01.83	303.0	-11.0
+
+003	000	02.36	299.0	+29.0	;st000 is stn  fro a previous survey maybe FA on wall
+
+003	004	02.98	193.5	+17.0
+004	005	03.07	166.0	+07.0	;st005 is junction with hole in floor to left and tight oxbow on right
+
+005a	005	02.74	065.0	+07.0	;start of oxbow passge solo survey by Sam L.
+005b	005a	02.74	353.0	-07.0
+005b	005c	03.86	182.0	-01.0
+005d	005c	03.66	354.0	-01.5
+005d	005e	01.44	 -	DOWN	;st005e is spike in floor
+005f	005e	03.25	246.0	+03.0
+005f	005g	02.59	182.0	-04.0
+005h	005g	01.39	257.0	-21.0
+
+005h	005hi	03.28	178.0	 00.0
+
+005h	005i	04.80	188.0	-47.0	;st005i is small spike sticking out of wall above streamway
+005j	005i	00.94	291.0	-01.5
+005j	005k	03.63	 -	DOWN	;st005k is head height in stream
+005k	005ki	00.77	332.0	+16.0	;st005ki is st017 on the previous stream surveyby RD/SL
+;;;005kii	005ki	01.99	109.0	-41.0	;st005kii is sitting on ledge on corner in sight of st008(not needed)
+
+
+005	006	03.92	061.0	-51.0	;climb down narrow rift
+006	007	03.61	198.0	-07.0
+007	008	03.38	161.0	-54.0	;st008 is head height in stream
+
+*end	t09c

@@ -1,0 +1,112 @@
+;All the Earby Series Files
+
+*begin EPC71
+
+*export es.000
+*export wm.001
+*export GrindEasyStRoofTube.001
+*export gri02.009
+
+*equate darkside.1 grindinghalt3.0 ; from darkside.svx
+*equate darkside.44 gri03.001 ; from darkside.svx
+*equate es.008 es6a.001 ; from es6a.svx
+*equate es.011 es3.010 ; from es3.svx
+*equate es.023 es7.001 ; from es7.svx
+*equate es.026 ese.002 ; from ese.svx
+*equate es.031 esa1.000 ; from esa1.svx
+*equate es.045 esc.001 ; from esc.svx
+*equate es.076 es19.002 ; from es19.svx
+*equate es.076 es2a.013 ; from es2a.svx
+*equate es.081 es2.001 ; from es2.svx
+*equate es.091 esa.003 ; from esa.svx
+*equate es10.001 es12.003 ; from es10.svx
+*equate es10.001 es9.004 ; from es10.svx
+*equate es1.001 esa.015 ; from es1.svx
+*equate es10.026 es20.001 ; from es10.svx
+*equate es10.040 es11.004 ; from es10.svx
+*equate es10.040 es11a.010 ; from es10.svx
+*equate es1.010 es5.000 ; from es1.svx
+*equate es1.010 es8.001 ; from es8.svx
+*equate es11a.000 es11b.014 ; from es11a.svx
+*equate es13a.001 es14.001 ; from es13a.svx
+*equate es13a.001 es8.021 ; from es13a.svx
+*equate es13a.036 es17.020 ; from es13a.svx
+*equate es15.000 es8.005 ; from es15.svx
+*equate es15.034 wm.089 ; from es15.svx
+*equate es16a.001 es8.005 ; from es16a.svx
+*equate es18.000 es5.039 ; from es18.svx
+*equate es18.008 wm.046a ; from es18.svx
+*equate es19.020 es19a.001 ; from es19a.svx
+*equate es20.004 es20a.024 ; from es20a.svx
+*equate es2.003 es2a.001 ; from es2a.svx
+*equate es2.010 es4.001 ; from es2.svx
+*equate es2ai.013 es4.009 ; from es2ai.svx
+*equate es2ai.022 esb.004 ; from es2ai.svx
+*equate es3.011 es6.000 ; from es3.svx
+*equate es5.000 es5a.010 ; from es5a.svx
+*equate es6.009 es6a.008 ; from es6a.svx
+*equate es9.001 esa.001 ; from es9.svx
+*equate esa.008 esb.013 ; from esa.svx
+*equate esa.015 wm.093 ; from esa.svx
+*equate gri01.000 gri02.045 ; from gri01.svx
+*equate gri01.055 wm.017 ; from gri01.svx
+*equate gri02.009 gri03.019 ; from gri02.svx
+*equate gri02.009 gri04.0 ; tie ine fake centreline
+*equate GrindEasyStRoofTube.022 GrindEasyStRoofTube2.006 ; from GrindEasyStRoofTube2.svx
+*equate GrindEasyStRoofTube.045 PicklePassage1.001 ; from PicklePassage1.svx
+*equate grindinghalt1.21 grindinghalt3.20 ; from grindinghalt1.svx
+*equate PicklePassage1.021 PicklePassage2.001 ; from PicklePassage2.svx
+*equate PicklePassage2.005 PicklePassage3.006 ; from PicklePassage3.svx
+*equate PicklePassage3.001 gri03.001 ; from PicklePassage3.svx
+
+*include	es
+*include	esb
+*include	esa
+*include	esc
+*include	ese
+*include	esa1
+*include	es1
+*include	es2
+*include	es2a
+*include	es2ai
+*include	es3
+*include	es4
+*include	es5
+*include	es5a
+*include	es6
+*include	es6a
+*include	es7
+*include	es8
+*include	es9
+*include	es10
+*include	es11
+*include	es11a
+*include	es11b
+*include	es12
+;;*include	es13
+*include	es13a
+*include	es14
+*include	es15
+*include	es16a
+*include	es17
+*include	es18
+*include	es19
+*include	es19a
+*include	es20
+*include	es20a
+*include	wm
+; *include	Grind
+*include	gri01
+*include	gri02
+*include	gri03
+*include gri04 ; fake centreline for Clean Passage
+*include	darkside
+*include	grindinghalt1
+*include	grindinghalt3
+*include	GrindEasyStRoofTube
+*include	GrindEasyStRoofTube2
+*include	PicklePassage1
+*include	PicklePassage2
+*include	PicklePassage3
+
+*end EPC71

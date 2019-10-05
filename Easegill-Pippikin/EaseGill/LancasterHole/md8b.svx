@@ -1,0 +1,29 @@
+;Cave:	Lancaster Hole-Wilf Taylors II
+;Surveyors:	Ray Duffy/Robert Kenning
+;Date:	14/07/00
+;Instruments:	PAG
+
+;;*equate	md8b.001	md8.132
+
+*begin	md8b
+*export 001
+
+*calibrate compass	+5.00
+
+001	002	01.20	 -	UP	;rock above rope down to  lower chamber
+002	003	05.86	165.0	+08.0
+003	004	02.55	053.0	+05.0	;through bedding into WT2 from flake
+004a	004	04.58	342.0	-01.5	;from end of rift to bedding
+004	005	01.70	 -	UP
+005	006	06.31	356.0	+41.0	;up climb
+006	007	09.71	353.0	+04.5
+007	008	12.25	340.0	+06.0	;end of calcite pool
+008	009	01.28	238.0	+17.0	;dog leg
+009	010	07.53	336.5	+03.5	;dog leg
+010	011	05.95	334.0	 00.0	;through pool
+011	012	00.50	 -	UP
+012	013	09.53	337.0	 00.0	;in pool at dog leg
+013	014	08.06	346.0	+01.0	;dog leg
+014	015	02.03	339.0	 00.0	;st 015 is halfway up large stal before duck pool
+
+*end	md8b

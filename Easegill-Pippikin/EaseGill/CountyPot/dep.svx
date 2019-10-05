@@ -1,0 +1,67 @@
+;Cave:	Depot Passage-MB3-start of Depot 1/Depot 1(part)/Upper Depot 1Passage
+;Surveyors:	F.Addis/J.Mundy
+;Date:	Dep	09/10/82
+;Instruments:	????
+
+;;*equate	dep.008a	md4.012
+
+*begin	dep
+*export 008a
+
+*calibrate compass	+7.17
+
+001	002	09.90	316.0	-03.0	;occasional stream on right between 001 & 002
+001	001a	08.00	083.0	+12.0	;choke
+002	003	08.00	288.0	-03.0
+003	004	05.00	279.0	-03.0
+004	005	19.70	311.0	-03.0
+005	006	14.70	300.0	-03.0
+006	006a	02.90	200.0	 00.0
+006a	006b	05.00	273.0	 00.0	;st006b approx 265 deg dist&clino not known needs tying into UP25
+006	007	02.20	063.0	+07.0
+007	008	07.30	320.0	-05.0
+008	008a	03.50	 -	DOWN	;st008a=MB3=md4.012
+
+;superceded by wr17
+
+;008	009	21.30	088.0	+02.0	;st008 to 008a start of Depot 1
+;009	010	10.20	356.0	+04.0	;st008b=UP78
+;010	011	03.60	040.0	-05.0
+;011	012	04.70	097.0	 00.0
+;012	013	07.00	046.0	 00.0	;013 to 277deg choke water noise
+;013	014	05.50	088.0	+02.0	;014 to 067deg body sized 
+;014	015	09.40	082.0	 00.0
+;015	016	07.30	134.0	-02.0
+;016	017	06.00	139.0	+01.0
+;017	018	05.90	127.0	 00.0
+;101	102	10.20	130.0	 00.0	;st100 is choke in Upper Depot 1 Passage
+;102	102a	10.00	130	 00.0	;choke
+;102	103	02.00	194.0	-10.0
+;103	104	01.70	 -	DOWN
+;104	105	02.80	207.0	-07.0
+;105	106	01.62	174.0	 00.0
+;106	107	01.80	233.0	 00.0
+;107	108	01.50	 -	DOWN
+;108	109	04.10	177.0	 00.0
+;109	110	03.00	073.0	-10.0
+;110	111	05.42	141.0	 00.0
+;111	018	05.10	 -	DOWN	;st111 is hole to Lower Depot st018, passage continues as roof of passage below
+;018	019	12.00	137.0	+08.0
+;019	020	09.10	139.0	-05.0
+;020	021	02.70	141.0	 00.0
+;021	022	02.50	 -	UP	;st021=UP79
+;022	022a	07.40	093.0	+25.0	;start of Sandy chamber
+;022a	022b	01.20	173.0	 00.0
+;022b	022c	05.30	091.0	-20.0
+;022c	022d	03.00	220.0	 00.0
+;022	023	11.50	143.0	 00.0
+;023	024	03.30	253.0	-20.0
+;024	025	03.30	130.0	-20.0
+;025	026	03.70	198.0	 00.0
+;026	027	04.00	 -	UP	;occasional stream below 3m pitch,Traverse
+;027	028	06.80	159.0	+05.0	;st028=UP80 Passage on right to Flash Bang Pass.& Wret.Rab.passage
+;028	029	12.70	137.0	+03.0
+;029	030	05.10	110.0	+03.0
+;030	031	02.30	140.0	+06.0	;st031=UP81 Passage on Left unsurveyed??? Passage right 162deg approx 10m
+
+*end	dep

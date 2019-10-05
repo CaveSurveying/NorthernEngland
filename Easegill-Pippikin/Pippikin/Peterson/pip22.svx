@@ -1,0 +1,39 @@
+;Cave:	Pipikin - Hall of the Mountain King - Upper Chamber
+;Surveyors:	H.St.Lawrence/A.Whitney
+;Date:	08/06/02
+;Instruments:	1
+
+;*equate	pip22.009c	pip16.009
+;*equate	pip22.010	pip23.001
+;*equate	pip22.000	pip15.030
+
+*begin	pip22
+*export 010
+*export 000
+*export 009c
+
+*calibrate compass	+3.0
+
+*flags duplicate ; (Hall of the Mountain King) tie in duplicates 003-008 and 003-030 in pip15
+001	000	08.10	264.0	-16.0	;st000 is where rope used to hang on juction with Gour Route and HOTMK
+001	002	16.50	157.0	+01.0
+002	003	01.20	 -	DOWN
+003	004	18.50	203.0	-16.0
+*flags not duplicate
+004	005	10.20	139.0	-51.0	;st005 is bottom of pitch to Upper HOTMK
+005	006	20.00	 -	UP
+006	007	04.70	225.0	+34.0
+007	008	04.00	263.0	+40.0
+
+008	008a	05.30	185.0	-18.0
+
+008	009	05.80	234.0	+17.0
+
+009	009a	03.16	 -	UP
+009a	009b	03.00	270.0	-32.0
+009b	009c	04.00	345.0	-55.0	;st009c is back to original way into Upper Chambers
+
+009	010	08.40	165.0	+68.0	;st010 is bolt at top of loose pitch
+;010	011	03.40	144.0	+28.0
+
+*end	pip22

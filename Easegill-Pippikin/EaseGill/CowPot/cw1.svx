@@ -1,0 +1,23 @@
+;Cave:	Cow Pot Ent-Gully Route
+;Surveyors:	Ray Duffy/Mark Savage
+;Date:	19/07/97
+;Instruments:	Red Rose kit 2
+
+;*equate	cw1.001	cw.001
+
+*begin	cw1
+*export 001
+
+*calibrate compass	+5.13
+
+*flags surface
+001	002	08.45	026.0	 00.0	;st001=tag Cow Pot 
+*flags not surface
+002	003	09.20	 -	DOWN	;bottom of ent. gully
+003	004	01.65	 -	UP	;raised from floor to head height
+004	005	02.70	261.0	-03.5
+005	006	09.38	186.5	-37.5	;last Y-hang on training route
+006	007	08.05	 -	DOWN	;bottom of pitch
+007	008	01.70	 -	UP	;raised to head height
+
+*end	cw1

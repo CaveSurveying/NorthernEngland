@@ -1,0 +1,25 @@
+;Cave:	Trident - (Part2) Various connections from rope climb above Paper Floor tag
+;Surveyors:	H.St.Lawrence/S.Lieberman
+;Date:	07/01/03
+;Instruments:	3
+
+;*equate	trident22a.001	trident17.010	;joined to station above rope climb
+;*equate trident22a.006	trident13.002	;joins to tag in Bedstead Chamber
+;*equate trident22a.006	trident19.001	;joins to tag in Bedstead Chamber
+;*equate trident22a.006	trident20.002h	;joins to tag in Bedstead Chamber
+
+*begin	trident22a
+*export 001
+*export 006
+
+*calibrate compass	-2.00
+*calibrate clino	+3.50
+*calibrate tape	+2.00
+
+001	002	02.20	-	UP	;st001 is on jammed block in rift above rope climb above Paper Floor
+002	003	09.60	149.0	+05.0
+004	003	09.34	240.0	+64.0
+004	005	04.28	313.0	-45.0
+005	006	03.38	-	DOWN	;st006=tag in Bedstead Chamber
+
+*end	trident22a

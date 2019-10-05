@@ -1,0 +1,36 @@
+;Cave:	Lancaster Hole-Graveyard Trench route from Big Stal
+;Surveyors:	Ray Duffy/Tim Eastwood/Dave Edland
+;Date:	10/01/98 pm
+;Instruments:	PAG
+
+;;*equate	gv2.001	gv.012
+;;*equate	gv2.013	gv3.001
+;;*equate	gv2.016a	gv5.001
+;;*equate	gv2.007	gv6.005
+
+*begin	gv2
+*export 001
+*export 013
+*export 007
+*export 016a
+
+*calibrate compass	+5.00
+
+001	002	04.55	277.0	-39.0	;st001=gv012=UP162
+002	003	11.08	173.5	-13.0
+003	004	02.50	 -	DOWN
+004	005	02.76	314.5	-34.0
+005	006	03.30	219.0	-09.0
+006	007	00.80	 -	DOWN
+007	008	02.58	244.0	-17.0
+008	009	02.92	189.0	-01.0
+009	010	03.15	249.5	-08.0
+010	011	08.28	157.5	-16.0
+011	012	01.88	151.5	-16.0
+012	013	02.04	194.0	 00.0	;st013=gv3.001 passage on right
+013	014	04.00	120.0	-09.0
+014	015	03.45	058.0	-04.0
+015	016	02.25	054.0	-05.0
+016	016a	06.00	 -	DOWN	;st016a is bottom of pitch
+
+*end	gv2

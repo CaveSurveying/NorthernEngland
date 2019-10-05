@@ -1,0 +1,24 @@
+;Cave:	Lancaster Hole - Earby Series - Muddy Ducks
+;Surveyors:	P.Swire/A.Hooper
+;Date:	10/11/02
+;Instruments:	1
+
+;*equate	es20.001	es10.026
+;*equate	es20.004	es20a.024
+
+*begin	es20
+*export 001
+*export 004
+
+*calibrate compass	+7.00
+*calibrate clino	+3.50
+*calibrate tape	+2.00
+
+001	002	04.86	 -	DOWN	;st001=tag
+002	003	04.60	148.0	 00.0
+
+003	003b	04.50	156.0	 00.0
+
+003	004	06.00	114.0	 00.0	;st004 ;is very low airspace duck/sump
+
+*end	es20

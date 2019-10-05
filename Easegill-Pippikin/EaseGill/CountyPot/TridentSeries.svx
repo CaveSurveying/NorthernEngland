@@ -1,0 +1,122 @@
+;All Trident
+
+*begin TridentSeries
+
+*export trident01.ytbb
+*export trident17.007b
+*export trident04.001
+
+*equate trident01.yt1 trident16.001 ; from trident01.svx
+*equate trident01.yt2 trident05.001 ; from trident01.svx
+*equate trident01.yt2 trident07.001 ; from trident01.svx
+*equate trident01.yt2 trident17.001 ; from trident01.svx
+*equate trident01.yt2 trident25.001 ; from trident01.svx
+*equate trident01.yt2 trident25a.008 ; from trident01.svx
+*equate trident01.yt3 trident02.yt3 ; from trident01.svx
+*equate trident01.yt3 trident09.012 ; from trident01.svx
+*equate trident02.yt3 trident09.012 ; from trident02.svx
+*equate trident02.yt4 trident03.yt4 ; from trident02.svx
+*equate trident02.yt4 trident24.yt4 ; from trident02.svx
+*equate trident02.yt5 trident02a.yt5 ; from trident02a.svx
+*equate trident02.yt5 trident03.yt5 ; from trident02.svx
+*equate trident03.yt4 trident24.yt4 ; from trident03.svx
+*equate trident04.011a trident15.016a ; from trident04.svx
+*equate trident04.015a trident05.011a ; from trident04.svx
+*equate trident04.020 trident06.006 ; from trident04.svx
+*equate trident04.020 trident15.008 ; from trident04.svx
+*equate trident04.020 trident23a.001 ; from trident04.svx
+*equate trident04.022 trident05.005y ; from trident04.svx
+*equate trident05.001 trident07.001 ; from trident05.svx
+*equate trident05.001 trident17.001 ; from trident05.svx
+*equate trident05.001 trident25.001 ; from trident05.svx
+*equate trident05.001 trident25a.008 ; from trident05.svx
+*equate trident05.005 trident09.001 ; from trident05.svx
+*equate trident06.001 trident07.012d ; from trident06.svx
+*equate trident06.001 trident08.014 ; from trident06.svx
+*equate trident06.001 trident23b.001 ; from trident06.svx
+*equate trident06.006 trident15.008 ; from trident06.svx
+*equate trident06.006 trident23a.001 ; from trident06.svx
+*equate trident07.001 trident17.001 ; from trident07.svx
+*equate trident07.001 trident25.001 ; from trident07.svx
+*equate trident07.001 trident25a.008 ; from trident07.svx
+*equate trident07.012d trident08.014 ; from trident07.svx
+*equate trident07.012d trident23b.001 ; from trident07.svx
+*equate trident08.009 trident10.015 ; from trident08.svx
+*equate trident08.014 trident23b.001 ; from trident08.svx
+*equate trident09.007 trident11.001 ; from trident09.svx
+*equate trident10.000 trident26.001 ; from trident10.svx
+*equate trident10.009 trident23a.012 ; from trident10.svx
+*equate trident10.011 trident23.001 ; from trident10.svx
+*equate trident11.005 trident12.012 ; from trident11.svx
+*equate trident11.011a trident13.001 ; from trident11.svx
+*equate trident11.015 trident12.001 ; from trident11.svx
+*equate trident12.004 trident19.005c ; from trident12.svx
+*equate trident12.004 trident20.001 ; from trident12.svx
+*equate trident12.004 trident21.001 ; from trident12.svx
+*equate trident12.007 trident28.001 ; from trident12.svx
+*equate trident13.002 trident19.001 ; from trident13.svx
+*equate trident13.002 trident20.002h ; from trident13.svx
+*equate trident13.002 trident22a.006 ; from trident13.svx
+*equate trident13.005a trident17.017 ; from trident13.svx
+*equate trident13.015 trident18.020 ; from trident13.svx
+*equate trident13.015 trident28a.001 ; from trident13.svx
+*equate trident13.017 trident14.001 ; from trident13.svx
+*equate trident13.019 trident15.001 ; from trident13.svx
+*equate trident14.006 trident18.001 ; from trident14.svx
+*equate trident15.005a trident18.012 ; from trident15.svx
+*equate trident15.008 trident23a.001 ; from trident15.svx
+*equate trident16.004a trident17.002 ; from trident16.svx
+*equate trident17.001 trident25.001 ; from trident17.svx
+*equate trident17.001 trident25a.008 ; from trident17.svx
+*equate trident17.008 trident25a.001 ; from trident25a.svx
+*equate trident17.010 trident22a.001 ; from trident17.svx
+*equate trident17.013 trident22.001 ; from trident17.svx
+*equate trident18.017 trident28b.001 ; from trident18.svx
+*equate trident18.020 trident28a.001 ; from trident18.svx
+*equate trident19.001 trident20.002h ; from trident19.svx
+*equate trident19.001 trident22a.006 ; from trident19.svx
+*equate trident19.005c trident20.001 ; from trident19.svx
+*equate trident19.005c trident21.001 ; from trident19.svx
+*equate trident20.001 trident21.001 ; from trident20.svx
+*equate trident20.002ci trident20a.001 ; from trident20a.svx
+*equate trident20.002h trident22a.006 ; from trident20.svx
+*equate trident21.002 trident27a.004 ; from trident21.svx
+
+*include	trident01
+*include	trident02
+*include	trident02a
+*include	trident03
+*include	trident04
+*include	trident05
+*include	trident06
+*include	trident07
+*include	trident08
+*include	trident09
+*include	trident10
+*include	trident11
+*include	trident12
+*include	trident13
+*include	trident14
+*include	trident15
+*include	trident16
+*include	trident17
+*include	trident18
+*include	trident19
+*include	trident20
+*include	trident20a
+*include	trident21
+*include	trident22
+*include	trident22a
+*include	trident23
+*include	trident23a
+*include	trident23b
+*include	trident24
+*include	trident25
+*include	trident25a
+*include	trident26
+*include	trident27a
+*include	trident28
+*include	trident28a
+*include	trident28b
+
+*end TridentSeries

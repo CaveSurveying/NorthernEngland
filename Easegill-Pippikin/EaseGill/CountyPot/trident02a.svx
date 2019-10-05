@@ -1,0 +1,30 @@
+;Cave:	County Pot - Trident - Cowyed Country
+;Surveyors:	R.Duffy
+;Date:	05/02/05
+;Instruments:	PAG + Disto
+
+;*equate trident02a.yt5	trident02.yt5
+
+*begin	trident02a
+*export yt5
+
+*calibrate compass	+3.00
+*calibrate clino	-0.50
+;*calibrate tape		
+
+b	a	01.56	144.0	+12.0	;stA is cobble choke
+c	b	01.01	120.0	+05.0
+d	c	02.09	155.0	+11.0
+e	d	01.33	130.0	+06.0
+001	e	01.90	180.0	 00.0	;st001 is below Cows Head prow in main passage
+
+001	g	04.90	121.0	+12.0	;stG is boulder/cobble choke also in roof, too small bedding to right
+
+002	001	03.67	108.0	-05.0
+003	002	02.67	092.0	+20.0
+003	004	01.99	319.0	+09.0	;st004 is 0.5m to left and 0.3m below small inlet in roof,   only 2m approx. long but digable
+004	005	04.82	 -	DOWN	;st005 is in very corner on taag side of bridge of rock
+006	005	02.58	070.0	-34.0
+006	yt5	01.85	282.0	-15.0	;stYT5 is in main scaffold passage beyond complex junction (Puzzle)
+
+*end	trident02a

@@ -1,0 +1,49 @@
+;Cave/Series:	Upper Green & Smelly
+;Date:	P6	10/12/95
+;Surveyors:	Andy Hall/P.Wilkinson
+
+;*equate	p6a.000	p1a.105	;joined to main line
+;;*EQUATE	P6a.023	P7a.087	;joined to Spiral Stairs
+;*EQUATE	P6a.023	P7b.002	;joins Upper Green & Smelly to Spiral Stairs
+
+*begin	p6a
+*export 000
+
+*calibrate compass     +9.37
+*calibrate tape		+0.1
+
+000	001	03.40	 -	UP	;St0=UP18. Junct Lower G & S with Holbeck Junct.
+001	002	09.00	206.0	+04.0	;St2=roof of RRCPC Oxbow
+002	003	09.30	216.0	 00.0	;St3 is marked in roof 1.85m above cl. to highlevel
+003	004	12.10	142.0	+02.0	;traverse
+004	005	04.30	100.0	-36.0	;climb down
+005	006	04.70	145.0	-25.0	;st5 is 2.4m above MB208
+*flags duplicate ; (Green & Smelly) seems to duplicate 091-097 in p1a
+006	007	01.40	059.0	 00.0	;low thru water
+007	008	02.00	356.0	+19.0	;low thru water
+008	009	04.00	084.0	+08.0
+009	010	06.70	136.0	-02.0	;meanders
+010	011	02.90	068.0	+02.0
+011	012	04.30	181.0	+19.0	;back up to High Level
+*flags not duplicate
+012	013	04.50	178.0	+20.0
+013	014	08.10	166.0	+13.0
+014	015	13.10	179.0	+01.0	;traverse across passage
+015	016	03.70	143.0	+21.0	;St16=Junct
+
+016	030	05.25	198.0	+26.0	;up slope to inlet pass.
+030	031	13.90	178.0	+21.0	;ends at choke
+
+016	017	01.00	 -	DOWN
+017	018	09.30	110.0	+05.0	;low oxbow on left between 17 & 18
+018	019	06.80	153.0	 00.0
+019	020	05.40	185.0	+22.0
+020	021	01.70	 -	DOWN
+021	022	03.20	229.0	-24.0
+
+022	024	04.80	163.0	+07.0	;traverse
+024	025	15.80	115.0	+02.0	;low bedding
+025	026	15.00	116.0	+02.0	;Too low
+
+024	023	04.00	208.0	+06.0	;St23=UP120 at start of Spiral staircase Pass.
+*end	p6a

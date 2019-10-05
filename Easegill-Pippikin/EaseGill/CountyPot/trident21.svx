@@ -1,0 +1,26 @@
+;Cave:	Trident - Upstream of Final Chamber
+;Surveyors:	R.Duffy/A.Whitney
+;Date:	07/01/03
+;Instruments:	PAG
+
+;*equate	trident21.001	trident12.004	;joined to Downstream loop Key Passage
+;*equate	trident21.001	trident19.005c	;joined to Downstream loop Key Passage
+;*equate	trident21.001	trident20.001	;joined to Downstream loop Key Passage
+;*equate	trident21.002	trident27a.004	;tag below climb in final chamber
+
+*begin	trident21
+*export 002
+*export 001
+
+*calibrate compass	+4.50
+*calibrate clino	+1.00
+
+001	002	05.82	128.0	+18.0	;st001=tag9a in Final Chamber
+002	003	03.47	217.0	+33.0	;st002=tag at bottom of climb up to passage and also above sink in floor
+
+003	003a	02.94	208.0	+31.0	;st003a is choke with choke to left and right
+
+003	004	04.94	132.5	+05.0	;low bedding to right and left, choked
+004	005	02.00	132.0	+10.0	;st005 is at point where bedding is too tight
+
+*end	trident21

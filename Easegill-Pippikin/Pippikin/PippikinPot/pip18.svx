@@ -1,0 +1,84 @@
+;Cave:	Pipikin- Gour Hall to tag near Hall of the Ten (Pip15)
+;Surveyors:	H.St.Lawrence/Ian Lawton
+;Date:	07/03/99
+;Instruments:	PAG
+
+;*equate	pip18.028	pip15.040
+;;;*equate	Pip18.006a	Pip24.016 ;superceded link by pip18b
+;*equate	pip18.011 pip18a.005 ;joins Electric Wine Gum
+
+*begin	pip18
+*export 011
+*export 028
+
+*calibrate compass	+4.50
+*calibrate clino	 0.00
+*calibrate tape		 0.00
+
+;*fix	001	
+
+001	001a	04.20	149.0	-03.0
+001a	001aa	04.00	140.0	 00.0	;estimated values very tight(bang!)
+001	001b	03.00	053.0	-59.0
+001b	001c	05.00	 -	DOWN	;estimated drop pitch
+001	002	05.50	004.5	-18.0	;squeeze
+002	003	04.50	003.0	-50.0
+003	004	02.70	358.5	-30.0
+004	005	08.30	360.0	+29.0	;6m aven in Gour Hall
+005	006	15.20	225.0	 00.0	;st006 below +12m aven
+006	006a	15.00	225.0	 00.0
+006	007	20.90	012.0	-01.5
+007	008	08.00	039.0	-26.5
+008	009	22.40	040.0	-16.0
+009	010	08.90	039.5	 00.0
+010	010a	06.20	130.0	-02.0	;bedding crawls in sand left & right
+010	011	24.50	033.5	+01.0	;st011 is inlet aven +12m
+011	012	11.30	006.0	+04.0
+012	013	09.70	062.5	-06.0
+013	014	06.90	058.5	-17.0
+014	015	04.90	041.0	-09.0
+015	016	07.50	031.0	-03.0
+016	017	23.60	058.0	 00.0	;13m from st016 is wide bedding on right
+017	018	09.30	023.0	+03.0	;-2m drop at st018 into Cross Hall
+
+
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:		06/02/08
+;Instruments:	MKO (Mendip Karate Otter)
+
+*calibrate compass	 0.00
+*calibrate clino	 0.00
+*calibrate tape		 0.00
+
+
+018ai	018aii	12.00	140.00	 00.0	;end of dig on 21/03/08
+018a	018ai	24.00	 -	DOWN	;down through boulders not straight data S.Wilson Earby
+018a	018	11.83	178.0	+19.0	;st018a is top of boulder at top of Earby dig
+018a	018b	07.93	091.0	+35.0	;st018b to 018e are sts in chamber
+018a	018c	11.79	140.0	+11.0
+018a	018d	06.97	181.0	+10.0
+018a	018e	10.76	300.0	+33.0
+018e	018f	08.36	018.0	+14.0	;st018f is alcove on sandy ledge
+
+;aven in middle of chamber is 16m high and 5.4m from st018c
+
+;Surveyors:	H.St.Lawrence/Ian Lawton
+;Date:	07/03/99
+;Instruments:	PAG
+
+*calibrate compass	+4.50
+*calibrate clino	 0.00
+*calibrate tape		 0.00
+
+018	019	16.80	019.0	+06.0	;other side of Cross Hall
+019	020	15.00	349.5	+02.0	;hole down on left of st020 -0.7m?
+020	021	19.90	083.0	+04.0	;stals
+021	022	08.70	135.5	-07.0
+022	023	02.50	118.0	-07.0
+023	024	03.80	129.0	-01.0
+024	025	06.20	154.0	+08.0
+025	026	15.90	088.0	+03.0	;on left of st026 is drop and crawl passage(needs survey!!)
+026	027	16.60	112.5	+12.0
+027	028	00.40	 -	UP	;st028=tag Pip15.040
+
+*end	pip18

@@ -1,0 +1,45 @@
+;Cave:	Lancaster Hole - Sideline Passage
+;Surveyors:	R.Duffy/H.St.Lawrence
+;Date:	10/11/02
+;Instruments:	PAG
+
+;*equate	maw4.001	maw2.4
+;;*equate	L5.021	maw4.021
+
+*begin	maw4
+*export 001
+*export 021
+
+*calibrate compass	+3.00
+*calibrate clino	0.00
+*calibrate tape	+1.00
+
+001	002	05.25	348.0	+32.0	;st001=tag maw2.4 in Surprise
+002	003	11.90	003.0	-03.5
+003	004	11.97	068.0	+01.5
+004	005	15.30	073.0	-02.0
+005	006	10.20	059.0	+07.0	;between station 005 & 006 is large collapse in floor and passage gets smaller beyond this point
+006	007	08.99	075.0	+05.0	;from st006 to 013 is very low wet crawl
+007	008	07.50	007.0	 00.0
+008	009	08.90	338.0	-01.5	;st009 has too small passage to left bfore pool
+009	010	06.63	004.0	-02.5
+010	011	09.00	353.0	-02.0
+011	012	06.65	308.0	-03.0
+012	013	06.00	327.0	-05.0
+013	014	05.30	349.0	-03.0
+
+014	014a	06.87	112.0	+06.0	;right hand sandy crawl flat out
+014a	014b	08.90	132.5	+04.0	;st014b has too small passage to right on bend
+014b	014c	04.10	110.0	+04.0
+014c	014d	03.60	088.5	+01.0
+014d	014e	05.00	080.0	 00.0	;this is an estimated leg unsurveyed to possible passage through pretties
+
+014	015	09.10	318.0	 00.0
+015	016	05.32	336.0	-01.0
+016	017	08.95	300.0	 00.0
+017	018	07.17	328.0	-01.0	;st018 has connecting passage to Main Line Passage on right
+018	019	08.77	288.0	-04.0
+019	020	06.72	 -	DOWN	;pitch
+020	021	02.32	069.0	+07.0	;st021=tag in Snail Cavern near bottom of rope
+
+*end	maw4

@@ -1,0 +1,31 @@
+;Cave:	County Pot - bedding beyond slab to Dismal Bypass
+;Surveyors:	R.Duffy/H.St.Lawrence/A.Whitney
+;Date:	22/11/04
+;Instruments:	PAG
+
+;;*equate	cy10d.001 cy10c.006 ;tag on boulder beside muddy slab to Dis. Byp.
+;;*equate cy10d.011 cy10di.013 ;tag in Hall Hall
+;;*equate cy10d.003 cy10dii.021 ;small cross rift
+
+
+*begin	cy10d
+*export 003
+*export 011
+*export 001
+
+*calibrate compass	+3.00
+*calibrate clino	-0.50
+*calibrate tape		+9.00
+
+001	002	11.47	228.0	-18.0	;st001=tag, st002 is boulder at start of bedding
+002	003	17.19	279.0	-02.0	;st003 is in low bedding just past hole in floor
+003	004	11.85	254.0	+03.0	;st004 is just beyond enlarged squeeze in cross rift
+005	004	09.70	344.0	 00.0	;side step leg
+005	006	19.28	230.0	+01.0
+006	007	11.19	140.0	+40.0
+007	008	11.63	218.0	+32.0
+008	009	14.26	180.0	+05.0
+009	010	12.68	197.0	+58.0
+010	011	13.88	135.0	-02.0	;st011=tag in Hall Hall
+
+*end	cy10d

@@ -1,0 +1,30 @@
+;Cave:	Pipikin Pot - Gimli's Garden
+;Surveyors:	D.Ramsay/P.Windle/R.MacDonald
+;Date:	06/11/05
+;Instruments:	kit 2
+
+;*equate	pip18c.001 pip18a.005
+
+*begin	pip18c
+*export 001
+
+*calibrate compass		+4.00
+*calibrate clino		  0.00
+*calibrate tape		  0.00
+
+002	001	04.35	206.0	-18.0	;st001=rope up to Electric Wine Gum
+002	003	11.40	000.0	-09.0	;st003 is top of drop down
+003	004	03.90	028.0	-37.0	;ST004 is squeeze
+004	005	04.30	034.0	-08.0
+
+005	005a	02.90	230.0	  00.0	;sts in sloping bouldery chamber to left
+005a	005b	03.00	230.0	+10.0
+005a	005c	03.50	 -	DOWN
+
+005	006	04.30	304.0	+19.0
+006	007	02.20	047.0	  00.0
+007	008	10.40	 -	UP
+008	009	04.00	320.0	+05.0
+
+
+*end	pip18c

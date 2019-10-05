@@ -1,0 +1,53 @@
+;Cave:	Wretched Rabbit - Upper Series (near entrance from Big rift end up continuation of left hand passage up climb to Unsurveyed Passage - continuing to Stalactite Chamber) 
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:	16/04/05
+;Instruments:	PAG + disto
+
+;*equate wrf.008b wre.008b ; climb up to passage to Stalactite Chamber
+;*equate wrf.008k wrd.001 ;tag at start of Unsurveyed Passage
+;*equate wrf.008fi wrh.013 ;tag at junction of Cross-over Passage
+
+*begin	wrf
+*export 008fi
+*export 008b
+*export 008k
+
+*calibrate compass	+3.00
+*calibrate clino	-0.50
+;*calibrate tape		
+
+008b	008c	01.50	 -	UP	;st008b is same station as wre.008b
+008d	008c	01.11	287.0	-04.0
+008e	008d	01.21	038.0	-14.0
+008e	008f	01.78	130.0	+20.0
+
+008f	008fi	00.72	019.0	+54.0	;st008fi=tag at end of Cross Over Passage
+
+008f	008g	00.76	113.0	+05.0
+008g	008h	01.06	198.0	+37.0
+008h	008i	01.00	246.0	+09.0	
+008i	008j	03.24	197.0	+11.0
+008j	008k	00.55	040.0	+43.0	;st008k=tag at Unsurveyed Passage
+
+;right hand passage at tag 008k
+
+002	008k	02.34	056.0	-03.0	;st001=st008k=tag
+002	003	02.80	163.0	+20.0	;st003 is hd ht sitting on ledge below climb to upper passage
+
+003	003a	02.11	 -	UP	;st003a is hd ht standing on small stal
+
+003a	003ai	03.21	318.0	-12.0
+003ai	003aii	03.00	218.0	+05.0	;last leg estimated to almost totally sand-filled passage beyond tight corner at 3ai
+
+003b	003a	06.34	339.0	-15.0
+003c	003b	02.67	295.0	-28.0
+003c	003d	05.68	141.0	+24.0	;st003d is end of Stalactite Chamber
+
+;continuation below Stalactite Chamber in streamway
+
+003	004	00.69	 -	DOWN	;leg into stream crawl
+004	005	01.34	160.0	+07.0	;st005 is on right-hand bend
+005	006	02.75	253.0	-02.5
+006	007	03.74	173.0	+04.0	;continues beyond st004 as digable bedding with stal and cobbles
+
+*end	wrf

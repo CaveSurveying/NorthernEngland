@@ -1,0 +1,22 @@
+;Cave:	Lancaster Hole - Breakdown Chamber - part 3 'The Wormery'
+;Surveyors:	R.Duffy/J.Baker/a.Whitney
+;Date:	30/06/02
+;Instruments:	PAG
+
+;;*equate	md7h.001	md7f.014
+;;*equate	md7h.007	md7f.001
+
+*begin	md7h
+*export 001
+*export 007
+
+*calibrate compass	+3.00
+
+001	002	01.70	 -	DOWN	;st001 is end of survey md7f
+002	003	06.61	322.0	-01.0
+003	004	07.22	267.0	+10.0	;st004 is in main Breakdown passage again
+004	005	07.71	283.0	-25.0
+005	006	04.12	319.0	-04.0
+006	007	05.34	350.0	-50.0	;st007 is tag in main drain
+
+*end	md7h

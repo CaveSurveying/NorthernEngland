@@ -1,0 +1,25 @@
+;Cave:	Trident - up the boulder slope above the scaffold bar from splash inlet chamber
+;Surveyors:	Ray Duffy / S.Lieberman
+;Date:	15/04/03
+;Instruments:	PAG
+
+;*equate	trident25.001	trident01.yt2
+;*equate	trident25.001	trident05.001
+;*equate	trident25.001	trident07.001
+;*equate	trident25.001	trident17.001
+;*equate	trident25.001	trident25a.008
+
+*begin	trident25
+*export 001
+
+*calibrate compass	+4.50
+*calibrate clino	+1.00
+*calibrate tape		+1.00
+
+001	002	07.13	094.5	-04.5	;stn001 tag in splash chamber
+002	003	05.04	111.0	+62.0
+003	004	05.27	142.0	+06.0	
+004	005	03.87	142.0	+06.0	;stn004	jct of bedding passages, stn005 furthest accessible point, continues low for a couple of meters
+004	004a	03.78	210.0	 00.0	;stn004a entrance to squeeze, passage continues ~4m beyond
+
+*end	trident25

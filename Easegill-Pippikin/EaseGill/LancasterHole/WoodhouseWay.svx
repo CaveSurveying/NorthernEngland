@@ -1,0 +1,11 @@
+;Contains all Woodhouse Way files
+
+*begin WoodhouseWay
+
+*export wh.001
+*equate wh.31 wh01.010 ; from wh01.svx
+
+*include	wh
+*include	wh01
+
+*end WoodhouseWay

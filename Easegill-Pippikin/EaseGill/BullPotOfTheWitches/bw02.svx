@@ -1,0 +1,34 @@
+;Cave:		Bull Pot of the Witches(Burnetts Passage to  Burnetts Great Aven)
+;Surveyors:	H.St.L/Craig Webster/Mark Savage
+;Date:		02/03/97 pm
+;Instruments:	Red Rose Compass & Clino, 30m tape
+
+;*equate	bw02.019	bw01.022
+;*equate	bw02.019	bw03.001
+*begin	bw02
+*export 019
+
+*calibrate compass	+5.17
+
+001	002	04.85	349.0	-25.0	;the choke, between 001 & 002 is 8m up to chamber on right
+002	003	02.00	290.0	-13.0
+003	004	14.65	347.0	+15.0	;Burnetts Great Aven/+10 BSA inlet/+15 Aven
+004	005	01.60	 -	DOWN
+005	006	05.45	016.0	-30.0
+006	007	01.30	 -	DOWN
+007	008	04.80	351.0	-01.0
+008	009	05.45	020.0	+50.0	;st009 upper level?
+009	010	06.75	346.0	+18.0	;st010 is tagged boss
+010	010a	10.90	226.0	+10.0	;under window-cleaners aven above
+010a	010b	05.80	164.0	+27.0	;possible passage on left see Hugh
+010	011	06.10	029.0	+16.0
+011	012	02.00	 -	DOWN
+012	013	06.50	349.0	+10.0
+013	014	06.75	009.0	 00.0
+014	015	01.00	318.0	+02.0
+015	016	02.30	 -	UP
+016	017	24.90	012.0	-02.0	;past pass. on right to Cavern 32, also other passage on right
+017	018	04.50	356.0	 00.0	;st018 is tag in mud floor????
+018	019	10.95	358.0	+04.0	;passage on right
+
+*end	bw02

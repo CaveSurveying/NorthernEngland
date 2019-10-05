@@ -1,0 +1,31 @@
+;Cave:	Coutny Pot - Trident -Tag2 near Splash Chamber to Paper Floor over the top route in Jim's Climb
+;  cut&paste from trident17.svx 
+;Surveyors:	H.St.Lawrence/S.Lieberman
+;Date:	05/11/02
+;Instruments:	1
+
+;*equate	trident17.001	trident01.yt2
+;*equate	trident17.001	trident05.001
+;*equate	trident17.001	trident07.001
+;*equate	trident17.001	trident25.001
+;*equate	trident17.001	trident25a.008
+;*equate trident17.002	trident16.004a
+;*equate trident17.007b	trident25b.001
+;*equate	trident17.010	trident22a.001	;joined to station above rope climb
+;*equate	trident17.013	trident22.001	
+;*equate	trident17.017	trident13.005a
+
+*begin trident17i
+
+*export 007b
+*export 008
+
+*calibrate compass	+7.00
+*calibrate clino	+3.50
+*calibrate tape	+2.00
+
+007	007a	08.37	159.0	+10.0	;a&b are upstream into bedding
+007a	007b	06.35	112.0	 00.0	;st007b is below rift in very low wide bedding filled with cobbles (siting 151deg along joint in roof)
+007	008	04.90	353.0	-01.0	;st008 is right hand side facing downstream just before wiggles to Splash Chamber
+
+*end trident17i

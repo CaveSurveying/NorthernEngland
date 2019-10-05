@@ -1,0 +1,60 @@
+;Cave:	Lancaster Hole - Stake Pot Series, below Arson Shaft
+;Surveyors:	R.Duffy/D.Otwell/M.Evans
+;Date:	09/12/01
+;Instruments:	PAG
+
+;*equate	mr3.004	mr1.020
+;*equate	mr3.016a	mr2.000
+;*equate	mr3.023	mr4.001
+
+*begin		mr3
+*export 016a
+*export 023
+*export 004
+
+*calibrate compass	+5.00
+
+001	001a	05.00	056.0	 00.0	;1 to 1A is sighting up narrow rift 2m high and 0.3m wide, continues needs skinny???????
+001	002	01.00	 -	DOWN	;st001 is in small chamber
+002	003	05.69	242.0	 00.0	;through bedding
+003	004	04.30	171.0	-20.0	;st004 is TAG on Mr1.020
+004	005	01.20	 -	UP
+005	006	04.50	203.0	-01.0
+006	007	03.10	266.0	-06.0
+007	008	02.15	 -	UP	;st008 is straddling drop to to lower passage at bottom of steep rift from Bob's Boss
+008	009	07.60	238.0	+21.0
+009	010	01.60	 -	DOWN	;down hole in boulders to continuation of passage
+010	011	02.90	197.0	+09.0
+011	012	08.70	158.0	-18.0	;down steep muddy slope into aven chamber area, holes up on left 10m to flat roof, needs climbing?????????
+012	013	03.80	125.0	 00.0
+013	014	04.60	081.0	-23.0
+014	015	02.64	324.0	+27.0
+
+;rift throught to aven at back of Arson Shaft foot
+
+015	015a	06.07	044.0	+17.0	;st015A is knot at end of rope from small aven climbed by Rick Scott, believed passage continues unsurveyed ??????????
+
+;Surveyors:	R.Duffy/H.St.Lawrence
+;Date:	03/08/02
+;Instruments:	PAG
+
+015a	015b	08.00	 -	UP	;015B is top of pitch
+015b	015c	09.50	147.5	+07.0
+015c	015d	00.20	 -	UP	;015d is knot on end of rope in aven
+015d	015e	30.00	 -	UP	;estimated leg up aven needs bolting????????? at least to halfway ledge
+;end of this bit of survey - back to main survey
+
+015	016	01.65	 -	DOWN	;st016 is foot of Arson Shaft directly below eyehole
+016	016a	15.00	 -	UP	;leg 16A to 16 was droppped earlier from eyehole at Arson Shaft entrance in Mont. East
+
+;side passage off to left through bedding just before Arson Shaft is reached
+
+012	017	01.65	144.0	-46.0
+017	018	03.91	221.0	+07.0	;st018 is entrance to small bedding chamber with bollard in middle
+018	019	02.16	300.0	-04.0
+019	020	09.35	233.0	-05.0	;st020=TAG at junction with Barlick New Road streamway, in a small thread 1m above sart of stream trench
+020	021	04.14	331.0	+29.0	;st021 is at bottomof large pillar, just right of small climb up (2m) muddy boulders
+021	022	04.80	284.0	+37.0
+022	023	03.53	316.0	-02.0	;st023 is squeeze between large boulders marked with survey note paper with st.no. and surveyors and date.
+
+*end	mr3

@@ -1,0 +1,19 @@
+;Cave:	Lancaster Hole - Magic Roundabout - alterative route to Brass Monkey from Aquarius Ledge
+;Surveyors:	N.Pacey/P.Swire
+;Date:	16/07/02
+;Instruments:	2
+
+;*equate	mr8.001	mr2.021
+
+*begin	mr8
+*export 001
+
+*calibrate compass	+4.00
+
+001	002	04.80	337.0	+29.0;alterative route to Brass Monkey Pass.
+002	003	03.80	261.0	+01.0
+003	004	07.50	 -	DOWN
+004	005	04.70	292.0	+23.0	;passes through 15m aven Rift Passage crawl?
+005	006	25.00	326.0	-01.0	;estimated leg down upper level of Brass M.P.
+
+*end	mr8

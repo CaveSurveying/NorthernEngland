@@ -1,0 +1,14 @@
+; All new Cave Files
+
+*begin newCave
+
+*equate	new02.001 new01.025
+*equate	new03.001 new02.1
+*equate	new04.010 new03.001
+
+*include new01
+*include new02
+*include new03
+*include new04
+
+*end newCave

@@ -1,0 +1,43 @@
+;Cave:	Leck Fell Lane to Hall of the Ten
+;Surveyors:	Ray Duffy/P.Wilkinson/S.Tooms
+;Date:	Pip1	16/11/96 afternoon
+;Instruments:	Red Rose Sunto Compass & Clino, Mels 30m tape
+
+;*equate	pip01.001	bg2.044
+;*equate	pip01.021	pip04.038b
+;*equate	pip01.021	pip02a.013
+;*equate	pip01.001	mm1.089
+;*equate	pip01.021	pip15.001
+;*equate	pip01.018	pip15.004
+
+*begin	pip01
+*export 018
+*export 001
+*export 021
+
+*calibrate compass	+5.26
+
+001	002	05.00	198.0	-02.0	;st001=tag Leck Fell Lane
+002	003	10.10	173.0	-01.0
+003	004	04.50	238.5	-08.0
+004	005	06.90	226.0	+00.5
+005	006	02.70	249.5	-08.0
+006	007	04.10	199.0	-01.5
+007	008	02.80	177.0	-04.5
+008	009	03.90	247.5	-03.0
+009	010	02.20	192.5	+05.0
+010	011	02.60	244.0	+09.0
+011	012	08.30	176.5	-02.0
+012	013	04.10	254.0	+32.5
+013	014	01.00	 -	UP
+014	015	14.50	010.5	+34.0
+015	016	24.30	016.0	+13.0
+*flags duplicate ; (Hall of the Mountain King) tie in duplicates 001-004 in pip15
+016	017	06.30	045.5	+32.5
+017	018	17.00	332.0	-07.5
+018	019	20.50	020.5	-04.0
+019	020	17.70	353.0	-16.0
+020	021	02.80	312.0	+15.5	;st021=tag Hall of the Ten
+*flags not duplicate
+
+*end	pip01

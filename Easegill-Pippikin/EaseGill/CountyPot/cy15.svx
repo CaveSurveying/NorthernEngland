@@ -1,0 +1,30 @@
+;Cave:	Platypus Jnc. to tag in Ignorance is Bliss
+;Surveyors:	H.St.Lawrence/A.Hall
+;Date:	02/03/02
+;Instruments:	3
+
+;;*equate	cy15.001	cy12.002
+;;*equate	cy15.013	cy16.001
+
+*begin	cy15
+*export 001
+*export 013
+
+*calibrate compass	+3.50
+
+*flags duplicate ; (Platypus Junction) tie-in duplicates 012-015 in cy2a
+001	002	06.50	011.0	+01.0	;st001 is bill of Platypus
+002	003	07.30	320.0	+08.0	;st003 is climb out of stream
+*flags not duplicate
+003	004	04.10	311.0	+33.0
+004	005	03.90	179.0	+40.0
+005	006	04.00	209.0	 00.0
+006	007	01.40	221.0	+26.0
+007	008	02.40	242.0	+21.0
+008	009	01.10	 -	UP	;up the slot
+009	010	05.70	032.0	+10.0
+010	011	03.10	074.0	+28.0
+011	012	04.90	043.0	+06.0
+012	013	05.40	329.0	-04.0	;st013=tag in Ignorance is Bliss
+
+*end	cy15

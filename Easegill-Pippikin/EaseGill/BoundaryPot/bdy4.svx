@@ -1,0 +1,40 @@
+;Cave:	Boundary Pot - Inlet passing below Bar Stewards pitch
+;Surveyors:	S.Lieberman/R.Duffy/M.Shinwell
+;Date:	03/05/07
+;Instruments:	PAG + disto
+
+;*equate bdy4.001 bdy3.015 ;tag in Main Passage leading to inlet below Bar Stewards
+;*equate bdy4.003a bdy7a.001b ;st003a is base of pitch
+
+*begin	bdy4
+*export 001
+*export 003a
+
+*calibrate compass		+2.00
+*calibrate clino		+0.50
+*calibrate tape		 0.00
+
+*fix 003a	67844.06 80865.91 295.43 ;foot of Bar Steward's Crawl pitch
+
+001	002	07.78	139.0	+12.0	;st001=tag on boulder in middle of passage
+
+002	002a	06.59	009.0	+14.0	;passage left wall below aven
+002	002b	05.40	194.0	+25.0	;right wall
+
+002	003	09.06	147.0	+10.0
+
+003	003a	02.57	235.0	-08.5	;st003a is below Bar Stewards(BS)
+;;; not needed 003a	003b	13.64	 -	UP	;st003b is roof of passage at BS
+
+003	004	07.95	158.0	+02.0
+004	005	03.70	119.0	+08.0
+005	006	03.77	095.0	+36.0
+006	007	02.92	195.0	+06.0
+007	008	01.75	252.0	+07.0	;st007 to 009 has roof oxbow tube
+008	009	04.17	171.0	+08.0
+009	010	00.70	 -	UP
+010	011	02.50	159.5	-04.0
+011	012	04.35	100.0	+45.0
+013	012	08.67	336.0	-10.0	;st013 is boulder choked small aven
+
+*end	bdy4

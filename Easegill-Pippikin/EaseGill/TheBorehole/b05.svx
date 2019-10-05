@@ -1,0 +1,58 @@
+;Cave:		Borehole - Galaxy Passage (1/2 way from crawls to Pitch
+;Surveyors:	R.Duffy/S.Lieberman/M.Shinwell
+;Date:		13/09/07
+;Instruments:	PAG + disto
+
+;*equate	b05.001 b02.021 ;tip of fin of rock low down at juction of stream passages
+
+*begin	b05
+*export 001
+
+*calibrate compass		+3.00
+*calibrate clino		+0.50
+*calibrate tape		  0.00
+
+001	002	06.02	114.0	+10.0	;tip of fin of rock low down at juction of stream passages
+002	003	02.09	163.0	+11.0
+003	004	01.63	053.0	-03.0
+004	005	01.34	 -	UP
+005	006	02.42	065.0	+05.0
+
+702	701	05.05	199.0	+03.0	;furthest point betond cobble obstruction
+703	702	01.24	171.0	+13.0
+703	704	01.31	283.0	+09.0
+705	704	01.99	140.0	+05.0
+706	705	01.34	153.0	+04.0
+707	706	01.28	205.0	+01.0
+
+707	707a	03.09	334.0	-02.0	;from top of climb to tight continuation
+
+707	708	02.16	 -	DOWN	;st708 head height sitting at foot of climb
+708	709	02.30	050.0	-39.0
+710	709	01.08	150.0	+07.0
+710	006	01.27	009.0	+03.0	;st006 is corner at junction
+
+006	007	01.42	037.0	-29.0	 ;st007 is low down in false floored passage
+007	008	01.22	118.0	+11.0
+008	009	01.75	094.0	-06.0
+009	010	03.91	155.0	+07.0	;st010 is end of tight crawl
+010	011	03.14	117.0	+13.0
+
+011	011a	04.09	057.0	+17.0	;left hand branch up to choked bedding
+
+011	012	01.01	180.0	+01.0	;st012 is at floor level at start of right hand passage
+012	013	04.47	124.0	+08.0
+
+013	013a	03.20	050.0	+30.0	;st013a is left up to cobble choke to bedding choke
+
+013	014	02.20	248.0	+01.0	;st014 is low in right hand passage
+014	015	02.49	138.0	+14.0
+015	016	01.48	124.0	+41.0
+016	017	02.47	129.0	+16.0	;st016 is top of boulder almost blocking way on
+017	018	01.42	 -	UP
+
+018	018a	02.11	349.0	+42.0	;st018a is top of short climb into flat top bedding (gill?)
+
+018	018b	03.92	146.0	+32.0	;st018b is end of rift at cobble choke	
+
+*end	b05

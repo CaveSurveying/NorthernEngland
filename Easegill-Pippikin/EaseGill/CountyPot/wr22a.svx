@@ -1,0 +1,32 @@
+;Cave:	Wretched Rabbit - Depot 1 extensions upstream from junction Depot 1.5
+;Surveyors:	R.Duffy/A.Hall/H.St.Lawrence
+;Date:	18/12/04
+;Instruments:	PAG
+
+;*equate	wr22.014 wr22a.001 ;calcite floor at climb into rift
+
+*begin	wr22a
+*export 001
+
+*calibrate compass	+3.00
+*calibrate clino	-0.50
+*calibrate tape		+1.00
+
+001	002	03.60	 -	UP	;climb halfway up rift to traverse
+003	002	03.70	277.0	-02.0
+003	004	01.50	 -	UP	;st004 tight right hand bend
+005	004	05.10	349.0	-03.0	;st005 is sharp left hand bend
+006	005	04.80	261.0	+10.0	;between 005 & 006 are set of great helectites
+007	006	03.60	338.5	-17.0	;st006 is in widening
+008	007	06.60	326.0	-08.0	;st008 is junct. passage off to left through tight sandy tube
+
+008	008a	04.00	144.0	 00.0	;st008a is split in passage both branches too samll
+
+008	009	06.90	000.0	+01.0	;st009 is in crinkle floored chamber
+009	010	06.90	302.0	-10.0	;st010 has passge to right into loose cobbly passage/chamber
+
+010	010a	04.00	030.0	+15.0	;cobble need capping
+
+010	011	04.20	339.0	+02.0	;sand fill wall of small chamber with holes in floor to passage below too tight
+
+*end	wr22a

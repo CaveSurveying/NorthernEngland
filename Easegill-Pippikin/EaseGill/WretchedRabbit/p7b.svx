@@ -1,0 +1,92 @@
+;Cave:	Pool Sink - Spiral Staircase Passage
+;Surveyors:	R.Duffy/H.St.Lawrence/S.Jobling
+;Date:	21/08/05
+;Instruments:	PAG
+
+;;;;;;;;;;;;;;;;;;;;;*equate P7b.001 b1.208 ;head height sitting astride drop to Borehole from Ecles Bypass
+;;*equate P7b.001 B03.208 ;head height sitting astride drop to Borehole from Ecles Bypass
+;*EQUATE	P7b.002	P6a.023	;joins Upper Green & Smelly to Spiral Stairs
+;*equate p7b.002	p2a.208a ;cairn at bottom of Spiral Staircase
+
+*begin	p7b
+*export 002
+*export 001
+
+*calibrate compass	+5.50
+*calibrate clino	+2.50
+*calibrate tape		-0.00
+
+*fix 046	67600.43 80734.63 289.77 ;edge of sheet 3c
+
+001	001a	03.44	 -	DOWN	;st001 is next to boulder in rift can just see boulders at foot of Sp.St.
+
+002	001	04.13	076.0	+03.0
+002	003	01.18	 -	UP	;st003 is head height on boulders looking up Sp.St. passage
+003	004	01.56	124.5	+26.0
+004	005	01.89	098.0	+11.0
+005	006	04.02	151.0	+05.0
+006	007	04.54	139.0	+07.0	;st007 has small tube on right
+007	008	01.76	052.0	+23.0
+008	009	00.56	001.0	+08.0
+009	010	01.49	058.0	+05.0	;st010 has small sink to left in small floor trench
+010	011	02.24	139.0	+12.0
+011	012	03.16	160.0	+06.0
+012	013	05.28	136.5	+23.0	;st013 is on left of sharp corner above small step and trench
+013	014	04.36	137.0	+20.0
+
+014	014a	06.00	136.0	+07.0	;st014a estimate up continuation tube on sharp bend
+
+014	015	02.75	244.0	+19.0
+015	016	01.30	311.0	+12.0
+016	017	05.04	281.0	+17.0	;st017 is on bend with passage to aven on right
+
+017	017a	02.10	318.0	-13.0	;St45 is Junct.
+017a	017b	02.10	292.0	04.0	
+017b	017c	02.50	333.0	-04.0	
+017c	017d	02.00	356.0	-02.0	
+017d	017e	01.40	308.0	-10.0	
+017e	017f	00.90	064.0	00.0	
+017f	017g	03.70	326.0	-06.0	
+017g	017h	01.80	316.0	-13.0	
+017h	017i	01.40	244.0	00.0	
+017i	017j	02.10	325.0	-29.0
+017j	017k	07.00	 -	DOWN	;base of aven
+
+017	018	05.28	166.0	+11.0	;st018 is left side of enlarged passage below 8m aven
+018	019	05.93	156.5	+09.0	;st019 is at end of pool with slope ahead
+019	020	03.04	116.0	+10.0	;pretty beddings either side
+020	021	05.50	153.5	+06.0	;st021 to st038 dry sand and gravel/cobbled passage
+021	022	03.58	134.0	+10.0
+022	023	03.13	106.0	+13.0
+023	024	04.26	141.0	+07.0
+024	025	03.24	168.5	+05.0
+025	026	02.51	097.0	+09.0
+026	027	01.33	204.0	+09.0
+027	028	03.24	097.0	+19.0
+028	029	04.90	170.0	+05.0
+029	030	01.44	213.0	+02.0
+030	031	02.68	183.0	+04.0
+031	032	01.43	152.5	-05.0
+032	033	04.09	164.0	+02.0
+033	034	00.97	141.0	+03.0
+034	035	03.20	194.0	+04.0
+035	036	03.39	120.0	-02.0
+036	037	02.69	108.5	+12.0
+037	038	02.00	121.0	+04.0	;st038 has small trench ahead with stream sink
+038	039	01.41	096.0	+04.0
+039	040	05.64	159.0	+04.0
+040	041	01.90	100.0	+09.0
+041	042	02.26	175.5	+05.0
+042	043	01.34	122.0	+10.0
+043	044	02.08	162.5	+08.0
+044	045	01.34	122.0	+10.0
+045	046	04.47	139.0	+07.0
+046	047	03.61	183.5	+09.0
+047	048	02.99	156.5	+04.0
+048	049	01.16	057.0	+10.0
+049	050	05.74	130.0	+06.0	;halfway between sts is small tube heading north, st050 has inlet to left
+050	051	04.17	173.5	+05.0
+051	052	01.94	127.0	+12.0
+052	053	02.00	155.0	+10.0	;st053 is end of choke
+
+*end	p7b

@@ -1,0 +1,43 @@
+;Cave:	Lancaster Hole - The Minarets
+;Surveyors:	R.Duffy/A.Whitney
+;Date:	09/02/03
+;Instruments:	PAG
+
+;;*equate	l4b.001	l4.017	;joined at end of Oakes Cavern
+
+*begin	l4b
+*export 001
+
+*calibrate compass	+5.0
+*calibrate clino	+0.5
+*calibrate tape	+1.0
+
+*flags duplicate ; (Minarets) tie-in duplicates 018-020 in l4
+001	002	02.00	 -	DOWN	;st001 is head height sitting on ledge down to Minarets
+002	003	10.18	078.0	-09.0
+003	004	08.08	324.0	-12.0
+*flags not duplicate
+004	005	16.89	314.5	+07.5
+005	006	24.20	320.0	 00.0
+
+006	006a	07.00	327.0	+13.0
+
+006	007	05.83	061.0	-15.0
+
+007	007a	04.16	347.0	+20.0
+
+007	008	04.69	120.0	+22.0
+008	009	13.06	130.0	-00.5
+009	010	05.64	062.0	-09.5
+
+010	010a	04.70	001.0	+22.0
+
+010	011	07.78	111.0	+20.0
+011	012	17.20	140.0	+02.5
+*flags duplicate ; (Minarets) tie-in duplicates 019-022 in l4
+012	013	03.85	238.0	-17.0
+013	014	03.10	196.0	-41.0
+014	004	08.90	236.0	-02.5
+*flags not duplicate
+
+*end	l4b

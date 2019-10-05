@@ -1,0 +1,33 @@
+;Cave:	County Pot - Guano Passage in Dismal Bypass
+;Surveyors:	R.Duffy/A.Hall
+;Date:	20/03/05
+;Instruments:	PAG + disto
+
+;;*equate cy10cii.001 cy10c.021	;Guano jrcc marked on wall by tag
+
+*begin	cy10cii
+*export 001
+
+*calibrate compass	+3.00
+*calibrate clino	-0.50
+;*calibrate tape		
+
+001	002	00.45	 -	DOWN	;st001=tag
+002	003	03.00	330.0	-15.0
+003	004	02.25	301.0	-19.0
+
+004	004a	02.32	157.0	-45.0	;st004 to 004b is passage on left choked at end
+004a	004b	04.60	125.0	-07.0
+
+004	005	13.05	311.0	+03.0
+
+005	005a	05.50	289.0	-02.0	;st005a is end of bedding low and choked
+
+005	006	03.38	227.0	+05.0	;st005 is where passage turns left away from muddy slime
+006	007	01.86	261.0	+07.0	;st007 is at awkward step in crawl up into Upper Molluscan Hall
+008	007	01.85	064.0	-31.0	;st008 is cy10c.028
+;008	009	02.60	319.0	-31.0
+;009	010	01.51	188.0	-30.0
+;010	011	05.65	237.0	-16.0	
+
+*end	cy10cii

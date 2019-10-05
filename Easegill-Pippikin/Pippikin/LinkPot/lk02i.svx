@@ -1,0 +1,46 @@
+;Cave:		re-survey Black Holes to Tiger's Inlet
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:		08/03/09
+;Instruments:	Disto + MKO
+
+;*equate lk02i.001 lk02a.001 ;tag at Black Holes
+;*equate lk02i.014b lk19.001 ;bolt at Tiger's Inlet
+;*equate lk02i.014b lk20i.027 ;bolt at Tiger's Inlet
+;*equate lk02i.014a lk19.000 ;bolt on opposite side of Tiger's Inlet
+;*equate lk02i.007a lk20i.004 ;pebble on white mark
+
+*begin	lk02i
+*export 007a
+*export 014a
+*export 001
+*export 014b
+
+;*calibrate compass	+1.00
+;*calibrate clino	+0.50
+*calibrate tape		 0.00
+
+*flags duplicate ; (Black Holes) explicitly stated resurvey duplicates 020-032 in lk02
+
+002	001	04.47	017.0	+23.0	;st001=tag at Black Holes
+002	003	04.63	092.0	-40.0	;st003 is foot of slope down hole
+004	003	04.65	268.0	-01.0	;st004 is star scratched in roof for linking passage to Arrow Pass.
+004	005	10.43	107.0	+05.0	;st005 is star in roof take off for Missed Passage
+005	006	05.21	103.0	+02.0
+006	007	05.18	039.0	-06.0	;st007 is head height sitting on boulder across rift
+
+007	008	04.33	004.0	+03.0	;st008=tag at Arrow Passage
+009	008	04.37	289.0	-04.0
+009	010	06.10	073.0	+05.0
+010	011	06.93	089.0	-02.0
+011	012	15.10	062.0	+01.0	;st012 is top of China Dog
+013	012	12.30	200.0	-04.0	;st013 is start of traverse
+013	014	17.93	066.0	+02.0
+
+014	014a	02.38	011.0	+05.0	;st014a=bolt on opposite side to Tigers Inlet
+014	014b	02.93	113.0	-03.0	;st014b= old chain bolt Tigers Inlet
+
+*flags not duplicate
+
+007	007a	08.73	285.0	-68.0	;leg to white section in lower passage
+
+*end	lk02i

@@ -1,0 +1,69 @@
+;Cave: Cow Pot entrance to Fall Pot and then Lanc.Main Drain MB217
+;Surveyors: Ray Duffy,Dave Edland
+;Date: 01/08/96
+
+;;*equate	Cw.031	L1.026
+;;*equate	Cw.031	L1a.001
+;;*equate	Cw.031	L2.001
+;*equate	cw.001	cw1.001
+;*equate	cw.003	cw3.000
+;*equate	cw.003	cw6.001
+
+*begin	cw
+
+*export 003
+*export 001
+*export 031
+
+*entrance 001
+
+*calibrate compass	+5.27
+
+001	002	00.80	287.5	-08.0	;001=SP48 small 1" hole near edge where rope goes
+002	003	20.43	 -	DOWN	;pitch down to head height
+003	004	07.70	269.0	+10.0
+004	005	06.37	180.0	-34.5	;head height after tight squeeze
+005	006	01.00	246.0	+06.0
+006	007	02.46	 -	DOWN
+007	008	02.60	281.5	-34.5	;L side of crawl in stream passage
+
+008	008a	06.80	354.0	+27.0	;upstream in crawl 1/3/97 A.Hall & M.Savage
+008a	008b	01.80	069.0	+17.0	;choke
+
+008	009	08.30	173.5	-00.5
+009	010	05.75	112.5	+01.5
+010	011	03.00	357.5	+05.0
+011	012	02.80	143.5	-00.5
+012	013	02.40	071.5	-00.5
+013	014	08.35	342.5	+00.5
+014	015	01.30	043.5	+02.5
+015	016	03.15	098.5	+02.0	;Junc. inlet on L bolt hole(pass=349.0deg)
+016	016a	10.00	349.0	+00.0	;made up leg to see direction
+016	017	03.05	176.5	-04.5
+017	018	02.05	110.5	+09.5
+018	019	02.10	013.5	-12.0	;Oxbow on R
+019	020	04.50	111.5	+02.0
+020	021	05.40	152.5	+00.5
+021	022	02.10	111.0	-09.0
+022	023	07.50	156.5	+02.0
+023	024	03.85	286.5	+04.0
+024	025	03.00	166.5	+01.0
+025	026	07.50	236.5	-02.5
+026	027	11.10	141.5	-01.0
+;date	19/08/96
+027	028	08.50	182.5	+03.5	;L side of shale bollard
+028	029	05.60	168.0	-01.0
+029	030	42.30	 -	DOWN
+030	031	05.90	158.0	+20.0	;st031=up524 TAGGED
+;031	032	04.50	291.0	-38.5
+;032	033	02.10	337.0	-38.0	;in boulders of fall pot
+;033	034	01.10	 -	DOWN
+;034	035	01.70	258.5	-23.0
+;035	036	02.75	010.0	-42.0
+;036	037	00.70	282.0	-22.0
+;037	038	04.55	 -	DOWN
+;038	039	03.50	355.5	-13.0	;st039=pete hall st73
+;039	040	06.20	095.0	-01.5	;st040=mb217(fall pot)TAGGED
+;040	041	01.70	063.5	-40.0	;ST041=head height in front of dribble from Woodhouse Way
+
+*end	cw

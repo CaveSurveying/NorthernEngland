@@ -1,0 +1,60 @@
+;Cave:		Top Sink - Old Limerick Passage - continuation
+;Surveyors:	Martin Green (Notes)
+;		Becka Lawson (Instruments)
+;		Julian Todd (Tape)
+;Date:		12/01/08
+;Instruments:	Becka's Shetland Attack Pony, Yellow open reel tape
+
+;*equate t06ai.00a t06a.017	;Piece of paper at end of previous survey T06a.017
+;*equate t06ai.00a t06aii.016 ;piece of paper on previous surveys
+;*equate t06ai.021 t06aiii.e	;tip of stal RH wall near climb down.
+
+*begin	t06ai
+*export 00a
+*export 021
+
+*calibrate compass	0.00
+*calibrate clino	0.00
+*calibrate tape		0.00
+
+00a	005	02.10	339.0	-20.0	;00A piece of paper at end of previous survey T06a.017
+005	006	04.53	293.0	-58.0	;005 RH wall at beginning of passage
+007	006	03.76	082.0	+27.0	;006 pencil RH wall at shoulder height
+007	008	02.15	252.0	+05.0	;007 rock on floor
+009	008	04.02	086.0	-14.0	;008 RH wall undecut
+009	010	03.68	220.0	-18.0	;009 pencil RH wall
+011	010	06.14	091.0	-07.0	;010 pencil RH wall
+011	012	04.73	282.0	-11.0	;011 pencil RH wall
+013	012	04.03	068.0	+53.0	;012 pencil RH wall at choke
+013	014	01.89	261.0	-58.0	;013 scratch RH wall. 014 pencil LH wall
+015	014	02.58	072.0	+27.0	;015 pencil RH wall, low.
+015	016	02.51	  -	 DOWN	;016 lower station
+017	016	02.99	060.0	 00.0	;017 pencil x 3rd stal
+018	017	05.44	041.0	+05.0	;018 18 scratched on rock in middle of passage
+019	018	02.29	018.0	+06.0	;019 pencil on calcite LH wall
+020	019	02.25	062.0	+08.0	;020 pencil RH wall
+*flags duplicate ; (Old Limerick) seems to duplicate e-020 in t06aiii.svx
+021	020	03.27	015.0	+09.0	;021 tip of stal RH wall near climb down.
+*flags not duplicate
+
+*end	t06ai
+
+;st	L	R	U	D	;details
+;00A					;00A piece of paper at end of previous survey T06a.017
+;005	0.4	0.0	~5.0	1.0
+;006	0.6	1.0	>5.0	1.6
+;007	0.6	1.0	~6.0	0.1
+;008	1.4	0.3	~5.0	0.6
+;009	0.8	0.5	~6.0	1.5
+;010	1.3	0.2	~5.0	1.3
+;011	1.0	0.3	3.5	1.6
+;012	2.5	0.4	2.6	3.7
+;013	2.5	2.5	1.2	1.8
+;014	0.1	0.4	2.5	2.5
+;015	0.4	0.1	1.6	0.4
+;016	
+;017	0.1	0.6	0.2	1.2
+;018	0.2	0.2	0.25	~2.0
+;019	0.0	0.35	0.5	2.0
+;020	0.5	0.0	0.4	1.7
+;021	0.1	0.25	0.2	3.0

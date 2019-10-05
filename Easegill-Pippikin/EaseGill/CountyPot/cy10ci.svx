@@ -1,0 +1,24 @@
+;Cave:	County Pot - Dismal Bypass - Far Gallery Extension
+;Surveyors:	R.Duffy/S.Lieberman/E.Linch
+;Date:	30/09/04
+;Instruments:	PAG
+
+;;*equate cy10c.008 cy10ci.001
+
+*begin	cy10ci
+*export 001
+
+*calibrate compass	+5.00
+*calibrate clino	-0.50
+*calibrate tape		+1.00
+
+001	002	08.13	067.0	 00.0	;st001 is head height in hole into chamber
+002	003	10.22	094.0	+07.0	;st002 is small stal on bend in muddy trench, st003 is beside large column
+003	004	06.32	055.0	+07.0
+004	005	03.60	020.0	+14.0	;st005 is small stal 3cm high in squeeze
+005	006	03.00	057.0	+25.0	;st006 is nob of rock below overhanging wall opposite squeeze
+006	007	04.25	321.0	+21.0
+007	008	03.23	037.0	+03.0
+008	009	04.55	072.0	-01.0	;st009 is very small cairn in bedding
+
+*end	cy10ci

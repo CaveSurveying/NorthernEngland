@@ -1,0 +1,32 @@
+;Cave:	County Pot - Trident - Bedstead Chamber to Guillotine Aven
+;Surveyors:	R.Duffy/S.Lieberman/H.St.Lawrence
+;Date:	03/12/02
+;Instruments:	PAG
+
+;*equate	trident19.001	trident13.002	;tag in bottom of Bedstead Chamber
+;*equate	trident19.001	trident20.002h	;tag in bottom of Bedstead Chamber
+;*equate	trident19.001	trident22a.006	;tag in bottom of Bedstead Chamber
+;*equate	trident19.005c	trident12.004	;tag in Final Chamber loop
+;*equate	trident19.005c	trident20.001	;joined at Final Chamber(bottom of Guil.Aven)
+;*equate	trident19.005c	trident21.001	;joined at Final Chamber(bottom of Guil.Aven)
+
+
+*begin	trident19
+*export 005c
+*export 001
+
+*calibrate compass	+4.50
+*calibrate clino	00.0
+
+001	002	01.00	 -	UP	;st001=tag in Bedstead Chamber
+002	003	05.60	153.0	+25.0	;st003 is at bottom of rope on ledge of Bedstead
+003	004	06.90	 -	UP	;st004 is head height at top of pitch
+004	005	03.60	148.0	+11.0	;st005 is at junction to Guillotine, bolts above to bedding??????
+005	006	06.46	146.0	+32.0	;st006 is in small chamber
+006	007	02.43	146.0	 00.0	;st007 is in choke at end of chamber
+
+005	005a	01.95	059.5	+20.0	;st005a is on rope at lip of pitch
+005a	005b	07.80	 -	DOWN	;st005b is kneeling at bottom of rope
+005b	005c	05.19	143.0	-50.0	;st005c=tag9a in Final Chamber start
+
+*end	trident19

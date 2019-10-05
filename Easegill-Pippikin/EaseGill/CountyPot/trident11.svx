@@ -1,0 +1,44 @@
+;Cave:	County Pot - Trident - Upstream Key Passage loop
+;Surveyors:	R.Duffy/S.Lieberman/A.Whitney
+;Date:	25/09/02
+;Instruments:	PAG
+
+;*equate	trident11.001	trident09.007
+;*equate	trident11.005	trident12.012
+;*equate	trident11.015	trident12.001
+;*equate	trident11.011a	trident13.001
+
+*begin	trident11
+*export 001
+*export 011a
+*export 015
+*export 005
+
+*calibrate compass	+3.00
+*calibrate clino	0.00
+*calibrate tape	+1.00
+
+001	002	04.55	117.0	+05.0	;st001=tag6
+002	003	02.41   057.0	+12.0   ; spaces added between compass and clino and decimal moved due to syntax error (JGT) 
+ 
+003	004	07.03	099.0	+11.0
+004	005	06.40	154.0	+08.0	;st005=tag7
+005	006	02.03	356.0	-16.0	;st006 is in small chamber with tag following legs up right hand passage
+006	007	06.19	195.0	+21.0
+007	008	02.25	094.0	-15.0
+008	009	04.41	149.0	+05.0
+009	010	03.16	170.0	+07.0
+010	011	01.56	 -	UP
+
+011	011a	02.11	125.0	+13.0	;st011a=tag8
+
+011	012	03.09	136.0	+08.0
+012	013	03.14	114.0	-05.0
+013	014	07.11	135.0	+08.0	;between staions is aven 7m too tight at top with inlet at top from right
+014	015	01.57	 -	UP	;st015=tag9 beside dribbly crawl on left to aven
+015	016	05.05	196.0	+04.0	;following right hand passage, small
+016	017	02.19	126.0	+08.0
+017	018	02.49	173.0	-08.0
+018	019	03.58	110.0	+20.0	;st019 is in boulder choke, no way on
+
+*end	trident11

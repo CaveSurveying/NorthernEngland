@@ -1,0 +1,33 @@
+;Cave:	Depot 1 - from Sandy Slope chamber to top of rope aven off main Depot passage
+;Surveyors:	H.St.Lawrence/D.Ramsay
+;Date:	16/01/05
+;Instruments:	Kit 5
+
+;*equate	wr22c.001 wr22.009 ;top of boulder looking into sandy slope chamber
+;*equate	wr22c.015 wr20.005t ;2m up rope in rope aven
+
+
+*begin	wr22c
+*export 001
+*export 015
+
+*calibrate compass	+5.00
+*calibrate clino	-1.00
+*calibrate tape		+9.00
+
+001	002	10.85	138.0	+34.0	;sighting to base of sandy slope
+002	003	15.15	260.0	+51.0	;leg up (!) sandy slope
+003	004	17.20	351.0	-01.0	
+004	005	11.35	028.0	-01.0	
+005	006	11.20	331.0	+01.0	
+006	007	12.20	299.0	-01.0
+007	008	12.20	345.0	-01.0
+008	009	13.70	020.0	 00.0	
+009	010	14.90	337.0	-43.0	;down narrow rift with sandy floor
+010	011	12.60	316.0	-31.0	
+011	012	11.00	337.0	+24.0
+012	013	11.65	271.0	+07.0
+013	014	10.45	330.0	-06.0	;stn14=on right wall at head of vertical drop
+014	015	19.00	-	DOWN	;stn15=head height up rope from bottom of pitch (2m?)
+
+*end	wr22c

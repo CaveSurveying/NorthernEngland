@@ -1,0 +1,47 @@
+;Cave:		Boundary Pot - Hiroshima slot in floor of bedding
+;Surveyors:	S.Allshorn/M.Cooper?
+;Date:		?
+;Instruments:	?
+
+;*equate	Bdy3bi.012 Bdy3b.001
+
+*begin	bdy3bi
+
+*export 012
+
+;*date
+
+;*calibrate compass		
+;*calibrate clino		
+;*calibrate tape		
+		
+000	001	04.14	259.0	-11.0
+001	002	03.42	275.0	-06.0
+002	003	03.53	269.5	-08.0
+003 	004	04.38	242.5	+02.0
+004	005	02.45	255.0	-06.0
+005	006	04.51	226.0	+03.0
+006	007	02.79	105.0	-10.0
+007	008	03.50	048.0	+14.0
+008	004	02.17	005.5	  00.0	;below station 8 was a truely aweful series of squeezes that lead finally to a final nasty sqeeze past a massive loose flake that reach the floor with water running over it but with no way on at all.
+006	009	03.06	146.0	+36.0 	;opposite station 9 was an unsurveyed section that looped back into the main chamber but was very loose.
+009	010	03.62	098.0	+41.0
+011	010	05.96	162.0	+06.0
+011	012	00.75	  -	UP 	;12 is the corner of the slot in the floor along the bedding.
+
+*end 	bdy3bi
+
+;st	l	r	u	d	comments
+;0	0.0	0.3	1.5	0.4
+;1	0.3	0.6	0.2	0.0
+;2	0.2	1.1	0.3	0.3
+;3	0.0	0.3	0.5	0.3
+;4	0.7	0.7	0.4	0.0	below station 8 was a truely aweful series of squeezes that lead finally to a final nasty sqeeze past a massive loose flake that reach the floor with water running over it but with no way on at all.
+;5	0.5	0.2	0.6	0.0
+;6	0.4	0.0	0.0	0.6	opposite station 9 was an unsurveyed section that looped back into the main chamber but was very loose.
+;7
+;8
+;9
+;10
+;11
+;12					12 is the corner of the slot in the floor along the bedding.

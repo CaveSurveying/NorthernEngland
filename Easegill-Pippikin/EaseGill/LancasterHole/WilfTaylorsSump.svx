@@ -1,0 +1,11 @@
+; all Wilf Taylor's sump data
+
+*begin WilfTaylorsSump
+
+*export md8s1.009
+*equate md8s1.009 md8s2.009
+
+*include	md8s1
+*include	md8s2
+
+*end WilfTaylorsSump

@@ -1,0 +1,33 @@
+;Cave:	Pool Sink - Magpie Grotto inlets part1
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:	28/05/05
+;Instruments:	PAG
+
+;*equate p1f.001 p1d.031	;tag at Magpie Grotto
+
+*begin	p1f
+*export 001
+
+*calibrate compass	+2.00
+*calibrate clino	-0.50
+*calibrate tape		+1.00
+
+001	002	06.42	046.5	+14.0	;st001=tag on large stal boss
+002	003	07.00	108.0	+02.0
+003	004	03.80	140.0	+02.0	;st004 is end of obvious crawl at back of grotto, ends in flat out crawl in mud and cobbles
+
+002	002a	04.52	200.0	+04.0	;st002a is small passage to right of obvious crawl
+002a	002b	03.10	130.0	+13.0	;st002b has alcove on right that joins to aven at main chamber
+002b	002c	02.93	182.0	+04.5
+002c	002d	02.30	 -	UP	;st002d has small slot through ot streamway right of aven in main chamber
+002d	002e	02.89	150.0	+10.0
+002e	002f	02.30	096.0	+16.0	;st00f is junction main way on to right
+002f	002g	02.00	 -	UP
+002g	002h	02.08	075.0	+29.0	;st002h is slot right through ot main way on and left to step up to small chamber of rocks
+002h	002i	03.27	326.0	+24.0
+002i	002j	04.00	280.0	-40.0	;estimated leg down dangerous loose ramp to hole at back of aven in main chamber
+
+002h	002h1	03.37	203.0	-06.0	;leg through slot to main passage
+002h1	002h2	03.94	087.0	+12.5	;st002h2 is end of passage in large cobbles with draught going out to surface not far away?
+
+*end	p1f

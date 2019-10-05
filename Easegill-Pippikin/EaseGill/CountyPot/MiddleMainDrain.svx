@@ -1,0 +1,36 @@
+;Stop Pot to Holbeck Junction
+
+*begin MiddleMainDrain
+
+*export md5.025
+*export md4.002
+*export md4.012
+*export md4.001
+*export md6.130
+*export l5i.007
+
+*equate straw.005 straw1.001 ; from straw1.svx
+*equate dep.008a md4.012 ; from dep.svx
+*equate md4.008 straw.001 ; from md4.svx
+*equate md4.012 md5.012 ; from md4.svx
+*equate md4a.010 md4c.004 ; from md4a.svx
+*equate md4a.010 straw.004 ; from md4a.svx
+*equate md5.019 md5a.001 ; from md5a.svx
+*equate md5.025 md6.001 ; from md5.svx
+*equate l5i.007 stop.007 ; from l5.svx
+*equate l5i.001 md4.012 ; from l5.svx
+*equate md4.012 md5a.010 ; from l5.svx
+
+*include  	l5i
+*include	md4
+*include	md4a
+*include	md4c
+*include	md5
+*include	md5a
+*include	md6
+*include	straw
+*include	straw1
+*include	stop
+*include	dep
+
+*end MiddleMainDrain

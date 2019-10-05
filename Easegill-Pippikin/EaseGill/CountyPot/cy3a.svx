@@ -1,0 +1,20 @@
+;Cave:	County Pot - Side passage off bottom of County first Pitch to Snake
+;Surveyors:	R.Duffy/T.Eastwood/H.Blyth
+;Date:	20/03/04
+;Instruments:	PAG
+
+;;*equate	cy3a.001 cy1b.009
+
+*begin	cy3a
+*export 001
+
+*calibrate compass	-10.00
+*calibrate clino	+2.50
+*calibrate tape		-0.70
+
+001	002	07.53	103.0	+19.0	;st001=tag at molephone base
+002	003	02.39	015.0	+06.0	;start of tight bedding crawl
+003	004	03.65	074.0	+05.0
+004	005	02.68	062.0	+03.0	;st005 is right hand wall facing into Snake at end of crawl
+
+*end	cy3a

@@ -1,0 +1,36 @@
+;Cave:	Lancaster Hole - Maracaibo from the end of the Bloody Thigh Rift
+;Surveyors:	R.Duffy/A.Whitney
+;Date:	14/07/02
+;Instruments:	PAG
+
+;*equate	mar02.001	mar01.001
+;*equate	mar02.014	mar03.001
+
+*begin	mar02
+*export 001
+*export 014
+
+*calibrate compass	+4.50
+*calibrate tape	+1.00
+
+001	002	01.49	 -	DOWN	;st001=tag
+002	003	04.18	080.0	+31.0	;through dry oxbow, stream to right
+003	004	04.66	133.0	-41.0	;st004 head height in stream just under roof
+004	005	15.48	123.0	+01.0	;st005 at head height in front of white stal boss with climb up to dry route above
+005	006	04.33	116.0	+05.0	;continuing in low stream passage
+006	007	06.17	077.0	-01.0
+007	008	07.11	110.0	+02.0
+008	009	11.22	110.0	+03.0
+009	010	11.52	134.0	+03.0
+010	011	06.47	127.0	+02.0
+011	012	04.51	180.0	+07.0
+012	013	07.08	163.0	+11.0	;leg from streamway to chamber
+013	014	01.74	049.0	-26.0	;st014=tag around stal on left at middle of chamber Tortuga Way
+014	015	10.34	297.0	+03.0	;returning through high level oxbow
+015	016	05.03	271.0	+06.0	;through squeeze to sharp bend in bedding passage
+016	017	01.71	 -	UP
+017	018	20.19	314.0	-02.0
+018	019	14.06	305.0	-02.0
+019	005	06.28	327.0	-27.0	;leg back to white boss
+
+*end	mar02

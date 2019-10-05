@@ -1,0 +1,32 @@
+;Cave:	Trident - top of Jim's rope climb near splash inlet, downstream to splash pitch & tag
+;Surveyors:	Ray Duffy 	Instruments, notes, pictures
+;		S.Lieberman	tape / ferret
+;Date:	15/04/03
+;Instruments:	PAG
+
+;*equate trident25a.001	trident17.008
+;*equate	trident25a.008	trident01.yt2
+;*equate	trident25a.008	trident05.001
+;*equate	trident25a.008	trident07.001
+;*equate	trident25a.008	trident17.001	
+;*equate	trident25a.008	trident25.001	
+
+*begin	trident25a
+*export 001
+*export 008
+
+*calibrate compass	+4.50
+*calibrate clino	+1.00
+*calibrate tape		+1.00
+
+*flags duplicate ; (Trident) duplicated (cut&paste) to trident25ai in Swindon Hole
+002	001	02.70	130.0	+23.0	;stn001	RH wall at jct with passages to bouldery chamber and upstream splash inlet
+003	002	02.52	024.0	+37.0	;stn003 lying above puddle top end of rift
+004	003	05.00	155.0	-02.0	;stn004 flake on wall end of rift
+005	004	02.69	035.0	+40.0	;stn005 stood in chamber at top of pitch
+005	006	02.68	338.0	-61.0	;stn006 top of pitch
+006	007	06.02	-	 DOWN	;stn007 bottom of pitch
+007	008	04.93	260.0	+09.0	;stn008 is tag in splash chamber
+*flags not duplicate
+
+*end	trident25a

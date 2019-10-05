@@ -1,0 +1,9 @@
+; Sylvester Pot
+
+*begin SylvesterPot
+*export syl2.425
+*export syl2.503
+
+*include syl2
+
+*end SylvesterPot

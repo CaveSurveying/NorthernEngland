@@ -1,0 +1,65 @@
+;Cave:	Link to Echo Aven
+;Date:	20/01/97pm
+;Surveyors:	R.Duffy/P.Grant/I.Chittenden
+;Instruments:	Red Rose Sunto Compass & Clino, PAG 30m Tape
+
+;*equate	lk01.003 lk02.042
+;*equate	lk01.020 lk04.000
+;*equate	lk01.034 lk13.007
+;;*equate lk01.034 wm.001	;Equate linking Easegill to Link / Pippikin moved to all.svx
+;;*equate lk01.001 sf5.014
+;*equate	lk01.002 lk01a.008a	;base of ent. pitch
+;*equate	lk01.008 lk01a.014	;tag at start of passage to Echo Pot
+;*equate	lk01.003 lk01a.009	;tag at Bypus Bypass
+
+*begin	lk01
+*export 002 
+*export 003 
+*export 008 
+*export 020 
+*export 034
+
+*entrance 001
+
+*fix 001 66850.69 80345.27 279.94 ;ev.sf5.014
+
+*calibrate compass	+5.13
+
+001	002	15.67	 -	DOWN	;ent. pitch
+*flags duplicate ; (Caton Hall) tie-ins duplicate 008a-011 in lk01a
+002	003	10.45	230.0	-04.0	;st003=tag bypus pybass
+003	004	19.00	277.0	-02.0	;st004 is spike of rock near left wall
+004	005	02.45	305.0	+08.0	;st005 is spike on boulder
+*flags not duplicate
+005	006	07.16	228.0	-16.5	;st006 has passage on left
+006	007	03.20	243.0	-30.5
+007	008	02.18	263.5	-01.5	;st008=tag
+008	009	02.69	321.5	+03.0
+009	009a	05.98	073.0	-07.0	;stream passage to choke
+009	010	05.55	258.0	-03.0	;stream trench on left 009-011
+010	011	04.15	292.5	-15.0	;slot in floor
+011	012	01.50	 -	DOWN	;st012 to st017 is body sized crawl through boulders(Sword of Damocles)
+012	013	02.39	312.0	-23.0
+013	014	01.03	238.0	-05.0
+014	015	01.70	179.0	-15.0
+015	016	03.72	220.0	-05.0
+016	017	02.45	255.0	+05.5	;squeeze pass flake (check possible passage straight on)
+017	018	02.24	327.0	-19.0
+018	019	02.39	339.0	-24.0
+019	020	03.90	304.0	-37.0	;st020=tag (Echo Crawl on right)
+020	021	00.85	 -	UP
+021	022	04.85	260.0	-09.5	;over boulder (check passage straight on)
+022	023	04.00	342.5	-08.5
+023	024	02.13	267.5	-08.5
+024	025	03.55	273.0	-30.0
+025	026	00.60	 -	UP
+026	027	01.50	220.5	+06.0
+027	028	02.72	301.5	-06.0
+028	029	00.25	 -	DOWN
+029	030	01.90	242.0	-13.0	;st030=first bolt on right wall
+030	031	02.45	161.0	-42.0
+031	032	01.85	212.0	-12.0	;knot on Y-hang
+032	033	20.50	 -	DOWN	;pitch to head height Echo Aven
+033	034	03.00	299.0	-19.0	;st034=tag
+
+*end	lk01

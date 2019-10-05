@@ -1,0 +1,24 @@
+;Cave:	Lancaster Hole-Skittle Alley Sump to Stemple Traverse
+;Surveyors:	Ben Shaw/Ray Duffy/Frank
+;Date:	12/08/00
+;Instruments:	Kit 1
+
+;;*equate	sa3.001a sa1.008a
+
+*begin	sa3
+*export 001a
+
+*calibrate compass	+6.50
+
+001a	001b	01.70	 -	UP	;st001a is sump level
+001b	001	10.70	355.0	+25.0
+001	001c	06.00	345.0	+16.0	;st004 is head height below inlet on right of passage facing sump
+001	002	01.70	 -	UP
+002	003	11.20	175.0	+27.0
+003	004	06.40	172.0	+29.0	;st004 is end of stemple traverse
+004	005	07.20	170.0	+42.0
+005	006	06.80	 -	UP	;ladder pitch
+006	007	06.70	170.0	+24.0	;into boulder choke
+007	008	04.50	180.0	+10.0	;end of bouldery chamber
+
+*end	sa3

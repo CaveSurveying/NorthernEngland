@@ -1,0 +1,30 @@
+;Cave:	Wretched Rabbit - Crystal Pool Passage
+;Surveyors:	H.Blythe/R.Duffy
+;Date:	05/05/03
+;Instruments:	PAG
+
+;*equate	wr14.012	wr.098
+;*equate	wr14.012	wr15.019
+
+*begin	wr14
+*export 012
+
+*calibrate compass	+5.00
+*calibrate clino	+0.50
+*calibrate tape		+2.00
+
+
+001	002	05.29	144.0	-17.0	;st001 is in far fight corner of sloping choked chamber
+002	003	06.61	030.0	-37.0
+003	004	04.22	311.5	-40.0
+004	005	04.33	 -	DOWN	;climb down between stal and block
+005	006	10.12	320.0	-11.0
+006	007	04.95	307.0	-03.0
+007	008	05.20	033.0	-01.0
+008	009	04.70	019.0	-06.0
+009	010	08.74	313.0	-14.0
+010	011	08.39	312.0	-09.0
+011	012	04.52	235.0	-25.0	;st012 is fang
+012	013	03.30	 -	UP	;st013=tag in roof above spike at start of crawl to streamway
+
+*end	wr14

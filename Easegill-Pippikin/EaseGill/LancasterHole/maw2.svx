@@ -1,0 +1,90 @@
+;Survey      : Nice Way, off Mancunion Way, Easegill
+;Date        : 13/01/2001
+;Tape        : Andy Ive
+;Instruments : Sam Lieberman for legs 1 to 3, Andy Hall for the rest
+;Drawings    : Sam Lieberman
+;Compass S/N : 011673 (kit1)
+;Clino S/N   : 51718
+
+;*equate	maw2.0	maw1.025
+;;*equate	maw2.24	sylv1.syl2.503
+;;;*equate	maw2.24	maw3.000
+;*equate	maw2.4	maw4.001
+;*equate maw2.12	maw5.001
+;*equate maw2.18	maw5.011
+;*equate maw2.20	maw5.021
+
+*begin maw2
+*export 24
+*export 12
+*export 20
+*export 18
+*export 0
+*export 4
+
+*calibrate compass	+6.50
+
+*fix 24 67321.56 80605.89 283.75 ;st20 is top of first pitch to Clough's Passage
+
+0	1	7.6	216	+10
+1	2	8.0	186	+01
+2	3	5.0	139	+06
+3	4	6.0	120	+38
+4	5	10.6	157	+25
+5	6	3.3	204	-10
+6	7	2.3	-	 UP
+7	8	6.7	111	-06
+8	9	24.7	149	+03
+9	10	9.4	091	-03
+10	11	30.5	134	+03
+11	12	13.9	141	+03
+12	13	10.5	109	+03
+13	14	5.2	093	+06
+14	15	6.1	145	+04
+15	16	10.5	192	+07
+15	17	9.1	113	+06	;Following 2 legs were split from the 1 originally measured to accommodate a junction at stn 18.
+17	18	7.1	100	+02
+18	19	8.6	100	+02
+19	20	4.2	135	+05
+20	22	8.6	163	+09
+22	23	0.6	-	DOWN
+23	24	1.0	253	00	;st24=syl1.503
+22	21	1.6	163	+09
+
+*end	maw2
+
+;20	21	10.2	163	+09 This was the last properly measured leg
+; however it overshot the pitch to Cloughs. To link in to the bolt on the pitch
+; we measured 1.6m back along the leg, then 0.6m plumb down and 1.0m perpendicular
+; to the right of the leg in the direction of surveying.
+; Thus I propose: -
+
+; Could probably do with resurveying properly from stn 20.
+
+;STN	L	R	U	D	;Description
+;0	1	0.3	0.6	Pitch	;Bolt at top of Easegill aven
+;1	1	1	0.3	0.3	;L. edge at top of boulder in middle of crawl
+;2	1	0	0.2	0.3	;R.H. wall in crawl
+;3	3.5	3.5	4	0	;Top of boulder in floor of chamer at end of crawl
+;4	0	2	4	1.5	;Tag in crack of L.H. wall below sideline
+;5	0	4	0	1	;Wall, shelf on L.H. side before climb thro boulders
+;6	2	2	7.3	0	;Base of climb up through boulders
+;7	0	0.5	2.3	5	;L.H. wall in passage above climb.
+;8	4	1.5	1.5	1.5	;Calcite bulge R.H.S.
+;9	3	0	1	1	;Wall R.H.S. joint in roof.
+;10	1.5	5	1	0.2	;Rock in floor L.H.S. straw infested passage
+;Passage averages 5m wide between legs 10 & 11, cross section similar to stn 11
+;11	2	2	1.5	0.1	;Floor of passage
+;12	2	2	0.7	1	;Top of rock at dividing point of Jnct.
+;13	1.5	0.5	0.6	0.6	;R.H. wall @ R.H. bend in passage, slabs in floor
+;14	0.4	1	0.3	1	;Shelf L.H.S. passage, trench in floor
+;15	1.2	1	0.6	1	;Shelf R.H.S. at exit of bedding crawl
+;16	0.6	0	0.2	0.2	;R.H. wall in R.H. branch end of crawl. Diggable
+;17	2	0	0.3	0.3	;R.H.shelf above far end of oxbow trench R.H.S.
+;18	3.5	2	0.3	0.3	;Cairn at junction R.H.S.
+;19	0.4	2	0.5	0.6	;Shelf L.H.S. opposite too tight tube on right
+;20	1	1.2	0.4	0.5	;Tag in mud separating L & R passages at Junction
+;21	2	1.5	0	0.6	;Scratched cross in roof 1.6 m past Cloughs bolt.
+;22					;Ficticious Stn 1.6m back on last leg, opposite bolt
+;23					;Ficticious Stn, 0.6m below Stn 22
+;24					;Bolt at the top of chimney down to Cloughs

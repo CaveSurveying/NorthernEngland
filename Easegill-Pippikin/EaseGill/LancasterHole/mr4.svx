@@ -1,0 +1,23 @@
+;Cave:	Lancaster Hole-Stake Pot series
+;Surveyors:	R.Duffy/T.Eastwood/J.Baker
+;Date:	15/12/01
+;Instruments:	PAG
+
+;*equate	mr4.001	mr3.023
+;*equate	mr4.005	mr1.001	
+
+*begin	mr4
+*export 001
+*export 005
+
+*calibrate compass	+5.00
+
+001	002	02.50	333.5	-01.0	;st001=squeeze on survey Mr3
+002	003	03.00	015.0	+17.0
+003	004	07.75	343.5	-28.0	;st004 is on large boulder in Stake Pot slope at bottom of mud slope
+004	005	10.35	037.0	-26.0	;st005=tag at start of Magic Roundabout in Main Drain
+005c	005b	04.00	035.0	-15.0	;st015c is spike in drain 1m below spike in lip of Barlick New Road exit.  Passge blocked 2m in by boulder collapse
+005b	005a	05.00	 -	UP	;up through boulder choke
+005a	005	09.00	067.5	-18.0	;tag again
+
+*end	mr4

@@ -1,0 +1,36 @@
+;Cave:		Link Pot - Upstream Serendipity
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:		29/08/07
+;Instruments:	PAG + disto
+
+;*equate	lk18.013 lk11.012 ;st012=tag on bolt at top of Serendipity Pitch
+
+*begin	lk18
+*export 013
+
+*calibrate compass		+3.00
+*calibrate clino		+0.50
+*calibrate tape		 0.00
+
+002	001	04.11	319.0	 00.0	;upstream limit on right of small sump-like pool
+003	002	03.92	004.0	 00.0
+004	003	08.21	029.0	+00.5
+
+004	004a	01.90	265.0	+10.0
+004a	004b	03.00	215.0	+55.0	;st004b is enormous cobble top of small aven
+
+004	005	07.73	164.0	-08.0
+005	006	01.22	 -	UP
+006	007	12.06	239.0	-01.0
+007	008	07.56	170.0	+00.5
+008	009	12.79	234.0	-01.0
+009	010	07.00	316.0	-02.0	;st010 is bottom of rope from Expulsion Series etc.
+
+010	010a	09.07	167.0	+04.0
+010a	010b	06.27	128.0	+08.0
+
+011	010	12.30	140.0	+04.0	
+012	011	06.12	068.0	+02.0	;st012 is directly below small wet aven
+012	013	05.79	238.0	+05.0
+
+*end	lk18

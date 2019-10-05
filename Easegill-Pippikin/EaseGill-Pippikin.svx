@@ -1,0 +1,17 @@
+; includes all of Ease Gill and Pippikin
+
+*cs OSGB:SD
+*cs out EPSG:7405
+
+; From Magic Map, Lancaster Hole is (OSGB36) 366362 480691
+; Grid Ref = SD 663 806
+;cf *fix	001	66403.16 80716.84 293.99	;ev.ss26.038
+
+; links Easegill to Link/Pippikin at tag in Echo aven
+*equate EaseGill.EPC71.wm.001 Pippikin.LinkPot.lk01.034
+
+; links Easegill to Link Pippikin via the Grind
+*equate EaseGill.EPC71.GrindEasyStRoofTube.001 Pippikin.LinkPot.lk12.033
+
+*include EaseGill\EaseGill
+*include Pippikin\Pippikin

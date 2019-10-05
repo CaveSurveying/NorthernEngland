@@ -1,0 +1,8 @@
+;Pippikin Wet Sink
+
+*begin PipSink
+*export pipws.34 
+
+*include pipws
+
+*end PipSink

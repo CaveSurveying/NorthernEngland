@@ -1,0 +1,21 @@
+;Cave:	County Pot - Trident - Downstream Crystal Floor Passage Continued
+;Surveyors:	R.Duffy/H.St.Lawrence/A.Whitney
+;Date:	24/04/03
+;Instruments:	PAG
+
+;*equate	trident26.001	trident10.000
+
+*begin	trident26
+*export 001
+
+*calibrate compass	+5.00
+*calibrate clino	+00.5
+*calibrate tape		+2.00
+
+002	001	05.55	130.5	-10.0	;st001=tag where side passage joins
+003	002	05.55	208.0	-50.0
+004	003	04.16	154.0	+32.0
+004	005	03.85	 -	DOWN	;climb down to crystal floor lower passage below choke
+005	006	08.00	344.0	 00.0	;final leg esimated length
+
+*end	trident26

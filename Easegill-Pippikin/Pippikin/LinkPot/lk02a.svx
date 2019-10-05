@@ -1,0 +1,49 @@
+;Cave:	Link Pot - towards Damnation Aven
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:	29/03/07
+;Instruments:	PAG+ disto
+
+;*equate	lk02a.001 lk02.032 ;tag at Black Holes
+;*equate	lk02a.019 lk14.001 ;tag, base of Damnation Aven
+;*equate	lk02a.005 lk16.001 ;st005 is star mark in roof at junction with small connecting pass. to Arrow on left.
+;*equate	lk02a.012a lk16.010 ;st012a=tag in roof at juction to small passage back to Black Holes
+;*equate	lk02a.001 lk02i.001 ;tag at Black Holes
+
+*begin	lk02a
+*export 012a
+*export 019
+*export 001
+*export 006
+*export 005
+
+*calibrate compass		+2.00
+*calibrate clino		+0.50
+*calibrate tape		 0.00
+
+002	001	04.34	030.0	+17.5	;st001=tag at Black Holes
+
+002	002a	03.49	060.0	+02.0	;st002a is entrance to small passage to left facing Black Hole cont.
+002a	002b	05.48	117.0	-05.0	;too tight inlet
+
+002	003	05.94	311.0	+17.0	;st002 is base of run-in from aven
+
+002	004	05.91	097.0	-37.0	;floor at passage from Black Holes
+005	004	04.12	262.0	-02.5	;star mark in roof at junction with small connecting pass. to Arrow on left.
+005	006	10.50	110.0	+05.0	;star mark in roof at junction with Missed  Passage to right
+006	007	05.82	100.0	+03.0
+007	008	07.86	020.5	-04.5	;top of Arrow Boulder
+008	009	02.64	294.0	-00.5	;Arrow Passage
+009	010	01.71	020.0	-04.0
+010	011	01.84	338.0	-01.0	;st011 has 2 passages on right acutely
+011	012	04.76	293.5	-03.5
+012	012a	00.20	 -	UP	;st012a=tag in roof at juction to small passage back to Black Holes
+012	013	06.03	317.0	-02.0	;st013 has several small passages both sides
+013	014	08.62	289.0	-03.5	;st014 top of right hand boulder
+014	015	01.78	274.0	-05.0
+015	016	04.22	215.0	-02.0	;from st015 to017 complex of side passges all small, wet and muddy
+016	017	05.22	266.0	-02.0
+017	018	09.17	295.0	-04.0	;st018 is on boulder right wall of larger passage at juntion
+018	019	07.32	293.0	-13.0	;st019=tag ot foot of drip in aven near climb up
+018a	018	09.12	334.0	-10.0	;st018a is top of muddy slope/choke in side passge
+
+*end	lk02a

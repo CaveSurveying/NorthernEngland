@@ -1,0 +1,30 @@
+;Cave:	Lancaster Hole-Graveyard Trench route from Big Stal to Skittle Alley Passage
+;Surveyors:	Ray Duffy/Tim Eastwood/Dave Edland
+;Date:	10/01/98 pm
+;Instruments:	PAG
+
+;;*equate	gv3.001	gv2.013
+;;*equate	gv3.015	gv.025
+
+*begin	gv3
+*export 001
+*export 015
+
+*calibrate compass	+5.00
+
+001	002	07.48	204.0	+06.0	;st001=gv2.013
+002	003	02.42	299.0	-06.0
+003	004	04.07	329.0	+14.0
+004	005	03.80	337.0	-06.0
+005	006	04.45	270.0	+02.0
+006	007	02.08	245.0	+06.0
+007	008	01.91	175.0	 00.0
+008	009	10.86	252.0	+06.0
+009	010	02.04	325.0	+05.0
+010	011	05.40	277.5	+03.0
+011	012	08.72	216.0	+03.0
+012	013	09.40	180.0	 00.0
+013	014	04.26	197.0	+00.5
+014	015	04.20	148.0	+25.0	;st015=gv.025
+
+*end	gv3

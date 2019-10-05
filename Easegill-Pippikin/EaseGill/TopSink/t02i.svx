@@ -1,0 +1,66 @@
+;Cave:		Top sink CRG extension (part 1)
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:		23/11/08
+;Instruments:	MKO + Disto
+
+;*equate t02i.001 t09b.001 ;tag at Limerick Juntion
+;*equate t02i.042 t02a.001 ;tag on spike on route to Cobweb Chamber
+;*equate t02i.042 t02ii.001 ;tag on spike on route to Cobweb Chamber
+;*equate	t02i.010 t01biii.029 ;st010 is striped tape on top of spike at start of passage
+
+*begin	t02i
+*export 010
+*export 001
+*export 042
+
+*calibrate compass	00.0
+*calibrate clino	00.0
+*calibrate tape		00.0
+
+*fix 010 67844.78 81071.71 307.48 ;is striped tape on top of spike at start of CRG passage
+
+*flags duplicate ; (part of Limerick junction) seems to duplicate 100-104 in t01bii.svx
+001	002	00.59	 -	UP	;st001=tag at Limerick Junction UP105
+002	003	07.02	316.0	+20.0	;into dry oxbow
+003	004	03.03	314.0	+11.0
+004	005	03.24	000.0	+03.0
+006	005	02.65	285.0	+03.0
+006	007	02.62	129.0	-04.0	;st007 is head height standing on corner with bedding back through to st001 visible from knee height
+007	008	07.46	051.0	+06.0
+008	009	05.35	054.0	+32.0	;st009 is top of plastic bag in CRG with oxbow to right
+010	009	01.25	140.0	+05.0	;st010 is striped tape on top of boulder at top of slope level with bag
+*flags not duplicate
+011	010	03.02	269.0	+07.0
+011	012	02.89	185.0	-14.0
+012	013	03.05	098.0	-12.0
+013	014	04.82	040.0	+49.0
+014	015	03.05	353.0	+37.0
+015	016	03.43	108.0	+23.0
+016	017	02.10	191.0	-03.0
+017	018	02.81	 -	DOWN	;climb down through tight hole through boulders
+019	018	00.92	008.0	+11.0	;st018 has climb down to oxbow to st020
+019	020	02.61	052.0	-12.0
+020	021	03.22	117.0	+34.0
+021	022	02.74	032.0	-16.0
+022	023	05.78	109.0	-16.0
+023	024	05.15	181.0	+41.0
+024	025	03.41	068.0	-40.0
+025	026	06.75	170.0	-05.0
+026	027	01.11	 -	DOWN
+027	028	05.62	141.0	+02.0
+028	029	03.11	094.0	+12.0
+029	030	02.07	014.0	+06.0
+030	031	05.14	076.0	+24.0	;leg goes under triangular chockstone
+031	032	03.23	145.0	+02.0
+032	033	01.67	058.0	-05.0	;st033 has helectites in roof
+033	034	04.07	107.0	+03.0
+034	035	02.11	148.0	+04.0
+035	036	01.83	114.0	-07.0
+036	037	01.89	149.0	-19.0
+037	038	05.84	109.0	+07.0
+038	039	09.98	062.0	+12.0	;up large dry mud/sand slope
+039	040	07.74	091.0	+15.0	;st040 has stals in roof
+040	041	04.65	122.0	 00.0
+041	042	02.75	055.0	+19.0	;st042=tag on spike on climb up to Cobweb Chamber
+
+*end	t02i

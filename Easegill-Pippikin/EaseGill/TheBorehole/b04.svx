@@ -1,0 +1,32 @@
+;Cave:		Borehole - inlet at foot of climb (Slit Finger Passage)
+;Surveyors:	S.Lieberman/M.Shinwell
+;Date:		06/09/07
+;Instruments:	PAG + disto
+
+;*equate	b04.017	b01.007a ;tag at foot of ent. pit
+
+*begin	b04
+*export 017
+
+*calibrate compass		+3.00
+*calibrate clino		+0.50
+*calibrate tape		  0.00
+
+002	001	14.21	 -	UP	;st001 is top of aven
+002	003	03.49	324.0	+08.0
+003	004	01.39	336.0	+03.0	;st004 start of narrows
+004	005	03.14	354.0	-01.0
+005	006	01.25	319.0	+01.0
+006	007	02.65	346.0	+01.0	;st007 bottom of broken stal
+008	007	02.18	185.0	+07.0
+008	009	02.61	311.0	-01.0
+009	010	01.57	290.0	-01.0	;st010 is limit of previous exploration
+011	010	01.56	172.0	+10.0
+011	012	01.85	322.0	+01.0
+012	013	01.10	042.0	 00.0
+013	014	03.93	333.0	-02.0
+014	015	02.95	306.0	 00.0
+015	016	05.57	268.0	-02.0	;st016 is squeeze
+016	017	04.24	310.0	 00.0	;st017=tag
+
+*end	b04

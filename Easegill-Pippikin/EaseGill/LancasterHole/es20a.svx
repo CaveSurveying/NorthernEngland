@@ -1,0 +1,45 @@
+;Cave:	Lancaster Hole - Earby Series - Muddy Ducks
+;Surveyors:	P.Swire/Dangerous Dennis
+;Date:	17/11/02
+;Instruments:	2
+
+;*equate	es20a.024	es20.004
+
+*begin	es20a
+*export 024
+
+*calibrate compass	+4.00
+*calibrate clino	0.00
+
+000	001	25.00	 -	DOWN	;estimated height of aven, passage arrives 9m up from 004a unsurveyed
+001	002	03.40	190.0	 00.0	;across aven
+002	003	05.10	290.0	-05.0
+003	004	01.80	245.0	 00.0	;st003 to 005 is nice passage
+
+004	004a	06.00	340.0	+03.0
+
+004	005	08.00	156.0	 00.0
+005	006	03.90	101.0	-03.0	;from 006 to 011 is tall rift
+006	007	03.80	074.0	-06.0
+007	008	08.30	145.0	 00.0
+008	009	12.00	152.0	+04.0	;st009 is narrow trench traversing
+009	010	01.90	152.0	-08.0
+010	011	03.40	139.0	-08.0
+011	012	02.45	144.0	-02.0	;from 012 to 020 is low wet cobbled crawl
+
+012	012a	04.00	156.0	 00.0	;estimated leg down body sized tube
+
+012	013	03.50	261.0	-04.0
+013	014	03.56	296.0	-01.0
+014	015	04.78	271.0	-02.0
+015	016	04.81	292.0	 00.0
+016	017	07.31	328.0	 00.0
+017	018	09.05	283.0	-02.0
+018	019	05.66	273.0	 00.0
+019	020	03.94	325.0	-04.0
+020	021	05.08	276.0	 00.0
+021	022	04.98	314.0	-03.0
+022	023	01.54	344.0	-04.0
+023	024	02.00	338.0	 00.0	;st024is Lanc. Hole side of duck st004 es20
+
+*end	es20a

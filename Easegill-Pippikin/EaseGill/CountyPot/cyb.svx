@@ -1,0 +1,38 @@
+;Cave:	County Pot - Spout Hall to Battle of Britain via bedding
+;Surveyors:	R.Duffy/H.Blyth
+;Date:	30/05/04
+;Instruments:	PAG
+
+;;*equate	cyb.001	cy.046 ;tag at Spout Hall
+;;;*equate cyb.012 man1.007 ;tag at Battle of Britain Chamber
+;;*equate cyb.006	cyc.001 ;tag in bedding from Spout
+
+*begin	cyb
+*export 012
+*export 001
+*export 006
+
+*calibrate compass	+5.00
+*calibrate clino	+0.50
+*calibrate tape		 00.0
+
+001	002	03.97	354.0	+23.0	;st001=tag at juntion to Battle of Britain
+002	003	05.85	298.0	-06.0
+003	004	04.33	323.5	+06.0	;sitting on ledge on left wall opposite crawl to B.O.B.
+004	005	02.61	266.0	-21.0
+005	006	02.23	354.5	-14.0	;st006=tag
+
+;oxbow low down on left
+006	006a	00.62	 -	DOWN
+006a	006b	03.68	282.0	-06.0	;st006b is head height kneeling on chockstone above drop, too tight for Ray
+006b	006c	05.51	331.0	+02.0	;st00bc=tag near start of tight passage to the top of PJ pitch
+
+006	007	04.25	002.0	+04.0
+007	008	04.72	074.0	+05.0	;st008  is lying with head just in Manch. Bypass on cobbles
+008	009	04.22	104.0	+26.0
+*calibrate tape		 +0.50
+009	010	03.52	117.0	+28.0
+010	011	03.68	256.0	+43.0
+011	012	01.30	 -	DOWN	;st012=tag in Battle of Britain Chamber
+
+*end	cyb

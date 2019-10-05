@@ -1,0 +1,65 @@
+*begin PippikinPot
+
+*export pip02a.001
+*export pip01.001
+*export pip.101f
+*export pip.001
+*export pip15.012
+*export pip15.030
+*export mm1i.079
+*export mm1i.089
+
+*equate pip.007 pip06.001 ; from pip06.svx
+*equate pip01.018 pip15.004 ; from pip01.svx
+*equate pip01.021 pip02a.013 ; from pip01.svx
+*equate pip01.021 pip04.038b ; from pip01.svx
+*equate pip01.021 pip15.001 ; from pip01.svx
+*equate pip.018 pip07.001 ; from pip07.svx
+*equate pip02a.001 pip25.001 ; from pip02a.svx
+*equate pip02a.013 pip04.038b ; from pip02a.svx
+*equate pip02a.013 pip05.022 ; from pip02a.svx
+*equate pip03.000 pip04.000 ; from pip03.svx
+*equate pip.060 pip09.001 ; from pip09.svx
+*equate pip.065 pip11.001 ; from pip11.svx
+*equate pip.101a pip05.001 ; from pip05.svx
+*equate pip11.016 pip21.000 ; from pip11.svx
+*equate pip15.009 pip17.001 ; from pip15.svx
+*equate pip15.040 pip18.028 ; from pip15.svx
+*equate pip15.040 pip19.001 ; from pip15.svx
+*equate pip18.011 pip18a.005 ; from pip18a.svx
+*equate pip18a.005 pip18b.008 ; from pip18a.svx
+*equate pip18a.005 pip18c.001 ; from pip18a.svx
+*equate pip18b.001 pip24.015 ; from pip18b.svx
+*equate pip19.001 pip19a.000 ; from pip19.svx
+*equate pip20.000 pip21.013 ; from pip20.svx
+*equate pip25.014 pip26.001 ; from pip25.svx
+*equate pip26.004 pip27.001 ; from pip26.svx
+*equate mm1i.089 pip01.001
+
+*include	pip
+*include	pip01
+*include	pip02a
+*include	pip03
+*include	pip04
+*include	pip05
+*include	pip06
+*include	pip07
+*include	pip09
+*include	pip11
+*include	pip15
+*include	pip17
+*include	pip18
+*include	pip18a
+*include	pip18b
+*include	pip18c
+*include	pip19
+*include	pip19a
+*include	pip20
+*include	pip21
+*include	pip24
+*include	pip25
+*include	pip26
+*include	pip27
+*include	mm1i ; ie, that part of mm1 which is Leck Fell Lane
+
+*end PippikinPot

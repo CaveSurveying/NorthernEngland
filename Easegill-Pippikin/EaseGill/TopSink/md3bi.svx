@@ -1,0 +1,31 @@
+;Cave:		Bedding above oxbow near Hiroshima Choke in Thakrays Passage
+;Surveyors:	R.Duffy/s.Lieberman
+;Date:		31/08/08
+;Instruments:	MKO + disto
+
+;;*equate md3bi.009 md3b.008
+
+*begin	md3bi
+*export 009
+
+*calibrate compass	0.00
+*calibrate clino	0.00
+*calibrate tape		0.00
+
+002	001	03.05	204.0	 00.0
+002	003	02.08	025.0	+30.0	;st003 is point of rock
+003	004	02.40	283.0	-11.0	;st004 is point of rock
+
+004	004i	03.33	309.0	+07.0
+
+004	004a	01.34	 -	UP
+004a	004b	02.54	274.0	+13.0
+004b	004c	04.07	235.0	+49.0
+
+005	004	03.35	043.0	+16.0
+005	006	03.46	226.0	+02.0	;st006 is stal
+007	006	02.18	129.0	+20.0
+007	008	05.60	309.0	-11.0
+008	009	01.00	 -	DOWN	;leg down to st008 md3b
+
+*end	md3bi

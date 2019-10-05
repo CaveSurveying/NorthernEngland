@@ -1,0 +1,84 @@
+;Cave:		Lancaster Hole - half way up Assembly Hall to Nagasaki
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:		01/03/08
+;Instruments:	MKO + disto
+
+;;*equate md2ai.101 md2b.010a ;tag Rock of Ages
+;;*equate md2ai.101 md2ci.001 ;tag Rock of Ages
+;;*equate md2ai.001 md3c.006 ;st001 is back against crack next to small chimney in chamber
+;;;*equate md2ai.106 T09a.031 ;tag above slope to NW Passage
+;;*equate md2ai.107 md2bi.021 ;tag at base of climb to Fuckyama
+;;;*equate md2ai.022 T09c.001f ;from North West Passage pitch route
+
+*begin	md2ai
+*export 001
+*export 101
+*export 106
+*export 107
+*export 022
+
+*calibrate compass	+1.00
+*calibrate clino	+0.50
+*calibrate tape		 0.00
+
+001	001a	04.85	116.0	+08.0
+001a	001b	04.77	057.0	+05.0	;into bedding, pebble/sand choke at end
+
+001	002	05.10	063.0	-15.0	;st002 is on floor at base of climb up
+002	003	04.75	 -	UP	;st003 is on roof of bedding
+004	003	03.62	157.0	+04.0	;st004 is in small pit after bedding
+004	005	01.97	125.0	+61.0	;st005 is head height lying in traverse/Sideways level
+
+
+005	005a	09.69	228.0	+01.0	;st005a is choke at end of 1m high bedding
+
+005	005b	03.93	116.0	+06.0	;st005b is end of samll sand dig
+
+005	006	04.96	331.0	+16.0	;start of Sideways Passage
+006	007	03.60	018.0	+02.0
+007	008	03.28	045.0	+05.0
+008	009	03.38	355.0	+06.0
+009	010	02.49	012.0	-03.0
+010	011	03.17	039.0	 00.0
+011	012	01.86	002.0	+01.0
+012	013	03.31	031.0	+02.0
+013	014	04.33	078.0	+01.0
+014	015	03.41	012.0	+01.0
+015	016	02.33	070.0	 00.0
+016	017	03.91	117.0	 00.0
+017	018	01.75	093.0	 00.0
+018	019	02.79	044.0	+05.0
+019	020	05.42	018.0	 00.0
+020	021	09.03	069.0	 00.0
+021	022	02.51	071.0	+10.0	;st022=tag at end of Sideways/start of Nagasaki
+023	022	03.57	124.0	-34.0
+023	024	06.31	071.0	+26.0
+024	025	14.28	 -	UP	;st025 is roof of aven
+
+101	102	01.52	 -	UP	;st101=tag in Rock of Ages floor
+
+102	102a	03.62	179.0	-17.0	;st101a is old paper station at foot of climb from Saki Rift
+
+102	103	06.16	312.0	-12.0	;start of sand rift
+103	104	02.07	263.0	-42.0
+104	105	06.77	216.0	-10.0	;st105 is sand bridge at lip of drop beyond sand chimney
+105	106	07.77	205.0	-52.0	;st106=tag at pit to NW streamway
+106	107	15.58	221.0	+04.0	;st107=tag at Fukuyama
+107	108	04.21	262.0	+23.0	;st108 is head height on flat boulder at foot of awkward climb
+
+108	108a	09.34	278.0	+58.0	;st018a is high on wall of 'Over the Top Route'
+
+108	109	06.87	237.0	-39.0	;st109 is cobble on right wall of 'Under the Bridge Route'
+109	110	07.08	201.0	-05.0
+
+110	110a	02.15	019.0	-66.0	;st110a is star scratched on rok from survey down NW Passage
+
+110	111	04.18	322.0	+42.0
+
+111	108a2	14.17	028.0	+51.0	;st018a2 is high on wall of 'Over the Top Route'
+
+111	112	09.02	245.0	-09.0	;st112 is top of stal(previously used survey station?)
+112	113	16.42	259.0	-13.0
+113	022	00.87	028.0	+24.0	;st114=022=tag
+
+*end	md2ai

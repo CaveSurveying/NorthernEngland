@@ -1,0 +1,32 @@
+;Cave:	Wretched Rabbit - Ulrika Junction part 2
+;Surveyors:	S.Lieberman/H.St.Lawrence
+;Date:	10/02/04
+;Instruments:	2
+
+;*equate	wr18a.007 wr18.007e ;Mystery & Imagination Passage
+
+*begin	wr18a
+*export 007
+
+*calibrate compass	+3.50
+*calibrate clino	-3.50
+*calibrate tape		+3.00
+
+;right hand bedding opposite Mystery & Imagination Passage
+002	001	05.04	100.0	+01.0	;squeeze
+003	002	04.38	165.0	02.0
+004	003	04.40	110.0	+01.0
+005	004	05.69	073.0	+03.0
+006	005	06.75	072.0	+03.0
+007	006	06.56	112.5	+11.0	;st007=scratch EFC and X on wall
+
+;left hand bedding opposite Mystery & Imagination Passage
+012	011	04.82	314.0	+03.0
+013	012	05.12	340.0	-05.0
+014	013	08.66	 -	DOWN
+012	015	05.76	216.0	-05.0
+015	016	05.21	272.0	-05.0
+016	017	04.18	227.0	-08.0
+007	017	04.50	078.0	+17.0
+
+*end	wr18a

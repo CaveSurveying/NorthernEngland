@@ -1,0 +1,37 @@
+;Cave:	Lancaster Hole - beyond The Crater
+;Surveyors:	Hugh St.Lawrence/Ray Duffy
+;Date:	29/07/00
+;Instruments:	PAG
+
+;;*equate	crat2.000	crat.001
+;;;*equate	crat2.010	sc2.020
+
+*begin	crat2
+*export 010
+*export 000
+
+*calibrate compass	+5.00
+
+000	001	00.45	 -	DOWN	;st000=bootrapper corner
+001	002	11.75	102.5	-03.0	;leg over the Crater which is 6.65m wide
+002	003	04.88	098.0	+21.0
+003	004	03.30	054.0	-08.0	;3-way junction, right is blind but dig-able
+
+004	004a	03.35	060.0	-02.0	;passage straight ahead
+004a	004a1	04.00	163.0	 00.0	;right extension leads to small hole
+004a	004b	01.50	003.0	 00.0	;dog leg
+004b	004c	03.00	058.0	 00.0	;choked
+
+004	005	05.05	343.0	 00.0	;left hand passage
+005	006	05.85	059.0	+01.0
+006	007	04.10	157.0	-07.0
+007	008	02.40	155.5	+06.0
+
+008	008a	03.00	235.0	 00.0	;small passage on right leads possibly to small chamber with formations
+
+008	009	02.80	163.0	-02.0
+009	010	00.60	105.0	 00.0
+;010	011	10.00	150.0	 00.0	;sighted up but not entered though someone has in past.
+
+
+*end	crat2

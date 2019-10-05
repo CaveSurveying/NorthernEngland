@@ -1,0 +1,59 @@
+;Cave:	Lanc.Hole - Earby Series - Cellar Passage to 88' pitch
+;Surveyors:	P.Swire/S.Lieberman
+;Date:	01/12/01
+;Instruments:	PAG
+
+;*equate	es15.000	es8.005
+;*equate	es15.034	wm.089
+
+*begin	es15
+*export 000
+*export 034
+
+*calibrate compass	+5.00
+
+000	001	00.90	124.0	-51.0	;st000=tag in roof at squeeze up to Cape Kennedy
+001	002	04.40	242.0	-26.0	;st001 is stal rhside, st002 is wallrhs over pitch
+002	003	07.10	 -	DOWN	;st003 is wall base of pitch
+003	004	04.90	166.0	-40.0	;st004 is wall rhs top of pitch
+004	005	06.4	 -	DOWN
+005	006	02.60	141.0	 00.0
+006	007	02.10	 -	DOWN	;st006 is white stal???????
+007	008	11.10	163.0	-29.0	;st008 is flake
+008	009	07.40	329.0	-12.0
+009	010	03.50	283.0	-03.0
+010	011	02.10	007.0	+02.0	;st011 is rh wall
+011	012	02.80	345.0	+09.0
+012	013	03.45	294.0	-14.0
+013	014	02.30	018.0	+24.0	;st014 is lh wall opposite inlet coming in from right
+
+;st014 to 025 is inlet (continues beyond st025)
+
+014	015	05.10	112.0	+10.0
+015	016	09.20	107.0	+05.0
+016	017	06.40	163.0	+11.0
+017	018	03.45	109.0	-04.0
+018	019	04.30	136.0	+03.0
+019	020	02.80	107.0	+09.0
+020	021	01.45	149.0	 00.0
+021	022	02.35	081.0	+06.0
+022	023	02.60	143.0	+02.0
+023	024	04.00	107.0	+08.0
+024	025	03.50	134.0	+04.0	;st025 is top point of flake separating 2 streams
+
+;back to cellar pasage
+
+014	026	02.25	042.0	+10.0
+026	027	03.00	317.0	-09.0
+027	028	03.05	251.0	+04.0
+028	029	08.40	308.0	-03.0
+029	030	08.60	313.0	-01.0	;st030 is junction with Wormway
+*flags duplicate ; (Wormways) tie-in to base of 88' pitch duplicates 085-089 in wm
+030	031	06.75	031.0	 00.0
+031	032	13.70	322.0	+05.0
+032	033	02.50	181.0	+02.0	;st033 is bottom of 88' pitch
+
+033	034	02.00	 -	DOWN	;made up leg to reach floor level station in Wormway
+*flags not duplicate
+
+*end	es15

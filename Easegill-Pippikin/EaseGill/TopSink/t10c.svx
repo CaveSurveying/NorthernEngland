@@ -1,0 +1,23 @@
+;Cave:		Upper Molar Passage -start
+;Surveyors:	S.Lieberman/A.Hall
+;Date:		26/08/07
+;Instruments:	PAG + disto
+
+;*equate	t10c.005b t10b.005b ;st005b=tag in thread in small chamber on false floor in Skywaalker Passage
+;*equate t10c.005g t10d.0
+
+*begin	t10c
+*export 005b
+*export 005g
+
+*calibrate compass		+3.00
+*calibrate clino		+0.50
+*calibrate tape			 0.00
+
+005c	005b	02.47	007.0	+11.0	;st005b=tag in thread
+005d	005c	03.25	292.0	+09.0
+005e	005d	01.50	221.0	-02.0
+005f	005e	03.55	311.0	-13.0
+005f	005g	03.17	059.0	-03.0	;st005g marked on wall with arrow pointing to it
+
+*end	t10c

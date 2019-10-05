@@ -1,0 +1,59 @@
+;Cave:	Lancaster Hole - Mancunian Way up to Ease Gill Aven
+;Surveyors:	R.Duffy/A.Hall/P.Wilkinson
+;Date:	16/12/00
+;Instruments:	PAG
+
+;*EQUATE	maw1.001	L4.025
+;;*equate	maw1.026	cy12a.001
+;*equate	maw1.025	maw2.0
+
+*begin	maw1
+*export 025
+*export 001
+*export 026
+
+*calibrate compass	+5.00
+
+*fix	012	67162.52	80707.23	264.20
+
+001	002	09.60	260.0	+05.0	;st001=tag in Cornes Cavern
+002	003	02.90	223.0	-02.0
+003	004	04.10	244.0	-19.0
+004	005	02.50	163.0	-32.0	;down slot at end of rift, st005 is first stal in passage
+005	006	09.70	131.0	-04.0	;passage hading down right, st006 is top of obvious chockstone
+006	007	06.20	139.0	-08.0
+007	008	12.20	133.0	-02.0
+008	009	00.50	 -	DOWN
+009	010	15.00	133.0	 00.0
+010	011	30.20	143.0	+04.0	;crawl
+011	012	09.70	147.0	+03.0	;st012 is lip of large boulder drop down to low crawl
+
+012	012a	09.00	146.0	+16.0	;up slope to sand choke
+
+012	013	00.80	 -	DOWN	;bedding continues 5m on right (in line with following passage) to sandy choke, diggable?
+013	014	11.50	057.0	 00.0	;gravelly/sand crawl
+014	015	05.10	078.0	 00.0	;into flat out crawl
+015	016	02.70	009.0	+02.0	;st016 on bend at end of flat out section
+016	017	04.10	325.0	+14.0	;st017 is top of first large boulder in chamber
+
+017	017a	03.00	095.0	+07.0	;passage to right is wrong way
+017a	017b	07.70	079.0	+03.0	;ends in boulder choke
+
+017	018	06.30	050.0	+16.0	;bouldery pit to left in chamber, st018 is on top of ridge
+018	019	07.70	074.0	-09.0	;down through bouldery crawl from top of chamber
+019	020	09.70	084.0	+04.0	;standing trench on right in passage
+
+020	020a	04.90	016.0	-03.0	;st020 is in roof at staart of crawl to dig on left of bend
+
+020	021	06.70	173.0	+01.0	;boulder to right of -5m climb down to small passage in same direction as main passage to choke, st021 is on right of hole
+021	022	02.50	109.0	+33.0	;st022 is in roof where step up leads to continuation pass. above
+022	023	04.30	141.0	+19.0
+
+023	023a	01.50	 -	DOWN	;start of left hand passage through stals to choke
+023a	023b	09.50	093.0	-05.0
+
+023	024	02.80	207.0	-32.0	;down from roof to flat out crawl in bedding on right of very large boulder
+024	025	04.90	223.0	+02.0	;st025=bolt at top of Ease Gill Aven
+025	026	09.60	 -	DOWN	;pitch down to survey st. in lower passages
+
+*end	maw1

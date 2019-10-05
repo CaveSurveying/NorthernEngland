@@ -1,0 +1,72 @@
+;Cave:	Lanc. Hole - Magic Roundabout ( part 1)
+;Surveyors:	Paul Swire/Chris Kinghorn/Dave Foxton
+;Date:	24/11/01
+;Instruments:	kit 1
+
+;*equate	mr2.000	mr1.031
+;*equate	mr2.042	mr1.020
+;*equate	mr2.000	mr3.016a
+;*equate	mr2.008	mr7.001
+;*equate	mr2.005	mr5.001
+;*equate	mr2.012	mr6.013
+;*equate	mr2.021	mr8.001
+;*equate	mr2.034	mr9.007
+
+*begin	mr2
+*export 012
+*export 000
+*export 021
+*export 005
+*export 008
+*export 042
+*export 034
+
+*calibrate compass	+4.00
+
+000	001	25.00	 -	UP	;st000=thread at Arson Shaft
+001	002	04.60	078.0	+51.0	;st001 is top bolt at slit top of pitch, st002 is next bolt up trench
+002	002a	07.30	077.0	 00.0	;st002a is passage trench upstream
+002	003	02.30	080.0	 00.0	;st003 is middle of circular shaft at base
+003	004	12.10	 -	UP	;st004 is belay
+;004	004a	any distance	244	level	downstream top of trench towards aven
+004	005	07.00	091.0	-01.0	;along trench upstream st005 is sat on junction V(passage on right needs surveying)
+005	006	01.00	333.0	 00.0	;st006 is rock spike on left
+006	007	08.00	078.0	+09.0
+007	008	08.90	171.0	-01.0	;st008 is marked with scratched X at junction (needs surveying to st005)
+008	009	04.40	141.0	+01.0
+009	010	06.90	169.0	+01.0
+010	011	10.40	146.0	+04.0	;st011 is head height on the chamber side of small grotto with 5 straws stuck in mud
+011	012	04.00	151.0	-21.0	;st012 is bolt right wall of trench out over pitch
+012	013	08.60	 -	DOWN	;st013 is head height base of rope
+013	014	03.50	194.0	-09.0	;st014 is cairn on left hand bend of stream, immature inlet too tight 294 deg.
+014	015	12.40	103.0	-01.0
+015	016	12.00	080.0	-09.0
+016	017	05.10	141.0	+06.0
+017	018	13.20	108.0	-09.0
+018	019	04.10	014.0	-44.0	;down cascades to Aqarius
+019	020	03.40	034.0	-46.0	;st020 is belay at Aquaris Pot
+020	021	21.40	 -	DOWN	;st021 is head height on spray lashed ledge part way down Aquarius, above this rope goes into unsurveyed passage ???
+021	022	06.50	055.0	-32.0	;st022 is bottom of pitch
+022	023	02.50	307.0	-41.0
+023	024	07.85	319.0	-21.0
+024	025	02.40	 -	DOWN	;down cascades into Brass Monkey Passage
+025	026	10.10	277.0	-01.0
+026	027	01.80	241.0	-01.0
+027	028	28.30	324.0	-04.0
+028	029	07.40	319.0	-01.0
+029	030	11.10	323.0	-01.0
+030	031	03.10	299.0	 00.0
+031	032	05.80	264.0	-01.0	;leg between st032 and 033 stream drops down about 5m cascade to below pitches
+032	033	07.00	311.0	 00.0	;st033 is head height at original pitch belay
+033	034	03.10	295.0	+06.0	;spacious new pitch head
+034	034a	05.00	295.0	 00.0	;passage over pitch continues unsurveyed
+034	035	08.05	 -	DOWN	;st035 sat at bottom of rope
+035	036	03.10	248.0	-02.0	;st036 4m high inlet on left 137 deg
+036	037	06.30	255.0	-29.0
+037	038	02.15	247.0	-03.0
+038	039	01.60	214.0	+03.0
+039	040	01.10	198.0	-01.0
+040	041	02.50	278.0	+21.0
+041	042	00.95	234.0	 00.0	;st042=tag Mr1.020
+
+*end	mr2

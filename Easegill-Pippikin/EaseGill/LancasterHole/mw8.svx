@@ -1,0 +1,28 @@
+;Cave:	Montague West Extension part 4
+;Surveyors:	N.Pacey/P(Beardy).Swire
+;Date:	06/07/97
+;Instruments:	RRCPC Kit 3
+
+;;*equate	mw8.007	mw7.000
+
+*begin	mw8
+*export 007
+
+*calibrate compass	+5.17
+
+
+001	001a	02.50	115.0	+17.0	;check clino????
+001a	001b	01.70	070.0	+26.0
+001	001c	02.00	115.0	+03.0
+001z	001	02.80	270.0	+45.0
+001	002	03.30	107.0	+54.0
+002	003	03.00	 -	DOWN
+003	003x	02.70	045.0	+40.0
+003	004	06.10	060.0	-35.0	;ramp
+004	004a	01.50	330.0	 00.0	;squeeze
+004a	004b	04.50	257.0	-10.0	;check clino???
+004	005	01.70	136.0	-05.0
+005	006	03.10	090.0	-06.0
+006	007	11.84	160.0	-03.0	;st007=tag
+
+*end	mw8

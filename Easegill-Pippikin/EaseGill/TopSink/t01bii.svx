@@ -1,0 +1,108 @@
+;Cave:		Top Sink - Penknife to Limerick Passage tag
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:		10/02/08
+;Instruments:	Disto + MKO
+
+;*equate	t01bii.001 t01bi.039 ;st001 is knot on Y-hang on Penknife Pitch
+;*equate t01bii.002 t10a.035 ;st035 is head height on rope from Wisdom Tooth
+;*equate	t10b.001a t01bii.002 ;st001a is head height on rope from Wisdom Tooth
+;*equate t01bii.027 t10b.001 ;st001 on new survey of Upper Bradshaw
+;*equate	t01bii.100b t01biii.029 ;st100b is striped tape on top of spike at start of passage CRG Extensions
+;*equate t01bii.055 t09b.001 ;tag at Limerick Juntion
+;;*equate T01bii.055 md2ci.016 ;tag Limerick Juntion UP105
+;;*equate T01bii.055 md2b.024 ;tag at Limerick Passage
+;*equate	t01bii.028 t01biii.001 ;st001 is cable tie at cross-over in Bradshaw's Passage
+
+*begin	t01bii
+*export 100b
+*export 002
+*export 001
+*export 027
+*export 055
+*export 028
+
+*calibrate compass	+1.00
+*calibrate clino	+1.00
+*calibrate tape		 0.00
+
+*fix 028 67891.02 81100.28 307.14 ;cable tie at head height on cross-over passage Bradshaw's Pass.
+
+002	001	06.55	337.0	+58.0	;st001 is knot on Y-hang on Penknife Pitch
+002	003	05.32	239.0	-03.0	;st002 is head height on rope from Wisdom Tooth Passage
+003	004	02.66	341.0	-03.0
+004	005	01.61	263.0	+08.0
+005	006	01.55	197.0	-06.0
+006	007	02.19	275.0	+03.0
+007	008	01.72	245.0	+14.0
+008	009	03.01	266.0	-08.0
+009	010	01.20	207.0	+05.0
+010	011	02.01	121.0	+11.0
+011	012	02.91	080.0	-09.0
+012	013	03.87	142.0	+06.0
+013	014	02.05	249.0	-05.0
+014	015	04.12	202.0	-03.0
+015	016	02.24	227.0	+10.0
+016	017	04.62	191.0	-09.0	;st017 is left passage wall in pool on sharp bend
+017	018	06.74	321.0	+03.0
+018	019	03.10	229.0	+04.0
+019	020	01.27	278.0	+03.0
+020	021	02.94	245.0	 00.0
+021	022	01.73	174.0	-07.0
+022	023	04.84	254.0	+02.0
+023	024	02.31	282.0	 00.0
+024	025	04.50	202.0	 00.0
+025	026	03.56	262.0	+02.0	;st026 is station on old survey
+026	027	00.49	006.0	-01.0	;st027 is start of Upper Bradshaw new survey
+026	028	07.66	305.0	+01.0
+
+028	028a	03.39	309.0	+29.0	;start of short oxbow up boulder slope
+028a	028b	05.53	292.0	-07.0
+028b	031	03.73	337.0	-42.0	;st031 is back in streamway
+
+*flags duplicate ; (Bradshaws lower route) seems to duplicate 001-008 in t01biii.svx
+028	029	00.89	 -	DOWN	;start of low streamway
+029	030	04.74	340.0	-06.0	;oxbow can be seen through ledge on left
+030	031	06.98	284.0	-02.0	;as one oxbow ends another starts on left but is about 1m wide 9.2m high and runs into streamway all along, lots of straws on ledge on left
+031	032	03.69	002.0	-01.0
+032	033	02.80	292.0	-04.0
+033	034	03.74	225.0	+01.0
+034	035	09.94	163.0	+03.0	;st035 has oxbow bouder slope to right
+*flags not duplicate
+035	036	02.14	199.0	-28.0	;very low, flat out, streamway
+036	037	11.03	234.0	-01.0	;low bedding to right, stream to left
+037	038	06.38	260.0	+02.0
+038	039	02.63	205.0	 00.0	;streamway continues to left, survey goes into dry high oxbow
+039	040	04.79	315.0	+38.0
+040	041	02.01	019.0	+39.0	;st041 is top of boulder slope with drop to lower part of oxbow below
+041	042	03.02	281.0	-34.0	;st042 is edge of climb down to streamway
+043	042	04.42	046.0	+31.0	;st043 is head ht. standing in oxbow on opposite side of stream to drop
+043	044	04.62	292.0	-01.0	;st044 is in stream at Y junc. with short dry oxbow high on right
+044	045	04.46	213.0	-11.0	;st045 is mid ridge between both passages
+045	046	06.01	181.0	-02.0	;st046 is stream passge
+046	047	02.40	229.0	-02.0	;st047 is head ht. at lip of 1m drop of stream to lower level
+047	048	03.66	240.0	+05.0
+048	049	04.39	252.0	+07.0	;st049 is chamber with left too tight, next right climb over awkward boulder and straight on low passage of survey
+049	050	03.43	218.0	-13.0
+050	051	02.74	174.0	-24.0
+051	052	05.41	097.0	+16.0	;st052 is small orange stal on left wall of larger passge, small passage below is tight to CRG, huge boulder in roof is climb over to CRG from oxbow
+052	053	04.54	204.0	-29.0	;follows above stream trench
+053	054	05.55	248.0	+01.0
+054	055	06.53	169.0	-02.0	;st055=tag at start of Limerick Passge
+
+;Surveyors:	R.Duffy/A.Hall
+;Date:	22/08/97pm
+;Instruments:	Red Rose kit 2&3
+
+*calibrate compass	+6.00
+
+098	099	01.55	 -	UP
+099	100	03.10	102.5	+02.5
+100	100a	03.90	085.0	+54.0
+100a	100b	03.50	023.0	+25.0	;st100b=start of CRG survey
+100	101	07.60	236.0	+08.0
+101	102	04.40	303.0	+07.0
+102	103	02.90	202.0	-01.0
+103	104	03.80	141.0	-02.0
+104	055	06.90	140.0	-30.0	;st055=UP105
+
+*end	t01bii

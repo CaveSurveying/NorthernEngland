@@ -1,0 +1,31 @@
+;Cave:	Lancaster Hole - Upstream of Oxbow Corner
+;Surveyors:	R.Duffy/A.Hall
+;Date:	20/04/02
+;Instruments:	kit 1
+
+;;*equate	md7d.001	md7a.081
+;;*equate	md7d.003	md7e.001
+;;*equate	md7d.001	md7e.008c
+
+*begin	md7d
+*export 003
+*export 001
+
+*calibrate compass	+3.0
+
+001	002	09.40	116.0	-05.0	;st001=tag Oxbow Corner
+002	003	09.50	072.0	+02.0	;st003 is entrance to Maracaibo
+003	004	10.60	119.0	-03.0	;3m upstream of st004 is small inlet from Maracaibo?
+004	005	28.60	070.0	+02.0
+005	006	12.50	059.0	+02.0	;st006 to 010 is in large loose breakdown passage with stream below or to right
+006	007	10.10	070.0	+25.0
+007	008	18.20	076.0	-09.0
+008	009	07.90	080.0	+17.0
+009	010	04.80	096.0	-11.0	;ahead is large and very loose slope to small chamber too dangerous to enter about 20m from station on about 070
+010	011	02.50	 -	DOWN	;drop down to stream level
+011	012	06.80	090.0	-02.0
+012	013	04.40	076.0	+05.0
+013	014	02.40	079.0	+15.0
+014	015	04.50	168.0	 00.0	;no easy way on found even in very dry weather
+
+*end	md7d

@@ -1,0 +1,41 @@
+;Cave:	County Pot - Trident - Crystal Pool Passage to Broken Ladder Chamber tag
+;Surveyors:	H.St.Lawrence/A.Whitney
+;Date:	10/09/02
+;Instruments:	1
+
+;*equate trident10.000	trident26.001
+;*equate	trident10.009	trident23a.012
+;*equate	trident10.011	trident23.001
+;*equate	trident10.015	trident08.009
+
+*begin	trident10
+*export 011
+*export 009
+*export 000
+*export 015
+
+*calibrate compass	+7.00
+*calibrate clino	+3.50
+
+000	a	02.90	 -	UP
+a	b	03.20	219.0	+12.0
+b	c	01.90	185.0	+39.0
+c	d	03.20	106.0	+35.0
+
+000	001	02.50	136.0	+12.0
+001	002	03.70	150.0	+13.0
+002	003	01.90	070.0	+08.0
+003	004	04.20	155.0	+10.0
+004	005	02.20	131.0	+10.0
+005	006	01.80	186.0	-05.0
+006	007	03.80	169.0	+25.0
+007	008	03.65	222.0	+25.0
+008	009	05.30	 -	UP
+009	010	03.20	247.0	+40.0
+010	011	05.20	161.0	-18.0
+011	012	03.50	265.0	 00.0
+012	013	02.80	 -	DOWN
+013	014	02.60	214.0	+01.0
+014	015	03.10	175.0	+15.0
+
+*end	trident10

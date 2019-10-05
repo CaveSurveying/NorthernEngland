@@ -1,0 +1,40 @@
+;Cave:		Bull Pot of the Witches - North Chamber extensions to Roberts inlet
+;Surveyors:	Sam Lieberman/Andy Whitney
+;Date:		09/12/03
+;Instruments:	Kit 5 read by Sam
+;Notes/Pics:	Sam Lieberman
+;Tape: 		Andy Whitney
+
+;*equate	bw11.001	bw12.001
+;*equate	bw11.018	bw10.002
+;*equate	bw11.018	bw13.001	
+
+*begin bw11
+*export 018
+*export 001
+
+*calibrate compass		0.00
+*calibrate clino		+1.00
+*calibrate tape		+3.00
+
+001	002	13.06	-	UP	;  1, cairn, base of 30' pitch Roberts inlet.
+003	002	05.14	291.0	-07.0	;  2, eroded limestone spike in roof.
+004	003	06.98	013.0	-01.0	;  3, head height below climb to upstream Roberts, stn 4 in calcite grotto
+
+005	003	10.59	189.0	+03.5	;  5, wall behind water falling in from passage above.
+
+006	007	09.59	321.0	-23.0	;  6, grotto at end of tight tube opposite 2nd pitch up in Roberts.
+007	008	13.96	197.0	-04.0	;  7, arrow and the word 'Tag' scratched on lip of wall above bedding 
+008	009	04.47	267.0	-13.0	;  8, top of left wall of trench
+009	003	04.78	-	 DOWN	;  9, roof above climb, back to stn 3 at top of 30' pitch
+003	010	07.20	359.0	+12.0	; 10, above calcite false floor heading back to North chamber
+010	011	04.25	-	  UP	; 11, roof above stn 10
+011	012	04.03	285.0	+15.0	; 12, sitting next to boulder, on climb up slope
+012	013	03.93	-	  UP	; 13, roof above stn 12.
+013	014	04.20	190.0	+02.0	; 14, Chamber amongst boulders, top of slope.
+014	015	06.28	341.0	+33.0	; 15, LH wall on rubble pile at base of climb back to dig
+015	016	06.53	-	  UP	; 16, blasted hole at top of climb
+016	017	05.21	194.0	+24.0	; 17, top end of drill hole RH wall exiting to small chamber
+017	018	03.78	-	  UP	; 18, rock on LHS of bedding, stn2 of previous survey
+
+*end	bw11

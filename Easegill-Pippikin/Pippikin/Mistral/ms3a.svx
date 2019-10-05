@@ -1,0 +1,32 @@
+;Cave:		Mistral-Dinnertime Series
+;Surveyors:	Sam Lieberman - Notes/Pics
+;Surveyors:	Ray Duffy - Instruments
+;Date:		22/11/07
+;Instruments:	PAG & Disto
+
+;*equate	ms3a.008c ms.022	;tag on bolder in floor 
+;;;;;;*equate	ms3a.008c ms3.001	;tag on bolder in floor 
+
+*begin	ms3a
+*export 010
+*export 008c
+
+*calibrate compass		+3.00
+*calibrate clino		+0.50
+*calibrate tape		  0.00
+
+002	001	02.93	248.0	-13.0	;001 is furthest visible point on cracked mud floor
+002	003	05.29	064.0	+04.0	;003 is sitting on boulder in passage
+003	004	10.66	057.0	-02.0	;004 is head height on L wall at 90deg right bend
+004	005	04.69	142.5	-12.0	;005 is near L wall on 90deg left corner
+005	006	10.95	069.0	-04.0	;006 is sat on boulder with rope
+006	007	07.08	061.0	-27.0	;007 is edge of roof above drop to Mistral
+007	008	00.85	  -	  UP	;008 raises station
+008	008a	06.95	  -	 DOWN	;008a is floor in passage below
+008a	008b	00.30	  -	  UP	;008b raises station (made up leg)
+008b	008c	00.50	150.0	 00.0	;008c is tag on bolder in floor (made up leg)
+
+008	009	08.68	055.0	+41.0	;009 is sat at top of boulder slope with view into tight pass. to left 
+009	010	01.35	000.0	+32.0	;010 is tag tied to thread in alcove at jct.
+
+*end	ms3a

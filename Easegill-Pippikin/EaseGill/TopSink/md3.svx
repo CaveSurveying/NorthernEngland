@@ -1,0 +1,54 @@
+;Cave:	Main drain from MB5 to UP18 (Assembly Hall to Holbeck Junction)
+;Date:	Md3	27/07/96 afternoon	& 12/10/96 afternoon
+;Surveyors:	Dalek,R.Duffy	& R.Duffy/R.Scott
+;Instruments:	Club Silva Compass & Clino
+
+;;*equate	md3.027	md4.001
+;;;*equate	md3.001	md2.060	;not needed now
+;;;;;;;;;;*equate	md3.001	md2a.001 ;not needed now
+;;*equate md3.027 md3i.001
+;;*equate md3.006	md3b.001
+;;*equate	md3.001	md3c.001 ;bolt hole at bottom of climb
+;;*equate md3.001	md3d.001 ;bolt hole at bottom of climb
+
+*begin	md3
+*export 001
+*export 027
+*export 006
+
+*calibrate compass	+5.27
+
+*fix 001 67724.87 80939.64 276.59 ;bolt hole at bottom of pitch, Assembly Hall
+*fix 014 67600.32 80956.55 268.04 ;edge of sheet 3c
+
+*flags duplicate ; (Assembly Hall) seems to be a tie-in duplicating 001-002 in md3d
+001	001a	05.90	004.0	-37.0	;st.001a=MB5 surveyed 12/10/96 RD & RS
+001	002	06.61	015.5	-21.5	;STmd3.001=assembly hall bottom of pitch, bolt hole
+*flags not duplicate
+002	003	12.76	278.0	-08.5
+003	004	03.07	246.5	-01.5
+004	005	05.50	286.5	+03.5
+005	006	06.95	309.0	-16.0	;bolt in stal boss at drop to Thack. Pass
+006	007	20.89	315.0	-01.0
+007	008	15.46	256.0	-01.5
+008	009	16.17	283.5	 00.0
+009	010	05.90	330.0	 00.0	;head height R wall/Passage on L
+010	011	04.47	304.5	 00.0	;head height L wall/Passage on L
+011	012	18.81	321.5	-00.5
+012	013	24.03	249.0	-00.5	;sitting on ledge/dig in L wall
+013	014	17.89	229.0	-01.0
+014	015	06.70	306.0	-05.0
+015	016	17.52	258.0	-01.0	;bolt hole/ entrance to stal grille(? cal.window)
+016	017	07.19	249.0	+08.0
+017	018	10.91	194.5	+03.5
+018	019	28.45	248.0	-01.5	;bolt hole in roof at step down
+019	020	06.67	255.0	-08.0
+020	021	04.27	190.0	-09.0
+021	022	11.73	256.0	+01.0
+022	023	11.68	275.0	+00.5
+023	024	15.43	227.5	+02.0
+024	025	05.17	183.5	-00.5
+025	026	11.10	235.0	+01.0
+026	027	04.19	196.5	+01.5	;md3.027=UP18
+
+*end	md3

@@ -1,0 +1,33 @@
+;Cave:	Link Pot - returning loop back to Bypus Bypass from Echo end of Hilton Hall
+;Surveyors:	R.Duffy/A.Whitney
+;Date:	17/05/07
+;Instruments:	S.A.P + disto
+
+;*equate	lk01b.001 lk01a.014 ;tag at start of passage to Echo Pot
+;*equate	lk01b.009 lk17.001 ;lip above drop to Hilton Hall
+;*equate	lk01b.012 lk01a.009 ;tag at Bypus Bypass
+
+*begin	lk01b
+*export 012
+*export 001
+*export 009
+
+*calibrate compass		0.00
+*calibrate clino		0.00
+*calibrate tape		0.00
+
+001	002	04.06	073.0	+09.0	;st001=tag
+002	003	01.20	 -	UP
+003	004	06.24	134.0	+10.0
+004	005	08.01	079.0	+02.0
+005	006	11.04	109.0	 00.0
+006	007	05.06	096.0	-01.0	;st007 is floor level in Bypus Bypass
+*flags duplicate ; (Bypus Bypass) duplicates 038-042 in lk02.svx
+007	008	01.60	 -	UP
+008	009	07.10	351.0	+01.0
+009	010	01.94	 -	DOWN
+011	010	02.38	168.0	-19.0
+011	012	00.90	105.0	+10.0	;st010=tag Hilton Hall tag at Bypus Bypass
+*flags not duplicate
+
+*end	lk01b

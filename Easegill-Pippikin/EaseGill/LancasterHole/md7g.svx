@@ -1,0 +1,27 @@
+;Cave:	Lancaster Hole - Breakdown Chamber - part 2
+;Surveyors:	R.Duffy/J.Baker/A.Whitney
+;Date:	30/06/02
+;Instruments:	PAG
+
+;;*equate	md7g.001	md7f.016
+;;*equate	md7g.012	md7c.011a
+
+*begin	md7g
+*export 001
+*export 012
+
+*calibrate compass	+3.00
+
+001	002	04.00	130.0	+01.0	;st001 is cross on roof near end of big chamber
+002	003	02.85	 -	DOWN	;st002-3 is down pit on right
+003	004	03.80	122.0	+06.0	;through squeeze in boulders
+004	005	04.05	109.0	-04.0	;across low boulder edged chamber
+005	006	05.55	086.0	-04.0
+006	007	01.75	 -	UP	;st006-9 are all in boulder choke
+007	008	02.35	054.0	-35.0
+008	009	02.23	062.0	-11.0
+009	010	03.80	119.0	-04.0	;st010 is head height on boulder in stream
+010	011	04.65	154.0	-03.0
+011	012	04.80	115.0	+48.0	;st012 is end of rope from passage above
+
+*end	md7g

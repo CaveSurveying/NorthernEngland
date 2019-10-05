@@ -1,0 +1,27 @@
+;Cave:	County Pot - Downstream of Molluscan Hall
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:	05/10/05
+;Instruments:	PAG+disto
+
+;;*equate	cy12b.002 cy12.025 ;downstream end of Molluscan Hall before slope to stream
+
+*begin	cy12b
+*export 002
+
+*calibrate compass	+4.00
+*calibrate clino	+1.00
+;*calibrate tape		
+
+001	002	06.45	345.0	-27.5	;st001 is in Molluscan Hall just before drop to stream
+
+002	002a	10.13	136.0	+05.0	;bottom of alternative climb up into M.Hall
+002a	002b	07.97	144.0	-06.0	;left hand side at start of boulder choke under M.Hall
+
+002	003	12.17	343.0	+00.5	;st002 is in streamway looking diagonally up to Ease Gill aven connection bedding
+003	004	07.00	010.0	-07.0	;upstream side of duck
+004	005	06.01	317.0	-01.0	;on cobble bank to right of pool
+005	006	05.90	287.0	 00.0	;left hand side of stream with climb up to bedding on left
+006	007	00.32	 -	DOWN	;st007 is stream level
+007	008	05.49	288.0	+01.0	;low wet gravel/cobbled crawl continues needs v.dry condition to push
+
+*end	cy12b

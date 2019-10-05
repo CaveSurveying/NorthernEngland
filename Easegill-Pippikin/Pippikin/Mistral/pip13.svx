@@ -1,0 +1,21 @@
+;Cave:	Pipikin - Far Streamway (cont.)
+;Surveyors:	Hugh St.Lawrence/Sam Lieberman
+;Date:	27/02/99
+;Instruments:	1
+
+;;*equate	Pip13.001	ms.016a
+;*equate	pip13.004	pip12.006b	
+
+*begin	pip13
+*export 001
+*export 004
+
+*calibrate compass	+5.00
+
+;*fix	001	
+
+001	002	01.86	305.0	-34.0	;st001=tag on Mistral 016a
+002	003	02.27	 -	DOWN
+003	004	05.59	270.0	-12.5	;st004=st006b in Pip12
+
+*end	pip13

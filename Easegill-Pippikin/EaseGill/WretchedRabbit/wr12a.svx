@@ -1,0 +1,29 @@
+;Cave:	Wretched Rabbit - linking streamway below traverses and Dreamweaver to WR
+;Surveyors:	H.Blythe/R.Duffy
+;Date:	05/05/03
+;Instruments:	PAG
+
+;*equate	wr12a.006a	wr.084a
+;*equate	wr12a.002	wr12.001
+;*equate	wr12a.007	wr13.001
+
+*begin	wr12a
+*export 002
+*export 007
+*export 006a
+
+*calibrate compass	+5.00
+*calibrate clino	+0.50
+*calibrate tape		+2.00
+
+*flags duplicate ; (Wretched Rabbit lower) seems to duplicate 081-087 in wr
+001	002	04.58	 -	UP	;st001 is head height laid flat out at drop down from corner of traverse with body in phreatic tube
+002	003	06.73	053.0	+11.0
+003	004	08.96	067.5	-01.0
+004	005	04.30	115.0	+18.0
+006	005	05.67	343.5	+15.0
+006	006a	08.30	211.0	-20.0	;st006a is where water leaves in bedding
+006	007	05.67	157.0	-07.5	;st007=tag on Dreamweaver Corner
+*flags not duplicate
+
+*end	wr12a

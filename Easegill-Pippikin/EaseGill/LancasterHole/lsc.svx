@@ -1,0 +1,22 @@
+;Cave:	Lancaster Hole - Lower Snail Cavern (part1)
+;Surveyors:	Ray Duffy/Dave Ramsey
+;Date:	13/07/03
+;Instruments:	PAG kit
+
+;;*equate	lsc.001	l5.021	;joined to Lower Snail
+;;*equate	lsc.006	lsc1.001	;joined to lower snail part 2
+
+*begin	lsc
+*export 001
+*export 006
+
+*calibrate compass	+5.00
+*calibrate clino	+00.5
+
+002	001	03.20	062.0	+06.0	;tag near rope from Sideline passage
+002	003	03.88	109.0	-38.0	;st003 is head height in corner bridged across drop
+003	004	05.87	230.0	-30.0
+004	005	04.30	232.0	+02.0	;st005 is top of climb down thick hawser rope
+005	006	02.55	 -	DOWN	;st006 is foot scoop in mud face
+
+*end	lsc

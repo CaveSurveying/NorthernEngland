@@ -1,0 +1,21 @@
+;Cave:	Montague West to Cross Passage digs
+;Surveyors:	Ray Duffy/Angela Hare
+;Date:	08/02/97 pm
+;Instruments:	Red Rose Sunto Compass & Clino, 30m tape
+
+;;*equate	mw4.001	mw3.006
+
+*begin	mw4
+*export 001
+
+*calibrate compass	+5.17
+
+001	002	07.49	317.5	+00.5	;001 is start of Right hand passage at mw3.006
+001	001a	03.00	236.0	-15.0	;short passage straight ahead at junction
+002	003	07.49	317.5	+00.5
+003	004	02.90	281.0	+05.0
+004	005	04.97	239.0	 00.0	;T junc.
+005	006	03.63	267.0	+17.0
+005	005a	06.00	149.0	 00.0	;very tight, poor readings
+
+*end	mw4

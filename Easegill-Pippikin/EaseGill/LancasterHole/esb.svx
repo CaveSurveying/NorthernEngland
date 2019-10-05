@@ -1,0 +1,29 @@
+;Cave:	Lancaster Hole - Earby Series - Beyond Rat Pit Chamber
+;Surveyors:	R.Duffy/A.Hare/D.Thompson
+;Date:	20/07/02
+;Instruments:	PAG
+
+;*equate	esb.013	esa.008
+
+*begin	esb
+
+*export 013
+*export 004
+
+*calibrate compass	+5.00
+*calibrate tape	+1.00
+
+002	001	05.90	148.0	-07.0	;end of sandy tube
+003	002	09.67	140.0	-03.0
+004	003	06.55	147.0	+19.0	;st4-3 is across steep sloping chamber
+004	005	02.80	 -	DOWN
+006	005	07.22	123.0	+04.0
+007	006	07.17	149.0	+02.0
+007	008	03.45	 -	DOWN
+008	009	02.00	310.0	 00.0
+009	010	04.79	 -	DOWN	;down rope to lower route
+010	011	02.60	 -	UP	;up to head height in lower chamber
+012	011	04.27	112.0	+11.0
+013	012	04.25	321.0	+40.0	;esb.013 is head position on slide through boulder at bottom of chamber to traverse
+
+*end	esb

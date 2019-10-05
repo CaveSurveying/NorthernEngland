@@ -1,0 +1,20 @@
+;Cave:	Trident - Oxbow above paper floor
+;Surveyors:	S.Lieberman (Instruments) / H.St.Lawrence (Notes, pictures, tape)
+;Date:	08/07/03
+;Instruments:	4
+
+;*equate	trident28a.001	trident13.015
+;*equate	trident28a.001	trident18.020
+
+*begin	trident28a
+*export 001
+
+*calibrate compass	+4.00
+*calibrate clino	 0.00
+*calibrate tape		+3.00
+
+001	002	08.50	154.0	+41.0	;Tag 11 at crosroads before boulder chamber
+002	003	05.05	095.0	+14.0
+003	004	05.60	157.0	+01.0
+
+*end	trident28a

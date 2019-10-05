@@ -1,0 +1,28 @@
+;Cave:		Link Pot - small connecting pass. to Arrow Passage
+;Surveyors:	S.Lieberman (notes+pics)/Ray Duffy(SAP)/Mark Shinwell(disto)
+;Date:		31/05/07
+;Instruments:	SAP/disto
+
+;*equate	lk16.001	lk02a.005 ;st005 is star mark in roof at junction with small connecting pass. to Arrow on left.
+;*equate	lk16.010 lk02a.012a ;st012a=tag in roof at juction to small passage back to Black Holes
+
+
+*begin	lk16
+*export 010
+*export 001
+
+*calibrate compass		0.00
+*calibrate clino		0.00
+*calibrate tape		0.00
+
+001	002	00.48	 -	DOWN	;st001is star mark in roof at junction with small connecting pass. to Arrow
+002	003	04.65	347.0	-05.0	;st003 half height left wall on bend
+003	004	02.13	086.0	+02.0	;st004 is left wall head height sitting with feet in hole to lower Tiger's Inlet Stream 8m below
+004	005	03.13	033.0	 00.0	;st005 is near floor right wall at left bend
+005	006	00.98	333.0	+21.0	;st006 is mid height on left wall at T section, alcove left 1.4m to end
+006	007	02.33	060.0	-04.0	;st007 is right wall above boulder
+007	008	03.29	044.0	+02.0	;st008 is top of boulder at T juntion, left too tight
+008	009	03.11	117.0	+04.0	;st009 is right wall half height
+009	010	01.35	097.0	+24.0	;st010=tag in roof of Arrow Passage
+
+*end	lk16

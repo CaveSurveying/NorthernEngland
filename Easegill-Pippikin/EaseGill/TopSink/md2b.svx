@@ -1,0 +1,60 @@
+;Cave:	Sideways Passage-Nagasaki-Limerick Junction
+;Surveyors:	PAG/R.Duffy
+;Date:	16/08/97pm
+;Instruments:	Red Rose kit 3 &1
+
+;;;;;;;;*equate	md2b.001a	md2a.027
+;;;;;;;;*equate	md2b.024	T01b.105
+;;;*equate	md2b.024	T01bii.055 ;tag at Limerick Passage
+;;;;;;;;*equate	md2b.010a	T06.043
+;;;;;;;;*equate	md2b.091	T09.030
+;;;;;;;;;;*equate md2b.005a md2bi.021 ;tag at base of climb to Fuckyama
+;;;;;;;;;;*equate md2b.007	T09a.031 ;tag above slope to NW Passage
+;;;;;;;;;;*equate	md2b.001a T09c.001f ;from North West Passage pitch route
+;;*equate md2b.010a md2ai.101 ;tag Rock of Ages
+
+*begin	md2b
+*export 024
+*export 010a
+
+*calibrate compass	+5.13
+
+;001	001a	02.50	074.5	+07.5	;st001a =tag st.027 on md2a ass.hall to end sideways
+;001	001b	04.55	015.0	+38.0	;st001b=MB204 in large aven left of sideways
+;001	002	18.60	077.0	+12.5	;st001=UP3
+;002	003	10.75	052.0	+19.0
+;003	004	08.70	049.0	+36.0	;st004 has pit to right down to crawl through to avoid climb
+;004	005	16.50	066.0	-14.0	;004 to 005 is awkward climb down
+;005	005a	10.00	233.0	-12.0	;st005a=tag foot of Fukuyama?
+
+;091	092	10.60	078.0	-05.0	;md2.091=UP4
+;092	093	13.20	006.0	+38.0
+;093	094	03.60	104.0	 00.0
+;094	095	10.30	077.0	-33.0
+;095	006	13.00	037.0	 00.0	;md2.095=UP5
+
+
+;005	006	06.80	022.5	-26.0	;st006=UP5 top of rubble slope to NW Passage
+;006	007	00.85	 -	UP	;sitting on tag
+;007	008	09.50	026.0	+42.0	;up to top of sand tube slope
+;008	009	07.60	081.0	+22.0
+;009	010	02.40	137.0	+15.0
+*flags duplicate ; (Rock of Ages to Limerick) seems to duplicate all of md2ci (the latter is more complete)
+010	010a	01.55	 -	DOWN	;st010a=MB6=tag Rock of Ages, Limmerick connection up wall to right
+010	011	02.55	085.0	-44.0
+011	012	04.30	080.0	+25.0
+012	013	05.00	101.0	-14.0
+013	014	02.90	 -	DOWN	;down hole in rocks at Bridge of Sighs
+014	015	03.95	080.0	-32.0
+015	016	04.95	056.5	+15.0
+016	017	05.15	076.0	-08.0
+017	018	04.30	329.0	+14.0
+018	019	03.50	305.0	-25.0	;018 to 019 first nasty step from pebble bridge to oxbow
+019	020	03.90	021.0	+10.0
+020	021	00.70	 -	DOWN
+021	022	03.90	348.0	+04.0	;020 to 021 second nasty step across
+022	023	06.00	085.0	-02.5	;022 to 023 third nasty step across
+023	024	03.10	034.0	-03.0	;st024=UP105 end of top sink
+*flags not duplicate
+
+*end	md2b

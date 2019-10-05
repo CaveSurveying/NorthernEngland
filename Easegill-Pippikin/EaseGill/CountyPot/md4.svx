@@ -1,0 +1,41 @@
+;Survey:	From Holbeck Junction to Stop Pot
+;Date:	Md4	10/09/96	evening
+;Surveyors:	R.Duffy/Dave Edland
+;Instruments:	RRCPC	Silva Compass/Clino
+
+;;;*equate	md4.001	P1a.105	;joined to Pool sink at UP18
+;;*equate	md4.012	l5.001
+;;*equate	md4.012	md5.012
+;;*equate	md4.001	md3.027
+;;;;*equate	md4.002	md3a.001 ;taken out for now for clarity
+;;*equate	md4.012	dep.008a
+;;*equate md4.008	straw.001
+;;;*equate	md4.002	GyC1.001
+;;;*equate md4.012 Wr17.001 ;start of depot to wretched
+
+*begin	md4
+*export 002
+*export 001
+*export 008
+*export 012
+
+*calibrate compass	0.00
+*calibrate clino	0.00
+
+*fix 001 67497.03 80888.29 266.67 ;bolt hole=UP18 in boulder in stream at Holbeck Junc.
+
+*calibrate compass	+5.27
+
+001	002	07.50	339.5	+22.0	;001=UP18
+002	003	05.90	275.0	+05.0	;002=MB4 TAGGED
+003	004	19.70	262.5	-05.0
+004	005	21.30	239.5	-02.3
+005	006	09.50	175.0	-17.5
+006	007	12.40	217.5	-06.5
+007	008	03.30	229.0	+07.0	;008=climb up to Straw Chamber, in boulder at streamway TAGGED HE008
+008	009	06.75	229.0	+07.0
+009	010	16.55	245.5	-06.2
+010	011	05.35	201.0	+29.5
+011	012	16.80	192.5	-14.5	;012=MB3(on ledge opposite climb from streamway coming up from Eureka)TAGGED MB3
+
+*end	md4

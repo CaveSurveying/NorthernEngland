@@ -1,0 +1,33 @@
+;Contains all Wretched Rabbit Depot Passage files now assigned to County
+
+*begin DepotPassages
+
+*export wr17.001
+*export wr17.005
+*export wr17.101
+*export wr15i.010
+
+*equate wr17.014 wr26.001 ; from wr17.svx
+*equate wr17.017 wr27.101 ; from wr17.svx
+*equate wr17.027 wr22.001 ; from wr17.svx
+*equate wr17.112 wr20.000 ; from wr17.svx
+*equate wr17.120 wr20.005r ; from wr17.svx
+*equate wr20.005t wr22c.015 ; from wr22c.svx
+*equate wr22.005 wr22b.009 ; from wr22b.svx
+*equate wr22.009 wr22c.001 ; from wr22c.svx
+*equate wr22.014 wr22a.001 ; from wr22a.svx
+*equate wr22b.004c wr22d.012 ; from wr22d.svx
+*equate wr15i.001 wr17.101
+
+*include	wr17
+*include	wr20
+*include	wr22
+*include	wr22a
+*include	wr22b
+*include	wr22c
+*include	wr22d
+*include	wr26
+*include	wr27
+*include	wr15i
+
+*end DepotPassages

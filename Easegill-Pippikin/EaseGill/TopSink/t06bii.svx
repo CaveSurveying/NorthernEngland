@@ -1,0 +1,32 @@
+;Cave:		Top Sink - Limerick Passage - part 3
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:		05/04/08
+;Instruments:	MKO + disto
+
+;*equate	t06bii.001 t06b.031 ;st001=tag at major stream junction
+;*equate t06bii.003d t06biii.001 ;st001=cable tie
+
+*begin	t06bii
+*export 003d
+*export 001
+
+*calibrate compass	+1.00
+*calibrate clino	+0.50
+*calibrate tape		 0.00
+
+001	002	04.31	190.0	+08.0	;st001=tag at major stream junction
+002	003	05.97	206.0	-04.0	;st003 is floor of3.5m long and 6.2m high aven passage at top too small(climbed by R.Duffy 15/12/07)
+003	003i	06.20	 -	UP
+
+003a	003	04.21	114.0	-08.0
+003a	003b	04.47	302.0	+38.0	;small aven above blocked with cobbles
+
+003	003c	00.83	 -	UP
+003c	003d	02.12	260.0	-15.0	;st003d=tag at start of continuation streamway
+
+003	004	03.36	115.0	+13.0
+004	005	07.99	140.0	+05.0
+005	006	01.20	195.0	-01.0
+006	007	04.50	139.0	+07.0	;st007 too low and wet 1.5m wide and 0.2 high with cobbles
+
+*end	t06bii

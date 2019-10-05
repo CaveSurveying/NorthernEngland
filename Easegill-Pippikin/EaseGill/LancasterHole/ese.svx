@@ -1,0 +1,21 @@
+;Cave:	Lancaster Hole - Earby Series - Subway cont. from NP/SL survey
+;Surveyors:	D.Lacey/H.Blyth
+;Date:	03/05/03
+;Instruments:	4
+
+;*equate	ese.002	es.026
+
+*begin	ese
+*export 002
+
+*calibrate compass	+4.00
+*calibrate clino	 0.00
+*calibrate tape		+0.20
+
+002	001	01.95	030.0	-26.0
+003	002	02.63	320.0	+19.0
+004	003	02.42	274.0	+05.0
+005	004	01.46	274.0	+10.0
+006	005	01.10	335.0	+10.0
+
+*end	ese

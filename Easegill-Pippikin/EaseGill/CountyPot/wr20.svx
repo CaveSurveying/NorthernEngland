@@ -1,0 +1,54 @@
+;Cave:	Ease Gill, Depot 1
+;Surveyors:	H.St.L/J.Baker/A.Hall
+;Date:	06/12/03 pm
+;Instruments:	KIT 2, 30m tape
+
+
+;*equate wr20.000	wr17.112
+;*equate	wr20.005r	wr17.120
+
+*begin	wr20
+*export 005r
+*export 000
+*export 005t
+
+*calibrate compass	+19.0
+;*calibrate compass	+3.50
+*calibrate clino	+3.00
+;*calibrate clino	-3.50
+*calibrate tape		+1.25
+;*calibrate tape	+1.00
+
+000	001	03.70	025.0	+10.0	;000=tag is poss stn 112 on wr17
+001	002	03.00	333.0	+07.0
+002	003	02.08	-	UP
+003	004	04.09	088.0	+55.0
+004	004a	04.00	280.0	+10.0
+004	005	07.83	090.0	+01.0	;junction
+005	006	09.78	339.0	00.0
+006	007	06.47	051.0	+03.0	;continues est.6m+, not followed
+005	005a	03.62	167.0	+05.0
+005a	005b	05.34	135.0	+10.0	;choke in top level
+005a	005c	03.56	-	DOWN
+005c	005d	05.25	126.0	00.0
+005d	005e	02.74	138.0	00.0
+005e	005f	02.95	073.0	+12.0
+005f	005g	04.65	149.0	+56.0	;up through choss
+005g	005h	03.35	157.0	+20.0	;up through choss
+005h	005i	03.22	-	UP	;up into cahmber
+005i	005j	05.50	151.0	+05.0	;junction of rift to right
+005j	005k	06.20	113.0	+05.0	;continues in low bedding 5m+
+005j	005l	05.33	183.0	-41.0	;down into rift to right
+005l	005m	03.79	215.0	-32.0
+005m	005n	03.26	151.0	+18.0
+*calibrate compass	+3.50
+*calibrate clino	-3.50
+005n	005o	04.53	213.0	+14.0	;short passage 2m above on right chokes after 5m
+005o	005p	12.79	138.0	+04.0	;big rift
+005p	005r	16.80	136.0	-02.0	;tag in rift near aven chamber, stn120 on wr17
+005r	005s	08.85	108.0	+32.0	;top of slope
+005s	005t	05.48	139.0	-26.0	;2m up rope hanging down aven
+005t	005v	04.00	084.0	+04.0	;projecting rock on left at entry to small passage
+
+*end	wr20
+

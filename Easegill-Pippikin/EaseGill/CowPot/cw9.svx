@@ -1,0 +1,28 @@
+;Cave:	Cow Pot-Shale Caver redo part4
+;Surveyors:	Ray Duffy/Jane Chilton/Bernice
+;Date:	01/04/00
+;Instruments:	PAG
+
+;*equate	cw9.001	cw6.007
+;*equate	cw9.003b	cw6.005
+;*equate	cw9.006	cw6.006
+
+*begin	cw9
+*export 001
+*export 006
+*export 003b
+
+*calibrate compass	+6.00
+
+001	002	05.66	138.0	+09.0	;st002 is near edge of shale chamber, small dig in depression
+002	003	06.80	197.0	+03.0	;st003 is between two sink holes at top of chamber
+003	003a	02.21	009.0	+02.0	;st003a is knobble in roof at lip of hole up to entrance passage
+003a	003b	02.45	 -	UP	;st003b=st005 cw6
+003	004	03.86	314.0	+01.0	;st004 is junction of passage running across bedding
+004	005	03.50	000.0	+23.0
+005	006	01.28	059.0	+23.0	;st006=st006 cw6 
+004	004a	00.50	 -	UP
+004a	004b	05.97	165.0	+10.5	;left hand passage	
+004b	004c	02.50	115.0	+09.5	;st004c is flat out at bottom of wet boulder choke from left
+
+*end	cw9

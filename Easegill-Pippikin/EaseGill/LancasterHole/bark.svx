@@ -1,0 +1,26 @@
+;Cave:	Lancaster Hole - Barkers pot
+;Surveyors:	Ray Duffy/Dave Edland/Andy Ives
+;Date:	18/01/98pm
+;Instruments:	PAG kit
+
+;;*equate	bark.005	col.019
+
+*begin	bark
+*export 005
+
+*calibrate compass	+5.00
+
+001	001a	04.62	067.0	-14.0
+001a	001b	01.13	124.0	+11.0
+001b	001c	01.10	090.0	+75.0	;st001c is hole in left of slope up to pitch
+;001c	001d	15.12	143.0	+03.0	;st001d=Boulder in Bridge Hall
+
+001	002	05.57	340.0	+36.0
+
+001	003	04.43	230.0	-36.0
+003	003a	03.00	150.0	-15.0	;st003a is dig??
+
+001	004	06.05	116.0	+65.0
+004	005	01.20	341.0	+30.0	;st005=top of pitch
+
+*end	bark

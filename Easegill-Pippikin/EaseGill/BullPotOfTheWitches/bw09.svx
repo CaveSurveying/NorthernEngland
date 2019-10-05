@@ -1,0 +1,32 @@
+;Cave:		Bull Pot of the Witches - Wet Passage to sump from Junction Chamber
+;Surveyors:	O.Betts/P.Greenwood/M.Green
+;Date:		31/12/00
+;Instruments:	kit 2
+
+;*equate	bw09.001	bw06.001
+;;*equate	bw09.001	bw06a.001
+;*equate	bw09.011	bw06.017
+;*equate	bw09.011	bw03.027
+
+*begin	bw09
+*export 011
+*export 001
+
+*calibrate compass	+6.50
+
+001	002	03.90	167.0	-02.0	;Knot on diver's line
+002	003	08.12	261.0	-10.0
+003	004	30.15	028.5	+00.5
+
+
+004	008	42.93	027.0	 00.0
+008	009	05.35	274.0	+01.0
+009	010	13.92	038.0	+06.0
+010	011	03.46	051.0	+20.0	;st011=tag in Juntion Chamber
+
+004	005	03.55	130.0	+14.0
+005	006	03.65	126.0	+32.0
+006	007	17.95	203.0	-07.0
+007	001	04.14	221.0	+07.0	;Knot on diver's line
+
+*end	bw09

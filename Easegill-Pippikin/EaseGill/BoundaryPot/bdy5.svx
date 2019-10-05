@@ -1,0 +1,29 @@
+;Cave:	Boundary Pot - Inlet opposite passage to Fusion Cavern from new ladder area
+;Surveyors:	S.Lieberman/R.Duffy/M.Shinwell
+;Date:	03/05/07
+;Instruments:	PAG + disto	
+
+;*equate bdy5.009 bdy3.023 ;head height at bottom of new ladder pitch
+
+*begin	bdy5
+*export 009
+
+*calibrate compass	+2.00
+*calibrate clino	+0.50
+*calibrate tape		 0.00
+
+001	001a	05.66	132.0	+05.0	;st001a is choke at end of right passage
+001	001b	04.82	035.0	+08.0	;st001b is choke at end of left passage small low chamber
+
+001	002	05.15	256.0	-17.5	;st001 is on rib in middle of Y between passages, st002 is stal on spike high in passage roof
+002	003	04.45	 -	DOWN
+004	003	02.78	071.0	-01.0
+004	005	01.40	202.0	-08.0
+005	006	01.98	252.0	-39.0	;st006=knob for sling at start of inlet
+006	007	03.50	 -	DOWN	;st007 is floor of main passage
+*flags duplicate ; (Boundary Pot) looks like a tie-in to the pitch base, already covered by 022-023 in bdy3.svx
+007	008	01.60	 -	UP	;st008 is head height
+008	009	09.91	166.0	+17.5	;st009=head height at ladder
+*flags not duplicate
+
+*end	bdy5

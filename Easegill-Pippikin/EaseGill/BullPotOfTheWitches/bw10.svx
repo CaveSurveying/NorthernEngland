@@ -1,0 +1,38 @@
+;Cave:		Bull Pot of the Witches - North Chamber extensions
+;Surveyors:	H.St.Lawrence/Sam Lieberman/Andy Whitney
+;Date:		18/11/03
+;Instruments:	Kit 4 read by Sam (mostly)
+;Notes/Pics: 	Sam Lieberman
+;Tape:		 Andy Whitney
+
+;*equate	bw10.002	bw11.018
+;*equate	bw10.002	bw13.001
+;*equate	bw10.015	bw01.012
+;*equate	bw10.015	bw12.007
+
+*begin bw10
+*export 002
+*export 015
+
+*calibrate compass	+4.00
+*calibrate clino	 0.00
+*calibrate tape		+3.00
+
+;002	001	05.50	345.0	 00.0	;This leg resurveyed 
+002	001	05.50	350.0	 00.0	;001 end of bedding with no draught, Inst. read by HstL
+003	002	04.21	307.0	+04.0	;002 above calcited point of boulder rhs of bedding
+004	003	04.19	286.0	-15.0	;003 rh wall above hole in floor with draught, Inst. read by HstL
+004	005	05.04	168.0	-21.0	;004 top of slope above squeeze up.
+005	006	06.74	208.0	+02.0	;005 breakthrough chamber below squeeze up.
+006	007	05.38	159.0	+20.0	;006 base of slope of original dig.
+007	008	05.55	177.0	+04.0	;007 small chamber at top of slope.
+008	009	06.23	174.0	+05.0	;008 point of rock other side of squeeze, in 'table' chamber
+009	010	03.70	228.0	-13.0	;009 leaning against deads lhs above slope to North Chamber
+010	011	04.09	  -	 DOWN	;010 calcite on lh wall above slope down to North chamber
+012	011	07.75	356.0	+12.0	;011 floor of slope down to North Chamber
+013	012	09.03	006.0	+04.0	;012 lowest point of corner rh wall as you exit North chamber to the open pot
+013	014	08.45	206.0	-25.0	;013 cross scratched on lh wall top of slope down to traverse.	
+014	015	24.77	184.5	-02.0	;014 level with traverse, above drop to stream.
+;015 Obvious point of boulder as you exit the open pot on the way out.
+
+*end	bw10

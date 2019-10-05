@@ -1,0 +1,28 @@
+;Cave:	Boundary Pot - Very Wet Inlet opposite new ladder
+;Surveyors:	S.Lieberman/R.Duffy/M.Shinwell
+;Date:	03/05/07
+;Instruments:	PAG + disto	
+
+;*equate bdy6.011 bdy3.023 ;head height at bottom of new ladder pitch
+
+*begin	bdy6
+*export 011
+
+*calibrate compass	+2.00
+*calibrate clino	+0.50
+*calibrate tape		 0.00	
+
+002	001	02.60	086.0	+06.0	;4m of standing passage beyond st001
+003	002	01.80	040.0	+02.0	;between st 001 & 004 is flat out crawl in wet cobbled bed
+003	004	03.84	200.0	-08.0
+004	005	02.54	 -	DOWN	;st005 is in small chamber with small choked inlets in roof
+006	005	07.57	088.0	+06.0
+006	007	08.90	323.0	-05.0	;main water enters fom roof inlet, too small, between st006 and 007
+007	008	03.01	310.0	-32.5
+009	008	01.16	179.0	+18.0	;st009 links to left to bdy5 near st002
+009	010	07.44	253.0	-42.0	;from head height at lip of 2m drop, to pool before tight twisting outlet, straight to main passage
+*flags duplicate ; (Boundary Pot) looks like a tie-in to the pitch base, already covered by 022-023 in bdy3.svx
+010	011	06.00	160.0	+16.0	;head height at ladder
+*flags not duplicate
+
+*end	bdy6

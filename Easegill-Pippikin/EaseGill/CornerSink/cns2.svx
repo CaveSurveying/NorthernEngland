@@ -1,0 +1,32 @@
+;Cave:	Corner Sink - Tube entrance
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:	19/04/03
+;Instruments:	PAG
+
+;*equate	cns2.001	cns1.001
+;*equate	cns2.010	cns1.008
+
+*begin	cns2
+*export 010
+*export 001
+
+*calibrate compass	+5.00
+*calibrate clino	+00.5
+*calibrate tape	+2.00
+
+001	002	05.16	287.0	-07.0
+002	003	02.87	335.0	 00.0
+003	004	04.09	311.0	 00.0
+004	005	06.24	275.0	-02.0
+005	006	04.29	274.0	-25.0
+006	007	04.99	331.0	-24.0	;tight inlet enters on left roughly one body length
+007	008	04.62	308.0	-16.0	;st008 has higher level passage above
+
+007	007a	04.93	296.0	+07.0	;higher level passage
+007a	007b	04.74	359.0	+03.0
+007b	007c	05.50	013.0	 00.0	;passage continues too tight
+
+008	009	05.01	015.0	-46.0
+009	010	03.00	335.0	-15.0	;st010=st080 cns1.008
+
+*end	cns2

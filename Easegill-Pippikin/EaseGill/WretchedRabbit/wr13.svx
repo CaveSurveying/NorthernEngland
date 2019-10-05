@@ -1,0 +1,27 @@
+;Cave:	Wretched Rabbit - Dreamweaver Corner to Chamber
+;Surveyors:	H.Blythe/R.Duffy
+;Date:	05/05/03
+;Instruments:	PAG
+
+;*equate	wr13.001	wr12a.007
+;*equate	wr13.009	wr13a.029
+;*equate	wr13.001	wr24.001
+
+*begin	wr13
+*export 001
+*export 009
+
+*calibrate compass	+5.00
+*calibrate clino	+0.50
+*calibrate tape		+2.00
+
+002	001	03.40	023.0	-18.0	;st001=tag in streamway bedding on bend before the stream sinks
+002	003	03.37	 -	UP
+003	004	05.92	167.0	+19.0	;st004 is second rock on steps
+004	005	05.70	 -	UP	;up steps to small chamber
+006	005	04.05	314.0	-13	;st006 is head height at bottom of rope
+006	007	04.40	 -	UP
+007	008	04.10	138.0	+12.0
+008	009	04.60	152.0	+28.0	;st009 is X marked on large cobble on left of crawl through to chamber after bend
+
+*end	wr13

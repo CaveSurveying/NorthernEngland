@@ -1,0 +1,69 @@
+;Cave:		Link Pot - Handpump Hall
+;Surveyors:	S.Lieberman/A.Hall/P.Wilkinson
+;Date:		15/07/07
+;Instruments:	SAP + disto + PAG
+
+;*equate	lk02d.022 lk02.008 ;tag at junction with Top of Tiger's Inlet
+;*equate	lk02d.013a lk02e.004 ;tag on way to Tigers Inlet
+;*equate	lk02d.021 lk02e.025 ;st021 is left corner in Tigers Inlet
+
+*begin	lk02d
+*export 021
+*export 013a
+*export 022
+
+*calibrate compass		0.00
+*calibrate clino		0.00
+*calibrate tape		0.00
+
+002	001	04.37	050.0	-08.0	;st002 is junction
+
+002	002a	04.80	081.0	+02.0	;st002a is end of dig
+
+002	003	03.33	275.0	-02.0
+003	004	05.44	246.0	-05.0	;st004 is stal
+004	005	06.79	277.0	-02.0
+005	006	02.13	289.0	+03.0	;st006 has small 2m too low pass. to right
+006	007	01.69	221.0	-08.0
+007	008	05.67	225.0	-02.0	;st008 is stal in middle of pass.
+008	009	04.87	298.0	-04.0
+009	010	15.42	262.0	-04.0
+010	011	00.63	 -	UP
+011	012	09.36	341.0	-06.0	;st012 is stal with small v.low inlet to right
+012	013	10.42	297.0	-01.0
+
+013	013a	02.41	186.0	+03.0	;st013a=tag on way to Tigers Inlet
+
+013	014	06.22	312.0	+07.0
+014	015	10.38	047.0	+02.0
+015	016	08.00	001.0	-01.0	;aven just beyond st016 is 8m high
+
+;SAP broke started using PAG set
+
+*calibrate compass		+3.00
+*calibrate clino		+0.50
+*calibrate tape		 0.00
+
+;these readings taken on 18/07/07 by S.Lieberman/R.Duffy using same instruments
+016	016i	03.82	345.0	-04.0
+016i	016ii	06.87	 -	UP	;st016ii is top of aven looks too tight bedding at top
+;continuation of notes from 15/07/07
+016	016a	08.03	075.0	+08.0	;st016a is dig
+	
+016	017	04.35	277.0	-29.0	;st017 is start of slope down to connecting passage with Tigers Inlet
+017	018	02.35	272.0	-48.0
+019	018	03.92	114.0	+07.0
+019	020	03.18	281.0	-18.0	;low wet crawl below st020 toward Cairn Junc.
+020	021	05.56	282.0	-05.0	;st021 is left corner in Tigers Inlet
+021	022	08.87	319.0	-03.0	;st022=tag at junction with Top of Tiger's Inlet
+
+022	023	00.10	 -	UP
+023	024	09.57	078.0	+02.0
+024	025	05.16	150.0	-20.0 ;st025 is start of low wet crawl to Handpump Hall
+025	026	02.28	149.0	-08.0
+027	026	01.83	062.0	-03.0
+027	028	03.33	185.0	+12.0	;passage on right is very low wet crawl to Tigers Inlet
+028	029	01.11	101.0	 00.0
+029	020	01.30	 -	UP
+
+*end	lk02d

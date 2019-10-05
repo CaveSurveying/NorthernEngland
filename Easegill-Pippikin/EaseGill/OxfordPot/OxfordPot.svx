@@ -1,0 +1,13 @@
+;All Oxford Pot files
+
+*begin OxfordPot
+
+*export cy3.1 
+*export cy3.33
+
+*equate cy3.33 cy3b.001
+
+*include cy3
+*include cy3b
+
+*end OxfordPot

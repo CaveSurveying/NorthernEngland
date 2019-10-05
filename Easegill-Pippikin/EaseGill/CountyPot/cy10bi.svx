@@ -1,0 +1,25 @@
+;Cave:	County Pot - Dismal Bypass cont.
+;Surveyors:	R.Duffy/S.Lieberman/A.Whitney
+;Date:	14/09/04
+;Instruments:	PAG
+
+;;*equate	cy10bi.001 cy10b.006 ;connection to Spout Pass.
+
+*begin	cy10bi
+*export 001
+
+*calibrate compass	+4.00
+*calibrate clino	-0.05
+*calibrate tape		+1.00
+
+001	002	05.25	311.0	-00.5	;st001=tag in roof in corner of bedding with tight connecting tubes to right
+002	003	05.02	084.0	 00.0	;st002 is in parallel passage, st003 is end of parallel
+003	004	05.72	024.0	+07.0	;st004 is bouldery chamber
+004	005	03.00	312.0	+27.0	;boulders and passage to left lead to parallel alternative route through, tighter
+005	006	04.53	003.0	+09.0	;hole in roof above st006? dangerous looking!!!!!
+006	007	03.93	045.0	-01.0
+007	008	03.50	323.0	+31.0	;st008 is in larger passage with route upwar behind possibly to Ig.Bliss
+008	009	07.70	025.0	-08.0	;st009 is astride drop into Spout Passage Oxbow
+009	010	04.00	 -	DOWN	;oxbow floor
+
+*end	cy10bi

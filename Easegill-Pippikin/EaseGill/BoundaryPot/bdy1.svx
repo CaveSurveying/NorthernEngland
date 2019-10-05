@@ -1,0 +1,58 @@
+;Cave:	Boundary Pot - entrance re-survey
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:	24/02/06
+;Instruments:	PAG + disto
+
+;;*equate	Bdy1.001b	sf1a.001
+;;*equate	Bdy1.001	sf2.001 ;tag at roof of entrance crawl
+;*equate bdy1.008 bdy1a.001 ;tag on corner
+
+*begin	bdy1
+
+*export 001
+*export 008
+*export 001b
+
+*calibrate compass		+4.00
+*calibrate clino		+1.00
+*calibrate tape		  0.00
+
+*entrance 001
+
+;*fix 001 67865.99 80835.06 330.92
+*fix 001 67867.13 80837.87 330.85 
+
+*flags surface
+
+001a	001b	06.97	237.0	-03.0	;st001b=broken off tag on surface rock
+001a	001	07.38	172.0	-11.0	;st001=tag st roof of ent. crawl
+
+*flags not surface
+
+001	002	06.40	215.5	-07.0	;st002 is knob of rock on right at end of crawl
+002	003	01.33	 -	DOWN	;st003 is head height in chamber below climb
+
+003	003a	05.60	153.0	+19.0
+003a	003b	04.13	285.0	+76.0	;from edge of chamber up toward tag on tree
+
+003	004	06.30	197.0	-14.5
+004	005	06.46	283.0	-04.0	;st005 is edge of drop
+005	006	01.28	 -	DOWN	;st006 is head height at foot of climb
+006	007	02.58	314.0	-38.0
+007	008	02.85	334.0	-01.0	;st008=tag on corner of main way and crawl
+008	009	02.83	291.0	-04.0
+009	010	01.16	328.0	-03.0
+010	011	01.92	266.0	-04.0
+011	012	04.55	208.0	+05.0
+012	013	05.50	190.0	-01.0
+013	014	02.04	210.0	 00.0
+014	015	02.60	190.0	-01.0
+015	016	04.40	250.0	-04.0
+016	017	01.77	274.0	+01.0
+017	018	04.96	233.0	-01.0
+018	019	02.49	214.0	-01.5
+019	020	02.42	289.0	-03.0
+020	021	01.16	004.0	+00.5
+021	022	05.27	264.0	 00.0	;st022 is plastic bag at end of too tight passage, strong draught toward ent. on survey day
+
+*end	bdy1

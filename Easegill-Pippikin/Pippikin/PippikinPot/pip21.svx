@@ -1,0 +1,41 @@
+;Cave:	Pipikin - Upstream Ratbag Inlet II
+;Surveyors:	C.Ramwell/P.Swire
+;Date:	25/05/02
+;Instruments:	3
+
+;*equate	pip21.013	pip20.000
+;;*equate	pip21.000	pip11.015
+;*equate	pip21.000	pip11.016
+
+*begin	pip21
+*export 013
+*export 000
+
+*calibrate compass	+3.00
+
+000	001	08.00	086.0	+05.0	;st000=tag with passage to aven on left
+001	002	03.80	138.0	 00.0	;st002 is prominent nose of rock beneath calcite flow with unsurveyed passage on right
+002	003	02.60	137.0	+03.0
+
+003	003a	06.00	188.0	+35.0	;st003a greasy boulders sloping up to roof in small inlet, draughting
+
+003	004	06.44	068.0	 00.0	;straws
+004	005	06.42	062.0	+02.0
+005	006	04.55	042.0	+03.0
+006	007	03.10	065.0	+02.0
+007	008	02.20	029.0	-01.0
+008	009	07.10	075.0	+03.0	;st009 marked on rock just after tiny inlet on left
+009	010	05.73	145.0	+01.0
+010	011	09.26	201.0	 00.0
+011	012	02.67	150.0	+07.0
+012	013	01.73	062.0	-11.0	;st013 is Triangle mark of Surveyors Dog Inlet on left
+
+013	014	06.17	163.0	 00.0
+014	015	02.44	092.0	+05.0
+015	016	04.00	165.0	 00.0
+016	017	03.20	063.0	-01.0
+017	018	04.54	092.0	+01.0
+018	019	01.91	135.0	+03.0
+019	020	02.30	055.0	-02.0	;st020=tag on L.Wall in staws
+
+*end	pip21

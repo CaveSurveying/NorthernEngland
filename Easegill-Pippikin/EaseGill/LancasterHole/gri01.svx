@@ -1,0 +1,142 @@
+;Cave:		The Grind (Part 1)
+;Surveyors:	T.Clayton (instr.)/R.Lawson (notes)
+;Date:		02/05/2011
+;Instruments:	R.L. Compass/Clino/Tape30m(something missing)
+
+;*equate	gri01.055 wm.017
+;*equate	gri01.000 gri02.045
+
+*begin	gri01
+
+*export 000
+*export 055
+
+*date 2011.05.02
+
+*calibrate compass	2.25	; Approximate magnetic variation for 2011
+*calibrate clino	0.00
+*calibrate tape		+0.20
+
+*units clino percent
+
+000	001	00.88	261.0	-55.0	;st000=45x on a previous survey
+001	002	01.20	018.0	-26.0
+002	003	02.51	297.0	-04.0
+003	004	03.93	312.0	-01.0
+004	005	03.47	211.0	-03.0
+005	006	02.52	298.0	-04.0
+006	007	01.42	246.0	-29.0
+007	008	06.06	332.0	-03.0
+008	009	03.08	356.0	-10.0
+009	010	02.23	011.0	+01.0
+010	011	02.99	008.0	-13.0
+011	012	03.41	330.0	+03.0
+012	013	04.70	316.0	-10.0
+013	014	02.37	342.0	 00.0
+014	015	01.15	273.0	+11.0
+015	016	03.12	276.0	-21.0
+016	017	03.14	281.0	-06.0
+017	018	03.96	244.0	-07.0
+018	019	03.77	260.0	-01.0
+019	020	02.31	305.0	+03.0
+020	021	03.02	167.0	-03.0
+021	022	02.38	219.0	-25.0
+022	023	02.86	280.0	+09.0
+023	024	03.65	227.0	-10.0
+024	025	04.06	315.0	-05.0
+025	026	03.12	319.0	+01.0
+026	027	06.03	272.0	-07.0
+027	028	01.67	254.0	-03.0
+028	029	04.14	301.0	-06.0
+029	030	04.59	258.0	-06.0
+030	031	03.27	242.0	-09.0
+031	032	02.06	205.0	+12.0
+032	033	05.38	265.0	-05.0
+033	034	05.21	240.0	-12.0
+034	035	02.61	309.0	-06.0
+035	036	02.98	232.0	-15.0
+;made up leg
+036	036a	05.00	155.0	 00.0
+;end of made up leg
+036	037	03.04	312.0	-05.0
+037	038	03.09	251.0	+07.0
+038	039	01.44	296.0	-29.0
+039	040	01.82	271.0	-11.0
+040	041	04.29	314.0	+01.0
+041	042	05.98	218.0	-03.0
+042	043	05.27	220.0	-02.0
+043	044	02.22	261.0	-04.0
+044	045	05.80	202.0	-11.0
+045	046	06.40	156.0	+04.0
+046	047	03.91	174.0	-08.0
+047	048	01.74	220.0	-01.0
+048	049	07.52	196.0	-09.0
+049	050	01.11	 -	DOWN
+050	051	03.94	184.0	-04.0
+051	052	04.77	158.0	+20.0
+052	053	02.04	170.0	+32.0
+053	054	02.43	173.0	-04.0
+
+; !!! survey will need to be tied in properly !!!
+;054	055	05.01	204.0	+02.0	;Correct linking station should be on the opposite (true right wall)
+054	055	04.01	204.0	+02.0	;leg reduced by 1m to compensate for passage width.
+
+*end	gri01
+
+;	st	l	r	u	d	;comments
+;	0	0.3	0	1	0.6	st0=45x on a previous survey
+;	1	0	0.5	1.2	0.4	mud
+;	2	0.4	0	1.4	0.2
+;	3	0.3	0.3	1.2	0.2
+;	4	0.6	0	0.3	0.4	bare rock floor
+;	5	0.2	0.5	0.3	0.4
+;	6	0.3	0.4	0.3	0.4	6-7 mud + cobbles/stalactite
+;	7	0.1	0.6	0.5	0.1	
+;	8	0.6	0.1	0.2	0.4	7-8 bare rock/water
+;	9	0.1	0.5	0.3	0.2	8-9 mud + cobbles
+;	10	0.4	0.2	0.2	0.3	10-11 cobbles
+;	11	0.2	1.0	0.4	0.3	11-12 cobbles + puddle
+;	12	0.2	0.4	0.2	0.4
+;	13	0.1	0.4	0.3	0.3	12-13 mud
+;	14	0.3	0.2	0.2	0.4	13-14 cobbles
+;	15	0.1	0.6	0.1	0.6	15-19 cobbles + puddles/passage junction from right mud-filled small too tight
+;	16	0	0.4	0.5	0.2
+;	17	1	0.2	0.4	0.3
+;	18	0.7	0.3	0.5	0.3
+;	19	0.2	0.9	0.3	0.3	
+;	20	1.1	0.1	0.1	0.4	20-21 cobbles + water
+;	21	0.1	0.4	0.1	0.5
+;	22	0.2	0.4	0.5	0.1	cobbles
+;	23	0.4	0.3	0.2	0.4	23-25 bare rock
+;	24	0	0.7	0.5	0.3
+;	25	0.2	0.5	0.4	0.2
+;	26	1.2	0.3	0.3	0.3	25-26 puddle
+;	27	0.6	0.4	0.1	0.4	26-27 crawl over rock/water and cobbles
+;	28	0.5	0.4	0.1	0.4	28-29 cobbles/stal
+;	29	0.2	0.6	0.2	0.6
+;	30	0.7	0.1	0.1	0.5	cobbles - water
+;	31	0.7	0.4	0.3	0.5	31-32 mostly bare rock
+;	32	1.2	0.3	0.1	0.7	23-33(unreadable note??????????????????)
+;	33	0.6	0.2	0	0.8
+;	34	0	0.8	0.2	0.4
+;	35	1	0.1	0.3	0.5
+;	36	?	1.8	0.5	0.1	st is nose in L side of passage with passage junction to right to Zepplin Avenbearing 155deg.
+;	37	1	0.2	0.2	0.3	cobbles
+;	38	0.4	0.5	0	0.7	small passage on left ?can't read?
+;	39	0.7	0	0.4	0.3	38-39 stalagmites
+;	40	0.2	0.4	0.6	0.2	39-44 cobbles - water
+;	41	1	0.2	0.2	1	climb over rock/floiwstoner
+;	42	0.6	0	0.1	0.7
+;	43	0.3	0.5	0	0.9
+;	44	0.3	0.5	0	1	?above another calcite climb over?
+;	45	0.9	0.1	0.3	0.7	pebbles + water
+;	46	0.3	0.7	0	1.3	inlet passage on left ?lp? in ceiling + scratched 46
+;	47	0.1	0.8	0.2	1.2	gravel
+;	48	0.1	0.7	0.2	0.3
+;	49	0.8	0.3	0.4	1	start of low crawl small tube at roof level
+;	50	0.8	0.3	1.4	0
+;	51	0.3	0.2	0.6	0	between 50-51 end of crawl
+;	52	0.5	0.3	0.8	1
+;	53	0.1	0.4	0.2	1.5	52-55 mud + gravel floor
+;	54	0.4	0.5	0.7	1.4
+;	55	pas	pas	0	1.7	up in roof on true L wall of Wormway

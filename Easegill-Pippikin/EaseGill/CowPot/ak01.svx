@@ -1,0 +1,32 @@
+;Cave:	Aardvark Country
+;Surveyors:	Ray Duffy/Andy Hall
+;Date:	07/11/98
+;Instruments:	PAG
+
+;;*equate	Ak01.014	md7a.001
+;*equate	ak01.002	ak02.007
+;*equate	ak01.000	ak04.023
+
+*begin	ak01
+*export 002
+*export 000
+*export 014
+
+*calibrate compass	+5.00
+
+000	001	01.70	171.0	 00.0
+001	002	08.10	110.0	+00.5
+002	003	06.90	 -	DOWN	;pitch tohead height (8m pitch)
+003	004	01.30	252.0	-46.0
+004	005	00.30	 -	DOWN
+005	006	02.00	162.0	-06.0
+006	007	05.10	164.0	-11.0
+007	008	03.30	142.0	-24.0
+008	009	02.20	 -	DOWN	;climb
+009	010	02.60	160.0	-09.0
+010	011	05.30	250.0	-35.0
+011	012	07.20	 -	DOWN	;8m pitch
+012	013	04.10	177.0	-50.0
+013	014	01.30	 -	UP	;st014=tag md7a.001 main drain
+
+*end	ak01

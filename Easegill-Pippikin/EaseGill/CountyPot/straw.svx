@@ -1,0 +1,29 @@
+;Cave:	Straw Chamber
+;Surveyors:	Ray Duffy/Helen Essery
+;Date:	01/11/97
+;Instruments:	Red Rose Kit 2 comp & 3 clino, 30m tape
+
+;;*equate	straw.001	md4.008
+;;*equate	straw.004	md4a.010
+;;*equate straw.005	straw1.001 ;tag on stal at start of Dry Dock
+
+*begin	straw
+*export 001
+*export 005
+*export 004
+
+*calibrate compass	+5.13
+
+
+001	002	02.20	 -	UP	;st001=tag main drain
+002	003	08.60	112.0	+33.0
+003	004	07.47	159.0	+41.0
+*flags splay ; (Straw Chamber) explicitly stated as splays
+004	004a	07.10	265.0	+04.0	;004a & 004b chamber dimension
+004	004b	12.55	053.0	+11.0
+*flags not splay
+*flags duplicate ; (Straw Chamber) tie-in duplicates 004-005 in md4c
+004	005	20.80	088.0	+20.0	;st005=stal tagged in Dry Dock
+*flags not duplicate
+
+*end	straw

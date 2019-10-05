@@ -1,0 +1,45 @@
+;Cave:	Lancaster Hole - Snail Cavern (part 2)
+;Surveyors:	R.Duffy/A.Whitney/S.Lieberman/P.Windle
+;Date:	27/07/03
+;Instruments:	PAG
+
+;;*equate	lsc1.001	lsc.006
+
+*begin	lsc1
+*export 001
+
+*calibrate compass	+5.00
+*calibrate clino	+00.5
+;*calibrate tape		
+
+002	001	05.40	352.0	+35.0	;st001 is scoop in mud on rope climb
+
+002	002a	11.84	277.5	+07.5
+002a	002b	06.16	338.0	-00.5
+002b	002c	03.83	357.0	-04.0	;end of chamber where holes down to streamway
+
+002	003	05.82	073.0	+18.0
+003	004	13.51	032.0	+01.0	;opposite end of chamber
+004	005	01.23	086.5	-42.0	;st005 is start of tube crawl
+005	006	06.42	132.0	-07.0	;almost end of tube above squeeze
+006	007	00.60	 -	DOWN
+008	007	04.36	208.0	-01.0	;cairn in passage with loop back to st002 ish
+008	009	12.20	018.0	+01.0
+009	010	08.66	010.0	+01.0	;st010 has small passage on rightish
+010	011	02.83	333.0	+10.0	;boulders
+011	012	01.82	254.0	-07.5
+
+012b	012a	03.95	080.0	-43.0	;st012b is star with large A written next to it in Boulders
+012a	012	04.85	147.0	-28.0	
+
+013	012	03.58	028.0	+46.0	;st012 is pointy rock in bouldery chamber
+
+013	013a	03.30	318.0	+14.5
+013a	013b	03.30	211.0	-01.0	;really in boulders with a bit more and possible way through to black space?
+
+013	014	03.46	041.0	-13.5	;down into muddy crawl
+014	015	13.78	079.5	+00.5
+015	016	09.82	026.0	+02.0
+017	016	07.59	273.5	-06.0	;end of crawl in boulder chamber with draughts
+
+*end	lsc1

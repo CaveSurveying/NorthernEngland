@@ -1,0 +1,27 @@
+;Cave:	Wretched Rabbit - Mud Inlet
+;Surveyors:	A.Whitney/S.Lieberman
+;Date:	04/08/05
+;Instruments:	kit 1
+;50m tape (!)
+
+;*equate wri.001	wre.011
+
+*begin	wri
+*export 001
+
+*calibrate compass	+2.00
+*calibrate clino	-2.50
+;*calibrate tape		
+
+*fix 001 67600.42 80715.81 303.05 ;edge of sheet 3c
+
+001	002	04.04	  -	 UP	;stn 001 is corner on Ray's solo survey with handy shelf for note book
+003	002	05.08	067.0	-01.0	;stn 002 top of rift
+003	004	04.89	260.0	-03.0	;stn 003 opposite small aven
+004	005	06.76	215.0	-03.0	;stn 004 bedding on right
+005	006	04.06	175.0	-07.0	;stn 005 top of slope out of pool
+006	007	05.30	221.0	-03.0	;stn 006 before 2nd pool
+007	008	08.00	235.0	-03.5	;stn 007 lying in poo
+; Last leg is estimated, stn 8 is end of visible passage
+
+*end	wri

@@ -1,0 +1,28 @@
+;Cave:	Stop Pot to Straw Chamber by Double Decker Passage(NEEDS JOINING TO md4.008)
+;Surveyors:	F.Addis & J/Mundy
+;Date:	Md4a	22/11/81
+;Instruments:	?
+
+;;*equate	md4a.010	straw.004
+;;*equate	md4a.010	md4c.004
+
+*begin	md4a
+*export 010
+
+*calibrate compass	+10.5
+;*calibrate compass	+7.37
+*calibrate clino	+5.00
+*calibrate tape		+0.50
+
+000	001	08.00	 -	UP	;made up leg into Double Decker from Stop Pot
+001	002	09.60	020.0	+06.0
+002	003	04.70	071.0	+03.0
+003	004	03.40	075.0	-02.0
+004	005	03.60	094.0	+07.0
+005	006	02.70	181.0	 00.0
+006	007	10.60	088.0	+08.0	
+007	008	15.00	092.0	+08.0
+008	009	11.00	048.0	+02.0
+009	010	08.10	053.0	-46.0	;st010 is UP10 in Straw Chamber
+
+*end	md4a

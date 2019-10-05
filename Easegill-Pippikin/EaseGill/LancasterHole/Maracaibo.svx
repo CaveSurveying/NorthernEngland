@@ -1,0 +1,23 @@
+;Contains all Maracaibo files
+
+*begin Maracaibo
+
+*export mar01.021
+
+*equate mar01.001 mar02.001 ; from mar01.svx
+*equate mar01.006 mar01a.001b ; from mar01a.svx
+*equate mar02.014 mar03.001 ; from mar02.svx
+*equate mar03.401 mar05.011 ; from mar03.svx
+*equate mar05.034 mar06.001 ; from mar05.svx
+*equate mar06.045 mar07.006 ; from mar06.svx
+
+*include	mar01
+*include	mar01a
+*include	mar02
+*include	mar03
+;*Include	mar04
+*include	mar05
+*include	mar06
+*include	mar07
+
+*end Maracaibo

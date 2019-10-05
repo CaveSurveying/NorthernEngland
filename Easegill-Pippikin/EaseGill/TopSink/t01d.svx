@@ -1,0 +1,30 @@
+;Cave:	Top Sink entrance series Left Hand Branch
+;Surveyors:	R.Duffy/S.Lieberman/A.Whitney
+;Date:	08/06/06
+;Instruments:	PAG + disto
+
+;*equate	t01d.001 t01c.014 ;st001 is junction
+
+*begin	t01d
+*export 001
+
+*calibrate compass		+3.00
+*calibrate clino		+0.50
+*calibrate tape		 	 0.00
+
+001	002	02.69	226.0	-03.0	;st001 is head height in middle of junction
+002	003	04.11	138.0	+02.0
+003	004	04.93	265.0	+05.0	;st004 is small stal boss on right near stal flow
+004	005	02.89	189.0	+12.0	;st005 has stream inlet at floor level too tight
+005	006	04.50	149.0	+02.0	;st006 is in small alcove
+006	007	05.27	174.0	+01.0
+007	008	01.84	192.0	+07.0
+008	009	02.53	133.0	+05.0	;st009 is leaning on calcite bridge
+009	010	06.15	166.0	+03.5
+010	011	03.18	123.0	+05.0	;st011 is large boulders up to flat out continuation
+011	012	02.50	090.0	+02.5	;st011 to 13 low wet pooh
+012	013	04.02	138.0	 00.0	
+013	014	09.67	107.0	+02.0	;st014 is sitting in small cross rift
+014	015	04.76	095.0	 00.0	;st015 is turning left too low and small
+
+*end	t01d

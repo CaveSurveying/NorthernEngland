@@ -1,0 +1,51 @@
+;Cave:		Link Pot - Cairn Junction to Serendipity - via Death Row
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:		23/08/07
+;Instruments:	PAG + disto
+
+;*equate	lk11a.001 lk11.001 ;tag in roof Cairn Junction
+;*equate	lk11a.007a lk11.009a ;through low pool  to stal with cable tie
+;*equate	lk11a.013 lk11.011 ;tag on stal
+
+*begin	lk11a
+*export 007a
+*export 001
+*export 013
+
+*calibrate compass		+3.00
+*calibrate clino		+0.50
+*calibrate tape		  0.00
+
+002	001	14.60	317.0	-01.5	;passage to right at Cairn Junction
+002	003	10.46	108.0	-01.0
+003	004	00.40	 -	UP
+
+004	004a	05.45	031.0	+04.0	;leg to stal in parallel passage/bedding
+
+004	005	05.40	101.0	+02.5
+
+;side inlet passage (poss. from Expulsion Series)
+005	005a	05.41	107.0	+03.0
+005a	005b	02.80	068.0	+08.5
+005b	005c	07.47	130.0	+02.0	;ends too low and wet
+
+005	006	06.58	028.0	+04.0
+
+006	004a	05.77	268.0	-01.0	;leg back to stal
+
+006	007	11.44	079.0	+04.0
+
+007	007a	03.73	045.0	-03.0	;st007a=tag in Lk11.009a through low pool  to stal with cable tie
+
+007	008	04.95	102.0	+03.0
+
+008	008a	02.92	184.0	+03.0
+008a	008b	04.11	121.0	+06.0	;side passage to right has light connection to st009 and verbal to st012 poss.
+
+008	009	05.47	098.0	+02.0
+009	010	03.13	062.0	+02.0
+011	010	03.95	285.0	-01.0
+011	012	05.90	075.0	+03.0
+012	013	09.41	011.0	+00.5	;st013=tag on stal at Lk11.011
+
+*end	lk11a
