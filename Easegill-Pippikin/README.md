@@ -31,3 +31,5 @@ folds (or pivots) these into actual cave lengths, also a tab-delimited text file
 
 For convenience the tab-delimited text files `pivot.dat`, `table.dat`, and `duplicates.dat`
 have been imported into the  spreadsheet [`data_summary.ods`](data_summary.ods).
+
+_Patrick B Warren, April 2015 -- October 2019_
