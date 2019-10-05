@@ -1,0 +1,25 @@
+  851.76	metres	Boundary Pot
+ 1287.38	metres	Bull Pot of the Witches
+ 1996.31	metres	Bye George
+   63.54	metres	Corner Sink
+ 6381.23	metres	County Pot
+  802.34	metres	Cow Pot
+15178.73	metres	Lancaster Hole
+ 3521.01	metres	Link Pot
+ 1159.92	metres	Mistral
+  122.78	metres	New Cave
+   57.90	metres	New Slit Sinks
+  177.19	metres	Oxford Pot
+  298.93	metres	Peterson Pot
+ 3032.17	metres	Pippikin Pot
+   57.35	metres	Pippikin Sink
+ 1747.69	metres	Pool Sink
+  132.45	metres	Slit Sinks
+  794.50	metres	Sumps
+  234.87	metres	Swindon Hole
+  698.30	metres	Sylvester Pot
+  880.12	metres	The Borehole
+ 4653.45	metres	Top Sink
+ 1757.68	metres	Wretched Rabbit
+45887.60	metres	TOTAL
+45887.60	metres	EaseGill-Pippikin
