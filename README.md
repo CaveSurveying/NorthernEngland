@@ -5,8 +5,8 @@ Repository for issues for caves in the
 
 ## Subdirectories
 
-- Easegill-Pippikin contains modified survex data files for the
-connected components of the Lancaster Hole / Easegill / Pippikin Pot
-system (primary contact Patrick B Warren).
+[Easegill-Pippikin](Easegill-Pippikin) contains modified survex data
+files for the Lancaster Hole / Easegill / Pippikin Pot system (primary
+contact Patrick B Warren).
 
 
