@@ -1,0 +1,97 @@
+; Locn:	Leck Fell
+; Cave:	Ireby Fell Cavern
+; Duke Street II Tidy Up
+
+*begin dukest2tidyup
+
+*export 1 34 11 19 22 29 42 30 31
+
+*title "Jupiter to Ireby I"
+*date 2008.07.13
+*team Insts Julian Todd
+*team Notes Becka Lawson
+*team Tape Julian Todd 
+*instrument Compass and Clino - Pony; Tape - 30m yellow read from 0cm
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+1	2	0.50	-	down	;stations 1-10 go to upstream sump at top end of Duke St II
+3	2	5.15	324	0
+4	3	3.19	278	-07
+5	4	4.16	310	-20
+6	5	2.48	323	0
+7	6	1.36	301	+09
+8	7	1.64	359	-04	;written as +04 in notes but recorded as -04 in Pony so corrected to -04
+9	8	2.68	004	+04
+10	9	8.59	002	+15
+10	34	0.22	315	+01
+
+12	11	4.05	217	0	;stations 11-19 go up calcite crawl at bottom end of Escalator rift, just before it joins to Duke St II
+13	12	5.60	278	-22
+14	13	1.80	210	+28
+15	14	4.85	174	+13
+16	15	5.25	220	+04
+17	16	8.60	296	-01
+18	31	5.30	104	-24
+18	17	2.08	194	+04
+19	18	5.80	228	-10
+;19	X	2	116	+47	; extra unmarked leg to X (written as stn 20 in notes) goes into vertical boulder choke to help drawn up
+
+20	21	4.55	279	-09	;stations 20-21 go up small inlet in L wall just after sump in Duke St II
+20	22	15.28	166	-02
+
+23	42	13.25	095	-32	;stations 23-30 go up passage at top of mud bank on L side of Duke St II
+23	24	6.43	242	+01
+24	25	6.86	266	-03
+25	26	8.60	243	-02
+26	27	4.07	274	-13
+27	28	4.91	221	+03
+29	28	0.95	071	-49
+29	30	0.96	303	-25
+
+*data passage station left right up down
+
+; station 1 is station 34 from previous
+1	1	2	0	0.7	; thread in ceiling 2m before sump, lp (lp=liquid paper, so white paint)
+2	-	-	-	-	; unmarked, floor
+3	1	1	0.8	0.1	; unmarked, floor
+4	1.5	2	0.8	0.7	; lp rock on floor
+5	1	1	0	0.4	; lp roof
+6	0.6	0.3	0.2	0.3	; lp rock
+7	0.3	2	0.3	0.2	; lp ceiling
+8	0.5	1.2	0.1	0.3	; lp rock
+9	1.5	1.2	0.4	0.8	; lp rock
+10	2	0.3	0.4	0.4	; side wall
+34	-	-	-	-	 ;numbered stn 34 from Patrick & Becka's survey from Jupiter to Ireby 1
+
+11	0.2	0.8	0.3	0.2	; lp numbered on R wall before crawl becomes flat out (too tight) in inlet stream
+12	0.2	1	0.4	0.2	; lp L wall
+13	1.2	0.3	3	0.9	; lp rock
+14	2	1.5	1	1.5	; lp centre pillar
+15	0.5	1.5	0.3	0.4	; lp ceiling
+16	1	2	0.4	0	; lp floor
+17	2	0.8	0	0.4	; lp ceiling
+18	2	0.8	0	0.4	; lp by calcite crawl entry, numbered
+31	-	-	-	-	; numbered stn 31 from Patrick & Becka's survey from Jupiter to Ireby 1
+19	0	1	1	0.2	; lp wall
+
+20	1	1	1.2	1.8	; lp L wall
+21	0.4	0.3	0	0.8	; above static pool
+22	0	3	1	1	; dive line bolt on Ireby II side of sump - station 46 of their survey
+
+42	5	10	6	2.5	; numbered stn 42 from Patrick & Becka's survey from Jupiter to Ireby 1
+23	2.5	0.4	1.5	1.7	; lp R wall/ceiling
+24	0.5	1.3	0.2	0.6	; lp numbered L wall/ceiling
+25	2	0	1.2	0.3	; lp R wall
+26	1.5	2	0	1	; lp ceiling
+27	1.8	1.1	0.4	0.1	; unmarked
+28	0.7	0	0.2	0.1	; lp R wall
+29 	0.8	0.3	0	0.4	; lp numbered ceiling
+30	0.3	0.3	0	0.2	; too tight - needs digging
+
+*end dukest2tidyup
+
+
+
+

@@ -1,0 +1,90 @@
+; Locn:	Leck Fell
+; Cave:	Ireby Fell Cavern
+; Jupiter Cavern into Escalator Rift
+
+*begin jupitertoescalator
+
+*export 33 34 37 44 62 63
+
+*title "Jupiter Cavern & Escalator Rift"
+*date 2008.04.14
+*team Insts Becka Lawson
+*team Notes Neil Pacey 
+*instrument Compass and Clino - Becka's Pony; Tape - 30m yellow read from 0cm
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+;note station directions *ALL* backwards in notes (eg 33 to 34 given as first but was 34 to 33 as readings all backsights)
+
+34	33	6.40	063	-33	;Neil had reversed clino (so wrote +33) to fit with station numbers. Double checked with Pony and -33 is correct
+35	33	9.67	279	+15	;Neil had reversed clino (so wrote -15) to fit with station numbers. Double checked with Pony and +15 is correct
+36	33	14.03	223	-21
+37	36	9.42	219	-10
+38	37	3.00	197	+02
+39	38	1.28	264	+08
+40	39	4.66	191	+24
+41	40	3.95	237	+28
+42	41	3.35	213	+20
+43	42	3.85	159	+30	;Neil to double check is "8" in 3.85
+44	43	4.05	242	-58	 
+43	45	2.97	-	down	;written as 44 to 45 in notes but had forgotten previous leg a single spur
+46	45	0.85	245	-42
+47	46	2.55	189	-07
+48	47	3.51	249	-56
+49	48	3.60	220	-18
+50	49	4.61	244	+11
+51	50	3.78	184	-10
+52	51	2.61	261	-10	;Neil to double check is "6" in 2.61
+53	52	5.73	319	+02
+54	53	3.47	316	-03
+55	54	1.57	244	0
+56	55	4.59	347	-02
+57	56	7.57	312	-1
+58	57	6.54	226	0
+59	58	7.05	293	+01
+60	59	5.24	341	0
+61	60	2.96	356	-16
+62	61	9.99	326	-03
+63	62	4.60	253	-05
+
+
+*data passage station left right up down ignoreall
+33	-	-	-	-	rp boulder tip numbered 33, middle Jupiter cavern
+34	-	-	-	-	numbered rp ceiling above crawl to pitches down to sump to Ireby I
+35	-	-	-	-	rp far wall by hole in floor
+36	4	10	3	1.8	****down unclear in notes; up looks very wrong - should it be 30?*** rp wall top of slope near where Phil's aven climb started
+37	3	1	6	1.6	****down unclear in notes; L seems wrong - maybe estimated by Neil in middle of chamber?*** rp l wall end Jupiter cavern, start of Escalator - NUMBERED
+38	0	1.1	3.5	1.7	****down unclear in notes*** rp l wall
+39	0	0.5	2.5	1.5	rp r wall
+40	1.3	0	2	1	
+41	0	0.5	5	1.8
+42	1.2	0.2	6	1.5	****down unclear in notes*** rp in sticky mud before traverse over elevator streamway
+43	1	0.3	6	1.7	rp (now gone) by ladder into elevator streamway
+44	1	2	7	5	rp numbered at start of high passage running above elevator
+45	1.2	0	5	3	rp on wall of elevator streamway
+46	0	0.4	7	1.6
+47	0.3	0.4	0.2	2
+48	0	1	3	1.6
+49	1	0.3	0.2	3.5
+50	1	0.5	5	1
+51	0.6	1.3	1.2	6	***up unclear in notes***
+52	0.1	1.7	2.5	1.3
+53	1	0	0.4	1.5
+54	1.1	0.1	0.25	1.6	
+55	0.1	0.6	0.25	2	***all readings unclear in notes***
+56	1.3	0.3	0.5	0.7	****down unclear in notes***
+57	1	0.6	0	1.5	****down unclear in notes***
+58	1.5	1.2	0.1	1.5	****down unclear in notes***
+59	0	0.5	1	0.5
+60	1.3	0	2.5	0.3	rp near side Angel wing
+61	0.5	0.5	0.4	1.2	rp just through Angel Wing
+62	1.5	1.5	1.5	1.5	rp on r wall where crawl off on right
+63	1.5	1	0.3	0.4	rp numbered beyond crawl off on right
+
+*end jupitertoescalator
+
+
+
+

@@ -1,0 +1,19 @@
+
+*begin	Gvl1
+*export 001 
+;Cave:	Gavel Pot
+;Surveyors:	M.Savage/C.Webster/K.Richardson
+;Date:	03/08/97
+;Instruments:	CSG kit1
+
+*calibrate compass	+5.17
+
+
+001	002	01.00	215.0	 00.0	;st001=P-hanger
+002	003	06.90	 -	down
+003	004	03.60	284.0	-03.0
+004	005	06.50	350.0	-31.0
+005	006	14.80	311.0	-12.0	;st006 spit at top of pitch
+006	007	09.30	 -	down	;X-on wall bottom 2nd pitch
+
+*end	Gvl1

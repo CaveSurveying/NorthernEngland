@@ -1,0 +1,45 @@
+*begin Voldemort
+
+*export Inlet7-4.001 ; left corner of rock overhang
+*export Inlet7-14.001 ; Voldemort entrance
+
+*data normal from to tape compass clino ignoreall
+*units length metres
+*calibrate tape 0.0
+*units compass degrees
+*calibrate compass 0.0
+*units clino degrees
+*calibrate clino 0.0
+
+
+*include inlet7-1
+*include inlet7-2
+*include inlet7-3
+*include inlet7-4
+*include inlet7-5
+*include inlet7-6
+*include inlet7-7
+*include inlet7-8
+*include inlet7-9
+*include inlet7-10
+*include inlet7-11
+*include inlet7-12
+*include inlet7-13
+*include inlet7-14
+
+*equate Inlet7-1.012	Inlet7-2.012
+*equate	Inlet7-2.016	Inlet7-3.001
+*equate Inlet7-4.016	Inlet7-1.001
+*equate	Inlet7-3.006	Inlet7-5.001
+*equate Inlet7-6.001	Inlet7-1.012
+*equate Inlet7-4.009	Inlet7-7.007
+*equate Inlet7-5.020	Inlet7-8.006
+*equate Inlet7-8.012	Inlet7-9.004
+*equate Inlet7-6.022	Inlet7-10.001
+*equate Inlet7-11.010	Inlet7-10.007
+*equate Inlet7-12.101	Inlet7-11.006
+*equate	Inlet7-13.103	Inlet7-12.103
+*equate	Inlet7-13.018	Inlet7-14.013
+
+
+*end Voldemort

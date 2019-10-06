@@ -1,0 +1,17 @@
+;Cave:	Long Drop Cave & Short Long Drop Cave
+;Surveyors:	Dave Ramsay/Richard Bendall
+;Date:	24/09/07
+;Instruments:	Red Rose Sunto Compass & Clino kit 2, 30m tape
+
+*begin	longdrop3
+
+*export 001
+*export 003
+*entrance 001
+
+002	001	8.55	035	-27.0	;001 drilled hole above short long drop
+
+*flags surface
+003	002	8.74	063	-26	;003 is top of stile post
+
+*end	longdrop3

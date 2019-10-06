@@ -1,0 +1,65 @@
+;Title: Rift Pot
+
+;Date Created 25/10/2009 by Neil Pacey
+
+;-------------------------------------------------------------------------------------------
+;Modifications
+;
+
+;--------------------------------------------------------------------------------------------
+;All Rift Pot files
+
+*begin RiftPot
+
+*export EntranceTag
+*export RiftTowardsMousehole.23
+*export RiftPotEntrance.208
+;*export SoutheastInletConnection
+;*export Rift-LowDoukConnection 
+
+*entrance EntranceTag
+
+*include RiftPotEntrance
+*include CoatesPassage1
+*include CoatesPassage2
+*include marblestepsinlet
+
+*include CoatesCavern
+*include RiftTowardsMousehole
+*include RiftTowardsMousehole2
+*include RiftTowardsMousehole3
+*include CrystalInletStream
+*include ChisholmTrailCentral-1
+*include ChisholmTrailRest-1
+
+;*include templeofdoom/templeofdoom ; moved to TempleOfDoom
+;*include CoatesPassage3 ; moved to TempleOfDoom
+;*include CoatesSecondhandstreamway ; moved to TempleOfDoom
+
+*include beyondtortoise
+*include crosspatchinlet
+
+*equate RiftPotEntrance.208 CoatesCavern.208x
+*equate RiftPotEntrance.213 CoatesCavern.213x
+*equate RiftPotEntrance.212 CoatesPassage1.212x
+*equate RiftPotEntrance.246 EntranceTag
+*equate CoatesCavern.213x RiftTowardsMousehole.213
+*equate CoatesCavern.208x RiftTowardsMousehole.208
+*equate CoatesPassage2.10x CoatesPassage1.10
+*equate marblestepsinlet.2x CoatesPassage1.2
+*equate RiftTowardsMousehole2.14x RiftTowardsMousehole.14
+*equate RiftTowardsMousehole3.21x RiftTowardsMousehole.21
+*equate CrystalInletStream.53x RiftTowardsMousehole2.53
+*equate ChisholmTrailCentral-1.1-0 RiftPotEntrance.220
+*equate ChisholmTrailCentral-1.1-22 ChisholmTrailRest-1.22x
+
+;*equate templeofdoom.riftpottodLowDoukConnection.1.19 Rift-LowDoukConnection ; moved to LeckMasongill.svx
+;*equate templeofdoom.riftpottod7.208 RiftPotEntrance.208 ; moved to LeckMasongill.svx
+;*equate templeofdoom.RiftPotTOD1.7 SoutheastInletConnection ; moved to LeckMasongill.svx
+;*equate CoatesPassage3.204x templeofdoom.riftpottod7.204 ; moved to TempleOfDoom.svx
+;*equate CoatesPassage3.11 CoatesSecondhandstreamway.11 ; moved to TempleOfDoom.svx
+
+*equate beyondtortoise.2x RiftTowardsMousehole3.2
+*equate crosspatchinlet.x CoatesPassage2.34
+
+*end RiftPot

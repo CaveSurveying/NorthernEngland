@@ -1,0 +1,138 @@
+; All major systems from Leck to Masongill 
+
+*title LeckMasongill
+
+*begin LeckMasongill
+
+*cs OSGB:SD
+*cs out EPSG:7405
+
+*include Surface/leckfellsurfacesurvey
+*include Surface/shortdroprumblingcoalholebyronsurface
+*include Surface/threecountiesgpskdixon2012
+*include Surface/NottsPot_to_ShepPot
+
+*fix WitchesII.WitchesII-2.001 66214 79777 277 ;entrance GPS by K Wood Sept 2010
+*fix WitchesCave.wit.001 66029.79 80004.53 214.77 
+
+; underground surveys - avg mag decl for 2010 = 3 deg W
+;(please put in correct declination for date in each cave survey)
+; true N to grid N correction = -0.33
+
+*calibrate declination 2.67
+
+*equate LargePot.EntranceTag leckfellsurfacesurvey.LargePotTag
+*equate LittlePot.EntranceTag leckfellsurfacesurvey.LargePotTag
+*equate RiftPot.RiftTowardsMousehole.23 LargePot.Large15.23x
+*equate RiftPot.EntranceTag leckfellsurfacesurvey.RiftPotEntranceTag
+*equate TempleOfDoom.SoutheastInletConnection Ireby.SoutheastInletConnection
+*equate TempleOfDoom.Rift-LowDoukConnection LowDouk.LowDouk-RiftConnection
+*equate TempleOfDoom.riftpottod7.208 RiftPot.RiftPotEntrance.208
+*equate LowDouk.EntranceTag leckfellsurfacesurvey.LowDoukEntranceTag
+
+*equate MarbleSteps.SurfaceMarbleSteps.003  StepsPot.StepsPot1.015
+*equate MarbleSteps.SurfaceMarbleSteps.008  LostMarbles.LostMarbles1.001
+*equate MarbleSteps.EntranceTag leckfellsurfacesurvey.MarbleStepsEntranceTag  
+
+*equate Ireby.EntranceTag   leckfellsurfacesurvey.IrebyEntranceTag
+
+*equate NottsPot.EntrancePhanger leckfellsurfacesurvey.NottsPotEntrancePhanger
+*equate NottsPot.EntrancePhanger 3cgps.033
+
+*equate CommitteePot.EntranceShaft.001    leckfellsurfacesurvey.NottsIIEntrance
+*equate Voldemort.Inlet7-4.001 NottsII.MainStreamway.Dome-Jimlet.6 ; moved from NottsII
+*equate Voldemort.Inlet7-14.001 leckfellsurfacesurvey.VoldemortEntranceSWcorner
+*equate CupCake.TheCupcake.008 leckfellsurfacesurvey.CupcakeEntranceSWcorner
+*equate BrunoKranskies.BrunoKranskies1.tag NottsII.MainStreamway.Showerbath-Dome.25
+*equate BrunoKranskies.BrunoKranskies1.5 CupCake.LazloStrog4.5x
+
+*equate NottsII.MainStreamway.Mainstreamway3.33 CommitteePot.inlet13.022
+*equate NottsII.Mainstreamway.Showerbath-Dome.36 CommitteePot.gordonsinlet.25
+
+*equate LostJohns.EntranceTag       leckfellsurfacesurvey.LostJohnsEntranceTag
+*equate LostJohns.BoxheadSurfaceRim leckfellsurfacesurvey.BoxHeadEntranceTube
+*equate LostJohns.notts2nearconnection.1-0 BrunoKranskies.BrunoKranskiesBoxheadConnection.50
+
+*equate LostJohns.DeathsHead_3LJSump.24 DeathsHeadHole.DeathsHead_3LJSump.24
+
+*equate RoughPot.LostJohnsEntranceTag leckfellsurfacesurvey.LostJohnsEntranceTag
+
+*equate	ShortDrop.FencePost shortdroprumblingcoalholebyronsurface.0
+*equate	LongDrop.StylePost shortdroprumblingcoalholebyronsurface.16
+*equate BigMeanie.BigMeanieDeathsHeadSurface.8 DeathsHeadHole.DeathsHead_1.FencePostTag
+*equate BigMeanie.BigMeanie_2.2x DeathsHeadHole.DeathsHead_2.2
+*equate	BruntskillPot.Entrance	leckfellsurfacesurvey.BruntskillPotEntrance
+*equate	BumblingHole.Entrance	leckfellsurfacesurvey.BumblingHoleEntrance
+*equate	CoalHole.029 ShortDrop.shortdrop4canalinlet.14
+*equate	CoalHole.EntranceLoc shortdroprumblingcoalholebyronsurface.7
+*equate	DeathsHeadHole.DeathsHead_1.FencePostTag	leckfellsurfacesurvey.DeathsHeadHoleFencePostTag
+*equate	EyeHoles.006	leckfellsurfacesurvey.EyeHolesStyle
+*equate	GavelPot.GavelPotFencePost	leckfellsurfacesurvey.GavelPotFencePost
+
+*equate	RumblingHole.Entrance shortdroprumblingcoalholebyronsurface.10
+*equate	DeadDobbin.Entrance shortdroprumblingcoalholebyronsurface.10
+*equate RumblingHole.RumblingBeckCaveEntrance RumblingBeckCave.Entrance
+
+*equate	Byron.14x shortdroprumblingcoalholebyronsurface.14
+*equate	StartingHandleHole.001 leckfellsurfacesurvey.StartingHandleHole
+
+*equate NottsPot_to_ShepPot.1.0 PerilousPot.PerilousPot1.1.0
+*equate NottsPot_to_ShepPot.3.0 3cgps.3c15
+*equate NottsPot_to_ShepPot.2.9 Shep_Pot.getdownshep1.getdownshep1_6.20
+
+*equate WitchesCave.wit7.001 WitchesII.WitchesII-7.x
+
+; BEGINTABLE
+
+*include LargePot/LargePot ; Large Pot
+*include LittlePot/LittlePot ; Little Pot
+*include RiftPot/RiftPot ; Rift Pot
+*include RiftPot/TempleOfDoom ; Rift Pot
+*include LowDouk/LowDouk ; Low Douk
+
+*include MarbleStepsArea/MarbleSteps ; Marble Steps Area
+*include MarbleStepsArea/StepsPot ; Marble Steps Area
+*include MarbleStepsArea/LostMarbles ; Marble Steps Area
+
+*include Ireby/Ireby ; Ireby Fell Cavern
+
+*include NottsPot/NottsPot ; Notts Pot (X)
+
+*include NottsII/NottsII ; Notts II
+*include Voldemort/Voldemort ; Notts II
+*include CupCake/CupCake ; Notts II
+*include CupCake/BrunoKranskies ; Notts II
+*include CommitteePot/CommitteePot ; Notts II
+
+*include LostJohns/LostJohns ; Lost Johns (X)
+
+*include RoughPot/RoughPot ; Rough Pot
+
+*include BruntskillPot/BruntskillPot ; Bruntskill Pot
+*include BumblingHole/BumblingHole ; Bumbling Hole
+*include ShortDrop/ShortDrop ; Short Drop (X)
+*include LongDrop/LongDrop ; Long Drop (X)
+*include BigMeanie/BigMeanie ; Big Meanie
+*include CoalHole/CoalHole ; Short Drop (X)
+*include DeathsHeadHole/DeathsHeadHole ; Death's Head Hole
+*include EyeHoles/Eyeholes ; Eyeholes
+*include GavelPot/GavelPot ; Gavel Pot
+
+*include RumblingHole/RumblingHole ; Rumbling Hole
+*include RumblingHole/RumblingBeckCave ; Rumbling Hole
+*include RumblingHole/DeadDobbin ; Rumbling Hole
+
+*include ByronPot/Byron ; Byron Pot
+*include StartingHandleHole/StartingHandleHole ; Starting Handle Hole
+
+*include KirkPot/KirkPot ; Kirk Pot
+
+*include GetDownShep/Shep_Pot ; Shep Pot
+*include PerilousPot/PerilousPot ; Perilous Pot
+
+*include WitchesCaveII/WitchesII ; Witches Cave II
+*include WitchesCave/WitchesCave ; Witches Cave
+
+; ENDTABLE
+
+*end LeckMasongill

@@ -1,0 +1,89 @@
+
+*begin Large10
+*export 33x
+
+*title "Pumpkin passage from end right back to main passage junction - some overlap with previous survey"
+*date 2011.01.22
+*team Tape Sally White
+*team Instruments Andy Chapman
+*team Notes Sally White
+*instrument Becka's Tandem as comp and clino and Becka's 30m tape read from *20cm* as end now fallen off!
+
+*calibrate tape 0.20	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+1	2	9.95	185	0
+2	3	6.15	190	-10
+3	4	4.98	185	+10
+4	5	4.65	299	0
+5	6	2.63	238	-05
+6	7	5.07	188	+10
+7	8	4.74	230	+06
+8	9	1.76	230	+18
+9	10	2.40	235	-10
+10	11	2.41	275	-12
+11	33x	3.13	282	+09
+
+; repeat legs from now on so ignoring these because some problems reading the data and possibly wrong scale being read for clino
+
+; 33x	12	9.79	329	-05
+; 12	13	3	295	-09
+; 13	14	3	320	-10
+
+; 14	15	2.25	260	+18
+; 15	16	2.81	284	0
+; 16	27x	3.56	309	-10	; clino written as -100, have changed to -10 but perhaps wrong scale was read? And for other legs???!
+; 27x	17	2.85	339	+65
+; 17	18	7.84	320	0
+; 18	19	3.15	004	-68	; tape unclear - could be 3.50, also compass written as 4, I've assumed is 004
+; 19	20	2.46	304	-03	; tape unclear, 2.something
+; 20	21	2.45	319	-05
+; 21	23x	3.53	288	+10
+; 23x	40	2.73	322	-06
+; 40	41	2.70	260	+35
+; 41	42	2.25	295	-10
+; 42	20x	2.35	262	-38
+; 20x	43	2.65	325	-05
+; 43	44	5.73	322	-06
+; 44	45	2.51	320	-01
+; 45	46	4.60	275	-45	; tape unclear, 4.something
+; 46	8x	1.21	288	+45
+
+*data passage station left right up down ignoreall
+
+1	0.5	1	0.2	0.6
+2	0.5	1	0.6	0.9
+3	1	0	1.5	1	3 is scratched triangle
+4	1	0	2	1	from here down unclear which LRUDs for which station
+5	1	0	2	1
+6	1	0	1.5	1
+7	0	1.5	1.9	1.5
+8	2	0	2	1.8
+9	1.3	0	1.5	-	cannot read down
+10	1	0	1.3	2
+11	0.3	1	1	2
+; 12	0.9	1	1	2.5
+; 13	1	0	1	2.5	
+; 14	1	0	2	2
+; unclear which LRUDs are for which stations apart from 1, 2 and 3 and station 14
+
+; 14	1	0	2	2
+; 15	1	0	2	2
+; 16	0	1	2	2
+; 17	0	1	4	1
+; 18	1	1	2	3	
+; 19	0.5	0.5	2	4
+; 20	0.5	0	4	2
+; 21	0	0.5	4	2
+; 23x	0	0.5	4	2
+; 40	0	1	4	1.5
+; 41	3	0	3	2
+; 42	1	1	4	2
+; 43	1.5	0	3	2
+; 44	0	1	4	1
+; 45	0	0.5	3	2
+; 46	0.5	0	5	3	up unclear
+; 8x	1	0	2	2.5
+
+*end Large10

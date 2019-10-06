@@ -1,0 +1,53 @@
+; Ireby2
+
+*begin Ireby2
+
+*export jupitertoescalator.33 
+*export jupiter2irebyone.50
+*export dukest2tocanal.25
+
+;include Ireby2 Files
+
+*include jupitertoescalator	;Jupiter Cavern & start of Escalator Rift - Ireby II
+*include jupiter2irebyone	;Jupiter Cavern - Escalator Rift - Duke Street II - Ireby I
+*include blissfulcreek		;Escalator Rift - Blissful Creek - Triple Creek
+*include lickthepony		;Triple Creek - Uranus crawl
+*include lickthepony2		;Uranus crawl - upstream Escalator
+*include dukest2tidyup		;four extra bits onto jupiter2irebyone survey
+*include dukest2tocanal		;Duke Street II along canal past Whirlpool to small junction
+*include triplecreekaven	;up bold climb at end of Triple Creek
+*include canal			;from junction in canal beyond where Whirlpool enters up to diver's line at sump to Notts
+*include milkandhoney		;from Jupiter Cavern to end of Milk and Honey
+*include escalatorclimb		;from rope at base of Escalator Rift pitches up stream then up climbs and ending at ladder out of Escalator Rift by Jupiter Cavern
+*include frink1			;from chamber before pitch into Frink Chamber to chamber and along passage to right
+*include frink2			;upper Frink Chamber and pitch and climb
+*include FarFrink		;Extensions North from Frink Chamber
+*include LovleyAndSpecial	;Dig at the bottom of escalator rift/end of Duke Street2
+*include Cerro_Blanco		;To the end of Cerro blanco from stn:29 
+
+;Equate Ireby2 Files
+
+*equate jupitertoescalator.34 jupiter2irebyone.1
+*equate blissfulcreek.63 jupitertoescalator.63
+*equate blissfulcreek.85 lickthepony.85
+*equate lickthepony.20 lickthepony2.20
+
+*equate jupiter2irebyone.31 dukest2tidyup.31
+*equate jupiter2irebyone.34 dukest2tidyup.34
+*equate jupiter2irebyone.42 dukest2tidyup.42
+*equate jupiter2irebyone.46 dukest2tidyup.22
+*equate jupiter2irebyone.43 dukest2tocanal.43
+
+*equate triplecreekaven.97 blissfulcreek.97
+*equate canal.8 dukest2tocanal.22
+*equate canal.19 dukest2tocanal.25
+*equate jupitertoescalator.37 milkandhoney.37x
+*equate jupiter2irebyone.21 escalatorclimb.21x
+*equate jupitertoescalator.44 escalatorclimb.44x
+*equate jupiter2irebyone.4 frink1.4x
+*equate frink1.21 frink2.21x
+*equate FarFrink.1.0 frink1.8
+*equate LovleyAndSpecial.1.0 jupiter2irebyone.32
+*equate	Cerro_Blanco.1.7 dukest2tidyup.29
+ 
+*end Ireby2

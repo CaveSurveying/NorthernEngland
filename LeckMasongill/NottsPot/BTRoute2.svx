@@ -1,0 +1,42 @@
+*begin BTRoute2
+
+*export 5x y
+
+; Cave:	Notts
+
+*title "Short loop at top of BT route route wet inlets"
+*date 2015.01.31
+*team Insts and Notes Becka Lawson
+*team Target Beardy (Paul Swire)
+*instrument Becka's Old Distox calibrated last month
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+*data normal from to tape compass clino
+
+;from	to	tape	compass	clino	remarks
+
+1	5x	0.87	081	-14
+1	2	4.22	193	+08
+2	3	3.37	277	0
+3	4	2.24	257.5	+04
+4	5	9.02	231	+05	
+4	6	3.28	000	-16
+6	7	8.99	006.5	-84
+6	y	1.04	024	+20
+
+*data passage station left right up down ignoreall
+
+5x	-	-	-	-	old numbered station from BT survey just beyond junction with 2nd inlet
+1	1	1	0	0.5	where second inlet enters down initial BT crawl
+2	0	1.2	0.2	0.3	minor inlet enters on left, survey continues along main inlet on right
+3	2	0.5	0.1	0.2	main inlet comes in on left up inpenetrable crack here
+4	2.5	1.5	0	0.4
+5	-	-	-	-	shot across main chamber into start of left hand route (passable but a squeeze)
+6	2	1	0.5	9	above 9m hole which takes all the water (lots) from first inlet as go down initial BT crawl
+7	-	-	-	-	base of hole, haven't checked it out, looks very wet, rock slippy and not clear how to rig
+y	-	-	-	-	old station on ceiling of BT crawl just beyond deep hole
+
+*end BTRoute2
+
+

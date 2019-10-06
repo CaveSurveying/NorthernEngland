@@ -1,0 +1,18 @@
+*begin Inlet17
+
+*export Inlet17_1.12
+*export Inlet17_2.Sump3
+
+*include Inlet17_1
+*include Inlet17_2
+;*include Inlet17_3 Missing data through the sump which dog legs to link data sets
+
+;--------------------------------------------------------
+
+*equate Inlet17_1.33 Inlet17_2.33
+
+;*equate Inlet17_1.45 Inlet17_3.12  Missing data through the sump which dog legs to link data sets
+
+
+*end Inlet17
+

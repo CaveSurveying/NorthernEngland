@@ -1,0 +1,78 @@
+;Cave:	Ireby Fell - Glory Holes
+;Surveyors: N. Pacey, P.Hall
+;Instruments: P.Hall
+;Tape: P.Hall
+;Book: N.Pacey
+;Date:	29/05/04
+;Instruments: RRCPC Kit 3
+;Compass: 620101
+;Clino: 541362
+
+;*equate GloryHoles1.011 GloryHoles2.011
+
+
+*begin	GloryHoles3
+
+*export 011
+*export 039
+*export 064
+
+;*calibrate compass	+5.00	
+;*calibrate clino	
+*calibrate tape		+3.00		;tape 3m too short
+
+011	012	9.4	341	-1	;St11 top of small stal
+012	013	9.2	320	-0.5	;
+013	014	11.2	342	-1	;
+014	015	18.9	298	-1	;
+015	016	5.6	232	0	;
+016	017	8.8	302	0	;
+017	018	7.8	218	+1	;
+018	019	9.1	208	+1	;
+019	020	6.2	244	0	;wet,muddy crawl
+020	021	9.7	327	0	;
+021	022	10.6	307	0	;
+022	023	8.0	262	0	;
+023	024	8.1	332	+1	;Inlet rises out of small pool
+024	025	6.1	283	-2	;Sandy Crawl
+025	026	5.8	230	0	;End of known passage
+026	027	6.6	284	0	;Start of dig
+027	028	8.2	328	0	;
+028	029	8.3	353	-1	;Breakthrough into small rift chamber
+029	030	5.8	341	-2	;2nd chamber
+030	032	7.0	343	0	;Error stn 31 missing in original notes
+032	033	6.4	312	-6	;Dug out crawl
+033	034	11.1	335	-1	;St34 jctn, marked with yellow tag to stal in roof
+034	035	5.9	347	+3	;Upstream Cripple Creek
+035	036	8.7	083	0	;
+036	037	8.1	030	-4	;
+037	038	7.8	074	+2	;
+038	039	12.7	349	+4	;Base of Aven appox 10m. Stn 039 marked on RH wall
+034	040	7.3	254	-2	;Downstream Cripple Creek
+040	041	5.5	287	-1	;Squeeze round loose blocks
+041	042	5.8	250	0	;
+042	043	5.5	317	+2	;Small Inlet enters on RH Side
+043	044	10.7	277	-1	;
+044	045	9.1	255	0	;Calcite pinch, flowstone on LH Wall
+045	046	5.0	316	0	;
+046	047	6.9	263	0	;Hammered Squeeze through Calcite Curtains
+047	048	5.3	282	-4	;
+048	049	4.9	232	+7	;
+049	050	9.1	299	-6	;Squeeze in rift
+050	051	7.1	297	-3	;
+051	052	4.4	225	+24	;
+052	053	5.9	305	0	;
+053	054	5.7	267	-15	;
+054	055	5.1	342	+9	;
+055	056	6.3	292	+7	;Crawl over blocks
+056	057	7.6	002	0	;
+057	058	5.5	302	-4	;Ex Badly brusied Boy squeeze. End of 1st night breakthrough
+058	059	4.5	258	+1	;
+059	060	7.3	286	-4	;Start of awkward rift
+060	061	5.9	310	0	;
+061	062	5.9	312	+2	;
+062	063	7.1	287	-2	;End of rift onto block
+063	064	7.7	344	-27	;4m Climb down Into chamber. Stn 64 marked on rh wall.
+
+
+*end	GloryHoles3

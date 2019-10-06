@@ -1,0 +1,134 @@
+
+*begin LazloStrog3
+*export 1 47 49 29x spit
+
+*title "Count Lazlo Stroganoff from just beyond horse trough to end of large passage"
+*date 2010.09.12
+*team Instruments Becka Lawson
+*team Notes Neil Pacey
+*instrument mostly Neil's distox which was calibrated yesterday EXCEPT for first few legs, up to  leg 9 to 8, which used Becka's tandem comp/clino and Becka's yellow 30m tape read from 0cm
+; Becka calibrated her comp/clino at Bull Pot Farm on 11 Sept 2010, Farm to post was 331 to small post right of signpost and 333 to invisible post in trees (guessing), backleg was 151 from small post and 155 (guessing) from post in trees
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+2	1	1.77	110	+36
+3	2	4.03	128	+30
+4	3	2.02	136	+22
+5	4	2.03	117	-06
+6	5	4.44	132	-09
+7	6	4.30	-	down
+7	spit	0.78	083	-37	
+8	7	3.62	137	-37	; last leg using Becka's conventional instruments
+9	8	2.25	130	-09	; first leg using disto
+10	9	4.03	141	+12
+11	10	1.09	034.5	+47
+12	11	1.42	140.5	-11
+13	12	0.48	053	-57
+14	13	1.88	140	-06
+15	14	2.81	109	-08
+16	15	3.00	087	+11
+17	16	2.85	112	+9.5
+18	17	1.44	131	+26
+19	18	5.10	128	+01
+20	19	5.17	129	+05
+21	20	4.81	125	-01.5
+22	21	4.44	142	+04
+23	22	3.88	161	+01
+23	24	0.42	057	+18
+25	24	3.50	148	+04
+26	25	3.90	138	+64
+27	26	1.90	149	+08
+28	27	4.11	322	+08
+29	28	7.45	329	+04
+30	29	2.91	204	+22.5	; no +/- given for this leg but Neil checked with disto and is positive
+30	31	1.27	234.5	-19
+32	31	4.45	142	+56
+
+33	32	4.18	157	+19
+34	33	5.14	122	+12
+35	34	3.15	176.5	0
+36	35	5.15	083	+02
+37	36	6.24	169	+03.5
+38	37	4.54	192	-42
+38	39	6.00	073	+60
+40	35	8.91	058	-14
+41	40	6.04	013	-46
+41	42	1.71	314	-14
+; 42	x	6.49	062	+52	; I wanted to close the loop to the balcony with this leg but I didn't get the correct point so ignore
+43	41	6.10	084	-03
+44	43	3.22	100	+24
+45	44	6.09	148	-14
+46	45	10.00	079	+35
+47	46	7.32	021	+16
+48	47	8.34	065	+28
+49	48	9.56	042	-15
+50	49	6.39	349.5	-25.5
+51	50	10.62	246	+15
+51	52	8.23	044	+05
+53	49	4.37	358.5	-07	; leg written both directions in notes (!), unclear which is correct, chose this based on sketch
+54	53	11.50	093	-39
+55	54	1.32	133	-07
+55	29x	3.36	314	+16.2	; written as 56 in notes, assume is station 55; no +/- given for this leg but Neil checked with disto and is positive
+
+*data passage station left right up down ignoreall
+1	0.4	0	0.7	1	old station (scratched triangle on R wall, beyond horse trough, down crawl to blasted area (point of breakthrough)
+2	0	0.3	0.5	0.5
+3	0	0.3	1	0.5	
+4	0.3	0	0.5	0.2
+5	0.2	0.4	0.3	0.3
+6	0.4	0.2	4	2.5
+7	0	0.4	1.5	7	up might be 0.5 rather than 1.5
+spit	0.7	0	3	7
+8	0.2	0.2	0.4	1.2	numbered
+9	0.1	0.3	2	0.5
+10	0.4	0.1	1	0.7
+11	0.1	1	0.3	0.1
+12	0.7	0	1	0.6
+13	0.2	0.2	0.3	1.2
+14	0.3	0.1	0.5	0.1
+15	0	0.5	0.2	0.4
+16	0.1	0.8	0.4	0.5
+17	0	1	1.3	0.7
+18	0	0.6	1.7	0.3
+19	0.5	0.1	1.6	0.5	up might be 0.6 rather than 1.6
+20	1.2	0.3	0.3	0.3
+21	0	0.5	0.3	0.3
+22	0.1	0.4	1.2	0.3	in notes says 23 for this LRUD but also 23 for next one so assume this is for 22
+23	0.1	0.3	0.3	0.3
+24	0.3	0	0.2	0.5	spit on traverse
+25	0.3	0.1	0.1	4
+26	0.2	0.4	4	1.5
+27	1.3	0	7	10
+28	0	0.5	4	0.8
+29	1.4	0	6	1.4
+30	1.5	0	5	1.6
+31	0	1.4	6	6	lower of two spits
+
+32	-	-	-	-	numbered
+33	1	0	10	1.7
+34	1.2	1.7	12	1.2
+35	4	0	12	1.6	numbered
+36	-	-	12	2
+37	0	3.7	3	1.5
+38	3	1	0.4	2	numbered
+39	-	-	-	-
+40	0	3	12	2
+41	1.8	0	10	2.5
+42	0	1.8	10	2
+43	0	1.1	9	1.6
+44	0	0.5	10	2
+45	6	0	8	1.9
+46	4.2	0	6	2.5
+47	0	2	15	1.6	station 22 of Pete Hall survey
+48	3.2	0	10	2
+49	2.3	0.2	5	3
+50	2.5	0	10	2.5
+51	0.5	0	0.4	1.5	down might be 1.3
+52	0.3	0.5	2	2
+53	1.5	3.4	6	3
+54	2.5	2	6	1.6
+55	0.1	0.1	2	0.5
+29x	0.4	0	2	2.9	this listed as LRUD for 56 but there is no station 56 (though did write 56 to 29x in notes but this should have been station 55 to 29x) so I assume these are teh LRUDs for 29x
+
+*end LazloStrog3

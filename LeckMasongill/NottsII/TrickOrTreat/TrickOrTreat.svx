@@ -1,0 +1,25 @@
+*begin TrickOrTreat
+*export 0
+*export 7
+; Locn:	Notts II
+*title "Trick or Treat"
+*date 2003.09.04 ; discovered N.P,B.H,A.W
+*team DR/RGB
+*instrument Suunto Compass/Clino, RST Tape
+; Calibration:none
+; Ref.:	
+
+; ====== stations refindable to link to other surveys: ======
+
+;readings grade 5
+;survey ordered from to
+;readings ordered length bearing gradient
+1 0 0    0   0
+2 1 3.75 135 41    ;Scafold pole on RHS through Squeeze
+3 2 2.60 203 7	   ;Rock in floor, begining of slope up
+4 3 6.85 172 9.5   ;Lip on corner LHS
+5 4 2.5  184 5.5
+6 5 5.35 175 8
+7 6 2.05 153 7.5   ;7=lip of roof going up to TOT
+
+*end TrickOrtreat

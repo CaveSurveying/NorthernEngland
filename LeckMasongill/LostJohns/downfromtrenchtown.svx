@@ -1,0 +1,23 @@
+*begin downfromtrenchtown
+
+*export 1-0
+
+;;; TRIP COMMENT FROM POCKETTOPO ;;;
+;  ; Di Arthurs pda & Simon Cornhill distoX and Becka Lawson
+;calibration accuracy less than 0.6'
+
+*date 2013.09.22
+;*declination 0.0
+
+*data normal from to tape compass clino ignoreall
+
+; station 1-0 is old numbered station 3  in ceiling before pool
+
+1-0	1-1	7.658	0.5	-4.2
+1-1	1-2	5.763	50.9	0.7
+1-2	1-3	6.716	331.0	-1.2
+1-3	1-4	2.879	30.2	1.3
+1-4	1-5	4.671	309.6	-1.3
+
+
+*end downfromtrenchtown

@@ -1,0 +1,81 @@
+*begin crestarun4
+
+*export 4x 7x
+
+*title "Survey up Tantrum aven and also along small crawl at base of Tantrum aven"
+
+*date 2013.08.31
+*team Instruments Patrick Warren
+*team Notes Becka Lawson
+
+*instrument Patrick's tandem comp and clino and Patrick's 30m tape read from 0cm
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+; note legs to station 6 and to station 22 were later replaced by better legs so data not entered here
+
+;from	to	tape	compass	clino	remarks
+
+1	2	3.34	302	-61
+2	3	7.07	-	down
+4	5	6.50	180	+15
+4	3	3.92	024	-42
+4x	3	3.84	117	+15
+4x	7	5.96	292	+18
+7	8	3.70	334	+72
+8	9	1.68	248	+07
+9	10	13.47	295	-06
+10	11	2.30	295	+51
+11	12	3.40	270	-02
+4x	13	5.73	344	-05
+
+13	140	1.85	292	-41	; Becka cocked up and used station numbers 14-18 twice so stations on pitches of Tantrum aven have had 100 added to station number written in notes so stn 14 becomes stn 140 up to stn 18 becoming stn 180
+140	150	3.81	148	-67
+150	160	6.29	-	down
+160	170	6.78	160	-57
+170	180	18.19	-	down
+7x	180	1.87	268	-45
+
+14	15	1.90	-	down
+14	16	1.90	210	-29	; written as 16 to 14 in notes
+16	17	2.06	215	-08	; written as 17 to 16 in notes
+17	18	1.58	170	0
+18	19	4.52	278	+05
+19	20	2.48	257	0
+21	20	3.19	345	0
+23	21	3.97	015	0
+7x	23	5.19	324	-14
+
+*data passage station left right up down ignoreall
+1	0.5	0.4	0	3	Numbered in ceiling above Y hang 
+2	0	0.7	3	7	At 0.4m below rebelay Y hang
+3	1.2	5	10	0	Plumb
+4	2.5	3	0.1	0.1	Boulder
+4x	3	3	5	2	cairn on boulder mid chamber with note saying survey station from 28/3/95 from Neil Pacey and Pete Hall
+5	1	1.5	2	1.5	End of chamber
+7	1.2	0.3	0.2	0.2	R crawl
+8	2	0	0.5	1	Top of climb up
+9	1.3	1.2	0.6	0.3	Mud floor
+10	3.2	1	2	1	Numbered 10 on mud floor of chamber
+11	1.5	0.5	0	1	Roof at start of dig
+12	0.3	0.2	0.1	0.1	End of dig
+13	1.5	0	1	0.7	R wall before pitch
+
+140	0	1.5	7	3	About 0.6m below bolt
+150	0	0.8	2.5	15	About 0.4m left of bolt
+160	0.3	0.4	9	10	Y hang knot
+170	0	2	6	18	About 0.8m below Y hang bolt
+180	3	2	24	0	Floor of Tantrum Aven
+7x	5	0	22	1.3	Old, numbered station from previous Becka survey
+
+14	0	1.3	7	2	Numbered at end of crawl
+15	0.4	0	8	0	Too tight rift heads off from here at bearing of 335 for 2m
+16	0.5	0.4	0.1	0.3	Stal above crawl in low section
+17	0.2	0.3	0.4	0	Corner of crawl
+18	0.3	1.2	0.4	0.2	Corner
+19	0.3	1	0.4	0	Crawl
+20	0.7	0.2	2	0.1	End of low section, climb above
+21	0.3	0.3	0.8	0	Start of second low section of crawl
+23	0.3	0.3	0.2	0.2	End of 2nd low section of crawl
+
+*end crestarun4

@@ -1,0 +1,38 @@
+
+*begin	Lj15
+*export 001 
+*export 013
+;*export 016
+
+;Cave: Lost Johns Five Pitch Route 	
+;Surveyors:	Sam Allshorn 
+;Date: 03/02/07	
+;Instruments:Beardys Set Two 	
+
+*calibrate compass		+2.00
+*calibrate clino		-2.50
+*calibrate tape		 0.00	
+
+001 	002 	8.09 	- 	up	;001 = station at base of first pitch matches fivepitchtwo 015
+003 	002 	2.70 	261 	-01	;002 = bolt at pitch head
+003 	004 	2.04 	094 	+32	
+005 	004 	6.25 	321 	-09
+006 	005 	3.85 	- 	down
+007 	006 	2.55 	343 	-15
+901 	900 	8.10 	314 	+0.5	;900 = visual connection to first pitch in muddy rift not descended but is passable 
+901 	902 	3.87 	125 	+25
+007 	902 	1.68 	246 	+43
+008 	007 	4.96 	073 	-66
+009 	008 	2.70 	055 	-13
+009 	010 	9.78 	315 	+63	;010 = bolt at pitch head
+011 	012 	8.46 	241 	+58	;bolt in right wall looking down pitch
+011 	010 	1.50 	012 	00
+013 	012 	1.80 	034 	-26	;013 onward is centre line only
+
+; resurveyed by notts2nearconnection
+;013 	014 	25.51 087 	+03
+;015 	014 	16.57 255 	-01
+;015 	016 	8.32 	047 	-01	;016 yellow tag at T junction in lyle cavern
+
+
+*end	Lj15

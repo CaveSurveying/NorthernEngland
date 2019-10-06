@@ -1,0 +1,74 @@
+;Cave:	Gour Inlet
+;Surveyors:	Dave Ramsay/Richard Bendall
+;Date:	17/09/07??
+;Instruments:	Red Rose Sunto Compass & Clino kit 2, CNCC Disto	
+;*calibrate compass
+
+*begin	GourInlet_3
+
+*export 001 010 016 
+
+
+*calibrate declination +3.26	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.1994n 2.5124w 2007.09.17
+
+001	002	02.44	220.0	+38.0	;stn001=GourInlet_2.25 is bolt at end of pit from previous survey
+002	003	01.35	149.0	+15.0
+003	004	03.59	 -	UP
+004	005	01.66	200.0	+32
+005	006	04.68	264.0	+12.0
+006	007	01.91	155.0	-25.0
+007	008	02.21	151.0	+08.0
+008	009	04.62	159.0	+15.0	;breakthrough point?
+009	010	02.31	185.0	+60.0	;stn010 is left hand bolt above 1st pitch down
+010	011	06.28	 -	DOWN	;estimated (forced) vertical, not actually correct
+012	011	05.74	149.0	+27.0	;stn012 is drilled hole above pitch
+012	013	16.45	 -	DOWN	;stn013 is sump level
+012	014	03.21	098.0	-09.0
+014	015	01.77	130.0	-28.0
+015	016	03.09	052.0	-28.0	;stn016 is roof pendant
+016	016a	02.00	322.0	-28.0	;stn016a is guess to show continuation
+011	017	10.73	155.0	+27.0
+017	018	06.65	105.0	-18.0
+018	019	11.84	066.0	+01.0
+019	020	07.04	055.0	+34.0	;stn020 is in 1st gour chamber
+019	021	10.33	341.0	+09.0
+021	022	08.61	036.0	+10.0
+022	023	05.08	348.0	+16.0
+023	024	03.31	346.0	+35.0
+024	025	10.02	338.0	+18.0
+024	026	02.90	328.0	+08.0	;stn026 is edge of boulder in 2nd gour chamber
+026	026a	02.00	074.0	+10.0	;stn026a is guess to edge of chamber to show possible passage
+
+*data passage station left right up down ignoreall
+
+001	1.0	1.0	1.0	1.0
+002	0.4	0.1	0.2	0.6
+003	1.1	0.1	0.0	0.2
+004	1.0	0.8	0.2	4.0
+005	0.3	1.4	2.0	1.7
+006	1.0	0.0	0.2	1.5
+007	0.6	0.5	1.2	0.2
+008	1.0	0.3	0.3	0.4
+009	0.6	0.3	3.0	0.4
+010	0.9	0.0	5.0	6.5
+011	0.2	1.0	6.5	1.7
+012	0.0	1.5	4.0	5.0
+013	0.5	1.0	2.0	1.4
+014	1.0	0.0	2.0	1.0
+015	0.5	0.5	0.0	0.3
+016	1.6	0.0	1.2	1.2
+016a	0.5	0.5	1.2	0.2	;added 16/05/11RGB
+017	1.6	0.1	1.5	1.5
+018	2.0	0.0	2.5	0.5
+019	0.0	2.3	3.0	1.6
+020	0.5	1.2	0.4	1.2
+021	0.0	1.0	5.0	1.0
+022	0.4	0.0	5.5	0.3
+023	0.3	0.3	6.0	0.0
+024	1.0	0.1	4.0	0.0
+025	1.45	1.95	10.0	0.3
+026	2.0	2.0	10.0	0.4	;added 16/05/11RGB
+026a	0.5	0.5	10.0	1.0	;added 16/05/11RGB
+
+*end	GourInlet_3

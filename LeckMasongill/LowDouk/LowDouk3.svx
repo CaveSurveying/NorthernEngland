@@ -1,0 +1,30 @@
+*begin LowDouk3
+*export 015 001
+*Title "Low Douk 3"
+
+;equate 001 LowDouk_1.017
+
+;Date: 09/11/09
+;Survey Kit RRCPC No 2
+;Book/Tape: Dave Ramsay
+;Instruments: Richard Bendall
+
+;Station 	Tape	Compass	Clino	 L	R	U	D
+001	002	6.95	114	+11
+001	003	9.88	285.5	+11
+003 	004	2.86	295 	+2
+004 	005 	0.3 	- 	down
+005 	006 	2.70 	280 	+1
+006 	007 	2.22 	318 	-6
+007 	008 	1.66 	271 	+2
+008 	009 	2.90 	321 	+1
+009 	010 	3.79 	326 	0
+010 	011 	3.19 	283 	-5
+011 	012 	4.30 	000 	-28
+011 	013 	1.45 	264 	-1
+013 	014 	1.87 	325 	-3
+014 	015 	3.49 	253 	+9
+
+*end LowDouk3
+
+

@@ -1,0 +1,50 @@
+*begin Inlet14_1
+
+*export Stal 9
+
+; Locn:	Leck Fell
+; Cave:	Notts II
+; Inlet 14
+
+*title "Inlet 14"
+*date 2012.02.11
+*team Insts Richard Bendall
+*team tape Richard Bendall
+*team Notes Becka Lawson
+*instrument Compass and Clino - Becka's pony
+
+*calibrate tape +.30	; +ve if tape was too short, -ve if too long
+
+
+*calibrate declination +2.43	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.1994n 2.5124w  2012.02.11
+
+*data normal from to tape compass clino
+
+;from	to	tape	compass	clino	remarks
+Stal	1	6.40	203	+65
+Stal	Tag	0.80	-	Down
+1	2	1.36	143	-39
+2	3	10.51	199	+01.5
+3	4	8.08	188	+01
+4	5	5.60	151	+01.5
+5	6	8.01	191	-01
+6	7	2.43	245	+01
+7	8	3.25	278	-01
+8	9	4.81	245	+01
+
+
+*data passage station left right up down ignoreall
+Stal	1.0	2.0	6.6	2.5	;Stal previous stn Mainstreamway3.22
+1	0.8	0.0	0.5	9.0	;Hanger with ladder hung down
+2	0.2	0.7	0.4	0.6	;LH start of passage
+3	0.6	0.3	0.2	0.4 
+4	0.4	0.6	0.0	0.5
+5	0.4	0.4	0.0	0.4
+6	0.3	0.6	0.3	0.3
+7	0.3	0.7	0.3	0.3
+8	0.8	0.2	0.2	0.2	;ceiling
+9	0.7	0.3	0.0	0.4	;Ceiling by capping debris
+*end Inlet14_1
+
+

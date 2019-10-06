@@ -1,0 +1,46 @@
+
+*begin LittlePotInlet
+*export 1 13
+
+*title "Large Pot - Red Herring - Little Pot Inlet from pitchhead bolt for third pitch to Thornton Hall then down inlet until lots of straws"
+*date 2012.01.15
+*team Instruments Becka Lawson
+*team Notes James Sugden
+*instrument Becka's Tandem as comp and clino and Becka's new 30m tape read from 0cm
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+1	2	6.24	-	down
+2	3	6.34	001	-07
+3	4	4.89	056	0
+4	5	2.49	128	-05
+5	6	1.73	111	+13
+6	7	6.54	072	-11
+7	8	2.01	059	+15
+
+8	9	1.48	128	-11
+9	10	2.99	070	-01
+10	11	2.45	022	+02
+11	12	1.59	064	+14
+12	13	1.88	302	-11
+
+*data passage station left right up down ignoreall
+
+1	-	-	-	-	pitch head p hanger for 3rd pitch
+2	-	-	-	-	plumb to wall of Thornton Hall
+3	0	0.7	0.7	1.8	start of Little Pot inlet
+4	0	0.4	0.1	1.7	90 degree bend
+5	0.1	0.3	0.4	1.4	stal knob
+6	0.3	0	0.1	1.8	before XXX (Can't read - might say block)
+7	0.3	0	1.2	0.4	floor
+8	0	0.3	0.5	1	90 degree R (assume means 90 degree bend to R)
+
+9	0.3	0	1.2	0.6
+10	0.4	0	1	0.8
+11	0.1	0.2	0.4	0.7
+12	0.4	0.2	0.3	1.1	LH 90 (assume means 90 degree bend to left)
+13	0.2	0.7	0.7	0.5	tip of stalagmite, small, numbered in tippex. Lots of straws in ceiling. Can continue for approx 60m as low crawl in stream, gradually detioriating. James took about 10min to do this each way and said nobody had been up before (he had to clear mud blockages and break straws) and it kept continuing but very miserable
+
+*end LittlePotInlet

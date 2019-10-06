@@ -1,0 +1,42 @@
+;;;;;;;;;;;;;;;;
+; generated from lostpotinlet.top
+;;;;;;;;;;;;;;;;
+
+*begin itsacracker2
+
+*export 1-26 1-39 1-40 ; 1-41
+
+*date 2012.10.26
+*team Instruments Andrew Atkinson
+*team Tippex Julian Todd
+*team Notes Becka Lawson
+
+*instrument Becka's distox calibrated in the cave on 26.10.12 with delta of 0.61 I think and Becka's PDA for notes
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+*data normal from to tape compass clino ignoreall
+
+1-26	1-27	8.056	175.93	2.14	Roll:113	0	d3
+1-28	1-27	6.843	107.91	-42.31	Roll:350	0	d3  ; stn 28 n0.d before tight rift
+1-28	1-29	1.984	1.54	-13.82	Roll:277	0	d3
+1-29	1-30	5.122	261.95	76.80	Roll:83	0	d3		; continues as very tight canyon
+1-27	1-31	8.518	159.27	-0.23	Roll:330	0	d3
+1-32	1-31	7.810	336.91	-1.97	Roll:307	0	d3
+1-32	1-33	11.066	149.79	-36.45	Roll:278	0	d3
+1-33	1-34	14.562	218.75	85.48	Roll:208	0	d3
+1-35	1-33	6.364	122.24	21.52	Roll:24	0	d3
+1-36	1-35	0.828	183.81	18.67	Roll:309	0	d3
+1-36	1-37	5.598	307.61	2.46	Roll:1	0	d3
+1-37	1-38	5.309	313.62	-3.40	Roll:322	0	d3
+1-37	1-39	15.606	298.61	-60.27	Roll:347	0	d3
+1-39	1-40	3.046	110.96	-6.23	Roll:342	0	d3  ; stn 40 is bolt below p hanger on l wall at kendal flyover
+; 1-39	1-41	3.038	260.39	-2.02	Roll:347	0	d3  ; superflous so commented out
+; 1-39	1-42	18.637	333.85	62.36	Roll:343	0	d3 	; superflous so commented out
+
+; splays 
+;1-26	-	0.000	0.00	0.00	Roll:0	0	d1  ; passage alsllaalso under boulders with stream
+;1-32	-	6.319	130.68	-54.79	Roll:176	0	d1  ; opposite curtain ar top of boulder sllope
+;1-37	-	3.315	306.89	-3.02	Roll:266	0	d1  ; about 0.5m befotre pitvch head bolt in ceiling
+
+*end itsacracker2

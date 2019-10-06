@@ -1,0 +1,76 @@
+; Locn:	Masongill
+; Cave:	Rift Pot
+; Rift Pot - right branch at Tjunction
+
+*begin RiftPotTOD4
+*export x77
+
+*title "Rift Pot - right branch at Tjunction"
+*date 2009.10.24
+*team Instruments Julian Todd
+*team Notes Becka Lawson
+*Instrument Becka's 30m tape and Becka's tandem comp & clino with backup Becka's Pony read backwards by Becka (Pony measurements after semicolon on each line)
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+x77	13	4.04	095	+07	; 282	-08
+14	13	3.51	222	+15	; 044	-14
+14	15	5.15	024	-02	; 206	+02
+16	15	5.34	263	-05	; 081	+04
+16	17	6.98	002	-02	; 179	+01
+18	17	7.99	262	-08	; 078	+07
+18	19	9.16	325	-03	; 139	+03
+20	19	4.70	101	+03	; 287	-04
+20	21	5.01	353	+23	; 176	-24
+22	21	4.12	101	+25	; 289	-26
+
+22	23	10.30	304	+03	; 121	-03
+24	23	4.66	198	-26	; 024	+23
+25	23	3.29	214	+05	; 033	-06
+25	26	4.68	057	0	; 244	0
+27	26	6.99	115	-04	; 299	+02
+27	28	4.69	342	+04	; 166	-04
+29	28	7.28	080	-01	; 265	0
+29	30	3.19	326	+07	; 150	-07
+31	30	6.74	251	+05	; 067	-05
+31	32	6.94	007	+08	; 184	-07
+33	32	6.12	253	-08	; 073	+08
+
+33	34	4.29	036	+13	; 219	-12
+34	35	2.00	015	+19	; instruments just Becka's pony and estimated final leg into dig1
+34	36	2.00	138	-09	; instruments just Becka's pony and estimated final leg into dig2 
+
+
+*data passage station left right up down ignoreall
+
+x77	0.3	3.5	0.8	2.4	riftpotTOD2 numbered station 77 at T junction chamber
+13	1.3	1.2	0.5	2.5	roof, end of chamber
+14	1.5	0.2	1.3	1.5	r wall beyond chamber
+15	0.2	1.4	2.4	1.5	l wall
+16	1.7	0.1	1.7	1.5	r wall at corner
+17	0.5	1.5	2	1.5	l wall corner
+18	1.6	0.1	1	2	r wall
+19	1.5	0	2	1.5	r wall
+20	0.2	1.4	1.8	1	l wall
+21	1.2	1	2	3	numbered where (too tight?) aven 
+22	1.6	0	1.4	0.8	roof at corner
+
+23	0.2	1.4	1.3	1.6	l wall before inlet
+24	0.5	0.8	4	0.4	up calcite curtain with inlet
+25	0.6	1.1	2	0.9	on calcite curtain
+26	1.5	0.1	1.5	1.2	r wall
+27	0.2	1.2	0.9	1.1	l wall
+28	1.5	0.2	1	1.2	r wall
+29	0	1.2	0.4	1.5	l wall
+30	1	2	2	2	numbered just after inlet - can maybe climb into roo? Or too tight?
+31	1.9	0	0.9	1	r wall
+32	0.1	2	1.5	1.3	l wall at boulders
+33	1	2.5	0	0.9	numbered station on left in final chamber, level with white stal
+34	1	1	0.4	0	floor at junction with digs two directions
+
+*end RiftPotTOD4
+
+
+

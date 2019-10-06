@@ -1,0 +1,93 @@
+*BEGIN NottsPot_to_ShepPot
+
+*EXPORT	1.0						;PerilousPot GPS point Pink nail varnish triangle top left of step
+*EXPORT 3.0						;notts1 gps marker
+*EXPORT 2.9						;Top of Shep pot scafold tube
+
+*EQUATE 1.0 	3.14
+*EQUATE 1.13	2.0 
+
+*CALIBRATE declination +1.93	;Calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
+								; 54.195911°N 2.505374°W   2016.04.
+*BEGIN 1
+
+; <<<< Surface survey from PerilousPot entrance to over the end of station 1.45 >>>>
+
+;Di pda, Si distox
+;calibrated error <0.5
+
+*EXPORT 0 13
+
+*DATE 2016.04.30
+
+*FLAGS SURFACE
+0	1	 6.67	290.20	 26.63	;PerilousPot GPS point Pink nail varnish triangle top left of step
+1	2	 7.87	320.41	  3.43
+2	3	 8.12	338.49	 -0.04
+3	4	 8.26	335.65	 -0.55
+4	5	 8.98	335.88	 -0.84
+5	6	11.23	323.19	 -3.71
+6	7	 9.04	279.84	 -4.48
+7	8	11.04	308.09	 -5.44
+8	9	 8.91	298.17	 -8.05
+9	10	 8.76	283.62	-10.80
+10	11	 6.93	287.33	 -7.00
+11	12	 6.61	285.78	-21.15
+12	13	 1.36	108.27	-65.60	;Bottom of Shakehole - gps sd67051 77969\r\r99 m from etrance on bearing 126
+
+*END 1
+
+*BEGIN 2
+; <<<< Surface survey from over the end of station 1.45 to Shep pot >>>>
+
+;Di pda, Si distox
+;calibrated error <0.5
+
+*EXPORT 0 9
+*DATE 2016.04.30
+
+*FLAGS SURFACE
+1	0	 4.15	140.15	-46.09 ;3.0 Bottom of Shakehole
+*FLAGS SPLAY
+1	1a	 6.24	140.81	-14.27
+*FLAGS NOT SPLAY
+1	2	 7.97	  0.31	 -0.05
+2	3	10.91	  4.25	  0.76
+3	4	10.62	358.04	 -2.19
+4	5	10.48	342.71	 -1.76
+5	6	12.02	 17.81	  1.46
+6	7	10.67	 30.60	  2.66
+7	8	 6.83	 45.61	  2.06
+8	9	 7.60	 29.05	-30.71 ;Top of Shep pot scafold tube
+*END 2
+
+
+*BEGIN 3
+
+; <<<< Overland survey to tie in PerilousPot to Notts pot GPS tag >>>>
+
+;Di pda, Si distox
+;calibrated error <0.5
+
+*EXPORT 0 14
+
+*DATE 2016.04.23
+
+*FLAGS SURFACE
+1	0	10.06	151.67	-25.50	;notts1 gps marker
+1	2	10.52	 20.72	  9.43
+2	3	 6.73	 10.15	  4.65
+3	4	 8.83	 31.99	 18.09
+4	5	 9.66	 29.73	 -7.59
+5	6	 8.17	 27.42	  7.55
+6	7	 8.98	  2.80	  6.16
+7	8	10.27	 12.51	-15.51
+8	9	10.08	 32.19	  7.25
+9	10	 7.90	354.15	 11.45
+10	11	 9.98	355.18	 -4.04
+11	12	 7.19	  5.40	 -2.74
+12	13	10.01	  4.78	 -9.49
+13	14	 0.84	316.27	-87.27	;PerilousPot GPS point Pink nail varnish triangle top left of step 
+
+*END 3
+*END NottsPot_to_ShepPot

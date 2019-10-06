@@ -1,0 +1,40 @@
+*begin LowDouk2
+*export 022 001  010	; RB changed 006 to 010 here as he does know which station to connect LowDouk5 to so is fixed!
+*Title "Low Douk 2"
+
+;Date: 19/10/09
+;Survey Kit RRCPC No 2
+;Book/Tape: Dave Ramsay
+;Instruments: Richard Bendall
+
+;Station 	Tape	Compass	Clino	 L	R	U	D
+
+002	001	2.26	289	0	;
+003	002	2.07	288	+5	;
+004	003	2.36	290	0	;
+005	004	3.35	296	0	;
+006	005	3.39	262	+2	;
+007	006	4.96	321	-4	;
+008	007	0.40	-	up	;
+009	008	3.06	353	-12	;
+010	009	1.00	-	down	;
+011	010	2.57	020	+2	;Across aven
+012	011	2.00	057	-8	;
+013	012	1.46	030	-20	;
+014	013	1.99	078	-12	;
+015	014	2.17	357	+52	;
+016	015	1.25	014	-11	;
+017	016	0.45	-	down	;
+
+*flags duplicate ; (Low Douk) legs repeated in lowdouk4
+018	017	2.04	315	-14	;
+019	018	3.79	070	+28	;
+020	019	2.69	062	-15	;
+021	020	12.03	035	-2	;
+022	021	6.40	032	+22	;022=LowDouk_1.016
+*flags not duplicate
+	
+
+*end LowDouk2
+
+

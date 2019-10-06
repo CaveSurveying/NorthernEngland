@@ -1,0 +1,103 @@
+; Surface survey  Lost Johns to Box Head to Voldemort Hole to Notts II to Cupcake
+; 23/09/2010
+; instruments Red Rose set 2?
+; Richard Bendall book
+; Dave Ramsay instruments
+; Jim Stevenson tape
+
+*begin NottsIIsurfacesurvey
+
+*export LostJohnsEntranceTag
+*export BoxHeadEntranceTube 
+*export VoldemortEntranceSWcorner
+*export NottsIIEntrance 
+*export KangoHoleEntranceVrock
+*export CupcakeEntranceSWcorner 
+*export CupcakeFencepost
+*export StartinghandleHole
+
+; always declare entrances so they are easy to find when not equated
+*entrance NottsIIEntrance
+*entrance VoldemortEntranceSWcorner
+*entrance CupcakeEntranceSWcorner
+*entrance LostJohnsEntranceTag
+*entrance BoxHeadEntranceTube
+*entrance StartinghandleHole
+
+
+*equate LostJohnsEntranceTag 47
+
+; mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+; lat/long for that neck of the woods = 54.25 N 2.5 W on 21/6/2010
+; surface survey - mag decl for 2010 = 2.98 deg W
+; true N to grid N correction = -0.33 
+*calibrate declination +2.65
+
+;*calibrate compass ;not known for Survey Kit RRCPC No 2
+
+*flags surface
+2	LostJohnsEntranceTag	8.20	059.0	-58	;Lost Johns Entrance Tag
+3	2	27.10	346.0	0		;Stile
+3	4	30.00	166.5	+2.5
+5	4	30.00	345.0	-5.0
+5	6	30.00	166.0	+2.0
+7	6	30.00	010.0	-2.5
+7	8	30.00	177.0	+3.0
+9	8	30.00	018.0	+2.0
+9	10	30.00	216.0	-6.5
+11	10	30.00	331.0	-5.0	
+11	12	30.00	179.0	-0.5
+BoxHeadEntranceTube	12	9.10	290.0	+38.0		;centre of boxhead entrance tube
+13	12	30.00	048.0	+3.0
+13	14	30.00	221.0	-4.0
+15	14	30.00	057.0	+2.5
+15	16	30.00	255.0	-7.0
+17	16	30.00	073.0	+6.0
+17	18	30.00	240.0	-7.0
+19	18	30.00	065.0	+3.0
+19	20	30.00	276.0	-7.0
+21	20	15.80	066.0	+8.5
+21	VoldemortEntranceSWcorner	1.56	-	down	;Voldemort entrance SWcorner
+21	22	30.00	288.0	-3.0	
+23	22	30.00	111.0	+5.0
+23	24	30.00	298.0	-9.5
+25	24	30.00	117.0	+7.0
+25	26	30.00	297.0	-4.0
+27	26	30.00	104.0	+3.0
+27	28	30.00	284.0	-15.5
+NottsIIEntrance	28	19.45	035.0	+17.0		;Centre of Notts II lid
+29	28	30.00	214.0	-13.00
+29	KangoHoleEntranceVrock	27.05	042.0	+2.0	;Above Kango entrance v shaped rock
+30	KangoHoleEntranceVrock	30.00	199.0	-7.0
+30	31	30.00	017.0	+1.0
+31	CupcakeEntranceSWcorner	2.47	-	Down		;Cupcake entrance sw corner
+CupcakeFencepost 31	16.88	193.0	-6.5
+
+*flags not surface
+
+;04/10/10
+; instruments Red Rose set 2?
+; Richard Bendall book
+; Dave Ramsay instruments & tape
+
+*flags surface
+
+CupcakeFencepost 32	30.00	047.0	+7.0
+33	32	30.00	234.0	-5.5
+33	34	30.00	052.0	+2.5
+35	34	30.00	231.0	-4.0
+35	36	30.00	049.0	+2.5
+37	36	30.00	247.0	-2.5
+37	38	30.00	042.0	+4.5
+39	38	30.00	232.0	-6.0
+39	40	11.07	055.5	-1.0
+40	StartinghandleHole	1.53	-	Down
+41	40	30.00	235.0	-4.0
+41	42	30.00	061.5	+2.0
+43	42	30.00	248.0	-3.5
+43	44	30.00	069.0	+5.0
+45	44	30.00	248.0	-5.5
+45	46	30.00	146.0	-2.0
+46	47 09.15	101.0	-38.0	;Lost John's Entrance Tag
+
+*end NottsIIsurfacesurvey

@@ -1,0 +1,71 @@
+; Locn:	Leck Fell
+; Cave:	Ireby Fell Cavern
+; From Ireby 1 pitchhead bolt above Duke St at start of Whirlpool dig
+
+*begin canal
+
+*export 1 8 19
+
+*title "Canal ending at dive line to Notts"
+*date 2009.06.27
+*team Insts & Tape Julian Todd
+*team Notes Becka Lawson
+
+*instrument Compass and Clino - Becka's Pony ; Tape - Becka's 30m yellow read from 0cm
+
+; account for the fact we were using a badly calabrated SAP.  
+; this gets corrected to the original dukest2canal survey
+*sd compass 10 degrees
+*sd clino 10 degrees
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+1	2	2.44	152	-11
+2	3	5.60	167	+05
+3	4	10.49	153	+01
+4	5	5.39	170	+02
+5	6	6.33	197	0
+6	7	5.22	181	+08
+7	8	2.11	176	-46
+
+; legs 9 to 19 replicate the dukest2canal survey 
+*flags duplicate; (Duke St 2) replicated legs
+
+9	8	4.47	288	-16	
+9	10	2.97	152	-14	
+10	11	8.70	186	0
+11	12	2.69	142	+03	
+12	13	1.09	237	+02
+13	14	4.42	188	0
+14	15	5.05	197	+11
+15	16	8.42	211	+04
+16	17	3.34	203	-48
+17	18	4.11	158	+07
+18	19	5.72	190	+38
+*flags not duplicate
+
+*data passage station left right up down
+
+1	0.3	1.5	0	1.1	; roof nodule with dive line tied to it at sump to Notts
+2	2	0	1.2	0.4	; lp r wall
+3	0.2	1.5	0.1	1.1	; numbered lp on L wall / ceiling nodule
+4	0.3	1.3	0.1	1.3	; numbered nodule on L side of ceiling
+5	0.1	1.5	0.1	1.5	; l ceiling  - LRUDs hard to decipher
+6	1.4	0	0.6	1.3	; r wall
+7	1.2	0.7	0.1	2	; r ceiling before junction
+8	-	-	-	-	; junction lp from old survey of BL & JT
+
+;9	-	-	-	-	; l wall NEW
+;10	-	-	-	-	; l wall original
+;11	-	-	-	-	; r wall original
+;12	-	-	-	-	; l wall original
+;13	-	-	-	-	; r wall original
+;14	-	-	-	-	; l wall original
+;15	-	-	-	-	; r wall NEW
+;16	-	-	-	-	; r wall NEW
+;17	-	-	-	-	; r wall original
+;18	-	-	-	-	; l wall original
+;19	-	-	-	-	; pitch head spit for whirlpool crawl
+
+*end canal

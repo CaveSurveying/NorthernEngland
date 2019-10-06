@@ -1,0 +1,54 @@
+*begin Inlet14_2
+
+*export 9x
+
+; Locn:	Leck Fell
+; Cave:	Notts II
+; Inlet 14
+
+*title "Inlet 14"
+*date 2012.02.11
+*team Insts Simon Cornhill
+*team tape Simon Cornhill
+*team Notes Di Arthus
+*instrument Compass and Clino - Tim's pony and 50m tape
+
+*calibrate tape +.00	; +ve if tape was too short, -ve if too long
+
+
+; *calibrate declination +2.43	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.1994n 2.5124w  2012.02.11
+
+*data normal from to tape compass clino
+
+;from	to	tape	compass	clino	remarks
+
+1	9x	6.40	085	-01
+2	1	3.60	063	-03
+3	2	2.30	105	-01
+4	3	4.60	089	-01
+5	4	4.50	074	-02
+6	5	5.60	038	-01
+7	6	3.90	067	-01
+8	7	1.40	079	+01
+9	8	1.60	059	-02
+10	9	2.20	096	-02
+11	10	12.00	073	0	; compass and clino not measured (very squalid!) so compass taken from average of previous legs
+12	11	5.00	073	0	; compass and clino not measured (very squalid!) so compass taken from average of previous legs
+13	12	6.00	073	0	; compass and clino not measured (very squalid!) so compass taken from average of previous legs	
+14	13	6.00	073	0	; compass and clino not measured (very squalid!) so compass taken from average of previous legs
+
+*data passage station left right up down ignoreall
+
+; LRUDs 0.25 0.25 0.25 0.25
+9x	-	-	0	0.62	numbered old station in ceiling
+4	-	-	-	-	cross rift
+10	-	-	-	-	silt screw (plastic tubing for diving) left as permanent station for station 10
+11	-	-	-	-	end of squeeze - "Horror in Clay"
+12	-	-	-	-	step in floor
+13	-	-	-	-	enlargement with drip from ceiling, where all water from - where James turned originally
+14	-	-	-	-	muddy tube, body-sized, between 13 and 14 and station 14 is at dig, too tight hole beyond - no airspace after 1m due to mud?
+
+*end Inlet14_2
+
+

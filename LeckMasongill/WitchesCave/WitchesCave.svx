@@ -1,0 +1,27 @@
+;Every Witches Cave file
+
+*begin	WitchesCave
+
+*export wit7.001 wit.001 Witches1DryCave.18
+
+*equate	wit7.001a	wit4.003
+*equate	wit1.001	wit.002c
+*equate	wit1.018	wit3.001	
+*equate	wit3.001	wit1.018
+*equate	wit3.041	wit4.001
+*equate	wit5.001	wit4.003
+*equate	wit4.001	wit3.041
+*equate	wit4.003	wit5.001
+*equate	wit4.003	wit7.001a
+*equate	wit.002c	wit1.001
+*equate	wit.002b	Witches1DryCave.21	; equate at RRCPC cow tag
+
+*include	wit		; original survey of dry cave - eventually should replace by Witches1DryCave survey - for now have just put *flags duplicate in the wit survey so the length isn't included in the overall length stats (Becka 8 Jan 2012)
+*include	wit1	; initial descent down 1st sump
+*include	wit3	; main survey of 1st sump
+*include	wit4	; linking legs between 1st & 2nd sumps
+*include	wit5	; main survey of 2nd sump
+*include	wit7	; seems similar to wit4
+*include	Witches1DryCave	; resurvey to replace wit survey 30.10.11
+
+*end	WitchesCave

@@ -1,0 +1,48 @@
+;Title: Witches II Cave
+
+;Date Created 17/09/10 by Richard Bendall
+
+;-------------------------------------------------------------------------------------------
+;Modifications
+;
+;--------------------------------------------------------------------------------------------
+;All Witches II files and Shuttleworth Pot entrance
+
+*begin WitchesII
+
+*export WitchesII-7.x 	;Added 22/03/11RGB
+*export WitchesII-2.001
+
+*entrance WitchesII-2.002
+
+*include WitchesII-1
+*include WitchesII-2
+*include WitchesII-3
+*include WitchesII-4
+*include WitchesII-5
+*include WitchesII-6
+*include WitchesII-7
+*include WitchesII-8
+*include WitchesII-9
+*include WitchesII-10	;Added 22/03/11RGB
+*include WitchesII-11	
+*include alcovesump		; added 14/10/13 by Becka from Jason Mallinson / Emma Heron data	
+
+*equate WitchesII WitchesII-2.001
+*equate WitchesII-1.030 WitchesII-2.017
+*equate WitchesII-1.001 WitchesII-3.003
+*equate WitchesII-1.021 WitchesII-3.013
+*equate WitchesII-1.022 WitchesII-3.014
+*equate WitchesII-1.025 WitchesII-3.019
+*equate WitchesII-2.019 WitchesII-3.020
+*equate WitchesII-3.028 WitchesII-4.001
+*equate WitchesII-4.047 WitchesII-5.001
+*equate WitchesII-5.010 WitchesII-6.1
+*equate WitchesII-3.021 WitchesII-7.z
+*equate WitchesII-8.13x WitchesII-6.13
+*equate WitchesII-9.2x WitchesII-6.2
+*equate WitchesII-10.001 WitchesII-9.13		;Added 22/03/11RGB
+*equate WitchesII-11.001 WitchesII-3.018
+*equate WitchesII-7.diveline alcovesump.4
+
+*end WitchesII

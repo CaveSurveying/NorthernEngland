@@ -1,0 +1,191 @@
+; Locn:	Leck Fell
+; Cave:	Ireby Fell Cavern
+; From cowtag at end of Duke St up to Well Pitch to link to Adulters surveys
+
+*begin ropepitch
+
+*export 4 43 44 49 104 1 101 105 106
+*export 42 ; forced connection between Duffy data and Becka's bad pony data
+*export 63 ; P-hanger on boulder shelf above rope pitch
+*export 46 ; thought to be start of BoltonExtensions.014
+
+*title "Rope Pitch"
+*date 2009.06.28
+*team Insts & Tape Julian Todd
+*team Notes Becka Lawson
+
+*instrument Compass and Clino - Becka's Pony ; Tape - Becka's 30m yellow read from 0cm
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+; account for the fact we were using a badly calabrated SAP, so we should favour the 1999 Ray Duffy survey
+*sd compass 10 degrees
+*sd clino 10 degrees
+
+; USED STN NO.S 1-6 TWICE SO INITIAL STN.S 1-6 RENUMBERED AS 1 IS 101 UP TO 6 IS 106
+
+;from	to	tape	compass	clino	remarks
+
+1	2	15.90	216	0
+2	3	4.02	180	-04
+3	4	5.24	190	+02
+4	5	4.42	226	+03
+5	6	6.70	183	-10
+6	7	10.96	248	+08
+7	8	3.84	193	-31
+8	9	12.90	160	+02
+9	10	9.02	215	0
+10	11	8.57	260	-01
+11	12	3.41	202	-02
+12	13	9.38	230	-02
+13	14	8.53	203	+07
+14	15	8.71	197	-01
+15	16	3.82	251	+02
+16	17	7.36	173	+06
+17	18	5.85	233	+14
+18	19	7.81	242	-10
+19	20	11.51	197	+01
+20	21	5.38	185	-03
+21	22	6.81	117	0
+22	23	13.80	162	0
+23	24	9.80	113	+02
+24	25	12.12	165	-01
+25	26	10.23	090	+02
+
+26	27	9.67	116	0	
+27	28	6.71	152	0
+28	29	11.69	072	0
+29	30	8.27	155	0
+30	31	10.22	119	0
+31	32	12.29	192	-02
+32	33	4.90	105	0
+33	34	8.16	160	+05
+34	35	2.99	215	-10
+35	36	10.39	123	+03
+36	37	3.40	195	-07
+37	38	9.13	152	+03
+38	39	14.04	217	0
+39	40	8.68	182	+03
+
+40	41	9.60	213	-09
+41	42	4.46	179	+17
+42	43	2.06	236	-27
+*flags duplicate ; (Rope pitch) tie in
+42	44	2.26	060	-12
+*flags not duplicate
+44	45	8.54	263	0
+45	46	12.75	240	0
+46	47	5.71	196	+04
+47	48	10.62	279	+02
+48	49	11.15	173	+57
+48	50	11.51	341	+29	
+50	51	6.69	115	+29
+
+50	52	4.40	008	-12
+52	53	8.63	339	-02
+53	54	5.25	047	+32
+54	55	3.28	125	+13
+53	56	3.34	320	+08
+56	57	3.93	311	+61
+57	58	2.11	245	+16
+58	59	1.89	328	+11
+59	60	1.89	224	+12
+60	61	5.58	325	+22
+61	62	7.38	159	+31
+62	63	4.77	091	0
+61	64	7.42	293	-02
+64	65	3.90	283	+04
+65	66	8.70	302	-02
+
+66	67	2.22	027	+22	
+67	104	1.19	127	+35	; stn 104 written as stn68 in notes
+
+102	103	1.20	100	+06
+102	101	1.64	337	-06
+104	103	9.45	332	+69
+104	105	15.43	280	+83
+105	106	0.25	115	-02	; only rough measurement for comp and clino
+
+*data passage station left right up down
+
+; ALL LR GIVEN COMING OUT OF CAVE (so in the direction most of the survey went, starting at Duke St 1 and coming out_ 
+
+1	-	-	0.8	1.2	; cow tag at top end of Duke St 1 where two digs go off
+2	1	0.4	2	1.2	; r wall start of passage
+3	0.4	1	1.6	1.2	; l wall
+4	0.2	0.7	2	1.4	; l wall
+5	0.7	1	1.6	1.5	; r wall
+6	0.3	1	3	2.2	; l wall
+7	1	1.1	1.5	3.2	; r wall at end of first lot of boulders where climb up over boulders
+8	0.9	0.3	3.5	1.5	; r wall
+9	0.2	0.9	3	2	; l wall
+10	0.1	1.4	3	2	; l wall
+11	1.5	0	3	2	; r wall
+12	1.4	0.4	3.5	1.6	; r wall
+13	1.2	0.5	3	1	; r shelf
+14	0.4	1.6	2.5	2.1	; l wall
+15	0.1	1.7	2.5	1.1	; l wall
+16	1.4	0.3	2.5	1.2	; r wall
+17	0.4	1.3	1.5	2.3	; l wall before climb up over boulders for a second time
+18	1.5	1.5	0.4	3.5	; muddy stal at start of climb over third lot of boulders
+19	2.5	0.2	1	2	; r wall
+20	0.8	1.4	1	2.3	; l shelf just after fourth climb over boulders
+21	1.7	0.4	1.1	1.6	; where flowstone and tiny inlet come in on R side 
+22	0.8	1.2	1.2	1.8	; L wall / shelf
+23	1.8	0	0.7	1.6	; R wall
+24	0.6	2.3	0.4	2.1	; l wall by straws
+25	3	0.5	0.4	1.6	; r wall
+26	1.9	0.8	0.2	2	; ceiling stal
+27	1.5	1.5	0.1	1.9	; ceiling stal at corner
+
+28	1.5	0.5	0.2	1.5	; r wall
+29	0.5	1.9	0.4	1.4	; l wall at corner
+30	1.5	0.4	0.6	1.3	; r wall
+31	0.3	1.2	0.6	1.2	; l wall at scratched cross - old survey station?
+32	2.5	0.2	1.6	0.9	; corner at r wall
+33	0.4	1	1.5	0.8	; l wall corner
+34	0.2	2.3	1	1.3	; l wall
+35	1.1	2	1.5	1	; r wall
+36	0.2	1	0.8	1.2	; l wall
+37	1.1	1	1.4	1	; r wall
+38	1.2	1	0.9	1.1	; l wall
+39	1.7	0.6	0.9	1.1	; r shelf
+40	1.6	0.5	0.1	1.5	; r ceiling 
+41	2	1	1.6	0	; cobble on floor
+42	1	3	0	1.1	; ceiling cross - old survey station? Between dam and passage, junction
+43	1.4	0	0.3	0.2	; numbered lp on R wall as enter passage
+44	1.1	0	0.4	0.5	; numbered lp on l wall right above dam
+45	1.1	0.3	0.5	0.5	; r wall
+46	1.5	1.5	2.4	0.1	; floor after low crawl
+47	0.5	2.1	5	0.3	; l floor
+48	1	2	8	0.2	; floor beyond big boulder
+49	3	0	5	2.5	; top of slope, lp numbered, maybe aven above?
+50	1.5	2.5	7	3.5	; l wall top of boulder climb
+51	3	0	4	7	; r wall by small passage, numbered
+52	0.6 	0.2	6	3	; r wall - left is 5 max, 0.6 locally
+
+53	1	3	9	0.8	; before ?herd line? L wall
+54	0	1.2	2	2	; l wall small passage
+55	0.2	1.1	1.1	0.1	; top of tiny stalagmite at end of small passage off main streamway
+56	1.2	0.3	8	1.4	; base of broken stone flake before pitch
+57	2.5	0	4	1.7	; r wall about 0.3m above the thread for handlines on rope pitch - down is 4 to bottom of pitch but 1.7 locally
+58	0.1	0.8	3	2.3	; l wall
+59	0.5	0.3	1.6	2.4	; r wall
+60	0.2	0.5	1.8	2	; l wall
+61	3	0.8	6	2.3	; r wall, cross on small calcite curtain to R of distinctive long flat boulder lying perpendicular to passage on bedrock
+62	3	0	10	2	; r wall
+63	2.2	0	10	4	; p hanger below traverse to Adulterers. Rope goes both up to Adulterers traverse and down from phanger as a dry level option to Rope Pitch
+64	3	0.1	8	1	; r wall
+65	4	2	10	1	; ceiling
+
+66	1	2.5	10	0	; floor in stream
+67	1	1	15	1	; l wall at pool just before normal well pitch, this station directly under rope down from adulterers traverse line
+
+101	1.1	0	5	2	; phanger on R wall at start of traverse for well pitch
+102	0	1.2	6	10	; lp l wall
+103	0.4	0	5	10	; p hanger on r wall - the first phanger (nearest entrance) was stn 101, this is the third phanger (near to the only phanger on the l wall) and there is a final phanger on this wall, right over pool below pitch
+104	2	1	15	1.5	; base of well pitch - station from initial part of this survey - labelled 68 in notes but actually stn 104 (written at stn 4 in notes!)
+105	-	-	1.5	15	; the left of the two pitch head bolts after initial traverse
+106	-	-	1.5	15	; the right of the two pitch head bolts after initial traverse
+
+*end ropepitch

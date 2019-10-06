@@ -1,0 +1,45 @@
+; Locn:	Leck Fell
+; Cave:	Notts II
+; Daylight Aven series, part way along new to bitter end
+
+*begin DaylightAven2011-5
+
+*export 1
+
+*title "Upper Daylight Aven the Pretty Bit"
+*date 2011.11.28
+*team Insts Richard Bendall
+*team tape Richard Bendall
+*team Notes Dave Ramsay
+*instrument Compass and Clino - rr2
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+
+*calibrate declination +2.45	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.1994n 2.5124w  2011.11.28
+
+*data normal from to tape compass clino
+
+;from	to	tape	compass	clino	remarks
+
+2	1	3.30	063	+10
+2	3	2.14	194	+4
+3	4	3.25	137	-23
+4	5	3.04	148	-1
+5	6	3.12	117	-4
+6	7	4.60	149	+3
+
+*data passage station left right up down ignoreall
+
+1	0.0	1.2	3.5	7.0	;Equates to DaylightAven-2.3
+2	0.0	1.0	3.0	2.0	;final bolt to left
+3	0.1	0.7	2.0	1.0	;LH corner
+4	0.8	0.1	0.6	4.0	;RH Wall
+5	0.8	0.1	0.7	4.0	;RH Wall
+6	0.3	0.8	0.6	0.2	;LH Wall
+7	0.4	0.3	0.2	0.0	;Calcite blockage
+
+*end DaylightAven2011-5
+
+

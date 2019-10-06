@@ -1,0 +1,30 @@
+;Cave:  Ireby Fell - Glory Holes - Cripple Creek
+;Instruments: D.Ramsay, Book: N.Pacey, Tape: B.Ward
+;Date:  13/06/04
+;Instruments:   RRCPC Survey Kit 4
+
+*begin  GloryHoles4
+
+*export 001
+*export 007
+*export 064
+
+*calibrate compass  +5.00
+*calibrate clino    -0.50
+*calibrate tape     +8.96
+
+002 001 12.6    053 +7  ;Stn 1 on far wall beneath aven marked with triangle.
+002 003 15.1    249 +6  ;
+003 004 12.9    215 +63 ;Climb Up of 5 metres to squeeze
+004 005 11.0    188 +5  ;Stn 5 Top of squeeze
+005 006 11.1    163 +11 ;Stn 6 in chamber
+006 007 12.7    062 +39 ;Marked up slope in big rift
+006 008 14.6    144 +1  ;Start of muddy crawl back to ladder
+008 009 11.3    116 -9  ;
+009 010 11.9    188 -5  ;
+010 011 12.7    145 +6  ;Stn 11 middle bot in roof
+011 012 11.4    -   down    ;Top of short ladder pitch down
+012 064 9.8 075 0   ;Ties into stn64 of Ifgh3   
+
+
+*end GloryHoles4

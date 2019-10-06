@@ -1,0 +1,58 @@
+;Cave:	Kirk Pot - Dive data Sumps 1,2 & 3
+;Surveyors:	J.Cordingley/Adrian Hall
+;Date:	March/April/2012
+;Instruments:	JNC Instrument Aladin pro dive computer?
+
+
+*begin	KirkPot3
+*export 001_Start_dive_line
+*export 015_Belay_Pegleg_Junc
+*export 027_Sump3_diveline_shotline_belay
+
+*calibrate declination +2.42	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.1994n 2.5124w  2012.03.29
+
+*data diving from to length bearing  fromdepth todepth
+*flags duplicate
+
+001_Start_dive_line	002_Belay			4.5	034	0.4	0.0	;Start from beginning of dive line at bottom of Kirk Pot where dive lead stored.
+002_Belay		003_Belay			3.0	061	0.0	0.0	
+003_Belay		004_Belay			5.0	092	0.0	0.0	;Start of dive on 25 Mar 12. NB in higher water sump would start closer to 001.
+
+*flags not duplicate
+
+004_Belay		005_Belay			2.0	120	0.0	-0.1	;Note: dive computer doesn't register depth < 0.8 m	
+005_Belay		006_Belay			5.0	142	-0.1	-0.2	;Note: dive computer doesn't register depth < 0.8 m	
+006_Belay		007_Belay			4.0	180	-0.2	-0.2	;Note: dive computer doesn't register depth < 0.8 m	
+007_Belay		008_Belay			5.0	215	-0.2	-0.3	;Note: dive computer doesn't register depth < 0.8 m	
+008_Belay		009_Belay			6.0	170	-.03	-0.4	;Estimated depth	
+009_Belay		010_Belay			4.0	130	-0.4	-0.8	;Actual depth	
+010_Belay		011_Belay			3.0	070	-0.8	-1.1	;Actual depth	
+011_Belay		012_Belay			4.0	075	-1.1	-1.2	;Actual depth	
+012_Belay		013_Belay			1.0	090	-1.2	-1.5	;Actual depth	
+013_Belay		014_Belay			6.5	095	-1.5	-1.6	;Actual depth	
+014_Belay		015_Belay_Pegleg_Junc		3.0	120	-1.6	-1.9	;Actual depth	
+015_Belay_Pegleg_Junc	016_Belay			7.5	165	-1.9	-2.4	;Actual depth	
+016_Belay		017_Belay_End_JNC_line		6.0	180	-2.4	-2.0	;Actual depth	
+017_Belay_End_JNC_line	018_Belay			13.0	214	-2.0	-1.8	;Actual depth	
+018_Belay		019_End_Sump1_Bedding_start	3.0	270	-1.8	0.0	;End Sump 1	
+
+019_End_Sump1_Bedding_start	020_Bedding_end__Rift_start	3.0	250	0.0	1.0	;Above water bedding linking Sump 1 and high rift. Beginning of Kirk Pot 2.	
+020_Bedding_end__Rift_start	021_Rift_end_north	4.0	0	1.0	0.0	;Kirk Pot 2 rift "upstream" towards Kirk Pot 1. Aven up to 8 m high, brings in trickle of water, possible sump at limit of rift.
+020_Bedding_end__Rift_start	022_Rift_end_south	65.0	180	1.0	0.0	;Kirk Pot 2 rift "downstream" - main route. 	
+
+022_Rift_end_south	023_Sump2_start			3.0	180	0.0	0.0		
+
+023_Sump2_start		024_End_Sump2			15.0	188	0.0	-2.0	;Actual max depth of Sump 2. 	
+024_End_Sump2		025_End_Sump2_dive_line		8.0	188	-2.0	0.0			
+025_End_Sump2_dive_line	026_Sump3_pool_edge		25.0	180	0.0	1.0	;Kirk Pot 3. 15+ m high aven in roof reaching max height c. 20 m along leg from start i.e. 5 m from Sump 3 pool edge	
+026_Sump3_pool_edge	027_Sump3_diveline_shotline_belay	2.0	160	1.0	0.0	;estimated	
+026_Sump3_pool_edge	028_Sump3_pool_far_edge		6.0	180	0.0	0.0	;Main sump pool c. 6.0 m long in rift. JNC plumbed depth to c. 28 m (CHECK with JNC)	
+026_Sump3_pool_edge	029_Sump3_AMH_limit		3.0	180	0.0	0.0	;Depth at end leg 10.6 m below water, width 1.5 m	
+
+027_Sump3_diveline_shotline_belay plumbed		28.0	000	0.0	-28.0	;From station 027 there is a vertical leg down to -28 m which is the bottom of the shot line on the floor of Scott's Pool.Leg added RGB 13/04/12
+
+;last leg depth 10.6 but leg length only 3m!?? Ask Adrian.
+
+
+*end	KirkPot3

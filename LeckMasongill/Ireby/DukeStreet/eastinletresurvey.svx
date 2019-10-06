@@ -1,0 +1,57 @@
+; Locn:	Leck Fell
+; Cave:	Ireby Fell Cavern
+; From stations on ropepitch survey at concrete dam upstream along East inlet and up other inlet opposite
+
+*begin eastinletresurvey
+
+*export 44 10
+
+*title "East inlet and small inlet opposite"
+*date 2009.10.25
+*team Instruments Julian Todd
+*team Notes Becka Lawson
+*Instrument Becka's 30m tape and Becka's tandem comp & clino with backup Becka's Pony read backwards by Becka (Pony measurements after semicolon on each line)
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+; 44	1	7.95	229	-04	; Julian only on comp clino - this leg removed as duplicated in southeastinlet survex file from 23/05/10 - Becka
+; 1	2	4.90	180	0	; 084	+01 - this leg removed as duplicated in southeastinlet survex file from 23/05/10 - Becka
+44  3   2.40    084 +01 ; 273   -03 Becka fixing things up a week later 
+3	4	5.59	104	-04	; 292	+02
+4	5	2.71	105	+12	; 289	-12
+5	6	4.02	117	+05	; 299	-05
+6	7	2.53	075	+01	; 263	0
+7	8	3.21	103	-02	; 296	+01
+8	9	4.37	108	-01	; 295	+01
+9	10	2.18	115	+17	; 299	-17
+10	11	2.50	048	-10	; Becka pony reading only into too-tight side passage
+
+9	12	9.38	114	+01	; 294	-03
+12	13	5.88	093	-06	; 278	+03
+13	14	4.37	136	-01	; 314	-02
+14	15	4.00	200	-02	; Becka readings on pony only and distance estimated
+
+*data passage station left right up down ignoreall
+
+; ALL LR GIVEN COMING OUT OF CAVE (so in the direction most of the survey went, starting at Duke St 1 and coming out_ 
+
+44	1.4	0	0.4	0.6	station 44 from ropepitch Becka & Julian survey
+; 1	0.5	2.5	0.2	0.1	rock in stream - this station removed as duplicated in southeastinlet survex file from 23/05/10 - Becka
+; 2	0.5	2	0.2	0.1	rock l of stream  - this station removed as duplicated in southeastinlet survex file from 23/05/10 - Becka
+3	0.3	0.6	0.3	0.8	l wall, inlet
+4	0	0.6	0.7	0.3	l wall
+5	0.1	0.4	0.3	0.8	l wall
+6	0.5	0.1	0.1	1.2	r wall near ceiling
+7	0.2	0.5	0.2	1.3	l wall/ceiling by boulder in floor
+8	0.7	0.2	0.3	1.1	r wall
+9	0.7	0.2	1.1	0.6	r wall
+10	0.2	0.2	0	1.4	numbered at junction on ceiling
+11	0.2	0.2	0.4	0.2	too tight
+12	0.1	1.2	0.3	1.1	l wall
+13	0	1.1	0.3	0.2	l wall where low
+14	0.3	1	0.2	0.1	corner
+15	0.4	0.5	0.2	0.1	low but continues
+
+*end eastinletresurvey

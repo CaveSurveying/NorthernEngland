@@ -1,0 +1,33 @@
+*begin Large13
+*export 1 4 8
+
+*title "Actually Rift - from Rift end of Mousetrap towards larger passage"
+*date 2011.01.30
+*team Instruments Julian Todd
+*team Notes Neil Pacey
+*instrument Becka's Tandem as comp and clino and Becka's 30m tape read from *20cm* as end now fallen off!
+
+*calibrate tape 0.20	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+2	1	3.16	080	-22
+3	2	4.22	149	-12
+4	3	3.44	085	-55
+5	4	4.55	126	-04
+6	5	3.39	098	-01
+7	6	7.60	123	+04
+8	7	5.79	080	-07	; compass rather unclear
+
+*data passage station left right up down ignoreall
+
+1	-	-	-	-	Rift side of Mousetrap
+2	0.9	1.2	0.3	1.1	can't read down
+3	0.7	1.1	0.2	0.4	down unclear
+4	1	1.2	0.1	1
+5	1.2	0.6	0.1	0.5
+6	0.3	2	0.6	0.4
+7	1.6	1.5	0.6	0.3
+8	5	2	0.1	1.4
+
+*end Large13

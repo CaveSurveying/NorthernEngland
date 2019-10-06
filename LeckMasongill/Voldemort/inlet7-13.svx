@@ -1,0 +1,41 @@
+;Cave:	Notts II - oliver Lloyds Aven , Haywagon
+;Surveyors:	D.Ramsay/H.StLawrence/R.McDonald/R.Bendall
+;Date:	07/11/05 
+;Instruments:	New kit 2
+
+;*equate	Inlet7-13.103	Inlet7-11.006
+
+
+*begin	Inlet7-13
+*export 103 018
+
+
+
+001	002	03.90	319.0	-01.0	;stn1=end of right hand branch, surveying back from end
+002	003	04.00	333.0	-03.0
+003	004	04.65	036.0	00.0
+004	005	03.06	346.0	-00.5
+005	006	02.90	297.0	00.0
+006	007	03.57	328.0	+03.0
+007	008	04.07	357.0	+03.5	;stn8=small rock on calcite flow, passage seen beyond
+008	009	24.30	317.0	-01.0
+009	010	07.30	317.5	-01.0	;stn10 radio location point?
+010	010a	04.80	242.0	+41.0	;Slime Inlet
+010	011	08.54	344.0	+05.0
+011	012	17.07	064.0	-06.0	;stn12=main junction/radio location point
+012	012a	06.00	153.0	+15.0	;into left-hand branch
+012a	012b	06.82	113.0	+03.0
+012b	012c	09.30	062.0	00.0
+012c	012d	03.95	131.0	+02.0
+012d	012e	03.70	109.0	+10.0	;T-junc,meets cross rift on bearing 070/250?
+012	013	08.45	321.0	-02.0	;continuing back down main passage
+013	014	05.47	281.0	+20.0
+014	015	12.72	331.0	+02.0
+015	016	05.65	326.0	00.0
+016	017	03.58	030.0	-13.0
+017	018	03.46	317.0	+17.0	;stn018 Ill Bill Aven = RLP LF005/LF021
+018	019	03.88	319.0	+05.0	
+019	020	02.80	010.0	-06.0
+020	103	05.25	082.0	-40.0	;stn103=Y-hang from  previous survey above	
+
+*end	Inlet7-13

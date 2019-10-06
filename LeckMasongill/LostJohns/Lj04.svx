@@ -1,0 +1,19 @@
+
+*begin	Lj04
+*export 001
+*export 007
+
+;Cave:	Lost Johns - Bobs Pit to Dome Jnc.
+;Date:	13/07/97
+;Surveyors:	Lee Cartledge/tim eastwood
+;Instruments:	CSG no. 1 set
+*calibrate compass	+5.17
+
+001	002	04.95	015.0	 00.0	;001 is centre of flake at bobs pit
+002	003	03.90	317.0	+13.0
+003	004	02.60	003.0	+03.0
+004	005	04.90	316.0	+02.0
+005	006	09.10	319.0	+10.0
+006	007	09.70	321.0	+02.0	;007 is tag at dome jnc.
+
+*end	Lj04

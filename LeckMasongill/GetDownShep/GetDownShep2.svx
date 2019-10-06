@@ -1,0 +1,60 @@
+*BEGIN getdownshep2
+
+;Di pda & Si distoX
+;disto-x calibration checked 
+*DATE 2013.01.04
+
+
+
+*export getdownshep2_1.89
+
+
+
+*BEGIN getdownshep2_1
+*export 89 92
+89	90	 2.40	163.84	-22.13
+90	91	 2.73	148.24	 18.14
+91	92	 4.96	140.22	-43.06
+92	93	 4.73	120.89	 20.65
+93	94	 1.24	 29.62	-49.31	
+94	95	 1.44	173.33	-47.08
+95	96	 5.63	140.19	  3.21
+
+*data passage station left right up down
+89	0.0	0.45	0.0	0.0	; Station marked 89 in tippex
+90	0.967	0.973	0.459	0.526	
+91	1.238	0.911	5.824	2.01	
+92	0.269	0.502	2.116	2.155	
+93	0.56	0.455	4.024	2.157	;calcite wall on RHS
+94	3.25	4.638	9.402	0.396	
+95	0.253	0.682	0.757	0.544	
+96	1.175	0.834	0.401	0.46	; tippex mark on back wall
+*END getdownshep2_1
+
+*EQUATE getdownshep2_2.0 getdownshep2_1.92
+
+*BEGIN getdownshep2_2
+*export 0
+0	1	 4.00	300.13	-34.53
+1	2	 6.31	332.40	-29.67	
+2	3	 3.17	316.50	-34.86
+3	4	 5.79	  7.21	 10.42
+4	5	 2.16	346.06	 12.42
+5	6	 2.40	333.46	-33.48
+6	7	 3.30	339.01	  5.97
+7	8	 1.46	341.19	  5.10
+
+*data passage station left right up down
+0	0.421	0.287	1.708	2.047	
+1	1.101	0.553	1.712	0.817	
+2	1.278	4.805	1.713	1.448	;large boulder in centre of chamber 
+3	4.05	0.748	0.483	3.953	;left wall before traversing boulder to pitch
+4	0.396	0.798	0.0	0.631	;Center of roof at top of slope in chamber before crawl
+5	0.306	0.621	0.595	1.07	
+6	0.551	0.0	0.695	0.0	
+7	0.0	0.225	0.265	0.257	
+8	0.205	0.501	0.632	0.394	;Back wall at end of the dig
+
+*END getdownshep2_2
+
+*END getdownshep2

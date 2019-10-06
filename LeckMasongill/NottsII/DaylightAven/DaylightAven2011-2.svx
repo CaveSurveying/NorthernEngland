@@ -1,0 +1,70 @@
+; Locn:	Leck Fell
+; Cave:	Notts II
+; Daylight Aven series, from current exploration limit
+
+*begin DaylightAven2011-2
+
+*export 1 3 4 20
+
+*title "Upper Daylight Aven down to crawl"
+*date 2011.02.26
+*team Insts Andy Chapman
+*team Notes Patrick Warren
+*instrument Compass and Clino - Becka's Tandem; Patrick's Tape - 20m read from 0cm
+; Oops, maybe all clino readings are percent not degrees
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+
+*calibrate declination +2.52	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.1994n 2.5124w  2011.02.26
+
+*data normal from to tape compass clino
+*units clino percent
+
+;from	to	tape	compass	clino	remarks
+1	2	4.88	248	-100
+2	3	4.03	222	-54
+3	4	11.54	-	down
+5	4	1.65	010	+10
+5	6	2.28	-	down
+6	7	1.03	306	-30
+7	8	3.13	274	-52
+8	9	1.86	168	-76
+9	10	2.64	128	-38
+10	11	1.98	160	-10
+11	12	0.75	-	up
+12	13	2.56	191	+10
+13	14	2.27	143	+12
+14	15	1.63	121	0
+15	16	1.43	180	-54
+16	17	3.00	110	-15
+17	18	2.45	125	-25
+18	19	2.12	221	-2
+19	20	0.92	231	-59
+
+*data passage station left right up down ignoreall
+1	0.3	0.3	-	-	;marked on wall at end of traverse, through ascending squeeze
+2	1.0	0	2.5	1.3	;traverse line anchor, numbered on wall
+3	2.5	0	3	12	
+4	2	1	14	1
+5	2.5	4.5	-	-
+6	0	1.5	1	1.5
+7	-	-	-	-
+8	0.5	0	0	2
+9	0	0.4	0.5	1
+10	0.2	0.2	0	0.4
+11	0.4	0.4	1	0.2
+12	0.4	0.4	0	1.2
+13	0.8	0	1	1
+14	0.6	0	1	2	;marked and labelled
+15	0.5	0	1	2
+16	0.5	0	2	1
+17	0.1	0.3	-	1
+18	0	0.4	0.5	1
+19	0.4	0.1	1	0.5
+20	0.5	0.1	1.1	0.2
+
+*end DaylightAven2011-2
+
+

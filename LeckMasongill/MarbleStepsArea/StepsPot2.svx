@@ -1,0 +1,35 @@
+;Cave:	Marble Steps Area
+;Surveyors:	Dave Ramsay/Richard Bendall
+;Date:	07/07/08
+;Instruments:	Red Rose Sunto Compass & Clino kit 2, tape	
+
+*begin StepsPot2
+
+*export 001 008
+*calibrate declination +3.17	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.188n 2.492w 2011.07.07
+;*calibrate compass
+;*fix 001 67992 77068 382
+
+;surface survey
+
+001	002	1.94	070	-7	;001 marked on arete
+002	003	4.29	022	+54	;up through slimb/squeeze
+003	004	2.00	044	-22	
+004	005	2.26	109	+21
+005	006	2.06	066	+11
+006	007	2.09	115	+9
+007	008	1.61	065	+7	;008 is stepspot1.001
+
+*data passage station left right up down ignoreall;added 09/05/11RGB
+
+001	1.2	0.0	4.0	1.2
+002	0.8	0.1	1.0	1.6
+003	0.6	0.0	1.4	0.7
+004	0.5	0.1	0.6	0.8
+005	0.1	0.4	0.2	0.5
+006	0.1	0.3	0.4	0.7
+007	0.2	0.2	0.1	0.3
+008	0.4	0.2	0.0	1.0
+
+*end StepsPot2

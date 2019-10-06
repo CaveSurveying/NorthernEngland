@@ -1,0 +1,31 @@
+; ROUGH POT
+
+*begin RoughPot_1 ; surveyed Feb 2002 sometime; PH, AW, KL
+
+*export 15
+*export 001 ;lost Johns Entrance Tag
+
+;Renamed and edited RGB 31/03/09
+*data normal from to tape compass clino
+
+*entrance	3
+
+*flags surface
+ 2   001  17.4   288  -14 ; back
+ 3   2  14.5   305   +2 ; back
+
+*flags not surface
+ 4   3   7.8   278  +53 ; back
+ 5   4   8.5   342  +42 ; back
+ 5   6   1.66  266  -12
+ 6   7   4.25  310   -5
+ 7   8   4.95  329    0
+ 8   9   1.25  313  +10
+ 9  10   1.8   349   +2
+10  11   2.3   338   +8
+11  12   2.0    49   -6
+12  13   1.19  355   -1
+13  14   4.8   328  -74
+14  15   2.67  334  -26
+*end RoughPot_1
+

@@ -1,0 +1,58 @@
+*begin LeftHand1
+
+*export 1 5 15
+
+; Cave:	Notts
+
+*title "Pitch into Three Ways Chamber and start of Left Hand Route towards Twilight Route"
+*date 2012.02.12
+*team Insts Becka Lawson
+*team Notes Ruth McDonald then Dave Ramsay
+*team Tape Sally White
+*instrument Tape is ex-RRCPC Disto Compass and Clino - Becka's tandem
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+*calibrate declination +2.43	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.1994n 2.5124w  2012.02.12
+*data normal from to tape compass clino
+
+;from	to	tape	compass	clino	remarks
+
+2	1	1.92	107	-15
+2	3	8.01	-	down
+4	3	2.60	038	-24
+4	5	12.14	343	+09
+6	4	4.0	075	+03	; tape reading only given as 4.0 - may have been rounded to nearest 10cm
+7	6	6.28	110	+02
+8	7	2.24	207	+07
+9	8	2.95	094	+38
+10	9	2.20	039	+13
+10	11	2.50	194	+06	
+
+12	11	3.06	089	+34	; hmm, based on notes and my memory this is 3.06 distance but notes look like 13.06
+12	13	2.14	309	+34
+13	14	2.09	194	+34
+15	14	4.11	138	-24
+
+*data passage station left right up down ignoreall
+
+1	0	0.5	5.04	2.46	left pitch head bolt
+2	0.5	0	4.7	8	right pitch head bolt; no down in notes but we took a plumb of 8m from stn 2 to floor of Three Ways Chamber so Becka given down as 8m
+3	1	2.5	9	0	floor of Three Ways Chamber
+4	0	0.6	2.5	0.9	left wall at start of Left Hand route
+5	4.7	0.6	5.8	0.8	tagged bolt at floor level at far side of Three Ways Chamber
+6	-	0.5	2.7	1.2	left might be p (passage) or 0
+7	0	0.5	2.5	1.7
+8	0.5	0	2.9	1.6
+9	0.5	0	4.4	1.5
+10	0	0.5	4	0.5
+11	0	0.8	5	3	first bolt on Left Hand route for start of traverse
+
+12	0.0	0.5	5.5	1.5	second bolt
+13	0.5	0.0	5.5	4.0	first bolt on Twilight route
+14	0.0	0.7	4.4	5.3	second bolt on Twilight
+15	0.0	0.6	0.2	14.0	left hand bolt on Y-hang for first (longish - p14?) pitch on Twilight 
+
+*end LeftHand1
+
+

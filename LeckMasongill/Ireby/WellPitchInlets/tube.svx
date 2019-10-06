@@ -1,0 +1,89 @@
+; Locn:	Leck Fell
+; Cave:	Ireby Fell Cavern
+; Adulterers from start of Tube to current limit at Cold Comfort
+
+*begin tube
+
+*export 2x 23 36 37
+
+*title "Tube and Cold COmfort"
+*date 2009.12.28
+*team Insts Becka Lawson
+*team Notes Neil Pacey
+*instrument Compass and Clino - Neil's Disto-X
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+2x	8	3.23	128	-05
+8	9	0.32	306	+44
+9	10	9.33	127	0
+10	11	0.36	190	-34.5
+11	12	4.23	125	+08
+12	13	0.52	168	-78
+13	14	4.32	123	+03
+15	14	3.93	323.5	+2.7
+16	15	2.45	293.5	-12.2
+16	17	0.50	219	-11.5
+17	18	2.50	122	-0.5
+18	19	2.99	125	+08
+19	20	1.60	162	+42.5
+20	21	1.67	116	+10
+21	22	1.95	194	+03
+23	22	1.50	288	+07
+23	24	4.00	228	-01
+23	25	1.07	234	-04
+25	26	2.28	145	+10	; CHECK COMPASS, LAST number	
+26	27	1.58	142	-05	; no sketch drawn in cave from this leg onwards and at least two back bearings taken - some confusion over which two!
+27	28	1.14	148	+03
+29	28	1.71	359	-02	; written as 28 to 29 in original notes
+29	30	1.18	216	-02	; written as 29 to 30 in original notes
+30	31	1.07	171	+11.5	; written as 30 to 31 in original notes
+31	32	2.01	212	-01.5	; written as 31 to 32 in original notes
+33	32	1.39	078	+06	; written as 32 to 33 in original notes
+33	34	0.65	155	+10.5
+33	35	1.86	167	+04.5
+35	36	0.35	070	+14
+35	37	2.89	245	+03
+37	38	1.80	189	0
+
+*data passage station left right up down
+
+2x	0.7	0.4	0.5	1	; numbered station 2 of Neil, Ian and Liz's survey of Adulterers
+8	1	0	1	1	; numbered at start of Tube
+9	1	0	1	1	; start Tube
+10	0.1	0.25	0.4	0.4	; in Tube
+11	0.15	0.15	0.4	0.2	; in Tube
+12	-	-	-	-	; in Tube
+13	0.3	0	0.6	0.3	; before calcite squeeze
+14	0	0.3	0.2	0.4	; after calcite squeeze
+15	0.3	0	1.3	0.2	; in Tube
+16	0.5	0.4	1.5	0.6	; chamber where can turn - might be numbered - end of Tube
+17	1.1	0.1	1.6	0.5	; after squeeze beyond chamber
+18	0	1	1.8	0.4	 
+19	0	0.3	2	0.5	
+20	1.2	0.2	0.4	1.5
+21	0.1	1.1	0.4	1.7	
+22	0.8	0	0.1	1.6
+23	0.1	1.3	0.2	1.6	; numbered 23 at Patio and junction
+24	0.3	0.6	0.1	0.1	; leg into too-tight inlet
+25	1.1	0.1	0.3	1.2	; start of Cold Comfort
+26	0.3	1.5	0.1	0.3	
+27	0.5	0.5	0.2	0.2	
+28	0.1	0.3	0.2	0.1
+29	0.1	0.4	0.2	0.1
+30	0.1	0.4	0.3	0.1
+31	0.4	0.1	0.1	0.3
+32	0.1	0.4	0.3	0.1
+33	0.5	0.1	0.3	0.1
+34	0.1	0.5	0.2	0.2	; top of only "boulder" in main passage
+35	0.1	0.4	0.3	0.2
+36	0	0.6	0.2	0.3	; tiny stal on left wall with tippex and number
+37	0.2	0.3	0	0.5	; numbered on roof
+38	-	-	-	-	; calcite where snappered last trip a week ago
+
+*end tube
+
+
+
+

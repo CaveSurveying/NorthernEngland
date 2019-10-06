@@ -1,0 +1,47 @@
+*begin inlet7-5
+*export 020
+*export	001
+*data normal from to tape compass clino ignoreall
+*units length metres
+*calibrate tape 0.0
+*units compass degrees
+*calibrate compass 0.0
+*units clino degrees
+*calibrate clino 0.0
+
+;Cave:	Notts II - Inlet7
+;Description:	Pleasures of the Palm
+;Date:	28/11/2004
+;Surveyors:	Instruments: Tony Rooke; Notes+Tape: Dave Ramsay
+;Instruments: RRCPC Kit 4 (Tape 3m Short)
+
+
+*calibrate compass	+5.00
+*calibrate clino	-0.50
+*calibrate tape		+3.00
+
+;From	To	Tape	Compass	Clino		L	R	U	D	Comments
+
+001	002	4.95	049	-12.0		;0.3	0.1	0.3	1.0	Stn 1 = Stn 6 05/11/2004
+002	003	5.20	137	-1.0		;0.0	0.4	0.3	1.4	Stn 2
+003	004	6.06	-	DOWN		;0.5	0.0	0.3	 -	Stn 3
+004	005	4.30	021	+23.0		;0.5	1.0	 -	0.1	Stn 4 bottom of pit on rock
+005	006	4.30	089	+4.0		;0.3	0.3	3.0	0.5	Stn 5 small proj at ent to pass
+006	007	6.10	141	-9.0		;0.4	0.4	0.5	1.7	Stn 6
+007	008	4.95	054	+15.0		;1.0	1.0	2.0	0.2	Stn 7
+008	009	5.55	082	-31.0		;1.5	1.0	0.0	0.5	Stn 8 rock projection
+009	010	7.30	012	-1.0		;0.5	0.2	0.2	0.2	Stn 9
+010	011	7.65	353	-32.0		;2.0	1.5	0.0	1.9	Stn 10 above blind pit in floor
+011	012	4.65	-	DOWN		;0.4	0.4	0.4	-	Stn 11
+013	012	6.25	142	-23.0		;0.3	0.2	0.4	0.2	Stn 12
+013	014	7.95	002	-8.0		;0.0	0.6	5.0	1.8	Stn 13
+014	015	9.25	074	-9.0		;0.0	0.6	1.2	1.0	Stn 14
+015	016	4.70	104	-34.0		;0.3	0.2	1.0	0.4	Stn 15
+016	017	4.40	069	-18.0		;0.2	0.3	1.4	1.0	Stn 16
+017	018	4.60	101	-21.0		;0.2	0.3	1.0	0.4	Stn 17
+018	019	4.25	-	DOWN		;0.3	0.3	1.5	 -	Stn 18 at 'Y' hang
+019	020	5.70	356	-1.0		;0.8	0.2	-	1.7	Stn 19
+						;0.5	0.0	2.0	1.0	Stn 20										
+
+
+*end inlet7-5

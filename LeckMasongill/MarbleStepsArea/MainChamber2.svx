@@ -1,0 +1,52 @@
+;Cave:	Marble Steps Pot
+;Surveyors:	Dave Ramsay notes / Richard Bendall instruments & tape
+;Date:	21/07/11/11
+;Instruments:	Becka's Suunto Compass & Clino  
+
+*begin	MainChamber2
+*export 001	007	008
+
+*calibrate declination +2.49	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.188n 2.492w 2011.05.23 
+;*calibrate compass
+
+
+;*calibrate tape 	; +ve if tape was too short, -ve if too long
+
+;stn to stn	tape	comp	clino
+*flags duplicate ; (Marble Steps) lower main chamber tie in
+001	002	4.13	074	+20
+*flags not duplicate
+002	003	7.35	-	Up
+003	004	3.69	352	+8
+004	005	2.80	-	Up
+006	005	3.03	189	-1
+006	007	5.72	289	+38
+007	008	4.35	358	+9
+*flags duplicate ; (Marble Steps) duplicates gully route in Mainchamber1.svx
+007	009	10.05	013	+40
+*flags not duplicate
+009	010	2.39	294	-24.5
+010	011	8.70	320	-47
+011	012	4.32	315	-37
+012	013	2.94	315	-4
+013	014	2.30	255	0
+
+
+*data passage station left right up down ignoreall
+001	6.0	7.0	6.0	0.9	;Stn  Boulder centre of Lower Main Chamber =Stn Sidewinder1.010 
+002	3.0	0.0	7.0	1.4	;tag LMC
+003	0.0	4.0	2.0	8.8	;end bolt of traverse
+004	0.8	0.7	3.5	1.0	;Jambed boulder
+005	0.0	4.0	0.0	3.8	;Bolt before small drop
+006	2.3	2.3	12.0	1.7	;Block in centre of UMC
+007	0.0	5.5	1.8	1.7	;first bolt  =stn Mainchamber1.005
+008	2.3	2.3	12.0	1.1	;Tag foot of gulley =Stn Mainchamber1.006
+009	1.4	0.0	14.0	1.6	;Wall of gulley
+010	0.05	0.2	0.5	1.4	;roof of passage
+011	0.4	0.2	1.2	0.6	;centre of passage above rocking boilder
+012	0.2	0.2	0.1	0.4	;Mid passage
+013	0.4	0.1	0.1	0.5	;at bend
+014	0.2	0.3	0.1	0.2	;continues too tight, cuts down
+
+*end	MainChamber2

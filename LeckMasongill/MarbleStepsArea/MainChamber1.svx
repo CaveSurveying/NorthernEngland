@@ -1,0 +1,108 @@
+;Cave:	Marble Steps Pot
+;Surveyors:	Dave Ramsay tape / Richard Bendall instruments / Becka Lawson notes
+;Date:	23/05/11
+;Instruments:	Becka's Suunto Compass & Clino  30m tape with 20cm end off	
+
+*begin	MainChamber1
+*export 026x 005 006 011 026 029 036 042 
+
+*calibrate declination +2.49	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.188n 2.492w 2011.05.23 
+;*calibrate compass
+
+
+*calibrate tape 0.20	; +ve if tape was too short, -ve if too long
+
+;stn to stn	tape	comp	clino
+
+026x	001	3.07	193	-46
+001	002	11.29	222	-61
+002	003	8.26	212	-64
+003	004	9.07	218	-57
+004	005	7.54	197	-44
+005	006	4.54	000	+08
+006	007	3.77	308	+05
+007	008	8.75	311	-37
+008	009	2.60	321	-21
+009	010	3.00	290	-04
+011	010	15.30	144	-01
+009	012	5.54	197	-17
+012	013	3.57	-	up
+013	014	2.26	228	+05
+014	015	3.98	143	-24
+013	016	1.69	091	+05
+016	017	6.67	132	-10
+017	018	5.18	124	+03
+017	019	1.85	129	+05
+019	020	4.84	-	down
+020	021	1.29	189	-42
+021	022	4.74	151	-01
+022	023	4.22	291	+04
+023	024	4.30	319	+17
+024	025	6.64	325	+02
+025	012	2.05	045	+16
+022	026	9.00	171	-44
+026	027	2.48	285	+01
+027	028	5.48	350	+07
+029	026	6.31	265	-07	; written in notes as 026 to 029. Corrected RGB 25/05/11
+030	029	9.22	017	+13
+030	031	5.06	177	-21
+031	032	4.02	209	+04
+032	033	2.24	181	+02
+033	034	3.57	257	-26
+034	035	2.01	-	down
+035	036	2.52	088	-21
+035	037	6.39	265	+01
+037	038	13.48	312	-17
+038	039	9.31	304	-04
+039	040	8.89	327	-04
+040	041	6.12	304	+06
+041	042	22.90	315	-04
+
+*data passage station left right up down ignoreall
+
+026x	0.0	6.5	2.5	1.6	;P bolt
+001	1.5	1.0	4.0	0.0	;above rebelay
+002	0.0	3.0	5.0	8.0	;by rebelay
+003	1.5	0.0	11.0	3.0	;by rebelay
+004	0.0	2.0	12.0	3.5	;by log
+005	6.0	0.0	12.0	1.7	;P hanger marked = 5
+006	1.5	2.0	12.0	1.1	;Yellow tag
+007	0.0	1.0	5.0	1.6
+008	3.0	0.0	6.0	1.7
+009	2.6	0.0	6.0	1.2	;Yellow tag = 9
+010	1.0	0.5	2.0	1.6
+011	1.6	1.0	6.0	1.5	;Marked on flake
+012	0.0	0.3	3.0	1.4	;side of chamber
+013	0.6	0.6	0.1	3.0	;Top of p hanger
+014	1.0	0.0	2.0	1.5
+015	0.7	0.3	3.0	4.0	;above lower passage
+016	1.0	0.8	0.1	1.6	;edge of chamber
+017	1.4	0.5	0.5	2.5
+018	0.5	0.3	0.3	0.0	;2m further then boulder choke
+019	2.0	0.0	0.2	5.0	;top of p hanger
+020	0.4	0.5	5.0	0.4
+021	0.2	0.6	0.4	0.3
+022	1.0	1.4	1.0	1.6	;station numbered
+023	1.0	0.0	0.3	0.4
+024	0.0	0.6	6.0	1.5	; numbered by small aven
+025	0.3	1.5	1.0	1.2
+026	0.0	0.6	0.0	1.2	;small passage
+027	0.1	0.6	1.3	0.5	;bedding
+028	1.0	0.0	2.0	0.0	;along bedding
+029	1.0	6.0	8.0	1.0	;by waterfall in lower main chamber
+030	1.8	1.3	6.0	2.5	; top of big block before climb down
+031	1.4	0.0	9.0	0.5
+032	1.0	0.0	9.0	1.1
+033	0.0	0.5	9.0	1.2
+034	1.0	1.8	11.0	3.6	;Top of climb down
+035	0.0	0.6	13.0	1.5
+036	0.5	0.0	2.2	1.5	;numbered RH spit for hidden pitch
+037	0.0	3.0	13.0	1.6
+038	1.2	0.3	1.5	0.7	
+039	0.5	2.0	1.7	0.5
+040	1.0	0.3	0.7	0.5
+041	0.4	0.5	1.7	1.5	; numbered
+042	0.0	1.8	2.0	1.2	;yellow tag at junction. Poly Passage above, to Intestines to left
+
+*end	MainChamber1

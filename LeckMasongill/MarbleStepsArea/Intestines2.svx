@@ -1,0 +1,151 @@
+;Cave:	Marble Steps Pot - all lower sections - 90 foot route and the Intestines to the sump
+;Surveyors:	Becka Lawson notes / Dinny Davies instruments
+;Date:	04/01/2015
+;Instruments:	Becka's old Distox which was calibrated a few days ago	
+
+*begin	Intestines2
+*export 43x 36x
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+;stn to stn	tape	comp	clino
+
+1	43x	0.83	034.5	+18.5
+1	2	1.42	176	+02
+2	3	4.76	202	-74
+3	4	1.57	349	+25
+4	5	3.42	328	+02.5
+3	6	3.51	147.5	-17
+6	7	0.86	234	-26
+7	8	3.27	076	-06
+8	9	0.59	348	-01
+9	10	2.00	066	-16
+10	11	6.67	134	-87
+10	12	0.90	207.5	+34
+11	13	0.70	100	+02
+13	14	2.73	349	+14
+14	15	2.61	335	+13
+15	16	1.47	137	+13
+15	17	6.87	004	-74
+18	17	2.29	140	-45
+18	19	7.16	344.5	-20.5
+19	20	1.82	349	-02.5
+20	21	11.17	087	-84
+
+21	22	1.60	188	-06
+22	23	6.96	262	-79	; leg down first hole
+22	24	4.70	116	-06
+24	25	6.16	230	-79	; leg down third hold
+24	26	1.27	020.5	+07
+26	27	1.81	078	-10
+27	28	0.96	130	-27
+28	29	2.89	067	-22
+29	30	3.38	153	-34
+30	31	3.95	149	-15
+31	32	2.44	150	-18
+32	33	5.48	313	+03
+33	34	6.34	314	-03
+34	25	0.72	205	-48	
+34	35	1.82	301	0
+35	23	3.52	312	-12	
+23	36	4.98	309	-07
+36	37	2.58	336	-04
+37	38	5.63	338	-29
+
+13	39	3.59	167	-50
+39	40	8.05	170	-22
+40	41	9.00	065	+82
+40	42	2.93	036	-08
+42	43	3.07	056.5	-05.5
+43	44	3.69	049.5	-03.5
+44	45	2.32	151.5	+01
+45	46	1.87	061	0
+46	47	1.03	142	-01
+47	48	4.60	071	+03.5
+48	49	1.29	031	-07.5
+49	50	3.26	096	-05
+50	51	0.87	301	-18
+50	52	2.10	046	-45
+52	53	11.87	358	-77
+53	54	2.15	252	-40
+54	55	7.89	307	-08
+55	56	2.80	327	-10
+56	32	3.61	301	-10
+54	57	3.80	114	0
+57	58	10.71	117	-06
+
+40	59	1.05	295	-35
+59	60	4.81	236	+04
+
+36x	61	2.72	042	-34
+61	18	26.01	153	-87
+
+*data passage station left right up down ignoreall
+
+43x	-	-	-	-	old numbered station from Intestines1 survey (Becka, Olaf, Tonya)
+1	0.5	0	0.2	0.3	r wall
+2	0.3	0.4	0.3	4	pitch wall
+3	0.4	0.2	5	0.4	r wall
+4	0.25	0	4	1	r wall, tight fissure
+5	0.1	0.1	1.5	0.3	end of fissure, too tight probably
+6	0.2	0.3	1.2	0.9	l wall
+7	1	0	0.2	0.5	r wall at corner
+8	0.5	0	0.2	0.6	r wall at corner
+9	0	0.4	0.2	0.5	l wall 10cm below red Elliot bolt
+10	0	1	2.5	9	about 0.5m below the bolt
+11	0	3	9	3	l wall for window to 90 foot pitch
+12	1	0	2.5	8	r hand p hanger for pitch
+13	1	0	1.5	4	r side of window
+14	0.4	0	0.4	4	r side of window
+15	0	0.6	7	5	l wall at edge of final drop for p90
+16	1.5	0	7	5	p hanger for window, numbered
+
+17	1	0	22	0	stone on chamber floor, left not clear
+18	1	2	20	2	middle of chamber, on rock tip
+19	0	1.2	3	2	l wall before pitch
+20	0	1	3	11	(can't read first word, looks like "level") just before L phanger
+21	0.5	1.5	14	0
+22	0.5	0	5	7	above 1st hole, phanger is about 1.3m above station
+23	0.3	0.5	7	0.2	tip of boulder at base of pitch down first hole
+24	1	0	0.7	6	above 3rd hole
+25	0.2	1	7	0	bottom of 3rd hole
+26	0	0.5	0.7	1.2	l wall of crawl
+27	0	0.5	0.3	1.2	l wall of crawl
+28	0.5	0	0.7	0.9	r wall of crawl
+29	0	0.5	1	1	l wall of crawl
+30	0.6	0	0.5	0.7	r wall of crawl
+31	0	0.4	1.1	0.3	l wall of crawl
+32	0.1	0.3	1.2	0.1	bulls eye mark in flake at stream level directly opposite where crawl enters streamway and opposite a large thread (which is at end of crawl)
+33	0	0.3	0.3	0.4	l wall downstream
+34	0.5	0	7	0.6	r wall downstream
+35	0	0.2	0.3	0.6	l wall
+36	0.1	0.7	1.7	0.5	l wall
+37	0	1	1	3	dive line hanger on l wall just before sump
+38	0.2	0.2	1	0	end of sump pool
+
+39	0	0.6	6	1	l wall at base of pitch, top of steps
+40	2.5	0	7	1.5	r wall under aven
+41	0.2	0.2	0	9	top of inlet waterfall (disto shot only)
+42	0.2	0.3	0.2	1.1	l wall at start of passage
+43	0.1	0.3	0.2	1.1	r wall passage
+44	0	0.4	0.3	0.9	l wall
+45	0	0.5	0.3	1	r wall
+46	0	0.3	0.4	1.1	l wall
+47	0.3	0	0.4	1.2	r wall
+48	0.4	0	0.2	1.9	r wall
+49	0	0.3	0.3	1.8	l wall
+50	0.3	0	0.5	1.9	r wall after phanger backup
+51	0	0.5	1.2	1.6	backup phanger
+52	0.5	0	2.5	13	r wall below rebelay
+53	3	0	14	1.4	base of pitch
+54	-	-	-	-
+55	0	0.3	0.5	0.8	l wall of passage
+
+56	0.3	0	0.3	0.5	r wall of passage
+57	0	0.5	1.5	1	end of chamber, l wall at start of dig
+58	-	-	-	-	shot into dig
+
+36x	-	-	-	-	old numbered station from Intestines1 survey (Becka, Olaf, Tonya) at top of 90 foot pitch
+61	0	1	2	30	l wall about 1.5m below the furthest phanger for the 90 foot pitch head hang
+
+*end Intestines2

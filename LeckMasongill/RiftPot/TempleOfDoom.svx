@@ -1,0 +1,53 @@
+; just Temple of Doom files
+
+*begin TempleOfDoom
+
+*export riftpottod7.208 riftpottod7.204
+*export RiftPotTOD1.7 ; rift-ireby connection
+;*export riftpottodLowDoukConnection.1.19 ; Rift-Low Douk Connection
+*export Rift-LowDoukConnection
+*export SoutheastInletConnection
+
+*include riftpottod1
+*include riftpottod2
+*include riftpottod3
+*include riftpottod4
+*include riftpottod6
+*include riftpottod7
+*include riftpottod8
+*include riftpottod9
+*include riftpottod10
+*include newriftdigtolowdouk
+*include DigOffToDAtStation164
+*include ChisholmTrailWestAndy
+*include ChisholmTrailWestDave
+*include riftpottodLowDoukConnection
+*include CoatesPassage3
+*include CoatesSecondhandstreamway
+
+*equate riftpottodLowDoukConnection.1.19 Rift-LowDoukConnection ; alternative name
+*equate RiftPotTOD1.7 SoutheastInletConnection ; alternative name
+
+*equate RiftPotTOD1.72 RiftPotTOD2.72
+*equate RiftPotTOD1.67 RiftPotTOD3.z67
+*equate RiftPotTOD2.77 RiftPotTOD4.x77
+*equate RiftPotTOD2.102 RiftPotTOD6.x102
+*equate RiftPotTOD2.149 RiftPotTOD7.149
+*equate RiftPotTOD7.159 NewRiftDigToLowDouk.2
+*equate RiftPotTOD8.41x RiftPotTOD6.41
+*equate RiftPotTOD9.99x RiftPotTOD2.99
+*equate RiftPotTOD7.195 RiftPotTOD10.195x
+; *equate riftpotKCCextensionsleft.195 riftpottod7.195 ; superceded by RiftPotTOD10 survey
+*equate DigOffToDAtStation164.164x RiftPotTOD7.164
+*equate ChisholmTrailWestAndy.175x RiftPotTOD7.175
+*equate ChisholmTrailWestAndy.5 ChisholmTrailWestDave.10
+*equate riftpottodLowDoukConnection.1.0 RiftPotTOD7.153
+
+*equate CoatesPassage3.204x riftpottod7.204
+*equate CoatesPassage3.11 CoatesSecondhandstreamway.11
+
+*end TempleOfDoom
+
+;*include riftpottod5	; superceded by tod9
+;*equate RiftPotTOD2.99 RiftPotTOD5.x99 ; superceded by tod9
+; *include riftpotKCCextensionsleft ; superceded by RiftPotTOD10 survey

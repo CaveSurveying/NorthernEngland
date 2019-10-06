@@ -1,0 +1,22 @@
+
+*begin	Gvl4
+*export 001
+
+;Cave:	Gavel Pot-Top of Pitch 2 to sump
+;Surveyors:	`Ray Duffy/A.Hare
+;Date:	03/04/99
+;Instruments:	PAG
+
+*calibrate compass	+4.50
+
+001	002	01.60	308.0	-17.0	;st001=tag st034 on Gvl2 survey
+002	003	03.65	216.0	+17.0
+003	004	26.80	 -	DOWN
+004	005	05.65	170.0	+21.0
+005	006	11.30	144.0	-14.0
+006	007	03.90	135.0	+19.0
+007	008	03.35	137.0	+05.0
+008	009	17.35	 -	DOWN
+009	010	02.50	074.0	+35.0	;st010=knot on thread of diver's line
+
+*end	Gvl4

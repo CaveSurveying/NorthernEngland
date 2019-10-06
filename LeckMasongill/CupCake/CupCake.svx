@@ -1,0 +1,69 @@
+;cave Notts II
+;Title: Notts II - Count Lazlo Stroganoff's Inlet
+
+*begin CupCake
+
+;*export LazloStrog1.052
+*export TheCupcake.008
+*export LazloStrog4.5x
+;;*export BrunoKranskies1.tag
+;;*export BrunoKranskiesBoxheadConnection.50
+
+*include LazloStrog1
+*include LazloStrog2
+*include LazloStrog3
+*include LazloStrog4
+*include LazloStrog5
+*include LazloStrog6
+*include LazloStrog7
+;;*include BrunoKranskies1
+;;*include BrunoKranskies2
+;;*include BrunoKranskiesBoxheadConnection
+*include LimboPassage
+*include TheCupcake
+*include LazloStrog8
+*include LazloStrog9
+*include LazloStrog10
+*include LazloStrog11
+
+*equate LimboPassage.001 LazloStrog1.039
+*equate LazloStrog1.001 LazloStrog2.7
+*equate LazloStrog2.29 LazloStrog3.29x
+*equate LazloStrog3.1 LazloStrog6.3
+*equate LazloStrog4.18 LazloStrog5.18
+*equate LazloStrog6.42x LazloStrog5.42
+*equate LazloStrog7.p LazloStrog3.spit
+*equate LazloStrog1.052 TheCupcake.002
+;;*equate BrunoKranskies1.5 LazloStrog4.5x
+;;*equate BrunoKranskies1.8 BrunoKranskies2.8x
+;;*equate BrunoKranskiesBoxheadConnection.19x BrunoKranskies2.19
+*equate LazloStrog1.007 LazloStrog8.001
+*equate LazloStrog3.47 LazloStrog9.001
+*equate LazloStrog2.1 LazloStrog10.12
+*equate LazloStrog3.49 LazloStrog11.49x
+
+; BELOW: dig and duplicate data from older surveys which didn't have notes drawn - CountLazlo superceded by Brunokranskies2 but sds and BrunoKranskie4 not superceded yet
+
+*flags duplicate
+
+;;; new old batch
+; *include sds
+; *equate BrunoKranskies1.tag sds.014
+; *include BrunoKranskies4
+; *equate BrunoKranskies4.15 sds.x03
+;*include BKall
+; *equate BKall.11 BrunoKranskies2.25
+; *include LostJohnsConnection
+; *equate LostJohnsConnection.8 BKall.40
+;;;;
+ 
+; *export CountLazlo.027a
+; *include CountLazlo	;stations 24-30 of CountLazlo superceded by sds (Sir Digby Spode's) survey
+; *equate BrunoKranskies1.tag CountLazlo.027a
+
+; *equate CountLazlo.027a sds.014
+; *equate CountLazlo.006 LazloStrog5.35
+; *equate LazloStrog3.1 CountLazlo.000
+ *flags not duplicate
+ 
+*end CupCake

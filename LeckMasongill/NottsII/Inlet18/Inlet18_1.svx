@@ -1,0 +1,56 @@
+*begin Inlet18_1
+
+*date 1995.5.2
+;Cave: Notts III - Inlet 18
+;Survey Kit 
+;Instruments: Original notes from RPS, GWC
+;Book: 
+;Tape: 
+
+*export 000  ; sump3
+*export 012
+
+;CALIBRATE tape 
+		
+;Note Mag N 5deg west of Grid North in 1995
+
+; clino readings changed by Becka 15 Oct 2010 following corrections by Rupert Skorupka (original reading given as "; was x BKA 15.10.10" for changed readings) - see raw scans in NottsIII/IV folder 
+; note from Rupert Skorupka in Oct 2010 "Passage ends 363m at 16 degrees west of station zero"
+
+000	001	20	305	-8	;Stn 000=Sump3 line belay
+001	002	20	330	-4	
+002	003	20	330	-4	
+003	004	20	340	-8	
+004	005	20	330	-4	
+005	006	20	355	0
+006	007	20	340	-4	
+007	008	20	335	-4	
+008	009	20	000	-8	
+009	010	20	005	0
+010	011	20	250	+8	
+011	012	10	320	+16	;Stn 12 Inlet 18 goes off from here
+
+012	013	10	320	-20	
+013	014	20	020	-12	
+014	015	20	060	0
+015	016	15	010	+52	
+
+016	017	10.40	340	-1	;End sump 3
+017	018	6.50	035	-1
+018	019	5.20	300	-1
+019	020	13.00	340	-1
+020	021	13.00	033	-1
+021	022	11.70	000	-1
+022	023	13.00	320	-1
+023	024	6.50	030	-1
+024	025	9.10	330	-1
+025	026	13.00	340	-1
+026	027	13.00	10	-1
+027	028	6.50	320	-1
+028	029	5	300	-10	; Sump 4 belay
+029	030	10	300	0
+030	031	5	005	0
+031	032	5	010	0	;Block belay
+
+
+*end Inlet18_1

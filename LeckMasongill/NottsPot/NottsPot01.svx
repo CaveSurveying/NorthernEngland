@@ -1,0 +1,51 @@
+;Cave:	Notts Pot-Lower Streamway
+;Surveyors:	R.Duffy/D.Edland
+;Date:	06/02/98
+;Instruments:	PAG kit
+;*equate NottsPot02.001 NottsPot01.035
+
+*begin	NottsPot01
+
+*export 035 021
+*export 001 ; P Bolt(furthest of 2)
+
+
+*calibrate compass	+5.00
+
+001	002	02.30	353.0	-17.0	;ST001=P Bolt(furthest of 2)
+002	003	07.00	 -	DOWN
+003	004	01.40	247.0	+15.0
+004	005	01.70	 -	DOWN	;floor entrance to crawl
+005	006	03.00	218.0	+01.5	;PBolt
+006	007	03.00	 -	DOWN
+007	008	02.38	284.0	+24.0
+008	009	03.83	204.0	-22.0
+009	010	03.68	253.5	-09.5	;step into oxbow
+010	011	01.78	108.0	 00.0
+011	012	01.58	 -	DOWN	;back to stream from oxbow
+012	013	03.11	176.0	-02.0
+013	014	01.55	 -	DOWN
+014	015	02.43	224.0	-05.5
+015	016	01.05	169.5	-10.0	; at st016 stream goes left down slot
+016	017	04.40	254.0	-11.0
+017	018	04.70	308.0	-16.0
+018	019	02.35	258.0	+08.0	;st019 is eyehole thread at top of pitch
+019	020	05.83	 -	DOWN	;st020 is head height bottom of pitch
+020	021	11.16	335.5	+07.0	;st021=TAG is lower of 2 P bolts in 3 ways chamber
+021	022	00.70	 -	UP
+022	023	05.00	227.0	-25.0	;st023 is knob of rock top of pitch for deviation Centre Route
+023	024	16.60	 -	DOWN
+024	025	06.00	289.0	-28.0	;st025 is head height on end of pillar
+025	026	03.70	259.0	-16.0	;st026=TAG last & lowest of 3 p bolts
+026	027	06.60	 -	DOWN	;st027 is head height on ledge
+027	028	00.80	260.0	+10.0
+028	029	02.85	 -	DOWN	;st029 is head height standing in pool
+029	030	05.26	293.0	 00.0
+030	031	06.35	 -	DOWN	;st031 is head height on large ledge
+031	031a	01.75	066.0	-24.0	;st031a=TAG small spike at top of hole & pitch to join BT route
+031	032	03.40	302.0	-04.0
+032	033	09.10	 -	DOWN
+033	034	07.25	286.0	-23.0
+034	035	00.75	 -	DOWN	;st035=TAG on ledge of chamberjust before drop into streamway emerging from duck.
+
+*end	NottsPot01

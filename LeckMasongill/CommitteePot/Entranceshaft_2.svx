@@ -1,0 +1,51 @@
+*begin Entranceshaft_2
+;Date: 24/11/2011
+
+;Cave: Notts II
+
+;Survey Kit RRCPC No ?
+
+;Instruments: Richard Bendall
+;Book: Dave Ramsay
+;Tape: Richard Bendall
+
+
+
+;Tape started at -10 centimetres (original notes - no Corrections)
+
+;Dig upstream from above final climb down into MincemeatAven 
+*Title "Comedy Goggles"
+
+
+
+*export 8	;equated to entranceshaft.026 
+
+*CALIBRATE tape -.10		;Tape was 10 centimetres too long
+
+*calibrate declination +2.45	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.1994n 2.5124w  2011.11.24
+
+;Station 	Tape	Compass	Clino	
+ 
+8	9	1.24	222	+20
+9	10	2.90	244	+11
+10	11	0.73	-	up
+11	12	2.28	324	+58
+12	13	2.01	312	+15
+13	14	2.82	241	+44
+11	15	3.53	255	+30
+
+*data passage station left right up down ignoreall
+
+
+
+8	1.4	0.0	0.2	2.4	;equates to Entranceshaft.026
+9	0.7	0.5	0.8	0.1	;Floor projection before arch
+10	0.8	0.2	2.0	0.1	;Boulder in floor
+11	0.7	0.0	1.5	0.9	;arch top
+12	0.5	0.0	0.5	2.0	;RH Wall
+13	0.6	0.0	0.8	0.3	;RH wall
+14	0.4	0.2	0.6	0.4	;Boulder choke
+15	0.7	0.3	1.0	0.2	;choke
+
+*end  Entranceshaft_2

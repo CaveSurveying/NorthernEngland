@@ -1,0 +1,320 @@
+*begin lowdoukstreamway
+
+
+*export 1 67
+
+*title "Low Douk Streamway"
+
+*date 2009.11.30
+
+*team Notes Becka Lawson
+
+*team Instruments Richard Bendall
+
+*team Tape Dave Ramsay
+
+
+*instrument comp&clino Becka's tandem tape Becka's 30m tape
+; double-checked 
+
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+
+;from	to	tape	compass	clino	remarks
+
+1     2    4.21 134     -1
+2     3    3.95 224     -15
+
+3     4    3.04 168     -20
+
+4     5    2.62 249     -4
+
+5     6    3.84 324     -5
+
+6     7    3.09 236     -5
+
+7     8    2.09 120     -15
+
+8     9    2.17 234     +2
+
+9     10   2.12 144     -5
+
+10    11   1.13 111     +3
+
+11    12   1.36 190     -3
+
+12    13   2.02 257     -14
+
+13    14   2.30 162     +13
+
+14    15   3.17 281     -18
+
+15    16   1.41 253     -2
+
+16    17   1.60 143     -15
+
+17    18   1.83 212     +5
+
+18    19   1.39 270     -15
+
+19    20   2.99 339     +3
+
+20    21   3.66 261     -5
+
+21    22   1.75 354     -4
+
+22    23   4.03 226     -22
+
+23    24   2.19 340     +12
+
+24    25   1.58 270     -9
+
+25    26   2.19 246     -9
+26    27   1.68 155     -16
+
+27    28   1.07 112     -14
+
+28    29   1.23 118     -31
+
+29    30   2.12 281     +0.5
+
+30    31   1.50 348     -25
+
+31    32   2.32 013     +44
+
+32    33   2.61 320     +5
+
+33    34   3.81 252     -42
+
+34    35   1.77 344     +10
+
+35    36   2.13 059     -17
+
+
+36    37   1.40 313     -35
+
+37    38   1.39 232      -10
+
+38    39   1.33 333     +21
+
+39    40   2.34 229     -16
+
+40    41   1.58 199     -12
+
+41    42   2.05 309     -7
+
+42    43   1.49 190     -17
+
+43    44   2.03 229     -33
+
+44    45   1.57 202     -1
+
+45    46   2.53 136     -6
+
+46    47   1.95 231     -11
+
+47    48   2.53 123     +32
+
+48    49   4.21 250     -24
+49    50   4.47 226     -8
+
+50    51   1.65 176     -22
+
+51    52   1.93 258     +19
+
+52    53   1.93 165     -14
+
+53    54   3.89 250     -5
+
+54    55   2.84 147     +1
+
+55    56   1.64 253     -1
+
+56    57   1.76 189     +1
+
+57    58   4.11 298     +0.5
+
+58    59   2.96 157     -8
+
+59    60   2.40 273     -4
+
+60    61   1.84 225     -2
+
+61    62   3.16 304     -6
+
+62    63   1.15 352     +14
+
+63    64   4.33 276     -3
+
+64    65   1.39 250     +5
+
+65    66   7.79 160     +7
+
+66    67   1.43 193     -35
+
+
+33    70   7.78 -       up
+
+71    70   2.59 087     +3
+
+71    72   3.00 335     0
+
+71    73   2.21 182     -5
+
+73    74   3.30 162     -9
+
+74    75   1.00 233     +5
+
+
+*data passage station left right up down ignoreall
+
+1     0.7     0       1.2  1.6   not sure of R, rubbed off; cow tag from Dave, Emma and Ruth survey
+
+2     0       0.7     1.4  1.7   numbered lp (liquid paper) on L wall where there is a climb up to roof tubes
+
+3     0.3     0       1.7  1.9   numbered lp R wall
+4     0       0.2     2.4  1.5   lp numbered L wall
+5     0       0.7     2.5  1.5   lp l wall
+
+6     0.9     0       2.8  1.4   lp r wall
+
+7     0.8     0       3    1.6   lp l wall
+
+8     0       0.6     3.2  1.4   lp l wall
+
+9     0.6     0       3.5  1.5   lp r wall
+
+10    0.5     0       3.7  1.4   lp r wall
+
+11    0       0.5     4    1.7   numbered lp at junction l wall
+
+12    0       0.5     4.1  1.7   numbered lp l wall
+
+13    0.5     0       4.5  1.6   lp r wall
+
+14    0       0.7     4.2  2.1   lp l wall, high
+
+15    0.6     0       5    1.4   lp r wall 
+
+16    0.6     0       5    1.5   lp r wall
+
+17    0       0.6     5    1.2   lp l wall
+
+18    0       0.5     5    1.3   lp l wall
+
+19    0       0.5     5    1.1   lp l wall
+
+20    0.6     0       5    1.4   lp r wall
+
+21    0       0.6     4.5  1.5   lp l wall
+
+22    0.6     0       4.5  1.5   lp r wall
+
+23    0.8     0       4.5  0.4   lp r wall at sharp corner, low
+
+24    0.4     0       4.5  1.2   lp r wall numbered
+
+
+25    0       0.7     4    1.2   lp l wall
+
+26    0.3     0       4    1.4   lp r wall by oxbow with direct connection to next bit of stream
+
+27    0.6     0       3.5  1.8   lp r wall
+
+28    0       0.4     4    1.4   lp l wall
+
+29    0.7     0       4    1.1   lp r wall
+
+30    0       0.6     5    1.2   lp l wall
+
+31    0.7     0       5    1     lp r wall just before oxbow inlet
+
+32    0.7     0       4.5  2.3   lp r wall
+
+33    0.6     0       3.5  3     lp numbered, dig above this point
+
+34    0       0.4     5    0.9   lp l wall, low at corner
+
+35    0       0.3    4     1     lp l wall
+
+36    0.5     0      3     1.6   lp r wall by r pillar
+
+37    0.4     0      3     0.7   lp r wall
+
+38    0       0.3    3     1.4   lp l wall
+
+39    1       0      3     2     lp r wall numbered
+
+40    0.3     0      2.5   1.6   lp r wall
+
+41    0       0.4    3     1.9   lp l wall at corner
+
+42    0.4     0      8     2     lp r wall
+
+43    0.4     0      7     2     lp r wall at end, bridge
+
+44    0       0.3    5     1.3   lp l wall
+
+45    0.7     0      5     1.5   lp r wall
+
+46    0       0.6    6     1.4   lp l wall
+
+47    0.7     0      6     1.4   lp r wall
+
+48    0       0.7    6     2.7   lp l wall at corner
+
+49    0       0.8    6     1.8   lp l wall with white calcite and inlet
+
+50    0.3     0      5     1.4   lp r wall
+
+51    0       0.5    5     1     lp l wall
+
+52    0.3     0.3    5     1.9   lp rock blade
+
+
+53    0       0.3    5     1.4   lp l wall
+
+54    0.6     0      5     1.1   lp r wall
+
+55    0       0.7    5     1.5   lp l wall
+
+56    0.4     0      5     1.5   lp r wall
+
+57    0       0.6    4     1.6   lp l wall
+
+58    0.8     0      4.9   1.9   lp r wall
+
+59    0       0.7    5     1.6   lp l wall
+
+60    0.7     0      5     1.5   lp r wall
+
+61    0.1     0.8    5     1.6   lp l wall
+
+62    1.3     0      6     1.5   lp r wall
+
+63    1       0      5     2     lp r wall
+
+64    0.9     0      6     1.9   lp numbered r wall
+
+65    1.3     0      2.4   2     lp numbered at junction, r wall
+
+66    0.5     2.1    1.3   4     lp r wall numbered, at start of Steps Chamber
+
+67    1.4     2.4    0     4     numbered on l wall where would drop down in Steps Chamber
+
+
+70    0.8     0.3    0.2   10    r roof
+
+71    1       1      0     10    small broken stal at junction at top of "usual" climb up
+
+72    0.2     0.2    0.1   0.2   unmarked in R&D's dig
+
+73    0       0.3    0.2   1.1   lp l wall
+
+74    0       0.4    0.2   1.2   lp l wall/roof in tiny chamber (can just about turn round in)
+
+75    0.2     0.1    0     1.1   lp r roof at first corner of very tight double corner wriggle
+
+
+*end lowdoukstreamway

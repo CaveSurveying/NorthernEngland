@@ -1,0 +1,30 @@
+;Cave:	Notts II - Green Tape Inlet continued
+;Surveyors:	P.Windle/C.Densham
+;Date:	30/12/02
+;Instruments:	5
+
+;*equate	GreenTape6.010	GreenTape5.014
+
+*begin	GreenTape6
+
+*export 010
+
+*calibrate compass	00.0
+*calibrate clino	+1.00
+*calibrate tape	+2.00
+
+002	001	04.30	289.0	+02.0
+003	002	05.80	295.0	+02.0
+
+003	004	03.00	140.0	 00.0	;inlet degenerates
+
+005	003	06.40	249.0	+06.0
+006	005	03.90	330.0	+34.0
+007	006	05.20	270.0	-31.0
+
+007	008	05.00	110.0	 00.0	;degenerates
+
+009	007	07.10	196.0	+45.0
+010	009	08.85	238.0	+47.0	;st010 is end of Rich/Hils survey
+
+*end	GreenTape6

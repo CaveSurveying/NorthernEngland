@@ -1,0 +1,48 @@
+;Cave:	Notts Pot
+
+*begin	NottsPot
+
+*export EntrancePhanger ; P Bolt(furthest of 2)
+*export SumpTag
+
+*equate EntrancePhanger  NottsPot01.001
+*equate SumpTag          NottsPot02.022
+
+*include NottsPot01		; Becka - eventually replace this or ask Ray to drawn
+*include NottsPot02 		; Becka - eventually replace this or ask Ray to drawn
+*include NottsPot03 		; Becka - resurvey of entrance - replaces NottsPot01 - need to double-check the entrance location which is stn 022 hanger and find out how connects to other surveys
+*include LeftHand1		;from hangers for pitch into Three Ways Chamber to Left Hand Route then to start of Twilight Route
+*include LeftHand2		;from start of Twilight Route down to tag where routes meet
+*include NorthInlet		;added 21/02/12 RGB
+*include acrobat		;added 29/10/12 RL PDA data, from hanger above iron ladder towards Adamson's
+*include loweracrobat		;added 29/10/12 RL PDA data, mid-section of Acrobat Series
+*include bottomacrobat		;added by Richard Bendall 30/10/12
+*include BTRoute		;added by Becka 29/12/2014
+*flags duplicate
+*include CentreRoute		;added by Becka 02/01/2015
+*flags not duplicate
+*include LowerStreamway		;added by Becka 02/01/2015
+*include AdamsonsRoute		;added by Becka 31/01/2015
+*include BTRoute2		;added by Becka 31/01/2015
+
+;--------------------------------------------
+
+*equate NottsPot02.001 NottsPot01.035
+*equate NottsPot03.022 NottsPot01.001
+*equate NottsPot01.021 LeftHand1.5
+*equate LeftHand1.15	LeftHand2.15x
+*equate LowerStreamway.tag	LeftHand2.9
+*equate NorthInlet.1 LeftHand1.5
+*equate NorthInlet.25 acrobat.1-0
+*equate acrobat.1-32 loweracrobat.1-32
+*equate loweracrobat.1-37 bottomacrobat.32
+*equate loweracrobat.1-51 bottomacrobat.30
+*equate NottsPot01.021	BTRoute.tag 
+*equate NottsPot01.021	CentreRoute.1
+*equate LowerStreamway.tag	CentreRoute.15
+*equate LowerStreamway.3	BTRoute.69
+*equate AdamsonsRoute.10x	acrobat.1-10
+*equate BTRoute2.5x	BTRoute.5
+*equate BTRoute2.y	BTRoute.3
+
+*end	NottsPot

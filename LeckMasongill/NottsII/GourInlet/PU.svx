@@ -1,0 +1,45 @@
+*begin PU
+
+;Date: 2008
+;Cave: Notts II - Parellel Universe
+;Survey Kit 
+;Instruments: Original notes from RPS, GWC
+;Book: PParker R Mercer
+;Tape: 
+
+*export 016
+
+;*equate 016 Gourinlet_3.010
+;CALIBRATE tape 
+;note no clino readings
+
+001 002 7.70 066 0  ;001 centre of Oh Bother It
+002 003 2.20 345 0
+003 004 2.20 345 0
+004 005 5.00 082 0
+005 006 1.70 140 0
+006 007 4.10 048 0
+007 008 1.90 046 0
+008 009 1.35 094 0
+009 010 3.10 055 0  ;010 top of small aven climb
+010 011 2.40 140 0
+011 012 5.40 066 0
+012 013 1.70 041 0
+013 014 3.40 066 0
+014 015 4.70 149 0
+015 016 6.80 156 0  ;016 bolt opposite Window
+
+;Estimates for major routes from Oh Bother It
+
+001 DV1 20.0 160 0  ;Along Darkness Visible - 30 metre high rift
+
+
+001 HN1 4.5 245 0  ;To far end of Oh Bother It
+HN1 HN2 2.0 315 0  ;Towards side of Oh Bother It
+HN2 HN3 5.5 245 0  ;Into and along Hands Knees crawl
+HN3 HN4 1.0 315 0  ;Along cross rift
+HN4 HN5 1.8 245 0  ;Into continuation of HN Crawl, dig
+
+
+
+*end PU

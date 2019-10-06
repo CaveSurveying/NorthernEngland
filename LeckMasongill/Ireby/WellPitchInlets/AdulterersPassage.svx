@@ -1,0 +1,52 @@
+; Locn:	Leck Fell
+; Cave:	Ireby Fell Cavern
+; Adulterer's Passage tieing back into Adulterer's Bypass, above Well pitch
+
+*begin AdulterersPassage
+
+*export 1 2 21
+
+*title "Adulterer's Passage"
+*date 2009.05.17
+*team Disto Liz Lawton
+*team Notes Neil Pacey
+*team Instruments Ian Lawton
+*team Photography Ian Lawton
+*instrument Compass and Clino, Leica A3 Disto - Neil Pacey's
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+;1	tube	14.78	130	0	;Disto leg into tube
+2	1	2.67	121	-12	;left hand wall start of tube
+3	2	4.78	138	+4	;over calcite squeeze
+3	4	2.16	356	-18
+5	4	3.98	128	+10	
+5	6	1.67	337	-49
+7	6	7.50	140	+9
+8	7	8.29	135	+4
+9	8	0.55	230	0
+9	10	9.25	320	0	;leg through Breakthrough squeeze
+;11	10	2.88	107	-4	;overshot leg past stn21 not required
+21	10	1.51	098	-9	;Ties into Becka's Stn21 Adulterer's Bypass
+
+*data passage station left right up down
+1	0.5	0.1	0.4	0.6	;Left hand wall before start of tube
+2	0.4	0.5	0.5	1.5	;Marked and numbered with Tipex
+3	0	0.5	0.7	1.8
+4	0.5	0	1.4	1.7
+5	0	0.5	2	1.6
+6	0.6	0.2	3.1	0.5
+7	0.4	0.5	2	0
+8	0	0.7	4	0
+9	0.7	0	4	0
+10	0.7	0.2	0.4	0
+
+
+*end AdulterersPassage
+
+
+
+
+

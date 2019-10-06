@@ -1,0 +1,63 @@
+;Cave:	StepsPot
+;Surveyors:	Richard Bendall/Paul Windle
+;Date:	15/05/08
+;Instruments:	Red Rose Sunto Compass & Clino kit 2, Disto / tape	
+
+*begin StepsPot1
+
+*export 001 015
+*calibrate declination +3.19	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.188n 2.492w 2008.05.15
+;*calibrate compass
+;*fix 001 67992 77068 382
+
+;surface survey
+
+;*flags surface
+
+;001	002	4.92	098	-30	;stn001 is tag, stn002 is left hand wall of gully
+;002	003	4.40	193	-29	;stn003 is ent to Steps pot, drilled hole
+;002	004	7.46	176	-32	;stn004 is ent to Lamb Pot, drilled hole
+;001	005	14.36	093	+16	;stn005 is big tree
+;005	006	8.86	071	-14	;stn006 is drilled hole on rock
+;006	007	6.72	144	-19	;stn007 is 1st bolt on Wet Route
+;006	008	3.13	071	-15	;stn008 is ent to Lost Marbles Ent. drilled hole on block
+
+;*flags not surface
+
+002	001	0.84	262	+10	;stn001 is at junction, location not noted
+003	002	1.30	332	0
+004	003	2.82	300	+2
+005	004	3.53	329	-5
+006	005	4.25	060	+60
+007	005	3.50	321	-10
+008	007	1.00	 -	DOWN
+009	008	2.10	318	-5
+010	009	2.06	333	-14
+011	010	1.50	300	-10
+012	011	4.50	312	-15
+013	012	2.50	 -	DOWN
+014	013	6.10	310	-18
+015	014	5.48	270	-26	;stn015 on survey given as 003 surface legs
+
+*data passage station left right up down ignoreall;added 09/05/11RGB
+
+
+001	0.4	0.2	0.1	1.5	
+002	0.3	0.3	0.3	0.4
+003	0.2	0.2	0.3	0.4
+004	0.4	0.1	1.2	0.4
+005	0.4	0.4	1.2	0.3
+006	0.4	0.4	8.0	5.0	;omitted when surveyed. created 09/05/11RGB
+007	1.0	1.2	3.0	7.8
+008	0.2	0.2	1.0	0.4
+009	0.3	0.2	0.1	1.4
+010	0.2	0.4	0.8	0.4
+011	0.2	0.3	1.0	0.5
+012	0.3	0.4	2.5	0.4
+013	2.0	0.0	5.0	2.5
+014	1.5	0.0	1.0	1.0
+015	0.5	0.0	0.0	1.2
+
+
+*end StepsPot1

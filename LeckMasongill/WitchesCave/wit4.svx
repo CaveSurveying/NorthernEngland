@@ -1,0 +1,15 @@
+;Cave:	Witches Cave - across unamed chamber in upstream extension
+;Date:	16/07/97
+;Surveyors:	Rick Stanton
+;Instruments:	aladin pro
+
+*begin	wit4
+*export 003
+*export 001
+
+*calibrate compass	+5.17
+
+001	002	01.20	 -	up	;041 = line belay at end of 1st sump - water surface
+002	003	04.00	020.0	 00.0	;043 = line belay start of 2nd sump
+
+*end	wit4

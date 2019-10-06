@@ -1,0 +1,19 @@
+*begin Paaschendale
+
+;*export Paaschendale1.0
+;*export paaschendale1.1
+*export Paaschendale2.7
+*export Paaschendale2.24
+*export Paaschendale3.18
+
+;*include Paaschendale1
+*include Paaschendale2
+*include Paaschendale3
+*include Inlet1
+
+;*equate Paaschendale1.14 Paaschendale2.24
+*equate Paaschendale3.1 Paaschendale2.24
+*equate Paaschendale2.15 Inlet1.1
+*equate Paaschendale3.18 Inlet1.30
+
+*end Paaschendale

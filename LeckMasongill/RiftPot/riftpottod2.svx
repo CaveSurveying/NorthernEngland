@@ -1,0 +1,178 @@
+; Locn:	Masongill
+; Cave:	Rift Pot
+; Rift Pot - Stn 72 to Stn 149 - Start of Temple of Doom Extensions
+
+*begin RiftPotTOD2
+*export 72 77 99 102 149
+
+*title "Rift Pot - Temple Of Doom"
+*date 2009.10.25
+*team DistoX Paul Windle
+*team Notes Neil Pacey
+*Instrument Leica A3 DistoX - Neil Pacey's
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+72	73      6.200	73.16	0.54	;Stn72 marked on LH Side of main passage  
+73	74	6.711	36.97	-0.94    
+74      75     11.878   80.50   -2.96    
+75	76      5.234   37.81    7.68      
+76      77      5.185  105.99    2.18      
+77	78      7.568  229.53   -1.28	;Slipsteam main Junction marked 77 on nose of rock opposite     
+78      79      0.515	-	DOWN    ;Start of long crawl out towards TOD  
+79	80      4.927  157.21    0.94      
+80	81      5.262   88.40    1.51   ;Crawl past stal  
+81      82      3.447  181.68    4.20      
+82      83      0.515	-	DOWN      
+83      84      5.177  232.25    2.25     
+84      85      3.993  271.04   -0.84      
+85      86      5.236  174.27    4.92      
+86      87      4.197  112.02   -3.81      
+87      88      7.756   85.86   -0.04   ;Muddy Pool and drippy stal   
+88      89      6.658   48.04    0.76	;muddy slope down and muddy slope up       
+89      90      3.608   92.66    7.27      
+90      91      8.609   53.17    1.07      
+91      92      6.230  102.33    1.32   ;boring crawl section   
+92      93      6.118   80.17    1.72      
+93      94      3.940   96.71    0.96      
+94      95      5.066   63.80   -3.58      
+95      96      6.282   68.51    5.44   ;Large phreatic roof dome with flowstone and Angel's Wing   
+96      97      5.010   67.42    2.25   ;Marked Station on LH side opposite small tube (dig?)   
+97      98      1.601   32.43   -0.17      
+98      99      5.486  126.71    6.87      
+99      100     2.041   51.88   -1.77   ;First Junction. Marked station on RH Side     
+100     101     5.428   90.93    0.63     
+101     102     4.576   47.99    2.22      
+102     103     3.259  314.30    5.82   ;Marked Station second junction (to Dave's dig)   
+103     104     2.732   36.78    5.70      
+104     105     1.673   82.17   -2.30      
+105     106     2.839   88.37   21.69   ;Marked Station LH Wall opposite +2M climb   
+106     107     4.546  136.50  -27.64   ;Middle of boulder floored chamber with stal opposite 2nd +2M climb
+107     108     3.291  141.12  -28.94   ;crawl at bottom of slope   
+108     109     3.080  149.53   -6.96      
+109     110     2.040  131.95    7.88      
+110     111     1.978  135.38   37.32      
+111     112     2.764  159.68   -2.52   ;Marked Station RH Side oppososite slope up to dig with boulders   
+112     113     3.463  139.31   14.99      
+113     114     4.067  138.67    1.60      
+114     115     4.326  145.18    5.36      
+115     116     3.274   98.66   26.99	;Start of Pussy Cat choke mee-oow!    
+116     117     0.694	-	DOWN      
+117     118     2.275  138.51   -9.42      
+118     119     3.159  138.74   -2.77      
+119     120     0.564	-	DOWN      
+120     121     1.868  101.71   -3.25      
+121     122     1.989  122.42   21.06      
+122     123     2.138  199.10  -17.80      
+123     124     2.727  166.70   15.91      
+124     125     2.955  119.17    9.62      
+125     126     1.594  156.88  -10.84    ;Formations and dig (?) on rh side of passage  
+126     127     5.104   91.44   -3.08    ;Calcite Formations  
+127     128     0.770    -	DOWN      
+128     129     1.274   75.02   16.14      
+129     130     1.377  155.58   48.06      
+130     131     3.464   81.28  -12.45    ;Side passage on rh side (dig ?)  
+131     132     4.735  133.86    4.93      
+132     133     0.995   39.90  -26.68      
+133     134     2.539  134.97   -8.03      
+134     135     4.263  135.19   13.17      
+135     136     3.269  101.28    0.15      
+136     137     2.395   98.16   11.17	;boulder slope on rh side of passage choked.
+137     138     0.780   48.04  -79.90      
+138     139     2.045  116.43  -10.05      
+139     140     2.680   84.89   28.47      
+140     141     1.503  110.23  -18.22   ;Start of Coffin Shop Choke  
+141     142     1.892  151.96   20.73   ;Follow LH side of passage  
+142     143     2.650   93.87   36.66      
+143     144     1.847  176.86    0.06   ;Large slope of coffin shaped boulders on rh side   
+144     145     2.361  125.80    1.57   ;Temple of Doom bypass, original way up slope on rh side   
+145     146     2.958   46.10  -57.31   ;slope down loose   
+147     146     2.151  273.28  -24.76   ;Back bearing into bottom of slope (Originally dug out by NCC)   
+147     148     4.481   96.87   -1.24   ;Stacked deads from original Temple of Doom   
+148     149     2.076   75.92   11.51   ;Numbered station on LH Side.   
+
+*data passage station left right up down  ignoreall
+
+72	1.5	3.2	2.5	1.1	;Numberd 72 on Rh wall (3.2 to back of alcove)
+73	1.5	0	2	1.3	
+74	0	1.5	1.5	1.3	
+75	1.5	0	2.2	1.3
+76	0	3	1.5	2	;Lh wall top of mud slope
+77	0	3.5	1	2.5	;Numbered 77 on nose of rock opposite
+78	1	0.7	0	0.5	;Start of long crawl
+79	1	0.7	0.5	0
+80	1	0.2	0	0.5
+81	0	1.2	0.2	0.8
+82	1.2	0.8	0	0.5
+83	1.2	0.8	0.5	0
+84	0	1	0.2	0.2
+85	1.5	0	0.5	0.3
+86	1	1	0	0.5
+87	1.2	0	0.3	0.5
+88	1.5	0	0.5	1
+89	0	1.1	0.8	1.3	;LH Side after slope up
+90	1	0	0.2	1
+91	0	1	1	0.3
+92	1	0	0.1	0.3
+93	0	1.2	0.1	0.5
+94	1.2	0	0.05	0.5
+95	0.5	1	0.7	0
+96	0.5	1	2.5	0.5	;Sattion after Phreatic roof dome with formations
+97	2	0.5	0.3	0.5	;Opposite small tube (dig ?)
+98	0	1	0.3	0.5
+99	1	0	0.3	0.8	;First Junction. Numbered station on RH Side 
+100	0	0.5	0.2	0.5
+101	1	0	0.5	0.5
+102	2	0	2	0.5	;Numbered Station second junction (to Dave's dig) 
+103	0.5	1	0.5	0.5
+104	0	1	2	0.5
+105	0	0.5	0.5	0.2
+106	1	1	0	1	;Middle of chamber with stal opposite two climbs on rh side of passage
+107	1.5	0	2	1
+108	1	0.5	1	0
+109	1.5	0.2	0.3	0
+110	1	1	0.5	0
+111	2	1.5	0	0.5
+112	1	0	0.7	0.2	;Marked Station opposite slope up too dig ?
+113	0.7	0.7	0.1	0.6
+114	0	1	0.5	0.5
+115	1	0	0.5	0.25	;Start of Pussy Cat Choke
+116	0	0.75	0.75	0.69
+117	0.5	0.5	0.69	0
+118	1	1	1	0
+119	1.5	0	0.5	0.56
+120	1.5	0.5	0.56	0
+121	0.75	1	0.5	0
+122	1	1.5	0	0.5
+123	1.5	0.5	0.25	1
+124	1	0.5	1	0.25
+125	0.5	1.5	0	0.5
+126	1.5	0.5	0.2	0.3
+127	2	1	1.5	0.77
+128	2	1	2.2	0
+129	1.5	1.5	1	0
+130	1.5	0	1	1
+131	0.5	1	1	0.5
+132	1.2	0.3	0.5	0.5
+133	0.5	1	0.5	0
+134	0.5	1	0.5	0.2
+135	1	0	0.5	0.5
+136	1	0.5	0	0.5
+137	1	1	0	0.78
+138	1	1	0.78	0
+139	1	0.3	0.3	0.3
+140	1	1	0	0.8
+141	0.6	1.2	1	0.2
+142	1	0.5	0.1	0.5
+143	0.3	1.5	2	0.8	;Stn marked on large coffin shaped boulder
+144	1	0	0.8	0.2	
+145	2	0.5	0	2	;Marked Stn Top of slope
+146	0.3	1.2	0.5	0	;Bottom of slope
+147	0	1.2	0.5	0.2	
+148	1	1	0	0.5	;Numbered station on LH Side (is this right? station 149 definitely numbered)
+	
+*end RiftPotTOD2
+
+
+

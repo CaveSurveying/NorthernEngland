@@ -1,0 +1,24 @@
+;Cave:	Ireby Fell - Glory Holes - Cripple Creek - Ramsay's Kitchen Aven
+;Instruments: B. Ward, Book: D.Ramsay
+;Date:	30/08/2004
+;Instruments:	RRCPC Survey Kit 4
+
+*begin	GloryHoles6
+
+*export 001
+;*export 008	
+
+;*calibrate compass	+5.00
+*calibrate clino	-0.50
+*calibrate tape		+3.00
+
+001	002	5.15	303	0	;1.0	0	-	0.4	Stn001=Stn 39 RH Wall
+002	003	4.50	055	+10	;0.4	0.5	-	0.3	Stn002
+002	004	9.55	-	UP	;0.6	0	0.6	0.5	Stn003
+004	005	4.70	256	+38	;0.15	0.15	4.5	-	Stn004
+005	006	6.00	347	+15	;1.2	3	5	1.2	Stn005
+006	007	7.15	-	UP	;0.3	0	-	2.0	Stn006
+007	008	5.30	252	0	;0.3	0.4	4	-	Stn007
+					;0.4	0.2	1.5	1.2	Stn008	
+
+*end GloryHoles6

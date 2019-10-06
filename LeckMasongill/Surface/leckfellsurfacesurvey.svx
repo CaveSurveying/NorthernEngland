@@ -1,0 +1,93 @@
+
+*begin	leckfellsurfacesurvey
+
+*export NottsIIEntrance
+*export VoldemortEntranceSWcorner
+*export CupcakeEntranceSWcorner
+
+*export LostJohnsEntranceTag
+*export BoxHeadEntranceTube
+
+*export LowDoukEntranceTag
+*export IrebyEntranceTag
+*export RiftPotEntranceTag
+*export NottsPotEntrancePhanger ; first P hanger at Notts Pot entrance
+*export MarbleStepsEntranceTag
+*export LargePotTag             ; first station of Large1 survex file in Large Pot folder
+; *export ShortDropFencePost
+; *export LongDropStylePost
+*export StartingHandleHole
+
+*export BruntskillPotEntrance
+*export BumblingHoleEntrance
+; *export CoalHoleEntrance
+*export DeathsHeadHoleFencePostTag
+*export EyeHolesStyle
+*export GavelPotFencePost
+; *export RumblingBeckTopEntrance
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; When all surface surveys are complete 
+; this should be the one *fix in the whole setup
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+*fix	 NottsIIEntrance	66667 78303 319  ; set from wheresthepath website. Changed to 319m RGB 17/01/12 since clearly not 345m but awaite better confirmation to come through as to the exact height!	
+
+*include NottsIIsurfacesurvey
+
+*equate NottsIIEntrance                 NottsIIsurfacesurvey.NottsIIEntrance
+*equate VoldemortEntranceSWcorner       NottsIIsurfacesurvey.VoldemortEntranceSWcorner
+*equate CupcakeEntranceSWcorner         NottsIIsurfacesurvey.CupcakeEntranceSWcorner
+
+*equate LostJohnsEntranceTag            NottsIIsurfacesurvey.LostJohnsEntranceTag
+*equate BoxHeadEntranceTube             NottsIIsurfacesurvey.BoxHeadEntranceTube
+*equate StartinghandleHole              NottsIIsurfacesurvey.StartinghandleHole
+
+
+*flags surface
+
+; fixes moved down from leckfell.svx which should be replaced with a surface survey
+
+; north of NottsII area
+; *fix ShortdropFencePost             67030	78934	346	;Shortdrop fence post near stile with tag
+; *fix LongDropStylePost              66969	79176	346	;Longdrop stile RGB GPS 02/03/07
+*fix BruntskillPotEntrance          66734	79377	364	;Bruntskill pot III active sink RGB gps 15/01/07 to entrance at 001
+*fix BumblingHoleEntrance           66949	79284	343
+; *fix CoalHoleEntrance               67168	79047	358	;GPS RGB 13/12/07
+*fix DeathsHeadHoleFencePostTag     66783	79159	335 ;GPS RGB 29/11/07
+*fix EyeHolesStyle                  66824	79184	337	;eyehole stile RGB GPS 02/03/07
+*fix GavelPotFencePost              66644.34 79082.83 329.13	;ev.ss25.003  ;st000=tag on fence post on path to entrance
+; *fix RumblingBeckTopEntrance        67173	79128	357 ;GPS RGB 13/09/07
+
+
+*include mg1
+*include mg2
+*include mg3a
+*equate	mg1.008a	mg2.032
+*equate	mg1.032a	mg3a.001	; RiftPotEntranceTag
+
+
+;*fix mg1.001    67929     76660	    348     ; top of gate-post near stile <<<< Commented out by Simon Cornhill 7May16 as Kevin dixon GPS point now used at NottsPot to anchor this data set >>>>
+;*fix mg3a.008   67682.0   77228.0   408.0   ; head height on stile
+;*fix mg3a.016   67259.0   77374.0   402.36  ; rock top at junction of wall and fence to shooting hut on Leck Road
+;*fix mg3a.024   67114.37  77803.73  376.35  ; first P hanger at Notts Pot entrance
+;*fix mg3a.012a  67367.78  77343.61  389.00  ; tag hole on right of scaffold bar in top rock(tag missing)
+
+
+*equate LowDoukEntranceTag      mg1.038b
+*equate IrebyEntranceTag        mg3a.012a
+*equate RiftPotEntranceTag      mg3a.001
+*equate NottsPotEntrancePhanger mg3a.024
+*equate MarbleStepsEntranceTag  mg1.026a
+*equate LargePotTag             mg1.014a
+
+*entrance LowDoukEntranceTag
+*entrance IrebyEntranceTag
+*entrance RiftPotEntranceTag      
+*entrance NottsPotEntrancePhanger 
+*entrance MarbleStepsEntranceTag  
+*entrance NottsIIEntrance
+
+*entrance LostJohnsEntranceTag
+
+
+*end	leckfellsurfacesurvey

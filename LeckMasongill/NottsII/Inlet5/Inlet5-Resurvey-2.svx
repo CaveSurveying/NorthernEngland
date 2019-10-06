@@ -1,0 +1,288 @@
+
+*begin Inlet5-Resurvey-2
+
+
+*export 1 20 36x x
+
+
+*title "Inlet 5 from end of Resurvey-1 to remainder (mostly)"
+
+*date 2011.12.19
+
+*team Instruments Richard Bendall
+
+*team Notes Becka Lawson
+
+*instrument Becka's tandem compass and clino and Becka's 30m tape with 20cm missing from end
+
+
+*calibrate tape 0.20	; +ve if tape was too short, -ve if too long
+
+
+
+*calibrate declination +2.45	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.1994n 2.5124w  2011.12.19
+
+;from	to	tape	compass	clino	remarks
+
+
+x	1	20.62	248	+07
+
+1	2	19.84	260	+03
+
+3	4	2.60	329	0
+
+3	5	2.60	137	0
+
+3	6	1.45	248	-44
+
+6	7	3.50	-	down
+
+8	7	2.59	263	+21
+
+2	8	3.52	249	+45
+
+2	9	4.65	219	+23
+
+9	10	6.38	213	+17
+
+
+x	11	11.70	058	-01
+
+11	12	9.75	065	-07
+
+12	13	15.45	047	-02
+
+
+13	14	16.13	072	-03
+
+14	15	11.03	043	-01
+
+15	16	16.51	352	-03.5
+
+16	17	18.39	013	0
+
+17	18	8.45	096	+00.5
+
+
+18	19	16.37	030	-01
+
+19	20	9.83	054	+00.5
+
+;20	21	4.33	074	+09 ;superceeded by sixpointfiveandthreequarters
+;21	22	4.94	0	-04
+ ;superceeded by sixpointfiveandthreequarters
+
+
+
+17	23	12.12	274	-01
+
+23	24	7.73	212	-05
+
+24	25	8.23	284	-04
+
+25	26	7.70	343	-09
+
+26	27	4.40	188	-36
+
+27	28	5.17	278	-11
+
+
+28	29	6.69	279	-09
+
+29	30	8.65	173	-17
+
+30	32	8.12	250	-02
+
+32	33	5.78	180	-03
+
+33	34	1.90	-	down
+
+33	35	6.00	277	-18
+
+26	36	8.74	075	+07
+
+36	37	3.55	157	+09
+
+37	38	5.90	062	-03
+
+38	23	4.74	174	+07
+
+
+36	40	7.71	353	+07
+
+40	41	13.79	283	-02
+
+41	42	8.06	260	+04
+
+42	43	3.63	215	+02
+
+43	44	3.73	294	+02
+
+41	45	12.16	050	+01
+
+45	46	9.36	018	-02
+
+46	47	6.62	024	-01.5
+
+
+47	48	4.57	038	0
+
+48	49	4.45	013	0
+
+
+x	50	4.05	177	-02
+
+50	51	4.25	235	-01
+
+51	52	3.67	200	+08
+
+52	53	7.53	207	+01
+
+53	54	6.37	195	+04
+
+54	55	3.63	239	+09
+
+55	56	8.48	185	+0.5
+
+56	57	8.46	117	+04
+
+57	58	5.45	065	-07
+
+58	59	3.67	143	0
+
+59	60	4.80	179	+08
+
+
+60	61	4.95	246	-01
+
+61	62	2.83	253	+10
+
+62	63	4.16	210	+04
+
+63	64	1.20	252	+03
+
+64	65	2.69	193	+16
+
+65	66	3.28	233	+05
+
+66	67	4.02	185	+08
+
+67	68	5.63	257	+06
+
+68	69	4.62	186	+05
+
+69	70	5.82	228	+21
+
+
+70	71	5.52	160	-09
+
+71	72	4.66	196	0
+
+72	73	2.63	185	-05
+
+72	z	6.00	-	up	; made up leg up the climb that Richard went up from the calcite flowstone
+
+73	74	3.46	210	+02
+
+74	75	4.62	178	+02
+
+ 75	76	3.00	227	+10	; this leg needs repeating as clino made up and then survey needs continuing if anyone pushes this lead
+
+36x	71	8.25	293	+06
+
+
+
+*data passage station left right up down ignoreall
+
+x	-	-	-	-	old stn 18 from Bill and Simon survey of 10/10/06, piece of survey paper on L just as emerge from dig into main passage (hmm, from looking at NewExtension notes this is actually probably their old station 15)
+1	0	3	1.5	1.6	numbered opposite wall to major inlet, just upstream of it, inlet has apparently been maypoled
+2	2.3	1.8	3	0.5	just beyond large white (taped off) stal on boulder
+3	0.3	0.5	0	0.4	LR is from top surveying down
+4	-	-	-	-	boulder choke at end of crossrift beyond stn 3
+5	-	-	-	-	boulder choke at other end of crossrift beyond stn 3
+6	0.1	0	0.2	2.5 head of climb; LR is from top surveying down
+7	0	0.3	3	0.5	base of climb; LR is from top surveying down
+8	0.5	3	2.5	0.5	right is really just passage to base of climb; LR is from top surveying down
+9	1.3	1.8	0.5	0.7
+10	2.3	2	3	1.4	numbered at end of chamber next to tiny dig
+
+11	0.3	2.8	1.7	1.7	down not clear, looks like 1.7
+12	2.6	2	2.5	1.1	
+13	0.5	3	2.5	1.5	l wall
+
+14	3	1.1	4	1.2	tip of large broken stal in stream just after clamber over mud bank
+15	3.5	0.3	2.5	1.6
+16	3	2	1.5	1.3
+17	-	-	-	-	numbered station at junction; Stn 12 of Bill and Simon's survey is about 3m to the right of stn 17
+
+19	0.5	2.3	1	1.8	l wall
+
+20	0.2	2.5	4	1.2	numbered on l wall opposite waterfall from major inlet
+
+;21	3	0.3	4	0	temporary station on floor
+
+;22	0.2	0.2	0.1	0.3	not marked, end of dig (lost my contact lens here!)
+
+
+23	2.5	0	2	1.1	junction
+24	0	2.8	1.3	0.7
+25	0.4	3	1.5	1	numbered
+26	5	0.3	2	4	probably an old station (not numbered but a rock on a rock) from previous survey
+27	0	1.1	4.5	1.5	l wall in stream canyon (below larger, upper level passage which continues above)
+28	1.5	1.5	5	1.8
+
+29	2	0	1.5	2.2	r wall opposite stal
+30	3	3	9	1.1	where upper passage rejoins lower streamway
+; 31	-	-	-	-	note there is no station 31!
+32	4	0	5	1.8
+33	2	3	1	2	start of sump pool
+34	-	-	-	-	water level of sump
+35	-	-	-	-	estimated leg to end of sump pool - Richard thought had been dived only a short distance to mud, possibly by Jason Mallinson
+36	4	0	2.5	1.1	stn 36 is 30cm below station 8 of old survey by Simon Wilson in 2007 (piece of paper left) at junction
+37	2.5	0.7	1	1.6
+38	2	3	1	1.3
+
+40	2.8	0	1.5	1.5
+41	1	1.3	3.3	0.5	junction
+42	1	0.5	1	0.1
+43	0.1	1	0.7	0.3	just before squeeze
+44	1.5	0	0.7	0.2	numbered on wall on far side of squeeze
+45	1	0.3	0.5	0.6	r wall
+46	1	0.3	0.1	0.4	numbered in ceiling
+47	0.2	1.3	0	0.5	l ceiling (down unclear, could be 1.5 but looks more like 0.5)
+48	1.1	0.5	0	0.3	roof above canal
+49	0.5	0.7	0	0.3	lp in ceiling - approx 3m ahead looks like unbroken stal with low muddy canal continuing
+
+50	1	1	1	0.3	before breakthrough dig
+51	0.5	0.3	0.4	0.2	after breakthrough dig
+52	0.2	0.8	0.1	0.4	l ceiling
+53	0.1	1.3	0.4	0.1	sandbag dam
+54	0.3	1.5	0.4	0.5
+55	1.2	0.3	0.3	1	numbered as 54 in notes but below LRUDs for other 54 so assume this is 55 and LRs match sketch
+56	2	0.3	0.5	1.2
+57	1.3	1	0	0.5	on false floor of calcite, at start
+58	0.2	1.2	0.5	0.3	at end of false floor of calcite
+59	0	1	0.3	0.2
+60	0.3	1.3	0.3	0.8	l wall, numbered
+
+61	0	1.2	0.3	0.3	
+62	0.7	0.3	0.1	0.4
+63	0.3	1.1	0.2	0.6	l wall
+64	-	-	-	-	r wall
+65	1.4	1.1	0	1.2	ceiling
+66	1	1.6	0.4	1.2
+67	0.4	1.7	0.5	1.4	ceiling
+68	2.2	0.6	0.2	0.6	r ceiling
+69	1.1	3	0.8	0.2
+70	3	1.8	0	1.5	numbered in ceiling in chamber by boulders from dig (approx middle of chamber)
+
+71	1.2	2	1	1.2	start of crawl towards exit
+72	0.3	1.3	1	0.5	just before calcite (with climb above) on r wall. Richard went up climb and reported it was a 3m climb then a 4m ramp up to a mini-chamber from which there was a too-tight calcite ramp on a bearing of 328
+73	0.1	0.3	1.0	0.4
+74	1	0	1	0.6
+75	-	-	-	-	corner before squeeze, I think it was on the R wall and passage small (maybe 0.4, 0, 0.2, 0.2 or thereabouts)
+76	0.2	0.2	0.4	0.2	made up unmarked station past squeeze at start of tight rift (faint draft?)
+36x	0.3	3.5	0.3	0.3	final station from Inlet5-Resurvey-1 by Dave and Ruth, l wall as look from chamber towards way out (ie from 76 towards 36x)
+
+*end Inlet5-Resurvey-2

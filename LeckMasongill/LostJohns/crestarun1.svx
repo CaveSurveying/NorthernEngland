@@ -1,0 +1,87 @@
+*begin crestarun1
+
+*export x 31 32
+
+*title "From old NOT numbered station on boulder at Kendal Flyover where Cresta Run crawl begins then up dig on left and to Bear Pit and up 2nd dig on left (think these are Venus and Serena digs)"
+
+*date 2013.1.01
+*team Instruments Julian Todd
+*team Notes Becka Lawson
+
+*instrument Becka's tandem comp and clino and Becka's 30m tape read from 0cm
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+; x	1-40x	3.07	132	+02	; note this leg done the following day by Andy Chapman (inst) and  Becka (notes) on 2 Jan 2013 in crestarun2 survey in order to check which station x was for connection to rest of survey. Assume x was station 1-39 of itsacracker2 though compass a bit off
+; x	1-40x	3.073	112.2	-6.0 ; this leg done on 12 Jan 2012 by Becka using Distox as another check of this leg ... so distance looks good for Andy but he has dodgy comp and clino - the Distox reading is bang on compared to the itsacracker2.39 - 40 leg which is reassuring
+
+x	10	2.05	263	-08
+10	11	3.42	185	+07
+11	12	5.35	232	-01
+12	13	4.31	121	-03
+
+13	14	3.56	172	-10
+15	14	4.17	325	-12
+15	16	2.73	176	-08
+16	17	4.39	105	-04
+17	18	4.26	191	+02
+18	19	6.67	145	0
+19	20	7.25	195	-01
+20	21	9.03	147	+02
+21	22	4.62	117	+01
+
+12	23	1.55	233	+09
+23	24	5.07	292	-04
+25	26	3.60	352	-11
+24	25	1.77	283	-27
+24	27	9.05	234	-01
+27	28	7.03	226	0
+28	29	4.60	302	-07
+29	30	14.39	210	+01
+30	31	4.65	159	-02
+31	32	4.47	272	+13
+31	33	6.29	207	+16
+
+33	34	5.88	183	+03
+34	35	6.30	211	-02
+35	36	3.07	179	+05
+36	37	4.93	170	-01
+
+*data passage station left right up down ignoreall
+
+; 1-40x	-	-	-	-	Bolt just (15cm?) below phanger on L wall at Kendal Flyover, old station on itsacracker2 survey
+x	0.6	1.5	0.4	0.3	old unnumbered station on boulder tip at start of crawl from Kendal Flyover
+10	0.4	0.6	0.3	0.2
+11	0.3	1.2	0.2	0.4	l wall
+12	1.6	0	0.2	0.2	junction with dig (dig on left)
+13	0.1	1	0.1	0.3	l wall / ceiling
+
+14	0.5	0.2	0.3	0.1	dig
+15	0.2	0.5	0.1	0.4
+16	0.7	0.4	0.3	0.3
+17	0.4	0.5	0.5	0.1
+18	0.4	1.2	0.3	0.3
+19	0.2	1.2	0.1	0.4
+20	0.6	0	0.3	0.2
+21	0.7	0.1	0.2	0.3
+22	1	0.1	0.2	0.5	numbered on right wall / ceiling
+23	0.5	1	0	1.2	main way on at junction
+24	0.5	1.3	0.1	1.2	on ceiling at junction with low crawl
+25	-	-	-	-	on r wall of main passage where inlet / low crawl  descends
+26	0.2	0	0.3	0.1	continues as narrow slot with water going down, sound of water ahead
+27	0.2	1.2	0.4	0.4	l wall
+28	0.3	1.2	0.3	0.3	white column on left at corner of passage
+29	-	-	-	-	
+30	1.4	0.1	1	0.5	r wall
+31	1.5	-	1.6	0.2	RRCPC yellow tag above Bear Pit; right is passage (main route to Lost Johns)
+
+32	0.3	1.6	0.2	1.5
+33	1	0.3	0.4	1.3
+34	1	1	0	1.3
+35	1	0.2	0.4	0.4
+36	0.3	0.5	0.2	0.6
+37	0.4	0.5	0	0.4 numbered but will probably get rubbed off by diggers
+
+*end crestarun1

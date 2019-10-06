@@ -1,0 +1,38 @@
+;Cave:	Ireby Fell Caverns
+;Surveyors:	Ray Duffy/Carmel Ramwell/Jane Chilton
+;Date:	01/11/98 pm
+;Instruments:	PAG (tape 10m missing)
+
+*begin	DingDongBellPitches
+
+*export 001
+*export 007
+*export 022
+
+
+*calibrate compass	+5.00
+
+
+001	002	00.70	180.0	+31.0	;st001=tag hole in rock right of entrance tube
+002	003	06.05	318.0	-52.0	;down tube
+003	004	09.50	325.0	-25.0
+004	005	03.18	005.0	-46.0
+005	006	04.17	059.0	-20.0
+006	007	01.33	351.0	-39.0
+007	008	06.84	067.0	-53.0	;st007=Ist P-Hanger
+008	009	01.82	052.0	+04.0
+009	010	08.57	 -	DOWN	;009-010 pitch
+010	011	05.06	054.0	+24.0	;st011 is knot on Y-hang (could go to Shadow this way)
+011	012	12.34	 -	DOWN	;011-012 pitch
+012	013	01.84	334.0	-15.0
+013	014	04.10	230.0	-27.0
+014	015	01.86	132.0	+05.0	;st015=P-hanger directly over lip of pitch
+015	016	13.50	 -	DOWN	;015-016 pitch
+016	017	01.74	220.0	-15.0
+017	018	06.10	232.0	-11.0
+018	019	01.31	230.0	-18.0
+019	020	02.86	212.0	-38.0
+020	021	04.51	275.0	-39.0	;st021 is edge of small pitch (Rope Pitch/Climb)
+021	022	02.17	249.0	-40.0
+
+*end DingDongBellPitches

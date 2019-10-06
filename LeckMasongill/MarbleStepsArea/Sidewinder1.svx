@@ -1,0 +1,50 @@
+;Cave:	MarbleStepsPot
+;Surveyors:	Dave Ramsay/Richard Bendall
+;Date:	16/06/11
+;Instruments:	Red Rose Suunto Compass & Clino kit 2, 30m tape	
+
+*begin	Sidewinder1
+*export 001 006	007 008 009 010 011 012
+
+
+;*calibrate compass
+*calibrate declination +2.49	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.188n 2.492w 2011.06.16 
+
+;stn to stn	tape	comp	clino
+
+
+001	002	1.90	277	+17	;Stn001 = Stn 021 WetRoute
+002	003	2.11	188	-2
+003	004	2.5	-	Down
+004	005	1.15	139	-26
+005	006	12.79	-	Down
+006	007	3.38	213	+19
+*flags splay ; (Marble Steps) across upper main chamber
+008	007	14.26	129	+8.5	;Stn8 =Tag at foot of gully route =Mainchamber006
+*flags not splay
+009	007	9.65	104	+33	;Stn9=2nd P bolt second pitch Gully route =Mainchamber 005?
+*flags duplicate ; (Marble Steps) long tie in upper to lower main chamber
+007	010	21.8	233	-58
+*flags not duplicate
+*flags splay ; (Marble Steps) lower main chamber splays
+010	011	2.43	269	+13	;Stn11=Mainchamber.026
+010	012	3.86	083	+16	;Stn12=Mainchamber.029
+*flags not splay
+
+*data passage station left right up down ignoreall
+
+001	0.0	0.6	3.0	3.0	;2nd P-Bolt
+002	0.9	0.0	3.0	1.0	;RH Wall	
+003	1.0	1.1	3.5	18.5	;LH Wall above pitch below "y"
+004	0.0	2.0	6.0	16.0	;RH Wall opposite rebelay
+005	0.0	2.0	6.0	13.5	;LH Wall back from rebelay
+006	1.2	0.0	18.0	1.6	;Foot of big pinacle below rising gully
+007	1.8	8.0	16.0	0.5	;Pinacle near Y hang lrup facing stn 10
+008	0.0	2.0	8.0	0.7	;Tag at foot of gully
+009	8.0	0.0	0.5	1.9	;2nd bolt
+010	3.0	4.0	7.0	0.8	;Small block in lower mainchamber
+011	0.0	0.6	0.6	1.2	;pssage jn rh wall =Mainchamber.026
+012	3.0	6.0	6.0	1.0	;LH wall =mainchamber.029
+
+*end	Sidewinder1

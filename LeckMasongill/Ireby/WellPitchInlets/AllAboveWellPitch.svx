@@ -1,0 +1,23 @@
+*begin allabovewellpitch
+
+*export abovewellpitch.33
+*export abovewellpitch2.8
+*export abovewellpitch2.4
+*export abovewellpitch2.1
+*export adultererropewelllink.2
+*export abovewellpitch3.12
+
+*include abovewellpitch
+*include abovewellpitch2
+*include abovewellpitch3
+*include AdulterersPassage
+*include adultererropewelllink
+*include tube
+
+*equate abovewellpitch.8a abovewellpitch3.8a
+*equate abovewellpitch.34 abovewellpitch2.8
+*equate adultererspassage.21 abovewellpitch.21
+*equate abovewellpitch.23 adultererropewelllink.x23
+*equate adultererspassage.2 tube.2x
+
+*end allabovewellpitch

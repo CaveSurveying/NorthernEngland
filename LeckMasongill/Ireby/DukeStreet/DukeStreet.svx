@@ -1,0 +1,73 @@
+;Duke Street I/Duke Street Digs/Whirlpool
+
+*begin DukeStreet
+
+*export southeastinlet3.7x
+*export DukeStreet1.059
+*export DukeStreet1.073
+*export ropepitch.101
+*export ropepitch.106
+*export ropepitch.49
+*export whirlpool.41
+
+*export ropepitch.63 ; P-hanger on boulder shelf above rope pitch
+*export ropepitchredonumbers.1 ; single phanger at streamway level before yhang for initial drop before well pitch
+*export ropepitchredonumbers.4 ; cow tag near Aberfan, near Yhang for dry alternative to Well pitch
+*export ropepitchredonumbers.24 ; spit below NE Inlet waterfall, to right of climb up to NE inlet
+
+*flags duplicate	; this not strictly necessary as already flagged as duplicate in original file
+*include DukeStreet1
+*flags not duplicate ; this not strictly necessary as already flagged as duplicate in original file
+
+; *include DukeStreetDigs
+*include whirlpool
+*include dukestdigsresurvey
+
+*include dukestdigsresurvey2
+*equate dukestdigsresurvey.19 dukestdigsresurvey2.3
+
+*include dukestsidepassage
+
+
+*equate DukeStreet1.073 dukest1resurvey2009.1	;connect sump end of second survey of Duke St 1 in 2009 to ray's original survey
+*equate DukeStreet1.059 dukest1resurvey2009.21	;connect upstream end of second survey of Duke St 1 in 2009 to ray's original survey
+*equate whirlpool.6x dukest1resurvey2009.6
+
+; a lot of lower streamway survey in here
+*include ropepitch
+
+*flags duplicate ; this not strictly necessary as already flagged as duplicate in original file
+*include ropepitchredonumbers
+*flags not duplicate ; this not strictly necessary as already flagged as duplicate in original file
+
+*equate ropepitch.1 dukest1resurvey2009.21
+*equate ropepitch.1 dukestdigsresurvey.z
+*equate ropepitch.4 dukestsidepassage.C
+*equate ropepitch.1 ropepitchredonumbers.73	; connect these two surveys at cow tag at top of Duke St 1
+*equate ropepitch.44 ropepitchredonumbers.30	; connect these two surveys at East Inlet station at dam
+*equate ropepitch.49 ropepitchredonumbers.26	; connect these two surveys at top of boulder slope in chamber
+*equate ropepitch.63 ropepitchredonumbers.14	; connect these two surveys at phanger inbetween Adulterers traverse and dry pitch bypass to Rope pitch
+
+*include dukest1resurvey2009
+*equate dukest1resurvey2009.15 dukestsidepassage.15x
+
+*include boltonextensionsresurvey
+*equate boltonextensionsresurvey.43x ropepitch.43
+
+; East Inlet
+*include eastinletresurvey
+*equate ropepitch.44 eastinletresurvey.44
+
+; Southeast Inlet
+*include southeastinlet
+*include southeastinlet2
+*include southeastinlet3
+
+*equate ropepitch.43 southeastinlet.43x
+*equate southeastinlet.22 southeastinlet2.22x
+*equate southeastinlet2.40 southeastinlet3.40x
+
+; *equate DukeStreet1.059 DukeStreetDigs.005	;Duke Street Digs off Duke Street
+; *equate Whirlpool1.001 DukeStreet1.069	;Start of Whirlpool off Duke Street
+
+*end DukeStreet

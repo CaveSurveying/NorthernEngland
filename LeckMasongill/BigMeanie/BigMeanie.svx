@@ -1,0 +1,15 @@
+*begin BigMeanie
+
+*export Entrance 
+*export BigMeanieDeathsHeadSurface.8 BigMeanie_2.2x 
+*entrance Entrance
+
+*include BigMeanieDeathsHeadSurface
+*include BigMeanie_1  
+*include BigMeanie_2
+
+*equate BigMeanieDeathsHeadSurface.1 BigMeanie_1.2p
+*equate BigMeanie_1.4 Entrance
+*equate BigMeanie_1.27 BigMeanie_2.w
+
+*end	BigMeanie

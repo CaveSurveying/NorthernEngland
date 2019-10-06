@@ -1,0 +1,34 @@
+*begin ShortDrop
+
+;*fix	FencePost 67030	78934	346
+
+*export shortdrop4canalinlet.14
+
+*export FencePost 
+*equate shortdrop1.1 FencePost
+
+*include shortdrop1
+*include shortdrop2
+*include shortdrop3
+*include RiftEntrance
+*include shortdrop4canalinlet
+*include shortdrop5
+*include shortdrop6
+*include shortdrop7
+
+*equate shortdrop1.20 shortdrop2.19
+*equate shortdrop2.1 shortdrop3.001
+*equate RiftEntrance.1	ShortDrop2.9
+*equate shortdrop1.4 shortdrop4canalinlet.1x
+
+*equate shortdrop3.025 shortdrop5.25x
+;*equate shortdrop3.014 shortdrop5.tag1
+*equate shortdrop3.015 shortdrop5.15x
+;*equate shortdrop3.016 shortdrop5.16x
+
+*equate shortdrop5.tag2 shortdrop6.cowtag2
+*equate shortdrop6.cowtag3 shortdrop7.cowtag3
+
+; NEED TO DECIDE HOW TO RECONCILE COMPASS FOR SHORTDROP 5 AND 6 - CHECK DECLINATION DIFFERENCE DUE TO DATE DISCREPANCY BUT UNLIKELY TO FIX MUCH; COULD JUST FORCE MAIN PASSAGE TO ROTATE ... BUT THEN NEED TO ROTATE SIDE PASSAGES BY THE SAME AMOUNT
+
+*end ShortDrop

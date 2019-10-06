@@ -1,0 +1,63 @@
+;Cave:	Long Drop Cave & Short Long Drop Cave
+
+;Surveyors:	Dave Ramsay/Richard Bendall/Jim Stevenson/Hugh StLawrence
+;Date:	15/02/07, 02/08/07, 09/08/07
+
+;Instruments:	Red Rose Sunto Compass & Clino kit 2, 30m tape
+
+
+
+*begin	longdrop1
+
+
+
+
+
+;*calibrate compass
+
+
+
+*export 009
+*export 112
+
+; duplicated from shortlongdrop
+;;001	002	05.00	152.0	-20.0	;start of 15/02/07 survey, stn1 is floor of chamber at foot of rope, distance estimated
+;001	003	03.10	297.0	 00.0
+;;003	004	04.50	311.0	-07.0	;distance between stn3 and stn4 is estimated
+;001	005	08.50	 -	UP	;stn5 is y hang knot
+;005	006	01.61	150.0	+07.0
+;006	007	02.90	121.0	+27.0
+;007	008	01.65	 -	UP
+;008	009	01.10	290.0	 00.0	;end of 15/02/07 survey, stn9 is drilled hole above entrance
+
+
+009	102	07.25	285.0	-10.0	;start of 02/08/07 survey, stn102 is rock projection above ent to Long Drop
+
+
+102	103	01.70	 -	DOWN
+
+104	103	02.95	151.0	+02.0	;stn104 is mark on L wall just after hanger
+
+;104	105	09.54	 -	DOWN	;stn105 is pitch bottom on undercut
+
+
+104	112	09.36	 -	DOWN	;start of 09/08/06 survey stn112 is pitch bottom on undercut above stn105
+
+113	112	02.40	327.0	-28.0	;stn113 is in parallel aven
+
+114	112	03.12	243.0	+08.0	;stn114 is in Short Long Drop
+
+114a	114	02.50	146.0	 00.0	;measured leg, compass estimated same as stn114 to stn115
+
+114	115	03.03	146.0	+15.0	;stn115 is marked block in wall foot
+
+116	115	01.10	235.0	-06.0
+
+116	117	05.05	149.5	-19.0	;end 9/8/07 survey,stn117 is lowest part of continuation
+
+
+
+
+
+
+*end	longdrop1

@@ -1,0 +1,95 @@
+*begin lowdoukBACrift
+*export 26x
+
+*title "Low Douk from just beyond climb down to sump through dig into BAC rift"
+*date 2013.10.05
+*team Notes Becka Lawson
+*team Instruments Emma Wilson
+
+*instrument comp&clino Becka's Distox
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+26x	1	0.57	069	-19
+1	2	7.88	353	+47
+26x	3	2.75	331	-33.5	; checked with Becka's tandem compass and clino, got 328 and -31
+3	4	2.23	235	-48		; checked with Becka's tandem compass and clino, got 238 and -48
+4	5	3.50	217	-19		; checked with Becka's tandem compass and clino, got 222 and -20
+5	6	3.20	220	-02
+7	6	2.27	040.5	-27
+7	8	4.58	323	-13
+8	9	4.59	025	-27.5
+7	10	7.49	171	+37
+10	11	5.27	284	+13
+11	12	1.25	111	+54
+12	13	6.78	004.5	+83
+10	14	7.36	183	+36
+14	15	4.16	300	+17
+
+15	16	5.42	188	+42
+16	17	4.39	316	+83
+14	18	2.74	133	+11	; CHECK is 133, not clear - checked 25/10/13 with Distox download, is OK
+18	19	8.10	128	+34
+19	20	7.73	100	+42
+; 20	21	5.61	146	+57	; drop this leg as then surveyed up
+20	22	1.68	172	+59
+22	23	3.13	128	+50	; CHECK +50, not clear
+23	24	2.51	100	-44
+24	25	2.16	110	-07
+
+26	25	1.08	327	-18.5
+26	27	3.52	169	-12
+27	28	0.80	094	-33.5
+28	29	2.94	067	+01
+
+38	39	5.57	175	+53
+38	40	3.23	333	-25.5
+41	40	1.08	171	-42
+42	41	2.75	129	-18
+42	19	4.46	293	-37	; station 19 written as station 43 in notes as we didn't know which station it was at time but leg 43 to 18 was identical to leg 19 / 18 so have removed this leg; changed clino from -40 to -37 after downloading Distox
+; 43	18	8.10	308	-34
+
+*data passage station left right up down ignoreall
+
+26x	-	-	-	-	old, numbered station just beyond passage to BAC rift on l wall
+1	-	-	-	-	unmarked
+2	-	-	-	-	up climb above main passage from station 26x
+3	-	-	-	-	unmarked at top of climb
+4	1.2	1	0.5	0	floor at start of dig
+5	1	0.1	0.2	0.1	start of puddle
+6	0.2	1	0.3	0.1	end of puddle/dig
+7	1.7	1	0.6	0.3
+8	0	1	0.3	0.5
+9	0.3	0.2	0.1	0.2	unmarked, down to probable sump
+10	-	-	-	-	numbered in ceiling
+11	1.2	0.5	6	0
+12	0.5	1	7	2	at base of aven
+13	-	-	-	-	at top of aven
+14	3	2	4	1.5	numbered
+15	0.6	0	4	0.5	numbered
+
+16	0.5	0.5	4	0	bottom of aven, would be tricky muddy climb to get up
+17	-	-	-	-	top of aven
+18	2	1.3	7	2	numbered
+19	1.2	1	5	1.5
+20	1	3	4	1	
+; 21	-	-	-	-	roof of bouldery climb
+22	2	1	2	2	numbered
+23	-	-	-	-	bouldery chamber
+24	0	1.5	0.1	0.2	
+25	0.1	0.4	0.3	0.1
+26	-	-	-	-	
+27	2.5	0.2	0.5	0.5	numbered at near side of duck
+28	1	2	1	0	edge of pool
+29	-	-	-	-	far side of pool / duck
+
+38	1	0	3	1.5	numbered on l wall
+39	-	-	-	-	shot up tight inlet
+40	0	0.3	0.6	0.3
+41	0.4	1	0	0.5
+42	0	1	0.3	2	
+; 43	-	-	-	-	station from earlier in this survey, probably 19
+
+*end lowdoukBACrift

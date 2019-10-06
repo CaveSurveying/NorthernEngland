@@ -1,0 +1,31 @@
+
+*begin Large4
+*export 34x
+
+*title "Side inlet on right in Large Pot between Thornton Hall and Tinkle Inlet"
+*date 2010.10.30
+*team Instruments Becka Lawson
+*team Notes Neil Pacey
+*instrument Neil's distox calibrated about a month ago for the Large1 trip
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+34x	1	2.10	332	-03
+1	2	5.65	206	-01
+2	3	1.61	280	+03
+3	4	4.32	208	+01
+5	4	2.19	142	+03
+5	z	12.28	333	+01
+
+*data passage station left right up down ignoreall
+
+34x	0	0.5	0.3	0.6	numbered station from Large1 survey trip last month one leg into side passage
+1	1	0.2	0.2	0.8	down unclear, definitely less than 1 metre
+2	0	1	0.2	0.3
+3	1	0	0.2	0.3	
+4	0	2.3	4	0.5
+5	0	0.3	0.2	0.3	unmarked, shot into crawl which continues low and damp
+
+*end Large4

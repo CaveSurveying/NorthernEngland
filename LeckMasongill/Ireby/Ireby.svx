@@ -1,0 +1,41 @@
+*begin Ireby
+
+*export EntranceTag
+*export SoutheastInletConnection
+
+*entrance EntranceTag
+
+*equate EntranceTag Streamway.DingDongBellPitches.001
+
+*equate SoutheastInletConnection DukeStreet.southeastinlet3.7x
+
+*equate GloryHoles.GloryHoles2.1 CrippleCreek.GloryHoles1.005
+*equate	CrippleCreek.GloryHoles1.001 Streamway.streamwaybubblestagdownstream.bubblestag
+*equate CrippleCreek.cripplecreekconnect.33 Ireby2.jupitertoescalator.33
+*equate Ireby2.jupiter2irebyone.50 DukeStreet.DukeStreet1.073
+*equate allabovewellpitch.abovewellpitch2.4 Streamway.streamwayuptoduckresurvey.1
+*equate DukeStreet.ropepitch.63 allabovewellpitch.adultererropewelllink.2
+*equate allabovewellpitch.abovewellpitch2.1 DukeStreet.ropepitch.101
+*equate allabovewellpitch.abovewellpitch.33 DukeStreet.ropepitch.106
+*equate DukeStreet.ropepitchredonumbers.1 Streamway.streamwayuptoduckresurvey.1
+*equate DukeStreet.ropepitchredonumbers.4 allabovewellpitch.abovewellpitch2.8
+*equate DukeStreet.whirlpool.41 Ireby2.dukest2tocanal.25
+*equate DukeStreet.ropepitch.49 northeastinlet.neinlet1.49x
+*equate DukeStreet.ropepitchredonumbers.24 northeastinlet.neinlet1.4
+*equate allabovewellpitch.abovewellpitch3.12 northeastinlet.neinlet1.12x
+*equate GloryHoles.TrueGrit.002 northeastinlet.neinlet9.8
+
+; BEGINTABLE
+
+*include Streamway/Streamway ; Ireby Fell Cavern
+*include GloryHoles/GloryHoles ; Ireby Fell Cavern
+*include CrippleCreek/CrippleCreek ; Ireby Fell Cavern
+*include Ireby2/Ireby2 ; Ireby Fell Cavern
+*include WellPitchInlets/AllAboveWellPitch ; Ireby Fell Cavern
+*include DukeStreet/DukeStreet ; Ireby Fell Cavern
+*include NorthEastInlet/allneinlet ; Ireby Fell Cavern
+
+; ENDTABLE
+
+*end Ireby
+

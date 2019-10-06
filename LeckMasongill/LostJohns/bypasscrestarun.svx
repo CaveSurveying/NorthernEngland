@@ -1,0 +1,43 @@
+;;;;;;;;;;;;;;;;
+; generated from shortcuttocrestarun.top
+;;;;;;;;;;;;;;;;
+
+*begin bypasscrestarun
+
+*export 1-50 3-10 3-15
+
+*title "Bypass of Cresta Fun - From station near base of Boxhead main pitch from Its A Cracker survey to end of Cresta Run"
+
+*date 2012.10.27
+*team Instruments Andy Powell
+*team Tippex Andy Chapman
+*team Notes Andrew Atkinson
+
+*instrument Becka's distox calibrated in the cave with delta of 0.61 I think on 26.10.12 and Becka's PDA for notes
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+*data normal from to tape compass clino ignoreall
+
+1-50	3-0	0.000	0.00	0.00	Roll:0	0	d1
+3-0	3-1	8.845	310.08	-1.27	Roll:354	0	d3
+3-1	3-2	3.655	308.39	-1.47	Roll:259	0	d3
+3-3	3-2	2.915	135.69	-0.90	Roll:62	0	d3
+3-3	3-4	4.302	313.73	0.95	Roll:285	0	d3
+3-4	3-5	3.437	325.55	-1.22	Roll:277	0	d3
+3-5	3-6	1.829	287.17	-5.69	Roll:82	0	d3
+3-6	3-7	0.950	319.45	-2.48	Roll:276	0	d3
+3-7	3-8	3.294	301.34	3.00	Roll:246	0	d3
+3-8	3-9	3.049	339.05	21.79	Roll:332	0	d3
+3-9	3-10	1.018	21.57	18.56	Roll:8	0	d3
+3-10	3-11	4.246	77.60	-7.72	Roll:287	0	d3
+3-11	3-12	4.266	48.92	11.75	Roll:350	0	d3
+3-12	3-13	2.748	107.84	-30.40	Roll:287	0	d3
+3-13	3-14	5.360	70.05	-2.30	Roll:8	0	d3
+3-13	3-15	1.437	59.99	8.60	Roll:25	0	d3
+
+; splays 
+;3-0	-	0.946	220.16	12.88	Roll:349	0	d1  ; stn 50 yesterdays survey 
+;3-15	-	0.000	0.00	0.00	Roll:0	0	d1  ; tpx 15 lhw
+
+*end bypasscrestarun

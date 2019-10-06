@@ -1,0 +1,126 @@
+; Locn:	Leck Fell
+; Cave:	Ireby Fell Cavern
+; Escalator Rift climb
+
+*begin escalatorclimb
+
+*export 21x 44x
+
+*title "Escalator Rift Climb"
+*date 2010.02.20
+*team Insts Patrick Warren
+*team Notes Becka Lawson 
+*instrument Compass and Clino - Becka's Tandem; Patrick's Tape - 20m read from 0cm
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+21x	1	4.75	135	+24
+2	1	2.60	035	+04
+2	3	5.05	078	-09
+3	4	2.39	158	-04
+4	5	1.57	264	-07
+5	6	4.66	171	+05
+6	7	2.70	054	-12
+7	8	3.63	168	-04
+8	9	2.36	040	+35
+
+9	10	1.14	001	-03
+10	11	2.79	087	+05
+11	12	3.09	196	+12
+12	13	2.01	091	-04
+13	14	1.51	080	-07
+14	15	1.19	199	0
+15	16	1.34	268	-21
+16	17	3.70	188	+03
+17	18	3.82	135	+13
+18	19	4.10	055	-08
+
+20	19	1.58	155	+10
+21	20	6.64	000	-86	; plumb wasn't quite vertical so I've taken the error to be 0.5m north and done arcsin to calculate clino as -86 rather than the -90 in notes
+22	21	3.02	179	-05
+23	22	2.34	260	-53
+24	23	4.30	031	-47
+25	24	1.23	-	down
+26	25	2.88	218	-26
+
+26	27	4.83	080	+03
+28	27	1.45	229	-64
+28	29	2.81	061	+04
+29	30	4.20	036	-38
+30	31	5.78	010	+07
+31	32	2.88	025	+04
+32	33	3.45	079	+41
+33	34	2.88	069	+01
+34	35	4.16	043	+12
+35	36	2.55	343	-03
+
+36	37	4.56	024	+30
+37	38	2.08	027	+42
+38	39	1.64	079	+04
+39	40	3.97	015	+11
+41	40	5.66	-	down
+41	42	2.94	336	-10
+43	42	2.25	219	-17
+43	44x	1.79	115	+71
+43	44	6.06	082	+35
+
+*data passage station left right up down ignoreall
+21x	0.3	0.3	2	2.4	old numbered station 21 on r wall from jupiter2irebyone survey
+1	0	0.4	5	2.5	lp l wall before corner
+2	1.3	0	4	2	r wall at corner
+3	0	0.5	8	1.7	l wall
+4	0	0.5	8	1.6	l wall
+5	0.6	0	8	1.5	r wall
+6	0.5	0	2.5	1.6	up to boulders, r wall, high level traverse above here
+7	0	1.1	3	1.1	l wall
+8	1	0	8	0.6	r wall
+9	0.6	0	8	1.7	r wall
+10	0	0.6	2	1.6	l wall up to boulders
+
+11	0	0.6	7	1.7	l wall
+12	1.1	0	8	2	r wall
+13	0.3	0.2	8	2	r wall
+14	0	0.5	7	1.5	l wall
+15	0	0.3	7	1.5	l wall
+16	0.4	0	7	1	r wall
+17	0.9	0.1	7	1	r wall
+18	0.8	0	7	1.8	r wall
+19	1	0	7	1.3	r wall before gets low
+
+20	1	0.1	8	1	r wall about 5m before chokes at stream level
+21	1.1	0.1	1.5	7	r wall up to wedged boulder
+22	0	0.8	2	7	l wall on wedged boulder
+23	0	0.5	2	9	l wall
+24	0.5	0.5	3	0	above third climb
+25	1	1	2	1.5	boulder
+26	0.2	0.5	1	1.5	boulder in passage before squeeze
+
+27	1	2	4	0.5	just after squeeze, right is 0 to huge fallen block but 2 to true wall beneath undercut of boulder
+28	1	0	1.5	2	r wall
+29	1	1.5	2	2	l wall
+30	1.3	1.1	5	1.5	boulder tip in chamber
+31	1	0	2.5	0.8	r wall
+32	1	0	2	1.3	r wall
+33	1.5	1.2	0.3	1.1	r wall / block
+34	2	0.3	1.2	0.4	r wall
+35	0.4	0.2	4	1.2	r wall before pool
+36	0.4	0	6	1.6	r wall just before waterfall
+
+37	0	0.4	5	1.5	l wall between first and second waterfall
+38	0	0.4	4	1.3	l wall above third waterfall
+39	0.4	0.4	4	1.6	l wall
+40	0.3	0	4	1.7	r wall before fourth waterfall
+41	1	1	5	5.5	level with top of ladder, r wall
+42	1	2	8	6	spit for ladder
+43	0	1	8	2	l wall
+44x	1	0	7	3	old numbered station 44 on r wall of passage above ladder from jupitertoescalator survey (in notes wrote "24" but assume misread the station number when underground)
+44	0.4	0.2	6	0.8	broken tip of stalagmite about 2m before passage chokes
+
+*end escalatorclimb
+
+
+
+
+

@@ -1,0 +1,39 @@
+
+*begin LazloStrog4
+*export 5x 18
+
+*title "Count Lazlo Stroganoff from base of initial pitches to top of initial pitches"
+*date 2010.11.21
+*team Instruments Julian Todd
+*team Notes Becka Lawson
+*instrument Becka's Tandem as comp and clino and Becka's 30m tape read from *20cm* as end now fallen off!
+
+*calibrate tape 0.20	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+9	5x	10.98	221	-74
+10	9	5.15	316	-56
+11	10	4.95	319	-72
+12	11	5.69	021	-72
+13	12	7.44	170	-84
+14	13	4.53	165	-71
+15	14	2.68	234	-03
+16	15	6.08	-	down
+17	16	6.57	0	-75
+18	17	2.83	329	-19
+
+*data passage station left right up down ignoreall
+
+5x	5	0	10	1.5 old station from previous day's BrunoKranskies1 survey
+9	4	2	8	10
+10	1.5	0.3	6	2
+11	0	0.7	3	4	L spit of Y hang for pitch
+12	0.7	0.3	6	5
+13	0.3	0.3	0.5	7	Y hang knot
+14	1.6	1.3	0.2	5	Y hang knot for short, drippy pitch
+15	1	1.2	5	0.1
+16	0.4	0.3	8	6	Y hang knot, numbered pencilled on wall near left bolt
+17	0.3	0.2	0.2	6	Y hang knot
+18	0	0.3	0.8	1	backup spit for uppermost pitch, on L wall, numbered
+
+*end LazloStrog4

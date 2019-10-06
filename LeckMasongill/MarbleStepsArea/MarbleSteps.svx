@@ -1,0 +1,64 @@
+;Cave:	Marble Steps Area
+
+*begin MarbleSteps
+
+*export EntranceTag
+*export SurfaceMarbleSteps.003 ; Steps Pot entrance
+*export SurfaceMarbleSteps.008 ; Lost Marbles entrance
+
+*entrance EntranceTag
+*entrance WetRoute1.001
+
+*include SurfaceMarbleSteps
+*include SurfaceMarbleSteps2Sink
+
+*include Mas01
+;*include Mas02
+;*include Mas03
+*include LostMarbles4
+*include LostMarbles5
+*include WetRoute1
+*include Sidewinder1
+*include Sidewinder2
+*include Flyover1
+*include MarbleArch
+*include PicnicDig
+*include MainChamber1
+*include MainChamber2
+*include Intestines1
+*include Intestines2
+
+*equate EntranceTag SurfaceMarbleSteps.001
+
+*equate SurfaceMarbleSteps.001	Mas01.001 ; entrance tag tie in
+*equate SurfaceMarbleSteps.007  WetRoute1.001 ; wet route entrance
+
+*equate SurfaceMarbleSteps.007	SurfaceMarbleSteps2Sink.001
+
+; following tie in not in originals -- Lost Marbles entrance
+*equate SurfaceMarbleSteps.008	SurfaceMarbleSteps2Sink.003
+
+*equate Mainchamber1.011 LostMarbles4.1
+*equate LostMarbles4.16 LostMarbles5.1
+
+;*equate	Mas01.003 Mas02.001
+;*equate	Mas02.016 Mas03.001
+
+*equate WetRoute1.007 MarbleArch.1
+*equate MainChamber1.005 Mainchamber2.007
+*equate MainChamber1.006 Mainchamber2.008
+*equate MainChamber1.026x WetRoute1.026
+*equate sidewinder1.001 WetRoute1.021
+*equate sidewinder1.007 Flyover1.001
+*equate sidewinder1.010 Mainchamber2.001
+*equate sidewinder1.008 Mainchamber1.006
+*equate sidewinder1.009 Mainchamber1.005
+*equate sidewinder1.011 Mainchamber1.026
+*equate sidewinder1.012 Mainchamber1.029
+*equate sidewinder1.006 sidewinder2.001
+*equate sidewinder2.003 PicnicDig.8
+*equate Intestines1.42x Mainchamber1.042
+*equate Intestines2.36x Intestines1.36
+*equate Intestines2.43x Intestines1.43
+
+*end MarbleSteps

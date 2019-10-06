@@ -1,0 +1,36 @@
+;Cave:	Kirk Pot - Ease Gill
+
+*begin	KirkPot
+
+;*export Entrance
+;*entrance Entrance
+
+*fix tag	66263.63 80196.70 250.43	;ev.ss09.030 from kip.svx
+
+
+*include KirkPot1
+*include KirkPot2
+*include KirkPot3
+*include KirkPot4
+*include KirkPot5
+*include KirkPot6
+
+;--------------------------------------------------------------------
+
+*equate tag KirkPot2.33
+;*equate KirkPot.1 ?? 
+*equate KirkPot1.13 KirkPot2.1
+*equate KirkPot1.19 KirkPot2.5
+*equate KirkPot1.13 KirkPot2.7
+*equate KirkPot1.5 KirkPot2.13
+*equate KirkPot1.4 KirkPot2.20
+*equate KirkPot1.2 KirkPot2.37
+*equate KirkPot1.1 KirkPot2.34
+
+*equate KirkPot1.24 KirkPot3.001_Start_dive_line
+*equate KirkPot3.015_Belay_Pegleg_Junc KirkPot4.U001
+*equate KirkPot3.027_Sump3_diveline_shotline_belay KirkPot4.DSS1
+*equate KirkPot5.u005 KirkPot4.u005
+*equate KirkPot6.DSS4 KirkPot4.Dss4
+
+*end	KirkPot

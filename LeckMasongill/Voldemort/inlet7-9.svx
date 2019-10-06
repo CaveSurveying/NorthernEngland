@@ -1,0 +1,31 @@
+*begin inlet7-9
+*export 004
+*export 001
+*data normal from to tape compass clino ignoreall
+*units length metres
+*calibrate tape 0.0
+*units compass degrees
+*calibrate compass 0.0
+*units clino degrees
+*calibrate clino 0.0
+
+;Cave:	Notts II - Inlet 7
+;Description: Pleasures of the Palm - Bottom chamber
+;Surveyors:	Inst: Pete Hall;	Notes: Neil Pacey
+;Date:	23/12/04
+;Instruments:	RRCPC Kit 4, Tape 3 metres short
+
+
+
+*calibrate compass	+5.00
+*calibrate clino	-0.50
+*calibrate tape		+3.00
+
+;From	To	Tape	Compass	Clino		L	R	U	D	Comments
+
+001	002	8.40	165	+22		;0	0.6	3.0	2.0	Stn1 End of choked rift passage, scratched on LH Wall
+002	003	5.10	-	UP		;1.0	1.5	0	5.1	Stn2 1 metre above boulder on rope pitch down
+004	003	6.95	352	-12		;1.6	1.0	Pitch	0	Stn3 Bolt at top of 4 metre Pitch
+						;				Stn4 = Stn012 Inlet7-8 16/12/04
+
+*end inlet7-9

@@ -1,0 +1,36 @@
+*begin crestarun7
+*export 1 8
+
+*title "Hand shake crawl"
+
+*date 2013.12.28
+
+*team Instruments Andy Chapman
+*team Notes David Loeffler
+*team Tape Michael Sargent
+
+*instrument Becka's tandom + beckas 30m tape
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+2	1	6.20	025	-15
+;2	1	6.20	031	-13 ; duplicate leg recorded by Michael (novice surveyor)
+3	2	2.33	016	-01
+4	3	3.72	045	-07
+5	4	3.28	042	000
+6	5	4.15	023	-02
+7	6	3.73	020	00
+8	7	1.99	068	+01
+
+*data passage station left right up down ignoreall
+1	2.5	1	1	0	Tag on rock
+2	0.5	0.2	0.1	0.4	White Paint (wpt) Ceiling
+3	0	1	0.3	0.5	wpt wall
+4	0	0.7	0.4	0.1	wpt
+5	1.5	0.2	0.6	0.4	wpt rock
+6	1.0	0.6	0	0.6	wpt
+7	1.8	0.4	0.3	1.0	wpt
+8	1.4	0.6	0.3	0.9	Dot of white paint with number "8" painted below	
+
+*end crestarun7

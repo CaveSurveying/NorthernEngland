@@ -1,0 +1,32 @@
+*begin ChisholmTrailWestAndy
+*export 5 175x
+
+*title "From old numbered station 174 CHECK to Dave Ramsay station 10 survey"
+*date 2012.10.14
+*team Instruments Fleur Loveridge
+*team Notes Andy Chapman
+*team Tape Pete Talling and Sally White
+*instrument RRCPC comp and clino and RRCPC 30m tape read from 20cm
+
+*calibrate tape +0.20	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+175x     1 3.88 114  +04	; written as 0 to 1 in notes and no record of numbered station that survey started from
+1        2 2.60 143  +08	; very hard to read stations from notes but seems to show 2 to something but then leg looks reversed
+2        3 1.92 187  +18
+3        4 4.30 100  +09
+4        5 5.60 116  +02
+3        6 3.50 244  +18	; cannot read station numbers from notes
+
+*data passage station left right up down ignoreall
+
+175x  -       -       -    -     old numbered station
+1     0     0.3     0       0.9
+2     0     0.4     0.2     0.3
+3     0.2   0.2     0       0.6	 piece of paper left on cairn as permanent survey station
+4     0.5   0.3     1       0.6
+5     0.6   0.2     0.8     0.6
+6     0.5   0.4     0.2     0.7   alcove
+
+*end ChisholmTrailWestAndy

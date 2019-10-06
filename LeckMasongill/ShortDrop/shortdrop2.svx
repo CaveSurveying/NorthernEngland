@@ -1,0 +1,57 @@
+*begin shortdrop2
+*export 1 9 19
+
+*title "Short Drop along Dry Oxbow to Masochists Passage"
+*date 2010.07.25
+*team Instruments Andy Chapman
+*team Notes Jess Stirrups
+*team Tape Jess Stirrups
+*instrument Becka's tape read from 10cm and Becka's tandem comp/clino
+
+*calibrate tape +0.10       ; +ve if tape was too short, -ve if too long
+
+;from   to      tape    compass clino   remarks
+
+2     1    2.20  282    -21
+3     2    1.29  230    +12
+4     3    3.25  313    -00
+5     4    3.82  305    +05
+6     5    6.35  296    +04
+7     6    3.20  310    +00
+8     7    2.50  345    +00
+9     8    2.63  275    -26
+10     9    1.50  235    -39     
+11     10    3.88  250    +00
+12     11    2.10  240    +00
+13     12    1.01  165    +40
+14     13    1.43  147    +00
+15     14    2.04  270    +00
+16     15    1.40  176    +04
+17     16    2.05  110    -23
+18     17    1.97  243    -20
+19     18    4.16  219    +00
+
+
+*data passage station left right up down ignoreall
+1     1       0     	1.2  	1.4   yellow tag on r wall at junction with masochists passage
+2     0       0.7     	2  	3     nobble, l wall
+3     0       0.4     	1.5  	1.5   l wall head height
+4     0       0.7     	4  	1.5   shelf, l wall
+5     0       1     	4  	2     nobble, l wall
+6     1       0     	3  	2     r wall
+7     0       1     	1  	1.5   l wall
+8     1       0.5     	3  	1     shelf r wall
+9     0       1     	1.5  	1.5   yellow tag on left wall at junction
+10    0       1.3     	0.5  	3     nobble on shelf, l wall
+11    0       1     	0.5  	2     l wall
+12    0       1.5     	0.5  	2     l wall 
+13    0       1     	1.5  	2     l wall
+14    0       0.8     	1  1.	5     l wall
+15    0.7     0     	1.5  	1.5   r wall
+16    0       1     	1.5  	1.5   l wall
+17    0       0.5     	1.5  	1.5   l wall
+18    0       0.6     	0.5    	1.5   l wall
+19    1.5     0.2     	0.3  	1.8   just beyond tight section - final leg of shortdrop1 where 2 survey parties met
+
+*end shortdrop2
+

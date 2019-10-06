@@ -1,0 +1,44 @@
+; Locn:	Leck Fell
+; Cave:	Notts II
+; Inlet 8
+
+*begin Inlet8_3
+
+*export 1 5
+
+*title "Inlet 8"
+*date 2012.11.05
+*team Insts Richard Bendall
+;*team tape 
+*team Notes Dave Ramsay
+*instrument RR kit 2
+
+*calibrate tape +0.20	; +ve if tape was too short, -ve if too long
+
+
+*calibrate declination +2.36	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.1994n 2.5124w  2012.11.05
+
+*data normal from to tape compass clino
+
+;from	to	tape	compass	clino	remarks
+
+1	2	1.83	211	-13
+2	3	2.02	304	-8
+3	4	3.97	255	+4
+4	5	4.06	301	0.0
+;5	6	2.22	273	0.0	leg into dig superseeded by Inlet8_4 data.RGB 11.02.13
+
+
+*data passage station left right up down ignoreall
+
+1	0.8	0.3	0.4	1.1	;Prev Stn
+2	1.0	1.0	1.0	1.0	;Wall
+3	0.8	0.2	0.2	0.8
+4	0.0	0.8	0.4	0.9	;LH Wall
+5	0.6	0.0	1.5	0.9	;RH Wall @ end of rift bottom of rock wall
+
+
+*end Inlet8_3
+
+

@@ -1,0 +1,26 @@
+;Cave:	Notts II - oliver Lloyds Aven , Uncle Festers Boots
+;Surveyors:	D.Ramsay/P.Windle
+;Date:	13/11/05
+;Instruments:	New kit 2
+
+;*equate	Inlet7-12.101	Inlet7-11.006
+
+
+*begin	Inlet7-12
+*export 101 103
+
+102	101	2.00	230	 0
+102	103	6.30	-	UP	;103 is Yhang at incredibles down pitch
+104	103	5.80	239	-46	;into Uncle Festers Boots
+105	104	2.40	256	-29
+106	105	4.50	250	 0
+107	106	4.30	263	+2
+107	108	1.00	-	DOWN
+109	108	1.50	255	-15
+110	109	5.20	250	-1
+111	110	6.00	266	+2	;Continues V low muddy with inlet dribble, would dig long term.
+109	109a	1.00	280	 0
+109a	109b	6.00	-	DOWN	;Short ladder climb down capped hole. Debris blocks bottom, restricted working room.
+
+
+*end	Inlet7-12

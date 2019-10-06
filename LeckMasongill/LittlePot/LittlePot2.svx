@@ -1,0 +1,37 @@
+;Cave:	Little Pot
+;Surveyors:	Dave Ramsay/Richard Bendall
+;Date:	28/04/11
+*date 2011.04.28
+;Instruments:	Red Rose Suunto Compass & Clino kit 2, 30m tape	
+
+*begin	Littlepot2
+*export 001
+
+*calibrate declination 2.65
+;*calibrate compass
+
+;stn to stn	tape	comp	clino
+
+
+001	002	1.45	-	Down
+002	003	2.33	270	-54
+003	004	2.80	-	Down
+004	005	1.02	101	-69
+005	006	6.08	-	Down
+006	007	1.83	031	-31
+007	008	2.31	067	-21
+008	009	2.50	105	0.0
+
+*data passage station left right up down ignoreall
+
+001	1.5	0.2	0.3	2.0	;= LittlePot1.Stn 010 LH WallTag at Large Pot Entrance
+002	0.2	0.4	1.4	0.5	;Rock Corner
+003	0.0	0.5	0.5	4.3	;LH Wall above Pitch
+004	0.15	0.45	4.3	1.5	;RH Wall above ledge
+005	0.15	0.9	4.0	7.6	;floting above drop
+006	0.5	0.05	8.0	1.7	;0.1 from RH Wall
+007	0.3	0.4	0.0	1.7	;Roof, middle of passage
+008	0.0	0.4	0.5	0.4	;LH Wall
+009	0.0	0.4	0.3	0.3	;Leg into tight continuation
+
+*end	Littlepot2

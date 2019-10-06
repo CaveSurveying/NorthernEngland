@@ -1,0 +1,75 @@
+*begin OccultSeries2
+
+*export 1 25
+
+; Locn:	Masongill
+; Cave:	Large Pot
+; Occult Passage from main Red Herring Series
+
+*title "Occult Series 2"
+*date 2012.01.15
+*team Insts Dave Ramsay
+*team Notes Patrick Warren
+*team Tape Ruth MacDonald
+*instrument Tape, Compass and Clino - Patrick's tandem
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+*data normal from to tape compass clino
+
+;from	to	tape	compass	clino	remarks
+2	1	0.90	089	0 ; start of sheet (1)
+2	3	5.09	-	up
+3	4	1.80	206	-26
+4	5	4.12	149	-15
+5	6	2.39	158	-4
+6	7	1.38	118	+2
+7	8	2.10	201	+8 
+8	9	4.55	165	-16
+9	10	3.00	163	-10
+10	11	2.31	-	down
+11	12	3.52	161	-4
+12	13	6.19	152	-54
+13	14	1.92	154	-13
+14	15	2.85	101	+4
+15	16	1.68	-	down ; start of sheet (3)
+16	17	3.43	146	+2
+17	18	1.49	098	-7
+18	19	2.15	161	-8
+19	20	2.00	206	-9
+20	21	1.51	128	-23
+21	22	1.76	189	-11
+22	23	1.57	157	-12
+23	24	3.33	227	+3
+24	25	1.38	198	+2
+
+*data passage station left right up down ignoreall
+1	-	-	-	-	station at base of 7th pitch ; start of sheet (2)
+2	-	-	-	-	on the rope directly below station 3
+3	0	1.2	2	6.5	; main anchor for p5 (c4.5)
+4	0.6	0.3	0.6	1.6
+5	0	0.4	0.6	0.8
+6	0.7	0	0.2	0.8
+7	0.1	0.5	1.5	0.7
+8	0.5	0	1.8	1.3
+9	0.1	0.3	1.2	1.4
+10	0.3	0.4	0.4	3.7 ; directly above above station 11
+11	0	0.4	3.3	0.8 ; up 3.3 computed from 0.4 + 3.7 - 0.8
+12	0.8	0	5	3.4
+13	0.4	0.8	0.6	0.2
+14	3	0.8	0.3	0.3
+15	2	2.1	0	1.8 ; start of sheet (4)
+16	0	0.4	1.7	0.1
+17	0.5	0	0.3	0.6
+18	0	0.4	0.6	0.8
+19	0	0.25	0.4	0.9
+20	0.7	0	0.3	1.0
+21	0	0.5	0.5	0.6
+22	0.5	0	0.4	0.6
+23	1.0	0.7	0.1	0.4
+24	1.0	0.3	0.3	0.3
+25	0.4	0	0.2	0.5
+
+*end OccultSeries2
+
+

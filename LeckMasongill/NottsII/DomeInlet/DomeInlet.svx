@@ -1,0 +1,64 @@
+; Locn:	Leck Fell
+; Cave:	Notts II
+; DomeInlet
+
+*begin DomeInlet
+
+*export 17
+
+*title "Dome Inlet"
+*date 2012.01.12
+*team Insts Richard Bendall
+*team tape Richard Bendall
+*team Notes Dave Ramsay
+*instrument Compass and Clino - rr2
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+
+*calibrate declination +2.44	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.1994n 2.5124w  2012.01.12
+
+*data normal from to tape compass clino
+
+;from	to	tape	compass	clino	remarks
+
+1	2	4.12	-	Down
+3	2	2.55	327	-21
+2	4	2.21	354	-24
+4	5	7.52	-	Down
+5	6	3.50	205	-14
+6	7	1.50	142	+3
+7	8	2.62	179	+6
+8	9	4.91	262	-7
+9	10	2.67	217	-3
+10	11	4.15	243	0.0
+11	12	8.63	324	-10
+12	13	3.79	253	-7
+
+13	14	4.79	216	-11
+14	15	8.95	242	-12
+15	16	3.98	192	-34
+16	17	1.73	-	Down
+
+*data passage station left right up down ignoreall
+
+1	0.0	0.9	1.3	10.0	;top bolt
+2	0.1	0.8	11.0	1.3	
+3	0.3	0.0	10.5	0.7	;in second aven
+4	0.6	0.0	8.0	9.0	;Bolt
+5	0.5	0.9	15.0	1.3	;mid chamber
+6	0.9	0.0	0.1	0.6
+7	0.4	0.0	0.3	0.3	;rock nose
+8	0.0	1.1	1.1	0.5
+9	1.0	0.3	1.2	0.3	;on mud bank
+10	0.0	0.9	0.8	0.4	;LH Wall
+11	0.0	1.0	1.2	1.4	;LH Wall
+12	0.9	0.4	1.5	1.5	
+13	1.4	0.3	2.7	1.6
+
+14	1.1	0.3	4.5	1.5
+15	0.4	3.0	5.0	1.5
+16	1.0	1.1	6.0	3.0	;Tag Dome Inlet
+
+*end	DomeInlet

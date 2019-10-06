@@ -1,0 +1,37 @@
+; Locn:	Leck Fell
+; Cave:	Notts II
+; Inlet4
+
+*begin Inlet4_2
+
+*export 1 
+
+*title "Inlet4"
+*date 2012.01.16
+*team Insts Richard Bendall
+*team tape Richard Bendall
+*team Notes Dave Ramsay
+*instrument Compass and Clino - rr2
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+
+*calibrate declination +2.45	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.1994n 2.5124w  2012.01.16
+
+*data normal from to tape compass clino
+
+;from	to	tape	compass	clino	remarks
+
+1	2	3.70	087	-8
+2	3	2.81	157	-4
+
+*data passage station left right up down ignoreall
+
+1	0.4	0.5	0.5	1.4	;Previous final stn Inlet4_1.7
+2	0.0	0.8	0.2	1.4	;LH at corner
+3	0.5	0.1	0.1	1.2	;Dig face
+
+*end Inlet4_2
+
+

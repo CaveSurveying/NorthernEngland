@@ -1,0 +1,26 @@
+*begin DeadDobbin
+
+*export Entrance
+*equate RumblingHole_2.101 Entrance
+
+*include RumblingHole_1
+
+*equate RumblingHole_1.029 RumblingHole_2.154
+*equate RumblingHole_3.142 RumblingHole_2.142
+*include RumblingHole_2
+
+*include RumblingHole_3
+
+*equate RumblingHole_4.014 RumblingHole_1.014
+*include RumblingHole_4
+
+*equate RumblingHole_5.010 RumblingHole_1.010
+*include RumblingHole_5
+
+*equate RumblingHole_6.152 RumblingHole_2.152
+*include RumblingHole_6
+
+*equate RumblingHole_8.007 RumblingHole_1.017
+*include RumblingHole_8
+
+*end DeadDobbin

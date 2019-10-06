@@ -1,0 +1,250 @@
+; merging between Richards and RD's data, with all equates moved to this file
+
+*begin	LostJohns
+
+*export EntranceTag BoxheadSurfaceRim notts2nearconnection.1-0 
+*export DeathsHead_3LJSump.24
+
+*entrance itsacracker.1-56
+*entrance boxheadentranceresurvey.1-60
+*equate BoxheadSurfaceRim boxheadentranceresurvey.1-60 
+
+*include itsacracker 	; Top of Its A Cracker to around where Lost Pot comes in (plus some surface legs to Boxhead entrance
+*equate itsacracker.1-26	itsacracker2.1-26
+
+*include itsacracker2 	; Middle part of Its A Cracker from where Lost Pot comes in to around Kendal Flyover
+*equate itsacracker2.1-40	itsacracker3.1-40
+
+*include itsacracker3 	; Bottom part of Its A Cracker from around Kendal Flyover in to connect to RRCPC yellow tag at start of passage to tube, base of Boxhead Pitch
+; *equate itsacracker3.1-48	box.007	; box now not needed
+
+*include inletfrombaselostpot
+*equate inletfrombaselostpot.44x itsacracker3.1-44
+
+*include trenchtown
+*equate inletfrombaselostpot.6 trenchtown.1-0
+
+*include downfromtrenchtown
+*equate inletfrombaselostpot.3 downfromtrenchtown.1-0
+
+*include boxheadentranceresurvey ; resurvey from Boxhead entrance to base of main pitch
+*equate boxheadentranceresurvey.1-60	itsacracker.1-60 
+*equate boxheadentranceresurvey.2-12	itsacracker2.1-39 
+*equate boxheadentranceresurvey.2-15	itsacracker3.1-49 
+
+*include crestarun1
+*equate crestarun1.x itsacracker2.1-39  ; use this as leg to 1-40 may not have been very accurate on compass and otherwise it fits
+;*equate crestarun1.1-40x itsacracker2.1-40
+;*equate crestarun1.31 box1.014
+
+*include crestarun2
+*equate crestarun2.32x crestarun1.32
+*equate crestarun2.18  bypasscrestarun2.17
+
+*include crestarun3
+*equate crestarun3.1-0 crestarun2.22	; equate at upper of two left hand bolts for Crowbar Pitch
+
+*include crestarun4
+*equate crestarun4.7x crestarun3.1-7	; equate at bottom of Tantrum Aven
+
+*include crestarun5
+*equate crestarun5.44x crestarun2.44	; equate at numbered station in Epiglottis Grotto
+
+*include crestarun7
+*equate crestarun7.1 crestarun9.tag
+
+*include crestarun8
+*equate crestarun8.10x lylecavernupperseries1.10
+
+*include crestarun9
+*equate bypasscrestarun2.13 crestarun9.13x
+
+*include crestarun10
+*equate crestarun10.1 crestarun9.tag
+
+*include crestarun11
+*equate crestarun11.26t crestarun10.12
+*equate crestarun11.14t crestarun8.52
+*equate crestarun11.8x crestarun7.8
+
+; lower passage which is a bypass to the Cresta Run, starting from base of main Boxhead Pitch
+*include bypasscrestarun 
+*equate bypasscrestarun.1-50 itsacracker3.1-50 
+*include bypasscrestarun2
+*equate bypasscrestarun.3-10 bypasscrestarun2.10x
+; *equate bypasscrestarun2.17 Box3.017 ; eventually remove Box3 survey once resurvey complete
+
+; the Tube passage
+*include lj-tube 
+*equate lj-tube.52x itsacracker3.1-52 
+*include tube2
+*equate tube2.1-0 lj-tube.49 
+*include lj-tube2
+*equate lj-tube2.8 tube2.1-8 
+*include notts2lylecaverntube
+*equate notts2lylecaverntube.1-24 lj-tube2.24x
+*equate notts2lylecaverntube.1-16 lj08.030
+*include lj-tube3
+*equate lj-tube2.13 lj-tube3.13x
+
+*include notts2nearconnection ; From Notts II connection crawl to main T-junction and starting towards pitch into Lost Johns
+; *equate notts2nearconnection.4-7 box3.072 
+*equate notts2nearconnection.1-14 lj15.013
+*equate notts2lylecaverntube.1-0   notts2nearconnection.4-18
+
+*include lylecavernupperseries1
+*equate lylecavernupperseries1.tag notts2nearconnection.4-7
+*include lucc
+*equate lylecavernupperseries1.10	lucc.10X
+
+; ADD THIS IN ONCE HAVE FULL STREAMWAY RESURVEYED
+*include ljmainstreamway1
+;*equate ljmainstreamway1.
+*flags duplicate
+*include ljmainstreamway2
+*flags not duplicate
+*equate ljmainstreamway2.0 ljmainstreamway1.30
+*equate ljmainstreamway2.15 Lj07.046
+*flags duplicate
+*include mudinlet
+*flags not duplicate
+*equate mudinlet.30x ljmainstreamway1.30
+
+; old boxhead surveys
+; *include box   ; first legs commented out 
+;*equate box.015 BoxheadSurfaceRim
+
+; kendal extensions
+; *include Box1  ; some legs commented out ; RL have now included these legs back in, see comments in file
+; *equate	box1.005 crestarun1.x
+; *equate	box1.014 crestarun1.31
+; *equate	box1.020 crestarun2.21
+;*equate	box1.001	box.007
+
+;*include Box2	; this survey now replaced by crestarun4 survey in Aug 2013
+;*equate	box1.027	box2.009
+;*equate box2.009 crestarun3.1-9
+;*equate box2.004 crestarun4.4x
+
+; *include Box3
+; *equate	box3.001	box1.017	; changed box1.014 to box1.017 after Pete Hall emailed this correction - Becka 8.01.10
+; *equate	box3.001	crestarun2.tag	; new equate so can get rid of box1, will get rid of box3 eventually too
+
+; *include LUCCaven
+; *equate Box3.067c luccaven.7a
+
+*equate	Lj01.010	Lj03.000
+*equate	Lj01.001	Lj02.000
+*equate Lj01.053    EntranceTag
+*include	Lj01    ; identical to RD's Lj01
+
+*equate	Lj02.000	Lj01.001
+*equate	Lj02.026	Lj03.040
+*equate	Lj02.026	Lj04.007
+*include	Lj02    ; identical to RD's Lj02
+
+*equate	Lj03.000	Lj01.010
+*equate	Lj03.040	Lj02.026
+*equate	Lj03.040	Lj04.007
+*equate	Lj03.026	Lj10.000
+*include	Lj03    ; identical to RD's Lj03
+
+*equate	Lj04.001	Lj05.001
+*equate	Lj04.007	Lj02.026
+*equate	Lj04.007	Lj03.040
+*include	Lj04    ; identical to RD's Lj04
+
+*equate	Lj05.001	Lj04.001
+*equate	Lj05.012	Lj06.050
+*include	Lj05    ; identical to RD's Lj05
+
+*equate Lj06.000	Lj07.001
+*equate Lj06.000	Lj08.001
+*equate Lj06.050	Lj05.012
+*include	Lj06    ; identical to RD's Lj06
+
+*equate	Lj07.001	Lj08.001
+*equate	Lj07.001	Lj06.000
+*equate	Lj07.046	Lj09.001
+*include	Lj07    ; identical to RD's Lj07
+
+*equate	Lj08.001	Lj06.000
+*equate	Lj08.001	Lj07.001
+; *equate	Lj08.030	box3.072j
+*include	Lj08    ; identical to RD's Lj08
+
+*equate	Lj09.001	Lj07.046
+*equate	Lj09.016	Lj12.000 ;tag Mud Inlet
+*include	Lj09    ; same as RD's Lj09
+
+*equate	Lj10.000	Lj03.026
+*include	Lj10    ; identical to RD's Lj10
+
+; Lj11, Lj11a, Lj12 only in from RD's set
+*equate	Lj11.025	Lj12.009
+*equate	Lj11.011	Lj11a.001
+*include	Lj11
+
+*equate	Lj11a.001	Lj11.011
+*include	Lj11a
+
+*equate	Lj12.009	Lj11.025
+*include	Lj12
+
+;superceded by lj-tube3
+;*equate	Lj13.000	Lj14.001
+;*include Lj13  
+
+;superceded by lj-tube3
+;*equate	Lj14.015	Lj15.001	
+;*include Lj14
+
+*include Lj15
+
+*include DeathsHead_3LJSump
+
+*equate ljmainstreamway1.74x DeathsHead_3LJSump.74
+
+*end	LostJohns
+
+; *include crestarun6	; no longer needed once worked out that compass readings were 010 out for 6 legs in cresta2 survey which this re-did
+; *equate crestarun6.20x crestarun2.20
+; *equate crestarun6.44x crestarun2.44	; check the numbered for cresta2 as clino readings looked dodgy and very different to the original RRCPC data; equate at numbered station in Epiglottis Grotto
+; *equate crestarun5.44x crestarun6.44x	; equate at numbered station in Epiglottis Grotto
+
+;*include Box4.svx   ; no connection for this survey of Lyle Cavern
+
+; *include Box5	; now replaced by crestarun surveys 
+; *equate	box5.014a	box1.020	; Pete Hall emailed a correction suggesting instead it should be box5.014 to box1.020 rather than to box.021 - Becka 8.01.10 - Becka made this change 8.sept.2013 and it fixes the difference between the old RRCPC and new data
+; *equate box5.019 crestarun3.1-41
+
+;*equate	box3.072j	Lj08.030	
+;*equate Lj15.016	Box3.072	;tag at T junction Lyle Cavern
+
+; the bruno nottsii connection with temporary version to be over-written
+; *include lylecavernbruno ; to replace lylecaverndig
+; *equate	lylecavernbruno.20	box3.072	;20 is yellow tag at the junction with SE passage (Box3.072?)
+
+;*include lylecaverndig
+;*equate	lylecaverndig.20	box3.072	;20 is yellow tag at the junction with SE passage (Box3.072?)
+;*include lylecaverndig2
+;*equate	lylecaverndig.1	lylecaverndig2.12	; lj20 superceded by lylecaverndig data and connection point (box3.079) guessed at
+;*include Lj20
+;*equate	Lj20.1	box3.079
+; *include itsacracker-centrelineonly-beforeopentosurface ; no notes, done for digging so replaced by itsacracker etc surveys
+; *equate itsacracker-centrelineonly-beforeopentosurface.27 boxheadentranceresurvey.1-60  ; no notes, done for digging so replaced by itsacracker etc surveys
+
+;;; Surface survey if disconnecting pieces 
+;*flags surface
+;2	LostJohns.EntranceTag	8.20	059.0	-58	;Lost Johns Entrance Tag
+;3	2	27.10	346.0	0		;Stile
+;3	4	30.00	166.5	+2.5
+;5	4	30.00	345.0	-5.0
+;5	6	30.00	166.0	+2.0
+;7	6	30.00	010.0	-2.5
+;7	8	30.00	177.0	+3.0
+;9	8	30.00	018.0	+2.0
+;9	10	30.00	216.0	-6.5
+;11	10	30.00	331.0	-5.0	
+;11	12	30.00	179.0	-0.5
+;LostJohns.BoxheadSurfaceRim	12	9.10	290.0	+38.0		;centre of boxhead entrance tube

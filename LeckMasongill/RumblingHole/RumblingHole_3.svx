@@ -1,0 +1,32 @@
+;Cave:	Rumbling Hole
+;Surveyors:	Dave Ramsay/Richard Bendall
+;Date:	2007.12.03 
+;Instruments:	Red Rose Sunto Compass & Clino kit 2, Disto	
+
+*begin Rumblinghole_3
+*export 142
+*Title "Rumbling Hole"
+;*calibrate compass
+*calibrate declination +3.40
+;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
+;Model Used IGRF11 		
+;54.1994n 2.5124w  2007.12.03 
+
+
+
+;stn to stn	tape	comp	clino	 L    R   U   D
+
+142	202	4.79	090	-2	;1.0 0.9 0.6 0.2 stn202 0.2 0.3 0.3 0.4
+202	203	4.32	095	+2	;0.1 1.4 0.2 12.2 stn203 is at head of Roof Tunnel Pitch
+204	203	2.00	303	-10	;1.0 1.2 0.2 0.8
+204	205	7.59	093	+2	;0.4 1.0 0.1 0.1 stn205 is boulder choke
+203	206	10.92	 -	DOWN	;1.1 1.1 11.1 1.6 Roof Tunnel pitch
+206	207	6.22	287	-34	;0.2 0.2 0.5 0.4
+206	208	4.52	 -	UP	;3.0 0.3 7.0 6.0 stn208 is at level of passage
+209	208	5.61	239	-7	;0.4 1.2 0.2 0.4
+209	210	3.80	098	0.0	;0.1 0.1 0.1 0.1 stn210 is end of passage at mud blockage
+
+
+*end Rumblinghole_3
+
+

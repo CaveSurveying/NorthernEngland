@@ -1,0 +1,17 @@
+;cave Notts II
+;Title: Inlet6point5
+
+*begin Inlet6point5
+
+*export Inlet6point5_1.11
+
+*include Inlet6point5_1   
+
+;*include Inlet6point5_2  
+
+;*include Inlet6point5_3 
+
+;*equate Inlet6point5_1.8 Inlet6point5_2.1	
+;*equate Inlet6point5_2.7 Inlet6point5_3.1
+
+*end Inlet6point5

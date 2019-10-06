@@ -1,0 +1,39 @@
+; Locn:	Leck Fell
+; Cave:	Ireby Fell Cavern
+; Triple Creek Aven Climb
+
+*begin triplecreekaven
+
+*export 97 17
+
+*title "Triple Creek Aven Climb"
+*date 2009.05.03
+*team Insts Tom Clayton
+*team Notes Mad Phil Rowsell
+*instrument Compass and Clino - assume Phil's instruments ; Tape - assume Phil's tape
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+2	97	7.14	99	24	; 97 is numbered station from previous triplecreek Becka & Neil's triple creek survey
+2	3	3.23	193	-15
+3	4	13.48	0	90
+5	4	4.16	135	-59.5
+6	5	2.65	94	-52
+7	6	5.12	194	-46
+8	7	5.48	78	-54
+9	8	11.12	147	-14
+10	9	8.29	105	-45
+11	10	5.67	323	-29
+12	10	5.25	99	-57
+13	12	2.17	181	-60
+14	13	3.21	308	-21
+15	13	5.31	125	-28
+9	16	9.6	332	-4
+16	17	5.58	20	-1	; closes down after stn 17
+
+; stations marked by scratches only
+
+*end triplecreekaven
+
+

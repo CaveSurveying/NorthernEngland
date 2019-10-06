@@ -1,0 +1,75 @@
+; Locn:	Leck Fell
+; Cave:	Ireby Fell Cavern
+; Uranus crawl off Blissful Creek up to tight rift
+
+*begin lickthepony
+
+*export 85 20
+*title "Lick The Pony"
+*date 2008.06.21
+*team Insts Becka Lawson
+*team Tape George North
+*team Notes Neil Pacey 
+*instrument Compass and Clino - Becka's Pony; Tape - 30m yellow read from 0cm
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+85	1	4.91	017	-01	
+1	2	2.60	019	-03
+2	3	1.79	331	-02
+3	4	2.76	029	-03
+4	5	3.27	024	-01
+5	6	2.70	320	-03
+6	7	2.66	001	-02
+7	8	2.61	321	-04
+8	9	2.53	023	-01
+9	10	1.86	269	0
+10	11	4.51	343	-03
+11	12	2.45	343	-03	;tape 2.41 in notes but Neil had misheard
+12	13	1.74	240	+05
+13	14	3.57	329	+03
+14	15	2.95	298	+03
+15	16	2.69	243	-02
+16	17	3.82	351	-06
+17	18	2.79	323	+03
+18	19	2.09	327	-07
+19	20	1.25	274	+23
+;20	21	1.18	300	-40	;ignore this leg - redid it in next survey trip (Lick the Pony 2)
+;21	22	1.33	307	-16	;ignore this leg - redid it in next survey trip (Lick the Pony 2)
+
+; stations marked with red nail varnish, rp = red point, r/lw = right/left wall
+
+*data passage station left right up down ignoreall
+
+85	0.5	1.5	0.2	1.7	; junction where crawl goes off before Triple Creek enter chambers - numbered station from Blissful Creek survey
+1	0.5	0.1	0.1	0.4	; rp rw
+2	0.4	0.1	0.2	0.3	; rp rw
+3	0.1	0.3	0.2	0.3	; rp lw
+4	0.1	0.4	0.1	0.2	; rp rw
+5	0.4	0.1	0.2	0.2	; rp lw
+6	0	0.4	0.1	0.3	; rp rw
+7	0.3	0.1	0	0.4	; rp lw
+8	0	0.5	0.1	0.2	; 
+9	1	0	0.2	0.2	; rp rw
+10	0.2	0.4	0.3	0.2	; rp lw
+11	0	0.5	0.2	0.2	; 
+12	0.5	0	1	0.2	; at junction in crawl - wrong in original notes where 11 shown as at junction
+13	0	0.5	0.3	0.1	; 
+14	1.2	0	0.2	0.2	; end of crawl
+15	0.5	0.7	0	0.3	;
+16	0.6	1.2	0.1	0.4	;
+17	1	0.3	1	0.2	;
+18	0	1.3	0.2	0.4	;
+19	0	1.2	0.4	1.3	;
+20	1.5	1.2	0.3	1.8	; rp or maybe this is the one numbered - definitely looked like a 20 on wall, not 21, that LickThePony2 connects to
+;21	0.1	0.6	0.2	0.2	; rp I think this one is numbered in liquid paper (only numbered station in this survey)
+;22 	-	-	-	-	; don't think this will be refound, start of thin rift. Not used in next survey
+
+*end lickthepony
+
+
+
+
+

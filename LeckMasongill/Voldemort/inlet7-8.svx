@@ -1,0 +1,40 @@
+*begin inlet7-8
+*Export 012
+*Export 006
+*data normal from to tape compass clino ignoreall
+*units length metres
+*calibrate tape 0.0
+*units compass degrees
+*calibrate compass 0.0
+*units clino degrees
+*calibrate clino 0.0
+
+;Cave:	Notts II - Inlet 7
+;Description: Pleasures of the Palm - Bottom of 10 metre pitch
+;Surveyors:	Inst: Hugh St Lawrance;	Notes: Neil Pacey
+;Date:	16/12/04
+;Instruments:	RRCPC Kit 4, Tape 3 metres short
+
+
+
+*calibrate compass	+5.00
+*calibrate clino	-0.50
+*calibrate tape		+3.00
+
+;From	To	Tape	Compass	Clino		L	R	U	D	Comments
+
+002	001	4.0	332	-3		;0.2	0.2	0.2	0.2	Stn 1 Ends at choked Passage visual conn to Stn 7
+002	003	6.0	252	+3		;0.2	0.5	0.6	0.6	Stn 2 Next to sandy slope up to choked passage
+003	004	7.03	165	+3		;0.2	0.2	1.2	0.6	Stn 3
+						;0.2	0.6	0.4	0.3	Stn 4 Small sandy chamber	
+003	005	4.40	-	UP		
+006	005	6.20	175	+3		;0.2	0.2	3.0	1.2	Stn 5
+007	006	4.55	237	+5		;0.8	0.0	2.0	0.4	Stn 6 Drill hole on RH side
+008	007	4.50	197	+22		;0.0	0.4	0.8	0.3	Stn 7 Spike on LH side
+009	008	11.20	250	+5		;0.3	0.15	0.3	0.6	Stn 8
+009	010	4.40	032	-23		;0.8	0.0	1.5	0.3	Stn 9
+010	011	4.30	120	-34		;				Stn 10 First bolt
+011	012	12.40	-	DOWN		;				Stn 11 Top of 'Y' Hang
+
+
+*end inlet7-8

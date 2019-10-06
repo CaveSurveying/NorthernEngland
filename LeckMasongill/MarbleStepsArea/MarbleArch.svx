@@ -1,0 +1,37 @@
+;Cave:	Marble Steps Area
+;Surveyors:	Dave Ramsay/Richard Bendall/ Jon Tomkins
+;Date:	21/10/13 
+;Instruments:	Red Rose Sunto Compass & Clino kit 2, Disto / tape	
+
+*begin MarbleArch
+
+*export 1 
+;*calibrate compass
+*calibrate declination +2.44	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.188n 2.492w 2013.10.21
+
+1	2	6.41	110	+50	;1=WetRoute1.007
+2	3	5.22	038	+23
+3	4	8.20	073	0.0
+4	5	4.30	-	Down
+5	6	0.84	350	0.0
+6	7	5.41	-	Down
+7	8	2.85	284	-13
+8	9	5.00	351	-26
+9	10	1.70	040	+30
+10	11	2.52	320	0.0
+11	11a	2.1	-	Down	;Blind Quicksand Pot
+
+9	12	3.93	300	-36
+12	13	1.94	325	-3
+
+4	14	2.60	201	+13
+14	15	3.17	097	+18
+15	16	1.55	120	+40
+16	17	3.34	154	+10
+17	18	2.50	090	0.0	;Guess length to pot +15 upstream
+18	18a	15	080	0.0	;Guess
+
+
+
+*end MarbleArch

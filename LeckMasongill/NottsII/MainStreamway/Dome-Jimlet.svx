@@ -1,0 +1,123 @@
+*begin Dome-Jimlet
+
+
+
+;Date: 26/10/2006
+
+;Cave: Notts II
+
+;Survey Kit RRCPC No ?
+
+;Instruments: Dave Ramsay
+
+;Book: Neil Pacey
+
+;Tape: Richard Bendall
+
+
+
+;Tape started at -10 centimetres (original notes - no Corrections)
+
+;Dome Inlet Tag to upstream maindrain of Inlet 7
+
+*Title "Main Drain"
+
+
+
+*export 1	;Jimlet1
+
+*export 6	;Inlet 7, equate Inlet7.Inlet7-4.001 MainStreamway.Dome-Jimlet.6
+*export 8a	;Inlet 8
+
+*export 11	;Nickpoint Bridge with stall boss - start of Estonia
+
+*export 24	;Tag at Inlet 9 - Dome Inlet, N06.001
+
+
+
+*CALIBRATE tape -.10		;Tape was 10 centimetres too long
+
+*calibrate declination +3.34	;added 137/06/11 RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.1995n 2.513w 2006.10.26 
+	
+
+;Station 	Tape	Compass	Clino	 
+1	2	18.00	072	0	
+2	3	8.22	012	+1	
+3	4	10.70	070	-3	
+4	5	8.47	007	+1	
+
+5	6	19.14	047	-1		
+
+6	7	8.75	353	-13	
+7	8	7.00	324	+0	
+8	8a	10.40	237	+17	
+8	9	11.12	017	0	
+9	10	19.20	057	-2		
+
+10	11	14.65	351	-5		
+
+11	12	5.50	000	-7	
+12	13	7.43	285	-2	
+13	14	6.15	229.5	0	
+14	15	3.93	275	-4	
+15	16	8.52	350	-6	
+16	17	3.20	316	-3	
+17	18	4.70	352	-7	
+18	19	5.08	327	-3	
+19	20	9.24	341	-2	
+20	21	4.13	315	-3	
+21	22	4.43	015	-5	
+22	23	2.95	326	-7	
+23	24	0.5	080	0	
+
+*data passage station left right up down ignoreall
+
+
+1	0.1	2.4	8.0	1.8	;stn 1 True Left 8mm drill hole
+
+
+2	2.5	0.4	5.0	1.7
+3	0	2.5	4.5	1.7
+
+4	2.5	3.0	5.0	1.3
+
+5	3.0	1.0	5.0	1.2
+6	2.5	1.0	4.0	1.7	;stn 6 Start of Inlet 7
+
+7	3.0	1.0	4.0	1.2
+
+8	4.5	1.0	6.0	1.0	;stn 8a up mud slope into Inlet 8 mark in roof
+
+8a	2.5	2.0	0.0	1.5	;Made up RGB 13/06/11
+9	4.0	2.0	6.0	1.0
+10	4.0	0	7.0	2.0
+11	2.5	3.0	5.0	1(3)	;stn 11 Stall Boss on Bridge opposite start of Estonia
+
+12	1.5	0	6.0	1.7
+
+13	0.5	0	2.5	1.0
+
+14	0	1.0	6.5	1.8
+
+15	0.1	1.0	6.0	1.9
+
+16	0.3	1.0	6.0	1.6
+
+17	0	0.4	6.0	1.7
+
+18	0.1	0.5	6.5	1.6
+
+19	0.5	0	6.5	1.7
+
+20	0.1	0.3	7.0	1.6
+
+21	0.4	0.6	7.0	0.1(1.5)
+
+22	0.5	0.1	7.0	1.6
+
+23	0.1	0.4	7.0	1.6	
+24	0.5	0.0	7.0	1.6	;stn24 = TAG at entrance to Dome Inlet
+
+*end Dome-Jimlet
+

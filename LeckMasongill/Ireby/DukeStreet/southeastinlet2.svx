@@ -1,0 +1,62 @@
+; Locn:	Leck Fell
+; Cave:	Ireby Fell Cavern
+; From old station 22 to current dig face
+
+*begin southeastinlet2
+
+*export 22x 23x 40
+
+*title "South East Inlet 2"
+*date 2010.05.29
+*team Instruments Becka Lawson
+*team Notes Neil Pacey
+*Instrument Patrick's 30m tape read from 0cm and Becka's tandem comp & clino 
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks	
+
+23x	22x	4.41	058	-04
+24	23x	4.35	089	-09
+25	24	5.49	056	-03
+26	25	2.33	035	+06
+27	26	1.65	088	+09
+28	27	1.14	087	-28
+29	28	4.11	051	-07
+30	29	4.31	012	-12
+31	30	2.71	281	+06
+32	31	1.03	309	-08
+33	32	2.12	026	-28
+34	33	3.09	049	-06
+35	34	2.99	053	-08
+36	35	4.16	007	-30
+37	36	4.12	023	-05
+38	37	8.67	308	0	; stations numbered opposite way in notes
+39	38	7.67	348	+02	; stations numbered opposite way in notes
+40	39	6.50	021	-3.5	; stations numbered opposite way in notes
+;41	40	8.20	302	+01	; stations numbered opposite way in notes- station rubbed off on connection trip so not connected to	
+
+*data passage station left right up down ignoreall
+
+22x	0.3	1.3	0.3	1	lp on l wall - numbered
+23x	0.1	1.5	0.2	1	
+24	0.7	0.3	0	1.3
+25	1.1	0.4	0.2	1.6
+26	0	0.4	1.1	1.4
+27	0	0.3	1.5	1
+28	0.4	0	1.5	1.5	numbered
+29	0.4	0.1	1.5	1.5	numbered
+30	0.5	0	1.5	2
+31	0.5	0	1.8	1.1
+32	0	0.3	1.4	1.4
+33	0	0.5	0.5	2
+34	0.4	0	1.3	1.6
+35	0.4	0	1.7	1.6	numbered
+36	0.4	0	0	3	numbered
+37	1.7	1	0.3	2
+38	1	1.2	0.3	1.5
+39	1.3	1.1	0.3	0.4
+40	1.5	0.5	0	0.5	numbered before dig begins
+;41	0.4	0.2	0	0.5	numbered in ceiling at current end of dig	
+
+*end southeastinlet2

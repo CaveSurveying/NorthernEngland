@@ -1,0 +1,95 @@
+; Locn:	Leck Fell
+; Cave:	Deaths Head Hole
+; Deaths Head Hole
+*begin DeathsHead_1
+
+*export 001 010 025
+*export FencePostTag
+
+*title "Deaths Head-Lost John's connection"
+*date 2007.12.19
+*team Insts Richard Bendall
+*team tape Richard Bendall
+*team Notes Dave Ramsay
+;Instruments:	Red Rose Sunto Compass & Clino kit 2, 30m tape	
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+
+*calibrate declination +3.39
+;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
+;Model Used IGRF11 		
+;54.1994n 2.5124w  2007.12.19
+
+*equate FencePostTag 001
+
+001	002	05.43	084.0	-38.0	;stn1 is Fence post with tag
+002	003	06.41	103.0	-57.0
+003	004	09.21	090.0	-80.0
+004	005	13.53	-	Down
+005	006	00.63	056.0	0.00	;short horizontal to get vertical hang
+006	007	30.35	-	Down
+007	008	09.92	088.0	-33.0	
+008	009	04.96	-	Down
+009	010	19.16	096.0	-25.0
+010	011	14.96	-	up
+011	012	02.12	105.0	+02.0
+012	013	03.27	-	Up
+013	014	02.76	103.0	+20.0
+014	015	03.43	-	Up
+015	016	03.14	093.0	+20.0
+016	017	05.79	087.0	-10.0
+017	018	11.26	104.0	+12.0	
+018	019	11.66	101.0	+02.0
+019	020	15.46	112.0	+02.0
+020	021	22.85	100.0	+06.0
+021	022	23.38	105.0	-01.0
+022	023	09.90	098.0	-01.0
+023	024	07.69	080.0	+10.0
+024	025	15.40	116.0	-02.0
+025	026	11.10	106.0	-01.0
+026	027	07.63	099.0	+03.0
+027	028	07.44	086.0	000.0
+028	029	10.62	096.0	+02.0
+029	030	10.00	096.0	000.0	;guessed leg through duck.
+031	032	07.68	110.0	-36.0
+032	033	02.55	-	Down
+033	027	01.58	215.0	000.0
+
+*data passage station left right up down ignoreall;note zero's where no data available RGB
+
+001	0	0	0	0	;Marker post
+002	0	0	0	0	;by tree 1m to left, looking down
+003	0	0	0	0	;level with first bolt 0.8m out
+004	0	0	0	0	;level with 2nd bolt 0.8m out
+005	0	0	0	0	;level with next 2 bolts 0.1m out
+006	0	0	0	0
+007	0	0	0	0	;Top of boulder on sloping floor
+008	0	0	0	0	;final y hang-knot
+009	0	0	0	1.60	;Bottom of pitch Head height
+010	0	0	0	1.5	;Bottom of rope up -Head Height
+011	0.2	0	0	16.60	;level with bolt 0.2m out
+012	0.0	1.5	0	0	;small spike
+013	1.0	5.0	10.0	0	;bolt
+014	0.1	0.5	5.0	0	;in chimney, stood on ledge, head height
+015	1.6	5.0	0	0
+016	1.2	2.0	2.5	1.0	;Tipex spot on L above roped boulder
+017	0	0	0	0
+018	0	0	0	0
+019	0	0	0	0
+020	0	0	0	0
+021	0	0	0	0
+022	0	0	0	0
+023	0	0	0	0
+024	0	0	0	0
+025	3.0	0.0	1.0	1.2
+026	2.0	0.4	2.0	0.5
+027	1.2	1.4	0.3	0.1
+028	0.3	1.2	0.2	0.3
+029	0	0	0	0
+030	0	0	0	0	;guessed leg through duck.
+031	0	0	0	0
+032	0	0	0	0
+033	0	0	0	0
+
+*end	DeathsHead_1

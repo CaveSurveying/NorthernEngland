@@ -1,0 +1,53 @@
+; Locn:	Leck Fell
+; Cave:	Rumbling & Rumbling Beck
+; Surface survey between two underground surveys
+
+*begin RumblingSurface
+
+*export 1 7
+
+*title "RumblingSurface"
+*date 2008.02.03
+*team Insts Becka Lawson
+*team Notes Becka Lawson 
+*team Tape Julian Todd 
+*instrument Compass and Clino - Pony; Tape - 30m yellow read from 0cm
+
+;ref.:	2008 #1
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+*calibrate declination +3.37	
+;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
+;Model Used IGRF11 		
+;54.1994n 2.5124w  2008.02.03
+
+*flags surface
+
+;from	to	tape	compass	clino	remarks
+1	2	12.16	108	+3
+3	2	12.95	211	0
+3	4	19.78	284	-4
+1	4	12.35	356	-3
+5	3	29.90	256	-3
+5	6	16.50	042	-6
+6	7	6.36	177	-24.5
+
+
+*data passage station left right up down ignoreall
+1	-	-	-	-	tall post at stile of fence around Rumbling cave
+2	-	-	-	-	Rumbling fencepost
+3	-	-	-	-	Rumbling fencepost
+4	-	-	-	-	Rumbling fencepost
+5	-	-	-	-	tall post at stile of fence around Rumbling Beck cave
+6	-	-	-	-	Rumbling Beck fencepost, west side of stream
+7	-	-	-	-	R wall at stream sink entrance to Rumbling Beck cave
+
+
+*flags not surface
+
+*end RumblingSurface
+
+
+
+

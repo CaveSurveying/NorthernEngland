@@ -1,0 +1,17 @@
+*begin	LongDrop
+*export StylePost
+
+*equate	longdrop1.112	longdrop2.1
+*equate longdrop1.009 longdrop3.001
+*equate StylePost longdrop3.003
+
+*equate ShortLongDrop.Entrance longdrop3.001
+*entrance	ShortLongDrop.Entrance
+
+*include	longdrop1
+*include	longdrop2
+*include	longdrop3
+
+*include    shortlongdrop
+
+*end	LongDrop	

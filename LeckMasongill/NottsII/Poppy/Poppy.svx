@@ -1,0 +1,12 @@
+*begin Poppy
+
+*export Poppy1.24
+
+*include Poppy1
+*include Poppy2
+*include Poppy3
+
+*equate poppy2.1 poppy3.1
+*equate Poppy2.34 Poppy1.46
+
+*end Poppy

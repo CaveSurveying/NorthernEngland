@@ -1,0 +1,49 @@
+*begin crestarun5
+
+*export 44x
+
+*title "Survey of Epiglottis Grotto and aven off it"
+
+*date 2013.09.08
+*team Instruments Steve Woods
+*team Tape Andy Chapman
+; actually Steve Woods did Distox and Andy Chapman read conventional compass and clino so could double check them both
+*team Notes Becka Lawson
+
+*instrument Becka's Distox and Becka's tandem comp and clino 
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+44x	1	5.71	188	+10	; Andy 188	+08
+1	2	4.09	260	+02.5	; Andy 260	+01
+2	3	5.95	284	+15	; Andy 284  +12
+3	4	3.30	298	+12	; Distox only
+3	5	2.40	146	-02	; Andy 149	-02
+5	6	7.64	178.5	-01	; Andy 180	-03
+6	7	6.70	146	-05	; Andy 146	-06
+7	8	13.55	106	+87	; Distox only
+7	9	2.38	171	+38	; Distox only
+
+44x	10	15.66	164	+08	; Andy 165	+06
+10	11	2.35	166	-02	; Andy 163	-04
+11	12	6.29	176	+01	; continues for about 6m to boulder choke and dig tools
+
+*data passage station left right up down ignoreall
+
+44x	2.8	2	1.3	1.5	old numbered station in Epiglottis Grotto
+1	4	2.2	2.5	1.3	near end of chamber
+2	2	2	2.5	1.3	mid-passage
+3	0	2.2	1.3	0.4	l wall
+4	0.3	0.3	0.1	0.2	unmarked, end of dig
+5	0.2	1.1	1.3	2	l wall
+6	1.4	0.2	1.3	1.5	wall before aven
+7	1.3	1.3	14	0.4	cairn under aven
+8	1	1	0	14	top of aven, distox shot
+9	2.2	0.5	2	2	numbered at far side of aven
+10	1.4	0.8	1.2	1.5	roof on left
+11	2	1	1.5	0.8	start of low crawl (dig)
+12	0.2	0.2	1.4	0.2	low crawl, end of crawl is boulder choke about 6m on from here, mostly straight ahead but a bit right too
+
+*end crestarun5

@@ -1,0 +1,43 @@
+
+*begin Large14
+*export 23x 9
+
+*title "End of Necropolis through choke to midway chamber"
+*date 2011.01.30
+*team Instruments Julian Todd
+*team Notes Neil Pacey
+*instrument Becka's Tandem as comp and clino and Tim Allen's Leica Disto-DXT for tape
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+1	23x	6.58	170	+08
+2	1	3.94	110	-18
+3	2	3.00	130	+19
+4	3	1.89	159	-06
+5	4	1.76	197	-27
+6	5	3.52	105	-07
+7	6	3.68	135	+07
+8	7	3.16	057	+03	; unclear if tape is 3.10
+9	8	11.50	102	+03
+10	9	5.94	357	0
+11	10	4.63	283	-05
+12	11	12.28	353	+16
+
+*data passage station left right up down ignoreall
+
+1	2.5	1	1.2	0.4
+2	0.4	0.5	0.4	0.5
+3	0.6	1.1	0.5	0.3	; down might be 0.7
+4	0.5	0.2	0.4	0.4
+5	2	0.3	0.4	0.1
+6	0.6	1.5	0.5	0.5
+7	0	0.3	0	0.4
+8	0.5	0.2	0	0.4
+9	7	1	0.2	0.3	numbered
+10	3	0.3	0.9	0.4 down 0.something
+11	1.6	2.5	0.7	0.8
+12	2.3	2.5	0.6	0.4
+
+*end Large14

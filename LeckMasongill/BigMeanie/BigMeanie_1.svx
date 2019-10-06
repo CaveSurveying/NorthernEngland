@@ -1,0 +1,90 @@
+*begin BigMeanie_1
+
+*export 4 2p 27
+
+*title "Survey from shakehole for Big Meanie down pitch and towards Deaths Head"
+
+*date 2013.12.30
+
+*team Instruments Becka Lawson
+*team Tape Ruth MacDonald
+*team Notes Dave Ramsay 
+; Notes from surface to bottom of pitch (so as far as station 9) was Becka Lawson
+
+*instrument Becka's Distox except for two lower legs on pitch where too drippy to use Distox
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+*flags surface
+
+1	2P	8.07	232	-28
+3	2P	1.41	154.5	+46
+3	4	3.05	281	-32
+
+*flags not surface
+
+4	5	3.80	290	-45
+5	6	0.96	328	-23
+6	7	7.96	321	-81
+8	7	12.19	225	+79
+9	8	23.78	255	+86
+
+9	10	10.93	282.5	-09
+10	11	9.30	286	-05.5
+11	12	13.61	278	+00.5
+12	13	3.72	288	+07
+13	14	2.03	246	+51
+14	15	11.07	320	+23
+15	16	12.74	274	+15.5
+16	17	5.10	293	-27
+
+9	20	11.99	139	+01
+20	21	23.97	098	-13
+21	22	7.04	126	+24
+21	23	7.76	067	+03.5
+23	24	4.13	124	+01
+24	25	7.77	096	+18	; could be 093 compass, unclear, corrected
+25	26	13.73	107	+26
+26	27	3.32	003	+24
+; 27	28	7.68	129	0	; just did this leg for sketch; comment out when do this survey this section; now commented out
+27	29	10.25	101	-31
+29	30	5.34	092	-26
+30	31	5.88	082	+16
+
+*data passage station left right up down ignoreall
+
+1	-	-	-	-	boulder tip on edge of shake hole, opposite side to stone wall
+2P	0	2	-	0.3	up is air; station is back up P-hanger on left wall before go underground
+3	1.2	2	-	0.1	beyond p hanger
+4	0.2	0.2	0.3	0.5	underground
+5	0	0.4	2.5	0
+6	0.4	0	1	35	down guessed
+7	0	1	8	20	down guessed; in free space about 0.4m perpendicular out from wall from 1st rebelay phanger
+8	1	0	20	20	up and down guessed; level and just left of 2nd rebelay p hanger
+9	2	0	30	1.6	up guessed; numbered; base of pitch
+
+9	1.3	0.2	30	1.6
+10	0	1.3	4	1.2
+11	1.7	0	8	0.4	not sure if right is 0, certainly is less than 1m
+12	0.2	0.9	2	0.6
+13	0.4	0.6	6	0.5
+14	0	1.2	5	2	
+15	9.5	1.2	20	1.3	RH wall, middle of aven chamber
+16	0.3	1.7	1	1.1	LH wall of end of chamber	
+17	0	0.5	0.2	0.4	bottom of muddy tube down, just before puddle, goes for around 10m beyond here before too tight for Dave - very muddy
+
+20	7	0	5.6	4	RH wall of chamber
+21	3.6	1.8	3	1.2
+22	0.8	0	1.5	0.2	RH wall
+23	0	2	3	1.7
+24	2	0.1	11	1.7	below aven
+25	1	0.8	2	3
+26	3.2	2.8	25	0.3	below avens
+27	0	5.5	15	1.7	aven
+; 28	-	-	-	-	unmarked station in direction of main passage, just did this leg for sketch
+29	0.8	0	11	2	below inlet aven
+30	1	0.3	1.7	0	floor beyond aven
+31	0.4	0.4	4	0	end - mud choke
+
+*end BigMeanie_1

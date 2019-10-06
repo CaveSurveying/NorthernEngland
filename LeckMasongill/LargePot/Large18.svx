@@ -1,0 +1,55 @@
+*begin Large18
+*export 18x
+
+*title "Upstream of supposed Occult sump"
+*date 2011.04.30
+*team Instruments Becka Lawson
+*team Notes James Sugden
+*instrument Becka's Tandem as comp and clino and Becka's 30m tape with 20cm end off
+
+*calibrate tape 0.20	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+1	18x	2.93	217	+12
+2	1	3.87	231	-03
+3	2	4.27	308	-04
+4	3	2.70	261	0
+5	4	3.53	211	-04
+6	5	3.14	253	+02
+7	6	2.32	208	-07
+8	7	2.95	257	+02
+9	8	4.85	216	-04
+10	9	2.66	202	-11
+11	10	3.54	237	-03
+12	11	5.23	240	-06
+13	12	4.27	248	-02
+14	13	3.42	322	-03
+15	14	3.51	324	-03	; compass read from top (filled with mud, couldn't read through eyepiece
+16	15	3.55	335	-08	; compass read from top (filled with mud, couldn't read through eyepiece
+17	16	4.44	355	-04	; compass read from top (filled with mud, couldn't read through eyepiece
+18	17	3.22	045	-02	; compass read from top (filled with mud, couldn't read through eyepiece
+
+*data passage station left right up down ignoreall
+
+18x	-	-	-	-	can't read up and down and left and right is passage. Up maybe 0.3 and down 1 or so
+1	1.3	0.2	0.3	0.1
+2	0.4	0.7	0.3	0
+3	0.3	0.4	0.2	0.3
+4	0.5	0.4	0.4	0.5
+5	0.3	0.6	0.2	0.4
+6	0.5	0.2	0.3	0.1
+7	0.6	0.3	0.1	0.3	numbered
+8	0.5	0.1	0.4	0.1
+9	1.3	0	0.3	0.1
+10	0	0.6	0.2	0.3
+11	1.2	0.6	0.1	0.3	numbered
+12	1.1	0.2	0	0.3
+13	0.4	1.1	0.2	0.1
+14	0.2	1.1	0.1	0.2
+15	1.1	0.1	0.2	0.1
+16	0.4	0.4	0.3	0
+17	0	0.6	0.2	0.2
+18	0	0.3	0.4	0.1	edge of sump pool, where water depth drops off, on left wall by flowstone
+
+*end Large18

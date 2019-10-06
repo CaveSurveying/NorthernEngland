@@ -1,0 +1,66 @@
+;;;;;;;;;;;;;;;;
+; generated from itsacracker.top
+;;;;;;;;;;;;;;;;
+
+*begin itsacracker
+
+*export 1-56 1-26 1-60
+
+*title "Surface survey from Boxhead rim to Its A Cracker then down Its a Cracker down to Lost Pot area"
+
+*date 2012.10.26
+*team Instruments Andrew Atkinson
+*team Tippex Julian Todd
+*team Notes Becka Lawson
+
+*instrument Becka's distox calibrated in the cave on 26.10.12 with delta of 0.61 I think and Becka's PDA for notes
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+*data normal from to tape compass clino ignoreall
+
+1-0	1-1	2.500	192.68	26.38	Roll:257	0	d3
+1-1	1-2	4.078	120.51	8.70	Roll:143	0	d3
+1-0	1-3	2.859	46.71	-24.54	Roll:316	0	d3
+1-3	1-4	2.411	98.54	22.76	Roll:333	0	d3
+1-5	1-3	1.583	155.10	22.80	Roll:339	0	d3
+1-6	1-5	1.139	113.02	30.60	Roll:285	0	d3
+1-7	1-6	1.481	178.12	-43.99	Roll:211	0	d3
+1-8	1-7	1.396	95.03	18.07	Roll:28	0	d3
+1-9	1-8	1.062	164.81	10.79	Roll:257	0	d3
+1-10	1-9	1.265	92.39	44.26	Roll:101	0	d3
+1-10	1-11	3.450	346.91	-18.17	Roll:228	0	d3
+1-11	1-12	1.052	139.54	49.42	Roll:308	0	d3	; stn 12 bolt above ledge, numbered
+1-11	1-13	28.748	279.34	-80.07	Roll:65	0	d3
+1-13	1-14	4.657	33.89	15.19	Roll:270	0	d3
+1-14	1-15	3.743	287.44	2.69	Roll:100	0	d3
+1-13	1-16	3.612	130.89	-29.17	Roll:148	0	d3
+1-17	1-16	5.070	137.27	22.13	Roll:11	0	d3
+1-17	1-18	2.926	311.59	6.52	Roll:60	0	d3
+1-18	1-19	2.255	326.19	-74.30	Roll:357	0	d3
+1-19	1-20	33.756	212.70	-83.86	Roll:69	0	d3
+1-21	1-20	6.838	150.94	-19.36	Roll:297	0	d3
+1-21	1-22	10.198	330.16	41.91	Roll:342	0	d3
+1-23	1-22	3.072	175.58	-43.30	Roll:39	0	d3
+1-23	1-24	3.681	313.79	25.30	Roll:49	0	d3
+1-23	1-25	22.077	288.36	86.65	Roll:48	0	d3
+1-26	1-20	3.024	288.65	-32.90	Roll:65	0	d3
+1-0	1-53	3.252	84.24	6.83	Roll:273	0	d3
+1-53	1-54	1.543	144.54	34.01	Roll:124	0	d3
+1-54	1-55	0.730	87.34	3.36	Roll:77	0	d3
+1-56	1-55	6.950	0.00	-90.00	Roll:0	0	d1  ; 56 stn on r side entrance to Its A Cracker on wooden frame (temporary)
+
+*flags surface
+
+1-57	1-56	10.654	30.80	-21.80	Roll:8	0	d3
+1-57	1-58	10.591	294.91	-8.04	Roll:34	0	d3
+1-59	1-58	5.730	76.78	8.14	Roll:23	0	d3
+1-59	1-60	12.686	266.91	-32.26	Roll:3	0	d3	; 60 stn on uphill, SE one of two holes in the Boxhead entrance plastic drum
+
+; splays 
+;1-0	-	1.400	77.66	-7.53	Roll:276	0	d1  ; numbered as 0 above stream
+;1-10	-	1.001	27.82	-17.95	Roll:105	0	d1  ; near first traverse bolt for paparrrazi pitvh
+;1-21	-	0.000	0.00	0.00	Roll:0	0	d1  ; no.d 21
+;1-22	-	3.611	214.18	-84.74	Roll:294	0	d1  ; top of climb before base of lost pot
+
+*end itsacracker

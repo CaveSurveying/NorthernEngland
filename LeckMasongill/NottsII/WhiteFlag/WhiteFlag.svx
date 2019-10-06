@@ -1,0 +1,30 @@
+;Date: 19/10/2006
+;Cave: Notts II - White Flag Inlet
+;Survey Kit RRCPC No ?
+;Instruments: Richard Bendall
+;Book: Neil Pacey
+;Tape: Richard Bendall
+
+;Tape started at -10 centimetres (original notes - no Corrections)
+
+*Title "White Flag Inlet"
+;equate Whiteflag.1 PAS1.1
+*begin Whiteflag
+;equateWhiteflag.1 PAS1.1I
+
+*export 1
+*export 7
+
+*CALIBRATE tape -.10		;Tape was 10 centimetres too long
+	
+;Station 	Tape	Compass	Clino	 L	R	U	D
+
+2	1	14.02	080	-3	;1.2	1.0	1.7	0.3	Stall Boss in floor of passage 2m from lip into streamway.	
+3	2	3.95	088	-1	;0.3	0.3	0.1	0.7
+4	3	3.30	159	-2	;0.2	0.1	0.1	0.6
+5	4	1.85	121	-2	;0.2	0.3	0.1	0.7
+6	5	2.45	174	-2	;0.3	0.4	0.1	0.7
+7	6	4.80	229	0	;0.1	0.4	0.5	0.6
+					;0.2	0.3	0.1	0.4	Stn 7 end of dig
+
+*end Whiteflag

@@ -1,0 +1,137 @@
+; Locn:	Leck Fell
+; Cave:	Ireby Fell Cavern
+; Linking end of traverse beyond Adulterer's (station 12 of abovewellpitch2) to start of NE inlet below Rope pitch
+
+*begin neinlet2
+
+*export 40x 55
+
+*title "North East Inlet 2"
+*date 2009.12.29
+*team Insts Becka Lawson
+*team Notes Neil Pacey
+*instrument Compass and Clino - Neil's Disto-X until approx station 35, just before climbed up out of tight rift which we could have avoided by going over the top from the inlet
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+40x	1	4.09	294	+08
+1	2	1.66	019	-07
+2	3	2.75	037	+08
+3	4	1.67	087	0
+4	5	1.63	128	+04.5
+5	6	1.45	070	-07
+6	7	2.86	008	+02
+7	8	3.10	006	+01
+8	9	2.25	099	+06
+9	10	0.66	163	+07.5
+10	11	2.41	083	+01.5
+11	12	1.91	024	-03
+12	13	1.14	096	-02
+13	14	1.02	142	+01
+14	15	6.09	074	-04
+15	16	4.61	015	+08
+16	17	2.07	314	-03
+17	18	3.12	262	+11
+18	19	1.64	313	+04
+19	20	3.00	040	-04
+20	21	3.01	088	-01
+21	22	1.39	047	+12
+22	23	3.45	092	+04
+23	24	1.18	120	-01
+24	25	2.85	028	+07
+25	26	1.59	069	-03
+26	27	1.78	087	-02.5
+27	28	1.99	037	+16
+28	29	0.58	322	-06
+29	30	1.84	045	+14
+30	31	2.02	023	-04
+31	32	0.88	011	-04.5
+32	33	1.30	319	+08
+33	34	1.63	013	-05
+34	35	1.72	325	+16
+35	36	2.04	248	+38
+36	37	2.40	210	-01
+37	38	3.68	315	+12
+38	39	6.28	034	-13
+39	40	4.29	028	+01
+40	41	3.19	067	-02
+41	42	5.41	114	+01
+42	43	4.97	076	+05
+43	44	2.83	109	-05
+44	45	2.15	056	+01
+45	46	1.62	074	+05
+46	47	1.42	111	-07
+47	48	2.13	021	+10
+48	49	1.99	066	+01
+49	50	1.96	006	+01
+50	51	3.18	303	0
+51	52	2.79	043	-10
+52	53	2.76	344	-06
+53	54	1.34	068	+16
+54	55	4.71	009	+10
+
+*data passage station left right up down
+
+40x	3	1	10	1.5	; numbered station 40 of Neil and Becka's "NE Inlet 1" survey of 06.12.09 on boulder tip in small chamber where NE inlet passage enters
+1	0.1	0.3	3	1.8	
+2	0	0.3	3.5	1.7
+3	0	0.4	3.5	1.8
+4	0.2	0.3	4	1.2
+5	0.5	0	3	1.9
+6	0.3	0	3	1.7
+7	0.4	0	3	1.7
+8	0.1	0.5	4.5	1.6	; station 8 numbered
+9	0.5	0.4	3.5	1.7
+10	0.4	0.1	4.5	1.7
+11	0.4	0.1	3	1.8
+12	0	0.3	3	1.7
+13	0.2	0.4	3.5	1.7
+14	0.4	0.1	4	1.6
+15	0.4	0.1	3	1.2
+16	0.4	0.1	4.5	1.6	; station 16 numbered
+17	0.4	0	4	1.3
+18	0.2	0.3	5	1.6
+19	0	0.5	2.5	1.5
+20	0.1	0.3	4.5	1.4
+21	0.3	0.1	3	1.2
+22	0.2	0.25	3	1.4
+23	0.2	0.3	5	1.5
+24	0.3	0.2	5	1.4
+25	0.2	0.2	4	1.7
+26	0.1	0.2	3	1.6
+27	0.4	0.3	8	1.3	; station 27 numbered - tip of boulder at foot of aven with inlet
+28	1	0	7	1.4
+29	0.2	0.3	6	1.5
+30	0.4	0	4	1.9
+31	0.2	0.3	3.5	1.8	
+32	0.3	0.1	1.5	1.6
+33	0	0.3	1	1.6
+34	0.3	0	1.5	1.5
+35	0.3	0	3	1.8
+36	1	0	4	2.5
+37	0	1.2	4	2.5	; station 37 numbered 
+38	0	0.5	4	3
+39	0	0.8	4	1.7
+40	0	0.3	2.5	1.8
+41	0.2	0.3	4	1.6
+42	0.3	0	4	1.8
+43	0.1	0.5	2.5	2	; station 43 numbered 
+44	0.2	0.7	2.5	1.7
+45	0.2	0.3	3	1.7
+46	0.1	0.3	2.5	1.7
+47	0.3	0.1	2.5	1.6
+48	0.1	0.4	2	1.7
+49	0.4	0	2	1.7
+50	0.4	0.1	3	1.7	; station 50 numbered (only as a nice round number)
+51	0	0.5	2.5	1.7
+52	0.4	0.2	3.5	1.2
+53	0.4	0.6	2	0.6
+54	0.4	0.1	1.5	1	
+55	-	-	-	-	; station 55 numbered - right wall of small chamber before tight climb up with water (approx LRUD was 2 0 5 1.8)
+
+*end neinlet2
+
+
+
+

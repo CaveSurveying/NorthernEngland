@@ -1,0 +1,77 @@
+; Locn:	Leck Fell
+; Cave:	Ireby Fell Cavern
+; Upper Frink Chamber in Ireby II
+
+*begin frink2
+
+*export 21x
+
+*title "Upper Frink Chamber"
+*date 2010.06.12
+*team Insts Neil Pacey
+*team Notes Becka Lawson
+*instrument Becka's Compass and Clino Tandem and Patrick's Tape from 0cm
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+21x	1	3.00	261	+41
+1	2	4.71	281	+64
+2	3	6.40	265	+37
+3	4	2.92	306	+38
+4	5	7.40	174	-05
+5	6	6.29	166	-19
+6	7	5.54	136	+04
+7	8	6.43	123	-08
+8	9	2.51	100	+10
+9	10	4.61	168	-14
+10	11	4.28	-	down
+11	12	4.60	190	+11
+12	13	3.88	161	+25
+
+10	14	2.62	140	-21
+*flags duplicate ; (Frink) looks like a tie in
+7	15	2.90	304	+01
+*flags not duplicate
+15	16	3.44	126	+55
+16	17	7.27	250	+61
+18	19	9.76	-	up
+20	21	8.00	128	+27	; estimated tape - redo if need to continue this survey
+20	19	2.00	-	down	; estimated tape and not fully a plumb - redo if need to continue this survey
+18	17	0.78	002	-07
+18	22	4.44	294	+30
+15	23	11.77	032	-19
+2	23	5.91	146	-04
+
+*data passage station left right up down ignoreall
+21x	2	3	1	1	numbered on left in Frink Chamber before start climb through boulder choke into upper chamber
+1	1	1.8	2	1	mid choke
+2	10	3	0.5	1.3	wall above choke
+3	2	1	0	1	numbered at top of chamber
+4	1.5	0	1.2	0.5	numbered at boulder choke
+5	2	2	1.4	0.1	temporary rock
+6	8	0	1	0.7	numbered on back wall
+7	1.5	0.3	0.5	0.3	top of tallest of 3 stalagmites at start of calcite crawl
+8	1.3	1.5	1.3	1	top of stal
+9	0.5	1.8	0.7	0.7	l wall beyond crystal pool
+10	1.5	0.3	0.5	8	r wall below 2 bolts
+11	0	1	5	2	below pitch
+12	0	1.1	1.4	1.5	l wall
+13	0.2	0.4	0.4	0.3	before passage chokes with mud
+
+14	1	1	1.3	0.4	top of only stalagmite (40cm high), far side of top of pitch
+15	5	0.2	0	0.4	r wall
+16	0	1	2.7	1.7	halfway up climb
+17	0.5	0	7	1	r wall at top of climb
+18	0	1.8	0.5	10	spit by squeeze
+20	0.3	0	4	3	lower of 2 spits at top of pitch
+21	0	0.3	1	0.5	end, choked
+22	0	1	0.4	0.2	numbered on l wall
+23	10	0.5	4	1.5	wall of chamber
+
+*end frink2
+
+
+
+
+

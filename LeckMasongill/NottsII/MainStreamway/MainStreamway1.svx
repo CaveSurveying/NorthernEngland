@@ -1,0 +1,23 @@
+*begin Mainstreamway1
+
+;Date: 19/10/2006
+;Cave: Notts II - Inlet 17
+;Survey Kit RRCPC No ?
+;Instruments: Richard Bendall
+;Book: Neil Pacey
+;Tape: Richard Bendall
+*Title "Mainstreamway - Kleine Scheldeg Chamber - Notts II Downstream Sump"
+
+*export 12
+*export 3
+*calibrate declination +3.35	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.1994n 2.5124w 2006.10.19 
+
+*CALIBRATE tape -.10		;Tape was 10 centimetres too long
+;Tape started at -10 centimetres (original notes - no Corrections)
+
+1	12	5.30	326	+9	;2.5	1.5	14	0.3	Entrance to crawl to sump
+2	1		11.00	100	+2	;1.5	2.0	14	0.2
+3	2		21.30	114	+1	;2.0	2.5	1.5	0.6	Threaded eyehole, diversline tied off
+						;0	2.5	1.5	0.1
+*end Mainstreamway1

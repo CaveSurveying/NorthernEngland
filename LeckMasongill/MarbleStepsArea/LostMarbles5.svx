@@ -1,0 +1,34 @@
+;Cave:	Marble Steps Area
+;Surveyors:	Dave Ramsay/Richard Bendall/Joe Parsons
+;Date:	04/05/2012
+;Instruments:	Red Rose Sunto Compass & Clino kit 2, Disto 	
+
+*begin LostMarbles5
+
+*export 1 
+
+*calibrate declination +2.40	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.188n 2.492w 2012.05.03
+1	2	0.81	017	+46
+2	3	4.24	008	+15
+3	4	1.24	100	-19
+4	5	2.04	358	+34
+5	6	3.27	101	-9
+6	7	2.67	136	-5
+
+5	8	4.76	330	+2
+8	9	4.83	239	+76
+
+*data passage station left right up down ignoreall
+
+1	0.5	0.0	1.0	1.1	;=lostmarbles4.16
+2	0.3	0.2	2.0	1.7	;R WaLL
+3	0.0	0.4	1.0	0.5	;l wALL
+4	0.6	0.0	1.0	0.7	;r wALL
+5	0.6	1.0	0.1	1.2	;roof jn
+6	0.2	0.4	0.7	1.0	;flake
+7	0.5	0.5	1.7	0.2	;Continues too tight
+8	1.5	0.0	4.2	0.5	;R wall
+9	0.2	0.2	0.1	4.6	;wood belay in roof
+	
+*end LostMarbles5

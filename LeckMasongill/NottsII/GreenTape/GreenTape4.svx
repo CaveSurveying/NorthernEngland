@@ -1,0 +1,26 @@
+;Cave:	Notts II - Green Tape Inlet continued
+;Surveyors:	Richard Gerrish/Hilary Greaves
+;Date:	30/12/02
+;Instruments:	1
+
+;*equate	GreenTape4.007	GreenTape3.011
+;*equate	GreenTape4.000	GreenTape5.000
+
+*begin	GreenTape4
+
+*export 000 007
+
+;st011 to 016 by Paul & Chris
+*calibrate compass	+7.00
+*calibrate clino	+3.50
+*calibrate tape	0.00
+
+000	001	04.30	310.0	-25.0	;st000 is bolt at top of the pitch
+001	002	23.22	308.0	-62.0	;st002 is Y-hang knot
+002	003	04.46	326.0	-05.0
+003	004	04.74	310.0	-30.0
+004	005	08.40	324.0	-02.0
+005	006	03.90	349.0	-15.0
+006	007	03.67	020.0	-35.0	;st007=tag at end of scaffold bar used to get up climb
+
+*end	GreenTape4

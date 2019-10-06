@@ -1,0 +1,74 @@
+; Locn:	Leck Fell
+; Cave:	Ireby Fell Cavern
+; From main Duke St survey stations along small, parallel side passage at top end of Duke St
+
+*begin dukestsidepassage
+
+*export C 15x
+
+*title "Low, wet side passage on west and parallel to top end of Duke Street"
+*date 2010.05.29
+*team Instruments Becka Lawson
+*team Notes Neil Pacey
+*Instrument Becka's 30m tape and Becka's tandem comp & clino
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+*flags duplicate ; (Duke Street) tie in
+C	1	4.33	224	+02
+1	2	6.78	181	-21
+*flags not duplicate
+2	3	0.48	313	-49
+3	4	2.75	307	+02
+4	5	3.28	283	-04
+5	6	3.86	315	-02
+6	7	3.18	296	+02
+7	8	4.51	293	+01.5
+8	9	2.96	314	-04
+9	10	3.99	321	-05
+10	11	4.23	332	-01
+11	12	5.69	335	-01
+12	13	3.22	332	+02
+13	14	4.45	323	+01
+14	15	0.60	-	down	
+15	16	4.53	315	+06	; looks like 3+5 for compass in notes
+16	17	1.85	025	-01
+17	18	7.23	322	+01
+18	19	5.87	329	-03
+19	20	5.84	306	-02
+20	21	3.24	281	0
+21	22	8.85	323	-03
+22	23	6.87	308	+05
+23	24	1.80	037	-12
+15x	24	1.75	281	-16
+
+*data passage station left right up down ignoreall
+
+C	0.3	1.2	2.2	1.6	old station (*not* numbered) from ropepitch survey - I think ropepitch.4
+1	0.5	1	1.6	1.7	old station (*not* numbered) from ropepitch survey - I think ropepitch.5
+2	0	0.5	4	1	start of side passage, where leaves main streamway passage
+3	0.4	0	0.1	0.5
+4	0.5	0	0.2	0.7
+5	0.3	0.3	0.3	0.8
+6	0	0.4	0.4	0.6
+7	0.1	0.4	0.4	0.6
+8	0.1	0.3	0.3	0.8
+9	0.3	0	0.1	0.7
+10	0.4	0	0.4	0.4
+11	0	0.5	0.6	0.4
+12	0.4	0.1	0.3	0.4
+13	0.2	0.4	0.2	0.4
+14	1	0.2	0.1	0.5	numbered at start of deep pool
+15	1	0.2	0.6	0
+16	0	2	0.4	0.3
+17	1	0.8	0.4	0.2
+18	0	0.7	0.4	0.4
+19	0.6	0.5	0.3	0.4
+20	1.3	0.2	0.5	0.5
+21	0.1	1.1	0.2	0.6	end of side passage where enter main Duke St
+22	2	1.5	1.1	0.5	in main Duke St
+15x	-	-	-	-	numbered old station from duke st resurvey in main passage	
+
+*end dukestsidepassage

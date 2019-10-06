@@ -1,0 +1,44 @@
+*begin inletfrombaselostpot
+
+*export 3 6 44x
+
+*title "From old numbered station 44 from base of Lost Pot (below Kendal Flyover) then up inlet plus 2 legs up low crawl on left - neither route pushed to conclusion - try again when drier"
+
+*date 2013.1.01
+*team Instruments Julian Todd
+*team Notes Becka Lawson
+
+*instrument Becka's tandem comp and clino and Becka's 30m tape read from 0cm
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+1	44x	1.92	298	-15
+2	1	3.84	227	-05
+2	3	8.99	021	-04
+; 3	4	5.25	355	-05 superceded by downfromtrenchtown survey
+5	2	7.63	331	-03
+
+;*flags splay ; (Tate Galleries) splay commented out in original
+5	6	5.81	092	0
+;*flags not splay
+
+; 5	7	5.71	092	-02	; removed after surveyed Trenchtown properly
+; 7	8	3.09	079	-06
+; 8	9	3.70	030	0
+
+*data passage station left right up down ignoreall
+
+44x	0	2	1.2	1	old numbered station at start of inlet at base of aven below Kendal Flyover
+1	1.5	1	1.2	0.5	hole to chamber on right
+2	1.5	1.2	0	1.2	at junction / corner
+3	1.4	1.4	0	0.5	numbered in roof before pool starts
+; 4	1	1	0.2	0.1	unmarked in pool, continues but best surveyed when drier
+5	2	1.2	0.5	0.6	edge of main chamber still (just boulders between this "passage" and main chamber)
+6	1.5	0.5	0.1	0.5	yellow RRCPC tag and numbered
+; 7	1.5	0.5	0.2	0.4	just below (10cm below) tag
+; 8	1.5	0.2	0.2	0.2
+; 9	1	1	0.1	0.2	unmarked - need helmet off to survey from here, best if drier
+
+*end inletfrombaselostpot

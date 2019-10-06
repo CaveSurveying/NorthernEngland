@@ -1,0 +1,41 @@
+
+*begin Large16
+*export 9x 14 18
+
+*title "Choke at end of Necropolis up towards James and Chris dig and beyond"
+*date 2011.02.12
+*team Instruments Patrick Warren
+*team Notes Becka Lawson
+*instrument Becka's Tandem as comp and clino and Patrick's 60m tape
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+9x    10   9.65 109  +07 ; this should nearly repeat a leg from Neil and Julian's Large survey in Jan
+10    11   3.45 146  +29
+11    12   4.44 100  +22
+12    13   7.80 155  +28
+12    14   6.09 194  +39
+13    15   4.05 146  +12
+15    16   4.34 146  -23
+16    17   4.67 105  +32
+17    18   2.62 113  -04
+18    19   7.38 117  +03
+19    20   3.74 163  -02
+
+*data passage station left right up down ignoreall
+
+10    2       2       0    0.6
+11    1.2     3       0.3  0.8
+12    0.5     5       0.5  0.2   
+13    0.4     1       0.3  0.3
+14    6       1.5     1    1	numbered dig at base of 2m climb up into Grime and Punishment, Chris and James's dig
+15    0.1     4       3    1.5
+16    1.3     0       3    1.8
+17    1.3     0       0.7  1.3
+18    1.6     0       0.5  1	numbered by inlet towards Occult
+19    0.3     0.8     0    1.1
+20    1.8     0.2     0.4  0.2	numbered by pitch lip down to Necropolis
+
+*end Large16

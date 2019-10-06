@@ -1,0 +1,33 @@
+*begin Bumblinghole_4
+
+;Date:  03/01/08
+;Cave: Bumbling Hole
+;Survey Kit RRCPC No 2
+;Instruments: Richard Bendall
+;Book:  Dave Ramsay
+
+*Title "Bumbling Hole"
+;equate 001 Bumblinghole_1.008
+;equate 006 Bumblinghole_2.103
+*export 001
+*export 006
+
+001	002	3.95	240	-3	;start of 03/01/08 survey
+002	003	5.47	255	-15
+002	004	5.06	307	-6
+005	004	3.90	069	+5
+006	005	1.64	045	+36	;end of loop	
+
+*data passage station left right up down ignoreall
+
+
+001	4.0	1.0	0.2	0.0
+002	0.8	1.7	0.1	0.2
+003	0.0	1.0	0.3	0.5
+004	2.0	0.1	0.1	0.0
+005	0.1	1.5	0.1	0.1
+006	0.0	1.5	0.4	0.5
+
+*end Bumblinghole_4
+
+

@@ -1,0 +1,39 @@
+; Locn:	Leck Fell
+; Cave:	New Rift
+; Dig hopefully heading towards Low Douk
+
+*begin NewRiftDigToLowDouk
+
+*export 2
+
+*title "New Rift Dig to Low Douk"
+*date 2009.09.26
+*team Notes Ruth McDonald
+*team Insts  Becka Lawson
+*team Tape Richard Bendall 
+*team Digger Dave Ramsay
+
+*instrument Compass and Clino - Becka's tandem set ; Tape - Becka's 30m yellow read from 0cm
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+;2	1	1.61	007	-16	; this leg repeated on main RiftToD7 survey so not needed
+3	2	5.89	293	+02
+4	3	1.54	328	+24
+5	4	3.70	306	-03
+5	6	1.70	148	0
+6	7	4.00	100	0
+
+*data passage station left right up down
+
+;1	-	-	- 	-	; white stal in main New Rift passage about 50m before Temple of Doom chokes
+2	-	-	-	-	; arch at start of dig passage
+3	-	-	-	-	; small chamber 
+4	-	-	-	-	; floor of duck 
+5	-	-	-	-	; ceiling at previous limit of dig
+6	-	-	-	-	; guesstimated leg to Dave's bum
+7	-	-	-	-	; very guesstimated leg to dig face
+
+*end NewRiftDigToLowDouk

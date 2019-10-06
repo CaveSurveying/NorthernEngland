@@ -1,0 +1,50 @@
+
+*begin BrunoKranskies1
+
+*export tag 5 8
+
+
+*title "Old RRCPC tag (actually a black cable tie) in main streamway by rope climb to start of Bruno Kranskie's dig"
+
+*date 2010.11.20
+
+*team Instruments Becka Lawson
+
+*team Notes Di Arthurs
+
+*team Tape Simon Cornhill
+
+*instrument Becka's Tandem as comp and clino and Becka's 30m tape read from *20cm* as end now fallen off!
+
+
+
+*calibrate declination +2.55	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.1994n 2.5124w  2010.11.20
+
+
+*calibrate tape 0.20	; +ve if tape was too short, -ve if too long
+
+
+;from	to	tape	compass	clino	remarks
+1	tag	2.86	012	-41
+;all the subsequent legs were written as forward bearings in notes but were definitely back-bearings
+2	1	6.70	183	-34
+3	2	9.97	249	-03
+4	3	10.20	176	-11
+5	4	5.00	282	-34
+6	5	10.53	159	-03
+7	6	5.55	118	-02
+8	7	5.12	159	+07
+
+*data passage station left right up down ignoreall
+tag	-	-	10	1.7	black cable tie (not very obvious) very close to rope for handline climb out of stream
+1	2	0	7	3
+2	0	4	5	2	l wall by calcite bubble boulders
+3	4	0.3	6	1.5
+4	0	3	5	1.8
+5	5	0	10	1.5	opposite base of pitch for Count Lazlo, numbered (by spade)
+6	1.8	0	3	1.6
+7	0.5	1.7	4	1.5	numbered
+8	1.5	0.1	1.1	1.1	numbered, on right just before start crawl into Bruno Kranskie's
+
+*end BrunoKranskies1

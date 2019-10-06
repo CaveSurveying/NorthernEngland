@@ -1,0 +1,27 @@
+;Every Gavel pot file
+
+*begin	GavelPot
+*export GavelPotFencePost
+
+*equate Gvl2.000 GavelPotFencePost
+
+*equate Gvl2.002 Gvl1.001	 ;st001=P-hanger
+*flags duplicate
+*include	Gvl1  ; see where it goes
+*flags not duplicate
+
+*equate	Gvl2.017	Gvl3.001
+*equate	Gvl2.034	Gvl4.001
+*equate	Gvl2.027	Gvl5.001
+*include	Gvl2
+
+*equate	Gvl3.001	Gvl2.017
+*include	Gvl3
+
+*equate	Gvl4.001	Gvl2.034
+*include	Gvl4
+
+*equate	Gvl5.001	Gvl2.027
+*include	Gvl5
+
+*end	GavelPot

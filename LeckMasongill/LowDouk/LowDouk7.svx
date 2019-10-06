@@ -1,0 +1,79 @@
+; Locn:	Leck Fell
+; Cave:	Low Douk
+; Main entrance area
+
+*begin lowdouk7
+
+*export 2x 18 tag
+
+*title "Low Douk 7"
+*date 2010.07.10	; added final leg to yellow RRCPC tag on 23/05/11 - on Marble Steps Main Chamber notes for that day with Becka Lawson, Richard Bendall and Dave Ramsay
+*team Insts Becka Lawson
+*team Notes Mark Shinwell
+*instrument Compass and Clino - Becka's tandem compass-clino and Becka's tape
+; at Bull Pot Farm the next day and from the corner level with the screws (and with the carpark full of cars) I got 342 (and +2.5) to the top of the near footpath sign and 340 to the short post just to the right of the further footpath sign
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+1	2x	6.22	218	-12
+2	1	2.04	183	-37
+3	2	2.46	227	-14
+4	3	5.60	238	-21
+5	4	2.29	276	-20
+
+1	6	1.70	144	+29
+6	7	5.62	051	+47
+1	8	6.12	171	+02
+8	2x	5.02	287	-19
+11	8	4.31	251	+21
+9	8	5.32	067	+16
+10	8	4.93	339	-46
+
+12	9	4.86	074	+52
+12	13	3.00	327	-35
+14	11	2.99	324	+05
+15	14	4.28	281	-33
+16	15	7.26	141	-49
+
+*flags surface
+17	10	6.96	221	-28
+17	16	1.76	056	-24
+16	18	1.76	348	+52	; written 17 to 18 in notes but this was definitely from 16, boulder, to 18, spit
+
+18	tag	2.19	136	0	; leg measured on 23/05/11, see notes above
+19	18	1.05	290	-55	
+
+*flags not surface
+
+*data passage station left right up down ignoreall
+2x	-	-	-	-	lp about 6 inches below scratched triangle above start of third entrance - spoke to Dave before and he thought the station was just below the mark (which was made after the survey was done)
+1	0.3	0.4	3.5	1.4	l wall
+2	0.1	0.4	3.0	2.2	l wall
+3	0.5	0	3.0	0.5	r wall
+4	0.2	1.3	0.6	0.5	l wall
+5	0.3	1.0	3.5	0.5	boulder
+6	1.2	0	5.0	2.0	nodule of rock
+7	5.0	3.0	3.0	1.0	daylight visible though too tight to enter, station on wall
+
+8	-	-	-	0.2	rock in middle of entrance chamber (temp station)
+9	-	-	-	-	lp on wall
+10	-	-	-	-	lp on wall just above climb into entrance (so outside)
+11	-	-	-	-	lp on boulder
+
+12	1.1	0.5	1.2	0.2	lp on boulder
+13	-	-	-	-	unmarked - continues down and left here for about 2m
+14	0.7	0.4	3.0	1.9	tip of big boulder
+15	2.0	0	5.0	2.0	lp on wall
+16	-	-	-	-	tip of boulder outside, just above freeclimbable drop down
+17	-	-	-	-	side of large flake outside
+18	-	-	-	-	existing spit in large flake outside	(Becka on 26/05/11 - I think this is the EMPTY hole - no metal spit - rather than the metal spit a bit higher up and further right on the same flake)
+
+19	-	-	-	-	old spit hold (with metal spit) on large flake
+tag	-	-	-	-	old RRCPC yellow tag hidden in ferns on rock directly above drop down
+
+*end lowdouk7
+
+
+
+

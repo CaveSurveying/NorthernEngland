@@ -1,0 +1,30 @@
+*begin GreenTape
+
+*export GreenTape1.030
+
+*include GreenTape1
+
+*include GreenTape2
+
+*include GreenTape3
+
+*include GreenTape4
+
+*include GreenTape5
+
+*include GreenTape6
+
+*flags duplicate
+*include GreenTape_1
+*flags not duplicate
+
+;---------------------------------------------------
+
+*equate	GreenTape2.000	GreenTape1.016
+*equate	GreenTape3.016	GreenTape1.016
+*equate	GreenTape4.007	GreenTape3.011
+*equate	GreenTape5.000	GreenTape4.000
+*equate	GreenTape6.010	GreenTape5.014
+*equate Greentape_1.1 Greentape1.030
+
+*end GreenTape

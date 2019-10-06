@@ -1,0 +1,40 @@
+*begin inlet7-1
+*export 012
+*export	001
+*data normal from to tape compass clino ignoreall
+*units length metres
+*calibrate tape 0.0
+*units compass degrees
+*calibrate compass 0.0
+*units clino degrees
+*calibrate clino 0.0
+
+;Cave:	Notts II - Inlet 7
+;Description:	Oliver Lloyd Aven (Top)
+;Date:	28/10/2004
+;Surveyors:	Instruments + Tape: Dave Ramsay; Notes: Neil Pacey
+;Instruments: RRCPC Kit 4 (Tape 3m Short)
+
+
+*calibrate compass	+5.00
+*calibrate clino	-0.50
+*calibrate tape		+3.00
+
+;From	To	Tape	Compass	Clino		L	R	U	D	Comments
+
+002	001	5.95	307	-2		;0.0	0.4	4.0	1.5	Stn 1 on first bolt after Y Hang
+003	002	5.80	241	-2		;0.3	0.1	2.0	1.7	Stn 2 opp last bolt in Traverse
+004	003	7.65	216	-18		;0.4	0.3	0.2	2.7	Stn 4
+005	004	5.5	240	-18		;0.3	0.3	2.5	1.5	Stn 3
+						;0.3	0.2	1.2	1.7	Stn 5
+006	005	6.2	223	0		;0.1	0.3	1.2	1.7	Stn 6
+007	006	5.35	217	+28		;0.5	0.4	2.0	0.4	Stn 7
+008	007	6.25	248	-2		;0.2	0.3	1.3	0.4	Stn 8
+009	008	5.35	224	-45		;0.3	0.2	0.5	1.7	Stn 9
+010	009	4.50	205	0		;0.2	0.2	0.6	1.7	Stn 10
+011	010	4.95	235	+30		;0.3	0.1	1.8	0.3	Stn 11
+012	011	7.30	197	-24		;0.2	0.4	1.0	1.7	Stn 12 Middle of Junction
+
+
+
+*end inlet7-1

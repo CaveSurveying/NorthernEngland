@@ -1,0 +1,39 @@
+*begin lj-tube2
+*export 8 13 24x
+
+*title "From station 8 when DistoX ran out of battery as trying to finish last section surveying the Tube at end near Lyle Caverns, finishing at junction with inlet where end up in alternative pitch series up into Avens Passage"
+
+*date 2012.12.15
+
+*team Tape Andy Chapman
+*team Instruments Julian Todd
+*team Notes Becka Lawson
+
+*instrument Becka's tandem comp and clino and Becka's 30m tape read from 0cm
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+8	9	9.39	315	-03
+9	10	10.41	291	-02
+10	11	9.66	313	-06
+11	24x	4.26	326	+03
+24x	12	7.05	322	-05
+24x	13	3.10	282	-05
+; 13	14	3.98	181	-04 ;superceded by lj-tube3
+
+*data passage station left right up down ignoreall
+
+;49x	3	1.5	1.5	1.3	r wall on stal, numbered, before start of low section
+
+8	1.8 1.5 1 1 for srtn 8	not numbered, where DistoX battery died so couldn't continue with electronic surveying; note LRUD on PDA so transferred onto here from tube2 survex file
+9	2.1	1.2	1	0.9
+10	0.2	5	0.5	1.2
+11	0.2	2	0.3	1.1
+24x	2	4	5	2	numbered at junction but might not last
+12	1	1	1	0.7	near boulder choke end (though passage underneath may be caveable)
+13	1.7	0.3	0.3	0.6	numbered on R at start of inlet that leads to pitch series
+;14	2	1	0.6	0.2	not marked, leg taken just to aid drawing;superceded by lj-tube3
+
+*end lj-tube2

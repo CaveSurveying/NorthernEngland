@@ -1,0 +1,31 @@
+;Witches Cave
+;02/02/97
+;Pete grant / Ivor Chittenden
+
+*begin	wit
+*export 001 002b 002c
+
+*calibrate compass	+5.13
+
+*flags duplicate	; data replaced by resurvey in 2011
+
+001	002	00.35	  -	Down	;001=tag at entrance
+002	002a	11.10	025.0	-02.5
+002a	002b	01.95	042.0	+09.0	;002b=tag above sump
+002b	002c	01.33	202.0	-42.0	;002c=bolt diving line belay
+002	003	17.30	15.5	-02.0	;003=tag at rift sump line
+003	004	05.00	080.0	 00.0	;st004=top of pointed rock
+004	004a	05.23	008.0	-09.0	;passage on left
+004	005	05.90	099.0	-01.0
+005	005a	04.10	076.0	-10.0
+005	101	00.70	  -	  UP
+101	102	07.90	166.0	+14.0
+102	103	04.90	182.0	+12.0
+005	006	04.00	010.0	-15.0
+006	007	06.70	010.0	 00.0	;across water surface of normal sump with deep hole in pool to flooded passage below!!!
+007	008	01.40	  -	up
+008	009	04.10	000.5	 00.0	;to rock bridge at edge of sump pool chamber
+
+*flags not duplicate
+
+*end	wit

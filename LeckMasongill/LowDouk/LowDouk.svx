@@ -1,0 +1,39 @@
+;Cave:	Low Douk Cave - Masongill
+
+*begin	LowDouk
+
+*export EntranceTag
+*export LowDouk-RiftConnection
+*equate EntranceTag LowDouk1.s01
+*equate LowDouk4.21 LowDouk-RiftConnection
+
+*entrance EntranceTag
+
+*include LowDouk1
+*include LowDouk2
+*include LowDouk3
+*include LowDouk4
+*include LowDouk5
+*include LowDouk6
+*include LowDouk7
+*include LowDoukStreamway
+*include LowDoukToSump
+*include LowDoukLeftAtSteps
+*include lowdoukBACrift
+
+;--------------------------------------------------------------------
+
+*equate LowDouk1.016 LowDouk2.022
+*equate Lowdouk3.001 LowDouk1.017
+*equate Lowdouk1.014 LowDoukStreamway.1
+*equate Lowdouk4.1 LowDoukStreamway.1
+*equate Lowdouk5.1 LowDouk2.010
+*equate lowdouk6.20 lowdouk1.s01
+*equate LowDoukStreamway.67 lowdouktosump.67x
+*equate LowDoukStreamway.67 lowdoukleftatsteps.67x
+*equate lowdouktosump.13 lowdoukleftatsteps.13x
+;*equate lowdouk1.002 lowdouk7.2x
+*equate lowdouk1.s01 lowdouk7.tag
+*equate lowdoukBACrift.26x lowdouktosump.26
+
+*end	LowDouk

@@ -1,0 +1,81 @@
+;Cave:	Witches II
+;Surveyors:	Dave Ramsay/Richard Bendall
+;Date:	01/11/10
+;Instruments:	Red Rose Suunto Compass & Clino kit 2, 30m tape	
+
+*begin	WitchesII-3
+*export 003 013 014 018 019 020 021 022 028
+
+*calibrate declination 2.65
+;*calibrate compass
+
+;stn to stn	tape	comp	clino
+001	002	6.00	330	+25
+002	003	5.96	014	+14.5
+004	002	7.66	345	-47
+005	004	3.24	262	-63
+006	005	3.30	337	-72
+007	006	3.00	170	-52	;tape guessed due to vdlb
+
+009	008	5.18	173	-17
+010	009	3.67	137	+8
+010	011	3.00	335	0
+010	012	8.22	180	+54
+013	012	3.08	008	+17
+014	012	6.27	130	+10
+
+015	016	2.45	343	+23
+016	017	4.68	-	UP
+017	018	8.92	350	+37
+018	019	3.05	039	-30
+
+020	021	6.45	311	-37
+*flags duplicate
+021	022	10.54	020	-11
+023	022	9.41	317	+0.5
+024	023	16.19	337	0
+*flags not duplicate
+022	025	8.37	248	+22
+025	026	23.37	329	+34
+026	027	9.87	019	+13
+027	028	6.28	330	-15
+028	029	13.13	356	+2
+029	030	11.91	329	-4
+
+*data passage station left right up down ignoreall
+
+001	0.5	0.0	0.6	1.3	;end of passage at "smile" dig
+002	0.0	1.7	10.0	1.5	;on wall at head height
+003	3.0	0.0	6.0	5.0	;Stn001 from Shuttleworth 1
+004	0.8	0.0	4.0	6.0	;on RH wall up rift
+005	0.3	1.1	2.0	1.2	;L wall
+006	1.8	0.0	1.5	1.4	;R wall
+007	2.0	1.0	1.7	1.4	;no way on between big cantilevered rocks
+
+008	0.4	0.0	1.0	1.0	;End of Mud "sump"
+009	1.0	1.5	0.0	0.5	;stall on roof of mud "sump" at high point
+010	0.1	2.4	0.8	1.1	;foot of climb down, head height
+011	0.5	0.5	0.5	0.5	;other edge of mud "sump
+012	1.8	4.5	4.0	0.4	;rim of crater in main passage
+013	0.1	3.5	5.0	1.3	;is stn021 from Shuttleworth 1
+014	1.7	2.0	5.0	0.4	;is stn022 from Shuttleworth 1	
+
+015	0.2	0.4	0.4	0.0	;stream flows through fist sized hole
+016	0.0	0.4	4.5	0.8	;bottom of chimney climb
+017	0.0	0.4	0.2	5.2	;top of chimney
+018	0.0	2.2	5.0	1.4	;LH wall
+019	1.5	2.2	3.4	0.1	;stn024 from shuttleworth 1
+
+020	0.0	4.5	15.0	2.4	;on bolt, stn019 from Shuttleworth 2
+021	6.0	7.0	4.0	1.8
+022	4.5	3.0	0.3	1.3	;roof spike above true R of Cascade
+023	3.0	4.0	0.1	0.8	;roof of passage
+024	3.0	1.5	0.6	0.5	;sump pool? estimated 7m further to sump
+025	0.1	2.7	15.0	1.6	;LH wall
+026	1.5	5.0	4.5	1.1	;on shelf LH side
+027	5.5	0.0	6.0	1.6	;just past small aven inlet
+028	2.8	2.4	6.0	0.3	;boulder in mid passage, routes off L and R	
+029	6.0	0.0	7.0	1.4	;RH wall below inlet
+030	1.0	1.8	0.0	0.9	;end of passage at roof, continues low for 2m
+
+*end	WitchesII-3

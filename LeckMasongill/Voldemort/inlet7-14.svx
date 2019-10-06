@@ -1,0 +1,44 @@
+;Cave:	Notts II - Voldemort entrance to Ill Bill Aven 
+;Surveyors:	R.Bendall/Becca Lawson/Emma Martindale
+;Date:	25/11/08
+;Instruments:	Becca's
+
+;*equate	Inlet7-13.018	Inlet7-14.013
+
+
+*begin	Inlet7-14
+*export 001
+*export 013
+*entrance 001
+
+001	002	02.75	261	-85	;stn1=Surface Entrance-half way along west hoizontal
+002	003	01.41	159	-12	;Stn2=Bottom of entrance shaft
+004	003	03.07	086	+09	;stn3=LH Wall
+004	005	01.72	180	-72	;Stn4=RH Wall
+005	006	02.50	072	-11	;Stn5=Floor
+007	006	02.87	155	+72	;Stn6=Spit for hand line
+007	008	02.94	217	-80	;stn7=small ledge going down shaft
+008	009	00.78	054	-61	;Stn8=rock by second horizontal scaf bar
+009	010	02.05	148	-62	;stn9=rock behind scaff
+010	011	03.72	182	-06	;stn10=rock RH below last scaf bar
+011	012	02.62	124	-33	;stn11=Stall on RH wall above pitch
+012	013	08.71	096	-80	;stn12=LH wall 20cm below p bolt 
+					;stn13=Bolder at base of Ill Bill=radio location point and Inlet7-13.018
+
+*data passage station left right up down ignoreall
+
+001 	0	.8	10	2.75
+002	.7	.1	10	0
+003	0	.6	.2	.3
+004	1	0	.3	1.7
+005	.2	.3	1.9	0
+006	.2	.1	.1	1.3
+007	.4	.3	2	3
+008	.2	.3	4	2.5
+009	.2	.5	7	1.7	
+010	.8	.1	.2	.1
+011	.8	.1	.5	2.5
+012	0	1.2	1.3	8.7
+013	1	2.5	10	0
+
+*end	Inlet7-14

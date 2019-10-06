@@ -1,0 +1,40 @@
+
+*begin TinkleInletNPC
+*export GS0
+
+*title "From sump in Tinkle Inlet - original NPC survey data emailed by Andy Waddington to Becka on 2011.02.10"
+*date 1983.04.15  ; date was April 1983 on drawn up survey so have guessed mid moknth
+*team Instruments Andy Waddington
+*team Notes Mike Thomas
+*instrument unknown
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+; given the date (1983) this really needs a separate correction for magnetic variation to remaining (2010/2011) Large Pot data
+
+;from	to	tape	compass	clino	remarks
+
+; Comment from Andy Waddington about drawn up survey "grid north" here would have been an arbitrary "magnetic north - 8 degress"
+
+; UNITS METRIC
+;  LA93   GS0   0.0   0.0   0.0   ; NOMINAL CONNECTION THROUGH SUMP
+   GS1   GS0  3.3  223    0.0
+   GS2   GS1  2.15 154    0.0 ;  -0.3       Andy didn't know what these readings meant - this is through the sump so clino must be near zero
+   GS3   GS2  6.95 234    0.0 ;  0.2       Andy didn't know what these readings meant - this is through the sump so clino must be near zero
+   GS4   GS3  2.1  134    0.0 ; -0.2      Andy didn't know what these readings meant - this is through the sump so clino must be near zero
+   GS5   GS4  4.9  234    0.0 ;  0.2      Andy didn't know what these readings meant - this is through the sump so clino must be near zero
+   GS6   GS5  3.65 236  -19
+   GS7   GS6  3.5  207   -7
+   GS8   GS7  3.85 222   -3
+   GS9   GS8  1.7  320    0
+  GS10   GS9  3.1  226    6
+  GS11  GS10  1.3  187   24
+  GS12  GS11  3.15 238   -6
+  GS13  GS12  2    180   -8
+  GS14  GS13  5.6  236    2
+  GS15  GS14  2.85 254   -3
+  GS16  GS15  3.25 298   -2
+  GS17  GS16  4.65 199    0
+  GS18  GS17  2.95 237    3
+
+*end TinkleInletNPC

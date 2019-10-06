@@ -1,0 +1,43 @@
+*begin ChisholmTrailCentral-1
+
+*export 1-0 1-22
+
+;;; TRIP COMMENT FROM POCKETTOPO ;;;
+;  ; beckas distox 0.41 calibration 
+;Instr: julian todd - rift pot - chisholm trail
+
+*date 2013.02.08
+;*declination 0.0
+
+*data normal from to tape compass clino ignoreall
+
+*flags duplicate ; (Big Pitch) access to Chisholm Trail
+
+1-0	1-1	12.822	279.2	-65.6  ; stn 0 is old numbered stn 220 at height of pitch bolts for 2nd pitch of rift pot ; stn 1 is on left wall near rebelay  
+1-1	1-2	0.766	341.1	30.9  ; p hanger, the only one on the left wall  
+1-1	1-3	0.983	33.8	1.8  ; stn 13 is furthest phanger on r wall for the pitch y hang  
+1-1	1-4	1.002	0.8	-49.6  ; stn 4 is knot of y hang for wet direct route  
+1-4	1-5	12.976	254.7	-80.9
+1-5	1-6	4.939	187.4	-44.4  ; stn 5 about level with chisholm trail passage  ; stn 6 about 1m below traverse line  
+
+*flags not duplicate
+
+1-6	1-7	1.927	277.4	53.1  ; stn 7 is bolt on traverse  
+1-8	1-7	1.842	117.6	-0.2
+1-9	1-8	1.931	27.5	3.2
+1-9	1-10	4.218	209.4	-8.2
+1-10	1-11	4.722	197.7	6.5
+1-11	1-12	9.023	158.6	0.3
+1-12	1-13	5.025	174.7	10.0
+1-13	1-14	5.526	177.3	-2.2
+1-14	1-15	4.631	191.3	4.3
+1-15	1-16	3.854	148.6	4.8
+1-16	1-17	3.311	208.1	1.2
+1-17	1-18	6.311	162.2	-1.2
+1-18	1-19	7.715	158.7	1.9
+1-19	1-20	6.909	177.1	0.1
+1-20	1-21	4.133	183.4	0.1
+1-22	1-21	5.122	59.9	2.1	; 22 numbered on right wall just before junction    
+1-22	1-23	2.172	252.0	-7.1 ext:0.1,0.2,0.2   ; stn 23 unmarked shot into too low stream  
+
+*end ChisholmTrailCentral-1

@@ -1,0 +1,32 @@
+;Title: Little Pot
+
+;Date Created 16/12/10 by Richard Bendall
+
+;-------------------------------------------------------------------------------------------
+;Modifications
+;
+
+;--------------------------------------------------------------------------------------------
+;All Little Pot files
+
+*begin LittlePot
+
+*export EntranceTag
+
+*entrance LittlePot1.003
+;*fix LittlePot 66214 79777 277 ;
+;*export EntranceTag
+
+
+*include LittlePot1
+*include LittlePot2
+;*include LittlePot3
+
+*equate EntranceTag LittlePot1.tag	;Tied into Large pot entrance tag
+*equate LittlePot1.010 LittlePot2.001
+
+;*equate LittlePot1. LittlePot2
+;*equate LittlePot1. LittlePot3
+
+
+*end LittlePot

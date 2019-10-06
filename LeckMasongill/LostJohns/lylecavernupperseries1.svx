@@ -1,0 +1,59 @@
+*begin lylecavernupperseries1
+
+*export tag 10 67x
+
+*title "Survey from RRCPC tag at junction of Helictite Rift with Notts II connection along main passage to top of climb down, so along Avens Passage"
+
+*date 2013.09.08
+*team Instruments Steve Woods
+*team Tape Andy Chapman
+; actually Steve Woods did Distox and Andy Chapman read conventional compass and clino so could double check them both
+*team Notes Becka Lawson
+
+*instrument Becka's Distox and Becka's tandem comp and clino 
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+tag	1	9.31	153	+03	; Andy 153	+02
+1	2	12.95	152	+03.5	; Andy 149	+01
+2	3	18.41	144	+10	; Andy 144	+07
+3	4	12.96	158	-12	; Andy 163	-14
+4	5	1.58	023	-48	; Distox only
+5	6	2.65	082	-02	; Distox only
+6	7	4.08	129	+05	; Distox only
+7	8	11.05	347	-85	; Distox only
+
+4	9	15.41	134	+19	; Andy 132	+17
+9	10	5.74	139	-28	; Andy 144	-29
+3	11	6.34	343	-20	; Andy	347	-21
+11	12	3.85	053	+12	; Andy 053	+09
+12	13	5.81	112	+29	; Andy 110	+30
+13	14	6.01	089	-06	; Andy 092	-08
+14	15	13.09	266	+84	; Distox only up aven
+
+67x	10	2.61	145.5	-28	; From old station scratched with number on wall above handline down; Distox only
+
+*data passage station left right up down ignoreall
+
+tag	-	-	-	-	RRCPC tag at junction of Helictite passage and Avens passage and route to Notts II
+1	3	0.4	7	3	r bank in big passage
+2	1.2	2.5	4	1.5	 l wall
+3	1	2.5	2.5	2	l wall
+4	1.5	0.5	6	1.2	r wall at inlet junction
+5	0.2	1.2	0.5	0.2	stone at start of low inlet passage
+6	0.2	1	0.3	0.3	l wall
+7	0.4	0.6	0	8	numbered in ceiling
+8	-	-	-	-	distox shot down shaft
+
+9	0	1.3	1.5	4	l wall at top of boulders
+10	0.5	5	2.5	1.2	numbered above top of rope climb
+11	0.3	1.2	4.5	1	start of side passage
+12	1	0.6	5	2	flowstone on left
+13	2	0.5	10	2	numbered at aven
+14	1.5	1.5	13	1.4	numbered on back wall of aven
+15	-	-	-	-	roof of aven
+67x	-	-	-	-	old numbered station above handline climb down
+
+*end lylecavernupperseries1

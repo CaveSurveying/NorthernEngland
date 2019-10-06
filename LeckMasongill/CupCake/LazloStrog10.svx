@@ -1,0 +1,44 @@
+*begin LazloStrog10
+*export  12
+
+*title "Cupcake, squeeze at bottom of Slither Aven into rift then small chamber"
+
+*date 2013.02.24
+*team Instruments Dave Ramsay
+*team Notes Becka Lawson
+*instrument Becka's Tandem as comp and clino and Becka's 30m tape read from 0cm
+
+*calibrate tape 0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+stal	1		6.00	219	+70	
+1		2		1.50	-	up
+3		stal	3.25	338	0
+4		stal	1.87	071	-48	; this written as 3 to stal in notes but very muddy survey book so was hard to keep track of numbers
+5	4	2.48	031	+03.5
+6	5	1.78	359	+24
+7	6	4.88	036	+11
+7	8	4.52	337	+11
+9	stal	1.20	199	-31
+9	10	3.00	312	0	
+11	9	3.09	327	-01
+12	11	2.24	270	0
+
+*data passage station left right up down ignoreall
+
+stal	0	0.5	6	2	tiny stal in roof just after drop down squeeze, above mud pool
+1	2.5	1	1.5	8	Dave free-climbed up and put a bolt in at approx where stn 1 is, rope left in situ
+2	-	-	-	-	top of climb - boulders blocking way at this point
+3	0.5	0.1	3.5	2.5	left side when emerge from squeeze; down to pool at floor but wedged boulders above; these LRUDs given as for station 2 in notes but I think I got confused 
+4	0.8	0	1.8	3.5	above wedged boulder on climb up to right
+5	0.4	0	0.5	0.4	through low crawl beyond wedged boulder into next chamber
+6	0.5	0	3	2.5	on R wall at top of climb down into chamber
+7	1.2	4	4	1.6	numbered in liquid paper on far side of chamber
+8	0.5	0	0.8	0.5	around the corner in the chamber
+9	0.2	0.6	1.2	2.5	above top of climb up past squeeze
+10	0.1	0	1	0.3	leg into far too thin rift so tape guessed, didn't get there! Drafting well though.
+11	0.6	0	0.1	0.4	near start of crawl exit
+12	-	-	-	-	old numbered station dated 12/9/10 and numbered as 1	
+
+*end LazloStrog10

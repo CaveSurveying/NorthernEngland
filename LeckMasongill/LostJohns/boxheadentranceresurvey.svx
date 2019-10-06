@@ -1,0 +1,50 @@
+;;;;;;;;;;;;;;;;
+; generated from boxhead.top
+;;;;;;;;;;;;;;;;
+
+*begin boxheadentranceresurvey
+
+*export 1-60 2-12 2-15
+
+*title "Bypass of Cresta Run - From station near base of Boxhead main pitch from Its A Cracker survey to end of Cresta Run"
+
+*date 2012.10.27
+*team Instruments Andy Powell
+*team Tippex Andy Chapman
+*team Notes Andrew Atkinson
+
+*instrument Becka's distox calibrated in the cave with delta of 0.61 I think on 26.10.12 and Becka's PDA for notes
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+*data normal from to tape compass clino ignoreall
+
+1-60	2-0	0.000	0.00	0.00	Roll:0	0	d1
+2-1	2-0	4.967	145.81	83.86	Roll:224	0	d3
+2-2	2-1	16.997	137.59	84.93	Roll:300	0	d3
+2-2	2-3	1.687	88.28	-41.73	Roll:347	0	d3
+2-3	2-4	10.842	346.24	-68.05	Roll:7	0	d3
+2-4	2-5	3.341	40.60	7.27	Roll:13	0	d3
+2-6	2-5	13.429	280.91	78.84	Roll:338	0	d3
+2-7	2-6	4.433	308.59	69.77	Roll:83	0	d3
+2-8	2-7	8.844	344.73	83.06	Roll:316	0	d3
+2-8	2-9	4.147	128.90	-75.51	Roll:15	0	d3
+2-9	2-10	23.172	136.59	-79.17	Roll:342	0	d3
+2-11	2-10	7.410	333.65	58.27	Roll:343	0	d3
+2-11	2-12	3.475	160.67	-55.13	Roll:359	0	d2
+2-11	2-13	5.658	325.48	51.15	Roll:339	0	d3
+2-13	2-14	20.168	314.37	-60.17	Roll:56	0	d3
+2-14	2-15	1.535	338.93	17.67	Roll:359	0	d3	; written as 2-15 to 2-14 in notes but leg should be reversed - station 2-15 same as station 1-49 on itsacracker3
+
+; splays 
+;2-0	-	0.536	268.40	-10.60	Roll:354	0	d1  ; hole on tube
+;2-1	-	1.807	294.90	0.90	Roll:10	0	d1  ; nv temp
+;2-5	-	1.081	123.07	-0.24	Roll:291	0	d1  ; tipex 5 above pitch
+;2-6	-	5.386	255.87	5.71	Roll:350	0	d1  ; tpx opposite deviation
+;2-7	-	3.944	132.25	9.21	Roll:353	0	d1  ; tpx near re-belay
+;2-8	-	3.038	125.99	17.78	Roll:4	0	d1  ; tpx
+;2-9	-	10.081	129.20	-3.18	Roll:294	0	d1  ; tpx
+;2-10	-	6.278	307.89	2.29	Roll:340	0	d1  ; scratch on ledge
+;2-12	-	0.000	0.00	0.00	Roll:0	0	d1  ; station on yesterdays survey - Andrew later said this was station 2-12 on itsacracker2
+
+
+*end boxheadentranceresurvey

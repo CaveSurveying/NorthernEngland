@@ -1,0 +1,31 @@
+*begin inlet7-3
+*export 006
+*export	001
+*data normal from to tape compass clino ignoreall
+*units length metres
+*calibrate tape 0.0
+*units compass degrees
+*calibrate compass 0.0
+*units clino degrees
+*calibrate clino 0.0
+
+;Cave:	Notts II - Inlet 7
+;Description:	Pleasures of the Palm (Sump) to Start of capping
+;Date:	05/11/2004
+;Surveyors:	Instruments: Julian Todd; Notes: Becka Lawson
+;Instruments: RRCPC Kit 4 (Tape 3m Short)
+
+
+*calibrate compass	+5.00
+*calibrate clino	-0.50
+*calibrate tape		+3.00
+
+;From	To	Tape	Compass	Clino		L	R	U	D	Comments
+001	002	5.17	022	-36		;1.0	0.2	1.0	1.0	Stn 1 Scatched 16 on RH Wall before Sump up
+003	002	3.40	290	0		;0.1	0.4	0.2	0.2	Stn 2 lowest part of sump
+004	003	4.88	335	-79		;0.6	0.0	2.0	0.2	Stn 3 Ceiling at far side of sump
+004	005	6.42	155	+07		;0.3	0.0	0.1	0.5	Stn 4 Ceiling flake
+006	005	5.66	250	-01		;0.3	0.0	0.2	0.9	Stn 6 Rockbridge on RHS above scratched arrow
+
+
+*end inlet7-3

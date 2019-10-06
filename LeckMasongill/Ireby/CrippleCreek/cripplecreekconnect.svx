@@ -1,0 +1,91 @@
+; Locn:	Leck Fell
+; Cave:	Ireby Fell Cavern
+; Cripple Creek to Jupiter Cavern
+
+*begin cripplecreekconnect
+
+*export 1 4 33
+
+*title "Cripple Creek connection"
+*date 2008.03.09
+*team Insts Patrick Warren
+*team Notes Neil Pacey 
+*team Tape Becka Lawson 
+*instrument Compass and Clino - Pony; Tape - 30m yellow read from 0cm
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+1	2	5.08	295	-6
+2	3	3.03	320	-2
+3	4	3.98	276	-2
+5	4	1.45	282	-48
+4	6	0.74	295	-18	
+6	7	1.87	273	-1
+7	8	3.81	307	-4
+8	9	2.35	231	-51
+10	9	2.77	098	-12	; compass not 100% clear - possibly 098? Neil to check
+10	11	1.72	223	-67
+11	12	2.57	314	-16
+12	13	3.24	306	-10
+13	14	1.74	-	down
+15	14	3.11	175	-17
+15	16	0.83	181	+53
+16	17	2.03	252	+61
+17	18	3.85	205	+47
+18	19	1.71	021	0	
+19	20	1.12	050	+51
+20	21	3.95	040	-8
+21	22	6.02	356	-2
+22	23	4.74	335	-3
+23	24	3.79	354	+6
+24	25	12.18	333	-1
+25	26	7.18	344	-17
+26	27	7.92	356	+9
+27	28	2.88	317	-11
+28	30	6.39	333	-21	; written as 29 to 30 in notes, assume should be 28 and that station 29 doesn't exist
+30	31	3.34	-	down
+31	32	0.98	038	+37
+32	33	15.24	311	+3
+
+
+*data passage station left right up down ignoreall
+1	0.5	1.5	1.5	1	rp (red paint) l wall at scratched mark (previous survey station) at Tuck Shop corner beyond 3rd ladder
+2	0	1	0.7	0.3	rp l wall
+3	0.7	0	1.8	0.3	rp r wall
+4	0.3	0.5	1.8	0.4	rp roof knobble, numbered, in main passage before Blissful Ignorance junction
+5	0.4	0.4	1	1.5	rp l wall
+6	0.5	0	0.2	0.3	rp r wall
+7	0.4	1.2	0.5	1	rp l wall; LRUD very faint
+8	0.6	0	0.3	0	temporary station, rock on passage floor; LRUD very faint, down not visible
+9	0.2	0.4	0.3	0.2	rp
+10	0.3	0.4	0.8	1.8	rp
+11	0	0.5	0.5	0.2	rp
+12	0	0.5	0.2	0.3	rp before connection squeeze
+13	0	0.8	0.5	1.75	rp
+14	0.3	0.4	2	0	rp
+15	0	0.6	0.5	1.5	rp before climb
+16	0	0.8	2	1.5	rp
+17	0	0.8	0.8	0.5	rp
+18	0.5	1.5	0	3.5	rp
+19	0	0.5	1.2	0.4	rp above c2
+20	0.8	3	0	0.8	rp at junction
+21	0	0.8	0.3	0.5	rp probably numbered 21, beyond two fingered stal?
+22	0.6	0	0.3	0.4	rp on r wall
+23	0	0.8	0.4	0.4	rp on r wall
+24	0.4	0.4	0	0.8	rp on roof before pit, might be numbered 24
+25	0	1.8	0.2	2	rp on r wall numbered 25 just beyond end of traverse line over pit
+26	0.3	1	1.5	0.5	rp
+27	0.4	0	0.4	0.7	rp
+28	0	0.4	0.6	0.3	rp on l wall just beyond crawl between stal, near crystal pool
+30	0	0.5	4	3.5	rp on left edge above 3m climb down to Jupiter cavern
+31	0.4	0.5	3.5	0	temporary station - rock near base of ladder
+32	1	0	3.5	0.5	rp right wall numbered 32, just beyond ladder down to Jupiter cavern, can't read down, 0.5 perhaps?
+33	-	-	-	-	rp boulder tip numbered 33, middle Jupiter cavern
+
+
+*end cripplecreekconnect
+
+
+
+

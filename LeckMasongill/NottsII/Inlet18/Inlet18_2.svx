@@ -1,0 +1,39 @@
+*begin Inlet18_2
+
+*date 1995.5.2
+;Cave: Notts III - Inlet 18
+;Survey Kit 
+;Instruments: Original notes from RPS, GWC
+;Book: 
+;Tape: 
+
+*export 019
+*calibrate compass 180 	; Becka added this 4 Nov 2010 when Rupert Skorupka noted this survey should have all legs reversed
+;*equate Inlet18_1.012 Inlet18_2.019
+;CALIBRATE tape 		
+;Note Mag N 5deg west of Grid North in 1995
+
+000	001	6	085	0	;Stn 000=Far end of inlet 18 
+001	002	15	055	0	
+002	003	9	040	0
+003	004	6	000	0	
+004	005	5	020	0
+005	006	13	045	0	;Main inlet - low bedding from 225deg
+006	007	3	125	0
+007	008	4	025	0
+008	009	4	110	0
+009	010	9	060	0
+010	011	3	010	0
+011	012	12	100	0
+012	013	12	115	0
+013	014	8	125	0	;Aven Inlet
+014	015	12	035	0
+015	016	2	100	0
+016	017	30	005	0	
+017	018	10	010	0
+018	019	8	000	0	; Becka added 15.10.10: stn 19 = start of inlet, line belay in sump 3 airbell
+
+; according to Rupert Skorupka's corrections (see Notts III/IV raw scans) all this survey should be reversed so 018 019
+; should be 000 001, and 000 001 should 018 019
+
+*end Inlet18_2

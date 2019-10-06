@@ -1,0 +1,66 @@
+*begin Witches1DryCave
+
+*export 18 21
+
+*title "Witches 1 - dry cave only"
+*date 2011.10.30
+*team Instruments Edvin Deadman
+*team Notes Becka Lawson
+*team Tape Julian Todd
+*instrument Becka's Tandem as comp and clino and Becka's 30m tape
+
+*calibrate tape 0.20	; +ve if tape was too short, -ve if too long
+
+*entrance 18
+
+;from	to	tape	compass	clino	remarks
+
+19	18	8.17	187	+07
+19	20	7.27	025	0
+20	21	2.20	065	-04
+21	22	1.97	-	down
+21	23	5.96	134	+17
+24	23	4.41	186	-24
+25	24	3.90	162	+20
+26	24	4.86	282	-44
+27	25	6.19	236	+16
+
+27	28	2.00	141	+04
+28	29	8.29	154	+19
+30	27	2.34	179	-16
+27	31	4.26	270	+03
+31	32	4.88	000	-03
+32	33	1.19	-	down
+
+31	34	5.22	244	-03	; notes say 31 to 33 but must be 31 to 34 as in drawing
+34	35	1.40	-	down; notes say 33 to 34 but must be 34 to 35 as in drawing
+20	34	5.08	011	-10	; notes say 20 to 33 but must be 20 to 34 as in drawing
+
+30	36	7.94	014	+41
+36	37	1.65	059	+24
+
+*data passage station left right up down ignoreall
+
+18	-	-	-	-	L wall at entrance, on large boulder about 1m before the dripline
+19	1.5	6	5	0.7	roof where lowers
+20	3	3	1	1	ceiling
+21	6	5	1.7	2	RRCPC cow tag above sump
+22	-	-	-	-	sump water level
+23	10	0	5	1.7	R wall 
+24	10	2	1.5	1	R wall
+25	0	1	2	1.5	junction
+26	3	0.7	2	1	boulder choke and inlet
+27	2	3	0	1	roof pendant near sump
+28	2	0	4	0.7	roof near sump
+29	0	1	4	2	L wall
+30	0	2	2	1.5	L wall at corner before climb 
+31	3	5	2	0.5	boulder above sump
+32	0.5	1	0.2	1	above sump - not clear if LRUD correct as only 3 numbers but down taken from plumb (next leg)
+33	-	-	-	-	water level for sump
+
+34	2	3	1	0	sump water level (1.5m deep pool I think)
+
+36	0.5	1	2	0.7	roof above muddy climb / pitch
+37	1.7	0	3	1.8	second (uppermost of 2) spit for pitch to entrance
+
+*end Witches1DryCave

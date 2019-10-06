@@ -1,0 +1,40 @@
+
+*begin Large17
+*export 14x 10
+
+*title "Grime and Punishment - small inlet leading to Chris and Jame's dig"
+*date 2011.04.30
+*team Instruments Becka Lawson
+*team Notes James Sugden
+*instrument Becka's Tandem as comp and clino and Becka's 30m tape with 20cm end off
+
+*calibrate tape 0.20	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+1	14x	2.00	172	-20
+2	1	2.64	096	-10
+3	2	5.49	133	+01
+4	3	1.92	074	-10
+5	4	2.17	152	+02
+6	5	1.70	174	-05
+7	6	2.74	138	-03
+8	7	1.63	179	-12
+9	8	2.67	098	+02
+10	9	4.24	127	-04	; compass not very accurate
+
+*data passage station left right up down ignoreall
+
+14x	0.6	5	0.5	1.2
+1	0.4	0	0.6	3.0
+2	0.2	0.4	0.2	1.0
+3	0.5	0.1	0.2	0.3
+4	0.3	0.5	0	0.5	numbered, I think in roof scallop
+5	0.4	0.2	0.2	0.4
+6	0.2	0.4	0.1	0.4
+7	0.1	0.5	0.3	0.5
+8	0.4	0.2	0.2	0.5
+9	0.5	0.3	0.4	0.3	not numbered
+10	0.4	0.4	0	0.2	numbered in roof scallop where passage gets really low
+
+*end Large17

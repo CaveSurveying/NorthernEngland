@@ -1,0 +1,174 @@
+; Locn:	Leck Fell
+; Cave:	Ireby Fell Cavern
+; From top of Well Pitch, down pitch at Aberfan and to cowtag at end of Duke St with comp/clino only to check the numbers due to suspect dodgy pony on Julian and Becka's ropepitch survey on 2009.06.28
+
+*begin ropepitchredonumbers
+
+*export 1 4 14 24 26 30 72 73
+
+*flags duplicate	; this data left as a check on the ropepitch numbers but removed from calculation of the length of Ireby using this line
+
+*title "Rope Pitch Redo Numbers"
+*date 2010.01.10
+*team Insts Becka Lawson
+*team Tape Martin Green
+*team Notes Patrick Warren
+
+*instrument Compass and Clino - Becka's tandem ; Tape - Becka's 30m yellow read from 0cm
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+2	1	4.02	303	-15
+3	2	5.40	323	-06
+4	3	3.07	029	-39
+5	4	1.38	010	-20
+5	6	13.24	-	down
+7	6	1.78	324	+14
+7	8	5.36	134	-05
+9	8	2.49	257	+13
+9	10	4.82	114	-17
+11	10	5.07	280	+07
+11	12	4.85	132	-02.5
+
+13	12	5.01	301	-53
+13	14	3.89	130	+08
+15	12	3.68	322	+38
+15	16	2.16	043	-19
+17	16	1.55	315	+06
+17	18	2.05	074	-20
+18	19	3.67	-	down
+20	19	5.24	315	-16
+20	21	11.00	155	-04
+21	22	9.07	147	+37.5
+
+23	21	1.70	011	+01
+23	24	8.63	171	-21
+25	26	9.62	211	+53
+25	24	7.71	302	+01
+27	25	8.12	249	+10	; written as 25 to 27 in notes but Becka has reversed
+27	28	5.88	358	-08
+29	28	15.52	252	-03
+
+29	30	4.87	077	-06.5
+29	31	16.27	037	-02.5
+32	31	10.24	179	-01
+32	33	10.88	042	-02
+34	33	9.97	155	+0.5
+34	35	3.04	014	-01
+36	35	10.36	126	+05
+36	37	3.76	028	+02
+38	37	6.95	157	-04
+38	39	6.13	293	-0.5
+40	39	10.03	204	-0.5
+40	41	4.07	340	-04
+42	41	9.38	114	0
+42	43	7.54	339	-0.5
+44	43	13.19	073	+02
+44	45	5.93	334	-02
+
+46	45	11.96	122	-01
+46	47	8.98	260	-03
+48	47	14.66	164	0
+48	49	4.99	261	+02
+50	49	13.60	155	+02
+50	51	3.00	350	+04
+52	51	6.80	118	+02.5
+52	53	9.18	002	-02
+54	53	5.97	222	-0.5
+54	55	4.14	354	-10
+56	55	7.79	253	-03
+56	57	7.91	027	+03
+58	57	3.44	175	+15
+58	59	10.85	027	0
+60	59	1.42	185	+14
+60	61	5.86	021	-06.5
+62	61	7.27	221	-02
+62	63	4.49	049	+03
+64	63	4.29	221	+01
+64	65	8.17	067	+0.5
+66	65	8.72	209	+04.5
+66	67	12.63	340	+04.5
+68	67	4.05	210	-13
+
+68	69	9.29	062	-11
+70	69	7.65	188	-09
+70	71	4.50	044	0
+72	71	8.15	184	-02
+72	73	15.89	034	+01
+
+*data passage station left right up down	ignoreall
+
+; ALL LR GIVEN GOING INTO THE CAVE (so in the direction most of the survey went, starting at Rope Pitch and heading towards Duke St 1)
+
+1	1	0	3	2.2	first phanger at main stream level before yhang for initial drop before well pitch, this is old station 1 of streamwayuptoduckresurvey 
+2	0.2	1	2.5	-	
+3	0	0.7	1	-
+4	1.5	0	1.8	-	cow tag at Aberfan junction - unfortunately this wasn't a station for the Becka&Julian ropepitch survey last year so this is old station 8 of abovewellpitch2 survey last year
+5	-	-	-	-	knot at y-hang for dry alternative to Well pitch, this should be slightly below and inbetween old stations 105 and 106 of Becka&Julian ropepitch survey last year
+6	2	0	-	4	35cm LHH 37 RHH (Becka - I don't know what this means)
+7	0	0.8	-	4
+8	1	0.2	-	2.5
+9	0.4	0	-	2
+10	0.2	1.2	-	2
+11	0.2	1	-	2
+
+12	0.2	2	-	3	spike at bottom of boulder slope
+14	-	-	-	-	phanger below Adulterers traverse and above dryweather bypass pitch to Rope pitch, old station 63 of Becka&Julian ropepitch survey last year
+15	0	0.5	-	2	
+16	0	0.5	-	1.5
+17	0	0.6	3	2	
+20	2.5	0	-	2
+21	1	2	-	0	boulders above stream
+22	-	-	-	-	end of NE inlet survey line (Becka -  - Hmm, was this the spit below the waterfall from the NE Inlet water, to the right of the NE inlet climb? Unclear)
+23	2.5	2	-	0	boulder pile
+24	3	0	-	2	inlet on LHS (Becka - I think this means the NE Inlet water that comes from a waterfall on the left into the main chamber)
+25	1.5	1.5	5	2.5	
+26	-	-	-	-	station 49 of Becka&Julian ropepitch survey last year, top of slope, lp numbered
+27	2.2	0	4	2.5	station above start of Bolton extensions, on L wall
+28	0	2.5	1.2	0.5	numbered in hole
+29	1.5	0	0.2	1	end of crawl
+
+30	-	-	-	-	concrete dam at start of East inlet, old numbered station 44 from Becka&Julian ropepitch survey
+31	2.5	1	1	1	
+32	0	1	1	1.6
+33	1.5	0	1.5	1.6
+34	0	1	1.6	2
+35	1.2	0	1.5	1.8
+36	0	1.2	2	1.2
+37	1.2	0	2	1.2
+38	1.2	0	-	-	
+39	0	1.5	1.6	1.6
+40	2.5	0	0.5	1.7
+41	1.6	0	1.2	1.1
+42	0	1.6	1	1.8
+43	2	0	0.9	1.7
+44	0	2.5	0.2	1.6
+
+45	0	3	1	1.4	LRUD unclear
+46	2	0.4	0.4	1.8	LRUD unclear
+47	0	3	0	1.8	LRUD unclear
+48	2	0	0.4	1.8	LRUD unclear
+49	0	2.5	0.8	2	LRUD unclear
+50	0	0.3	1.3	1.8	LRUD unclear
+51	1.4	0	1.3	2
+52	0	1.7	1.5	2.2	point above stal boss with inlet on LHS - Becka - I think should be NEAR old station 21 of Becka&Julian ropepitch survey last year
+53	0	1	-	-	just down from first rock bridge (Becka - not quite clear)
+55	0	1	1.5	4	Becka - has 4=1.5 for down, not sure what this means
+56	1	0	-	-	midway between second and third rock bridges
+57	1	0	-	-	
+58	1	0	-	-	
+59	1	0	-	-	
+60	1	0	-	-
+61	1	0.5	-	-
+62	1	0	-	-
+63	0	1	-	-	
+64	1	0	-	-
+65	1	0	-	-
+68	-	-	-	-	above pile of rocks / boulder pile
+69	-	-	-	-	stream passage with inlet on LHS (Becka, on RHS, no?)
+72	-	-	-	-	old station from Becka&Julian ropepitch survey last year, presumably old station 2
+73	-	-	-	-	cowtag at start of Duke St, old station 1 from Becka&Julian ropepitch survey last year
+
+*end ropepitchredonumbers

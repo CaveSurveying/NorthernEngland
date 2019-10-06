@@ -1,0 +1,20 @@
+
+*begin GourInlet
+
+*export GourInlet_1.001
+*export GourInlet_1.021
+
+
+*include Gourinlet_1
+*include GourInlet_2
+*include GourInlet_3
+*include PU
+
+;---------------------------------------------------
+
+*equate GourInlet_1.021 GourInlet_2.001
+*equate GourInlet_1.026 GourInlet_2.008
+*equate GourInlet_2.025 GourInlet_3.001
+*equate PU.016 Gourinlet_3.010
+
+*end GourInlet

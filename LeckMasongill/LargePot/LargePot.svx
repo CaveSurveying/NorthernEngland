@@ -1,0 +1,86 @@
+;Title: Large Pot
+
+;Date Created 13/09/2010 by Becka Lawson
+
+;-------------------------------------------------------------------------------------------
+;Modifications
+;
+
+;--------------------------------------------------------------------------------------------
+;All Large Pot files
+
+*begin LargePot
+
+*export EntranceTag
+*export Large15.23x
+
+*entrance EntranceTag
+
+*include Large1
+*include Large2
+*include Large3
+*include Large4
+*include Large5
+*include Large6
+*include Large7
+*include Large8
+*include Large9
+*include Large10
+*include Large11
+*include Large12
+*include Large13
+*include Large14
+*include Large15
+*include Large16
+*include Large17
+*include Large18
+*include Large19
+*include Large20
+*include Large21
+*include Large22
+*include Large23
+*include Large24
+*include TinkleInletNPC     ; note this is an April 1983 survey so it needs a different magnetic correction probably
+*include MouseholeBypass
+*include AboveRedHerring
+*include FlakeAven
+*include LittlePotInlet
+*include OccultSeries1
+*include OccultSeries2
+
+*equate EntranceTag Large1.tag
+*equate Large1.25 Large2.1
+*equate Large2.31 Large3.41
+*equate Large1.34 Large4.34x
+*equate Large1.38 Large5.38x
+*equate Large5.18 Large7.18x
+*equate Large5.72 Large6.72x
+*equate Large8.54x Large5.54
+*equate Large9.x Large6.1
+*equate Large10.33x Large6.33
+*equate Large11.3x Large9.3
+*equate Large14.23x Large9.23
+*equate Large14.9 Large12.8
+*equate Large13.1 Large12.1
+*equate Large15.14 Large13.8
+*equate Large16.9x Large14.9
+*equate Large7.46 TinkleInletNPC.GS0  ; this not connected properly, but must be quite close (two surveys done nearly 30 years apart)
+*equate Large17.14x Large16.14
+*equate Large18.18x Large16.18
+*equate Large17.10 MouseholeBypass.10x
+*equate Large13.4 MouseholeBypass.x
+*equate Large2.6 AboveRedHerring.13
+*equate Large2.13 FlakeAven.13x 
+*equate Large2.30 FlakeAven.30x 
+*equate Large1.18 LittlePotInlet.1 
+*equate OccultSeries1.25 OccultSeries2.25 
+*equate Large2.20 OccultSeries2.1 
+*equate Large11.9 Large19.9x
+*equate Large19.17 Large20.17x
+*equate Large19.32 Large21.32x
+*equate Large22.32x Large19.32
+*equate Large22.27x Large19.27
+*equate Large23.20x Large21.20
+*equate Large24.25x Large23.25
+
+*end LargePot

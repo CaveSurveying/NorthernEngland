@@ -1,0 +1,59 @@
+; Locn:	Leck Fell
+; Cave:	Deaths Head Hole
+; Deaths Head Hole
+*begin DeathsHeadAvens_6
+
+*export 1 
+
+*title "Deaths Aven 6"
+*date 2014.02.03
+*team Insts Dave Ramsay/Jon Tompkins
+*team tape Ramsay/Jon Tompkins
+*team Notes Dave Ramsay
+*instrument Compass and Clino - rr2
+
+*calibrate tape +.20	; +ve if tape was too short, -ve if too long
+*calibrate declination +2.40
+;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
+;Model Used IGRF11 		
+;54.1994n 2.5124w  2014.02.03
+
+
+;*calibrate declination +2.41	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.1994n 2.5124w  2014.02.03......edited out by RB when checked against new web above.
+
+*data normal from to tape compass clino
+
+;from	to	tape	compass	clino	remarks
+
+1	2	2.25	330	+11
+2	3	3.47	-	up
+3	4	1.84	280	+25
+4	5	5.12	288	+45
+5	6	15.20	-	up
+6	7	2.45	269	+42
+7	8	7.96	298	+70
+8	9	4.10	205	+73
+9	10	1.01	225	+1
+10	11	4.99	-	up
+11	12	2.50	155	0
+9	13	4.20	290	0
+
+*data passage station left right up down ignoreall
+
+1	0	1.7	1.9	1.5	;True LH wall
+2	2	0	5	1.8	
+3	0.5	0.1	0.5	4.3	;RH wall
+4	0.8	0	2.1	1.5
+5	0	1.0	15	1.6
+6	1.2	0	4	16.8
+7	0.4	0.5	4	1.5
+8	1.4	0	4	1.8
+9	1	1	5	1	;bolt
+10	0	1.2	5	0.6
+11	1.1	0.3	0	5.5	;calcite choke
+12	0.3	0.3	0.3	0.3	;solid choke
+13	0.2	0.3	0.3	0.5
+
+
+*end	DeathsHeadAvens_6

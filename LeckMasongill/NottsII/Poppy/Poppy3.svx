@@ -1,0 +1,38 @@
+*begin Poppy3
+;Date: 10/03/2004
+;Cave: Notts II - Poppy Passage - Big Rift
+;Survey Kit RRCPC No 5
+;Instruments: Dave Ramsay
+;Book: Neil Pacey
+;
+
+;Tape started at 3 metres (original notes - no deductions)
+
+*Title "Poppy Passage - Big Rift"
+
+
+
+*export 1
+
+*CALIBRATE tape +3.00		;Tape was 3 metres too short
+*calibrate declination +4.0	;added 07/06/11 RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.1995n 2.513w 2004.03.10 
+
+;Station Tape	Compass	Clino	 
+1 2	7.65	0	+90	;Stn 1 on RH Wall at base of climb
+				;Stairway to Henries Pitch, fixed handline & steps
+2 3	9.64	264	+42	 		 
+3 4	11.45	258	+27
+4 5	6.2	236	+31	;stn 4 bottom of ladder climb
+5 6	6.2	175	+52	;stn 5 start of inlet, bottom of eliptical tube (too tight?)
+				;Inlet continues for another 3m past tight squeeze
+4 7	8.1	0	+90	;Ladder climb up
+7 8	3.6	0	-90	;Adjustment for better sighting
+8 9	4.75	335	-10	;Squeeze past block into bedding plane
+9 10	5.5	259	+7	;Current end of bedding plane (dig ?)
+9 11	4.5	234	+15	;Lh side of bedding into calcite rift passage
+11 12	5.45	241	+38	;Calcite rift passage
+12 13	7.75	262	+40	;Final small chamber into end of rift (too tight!)
+				;Boulder choke off to the left (dig ?) 
+
+*end Poppy3

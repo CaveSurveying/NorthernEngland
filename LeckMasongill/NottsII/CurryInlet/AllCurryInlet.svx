@@ -1,0 +1,15 @@
+;cave Notts II
+;Title: CurryInlet
+
+*begin AllCurryInlet
+
+*export CurryInlet_1.1
+
+*include CurryInlet_1  
+*include CurryInlet_2
+*include GardenofGanesh
+
+*equate CurryInlet_1.10 CurryInlet_2.1 
+*equate CurryInlet_1.10 GardenofGanesh.1
+
+*end AllCurryInlet

@@ -1,0 +1,64 @@
+; Locn:	Leck Fell
+; Cave:	Notts II
+; Daylight Aven series, part way along new to bitter end
+
+*begin DaylightAven2011-4
+
+*export 1
+
+*title "Upper Daylight Aven the bitterend"
+*date 2011.10.31
+*team Insts Richard Bendall
+*team tape Dave Ramsay
+*team Notes Dave Ramsay
+*instrument Compass and Clino - rr2
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+
+*calibrate declination +2.47	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.1994n 2.5124w  2011.10.31
+
+*data normal from to tape compass clino
+
+;from	to	tape	compass	clino	remarks
+
+2	1	3.53	329	+5
+2	3	5.49	035	+39
+3	4	2.45	137	+19
+4	5	4.56	-	up
+5	6	3.55	061	+3
+6	7	6.00	078	-5
+
+8	9	4.60	049	+5
+8	10	10.77	312	+5
+8	11	5.68	254	-18
+11	12	6.75	241	-3
+12	13	2.5	262	+2
+13	14	3.62	310	+28
+14	15	11.71	243	-1
+15	7	5.62	234	+4
+
+*data passage station left right up down ignoreall
+
+1	0.0	0.4	6.0	2.5	;1st bolt
+2	1.1	0.0	0.5	3.0	;RH wall
+3	0.0	0.6	5.0	1.8	;lh wall	
+4	0.6	0.0	5.0	4.0	;footof pitch
+5	0.4	0.4	1.5	8.5	;knot of Y-hang
+6	0.1	0.5	0.3	4.0	;by column
+7	0.5	0.0	0.1	0.5	;bolt RH wall
+
+8	0.9	0.0	0.6	1.3	;Junction
+9	1.0	0.8	0.1	0.3	;Choke
+10	1.0	3.0	0.2	0.3	;end of passage T-jn
+11	0.7	0.0	2.0	1.0	;RH Wall
+12	0.0	0.4	2.5	0.5	;LH Wall
+13	1.0	0.0	2.0	2.5	;RH wall
+14	1.0	1.5	1.5	1.0	;RH wall
+15	0.1	1.1	1.0	1.6	;10 cm out RH Wall
+7	0.0	0.4	0.2	1.4	;bolt =stn 7
+
+*end DaylightAven2011-4
+
+

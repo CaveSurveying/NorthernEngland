@@ -1,0 +1,30 @@
+*begin ChisholmTrailWestDave
+*export 10
+
+*title "From boulder choke at end of Chisholm Trail West midway back to Andy Chapman survey"
+*date 2012.10.14
+*team Instruments Becka Lawson
+*team Notes Dave Ramsay
+*team Tape Chris Densham
+*instrument Becka's tandem comp and clino and Becka's 30m tape read from 0cm
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+5     6    1.63      -     down
+7     6    3.00      066   -04
+7     8    2.79      271   +01
+8     9    3.74      267   -01
+9     10   5.55      236   -02
+
+*data passage station left right up down ignoreall
+
+5     1.0     0.8     0.8  1.6   wall
+6     0.7     0.3     2.4  0.0   floor
+7     0.2     0.5     0.3  0.0
+8     0.6     0.5     0.3  0.1   rock in passage
+9     0.6     0.4     0.5  0.1
+10    0.6     1.5     0.5  0.15  block on left
+
+*end ChisholmTrailWestDave

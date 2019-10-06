@@ -1,0 +1,54 @@
+; Locn:	Leck Fell
+; Cave:	Ireby Fell Cavern
+; NE inlet going R at main T junction starting at station 10 of neinlet6 (just before vertical squeeze up to loose climbs and avens)
+
+*begin neinlet8
+
+*export 10x 5
+
+*title "North East Inlet 8"
+*date 2010.04.25
+*team Insts Patrick Warren
+*team Notes Becka Lawson
+*instrument Compass and Clino - Becka's tandem compass-clino and Patrick's tape
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+5	6	4.30	071	+61
+6	7	4.13	157	+38
+7	8	3.84	065	+38
+8	9	2.37	065	+60
+10	9	3.53	157	-18
+10	11	7.11	232	+80	; notes say 11 to 10 but I took this reading only with the Disto from the base looking up to the spit 
+12	11	3.81	192	-32
+13	12	3.74	209	-24
+14	13	2.87	247	-04
+15	14	4.14	231	-50	
+16	15	3.83	250	-56
+17	5	4.47	347	+43
+17	10x	1.47	138	-72
+
+
+*data passage station left right up down ignoreall
+
+5	0	-	3	1	right is passage; solid rock in chamber floor above squeeze, numbered
+6	1	1	0.5	1.7	up to right, above wedged boulder on L wall
+7	1.2	0	2.5	2	r wall
+8	0	0.5	0.5	1.5	r wall
+9	0.6	1.5	9	1.5	boulder tip in chamber with pitch
+10	2	0	8	1.5	ledge at base of pitch
+11	0	1.5	4	8.5	deviation spit for pitch
+12	0	1	3	1.5	l wall at pitch head, numbered
+13	0	0.5	1	1	chamber with loose rock, numbered
+14	0.8	0	9	1.6	r wall
+15	0	0.6	8	1.6	l wall up c3
+16	0	0.5	3	2	l wall up c2 - numbered; beyond 16 is c2 then too tight but could bolt up before
+17	0.5	0	1	2	just above squeeze, will be rubbed off
+10x	0.8	0	3	0.5	old station 10 from neinlet 6 = numbered lp - l wall before tight vertical climb
+
+*end neinlet8
+
+
+
+

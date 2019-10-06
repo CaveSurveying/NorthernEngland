@@ -1,0 +1,42 @@
+;Cave:	Notts II - Green Tape inlet to base of aven prior to Toby's Aven
+;Surveyors:	A.Walsch/P.Hall
+;Date:	27/06/02?
+;Instruments:	3
+
+;*equate	GreenTape1.030	Mainstreamway2.1
+;*equate	GreenTape2.000	GreenTape1.016
+
+
+*begin	GreenTape1
+
+*export 016 030
+
+*calibrate compass	+3.50
+*calibrate clino	-1.0
+
+030	030a	02.50	016.0	 00.0	;from station 030 of survvey to Mainstreamway2.1 in streamway
+030a	030b	01.30	297.0	 00.0
+030b	001	04.10	012.0	 00.0
+001	002	04.90	 -	UP	;st002 is directly above 001 opposite inlet
+002	003	03.23	090.0	+08.0
+
+;st003 is start of Green Tape inlet
+
+003	004	08.70	099.5	+02.0
+004	005	14.80	94.50	 00.0	;st005 has wet crawl on left that joins at st007
+005	006	06.47	108.0	+02.0
+006	007	06.15	042.5	 00.0	;wet crawl rejoins on left
+007	008	05.30	015.0	-02.0	;muddy and wet
+008	009	07.50	080.0	+01.0
+009	010	08.35	140.0	 00.0
+010	011	05.60	087.0	+02.0	;rift up at st011
+011	012	10.00	055.0	-02.0
+012	013	08.15	072.0	 00.0	;muddy floor
+013	014	10.40	089.0	 00.0
+014	015	05.40	027.0	+01.0
+015	016	05.85	085.0	+02.0	;st016 is base of 30cm mud pillar with pencil in top
+
+;;016	017	05.00	330.0	 00.0	;ESTIMATED LEG TO BASE OF AVEN IN EXTENSION FROM RT. WALL ON CORNER NEST TO ST016
+
+*end GreenTape1
+

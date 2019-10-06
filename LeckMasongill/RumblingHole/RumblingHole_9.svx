@@ -1,0 +1,72 @@
+;Cave:	Rumbling Hole
+;Surveyors:	Richard Bendall/Ruth McDonald/Dave Ramsay
+;Date:	2008.08.25 
+;Instruments:	Red Rose Sunto Compass & Clino kit 2, Tape	
+
+*begin RumblingHole_9
+*export 023
+*Title "Rumbling Hole"
+;*calibrate compass
+
+;;;;;;;;;;;;;;
+; commented out to start of low section which has 
+; not yet been resurveyed and properly connected up
+;;;;;;;;;;;;;;
+*calibrate declination +3.28
+;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
+;Model Used IGRF11 		
+;54.1994n 2.5124w  2008.08.25
+;*export 001 
+;*equate 001 RumblingHole_7.022
+
+;stn to stn	tape	comp	clino	 L    R   U   D
+
+
+;001	002	2.40	139	-34	;stn001 P bolt at start of traverse
+;002	003	6.05	-	Down	;Pitch
+;003	004	3.27	131	+1	
+;004	005	8.37	-	Down	;Pitch
+;005	006	3.74	119	0	
+;006	007	3.82	-	Down	;Pitch
+;007	008	5.80	125	+1
+;008	009	0.48	229	0	
+;009	010	11.12	-	Down	;Pitch
+;010	011	2.16	126	+6
+;011	012	1.30	215	-5
+;012	013	4.15	-	Down	;Pitch
+;013	014	1.20	198	0	
+;014	015	3.52	269	-2	
+;015	016	2.40	-	Down	;Pitch
+;016	017	1.75	060	-15	
+;017	018	2.38	104	-9
+;018	019	4.45	080	-5
+;019	020	2.10	135	-35
+;020	021	2.93	095	-3
+;021	022	3.86	083	-61
+;022	023	10.76	-	Down	;Pitch
+
+
+023	024	5.19	056	-7
+024	025	4.60	289	+2
+025	026	2.93	290	+41
+026	027	5.26	295	-4
+027	028	2.56	307	+11
+028	029	2.30	-	Down	;Climb
+029	030	2.43	282	0
+030	031	2.60	248	+25
+031	032	1.50	230	+7
+032	033	3.90	299	+17
+033	034	7.17	275	+6
+034	035	3.89	280	+4
+035	036	7.73	278	-1
+036	037	7.64	289	0
+037	038	3.30	303	0
+038	039	3.24	271	+4
+039	040	3.39	350	+2	
+040	041	2.20	297	+4
+041	042	5.71	021	-2	;042 Sump pool surface
+
+
+*end RumblingHole_9
+
+

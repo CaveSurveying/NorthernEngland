@@ -1,0 +1,29 @@
+*begin ShortLongDrop
+
+;Date: 15/02/2007
+;Cave: Short Long Drop
+;Survey Kit RRCPC No ?
+;Instruments:  Dave Ramsay
+;Book:  Dave Ramsay
+;Tape:	Richard Bendall
+
+;Explored 05/02/07 RB&DR, RMcD
+
+*Title "Short Long Drop"
+
+*export Entrance
+*equate Entrance 9
+
+;Station		Tape	Compass	Clino	Notes and LRUD
+
+					;0.5	1.0	10	0	 stn1 is floor of chamber
+1	2	5.00	152	-20	;0.5	0.5	1.0	0	 stn2
+1	3	3.10	297	0.0	;0.3	0.4	1.0	0.5	 stn3
+3	4	4.50	311	-7.0	;0.5	0.2	0.6	0.2	 stn4
+1	5	8.50	-	UP	;0.8	0.15	1.8	8.5	 stn5 is y hang knot
+5	6	1.61	150	+7.0	;0.1	0.2	1.7	0	 stn6
+6	7	2.90	121	+27.0	;0.2	0.1	Surface 1.0	 stn7
+7	8	1.65	-	UP	;surface
+8	9	1.10	290	0.0	;stn9 is drilled hole
+
+*end ShortLongDrop

@@ -1,0 +1,34 @@
+;;;;;;;;;;;;;;;;
+; generated from totube.top
+;;;;;;;;;;;;;;;;
+
+*begin itsacracker3
+
+*export 1-40 1-44 1-48 1-49 1-50 1-52
+
+*date 2012.10.26
+*team Instruments Andrew Atkinson
+*team Tippex Julian Todd
+*team Notes Becka Lawson
+
+*instrument Becka's distox calibrated in the cave on 26.10.12 with delta of 0.61 I think and Becka's PDA for notes
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+*data normal from to tape compass clino ignoreall
+
+1-43	1-40	10.971	336.02	68.81	Roll:58	0	d3	; was 1-40 to 1-43 in original notes (cocked up as changed files here) so switched leg as backwards
+1-43	1-44	6.933	30.84	0.80	Roll:3	0	d3  ; stn 44 numbered on l wall at start of dig passage and inlet
+1-43	1-45	3.405	252.47	-43.58	Roll:3	0	d3  ; stn 45 is hole and takes water
+1-46	1-43	6.938	156.36	0.51	Roll:316	0	d3
+1-46	1-47	4.989	313.80	-11.54	Roll:104	0	d3
+1-48	1-47	1.165	56.87	-78.83	Roll:191	0	d3  ; stn 48 is yellow rrcpc survey tag
+1-49	1-48	11.556	133.81	-3.31	Roll:82	0	d3
+1-49	1-50	3.370	319.16	-24.58	Roll:336	0	d3
+1-49	1-51	9.764	112.13	71.27	Roll:51	0	d3
+1-52	1-47	2.445	64.32	-17.87	Roll:278	0	d3	; stn 52 is leg into the Tube, numbered on r wall
+
+; splays 
+;1-49	-	1.385	44.75	-62.03	Roll:60	0	d1  ; l wall of tight passage far side of boxhead main aven
+
+*end itsacracker3

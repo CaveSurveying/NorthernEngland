@@ -1,0 +1,57 @@
+*begin inlet7-6
+*export 027
+*export 022
+*export 019A
+*export	001
+*data normal from to tape compass clino ignoreall
+*units length metres
+*calibrate tape 0.0
+*units compass degrees
+*calibrate compass 0.0
+*units clino degrees
+*calibrate clino 0.0
+
+;Cave:	Notts II - Inlet7
+;Description:	On The Other Hand	
+;Date:	02/12/2004	
+;Surveyors:	Instruments: Dave Ramsay	;Notes: Neil Pacey
+;Instruments: RRCPC Kit 4 (Tape 3m Short)
+
+
+*calibrate compass	+5.00
+*calibrate clino	-0.50
+*calibrate tape		+3.00
+
+;From	To	Tape	Compass	Clino		L	R	U	D	Comments
+
+001	002	6.10	119	+6.0		;0.2	0.2	0.1	1.5	Stn 1 = Stn 12 28/10/2004 (Inlet7-1)
+002	003	5.45	131	+5.0		;0.2	0.1	0.1	2.0	Stn 2
+003	004	4.35	118	0.0		;0.7	0.8	0.2	0.3	Stn 3
+004	005	7.60	226	+0.5		;0.6	0.4	0.1	0.7	Stn 4 small inlet
+005	006	5.10	200	+3.0		;0.2	0.3	0.1	0.6	Stn 5
+006	007	5.25	165	+1.0		;0.4	0.5	0.1	0.4	Stn 6
+007	008	5.40	119	+1.0		;0.2	0.4	0.1	0.3	Stn 7
+008	009	7.95	178	-0.5		;0.2	0.4	0.2	0.2	Stn 8
+009	010	4.40	188	-0.5		;0.6	0.3	0.1	0.2	Stn 9
+010	011	3.90	138	0.0		;0.2	0.3	0.2	0.2	Stn 10
+011	012	7.75	198	0.0		;0.2	0.2	0.2	0.3	Stn 11
+012	013	6.65	238	0.0		;0.2	0.4	0.3	0.2	Stn 12
+013	014	8.10	171	+1.0		;0.2	0.5	0.2	0.3	Stn 13
+014	015	5.40	193	+0.5		;0.2	0.2	0.3	0.2	Stn 14
+015	016	7.30	191	0.0		;0.2	0.2	0.4	0.2	Stn 15
+016	017	5.40	162	+1.0		;0.2	0.2	0.4	0.2	Stn 16 after rock proj, middle of passage
+017	018	4.40	187	0.0		;0.2	0.3	0.4	0.2	Stn 17
+018	019	5.65	227	+0.5		;0.3	1.2	0.4	0.2	Stn 18
+019	019A	5.85	140	+9.0		;
+019A	019B	10.20	-	UP		;0.4	1.2	10.2	0.8	Stn 19A base of aven marked on calcite above floor
+019	020	11.15	236	0.0		;0.2	0.2	0.4	0.4	Stn 19 straw stuck in mud opp aven
+020	021	5.65	231	+0.5		;0.2	0.2	0.4	0.4	Stn 20
+021	022	12.95	234	0.0		;0.1	0.3	0.2	0.2	Stn 21
+022	023	7.10	255	+1.0		;0.4	0.6	0.2	0.2	Stn 22 small inlet strong draft, sound of water
+023	024	4.70	316	0.0		;0.2	0.4	0.2	0.2	Stn 23
+024	025	6.75	263	+0.5		;0.2	0.4	0.2	0.2	Stn 24
+025	026	4.20	325	-1.0		;0.3	0.2	0.2	0.2	Stn 25
+026	027	3.90	254	0.0		;0.2	0.2	0.2	0.2	Stn 26 middle of pass, feet first into low cobble dig	
+
+
+*end inlet7-6

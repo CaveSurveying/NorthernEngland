@@ -1,0 +1,44 @@
+*begin BigMeanieDeathsHeadSurface
+
+*export 1 8
+
+*title "Surface Survey from first bolt Big Meanie to Deaths Head fence post"
+
+*date 2014.03.06
+
+*team Instruments Richard Bendall
+*team Tape Dave Ramsay 
+*team Notes Dave Ramsay 
+
+
+*instrument Compass and Clino - rr2
+
+*calibrate tape +.20	; +ve if tape was too short, -ve if too long
+
+
+*calibrate declination +2.41	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.1994n 2.5124w  2014.02.03
+
+;from	to	tape	compass	clino	remarks
+
+*flags surface
+
+2	1	9.98	276	-34
+2	3	16.35	098	+4
+4	3	16.60	275	+3
+4	5	13.30	098	-2
+6	5	13.68	279	+7
+6	7	27.53	106	+5
+8	7	14.59	269	-4
+
+*flags not surface
+
+
+*data passage station left right up down ignoreall
+
+1	2.2	0.0	10	0.4	;first bolt bigmeanie
+2	0	0	0	1.45	;Rock on edge of shakehole
+6	1	1	1	1	;rock on edge of small shakehole
+8	.1	.1	.1	.1	;Marked fence post Death's Head Hole
+
+*end BigMeanieDeathsHeadSurface

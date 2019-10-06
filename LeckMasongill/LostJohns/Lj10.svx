@@ -1,0 +1,30 @@
+
+
+*begin	Lj10
+*export 000
+
+;Cave:	Lost Johns-Shale to sump
+;Surveyors:	Ray Duffy/Terry Regan
+;Date:	13/12/97pm
+;Instruments:	PAG
+
+*calibrate compass	+5.13
+
+000	001	21.00	-	DOWN	;MADE UP LEG FROM TOP OF PITCH
+001	002	01.70	-	UP	;st001=bottom of rope Dome pitch 002 head height
+002	003	08.52	347.0	-05.5
+003	004	07.15	354.0	-06.0
+004	005	02.65	041.0	-22.0	;st005=P hanger top of Shale pitch
+005	006	05.90	-	DOWN
+006	007	01.70	-	UP	;raised from floor to head height
+007	008	03.34	051.0	-02.0
+008	009	13.68	319.5	-10.5
+009	010	02.75	286.0	-24.0
+010	011	02.14	347.0	-18.0
+011	012	01.00	275.5	-11.5
+012	013	11.75	-	DOWN	;st012 is centre of Y hang 013 floor of pitch
+013	014	01.69	178.0	+35.0	;st014=TAG on Pillar of rock
+014	015	06.78	321.0	-23.0	;st015 is flake at bottom of waterfall from Monastery
+014	016	09.05	181.0	-22.0	;st016 is sump line loop
+
+*end	Lj10

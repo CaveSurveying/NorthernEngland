@@ -1,0 +1,49 @@
+; Locn:	Leck Fell
+; Cave:	Ireby Fell Cavern
+; From old station 22 to current dig face
+
+*begin southeastinlet3
+
+*export 40x
+*export 7x
+
+*title "South East Inlet 3"
+*date 2010.05.30
+*team Instruments Becka Lawson
+*team Notes Neil Pacey
+*Instrument Becka's 30m tape read from 0cm and Becka's tandem comp & clino
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+7x	1	2.52	346	+01
+1	2	2.61	319	-08	; extremely hard to read compass - could be 311 or 349
+2	3	3.24	295	-06
+3	4	2.65	312	-09
+4	5	1.18	249	-19
+5	6	3.75	217	-03
+6	7	2.48	258	-04
+7	8	3.07	271	-02
+8	9	1.26	264	-05
+9	10	5.71	308	+04
+10	11	5.02	298	+05
+11	40x	2.34	309	-02
+
+*data passage station left right up down ignoreall
+
+40x	-	-	-	-	numbered before dig begins
+7x	0	0.5	-	0.4	cannot read up, old station from RiftToD1 survey trip
+1	0.5	0.1	0.2	0.5
+2	0.7	0	1	0.2
+3	0	0.5	0.7	0.2
+4	0.5	0.1	0.6	0.4
+5	0.5	0.3	0.3	0	start of dig, at left corner
+6	0.4	0.3	0.3	0	on connection trip, started digging from Rift just beyond 6 I think
+7	0.4	0.3	0.3	0
+8	0.3	0.3	0.2	0.1
+9	0.3	0.3	0.3	0
+10	0.5	0.2	0	0.4	on connection trip, started digging about 1metre beyond 10 I think
+11	0.6	0.3	0	0.5
+
+*end southeastinlet3

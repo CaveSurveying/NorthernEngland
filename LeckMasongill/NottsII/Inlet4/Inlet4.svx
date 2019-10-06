@@ -1,0 +1,13 @@
+;cave Notts II
+;Title: Inlet4
+
+*begin Inlet4
+
+*export Inlet4_1.1
+
+*include Inlet4_1   	
+*include Inlet4_2
+
+*equate Inlet4_1.7 Inlet4_2.1
+
+*end Inlet4

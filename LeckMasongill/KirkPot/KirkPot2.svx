@@ -1,0 +1,119 @@
+*begin KirkPot2
+*export 1 5 7 13 20 33 34 37
+*title "KirkPot -Entrance to sump"
+
+*date 2012.04.02
+
+*team Instruments Richard Bendall
+
+*team Notes Dave Ramsay
+
+*team Tape Richard Bendall/Ruth McDonald
+*instrument RR set 2, YSS DISTO
+
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+
+
+*calibrate declination +2.42	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.1994n 2.5124w  2012.04.02
+*entrance 31
+*entrance 35
+
+;from	to	tape	compass	clino	remarks
+
+
+
+1	2	5.59	100	-9
+2	3	0.50	100	-9
+3	4	2.68	-	up
+
+5	6	8.73	138	+1
+
+7	8	2.46	203	+6
+8	9	5.88	181	+2
+9	10	2.94	276	+18
+10	11	2.90	226	+13
+10	12	3.43	317	+6
+
+13	14	3.05	125	-6
+14	15	1.84	087	+50
+15	16	2.54	138	-40
+16	17	1.90	060	+5
+
+13	18	2.54	254	+7
+18	19	4.33	343	+1
+19	20	2.13	013	-3
+20	21	8.83	248	+10
+21	22	3.84	197	+12
+22	23	2.41	180	-1
+23	24	3.17	156	+3
+
+21	25	2.08	216	+9
+25	26	1.99	272	+18
+26	27	4.06	224	+6
+27	28	4.52	337	-4
+
+21	29	5.22	331	+2
+29	30	3.38	014	+9
+30	31	6.27	338	+20
+*flags surface
+31	32	2.30	344	+1
+32	33	4.09	029	-19
+33	34	3.13	125	+0.5
+
+33	35	2.43	200	+8
+*flags not surface
+35	36	5.16	148	-28
+36	37	3.06	105	-12
+
+
+*data passage station left right up down ignoreall
+
+
+
+2	1.1	0.4	2.68	0.2	;First aven
+
+3	1.2	0.5	2.7	0.2	;end of passage
+4	0.1	0.1	0.0	2.9	;roof
+
+6	1.5	0.4	0.2	0.2	;end of passage, mud filled tube.
+
+7	0.0	1.9	0.4	1.2	;prev stn kirkpot1.13
+8	0.2	0.9	0.2	1.5	;nose LH side
+9	1.0	1.3	0.5	0.3	;LH side of bend
+10	1.2	1.0	0.2	0.7	;Jn
+11	0.5	0.5	0.5	0.2	;choke
+12	0.5	0.5	0.1	0.2	;choke
+
+13	0.7	2.0	0.0	0.4	;prev stn kirkpot1.5
+14	0.3	0.6	0.5	0.4
+15	1.0	0.8	0.2	0.4	;roof
+16	0.4	0.5	1.8	0.6	;arch
+17	0.7	0.0	0.3	0.2	;RH wall continues tight
+
+18	0.5	0.7	1.0	0.6	;flake
+19	1.2	0.7	0.8	0.3
+20	1.2	0.9	0.1	0.5	;drilled hole prev stn kirkpot1.4
+21	1.0	1.5	0.2	0.4	; three way Jn
+22	0.6	0.0	0.4	0.5
+23	0.5	0.0	0.8	0.6
+24	0.3	0.2	0.0	0.4	;roof
+
+25	0.0	0.7	0.8	0.3
+26	0.5	0.0	0.1	0.7
+27	0.5	0.6	0.6	0.7
+
+28	0.3	0.4	0.3	0.4	;too tight
+29	0.0	0.8	1.0	0.6
+30	0.9	0.0	1.0	0.8
+31	0.5	0.1	0.5	1.0	;exit
+32	0	0	0	0
+33	0	0	0	0	;tag
+34	0	0	0	0	;prev stn kirkpot1.1
+35	0	0	0	0	
+36	2.0	2.0	0.3	0.5	
+37	0	0	0	0	;prev stn kirkpot1.2
+
+*end KirkPot2

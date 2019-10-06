@@ -1,0 +1,97 @@
+*begin Large19
+*export 9x 17 27 32
+
+*title "Eastern Front from dig through choke and nearly to crawl"
+*date 2013.05.24
+*team Instruments Becka Lawson
+*team Notes Neil Pacey
+*instrument initially (through dig and water) Becka's Tandem as comp and clino and Becka's 30m tape read from 0cm then Becka's Distox as back reading through second pool and up boulder choke and rest of trip
+
+*calibrate tape 0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+9x	1	5.31	157	-16
+1	2	3.61	170	-15
+2	3	0.88	194	-07
+3	4	4.64	155	-01
+5	4	4.06	018	0
+5	6	0.20	-	up
+6	7	3.49	148	+05
+8	7	8.10	255	-01	; leg initially 7 to 8 read with Tandem as 8.10 070 +01 but compass covered in mud (got 070 by reading from top) and very hard to hold level so returned and did as a reverse leg with distox which gave 255 ... probably not very accurate though, as no marker far end
+9	8	3.54	282	-06
+10	9	2.85	319	-21
+11	10	1.81	318.5	-21
+12	11	3.28	245	-45.5
+13	12	2.48	235	-10
+
+14	13	16.03	189.5	-07
+15	13	3.00	312	-40
+16	15	9.00	017	+03
+17	16	1.45	085	-54
+; 18	17	4.56	008	-37 removed as superceded by Large20 survey
+; 18	19	12.60	152	+49
+; 18	19	14.20	146	+51	; two shots up aven - removed both as superceded by Large20 survey
+20	15	4.98	290	-09
+21	20	16.69	309.5	+07
+
+22	21	7.91	319	-14.5	
+23	22	17.66	320.5	+03.5
+24	23	7.14	039	-02	; could be +02, not 100% clear in notes
+24	25	9.56	147	+44.5
+26	23	8.54	318.5	+21
+27	26	5.91	350	+08.5
+
+28	27	3.15	263	-06.5	
+29	28	1.89	228	+18
+30	29	8.54	337	+01
+31	30	4.39	344.5	+02
+32	31	4.53	020	-13
+33	32	6.75	087	-09.6
+34	33	1.17	021	+48
+34	35	10.63	315	-37
+34	36	0.50	-	up
+36	37	2.95	167	+33
+
+*data passage station left right up down ignoreall
+
+9x	0.5	3	1.5	1	old numbered survey station from previous survey trip
+1	1	3.5	0	0.7
+2	1	1.5	0.3	0.3
+3	1.2	1.2	0	0.4 start of pool (which was start of the dig)
+4	0	1	0.3	0.1	near lowest point of pool. Unclear what down really was
+5	0.5	2	0.2	0.4	below lip of mud at end of dig
+6	-	-	-	-	above lip of mud
+7	2	2.5	0.2	0.1	start of second pool
+8	1.5	2	0.2	0.1	end of second pool; unclear what down was
+9	2	1.5	0.3	0.2
+10	1.4	1.2	0.3	0.4
+11	1	1.5	0	0.8
+12	1.2	0.4	0	1
+13	3	1	1.5	0.3
+
+14	2.5	0	4	1
+15	8.9	1.8	0	1.7
+16	1.6	1	0.5	1.5
+17	1.8	0.5	0	1
+; 18	1.9	0	2.4	2
+; 19	-	-	-	-	up aven to area of initial boulder floor
+20	7	3.3	0	1.1
+21	3.8	8.4	2.4	1
+
+22	3.4	6.2	0	1
+23	7.8	6.6	2.2	2.4
+24	13	2	6	3	left unclear - could be 1.3?
+25	-	-	-	-	hanger in right wall up aven
+26	3.8	4.4	0.5	0.5
+27	6.1	5.8	0.7	0
+
+28	5.7	-	1.2	0.5	I think right didn't make much sense. Down not written clearly; numbered
+29	2.2	7	0.7	0.2
+30	2.2	5.1	1	0.2
+31	1	7	1.3	0.4
+32	3	8.1	0	1 numbered
+33	8	3	1.5	0
+34	1.5	3	1	1.2
+
+*end Large19

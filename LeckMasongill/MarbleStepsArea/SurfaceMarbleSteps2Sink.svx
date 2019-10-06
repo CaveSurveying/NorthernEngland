@@ -1,0 +1,33 @@
+;Cave:	Marble Steps Area
+;Surveyors:	Dave Ramsay/Richard Bendall/ Jon Tomkins
+;Date:	21/10/13 
+;Instruments:	Red Rose Sunto Compass & Clino kit 2, Disto / tape	
+
+*begin SurfaceMarbleSteps2Sink
+
+*export 001 003
+;*calibrate compass
+*calibrate declination +2.44	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.188n 2.492w 2013.10.21
+
+;surface survey
+
+;*entrance 001 ; Wet Route entrance now labelled in named cave svx files
+;*entrance 003 ; Lost Marbles entrance now labelled in named cave svx files
+
+*flags surface
+
+002	001	3.15	151 	-17	;stn001 is 1st bolt on Wet Route
+002	003	3.69	003	+5	;stn002 Boulder in stream bed
+003	004	7.41	074	+6	;stn003 ent to Lost Marbles Ent
+004	005	19.69	050	+11	;stn004 Top of boulder in gully
+005	006	12.36	071	-2	;stn005 is top of fence post
+006	007	10.76	071	+6	;stn006 is boulder at sink
+					;stn007 is Big boulder at stream corner
+
+*flags not surface
+
+
+
+
+*end SurfaceMarbleSteps2Sink

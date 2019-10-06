@@ -1,0 +1,15 @@
+*begin Byron
+
+*export 14x
+
+14x	1	1.40	232	-53	; stn 14 is station from shortdroprumblingcoalholebyronsurface survey
+1	2	8.55	-	down	; stn 1 is nut on scaffolding
+2	3	0.42	075	0
+3	4	8.48	-	down	
+4	5	8.40	-	down	; extra bit to bottom of dig
+
+; *include 
+
+; *equate 
+
+*end Byron

@@ -1,0 +1,51 @@
+*begin WitchesII-6
+*export 1 2 13
+
+*title "From pitch above canal beyond Zigzag to pitches up"
+*date 2010.12.31
+*team Instruments Becka Lawson
+*team Notes Ruth MacDonald
+*instrument Neil's DistoX
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+2	1	3.78	341	+27
+3	1	5.45	328	+21
+3	2	1.90	307	+06
+4	3	2.29	021	-19
+5	4	3.57	327	+08
+6	5	8.58	025	-24
+7	6	5.82	002	-02
+8	7	1.88	028	-09
+9	8	1.95	030	+23.5
+10	9	8.82	354	-01
+11	10	6.68	003	-01
+12	11	2.77	050	-51
+13	12	4.69	270	-55
+; 14	12	9.03	169.5	-82.5	; not clear if tape is 9.03 or 9.63 - I've gone for 9.03 as down given as 9m in LRUD
+
+; 14	15	6.80	012	+16	; TEMPORARY leg towards right passage as face pitch head spit
+; 14	16	3.81	232	+15 ; TEMPORARY leg towards middle passage as face pitch head spit
+; 14	17	3.32	204	+16 ; TEMPORARY leg towards left passage as face pitch head spit
+; 14	18	5.66	143	+25 ; TEMPORARY leg towards upper, far left passage as face pitch head spit
+
+*data passage station left right up down ignoreall
+
+1	0	2	1.5	14	second bolt at pitch head above canal (not the backup, the main spit)
+2	2	0	2	14	20cm above traverse bolt, numbered
+3	0	1.6	1.6	14	near spit for traverse over canal, numbered
+4	1.2	0	1	2	on R wall, down is to perched boulder bridge, true floor below this
+5	0	1.2	3	3	dribble of water from high on left
+6	1.2	0.2	0.2	1.6	down to perched boulders, more drop to true floor
+7	0	1.3	0.2	3.5	climb up boulders from 6 to 7, just before crawl over calcite past column
+8	1	1.2	0.2	1.1	dribble of water in floor
+9	1.2	0	1.3	1
+10	0.1	1	0.5	0.5
+11	0.5	0.6	1.2	0.2	rock in mid passage
+12	5	2	10	0	on rock near base of right pitch just after pop up into loose chamber
+13	0.5	0.4	0.3	2	numbered high on right wall opposite where rope goes up to rebelay then higher
+; 14	2	0	5	9	numbered 10cm below the pitch head bolt
+
+*end WitchesII-6

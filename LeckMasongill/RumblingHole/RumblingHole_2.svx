@@ -1,0 +1,89 @@
+;Cave:	Rumbling Hole
+;Surveyors:	Dave Ramsay/Richard Bendall
+;Date:	2007.11.19 
+;Instruments:	Red Rose Sunto Compass & Clino kit 2, Disto	
+
+*begin Rumblinghole_2
+*export 101
+*export 103
+*export 142
+*export 152
+*export 154
+
+*Title "Rumbling Hole"
+;*calibrate compass
+*calibrate declination +3.41	
+;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
+;Model Used IGRF11 		
+;54.1994n 2.5124w  2007.11.19 
+*entrance	101
+*fix	101	67110	79105	352	;top of stile post
+;stn to stn	tape	comp	clino	 L    R   U   D
+
+*flags surface
+101	102	5.97	025	-37	;stn101 is tall post to side of stile
+102	103	7.22	048	-57	;stn102 is on tree, looking down, stn103 is RH bolt on hanging rebelay (CNCC)
+*flags not surface
+;101	102	5.97	025	-37
+;102	103	7.22	048	-57
+103	104	6.68	 -	DOWN
+104	105	12.39	268	-23
+105	106	5.50	206	-3
+105	107	4.91	273	+2
+107	108	3.55	283	0.0
+108	109	0.91	334	-9
+109	110	1.78	003	+8
+109	111	3.18	274	+14
+111	112	1.99	222	-43
+112	113	0.40	 -	DOWN
+112a	112b	4.00	266	-6	;0.6 0.3 2.0 2.0
+112b	112	12.30	 -	DOWN	;1.5 5.0 1.5 13.0
+113	114	2.65	214	-4
+114	115	2.20	269	-1
+115	116	2.30	252	-4
+116	117	1.40	268	-6
+117	118	1.47	242	-2
+118	119	1.93	217	0.0
+119	120	3.37	256	-2
+120	121	2.84	118	-2
+121	122	1.60	118	0.0
+120	123	2.03	261	0.0
+123	124	2.55	313	-1
+124	125	1.80	332	-3
+125	126	5.53	299	+2
+126	127	3.47	249	-6
+127	128	1.22	293	-10
+128	129	1.02	325	+14
+129	130	2.68	322	-15
+130	131	4.72	 -	DOWN
+131	132	4.41	067	-60
+132	133	2.79	 -	DOWN
+133	134	2.88	072	-11
+134	135	4.78	102	-5
+135	136	4.43	 -	DOWN
+136	137	1.94	068	-25
+137	138	7.05	098	-6
+138	139	2.10	098	-7
+139	140	7.80	 -	DOWN
+140	141	1.87	010	-7
+141	142	7.26	124	+43
+142	143	4.66	092	-2
+141	144	5.12	285	-10
+144	145	2.22	311	+8
+145	146	1.87	210	-18
+146	147	1.38	 -	DOWN
+147	148	1.83	214	-9
+148	149	7.06	 -	DOWN
+149	150	1.90	007	-12
+150	151	8.50	102	0.0
+150	152	2.42	265	-28
+152	153	12.02	269	-2
+152	154	9.59	 -	DOWN
+*flags duplicate
+154	029	2.57	090	-9
+*flags not duplicate
+154	155	5.80	277	-10
+
+*end Rumblinghole_2
+
+

@@ -1,0 +1,39 @@
+*begin northeastinlet
+
+*export neinlet1.12x
+*export neinlet1.49x
+*export neinlet1.4
+*export boltclimb.1
+*export neinletupperlevel.stal
+*export neinlet9.8
+
+*include neinlet1
+*include neinlet2
+*include neinlet3
+*include neinlet4
+*include neinlet5
+*include neinlet6
+*include neinlet7
+*include neinlet8
+*include neinlet9
+*include neinlet10
+*include boltclimb
+*include neinletupperlevel
+
+*equate neinlet1.40 neinlet2.40x
+*equate neinlet2.55 neinlet3.55x
+*equate neinlet3.100 neinlet4.100x
+*equate neinlet4.123 neinlet5.123x
+*equate neinlet3.102 neinlet6.102x
+*equate neinlet6.35 neinlet7.35x
+*equate neinlet6.10 neinlet8.10x
+*equate neinlet1.49x boltclimb.49x
+*equate neinlet1.12x neinletupperlevel.stal
+*equate neinlet4.111 neinlet9.111x
+*equate neinlet8.5 neinlet10.5x
+
+*end northeastinlet
+
+;*include If03
+;*equate neinlet6.6 If03.011
+; If03 data duplicates and predates neinlet6 data so commented out

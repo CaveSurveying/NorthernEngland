@@ -1,0 +1,46 @@
+*begin lowdouk5
+
+
+*export 1
+
+
+*title "Low Douk dig below second entrance pitches"
+
+*date 2009.12.09
+*team Notes Dave Ramsay
+
+*team Instruments Becka Lawson
+
+*team Tape Richard Bendall
+*instrument comp&clino Becka's tandem tape Becka's 30m tape
+; double-checked 
+
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+
+;from	to	tape	compass	clino	remarks
+
+1	2	2.80	179	-20
+
+2	3	4.20	094	-04
+
+3	4	4.33	102	+12
+
+4	5	1.76	096	-02
+
+
+*data passage station left right up down ignoreall
+
+1   0.5	2.0	6.0	1.3	; liquid paper on rock above start of other dig
+
+2	1.0	1.0	0.1	0.2	; start of low arch
+
+3	0.1	0.6	0.1	0.4
+
+4	0.4	0.3	0.4	0.4
+
+5	1.0	0.2	0.3	1.0	; end of passage - only small aven above
+
+
+*end lowdouk5

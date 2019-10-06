@@ -1,0 +1,28 @@
+;Cave:	Witches Cave - upstream from start of sump 2
+;Date:	16/07/97
+;Surveyors:	Rick stanton and Jason Mallinson
+;Instruments:	aladin pro
+
+*begin	wit5
+*export 001
+
+*calibrate compass	+5.17
+
+*data diving from to bearing length fromdepth todepth
+
+001	002	045.0	09.00	 00.0	00.0
+002	003	080.0	10.00	 00.0	-02.3
+003	004	080.0	10.00	-02.3	-03.4
+004	005	070.0	10.00	-03.4	-05.7
+005	006	070.0	10.00	-05.7	-07.0
+006	007	070.0	10.00	-07.0	-05.7
+007	008	080.0	10.00	-05.7	-10.5
+008	009	080.0	10.00	-10.5	-14.4
+009	010	090.0	10.00	-14.4	-17.0
+010	011	090.0	10.00	-17.0	-20.2
+011	012	084.0	10.00	-20.2	-23.0
+012	013	074.0	09.00	-23.0	-23.2
+013	014	118.0	11.00	-23.2	-25.0
+014	015	124.0	10.00	-25.0	-25.0 ;(?)    PETE - can you work out the depth of this station from Rick's notes from the (current) final 95m section?
+
+*end	wit5

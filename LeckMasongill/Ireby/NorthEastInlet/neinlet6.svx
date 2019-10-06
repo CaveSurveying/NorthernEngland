@@ -1,0 +1,95 @@
+; Locn:	Leck Fell
+; Cave:	Ireby Fell Cavern
+; NE inlet going R at main T junction starting at station 102 of neinlet3 (left wall just after turn R at Tjunction)
+
+*begin neinlet6
+
+*export 102x 6 10 35
+
+*title "North East Inlet 6"
+*date 2010.03.27
+*team Insts Patrick Warren
+*team Notes Becka Lawson
+*instrument Compass and Clino - Becka's tandem compass-clino and Becka's 30m tape
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+102x	2	8.54	095	-10
+3	2	3.57	215	-23
+4	3	7.60	314	-08
+3	5	5.37	031	-08
+5	6	0.64	024	+55
+7	6	3.26	193	-04
+8	7	4.09	288	-43
+9	7	5.04	108	-01
+10	9	5.64	150	-05
+5	11	5.27	034	-04
+11	12	2.30	346	-02
+12	13	4.79	022	+12
+14	13	2.64	171	-05
+15	14	2.06	212	+15
+16	15	8.18	278	0
+17	16	2.02	225	-12
+18	17	4.66	125	+03
+19	18	3.16	153	+04
+20	19	3.37	155	-05
+21	20	6.87	233	-01
+22	21	1.98	255	-02
+23	22	3.44	228	+07
+24	23	3.12	255	-08
+25	24	2.73	160	+02
+26	25	3.81	171	0
+27	17	10.50	298	-01
+28	27	3.44	279	-01
+29	28	4.41	337	-03
+30	29	4.66	052	+02
+30	31	2.31	171	-04
+31	32	5.60	112	+01
+32	33	2.20	090	+07
+33	34	3.13	056	+03
+32	35	1.40	190	+04
+
+*data passage station left right up down ignoreall
+
+102x	0	1.5	1.5	3	old numbered station from neinlet3 survey trip, on l wall just after turn r at T junction, down is 1 to ledge or 3 to stream level
+2	2	-	2	1.6	by short mud crawl, r is passage
+3	2	-	1	3	l wall before stals at junction, r is passage
+4	0.5	0.5	2	0.5	end of passage (goes up 2m from here into boulder choke)
+5	2	2	1.2	2	l wall beyond stalagmites
+6	2	2	1	3	white cow tag from RRCPC survey (Dave Ramsay and Pete Hall I think)
+7	2	2	10	2	chamber/junction
+8	2	1	10	1.8	back wall below c10 to passage?
+9	1.5	1	0.4	1.2	l wall at end of chamber
+10	0	0.5	2.5	0.4	numbered lp - l wall before tight climb
+11	1	0.8	0.3	1.4	l wall (can't read - under?) chamber
+12	2	1	1.4	1.2	boulder after crawl into continuation
+13	1.5	1.5	0.2	1.1	roof at junction - stream goes to right
+14	0.6	1	0.2	1	roof
+15	0.5	1.2	1	0.3	temp rock on floor
+16	1.2	0.5	0.5	1.2	r wall after crawl
+17	1.4	0.5	0.4	1.1	numebred stn at junction of L and R inlets
+18	0	1.2	0.5	0.7	l at junction, l wall
+19	0.6	0.2	0.2	0.5	r wall
+20	1	0.1	0.3	1	roof
+21	0.8	0	0.4	0.6	r wall
+22	0.2	0.6	0.2	0.6	roof nodule
+23	0.2	0.9	0.8	0.3	floor rock
+24	0.8	0.2	0.2	0.7	corner
+25	0.7	0	0.5	0.4	r wall
+26	0.9	0.1	0.4	0.2	r wall before flat out crawl in water
+27	0.1	1.2	0.3	1	l wall in r inlet
+28	0.5	1	0.3	0.9	l wall
+29	0.8	0.6	0	0.9	middle of roof
+30	1	0.5	0	0.5	roof
+31	1.3	0.2	0.2	0.2	r wall
+32	1.1	1.2	0.2	0.2	middle at junction of two inlets (R one the main one)
+33	1	0.3	0.2	0.3	r wall
+34	1	0.4	0	0.4	ceiling
+35	0.1	1	0.05	0.3	stal just to right of junction, down r (more major) of two inlets. Not numbered but stal is distinctive - white and station is at "neck" where it goes from fat to think, see sketch on raw notes
+
+*end neinlet6
+
+
+
+

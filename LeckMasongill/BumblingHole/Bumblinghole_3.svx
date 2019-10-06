@@ -1,0 +1,38 @@
+*begin Bumblinghole_3
+
+;Date:  26/02/07
+;Cave: Bumbling Hole
+;Survey Kit RRCPC No 2
+;Instruments: Richard Bendall
+;Book:  Dave Ramsay
+;Tape:	Emma Martindale
+
+;Explored 22/02/07 RB,DR, PH
+
+*Title "Bumbling Hole"
+;equate 029 Bumbling_1.029
+*export 029
+*export 035
+
+030	029	1.72	135	0	;start of 26/02/07 survey
+030	031	4.80	025	0
+031	032	5.95	027	+1
+032	033	8.51	013	+1
+033	034	4.59	350	+2
+034	035	7.50	037	0
+035	035a	7.00	357	0	;guessed leg to show trend
+
+*data passage station left right up down ignoreall
+
+
+029	0.4	1.2	0.2	0.3
+030	0.2	1.1	0.7	0.2
+031	0.0	2.0	0.4	0.3
+032	2.1	1.0	0.3	0.3
+033	1.0	0.4	0.4	0.3
+034	1.0	1.5	0.2	0.3
+035	1.0	0.1	0.2	0.4
+
+*end Bumblinghole_3
+
+

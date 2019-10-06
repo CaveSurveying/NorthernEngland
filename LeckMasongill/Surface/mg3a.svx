@@ -1,0 +1,43 @@
+;Cave:	Surface survey of New Rift Pot via Ireby Fell to Notts pot 
+;Surveyors:	R.Duffy/A.Whitney
+;Date:	28/05/03
+;Instruments	PAG
+
+; *equate	mg3a.001	mg1.032a
+; *equate	mg3a.024	ss19.001
+
+*begin	mg3a
+*export 001 024
+*export 008 016 012a
+
+*calibrate compass	+3.50
+*calibrate clino	+0.50
+
+001	002	19.20	210.0	+17.5	;st001 = new rift pot tag up high on left facing into cave
+002	003	50.32	300.5	-04.0
+003	004	50.36	299.5	+0.05	;stream crossed at about 25.77m
+004	005	85.20	331.0	+08.0
+005	006	85.05	334.5	+08.0
+006	007	85.05	340.5	+10.0
+007	008	82.62	341.0	+10.5	;st008 is head height on stile
+008	009	85.05	287.0	-01.0
+009	010	66.92	290.0	+01.5
+010	011	85.05	290.0	-01.0
+011	012	75.75	301.0	-01.0	;st012 is edge of shakehole
+
+012	012a	28.37	292.0	-33.0	;st012a=tag hole on right of scaffold bar in top rock(tag missing)
+
+012	013	47.90	250.0	-05.0	;st013=MB68
+013	014	30.65	003.0	+07.0	;st014=MB??(plate missing)
+014	015	70.65	293.0	+01.5
+015	016	23.25	277.0	-07.0	;st016 is rock top at junction of wall and fence to shooting hut on Leck Road
+016	017	85.05	351.0	 00.0
+017	018	35.00	356.0	+05.5
+018	019	90.05	352.0	-00.5
+019	020	90.05	354.0	-01.0
+020	021	65.49	342.0	-02.0
+021	022	90.05	338.0	-05.0
+022	023	33.30	274.0	-15.5
+023	024	09.73	144.0	-22.0	;st024=first P hanger at Notts Pot entrance
+
+*end	mg3a

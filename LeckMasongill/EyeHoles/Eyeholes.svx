@@ -1,0 +1,50 @@
+*begin Eyeholes
+
+;Date: 26/02/07
+;Cave: Eyeholes
+;Survey Kit RRCPC No 2
+;Instruments:  Dave Ramsay
+;Book:  Dave Ramsay
+;Tape:	Emma Martindale
+
+
+*Title "Eyeholes"
+
+*export 001
+*export 006
+
+*entrance	004
+;*fix	006 66824	79184	337	;eyehole stile RGB GPS 02/03/07
+;*fix	Longdrop 66959	79156	346	;Longdrop from Pete Hall's data
+;*fix	HumblePot 67064	79131	346	;Humble Pot from Pete Hall's data
+;*fix	TipTop	66836	79263	340	;TipTop dig GPS RGB 15/01/07
+;*fix	WeePot	66565	79286	354	;Wee Pot GPS RGB 15/01/07
+;*fix	Fenwickpot 66583 79341	328	;Fenwick Pot Tag
+;*fix	Bruntsgill 66734 79377	364	;Bruntsgill pot III active sink RGB 15/01/07
+;*fix	Bumbling 66949	79284	343	;Bumbling Hole GPS RGB 07/02/07	
+;*fix	Openhole3 66919	79327	338	;Open Hole 3 GPS RGB 14/02/07
+;*fix	Bigsink	67210	79259	357	;Stream sink GPS RGB 14/02/07
+;*fix	Tinnyecho 66984 79408	349	;hole with small tinny echo
+;*fix	Wallfencejunction	67021 79657	348	;wall fence Junction
+;*fix eyehole	66824	79184	337	;eyehole stile RGB GPS 02/03/07
+;*fix eye2eye	66870	79205	339	;sml rift shake s eyehole RGB GPS 02/03/07
+;*fix longdropstl	66969	79176	346	;Longdrop stile RGB GPS 02/03/07
+
+;Station 	Tap	Compass	Clino	 L	R	U	D
+
+001	002	1.70	-	Up	;stn 2 is mark on left wall
+002	003	7.27	092	+51
+003	004	7.40	114	+63	;stn 4 is marked on left wall, highest exposed rock projection just below surface
+*Flags surface
+004	005	2.69	-	UP	;surface
+005	006	22.80	263	+2	;top of post by style
+*Flags not surface
+*data passage station left right up down ignoreall
+001	0.3	0.1	2.5	0.0
+002	0.3	0.0	0.8	1.7
+003	1.2	1.2	7.0	1.4
+004	0.5	0.0	0	1.7
+
+*end Eyeholes
+
+

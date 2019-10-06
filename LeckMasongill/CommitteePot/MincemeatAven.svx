@@ -1,0 +1,53 @@
+*begin MincemeatAven
+;Date: 24/11/2011
+
+;Cave: Notts II
+
+;Survey Kit RRCPC No ?
+
+;Instruments: Richard Bendall
+;Book: Dave Ramsay
+;Tape: Richard Bendall
+
+
+
+;Tape started at -10 centimetres (original notes - no Corrections)
+
+;Mincemeat Aven (up both ropes) 
+*Title "Mincemeat Aven"
+
+
+
+*export 1	;equates to Inlet13.005
+
+*CALIBRATE tape -.10		;Tape was 10 centimetres too long
+
+*calibrate declination +2.45	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.1994n 2.5124w  2011.11.24
+
+;Station 	Tape	Compass	Clino	
+ 
+1	2	2.56	135	+15	
+2	3	13.63	343	+72
+	
+1	4	11.60	093	+41	
+4	5	10.44	081	+42	
+
+5	6	6.37	015	+42		
+
+6	7	10.02	091	+45	
+
+*data passage station left right up down ignoreall
+
+
+
+1	0.0	1.8	0.4	1.3	;equates to Inlet13.005 LH Wall under arch into Mincemeat Aven
+2	2.5	0.0	10.0	1.6	;RH Wall
+3	0.0	1.0	3.0	1.6	;RH Bolt
+
+4	1.7	0.0	6.0	1.4	;RH Wall above 1st bolt
+5	1.9	0.0	6.0	1.3	;RH Wall
+6	0.0	3.0	6.0	1.4	;LH Wall
+7	2.1	0.0	9.0	1.5	;RHWall
+
+*end  MincemeatAven

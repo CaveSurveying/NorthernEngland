@@ -1,0 +1,30 @@
+;Ireby Main Streamway
+
+*begin Streamway
+
+*export DingDongBellPitches.001
+*export streamwayuptoduckresurvey.1
+*export streamwayuptoduckresurvey.16
+*export streamwayuptoduckresurvey.37
+*export streamwaybubblestagdownstream.bubblestag
+
+*include Streamway1
+*include streamwayuptoduckresurvey
+*include streamwayupstreamofduckresurvey
+*include streamwaybubblestagdownstream
+*include dingdongbellpitches
+*include bubblesroute
+
+; pitch and entrance equates
+*equate Bubbles.001 DingDongBellPitches.001			;Start of Bubbles Route
+*equate Streamway1.022 DingDongBellPitches.022
+
+; bubbles tag equates
+*equate Bubbles.215 streamwaybubblestagdownstream.bubblestag 		;Bubbles Route Joins Streamway
+*equate streamwaybubblestagdownstream.bubblestag  Streamway1.027
+
+*equate	streamwayuptoduckresurvey.37       streamwayupstreamofduckresurvey.37x
+*equate streamwayupstreamofduckresurvey.59 streamwaybubblestagdownstream.p59
+
+*end Streamway
+

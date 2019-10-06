@@ -1,0 +1,31 @@
+;Cave:	Rumbling Hole
+;Surveyors:	Richard Bendall/Emma Martindale
+;Date:	2008.01.28 
+;Instruments:	Red Rose Sunto Compass & Clino kit 2, Disto	
+
+*begin RumblingHole_6
+*export 152
+*Title "Rumbling Hole"
+;*calibrate compass
+
+*calibrate declination +3.38
+;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
+;Model Used IGRF11 		
+;54.1994n 2.5124w  2008.01.28 
+
+
+;stn to stn	tape	comp	clino	 L    R   U   D
+221	222	2.87	160	+20	;1.5 2.8 0.1 0.43 stn221 is small chamber on edge of choke
+221	221a	2.54	270	0.0	;leg into small bedding
+222	223	3.41	080	-21	;0.25 0.6 0.6 0.1 stn222 is in rift at edge of boulder choke
+223	224	2.72	-	DOWN	;0.23 0.3 1.2 3.0 stn223
+224	225	1.83	056	-9	;0.65 0.0 0.7 3.0 stn224
+225	226	2.17	097	-27	;0.0 0.5 1.2 1.5 stn225
+226	227	6.59	-	DOWN	;0.1 0.1 3.8 8.0 stn226
+*flags duplicate
+227	152	6.89	087	+5	;0.0 1.1 9.0 2.0 stn227
+*flags not duplicate
+
+*end RumblingHole_6
+
+

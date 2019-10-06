@@ -1,0 +1,24 @@
+;Cripple Creek
+
+*begin CrippleCreek
+
+*export gloryholes1.001 cripplecreekconnect.33 gloryholes1.005
+
+;include Cripple Creek Files only
+
+*include GloryHoles1			;Glory Holes
+*include GloryHoles3			;Glory Holes/Cripple Creek
+*include GloryHoles4			;Cripple Creek
+*include GloryHoles5			;Cripple Creek
+*include GloryHoles6			;Cripple Creek
+*include cripplecreekconnect		;Cripple Creek - Ireby II
+
+;Equate Cripple Creek Files
+		
+*equate GloryHoles1.011 GloryHoles3.011
+*equate	GloryHoles3.064 GloryHoles4.064
+*equate	GloryHoles4.001 GloryHoles5.001
+*equate	GloryHoles3.039 GloryHoles6.001
+*equate GloryHoles5.016 cripplecreekconnect.1
+
+*end CrippleCreek

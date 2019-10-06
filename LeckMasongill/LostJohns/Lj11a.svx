@@ -1,0 +1,25 @@
+*begin	Lj11a
+*export 001
+
+;Cave		Mud Inlet - Lost Johns
+;Surveyors	Geoff Yeadon/Mick Numwick/Pete O'Neill/Tim Allen and others
+;Date		21/12/97
+;Instruments	????
+
+;*calibrate compass	+5.00	;guesswork?????
+;*calibrate clino	
+
+001	002	05.60	127.0	-70.0
+002	003	03.00	215.0	+45.0
+003	004	01.40	123.0	-20.0
+004	005	02.60	162.0	+15.0
+005	006	03.10	148.0	+20.0
+006	007	02.10	130.0	+25.0
+007	008	03.10	253.0	+15.0
+008	009	02.00	205.0	 00.0
+009	010	02.00	135.0	+60.0
+010	011	03.70	230.0	-03.0
+011	012	03.20	190.0	+30.0
+012	013	08.00	190.0	+20.0	;st013 is choke
+
+*end	Lj11a

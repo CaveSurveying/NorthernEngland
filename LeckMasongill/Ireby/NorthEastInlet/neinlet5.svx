@@ -1,0 +1,48 @@
+; Locn:	Leck Fell
+; Cave:	Ireby Fell Cavern
+; NE inlet beyond L turn at main T junction starting at station 123 of neinlet4 (climb up beyond mud sump)
+
+*begin neinlet5
+
+*export 123x
+
+*title "North East Inlet 5"
+*date 2010.02.07
+*team Tape Becka Lawson
+*team Insts Julian Todd
+*team Notes Neil Pacey
+*instrument Compass and Clino - Becka's tandem compass-clino and Becka's 30m tape
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+1	2	3.92	082	+28
+2	3	2.92	097	+27
+3	4	1.93	108	+45
+4	5	3.32	355	+35
+1	6	3.18	230	-70
+6	7	2.58	250	-65
+7	8	1.32	234	-27
+8	9	1.74	215	-51
+9	10	2.72	247	-15
+123x	10	1.80	113	-18
+
+*data passage station left right up down ignoreall
+
+123x	0.6	0.1	0.4	2	old numbered station from neinlet4 survey trip, high in climb up from chamber, on r wall
+1	0.3	0.3	2.5	3.5	above second squeeze
+2	0	2	1	1.2
+3	1.1	0.5	0.5	0.6	left (slightly taller) of two stalagmites just before enter chamber
+4	1.5	2	2	1.8	numbered, on r wall in chamber
+5	0.5	0.2	0	0.2	numbered, on r just before too tight squeeze into wet chamber above
+6	0.3	0.1	4	1.1	below 2 squeezes
+7	0.1	0.5	3	0	top of dodgy boulder
+8	1	0.1	3.5	2	r wall before climb over dodgy boulder
+9	0.5	1	4	1.5	
+10	0.2	1	3.5	0.1	l wall/floor
+
+*end neinlet5
+
+
+
+

@@ -1,0 +1,134 @@
+
+*begin DaylightAven2011-1
+
+*export 1 3 14 24
+
+
+*title "Pitches up Daylight Aven from main streamway and into start of crawl where go past pretties"
+
+*date 2011.02.26
+
+*team Instruments Julian Todd
+
+*team Notes Becka Lawson
+
+*instrument Becka's Tandem as comp and clino and Becka's 30m tape read from *20cm* as end now fallen off!
+
+
+*calibrate tape 0.20	; +ve if tape was too short, -ve if too long
+
+
+*calibrate declination +2.52	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.1994n 2.5124w  2011.02.26
+
+
+
+;from	to	tape	compass	clino	remarks
+
+
+1     2 	13.95 	012    +03        
+3     2 	7.50  	107    +12
+
+4     3 	8.00  	-      down
+
+5     4 	2.76  	049    -44
+
+6     5 	5.67  	-      down
+
+7     6 	5.36  	073    -45
+
+8     7 	3.59  	112    +01
+
+
+8     9       	4.22  	321    -08
+
+8     10      	8.49  	302    -03
+
+10    11      	4.73  	271    -03
+
+11    12      	3.13  	302    +16
+
+12    13      	3.80  	000    +05
+
+13    14      	5.57  	325    +05
+
+14    15      	6.71  	053    -07
+
+16    15      	7.48  	-      down
+
+17    16      	4.47  	260    -51
+
+18    17      	4.72  	155    -62
+
+
+19    18      	3.90  	153    -27
+
+20    19      	4.76  	239    -06
+
+20    21      	4.00  	084    -04
+
+21    22      	4.63  	020    +05
+
+22    23      	4.01  	318    +03
+
+23    24      	3.24  	328    +03
+
+
+
+*data passage station left right up down ignoreall
+
+
+1     3       2       1.5  2      ;top of little stumpy stal, 10cm tall, (not marked) on R ledge of main streamway as look upstream and directly opposite start of Passchendale (same side as White Flag) - from here 070 down Passchendale and 170 along canal towards upstream sump
+
+2     2.5     0.2     0.5  2.5    ;numbered on R wall above canal as face downstream
+
+3     3       1.3     8    0.9    ;knot towards bottom of first rope up into Daylight aven
+
+4     0.6     0.4     0.2  9      ;rusty ringhanger for lowest pitch rope of Daylight aven
+
+5     0.2     0.9     4    1.3
+
+6     0.2     1.2     15   1.3	  ;down is 6 to true floor; station is on the traverse rope itself, between the 3rd and 4th hangers, opposite attractive white flowstone wall
+
+7     0       2.2     15   1.3    ;numbered, the left one of the top two traverse hangers
+
+8     1.8     1.7     15   0.5    ;tip of calcite and mud and flowstone in chamber
+
+
+9     3       0       15   1.5    ;scratched x on R wall, presumably an old station
+
+10    1       0       5    1.6
+
+11    1.2     1       6    1.3
+
+12    0       0.5     6    1.3
+
+13    0.3     0       4.5  1.6
+
+14    0       2.5     15   1.4    ;numbered on l wall as enter chamber
+
+15    0       2       12   0.3    ;knot near bottom of pitch rope
+
+16    0       1.2     8    8      ;pitch head bolt
+
+17    1.2     0       4    4
+
+18    0.3     0.3     0.2  1.8    ;numbered on wedged boulder about 1.2m above the 2 pitch head bolts
+
+
+19    1       3.5     1.5  0.6    ;numbered in pencil
+
+20    0.8     1.1     1.2  0.5
+
+21    1       0.2     0.3  0.3
+
+22    1.3     0.4     0.2  0.4
+
+23    0.7     0.4     0.5  0.1
+
+24    0.1     0.5     1.8  0.3
+
+
+
+*end DaylightAven2011-1
+ 

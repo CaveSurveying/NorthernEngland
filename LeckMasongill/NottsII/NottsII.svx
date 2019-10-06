@@ -1,0 +1,109 @@
+;Cave: NottsII
+;Title: NottsII - All
+
+;Date Created 21/12/2006 by Neil Pacey, Richard Bendall
+
+;--------------------------------------------------------------------------------------------
+;All NottsII Files
+
+*begin	NottsII
+
+;--;*export Entrance  ; CommitteePot.001 and EntranceShaft.001
+;*export inlet7.Inlet7-14.001 ; voldemort
+;;*export CountLazloALL.TheCupcake.008 
+;;*export CountLazloALL.BrunoKranskiesBoxheadConnection.50
+;*export CountLazloALL.LostJohnsConnection.1
+
+*export MainStreamway.Dome-Jimlet.6
+*export MainStreamway.Showerbath-Dome.25
+*export MainStreamway.Mainstreamway3.33
+*export Mainstreamway.Showerbath-Dome.36
+
+;-------------------------------------------------------------------------------------------
+;include Statements
+
+;--;*include CommitteePot/CommitteePotEntrance		;Main Committee Pot Entrance to Mincemeat Aven
+
+
+;*include CurryInlet/CurryInlet			;Curry Inlet				Added by Richard 02/02/10 Working ok commented out 20/12/11 RGB
+
+
+*include CurryInlet/AllCurryInlet		;New Curry Inlet data			Added by Richard 13/12/11
+*include DomeInlet/DomeInlet			;Dome Inlet 				Added by Richard 02/02/10 Working ok Updated to new survey data 13/01/12RGB
+;*include Inlet13/Inlet13			;Mincemeat Aven to MainStreamway 	Added by Richard 02/02/10 Working ok Commented out 25/11/11 RGB superceeded with new entrance survey
+;*include MincemeatAven/MincemeatAven		;Up Mincemeat Aven			Commented out 25/11/11 RGB superceeded with new entrance survey
+;*include GordonsInlet/GordonsInlet		;Gordons Inlet flood by-pass		Added by Richard 02/02/10 Working ok ;Commented out.RGB 20/12/11
+*include GourInlet/GourInlet			;Gour Inlet & Parallel Universe		Added by Richard 02/02/10 Working ok
+*include GreenTape/GreenTape			;Green Tape Inlet			Added by Richard 12/03/10 Working ok
+*include Inlet5/Inlet5				;Inlet5 & extension			Added by Richard 02/02/10 Working ok 
+*include Inlet17/Inlet17
+*include Inlet18/Inlet18
+*include MainStreamway/MainStreamway		;Notts II Mainstreamway - Downstream Sump to ...
+*include Paaschendale/Paaschendale		;Paaschendale
+*include TrickOrTreat/TrickOrTreat		;Trick Or Treat
+*include Poppy/Poppy				;Poppy Passage
+;*include ShowerbathInlet/ShowerbathInlet 	;showerbath Inlet			Added by Richard 02/02/10 Working ok ;edited out 22/11/11 RGB Superceeded by Showerbath-Dome
+;*include Inlet7/Inlet7  ; moved to Voldemort
+;*include CountLazlo/CountLazloALL		;Count Lazlo Stroganoff - upstairs and downstairs Rejigged by Becka 14/09/10
+*include DaylightAven/DaylightAven
+*include WhiteFlag/WhiteFlag			;White Flag
+
+*include Inlet8/Inlet8				;Inlet 8				Added by Richard 08/11/11
+*include Inlet4/Inlet4				;Inlet 4 				Added by Richard 13/12/11
+*include EchoInlet/EchoInlet			;Echo Inlet				Added by Richard 16/12/11
+*include Estonia/Estonia			;Estonia				Added by Richard 16/12/11
+*include Inlet14/Inlet14			;Inlet 14				Added by Richard 11/02/12
+*include sixpointfiveandthreequarters/sixpointfiveandthreequarters			;sixpointfiveandthreequarters connected dig 27/07/12	Added by Richard 28/07/12
+
+*include Inlet6point5/Inlet6point5		;Inlet 6.5				Added by Richard 08/11/12
+
+
+;-------------------------------------------------------------------------------------------
+;Equate Statements
+
+;--;*equate CommitteepotEntrance.EntranceShaft.001 Entrance
+;*equate CountLazloALL.LazloStrog1.054 Entrance	[Becka 2/10/11 - DELETE this - there is no .054 in LazloStrog1 and surely this shouldn't equate to the Committee Pot entrance]
+;*equate CommitteePotEntrance.Committeepot.019 Inlet13.001	;Commented out 25/11/11 RGB superceeded with new entrance survey
+;*equate MainStreamway.MainStreamway4.030 ShowerbathInlet.8	;edited out 22/11/11 RGB Superceeded by Showerbath-Dome
+;*equate MainStreamway.MainStreamway5.019 GordonsInlet.1	;Commented out.RGB 20/12/11
+;*equate MainStreamway.MainStreamway5.019 DomeInlet.000 	;Commented out RGB 20/12/11 superceeded by new data
+;*equate MainStreamway.MainStreamway7.0 CurryInlet.001 		;Commented out RGB 20/12/11 superceeded by new data
+;*equate MainStreamway.MainStreamway7.12 Inlet5.Inlet5-1.001 	;Commented out RGB 20/12/11 superceeded by new data
+;*equate MainStreamway.MainStreamway5.019 DomeInlet.000 	;Commented out RGB 20/12/11 superceeded by new data
+;*equate Inlet13.010a MincemeatAven.17				;Commented out 25/11/11 RGB superceeded with new entrance survey
+*equate Mainstreamway.Mainstreamway2.1 Greentape.Greentape1.030
+*equate	GourInlet.GourInlet_1.001 MainStreamway.Mainstreamway3.GITag
+*equate MainStreamway.MainStreamway2.12 Inlet17.Inlet17_1.12
+;*equate MainStreamway.Mainstreamway3.33 Inlet13.025
+;--;*equate MainStreamway.Mainstreamway3.33 CommitteePotentrance.inlet13.022
+;*equate MainStreamway.Mainstreamway8.10 Paaschendale.Paaschendale1.0			;commented out 13/12/111 RGB
+*equate Paaschendale.Paaschendale2.7 TrickOrTreat.7
+*equate Paaschendale.Paaschendale2.24 Poppy.Poppy1.24
+*equate Inlet18.Sump3 Inlet17.Inlet17_2.Sump3
+;*equate Inlet7.Inlet7-4.001 MainStreamway.Dome-Jimlet.6 ; left Corner of rock overhang =(approx) oliver lloyd inlet tag ;amended 22/11/11 RGB
+;*equate DaylightAven.DaylightAven_1.0 MainStreamway.Mainstreamway8.8			;commented out 02/11/11 RGB to make it all work but needs to be added back once new survey sata taken to tie it in properly
+*equate Whiteflag.1 DaylightAven.DaylightAven2011-1.1					;amended 22/11/11 RGB
+;;*equate CountLazloALL.BrunoKranskies1.tag MainStreamway.Showerbath-Dome.25 ; tag in main stream	;changed connect to new survey 20/12/11 RGB
+*equate MainStreamway.Jimlet-DaylightAven.39 DaylightAven.DaylightAven2011-1.3		;amended 22/11/11 RGB
+
+*equate Mainstreamway.Dome-Jimlet.8a Inlet8.Inlet8_1.1
+
+;*equate CountLazloALL.CountLazlo.027a MainStreamway.MainStreamway5.011 ; tag in main stream - replaced by BrunoKranskies equate
+
+;--;*equate Mainstreamway.Showerbath-Dome.36 committeepotentrance.gordonsinlet.25		;To join new Gordons data to Mainstreamway at Dome tag
+*equate Mainstreamway.Showerbath-Dome.36 DomeInlet.17					;Added RGB 20/12/11 to tie Dome back in. Updated to new survey data 13/01/12RGB
+*equate Inlet4.Inlet4_1.1 Mainstreamway.Jimlet-DaylightAven.35				;Added by Richard 13/12/11
+*equate Paaschendale.Paaschendale3.18 DaylightAven.DaylightAven2011-1.1			;Added by Richard 13/12/11
+	
+*equate	AllCurryInlet.CurryInlet_1.1 Mainstreamway.Jimlet-DaylightAven.15			;Added by Richard 13/12/11
+*equate EchoInlet.EchoInlet_1.1 Mainstreamway.Showerbath-Dome.17			;Added by Richard 16/12/11
+*equate Estonia.Estonia_1.12	Mainstreamway.Dome-Jimlet.11				;Added by Richard 16/12/11
+*equate Inlet5.Inlet5-Resurvey-1.1	Mainstreamway.Jimlet-DaylightAven.27		;Added by Becka 20/12/11
+*equate Mainstreamway.Mainstreamway3.22 Inlet14.Inlet14_1.Stal				;Added by Richard 11/02/12	
+*equate Inlet5.Inlet5-resurvey-2.20 sixpointfiveandthreequarters.20x			;Added by Richard 28/07/12
+*equate Mainstreamway.Jimlet-DaylightAven.5 sixpointfiveandthreequarters.7		;Added by Richard 28/07/12
+
+*equate Mainstreamway.Jimlet-DaylightAven.3 Inlet6point5.Inlet6point5_1.11					;Added by Richard 08/11/12
+
+*end NottsII	
+

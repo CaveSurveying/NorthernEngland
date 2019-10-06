@@ -1,0 +1,23 @@
+;Cave:	Notts II - Green Tape Inlet continued
+;Surveyors:	P.Windle/C.Densham
+;Date:	30/12/02
+;Instruments:	5
+
+;*equate	GreenTape3.016	GreenTape1.016
+;*equate	GreenTape3.011	GreenTape4.007
+
+*begin	GreenTape3
+
+*export 016 011 
+
+*calibrate compass	0.00
+*calibrate clino	+1.00
+*calibrate tape	+2.00
+
+012	011	09.50	239.0	-35.0	;st011 is top scaffold bar at bottom of cascade heading out
+013	012	05.40	312.0	-30.0
+014	013	05.70	320.0	+45.0
+015	014	10.20	310.0	+20.0
+016	015	06.20	016.0	+35.0	;st016 is pencil on survey GreenTape1
+
+*end	GreenTape3

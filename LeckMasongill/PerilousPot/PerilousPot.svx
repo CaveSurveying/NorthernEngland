@@ -1,0 +1,11 @@
+*begin PerilousPot
+*export	PerilousPot1.1.0
+
+*include PerilousPot1
+*include PerilousPot2
+*include PerilousPot_Singletrack
+
+*equate PerilousPot1.1.45 PerilousPot2.4.8
+*equate PerilousPot2.5.13 PerilousPot_Singletrack.1.0
+
+*end PerilousPot

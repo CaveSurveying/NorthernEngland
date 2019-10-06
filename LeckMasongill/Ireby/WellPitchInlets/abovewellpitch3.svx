@@ -1,0 +1,37 @@
+; Locn:	Leck Fell
+; Cave:	Ireby Fell Cavern
+; From above Well pitch1 to start of NE inlet, beyond Adulter's
+
+*begin abovewellpitch3
+
+*export 8a 12
+
+*title "Above Well Pitch 3"
+*date 2009.05.04
+*team Insts & Tape Paul Windle
+*team Notes Becka Lawson
+*team Snappering Neil Pacey 
+*team Clearance Ian & Liz Lawton
+*instrument Compass and Clino - Becka's Pony; Tape - Becka's 30m yellow read from 0cm
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+9	8a	2.50	168	-08
+10	9	3.84	253	-02
+11	10	2.81	281	+10
+12	11	1.73	198	+59
+
+*data passage station left right up down
+
+8a	-	-	-	-	; top of stal used as station 8a in abovewellpitch survey
+9	0.4	0.6	0.4	8	; lp ceiling at corner in upper level of rift; down guessed
+10	0.5	0.2	0	8	; lp ceiling, still in rift; down guessed
+11	4	0	1	4	; lp r wall beyond climb down from rift
+12	3	0.8	2	2	; top of stal on block above pitch, numbered but will disappear as foothold for climb down
+
+*end abovewellpitch3
+
+
+
+

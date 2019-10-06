@@ -1,0 +1,32 @@
+*begin WitchesII-7
+*export x z diveline water
+
+*title "Connecting legs around sump pools"
+*date 2010.12.31
+*team Instruments Julian Todd
+*team Notes Becka Lawson
+*instrument Neil's DistoX
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+z	water		9.22	191	-25
+
+
+z	x			10.58	023	-09
+*flags duplicate
+x	z			10.54	203	+09
+
+x	diveline	6.11	080	-10
+
+*flags not duplicate
+
+*data passage station left right up down ignoreall
+
+x			3	10	0.5	1.2	station 22 of WitchesII-3 ... but 1m away if tie in to z so haven't tied in and no liquid paper to mark original station (Becka marked it on 31/12)
+z			6	6	3	1.7	station 21 of WitchesII-3 - was a bit of liquid paper marking this station so am confident this one is correct
+diveline	3	2.5	0.5	0.5	upstream diveline tied off on right of main flow as look upstream; probably Jason's station 4 from 12/10/13 survey
+water		0.5	0	4	0	unmarked point at water level about a metre before sump pool ends as it goes under rock towards Witches
+
+*end WitchesII-7

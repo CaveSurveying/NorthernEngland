@@ -1,0 +1,56 @@
+*begin RiftTowardsMousehole2
+*export 14x 53
+
+*title "From RiftTowardsMousehole survey to drafting inlet and then along an earlier inlet which didn't get to end of"
+*date 2011.06.19
+*team Instruments Ian Lawton
+*team Notes Becka Lawson
+*instrument Neil's distox
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+36	14x	7.56	038	-04
+37	36	6.89	083	-01
+38	37	11.57	061	-03
+39	38	4.52	115	-02
+40	39	4.18	103	+06
+41	40	4.47	098	-02
+41	42	2.75	251	-01
+
+43	37	4.08	353	+16
+44	43	3.47	025	-08
+45	44	2.82	004	-01
+46	45	1.59	060	+02
+47	46	1.65	027	-10
+48	47	2.50	358	+02
+49	48	2.06	006	-06
+50	49	2.18	318	0
+51	50	1.33	349	-15
+52	51	1.83	313	+03
+53	52	2.25	000	-10
+
+*data passage station left right up down ignoreall
+
+14x	2	0.2	1.3	2 old numbered station
+36	0	2	1	1.3
+37	4	0.5	1.5	1.8	left also passage
+38	1.8	1.3	1	0.6
+39	0.5	0.5	0.5	0.3
+40	3	1	1.2	0.3
+41	0.5	0.5	0	0.3 numbered
+42	0.4	0.4	0.05	0.05	leg into drafting dig, not marked
+43	0.5	0.4	1.5	1
+44	0.3	0.1	0.3	1.6
+45	0	0.5	0.5	0.5
+46	0.2	0.5	0.5	1
+47	0	0.5	0.3	1.2
+48	0.6	0	0.3	1
+49	0.6	0	0.2	1.2
+50	0	0.6	0.5	1
+51	0.3	0.7	0.2	1.2
+52	0	0.4	1	1
+53	0.5		2	1	0	numbered in small chamber / enlarging along inlet
+
+*end RiftTowardsMousehole2

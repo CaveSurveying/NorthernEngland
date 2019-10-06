@@ -1,0 +1,168 @@
+*begin BTRoute
+
+*export tag 3 5 60 69
+
+; Cave:	Notts
+
+*title "BT Route from yellow RRCPC tag in three ways chamber down to low point of duck"
+*date 2014.12.29
+*team Insts and Notes Becka Lawson
+*team Rigger and Target Sam Allshorn
+*instrument Becka's Old Distox before it got calibrated the same evening
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+*data normal from to tape compass clino
+
+;from	to	tape	compass	clino	remarks
+
+1	tag	3.69	334	+17
+1	2	2.91	089	+05
+2	3	4.92	080	-01.5
+3	4	4.18	052	-06
+4	5	4.77	124	0
+5	6	3.56	069	-05
+; 5	7	6.99	213	+08	; removed as splay once surveyed the BTRoute2
+6	8	0.77	158	-71
+8	9	2.71	098	0
+9	10	2.76	121	+02
+10	11	2.06	032	0
+11	12	1.13	273	-03
+12	13	5.09	358.5	0
+13	14	1.59	035	+01
+14	15	3.14	348	+02
+15	16	6.12	072	-07
+16	17	3.95	293	-01
+17	18	3.10	261	-05
+18	19	1.42	297	-07
+19	20	5.32	327	-02
+20	21	2.85	298	-00.5
+21	22	4.11	323	+08
+22	23	2.82	052	0
+23	24	4.05	062	-49
+24	25	1.44	083	+57
+25	26	0.78	030	+18
+27	26	0.60	025	+44
+27	28	2.25	117	-26
+29	28	0.33	284	-45
+29	30	13.06	089	-78	; first pitch
+30	31	7.31	293	-05
+31	32	1.68	224	-08
+32	33	3.67	305	-03
+
+33	34	2.36	020	+04
+34	35	5.59	232	+01
+35	36	1.35	317	-05
+36	37	1.76	021	+04
+37	38	3.22	322	-02
+38	39	5.78	188	+03
+39	40	3.25	190	-02
+40	41	1.92	230	+00.5
+41	42	1.56	149	-05
+42	43	1.78	239	-08
+43	44	2.37	296	+02
+44	45	1.85	215	+25
+45	46	2.83	235	0
+46	47	5.84	269	-11
+47	48	17.25	077	+80
+47	49	2.03	177	-64	
+49	50	2.31	239	-14
+50	51	1.10	333	+22
+51	52	2.97	208	+02
+52	53	3.73	232	+09
+
+53	54	2.06	214	-18
+54	55	4.73	160	+03
+56	55	0.76	105	+20
+56	57	2.12	243	+16
+58	57	3.01	021	+73
+58	59	8.40	311	-78
+60	59	2.82	309	-55
+61	60	2.69	310	0
+61	62	7.18	068	+64
+59	63	4.71	305	-38
+63	64	2.97	263	-29.5
+64	65	13.80	170	-73
+65	66	4.50	125	-21
+66	67	6.59	153	-21
+68	67	5.62	081	+05
+68	69	2.23	279	-42
+
+*data passage station left right up down ignoreall
+
+2	1	0.5	0.5	0.1	edge of three ways chamber / start of BT route
+3	0.5	1	0	0.3	r in inlet
+4	0	0.8	0.3	0	l of crawl, up and down not sure, confusing
+5	0.9	0	0.2	0.4	numbered 5 at junction, big inlet upstream
+6	0.2	0.6	0.6	0.6	l wall
+; 7	-	-	-	-	unmarked - removed
+8	1	0.4	1.2	0	at stream level
+9	0.1	0.3	0.8	0.2	cairn in stream
+10	0.5	0.3	0.4	0.4	r wall
+11	0.5	0	0.7	0.4	r wall
+12	0	0.4	1.2	0.4
+13	0	0.4	0.6	0.9
+14	0.4	0.2	0.4	1
+15	0	0.4	0.2	1.2	l wall
+16	0	0.5	0.5	1.8	r wall where stream goes under
+17	0	0.8	0.3	0.4	l wall, dry
+18	0.3	0.6	0.7	0.4	l wall, dry
+19	0.4	0	1.2	0.4	dry
+20	0.4	0	1	0.7
+
+21	0	0.4	0.8	1.2	l wall
+22	0.6	0.6	0	2.6
+23	0.5	0.5	0.2	3
+24	0.3	0.3	3.2	0
+25	0.4	0	1.6	1.7	near pitch, opposite drilled thread
+26	0	0.5	2.5	2	first p-hanger 0.7m below a red Elliot bolt
+27	0.5	0	2.5	2	opposite first p-hanger
+28	3	4	4	12	bolt for final hang, guessed the down
+29	-	-	-	-
+30	3	1	14	1	below the first pitch
+31	0.3	0.4	0	0.6	passage after pitch
+32	0	1.2	0.3	0.2	l wall
+33	0.4	0.6	0.4	0.3	l corner
+34	0.6	0	0.2	0.4	r wall
+35	0.2	0.6	0.2	0.8	l wall
+36	02.	0.6	0.5	0.6	l wall
+37	0.5	0	0.3	1	r wall
+
+38	0.6	0	0.1	0.9	r wall
+39	0.2	0.6	1.8	0.1	l wall
+40	0.1	0.3	0.3	1.8	l wall
+41	0.6	0	0.4	1.8	r wall
+42	0	0.4	0.4	1.8	l wall
+43	0	0.3	0.7	1.6	l wall
+44	0.4	0	0.4	1.6	l wall
+45	0.2	0.2	0	2.5	ceiling
+46	0.1	0.4	0	3.5	ceiling
+47	1	0.6	10	3	past c2 down
+48	-	-	-	-	up aven
+49	0.2	1.5	10	1.5	l wall
+50	0	0.6	6	1	l wall
+51	1	0	4	1.6	r wall
+52	0.3	0.3	2.5	1.5	mid passage
+
+53	0.5	0.7	1.2	3	ceiling where drops
+
+54	0.3	0	1	2.5	r wall at corner near 2nd pitch
+55	0	0.7	0.7	9	1st bolt for 2nd pitch, 15cm to R of red Elliot bolt
+56	0.3	0.1	1	10	r wall
+57	0.3	0	0.2	11	pitch bolt on r wall
+58	0	1.1	3.5	8	opposite deviation, half way down second pitch
+59	0.5	0	10	1	base of pitch and top of 3rd pitch
+60	0	1	10	3	numbered 60 at junction where major inlet comes in 
+61	2	0	6	2	r wall before waterfall
+62	-	-	-	-	where waterfall comes from, unmarked
+63	1	0	5	2.5	base of 3rd pitch, r wall
+64	-	-	-	-	above 4th pitch
+65	1	0	7	11	base of 4th pitch
+66	0.6	0	15	0.5	r wall before waterfall
+67	0	2	20	0.8	l wall after waterfall
+68	0	1	1	2	l wall before duck
+69	0.3	0.3	0	0.5	duck, at lowest point on ceiling
+
+*end BTRoute
+
+

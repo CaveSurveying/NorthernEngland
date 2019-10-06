@@ -1,0 +1,33 @@
+
+*begin LazloStrog7
+*export p
+
+*title "Climb down where handline up before pitch into Hubert Carstairs chamber"
+*date 2011.01.23
+*team Instruments Becka Lawson
+*team Notes Ruth MacDonald
+*team Tape Dave Ramsay
+*instrument Becka's Tandem as comp and clino and Becka's 30m tape read from *20cm* as end now fallen off!
+
+*calibrate tape 0.20	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+4	p	0.99	014	+37	; p is pitch head bolt
+4	5	5.83	-	down
+6	5	3.21	131	+32
+6	7	4.87	293	-61
+7	8	4.29	315	-26
+8	9	7.81	311	-04
+
+*data passage station left right up down ignoreall
+
+p	0	0.4	2	6	p is pitch head bolt for handline climb
+4	0.4	0	3.3	6
+5	0	0.2	7	1.1
+6	0.3	0	1.7	2.3
+7	0.1	0.2	5	3
+8	0.4	0	2	1.7
+9	0	2.4	6	1.6	numbered in small aven with drafting tiny hole in floor
+
+*end LazloStrog7

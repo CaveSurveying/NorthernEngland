@@ -1,0 +1,34 @@
+*begin CrystalInletStream
+*export 53x
+
+*title "From old station 53 up inlet on left, small stream"
+*date 2011.12.29
+*team Instruments Becka Lawson
+*team Notes Emma Wilson
+*team Tape Olaf Kahler
+*instrument Becka's tandem comp and clino and Becka's 30m tape missing last 30cm
+
+*calibrate tape 0.30	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+53x 1   1.87    162 +07
+1   2   2.14    076 -23
+2   3   1.83    157 +03
+3   4   0.50    -   down
+4   5   2.43    199 +03
+5   6   1.57    244 +02
+6   7   3.97    152 -02
+
+*data passage station left right up down ignoreall
+
+53x 0.4 1   1.3 0.3 right is also passage for short distance then too tight
+1   1   0.5 2.5 0.5 numbered - small dig to boulder choke on right
+2   0.5 0.3 1   0.3
+3   0.3 0.5 1   0.2
+4   -   -   -   -   
+5   0.1 0.8 0.3 0.2
+6   0.5 0.3 0.1 0.2
+7   0.5 0.2 0   0.25    numbered
+
+*end CrystalInletStream

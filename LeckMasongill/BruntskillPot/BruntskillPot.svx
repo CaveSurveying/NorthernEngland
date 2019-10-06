@@ -1,0 +1,52 @@
+*begin	BruntskillPot
+
+;Cave:	Bruntskill Pot
+;Surveyors:	Dave Ramsay/Ruth McDonald
+;Date:	15/02/10
+;Instruments:	Red Rose Sunto Compass & Clino kit 2, 30m tape	
+
+*export Entrance
+
+;*fix	BruntskillPot 66734 79377	364	;Bruntskill pot III active sink RGB 15/01/07
+
+*equate Entrance 001
+*entrance 001
+
+002	001	1.07	103	+23	;Stn 1 is rock by entrance
+002	003	5.05	-	DOWN
+003	004	1.40	108	-35
+004	005	1.99	173	-46
+005	006	2.17	212	-35
+006	007	3.05	219	-73
+007	008	2.03	007	+7
+008	009	1.73	246	-6	;stn 9 has junction, survey is to left
+009	010	3.15	282	0
+010	011	2.47	308	-3
+011	012	6.70	-	DOWN
+012	013	2.94	323	+1
+013	014	6.34	032	-2
+014	015	1.57	070	-2
+015	016	1.64	135	0
+016	017	1.55	083	+1
+017	018	8.73	-	DOWN
+018	019	4.16	176	-11	;stn 19 is at junction
+019	020	2.82	296	0
+020	021	0.70	073	-4
+021	022	3.70	312	-4
+022	023	3.12	282	+4
+023	024	2.69	295	-3
+024	025	5.41	344	-1
+025	026	3.10	310	-1
+026	027	3.70	025	-5
+027	028	1.55	355	+5
+028	029	3.00	-	DOWN
+029	029a	3.00	270	0	;guess to show continuation
+029a	029b	3.00	000	0	;guess to show unenterable continuation
+
+019	030	4.56	170	+1
+030	031	2.53	225	+1
+031	032	0.73	355	-21
+032	033	4.74	-	DOWN
+033	033a	2.00	330	-5	;guess to show final leg to sumpfrom bottom of pitch
+
+*end	BruntskillPot

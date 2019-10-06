@@ -1,0 +1,92 @@
+;Cave:	Ireby Fell - pitch alternatives
+;Surveyors:	D.Ramsay/S.Jobling/R.Bendall
+;Date:	04/05/06
+;Instruments:	RRCPC Kit 2
+
+;*equate If14.001 DingDongBellPitches.001
+;*equate If14.215 Streamway1.027
+;*equate If14.007 DingDongBellPitches.007
+
+*begin	Bubbles
+*export 001
+*export 215         ; tag
+*export 007
+
+*calibrate compass	+5.00
+
+*flags duplicate ; (Ireby) entrance to start shadow route
+001	002	00.70	203.0	 00.0	;stn001 is drilled hole in big rock start of 2/4/06 survey
+002	003	04.30	312.0	-53.5	;down ent tube
+003	004	06.30	338.0	-28.0
+004	005	05.20	322.0	-29.0	;rock projection by inlet on L
+006	005	03.73	241.0	+26.0
+006	007	03.73	028.0	-44.0	;stn007 is normal 1st bolt
+008	007	05.20	250.0	+51.0
+009	008	01.85	254.0	+03.0	;stn009 is 4th bolt
+010	009	01.13	228.0	+11.0	;stn10 is y hang
+*flags not duplicate
+011	010	02.78	253.0	+03.0	;stn11 is y hang of shadow route
+011	012	03.62	-	DOWN	;stn12 is level with bolt on shadow route
+013	012	01.59	336.0	 00.0	;stn13 is bolt on shadow route
+013	014	03.10	-	DOWN	;stn14 is on rope level with 1st bolt on overshadow route
+015	014	03.73	047.0	-11.0	;stn15 is 2nd bolt on overshadow route
+
+102	005	02.64	216.0	+37.0	;start of 04/05/06 survey
+102	103	02.70	-	DOWN	;start of Bubbles Route
+104	103	01.10	057.0	+22.0
+105	104	01.30	117.0	+19.0
+106	105	02.40	050.0	+41.0
+107	106	04.90	220.0	+43.0	;suspect reading of 231.0
+108	107	02.50	014.0	+20.0
+109	108	02.70	254.0	+14.0
+110	109	02.80	337.0	+18.0
+110	111	02.30	-	DOWN
+112	111	02.50	057.0	-01.0
+108	114	01.70	104.0	-18.0	;start of alternative route
+114	115	04.60	155.0	-52.0
+115	112	01.10	232.0	-18.0	;end of alternative route
+
+112	202	01.50	272.0	-03.0	;start of 08/05/06 survey
+202	203	01.57	238.0	-05.0
+203	204	01.78	321.0	+00.5
+204	205	05.80	247.0	-37.0
+205	206	02.88	301.0	+22.0
+206	207	02.20	278.0	-21.0
+207	208	24.45	-	DOWN
+208	209	03.40	344.0	+00.5
+209	210	05.00	-	DOWN	;into chamber of dark sound
+210	211	05.90	290.0	-24.0	;stn211 is wall opposite ent to cods at junction of ways
+211	212	06.43	185.0	-44.0	;stn212 stream enters on left
+212	213	04.67	166.0	-08.0	;stn213 stream sinks to left
+*flags duplicate ; (Ireby) bubbles tie in at bottom
+213	214	01.70	169.0	+27.0
+214	215	09.60	105.5	+04.0	;tag on true L wall junc with two routes from Pussy chamber
+*flags not duplicate
+    ; 215 is tag at end of streamwaybubblestagdownstream.bubblestag
+
+214	252	01.70	353.0	-22.0	;start of 08/06/06 survey into Passage of Dark Slime
+252	253	02.30	060.0	-23.0	;stn252 is start of Pass of Dark Slime
+253	254	04.40	072.0	-03.0
+254	255	03.25	316.0	-01.0
+255	256	02.60	350.0	-03.0
+256	257	02.05	337.0	-10.0	;end of Passage of dark Slime at sump
+
+211	262	02.75	112.0	+10.0	;chamber of dark sound survey
+262	263	02.55	154.0	-21.0
+263	264	03.35	207.0	-48.0	;Stream presumably flows to stn212
+211	265	04.95	256.0	+18.0	;start of route up into overshadow
+265	266	01.90	-	UP	;stn266 is hole in floor
+266	267	09.00	238.0	+04.0	;stn267 is at rope up at head height
+267	268	03.35	-	UP
+269	268	02.75	344.0	-04.0
+269	270	00.45	135.0	00.0	;stn270 is foot of ladder/rift climb at head height
+270	271	04.50	-	UP
+271	272	02.10	147.0	+18.0	;under loose blocks
+272	273	01.10	-	UP
+273	274	06.60	140.0	+39.0
+274	275	06.20	139.0	+14.0	;stn275 is wall to right of rope down
+275	276	03.45	085.0	 00.0
+276	277	02.35	-	DOWN
+277	278	09.10	061.0	-12.0	;stn278 is bottom of rope up
+
+*end	Bubbles

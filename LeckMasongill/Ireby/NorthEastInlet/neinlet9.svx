@@ -1,0 +1,43 @@
+; Locn:	Leck Fell
+; Cave:	Ireby Fell Cavern
+; Connection between True Grit and True Mud, through mud sump / dig
+
+*begin neinlet9
+
+*export 111x 7 8
+
+*title "North East Inlet 9 - True Mud / True Grit connection"
+*date 2010.10.09
+*team Insts Becka Lawson
+*team Notes Neil Pacey
+*instrument Compass and Clino - Becka's tandem compass-clino and Becka's tape read from 0cm
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+1	111x	7.58	129	+01
+2	1	4.96	131	0
+3	2	5.11	107	+07
+4	3	3.23	082	+01
+5	4	4.23	107	+04
+6	5	3.68	137	+02
+7	6	3.06	132	-11
+8	7	8.04	074	-02
+
+*data passage station left right up down ignoreall
+
+111x	2	2	0.2	1.5	numbered station from previous NE Inlet survey, in ceiling, start of dig 
+1	1	0.3	0.2	0.5
+2	1.2	0.2	0.3	0.4	down is less than a metre, nought point something
+3	0.2	1	0.4	0.2	down unclear but less than a metre
+4	0.2	1	0	0.2	down unclear but less than a metre
+5	0.1	1.1	0.4	0.2	I think this one is numbered on ceiling, in middle of lowest section of dig so beyond dig breakthrough from NE Inlet side but before final low section into True Grit - but why then is up 0.4? Written down wrong?
+6	0.1	1	0.2	0.1	I think this is just past lowest point on True Mud side, so at point where can start crawling again rather than flat out
+7 	1.1	0	0.5	0.5	I think this is beyond low point where dig started on True Mud side - I think this is numbered
+8	1.1	0.4	0.6	0.3	at corner on r wall near stal, bearing of 170 forward into passage and then it bends to right
+
+*end neinlet9
+
+
+
+

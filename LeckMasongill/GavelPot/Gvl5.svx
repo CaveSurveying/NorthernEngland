@@ -1,0 +1,51 @@
+
+*begin	Gvl5
+*export  001
+
+;Cave:	Gavel Pot - Glasfords
+;Surveyors:	R.Duffy/A.Whitney
+;Date:	12/07/02
+;Instruments:	PAG
+*calibrate compass	+4.5
+*calibrate tape	+1.0
+
+001	002	05.50	280.0	+10.0	;st001=Gvl2.027=Tag in roof of streamway opposite entrance to Glasfords
+002	003	01.65	 -	UP
+003	004	02.40	264.0	 00.0	;passage junctiom on spikey rock
+
+004	004a	05.10	228.0	-18.0	;loop back to stream
+004a	004b	04.50	 -	DOWN	;st004b is stream level below drop from passage
+
+004	005	04.00	011.0	-01.0
+005	006	02.30	 -	UP	;small aven o right
+006	007	08.75	343.0	-05.0
+007	008	04.30	332.0	+16.0	;st008 is entrance into large chamber/passage
+008	009	01.66	 -	UP
+009	010	07.65	335.0	-01.0	;st010 is head height betwee rt. wall and stream in large stream passage
+
+010	010a	09.40	265.0	+02.0	;upstream in passage
+010a	010b	11.85	227.0	+03.0
+010b	010c	05.20	186.0	-02.0	;st010c=tag around stal above duck pool left wall
+010c	010d	02.20	 -	DOWN	;water level, duck goes off at approx.240 deg.
+
+010	011	08.40	059.0	-06.0	;st011 is on gravel bank in middle of Glasfords Chamber/aven
+011	012	09.27	000.0	-05.0	;st012 is below climb to extensions, passage down to left NOT SURVEYED
+012	013	15.47	048.0	+15.0	;aven on left +6m
+013	014	08.50	076.0	 00.0	;start of squeezes through arches
+014	015	05.00	085.0	-01.0
+015	016	01.25	 -	UP
+016	017	04.20	09.70	+03.0
+017	018	02.00	063.0	+17.0	;st018 is below small aven
+018	019	05.40	075.0	+11.0	;st019 is floor of entrance to large chamber
+019	020	02.70	 -	UP
+020	021	11.67	082.0	-02.0	;just before chamber narrows crawl through on left leads to draughting aven climb. St021 is above slope to dig at end of chamber
+021	022	05.40	087.0	+03.0	;st022 is calcite floor lip in next big chamber
+022	023	01.60	 -	UP
+023	024	10.80	083.0	+09.0	;st024 is beside flowstone climb
+024	025	07.00	099.0	+25.0
+025	026	04.60	119.0	+14.0	;st026 is flow level after climb up and calcite squeeze, passage behind to right leads to top of calcite climb in previous chamber
+026	027	02.70	 -	UP
+027	028	06.10	091.0	-16.0	;st027 is on right wall of lower chamber
+028	029	07.60	067.0	-11.0	;st029 is 0.5m stal to left of passage to sump pool.  Beyond small passage goes left and into dig
+
+*end	Gvl5

@@ -1,0 +1,67 @@
+*begin acrobat
+
+*export 1-0 1-32 1-10
+
+;;; TRIP COMMENT FROM POCKETTOPO ;;;
+;  ; beckas distox 0.39 calibration - recalibrated in the cave today
+
+*date 2012.10.28
+*title "From bolt at top of iron ladder before Adamson's to part way down Acrobat Route in Notts"
+*team Instruments Andrew Atkinson
+*team Notes Becka Lawson with help from Andrew
+*team Tippex and Distox for last few legs Sally White
+
+*instrument Becka's distox calibrated in the cave on 28.10.12 with delta of 0.39 and Becka's PDA for notes
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+*calibrate declination +2.36	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.1994n 2.5124w  2012.10.28
+
+*data normal from to tape compass clino ignoreall
+
+1-1	1-0	0.410	135.49	-19.80 ext:0.0,0.1,0.2 
+1-1	1-2	4.573	252.28	-8.92 ext:0.0,0.2,0.2   ; 1.2 is hanger for pitch down 
+1-3	1-2	2.837	90.41	25.08 ext:0.0,0.1,0.4 
+1-3	1-4	5.236	143.33	69.01 ext:0.0,0.1,0.2 
+1-3	1-5	5.963	115.09	-83.53 ext:0.0,0.1,0.4 
+1-5	1-6	4.098	250.65	3.35 ext:0.0,0.1,0.1   ; stn 6 is 1st p hanger for next pitch 
+1-7	1-6	1.022	105.86	-2.87 ext:0.0,0.1,0.3 
+1-7	1-8	4.632	192.46	-58.69 ext:0.0,0.1,0.2 
+1-7	1-9	2.188	260.08	13.47 ext:0.0,0.0,0.1 
+1-9	1-10	1.399	155.53	3.68 ext:0.0,0.1,0.1 
+; 1-10	1-11	9.293	118.23	-82.55 ext:0.0,0.0,1.1 ; superceded by Adamsons Route survey
+1-12	1-10	1.371	118.56	7.70 ext:0.0,0.1,0.1 
+1-12	1-13	2.123	248.24	-10.97 ext:0.0,0.1,0.2 
+1-13	1-14	9.392	228.73	-79.69 ext:0.0,0.0,0.3 
+1-13	1-15	3.005	281.53	62.40 ext:0.0,0.0,0.1 
+1-15	1-16	3.492	262.07	3.19 ext:0.0,0.0,0.1 
+1-16	1-17	3.062	293.47	0.83 ext:0.0,0.1,0.1 
+1-18	1-17	2.640	015.68	10.71 ext:0.0,0.0,0.1 ;changed by RGB 30/10/12 compas was 735.86!! Checked on PDA by RL - compass there recorded as 10.7 so something wrong with Julian's conversion programme
+1-18	1-19	7.253	238.88	78.97 ext:0.2,0.5,3.5 
+1-20	1-17	4.097	71.74	56.03 ext:0.0,0.4,0.2 
+1-20	1-21	3.379	310.03	-28.72 ext:0.0,0.1,0.1 
+1-21	1-22	9.066	45.25	-71.94 ext:0.0,0.1,0.1 
+1-21	1-23	3.428	280.43	-32.83 ext:0.0,0.1,0.1 
+1-23	1-24	2.660	278.89	-27.22
+1-24	1-25	3.071	267.35	-5.00 ext:0.0,0.1,0.2 
+1-25	1-26	3.611	334.84	3.06 ext:0.0,0.1,0.2 
+1-26	1-27	1.962	323.44	8.38 ext:0.0,0.1,0.1   ; stn 27 numbered, 3rd p hanger, pitch head anchor 
+1-28	1-27	0.851	249.08	58.60 ext:0.0,0.2,0.6 
+1-28	1-29	5.526	254.30	8.50 ext:0.0,0.1,0.1 
+1-30	1-28	4.686	138.09	59.11 ext:0.0,0.0,0.1 
+1-30	1-31	6.935	42.75	47.69 ext:0.0,0.1,0.0 
+1-30	1-32	14.624	125.25	-78.23 ext:0.0,0.1,0.4 
+
+; splays 
+;1-0	-	0.854	77.33	-16.22  ; 3 legs to check  calibration
+;1-0	-	0.853	256.36	16.22  ; p hanger at top of ladder, old stn from previous survey
+;1-2	-	7.081	255.24	0.77  ; p hanger for pitch down 
+;1-3	-	1.305	117.69	10.05  ; numbered 3 opposite p hanger and lower than p hanger
+;1-10	-	0.645	98.28	1.33  ; stn 10 is lower of 2 p hangers 
+;1-17	-	2.521	170.32	-16.09  ; 17 is ring hanger and numbered 
+;1-18	-	0.932	122.28	43.73  ; temp cairn 
+;1-20	-	0.992	192.55	-77.40  ; down small pitch 
+
+*end acrobat
+
+

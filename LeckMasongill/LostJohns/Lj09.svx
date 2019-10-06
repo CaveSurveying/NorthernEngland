@@ -1,0 +1,28 @@
+
+*begin	Lj09
+*export 001 016
+
+;Cave:	Lost Johns - 1st downstream inlet to 2nd downstream inlet
+;Surveyors: Wookey/Tanya Savage/Jon Shaw
+;Date:	07/12/97 1pm-6pm
+;Instruments:	CUCC set 5: clino 726974, comp 721899
+
+*calibrate compass	+5.17
+
+002	001	05.18	152	-07.0 ; stn001 is tag
+002	003	08.04	240	-04.0
+004	003	03.76	027	+03.0
+004	005	06.42	258	+01.0
+006	005	04.70	342.5	+05.0
+006	007	04.08	248.5	+08.0
+008	007	05.94	126	+05.0
+008	009	05.70	211	-03.0
+010	009	03.02	083	-07.0
+010	011	04.04	200.5	-01.0
+012	011	03.09	072	-05.0
+012	013	09.84	211	-04.0
+014	013	05.36	045	-07.0
+014	015	07.42	157.5	-07.0
+016	015	03.75	050	-09.0 ;stn 016 is tag Mud Inlet
+
+*end	Lj09

@@ -1,0 +1,47 @@
+
+*begin LowDouk1
+*export 016 017
+;Date: 9/10/09
+;Cave: Low Douk Cave
+;Survey Kit RRCPC No 2
+;Instruments:  Dave Ramsay
+;Book:  Emma Martindale
+;Tape:	Ruth McDonald
+
+
+*Title "Low Douk Cave"
+
+*export s01 014 002
+
+;Station 	Tape	Compass	Clino	 L	R	U	D
+
+
+*flags surface
+s02	s01	1.25	129	-51	; Stn s01 is tag at entrance.
+s02	s03	9.18	231	-29	;0	.8	sky	2	stn 001	
+
+*flags not surface			
+s03	002	7.78	310	-32	;3	3	2	1	stn 002			
+002	003	5.13	278	-60	;0	.6	3	1.2	stn 003
+003	004	3.76	315	-43	;0	.3	.7	.6	stn 004
+004	005	1.74	343	-53	;.3	.3	2	1	stn 005	
+005	006	2.38	250	-41	;.5	.6	.3	.4	stn 006
+006	007	2.78	276	-35	;.5	.3	0	4.5	stn 007
+007	008	3.86	-	DOWN	;.5	0	3.9	.7	stn 008				
+008	009	2.30	237	-42	;0	.5	.4	.4	stn 009
+009	010	2.62	309	-58	;0	.3	1.1	1	stn 010
+010	011	2.00	092	-32	;0	.6	.3	1.5	stn 011
+011	012	2.08	195	-50	;.1	.4	.6	3.6	stn 012 is lip of pitch down.
+012	013	3.57	-	DOWN	;2	.9	4.2	.4	stn 013 is top of boulder pile at foot of pitch.
+014	013	1.64	336	-52	;0	.5	2	1/7	stn 014 is tag on true Right wall of stream.
+; 014	014a	4.00	125	-3	;guess to show downstream continuation. (BECKA HAS REMOVED AS HAVE NOW SURVEYED DOWNSTREAM)
+014	015	2.95	054	+41	;.4	0	.1	4	stn 015
+015	016	2.63	066	-18	;1.6	0	1	.6	stn 016 is marked on large boulder.
+016	017	4.73	000	+12	;2	1	1.8	1.4	stn 017
+; 017	017a	5.00	045	+1	;guess to show continuation towards other entrance. removed PBW 7/12/16 as in LowDouk4
+; 017	018	9.50	287	+12	; removed by Becka Oct 2013 as duplicated in LowDouk3
+; 018	018a	4.00	287	+1	;guess to show continuation - removed by Becka Oct 2013 as duplicated in LowDouk3
+
+*end LowDouk1
+
+

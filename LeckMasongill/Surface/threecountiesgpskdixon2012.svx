@@ -1,0 +1,149 @@
+; Cave:		3 Counties Geodetic GPS Survey
+; Surveyors:	Kevin Dixon/Tim Allen/Meg Stark/Ray Duffy(24 March only)
+; Dates:	26 Feb 2012, 11 Mar 2012, 24 Mar 2012, 08 Apr 2012, 22 July 2012
+; Instruments:	Leica Geosystems SR530 GPS, KD Suunto Prism Compass, Suunto Clino, Disto A3 and Disto D2
+; SVX File:	Created 25 April 2012 by K.Dixon, updated 23 August 2012
+
+; Geodetic L1/L2 GPS post-processed using APPS at Jet Propulsion Laboratory, California to determine ITRF2008 Datum co-ords
+; ITRF2008 co-ordinates determined for five OS GPS regional stations AMBE, BLAP, GIGG, LEED, RICM using same method
+; 7 parameter transformation determined from ITRF2008 to ETRS89 for above five OS stations and applied to new 3C stations
+; ETRS89 co-ordinates for 3C stations converted using online OS OSTN02 and OSGM02 models to determine OSGB36 and OSDN co-ords
+; Position sigmas as determined by JPL, they do not include any uncertainties from the OS model transformations
+; OS state that OSTN02 which determines OSGB36 easting and northing is error free
+; OS further state that OSGM02 which determines the elevation has a standard error of 0.02m
+
+; OSGB36 co-ordinates are for the OS 100km square SD 
+
+*begin	3cgps
+*flags surface
+
+*export 001	;Deaths Head Tag on fence post
+*export 004	;Lost Johns Tag on Ledge near entrance
+*export 039	;Gavel Pot Tag on tall post at stile
+*export 009	;Shuttleworth, top of radio location plastic pipe
+*export 010	;Notts II, tippex mark on boulder at entrance
+*export 011	;Top Sink, RRCPC tag on scaffold
+*export 013	;County Pot, left P hanger for metal cover
+*export 018	;Leck Beck Head divers line tie point to root
+*export 020	;Lancaster Pot, centre of central square hole in manhole cover
+*export 023	;Keld Head, belay peg jammed in crack for divers line
+*export 025	;Bull Pot of the Witches, top corner of angle iron stake at stile
+*export 3C12	;Aygill Caverns, original shallow drill hole survey marker above entrance
+*export 028	;Large Pot, tag in rock above entrance
+*export 031	;Mohole, tippex mark on drystone wall, start point for Becka's new survey
+*export 033	;Notts Pot far P hanger, start point for cave survey
+*export 3c15	;Notts Pot GPS tag
+*export 036	;Ireby Cavern, tag hole in rock at right side of scaffold pole at entrance 
+
+; known magnetic azimuth of 328.0 at Bull Pot Farm
+; observed compass bearing of 328.0 
+; therefore zero magnetic error
+; magnetic north 02 degrees 14 minutes west of grid north as per British Geological Survey online calculator for July 2012
+; therefore zero correction term for survex is +2.23 degrees
+
+*calibrate compass +2.23 
+
+*fix	3C01	67072.998	78633.040	353.7130	;sigE 0.0253m, sigN 0.0427m, sigElev 0.041m
+*fix	005	66627.330	79065.580	327.5720	;sigE 0.0141m, sigN 0.0291m, sigElev 0.021m
+*fix	3C03	66206.404	79776.565	279.4430	;sigE 0.0148m, sigN 0.0464m, sigElev 0.037m
+*fix	3C04	66672.594	78314.807	315.3880	;sigE 0.0187m, sigN 0.0266m, sigElev 0.037m
+*fix	3C05	66777.713	79158.695	333.6140	;sigE 0.0219m, sigN 0.0122m, sigElev 0.027m
+*fix	3C06	68045.543	81098.638	342.6550	;sigE 0.0132m, sigN 0.0238m, sigElev 0.020m
+*fix	012	67541.216	80563.308	314.3970	;sigE 0.0160m, sigN 0.0634m, sigElev 0.078m
+*fix	014	65950.455	79975.28	215.2930	;sigE 0.0115m, sigN 0.0235m, sigElev 0.030m
+*fix	3C09	66400.302	80715.594	294.7600	;sigE 0.0190m, sigN 0.0163m, sigElev 0.050m
+*fix	021	69580.818	76572.966	254.6470	;sigE 0.0161m, sigN 0.0457m, sigElev 0.067m
+*fix	025	66233.215	81301.541	294.3610	;sigE 0.0137m, sigN 0.0545m, sigElev 0.024m
+*fix	026	66351.986	81827.754	297.0560	;sigE 0.0156m, sigN 0.0280m, sigElev 0.038m
+*fix	027	68226.458	76851.614	397.7010	;sigE 0.0154m, sigN 0.0190m, sigElev 0.024m
+*fix	029	68584.045	76985.121	401.2260	;sigE 0.0141m, sigN 0.0263m, sigElev 0.028m
+*fix	032	67101.303	77807.68	373.3070	;sigE 0.0141m, sigN 0.0266m, sigElev 0.030m
+*fix	3C16	67365.21	77338.954	387.7230	;sigE 0.0216m, sigN 0.0953m, sigElev 0.117m
+
+; Death Head 26 Feb 2012
+3C05	001	04.674	113.5	+09.5	;3C05 is top centre of rebar, 001 is tag on top of fence post
+3C05	002	08.447	102.0	+00.0	;002 is main tree
+
+; Lost Johns 11 Mar 2012
+3C01	003	01.410	-	UP	;3C01 is s/s bolt+washer in stream bedrock, washer stamped LOST JOHNS 3C01
+003	004	14.769	003.5	-05.5	;003 is base of GPS antenna, 004 is tag in bedrock on ledge near entrance
+
+; Gavel Pot 11 Mar 2012
+005	3C02	07.895	213.0	-42.0	;3C02 is s/s bolt+washer in path bedrock, washer stamped GAVEL 3C02, 005 is tag on fence post
+3C02	006	12.792	194.0	-35.0	;006 is first P bolt of traverse line to Gavel Pot downstream western pitch
+
+; Gavel Pot 08 Apr 2012
+005	037	12.560	123.0	+05.0	;037 is top centre of corner strain post
+037	038	18.150	170.0	00.0	;038 is top centre of fence post
+038	039	15.545	174.0	+11.0	;039 is RRCPC tag in top centre of tall post at stile 
+
+; Gavel Pot 22 July 2012
+006	040	8.673	045.0	-04.0	;040 is rock on north western wall
+040	041	6.436	187.5	-15.5	;041 is old spit bolt between the two P hangers of the Y hang of upstream eastern pitch
+006	042	7.843	251.5	-00.5	;042 is right P hanger of the Y hang of downstream western pitch 
+
+; Shuttleworth Pot 11 Mar 2012
+3C03	007	6.272	106.0	+05.0	;3C03 is s/s bolt+washer in bedrock, washer stamped SHUTTLEWORTH 3C03, 007 is top of west scaffold clamp
+3C03	008	6.905	107.0	+05.0	;008 is top of east scaffold clamp 
+3C03	009	5.511	069.0	+06.0	;009 is top of plastic pipe radio fix marker
+
+; Notts II 11 Mar 2012
+3C04	010	11.897	210.5	-17.0	;3C04 is s/s bolt+washer in top of prominent large boulder, washer stamped NOTTS II 3C04
+;					010 is tippex mark on boulder at entrance	
+
+; Top Sink 24 Mar 2012
+3C06	011	0.721	169.0	+59.0	;3C06 is s/s bolt+washer in top of bedrock in entrance, washer stamped TOP SINK 3C06
+;					011 is RRCPC tag on scaffold
+
+; County Pot 24 Mar 2012
+012	3C07	12.171	312.0	+04.0	;012 is base of GPS antenna, 3C07 is s/s bolt+washer in wall to right of entrance, washer stamped COUNTY POT 3C07
+3C07	013	0.905	243.0	-36.5	;013 is left (looking at wall) P hanger used for manhole cover, entrance survey point for County
+
+; Leck Beck Head 24 Mar 2012
+014	3C08	4.925	233.0	-12.5	;014 is s/s bolt in bedrock, 3C08 is s/s bolt+ washer in bedrock, washer stamped LECK BECK HEAD 3C08
+014	015	1.227	-	UP	;015 is base of GPS antenna
+015	016	10.306	344.0	+00.0	;016 is small boulder on grassy ridge
+016	017	11.250	331.0	-16.0	;017 is small boulder in dry bit of streambed
+017	018	9.078	338.0	+03.0	;018 is where dive line is tied to tree root
+018	019	1.030	-	DOWN	;019 is water surface level at Leck Beck Head
+; note 3C08 is very close to RRCPC tag on boulder on ridge
+
+; Lancaster Hole 24 Mar 2012
+3C09	020	2.650	059.5	-16.0	;3C09 is s/s bolt+washer set in large rock to south west of entrance, washer stamped LANCASTER HOLE 3C09
+;					020 is centre of square hole in centre of manhole cover
+
+; Keld Head 31 Mar 2012
+021	3C10	11.596	303.0	-08.0	;021 is base of GPS antenna, 3C10 is s/s bolt+washer in bedrock above divers belay peg, washer stamped KELD HEAD 3C10
+3C10	022	0.65	-	DOWN	;022 is normal water level, similar flow conditions to Leck Beck Head prior week
+021	023	11.743	300.5	-09.0	;023 is divers line belay peg jammed in crack, note this belay peg has been changed over the years
+021	024	11.443	304.5	-09.5	;024 is hanger bolt
+
+; Bull Pot of the Witches 31 Mar 2012
+025	3C11	8.219	304.0	-05.5	;025 is top corner of angle iron stake near stile, this is the angle iron at start of BPOTW cave survey
+;					3C11 is s/s bolt+washer in bedrock near memorial plaque, washer stamped BULL POT WITCHES 3C11
+
+; Aygill Caverns 31 Mar 2012
+026	3C12	7.768	343.5	-16.0	;026 is base of GPS antenna, 3C12 is s/s bolt+washer in bedrock above entrance
+;					3C12 was placed exactly in the shallow drill hole used as previous survey reference
+
+; Large Pot 07 Apr 2012
+027	028	6.506	289.5	-19.5	;027 is base of GPS antenna, 028 is RRCPC tag in rock above entrance
+028	3C13	1.08	-	DOWN	;3C13 is s/s bolt+washer in bedrock in entrance, washer stamped LARGE POT 3C13
+; 027 is level of highest closed contour of Large Pot shakehole
+
+; Mohole 07 Apr 2012
+029	030	1.26	-	DOWN	;029 is base of GPS antenna, 030 is level of highest closed contour in shakehole
+029	3C14	7.75	175.0	-34.0	;3C14 is s/s bolt+washer in bedrock right side of entrance, washer stamped MOHOLE 3C14
+029	031	7.955	205.5	-13.0	;031 is tippex mark on right hand edge of through stone 2/3rds down at low point of wall
+
+; Notts Pot 08 Apr 2012
+032	3C15	9.864	151.0	-25.0	;032 is base of GPS antenna, 3C15 is s/s bolt+washer in bedrock below first pitch hangers, washer stamped NOTTS POT 3C15
+032	033	9.714	150.5	-21.0	;033 is far(left side) 'P' hanger of pitch, measured 1.30m slope to 3C15
+032	034	9.424	156.5	-19.0	;034 is first(right side) 'P' hanger of pitch, measured 0.90m slope to 3C15
+
+; Ireby Fell Cavern 08 Apr 2012
+3C16	035	1.095	-	UP	;3C16 is s/s bolt+washer in bedrock, washer stamped IREBY FELL CAVERN 3C16
+035	036	10.489	254.0	-31.0	;035 is base of GPS antenna, 036 is RRCPC tag hole in rock at right end of scaffold bar at entrance
+
+*flags not surface
+*end	3cgps

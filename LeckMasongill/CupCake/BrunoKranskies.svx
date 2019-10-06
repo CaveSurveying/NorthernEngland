@@ -1,0 +1,17 @@
+;cave Notts II
+;Title: Notts II - Count Lazlo Stroganoff's Inlet - Bruno Kranskies part
+
+*begin BrunoKranskies
+
+*export BrunoKranskies1.tag
+*export BrunoKranskiesBoxheadConnection.50
+*export BrunoKranskies1.5
+
+*include BrunoKranskies1
+*include BrunoKranskies2
+*include BrunoKranskiesBoxheadConnection
+
+*equate BrunoKranskies1.8 BrunoKranskies2.8x
+*equate BrunoKranskiesBoxheadConnection.19x BrunoKranskies2.19
+ 
+*end BrunoKranskies

@@ -1,0 +1,37 @@
+;Cave:	Witches Upstream Sump extension (dry stuff?)
+;Surveyors:	Jason Mallinson/Rick Stanton
+;Date:	26/07/97pm
+;Instruments:	?
+
+
+*begin	wit7
+
+*export 001 001a
+
+*calibrate compass	+5.17
+
+000	001	02.00	020.0	 00.0	;MADE UP LEGS FROM UP-LEG TO SUMP 2 TO ROCK ON CASCADE
+001	001a	02.20	020.0	 00.0	;MADE UP LEG TO SUMP 2 LINE
+
+; duplicated with new data
+;001	002	08.50	200.0	+15.0	;st001=st??? wit6 & is rock on top of small cascade between sump1 & sump2
+;002	003	15.70	144.0	+40.0	;st003 top of rubble slope with 15m aven and inlet
+;003	004	17.60	193.0	+24.0	;st004 is start of crawl
+;004	005	07.40	182.0	 00.0
+;005	006	10.30	137.0	 00.0
+;006	007	13.80	198.0	 00.0	;end of crawl(007 to 013 is Painter's Alley-good formations)
+;007	008	20.00	164.0	-09.0
+;008	009	20.70	170.0	+14.0
+;009	010	20.00	140.0	+03.0	
+;010	011	20.00	140.0	+05.0
+;011	012	13.30	126.0	+12.0	;st012 is +6m aven
+;012	013	16.80	162.0	+06.0	;st013 is climb up to chamber(st013 to 016 is large chamber 6+m high 12m wide)
+;013	014	06.50	162.0	+47.0
+;014	015	19.60	214.0	+01.0	;st015 to st016 is 6m aven inlet
+;015	016	20.00	167.0	+07.0
+;016	017	15.60	177.0	+18.0
+;017	018	08.40	186.0	 00.0
+;018	019	10.20	170.0	 00.0
+;019	020	04.70	190.0	 00.0	;st020 is small passage mud choked
+
+*end	wit7	

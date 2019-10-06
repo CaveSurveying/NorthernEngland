@@ -1,0 +1,55 @@
+; Locn:	Leck Fell
+; Cave:	Notts II
+; Estonia
+
+*begin Estonia_1
+
+*export 12
+
+*title "Estonia"
+*date 2011.12.15
+*team Insts Richard Bendall
+*team tape Richard Bendall
+*team Notes Dave Ramsay
+*instrument Compass and Clino - rr2
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+
+*calibrate declination +2.45	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.1994n 2.5124w  2011.12.15
+
+*data normal from to tape compass clino
+
+;from	to	tape	compass	clino	remarks
+
+2	1	3.78	101	-11
+2	3	5.46	332	+50
+2	4	3.52	258	-42
+4	5	3.38	241	-20
+5	6	1.43	191	+3
+6	7	2.45	188	+2
+7	8	3.13	223	-4
+8	9	2.94	225	-49
+9	10	9.64	247	-1.5
+10	11	5.20	303	-9
+11	12	7.66	285	-48
+
+*data passage station left right up down ignoreall
+
+1	0.0	2.5	1.5	1.2
+2	2.5	2.0	1.5	1.5
+3	0.2	0.3	3.0	0.0
+4	1.0	0.4	0.2	0.4
+5	0.5	0.1	0.2	0.2
+6	0.1	0.6	0.3	0.3
+7	0.3	0.6	0.2	0.5
+8	0.5	0.4	0.5	0.4
+9	1.2	0.0	0.5	0.4
+10	0.0	1.2	1.1	1.2	;LH wall
+11	3.0	1.0	1.1	1.5	;RH Wall
+12	3.0	4.0	9.0	1.5	;Stall boss on Tay Bridge at Nick point
+
+*end Estonia_1
+
+

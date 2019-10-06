@@ -1,0 +1,59 @@
+*begin CentreRoute
+
+*export 1 14 15
+
+; Cave:	Notts
+
+*title "Centre Route from yellow RRCPC tag in three ways chamber down to tag at end of Centre Route, just above streamway and duck"
+*date 2015.01.02
+*team Insts Nick Edwards
+*team Notes Nathaniel Dalton
+*instrument  Neil's conventional compassa and clino and Becka's 30m tape read from 0cm
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+*data normal from to tape compass clino
+
+;from	to	tape	compass	clino	remarks
+
+; *********ALL INITIAL LEGS WERE READ USING WRONG SCALE OF CLINOMETER - now converted
+
+2	1	2.70	022	+08	; written as +14
+2	3	2.57	249	-17.7	; written as -32
+3	4	20.87	-	down
+5	4	3.40	096	-12.4	; written as -22
+5	6	3.33	264	+09.1	; written as +16
+6	7	9.31	-	down
+8	7	1.60	090	00	; written as 0
+8	9	1.83	-	down
+10	9	4.27	101	+06.3	; written as +11
+10	11	7.60	-	down
+12	11	3.55	122	-31.8	; written as -62
+12	13	8.03	-	down
+
+; **********READING CORRECT CLINO SCALE FOR NEXT LEGS
+
+14	13	8.95	110	+49
+14	15	3.39	268	+08
+
+*data passage station left right up down ignoreall
+
+1	3	6	10	0	tag on p-hanger in three ways chamber / main chamber
+2	6	3	0.5	0	knob on floor, chamber
+3	5	4	1	1	knob above first pitch of Centre route
+4	1	1.5	22	0.5	(deduced up and down afterwards) boulder at base of first pitch
+5	1	2.5	4.5	1	l spike
+6	0	0.5	3	1	top bolt of y-hang for 2nd pitch
+7	2	0.5	11	0.5	wall at ledge
+8	1	0.5	10	4	down is to actual floor, station is part-way down pitch, r wall
+9	0.5	0	15	2	r wall
+10	0	1	2.5	8	l wall, beneath bolt
+11	1	1.5	8	0	floor
+12	0.5	0	5	8	r wall
+13	4.5	0.5	8	0	spike on rock bridge
+14	2	0	10	3	r wall, was numbered in liquid paper, now removed (Jan 2015 after Adamsons Route survey completed)
+15	5	2	6	0	survey tag at junction with all routes / end of Centre Route
+
+*end CentreRoute
+
+

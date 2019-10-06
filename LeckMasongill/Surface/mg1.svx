@@ -1,0 +1,76 @@
+;Cave:	Surface Survey- Large/Marble Steps/Rift/Low Dowk
+;Surveyors:	Ray Duffy/Pete Grant
+;Date:	09/04/97eve
+;Instruments:	Red Rose Sunto Compass & Clino, 30m tape
+
+; *equate	mg1.008a	mg2.032
+; *equate	mg1.032a	mg3a.001	
+
+*begin	mg1
+
+*export 008a 032a 038b 001 026a 014a
+
+;next line commented out and replaced by *calibrate declination
+;looks like no true calibration because instruments not identified
+;*calibrate compass	+5.17
+
+; mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+; lat/long for that neck of the woods = 54.25 N 2.5 W
+; surface survey - mag decl for 1997 = 5.18 deg W
+; true N to grid N correction = -0.33 
+
+*calibrate declination 4.85
+
+
+001	002	04.15	145.5	-01.5	;st001=top of gate-post near stile
+002	003	30.55	056.0	+07.5	;st002 is middle of track 8m wide(stile 14.30m)
+003	004	30.50	055.5	+09.0	;gate 24.30m
+004	005	30.50	055.5	+08.5
+005	006	30.50	054.0	+10.0
+006	007	30.55	055.0	+10.5
+007	008	29.30	054.0	+11.5
+008	008a	03.10	321.0	-02.0	;leg to large cobble top of wall(North End Quarry)
+008	009	30.50	079.0	+15.0	;corner of track 13.30m from st008
+009	010	30.50	069.0	+10.5
+010	011	30.50	066.5	+08.5
+011	012	30.50	063.5	+06.0
+012	013	30.50	062.0	+06.0
+013	014	28.35	068.0	+01.5
+014	014a	06.50	309.0	-23.0	;st014a=tag Large Pot
+014	015	30.35	015.0	+07.5
+015	016	30.50	015.0	+04.5
+016	017	02.65	015.0	 00.0	;st017 is barbed wire on large wooden post wall corner
+017	018	30.50	290.0	 00.0
+018	019	30.50	313.0	+01.0
+019	020	30.50	308.0	-02.5
+020	021	30.20	311.0	-03.5
+021	022	30.50	306.0	-05.0
+022	023	30.50	307.5	-04.0
+023	024	30.50	305.0	-04.5
+024	025	30.60	318.5	-04.5
+025	026	30.60	303.5	-14.0
+026	026a 11.20	339.5	-20.5	;st026a=tag Marble Steps
+026	027	30.50	230.5	-01.5
+027	028	30.50	220.0	-05.5
+028	029	30.00	224.5	-09.0
+029	030	30.50	217.5	-09.0
+030	031	30.50	210.0	-08.5
+031	032	30.50	198.5	-08.0
+032	032a	14.30	149.0	-37.0	;st032a=tag New Rift
+032	033	30.50	237.5	-09.0
+033	034	30.50	234.0	-08.5
+034	035	30.50	239.0	-08.0
+035	036	30.50	231.0	-08.0
+036	037	30.50	235.0	-08.5
+037	038	30.45	237.0	-12.0
+038	038a	10.80	245.0	-33.0
+038a	038b	01.50	 -	DOWN	;st038b=tag Low Dowk
+038	039	30.50	138.5	+04.5
+039	040	30.50	137.0	-01.5
+040	041	30.50	129.0	+01.0
+041	042	30.50	136.0	+05.5
+042	043	30.50	137.0	+03.0
+043	044	30.50	135.5	+04.0
+044	001	20.00	144.0	+00.5	;st045=st001
+
+*end	mg1

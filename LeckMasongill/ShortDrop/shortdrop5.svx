@@ -1,0 +1,166 @@
+*begin shortdrop5
+*export 15x 16x 25x tag1 tag2
+
+*title "Entrance of Short Drop upstream (Canal Inlet) towards Coal Hole to junction"
+*date 2014.11.30
+*team Instruments Becka Lawson
+*team Notes Becka Lawson
+*team Target Paul Whybro
+*instrument MMMMC New Distox2 (with some dodgy readings towards the end)
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+25x	1	1.76	167	+15
+1	2	2.77	106	-05
+2	3	3.39	015	+16
+3	4	1.77	103	+09
+4	5	2.25	003	+03
+5	6	2.34	100	+04
+6	16x	2.80	039	+05
+16x	tag1	6.41	100	+07
+tag1	15x	3.13	053	0
+15x	7	3.37	142	+18
+7	8	2.94	132	+08
+8	9	3.57	030	+46
+9	10	1.25	073	+30
+10	11	6.68	046	+02
+
+9	12	2.08	221	+16
+12	13	3.47	125	+34
+13	14	4.49	151	+06
+14	15	6.06	130	-02
+15	16	2.27	084	+04
+16	17	2.63	152	-01
+17	18	3.78	080	+04
+18	19	2.36	159	+01
+19	20	3.99	093	-05
+20	21	3.17	136	+01
+21	22	3.57	092	+06.5
+22	23	3.22	061	-01
+22	24	5.60	098	0
+23	25	2.29	041	+06
+23	26	0.72	295	+07.5
+26	27	1.59	330	+13
+
+25x	28	4.84	235	+06
+28	29	9.00	279	-06
+29	30	3.78	359	-13
+30	31	4.98	279	-05	; could possibly be 4.18 but looks more like 4.98, drawn as 4m
+31	tag2	7.93	305	+06
+tag2	32	2.73	273	+38
+32	33	7.67	250	+01
+33	34	4.91	171	+02
+34	35	4.84	208	-03
+35	36	3.83	272	+06
+36	37	6.74	224	-01
+37	38	4.13	144.5	-02
+38	39	6.35	201	0
+39	40	3.00	304	-08
+40	41	3.20	243	+03
+41	42	1.94	298	+06
+42	43	0.96	093	+47
+43	44	6.34	001	+01
+
+38	45	3.54	144	+03
+45	46	3.53	163	0	
+46	47	2.33	228.5	0
+47	48	2.91	187	+02
+48	49	6.27	135	0
+
+tag2	50	14.46	345.5	-04
+50	51	5.88	326	-01
+51	52	4.95	335.5	+05.5
+52	53	4.90	299	-04
+53	54	6.80	311	-05
+54	55	6.53	339	-04
+55	56	4.25	272.5	+10
+56	57	8.82	327	-02	; took multiple readings: a 8.68 326 +02; b 8.82 329 -02; c 8.83 325 -02; d 8.84 328 -02 - I was definitely worried about dodgy distox readings by this stage and perhaps earlier
+
+57	58	4.20	344	-01
+58	59	3.99	039	-03
+59	60	3.54	330	+01
+60	61	2.85	288	-03
+61	62	3.95	330	+03	; got three compass readings of 324.5, 332 and 331 
+62	63	4.45	036	-02	; three compass readings of 033, 039 and 046 here
+63	64	1.16	060	+52	; four compass readings of 063, 058, (051 maybe) and 060
+
+*data passage station left right up down ignoreall
+
+25x	-	-	-	-	old numbered (shortdrop3) station at downstream junction at end of oxbow
+1	2	0.5	0.5	2	spike upstream
+2	1	0	1.4	1.8	r wall
+3	0	0.5	0.5	2	l wall
+4	1	0	0.4	1.8	r wall
+5	0.5	0.5	0.4	1.6	l wall
+6	0.6	0.1	0.3	1.6	r wall
+16x	1.5	0.5	4	1.6	ceiling at start of oxbow (I think)
+tag1	2	0.5	7	1.7	yellow RRCPC tag at junction with main inlet
+15x	0	0.5	7	1.6	old numbered (shortdrop3) station going up main inlet
+7	0.5	0	1	1.5	r wall in main inlet
+8	1	0	6	1.3	r wall
+9	0.3	0.5	0.5	2.3	l wall
+10	1	1	0.2	2	top of waterfall
+11	1.5	1.5	0.15	0.15	unmarked shot up into too low upstream continuation of main inlet with most of water (probably too low to enter, I didn't try)
+
+12	0.3	0	3.5	4	start of other passage
+13	0.4	1.2	0.5	2	l wall
+14	1	0.3	0.1	2	r wall
+15	1.2	0.3	0.4	1.5	r wall
+16	0	1	0.4	1.5	l wall
+17	0.5	0	0.3	1.4	r wall
+18	0.3	0.5	0.2	1.5	l wall
+19	0.4	0	0.2	1.5	r wall
+20	0.5	0.6	0.5	1.2	l wall
+21	1.1	0.1	0.5	1.1	r wall
+22	1.8	0.7	0	1.1	numbered in ceiling on small blade of calcite at junction
+23	0.3	0.4	0.4	0	calcite
+24	0.2	0.1	0.2	1	unmarked, tight
+25	0	0.3	0.1	0.1	too tight, just shot with Distox
+26	1	0.2	1.5	0.1	"ceiling" on l side
+27	0.2	1	2	0.2	tiny chamber with no way on
+
+28	1.1	1.7	6	2	l side before inlet
+29	1	2	8	1.6	numbered after south inlet
+30	2.5	0	3	0.7	r wall
+31	0	2	3	0.4	l wall
+tag2	1	2	1.5	1.6	yellow RRCPC tag
+32	1.2	0.2	0.2	1	r wall
+33	2.2	0.2	0.1	2	r wall
+34	0	2	0.4	1.7	l wall
+35	0.3	2	0.5	1.4	l side
+36	1.8	0.2	0.1	1.7	r ceiling
+37	2	0.3	0.3	1.4	r wall
+38	2	2	0.6	1.1	numbered on tip of boulder at junction
+39	0.5	1.2	0	0.4	l ceiling in r branch
+40	1	0.6	0.3	0	middle of r branch
+41	0.2	1	0.2	0.2	l wall
+42	0	0.5	0.1	0.3	l side
+43	0.3	0.1	0	0.5	r wall
+44	0.2	0.2	0.2	0.2	passage probably tt soon but somebody has been down
+
+45	0.8	1	0.5	1	middle of passage
+46	0.2	1.1	0.3	0.3	l wall
+47	1	0.4	0.3	0.2	r wall
+48	1	1	0.2	0.3	r of stream channel
+49	0.8	0.8	0.1	0.1	forward to corner, only 3m before is too tight
+
+50	2	1	3	1.2	r wall in main stream
+51	0.5	1.5	3	1.5	l wall
+52	2	0.3	3	1.4	r wall
+53	1.4	2.3	3	1.8	l peak of rock just to left side of very distinctive white spiky rock in middle of passage
+54	2.3	0.5	3.8	1.5	r wall
+55	2.4	1	3.5	1.2	r wall / bench
+56	0.7	1.1	3	1.7	 l wall
+57	0	2	3	1.6	l wall
+
+58	0	3	3	1.6	l wall
+59	1.1	0	3	1.5	r wall
+60	2.5	0	3	1.5	r wall
+61	0.3	1	3	1.4	l wall beyond mini oxbow / big block
+62	0	1.5	3	1.5	l wall	
+63	0.2	1.2	3.6	1.4	l wall by pillar where shower comes in just beyond
+64	0.5	0.5	2.5	2.2	tip of rock, numbered in pencil, by drippy inlet aven on left of main passage
+
+*end shortdrop5

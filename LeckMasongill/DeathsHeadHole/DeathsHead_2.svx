@@ -1,0 +1,77 @@
+; Locn:	Leck Fell
+; Cave:	Deaths Head Hole
+; Deaths Head Hole
+*begin DeathsHead_2
+
+*export 1 2 18
+
+*title "Deaths Head-Lost John's connection"
+*date 2012.01.08
+*team Insts Andy Chapman/Ruth McDonald
+*team tape Andy Chapman/Ruth McDonald
+*team Notes Dave Ramsay
+*instrument Compass and Clino - rr2
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+
+*calibrate declination +2.74
+;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
+;Model Used IGRF11 		
+;54.1994n 2.5124w  2012.01.08
+
+*data normal from to tape compass clino
+
+;from	to	tape	compass	clino	remarks
+*flags duplicate
+1	2	8.40	309	+11
+3	2	12.49	348	+10
+3	4	15.10	289	+24
+5	4	5.57	234	+17
+
+2	5	5.61	248	+31
+*flags not duplicate
+3	6	8.28	-	Down
+6	7	2.03	066	-18
+7	8	2.39	-	Down
+8	9	5.51	079	-32
+9	10	10.32	110	-30
+
+10	11	4.15	-	Down
+11	12	7.20	108	-14
+11	13	2.92	221	-32
+13	14	2.02	120	-65
+14	15	3.95	149	-20
+15	16	5.26	233	-4
+16	17	1.45	218	-5
+17	18	7.26	306	+2
+
+*flags duplicate
+18	19	3.76	290	-8
+18	20	5.01	210	-9
+*flags not duplicate
+
+*data passage station left right up down ignoreall
+
+1	1.1	1.1	15.0	1.5	;stn1=foot of rope to east passage
+2	9.0	4.0	14.0	1.3	;by Les's Dig
+3	1.3	5.0	14.0	15.0	;top of dig
+4	0.0	2.0	12.0	1.8
+6	0.6	0.0	20.0	1.5	;RH Wall
+7	0.8	0.2	1.0	2.1
+8	1.0	0.1	2.5	0.0	;Floor
+9	0.8	0.6	0.9	0.0
+10	1.0	0.5	3.0	3.0	;p38 bolt
+
+11	0.4	1.2	7.0	1.5	;foot of pitch
+12	1.5	0.0	0.7	0.4	;RH Wall
+13	0.5	1.0	0.1	2.0	;Top of climb
+14	0.9	0.6	0.5	0.3
+15	0.0	1.0	0.3	0.6	;LH Wall
+16	1.1	0.0	0.6	0.5	;RH Wall
+17	0.0	1.1	0.6	0.5	;LH Wall
+18	1.8	0.0	1.6	1.5	;Junction
+19	0.0	3.0	2.0	1.3
+20	1.0	1.5	1.8	1.4
+
+*end	DeathsHead_2

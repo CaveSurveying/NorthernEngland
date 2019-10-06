@@ -1,0 +1,43 @@
+
+*begin OccultSeries1
+*export 14 25
+
+*title "Large Pot - Red Herring - Occult Series from sump"
+*date 2012.01.15
+*team Instruments Becka Lawson
+*team Notes James Sugden
+*instrument Becka's Tandem as comp and clino and Becka's new 30m tape read from 0cm
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+14	15	2.42	264	-42
+14	16	4.74	054	+27
+16	17	2.32	050	+04
+17	18	3.08	102	+01
+18	19	4.66	054	+01
+19	20	3.85	052	-06
+20	21	3.54	055	+04
+21	22	0.33	-	down
+22	23	10.28	298	0
+24	23	2.15	226	-03
+25	24	0.92	153	-19
+
+*data passage station left right up down ignoreall
+
+14	1	0.9	2	1.4	numbered near sump, far wall of chamber
+15	-	-	-	-	water level at mid back wall of small mud sump
+16	0.3	0.1	0.4	1	top of small climb
+17	0.2	0.9	0.6	0.7
+18	0.6	0	0.2	0.7
+19	0.3	0.4	0.2	0.8
+20	0.1	0.4	0.7	0.5
+21	0.2	0.3	0	0.7	start of canal, just before squeeze
+22	-	-	-	-	short vertical down from 21, in space
+23	0.2	0.6	0.1	0.7	corner of canal
+24	0.4	0.1	0.2	0.4	end of canal
+25	0	0.4	0.2	0.5	met up with other team
+
+
+*end OccultSeries1

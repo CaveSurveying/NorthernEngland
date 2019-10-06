@@ -1,0 +1,33 @@
+*begin crestarun9
+
+*export 13x tag
+
+*title "Survey from handline climb down from Cresta Run to tag just the far side of the duck"
+
+*date 2013.12.28
+*team Instruments Becka Lawson
+*team Tape Dave Loeffler and Michael Sargent
+*team Notes Becka Lawson
+
+*instrument Becka's Distox  
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+13x	1	6.92	350	-06.5
+1	2	7.82	348	0
+2	3	4.53	313	0
+3	4	3.46	339	+06
+tag	4	0.76	082	-18
+
+*data passage station left right up down ignoreall
+
+13x	1.5	1	0	1.1	old numbered station in roof in canal
+1	0.4	1.5	0.8	0.1	
+2	1.5	1	0.4	0	
+3	2	1	0.5	0.2	in pool
+4	2	2.5	1.2	0	4 way chamber beyond duck
+tag	-	-	-	-	old RRCPC yellow tag just beyond duck in 4 way chamber (on boulder)
+
+*end crestarun9

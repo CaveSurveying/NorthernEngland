@@ -1,0 +1,48 @@
+; Locn:	Leck Fell
+; Cave:	Ireby Fell Cavern
+; From above Well pitch to start of Adulter's traverse
+
+*begin abovewellpitch2
+
+*export 1 4 8
+
+*title "Above Well Pitch 2"
+*date 2009.05.04
+*team Insts & Tape Ian Lawton
+*team Notes Becka Lawson
+*team Snappering Neil Pacey 
+*team Clearance Liz Lawton, Paul Windle
+*instrument Compass and Clino - Becka's Pony; Tape - Becka's 30m yellow read from 0cm
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+; Problems - abovewellpitchlink has connection from adulterers level to boulder shelf and streamway 
+; that shows the connection at top of well pitch between this survey and ropepitch survey is poor
+; survey leg 6 5 pushes the top out of line with the passage below.
+
+;from	to	tape	compass	clino	remarks
+2	1	0.90	092	+27
+2	3	1.78	004	-11
+3	4	5.42	298	+51
+5	4	5.51	316	-14
+6	5	4.14	336	-09
+7	6	0.73	053	-03
+7	8	2.09	197	+37
+
+*data passage station left right up down
+
+
+1	1.1	0	6	8	; initial phanger of traverse that goes *above* well pitch from top of well pitch
+2	0	1	6	1.7	; old elliot red bolt on R wall as descend 2m climb to top of well pitch
+3	1.2	0	5	1.5	; lp on l wall as descend, by pool above well pitch
+4	1.2	0	3	2	; initial p hanger of traverse for usual rig of well pitch on l wall as descend
+5	0	1	1.5	15	; lp l wall midway along traverse *above* well pitch
+6	0	0.6	0.6	15	; corner of traverse *above* well pitch, lp l wall
+7	0.5	0	1.2	15	; r wall at end of traverse *above* well pitch, below Y hang spits for higher rig of well pitch
+8	1.5	0	1.5	1.6	; cow tag used as station in abovewellpitch survey
+
+*end abovewellpitch2
+
+
+
+

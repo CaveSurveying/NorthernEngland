@@ -1,0 +1,23 @@
+*begin RumblingHole
+*export Entrance
+*export RumblingBeckCaveEntrance
+
+*entrance Entrance
+
+*equate RumblingSurface.1 Entrance
+*equate RumblingSurface.7 RumblingBeckCaveEntrance
+
+; *equate RumblingBeckTopEntrance  RumblingBeckCave.001
+; *equate RumblingSurface.1 RumblingHole_2.101
+; *equate RumblingSurface.7 RumblingBeckCave.001
+; *equate RumblingMain.1 RumblingHole_2.101
+
+*include RumblingSurface
+
+*equate RumblingMain.1 RumblingSurface.1
+*include RumblingMain
+
+*equate RumblingHole_9.023 RumblingMain.45  ; base of last pitch connection assumed
+*include RumblingHole_9
+
+*end RumblingHole

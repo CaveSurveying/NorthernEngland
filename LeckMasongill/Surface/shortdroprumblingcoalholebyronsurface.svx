@@ -1,0 +1,60 @@
+*begin shortdroprumblingcoalholebyronsurface
+*export 0 7 10 14 16 
+
+; equate 0	ShortDrop.FencePost
+; *equate	ShortDrop.FencePost shortdroprumblingcoalholebyronsurface.0
+; equate 7	CoalHole.EntranceLoc
+; *equate	CoalHole.EntranceLoc shortdroprumblingcoalholebyronsurface.7
+; equate 10	RumblingHole/RumblingSurface.1
+; *equate	RumblingHole.RumblingSurface.1 shortdroprumblingcoalholebyronsurface.10
+; equate 14	ByronPot.Byron.14x
+; *equate	ByronPot.Byron.14x shortdroprumblingcoalholebyronsurface.14
+; equate 16	LongDrop.StylePost
+; *equate	LongDrop.StylePost shortdroprumblingcoalholebyronsurface.16
+
+*title "Connecting entrances of Short Drop, Coal Hole, Rumbling Hole and ByRon"
+*date 2014.11.23
+*team Instruments Andy Chapman
+*team Notes Neil Pacey
+*team Tape Dinny Davies
+*instrument Neil Pacey's comp and clino set
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+*flags surface
+
+0	1	30.00	045	0		; 0 = top of longer fencepost at Short Drop and this is same as station 27
+2	1	30.00	235	-05
+2	3	30.00	047	+03
+4	3	30.00	221	-06
+5	4	30.00	220	-03
+6	5	25.18	216	+02
+6	7	6.38	160	-41		; 7 is nose of rock at entrance of Coal Hole
+
+6	8	30.00	333	-02
+9	8	30.00	132	+01
+9	10	15.85	315	-05		; 10 is top of longer fencepost at Rumbling Hole
+10	11	30.00	338	-02
+11	12	30.00	342	-02
+12	13	20.72	332	-05
+13	14	7.66	013	-35		; 14 is nose of rock for Byron
+13	15	30.00	272	-02
+15	16	30.00	261	-05		; 16 is top of longer fencepost at Long Drop
+16	17	30.00	271	+02
+17	18	19.20	280	-02
+
+18	19	30.00	150	+02
+19	20	30.00	155	0
+20	21	30.00	158	+03
+21	22	30.00	170	0
+22	23	30.00	171	-01
+23	24	30.00	173	0
+24	25	30.00	165	0
+25	26	30.00	170	0
+26	0	22.03	173	-02		; 27 is same as stn 0 which is top of longer fence post at Short Dropd so renamed 27 as 0 here
+
+*data passage station left right up down ignoreall
+
+*end shortdroprumblingcoalholebyronsurface

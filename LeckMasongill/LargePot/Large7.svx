@@ -1,0 +1,47 @@
+
+*begin Large7
+*export 18x  46
+
+*title "Tinkle Inlet"
+*date 2010.11.06
+*team Tape Becka Lawson
+*team Instruments Julian Todd
+*team Notes Diane Arthurs
+*instrument Becka's Tandem as comp and clino and Becka's 30m tape read from *20cm* as end now fallen off!
+
+*calibrate tape 0.20	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+18x	34	3.05	125	0
+34	35	5.03	047	+03
+35	36	4.62	119	+01
+36	37	6.61	123	0
+37	38	4.67	121	0
+38	39	3.35	142	-01
+39	40	3.75	100	+05
+40	41	8.70	137	-03
+41	42	2.40	051	-05
+42	43	3.00	031	0
+44	43	3.07	222	-16
+44	45	0.99	027	+02
+45	46	3.60	141	-13
+
+*data passage station left right up down ignoreall
+
+18x	-	-	-	-	old numbered station from Large 5 survey 
+34	1.2	0.3	0.5	0.4	
+35	1.5	0.3	0.2	0.6
+36	0.4	0.2	0.9	0.5
+37	0.5	0	0.5	0.5
+38	0.2	0.4	0.4	0.5
+39	0.6	0.3	1.2	0.4
+40	0.3	0.3	0.3	0.5
+41	0.9	0.2	1.2	0.2
+42	0.6	0.4	1.6	0.1
+43	0.3	0.2	1.3	0.2
+44	0.3	0	0.4	1.1
+45	1	0.4	0.5	1
+46	0.8	0.4	0	0.3	numbered
+
+*end Large7

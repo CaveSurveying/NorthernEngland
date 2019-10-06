@@ -1,0 +1,20 @@
+*begin BumblingHole
+
+*export Entrance
+
+*equate Entrance Bumblinghole_1.002
+
+*include Bumblinghole_1
+*include Bumblinghole_2
+*include Bumblinghole_3
+
+;--------------------------------------------------
+
+*equate Bumblinghole_1.004 Bumblinghole_2.100
+*equate Bumblinghole_3.029 Bumblinghole_1.029
+
+*include Bumblinghole_4
+*equate Bumblinghole_4.001 Bumblinghole_1.008
+*equate Bumblinghole_4.006 Bumblinghole_2.103
+
+*end BumblingHole

@@ -1,0 +1,38 @@
+;Cave: NottsII
+;Title: Committee Pot Entrance
+
+;Date Created 02.10.2011 Becka Lawson
+
+;--------------------------------------------------------------------------------------------
+;Entrance shaft
+
+*begin	CommitteePot
+
+*export EntranceShaft.001
+;*export CommitteePot.019 
+*export Inlet13.022
+*export GordonsInlet.25
+
+;-------------------------------------------------------------------------------------------
+;include Statements
+
+*flags duplicate
+;*include CommitteePot		;Entrance to Mincemeat Aven
+*flags not duplicate
+
+*include EntranceShaft		;Re-survey of Committee Pot entrance shaft by Richard and Dave 08/09/11; Entrance to Bolt at last climb
+*include Inlet13			;Bolt at last climb to Inlet 13 tag in MainStreamway
+*include MincemeatAven		;Re-survey of MincemeatAven up both ropes RichaRD & Dave 24/11/11
+*include Entranceshaft_2	;Dug up stream obove final climb down into Mincemeat Aven "Comedy Goggles" added 25/11/11 RGB
+*include GordonsInlet		;Gordons Inlet, Flood escape route
+;-------------------------------------------------------------------------------------------
+;Equate Statements
+
+;*equate EntranceShaft.001 Committeepot.001
+*equate EntranceShaft.027 Inlet13.001
+*equate Inlet13.005 MincemeatAven.1		;added 25/11/11 RGB
+*equate Entranceshaft.026 Entranceshaft_2.8	;added 25/11/11 RGB
+*equate Inlet13.011	GordonsInlet.1
+
+*end CommitteePot
+

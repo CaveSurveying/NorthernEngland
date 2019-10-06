@@ -1,0 +1,33 @@
+*begin Large24
+*export 25x
+
+*title "Eastern Front - pitch up to small inlet on right in Red Mist"
+*date 2013.10.13
+*team Instruments Emma Wilson
+*team Notes Becka Lawson
+*instrument Becka's Distox 
+
+*calibrate tape 0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+1	25x	2.26	255.5	+10
+1	2	6.32	313		+64
+3	2	2.14	106.5	-17
+3	4	2.92	313		-13.5
+4	5	3.96	311.5	+02
+5	6	0.73	279		+60
+6	7	1.92	317		-04
+
+*data passage station left right up down ignoreall
+
+25x	-	-	-	-	old numbered station on R wall of main passage just beyond inlet
+1	-	-	-	-	rock below inlet
+2	1.2	0	1	5	RH bolt for pitch main hang
+3	0	0.7	1.5	1.6 numbered on L wall
+4	0	0.3	1.2	0.1	by thread, small
+5	0.5	0.1	0.6	0.1	thin crawl
+6	0.3	0.3	0	0.5	numbered at final point can get to without digging
+7	0.2	0.2	0.1	0.1	leg into dig
+
+*end Large24

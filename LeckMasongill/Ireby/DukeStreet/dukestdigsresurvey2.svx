@@ -1,0 +1,35 @@
+; Locn:	Leck Fell
+; Cave:	Ireby Fell Cavern
+; From End of upstream dig out where stn 3 = stn 19 from last survey(thereabouts anyway!)
+
+*begin dukestdigsresurvey2
+
+*export 3 
+
+*title "Two digs at end of Duke St 1"
+*date 2012.02.18
+*team Instruments Sally White
+*team Notes Andy Chapman
+*Instrument ?
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+1	2	4.69	064	+2
+2	3	6.91	311	+6
+*flags duplicate
+3	4	3	314	+6
+4	5	6.32	326	0
+
+*data passage station left right up down ignoreall
+
+; ALL LR GIVEN COMING OUT OF CAVE (so in the direction most of the survey went, starting at Duke St 1 and coming out_ 
+
+1	0.5	0.2	0.2	0.3	;dig continues tight
+2	1.1	0.0	0.2	0.3
+3	0.5	0.5	0.2	0.3
+4	0.5	0.6	0.3	0.1
+5	1.0	0.0	0.0	0.5
+
+
+*end dukestdigsresurvey2

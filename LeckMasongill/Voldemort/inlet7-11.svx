@@ -1,0 +1,39 @@
+*begin inlet7-11
+*Export 010
+*Export 001
+*export 006
+*data normal from to tape compass clino ignoreall
+*units length metres
+*calibrate tape 0.0
+*units compass degrees
+*calibrate compass 0.0
+*units clino degrees
+*calibrate clino 0.0
+
+;Cave:	Notts II - Inlet 7
+;Description: The Incredibles
+;Surveyors:	Inst: Dave Ramsay;	Notes: Neil Pacey;	Tape: Ruth McDonald
+;Date:	03/04/05
+;Instruments:	RRCPC Kit 4, Tape (Neil's tape)
+
+
+
+*calibrate compass	+5.00
+*calibrate clino	-0.50
+
+;From	To	Tape	Compass	Clino		L	R	U	D	Comments
+
+001	Rift	8.0	320	-	;	0	4.0	30+	1.7	Stn1 LH Wall far end of passage (looking back)
+001	002	8.50	272	+19	;
+002	003	4.85	196	-3	;	4.0	0.5	30+	2.3	Stn2
+003	004	7.47	175	+15	;	0	8.0	+30	1.8	Stn3
+004	005	0.76	257	+8	;					Stn4
+005	006	6.65	-	UP	;	0	1.8	Pitch +4 1.6	Stn5 1.6 metres off floor level, base of pitch
+007	006	3.70	355	-25	;	0.5	0.5	5.0	1.8	Stn7
+007	008	3.85	138	-25	;	0.6	0	1.0	0.7	Stn8
+008	009	1.90	155	-10	;	0.1	0.6	3	9.95	Stn9 Above pitch
+009	010	2.85	-	DOWN	;					Stn10 Knot of Y hang on ledge with 'On the Upper Hand'	 	
+					;					Inlet7-11.010 equates Inlet7-10.007
+					
+
+*end inlet7-11

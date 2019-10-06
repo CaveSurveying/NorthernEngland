@@ -1,0 +1,35 @@
+;Cave:	Witches Cave from Bolt Belay first sump pool to start of Tunnel
+;Surveyors:	J.Cordingley
+;Date:	17/04/97
+;Instruments:	JNC Instrument Aladin pro dive computer
+
+
+*begin	wit1
+*export 018
+*export 001
+
+*calibrate compass	+5.17
+
+
+001	002	01.30	018.0	-19.0	;st001 is bolt belay for diving line
+002	003	01.70	004.0	-19.0	;st003 is water level start of dive
+
+*data diving from to length bearing  fromdepth todepth
+
+003	004	02.15	004.0	  00.0	-00.7
+004	005	03.70	018.0	 -00.7	-03.7
+005	006	03.90	001.0	 -03.7	-06.6
+006	007	04.30	007.0	 -06.6	-08.6
+007	008	02.00	274.0	 -08.6	-10.5
+008	009	04.00	277.0	 -10.5	-10.6
+009	010	07.30	343.0	 -10.6	-09.3
+010	011	01.50	013.0	 -09.3	-09.5
+011	012	02.80	303.0	 -09.5	-10.3
+012	013	02.17	018.0	 -10.3	-12.4
+013	014	01.90	084.0	 -12.4	-14.1
+014	015	02.70	249.0	 -14.1	-16.1
+015	016	03.31	021.0	 -16.1	-19.4
+016	017	09.32	055.0	 -19.4	-28.7
+017	018	02.90	049.0	 -28.7	-31.1	;st018=Jnc1.001
+
+*end	wit1

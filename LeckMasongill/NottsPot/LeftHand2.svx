@@ -1,0 +1,46 @@
+*begin LeftHand2
+
+*export 15x 9
+
+; Cave:	Notts
+
+*title "Twilight Route from last station of LeftHand1 route down to cow tag where routes meet"
+*date 2013.12.31
+*team Insts Al Cook and Andy Chapman
+*team Notes Becka Lawson
+*team Tape Hannah Walker
+*instrument Becka's Distox
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+*data normal from to tape compass clino
+
+;from	to	tape	compass	clino	remarks
+
+1	15x	0.79	283.5	+34
+1	2	14.32	270	-82
+2	3	4.81	006	+10
+3	4	27.90	290	-85
+4	5	1.22	236	-20
+6	5	5.04	120	+21
+7	6	3.86	164	-14
+8	7	5.26	113	+63.5
+8	9	2.00	016	-18
+; 8	splay	5.87	076	-08	; leg to back end of chamber, I think where Central route comes in - now commented out as Centre Route surveyed
+
+*data passage station left right up down ignoreall
+
+15x	0	1	0.2	15	left hand p hanger spit of Y-hang for first pitch of Twilight Route, numbered in pencil
+1	1	0.2	0.7	15	near 15x to get sight down pitch
+2	0.5	4	14	0	base of Twilight pitch first pitch where meet the Left Hand route
+3	1	1	5	30	1.2m below Left Hand route Y hang
+4	1	0.2	30	1.2	base of 2nd pitch, wet
+5	0.1	0.5	2	1.1	level with a single p-hanger for very short pitch above pool
+6	0.1	1	14	2	on left wall after 3m pitch
+7	0.5	0	0.2	10 numbered near a Dave Elliot red bolt, above R wall p hanger before LH side of pitch down to where routes meet
+8	0	2	6	1.5 base of pitch
+9	1	4	15	0 RRCPC cow tag (actually 2 cow tags) on flat alcove, maybe base of a route
+
+*end LeftHand2
+
+

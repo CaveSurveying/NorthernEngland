@@ -1,0 +1,15 @@
+;cave Notts II
+;Title: EchoInlet
+
+*begin EchoInlet
+
+*export EchoInlet_1.1
+
+*flags duplicate
+*include EchoInlet_1
+*flags not duplicate
+*include EchoInlet_2   
+	
+*equate EchoInlet_1.2 EchoInlet_2.1.0
+
+*end EchoInlet

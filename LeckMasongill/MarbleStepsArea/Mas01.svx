@@ -1,0 +1,24 @@
+;Cave:	Marble Steps
+;Surveyors:	mg1.026a
+;Date:	03/09/99
+;Instruments:	PAG
+
+;*equate	Mas01.003	Mas02.001
+
+*begin	Mas01
+*export 001 003
+*calibrate compass	+5.00
+
+;*fix	001	67991.70	77072.04	382.30
+
+001	002	16.10	132.0	-37.5	;st001=tag on surface survey top of climb down gulley
+002	003	04.84	154.0	-50.0	;st003=1st P Bolt on ledge
+*flags splay ; (Marble Steps) to P-bolt in entrance gully
+003	003a	05.53	120.0	+06.0	;st003a=1st P Bolt on ledge on opposite side of gulley
+*flags not splay
+;003	004	
+;004	005	
+;005	006	
+;006	007	
+
+*end	Mas01

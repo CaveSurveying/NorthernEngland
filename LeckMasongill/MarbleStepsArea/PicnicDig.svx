@@ -1,0 +1,38 @@
+;Cave:	MarbleStepsPot - Picnic Dig
+;Surveyors:	Dave Ramsay/Richard Bendall/Jon Tomkins
+;Date:	09/01.14
+;Instruments:	Red Rose Suunto Compass & Clino kit 2, 30m tape start at 20cm	
+
+*begin	PicnicDig
+*export  8
+
+*calibrate tape +.20
+;*calibrate compass
+*calibrate declination +2.41	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.188n 2.492w 2014.01.09 
+
+;stn to stn	tape	comp	clino
+
+2	1	3.52	115	+8
+3	2	2.35	114	-12
+4	3	2.90	111	-23
+5	4	2.53	105	-7
+6	5	8.00	115	+2
+7	6	2.79	035	+4
+8	7	2.55	342	+37
+
+
+
+*data passage station left right up down ignoreall
+
+1	0.3	1.2	0.6	0.5	;Rift in roof at Jn to tube on left
+2	0.5	0.4	0.0	0.6	;Roof 
+3	0.5	0.0	0.6	0.4	;L Wall	
+4	0.0	0.5	0.4	0.4	;R Wall
+5	0.4	0.8	0.1	0.6	;tip of stal
+6	0.0	1.0	0.0	1.0	
+7	0.0	1.0	0.2	1.7
+8	0.5	0.2	2.0	1.5
+
+
+*end	PicnicDig

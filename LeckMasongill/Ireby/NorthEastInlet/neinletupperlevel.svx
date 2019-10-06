@@ -1,0 +1,115 @@
+; Locn:	Leck Fell
+; Cave:	Ireby Fell Cavern
+; NE inlet starting from crawl where Adulterer's reaches NE inlet then in roof of NE inlet upstream plus inlet
+
+*begin neinletupperlevel
+
+*export stal 11x
+
+*title "Roof of North East Inlet from Adulterers plus inlet"
+*date 2010.06.13
+*team Insts Julian Todd
+*team Notes Becka Lawson
+*instrument Compass and Clino - Becka's tandem compass-clino and Becka's tape
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+stal	11x	0.78	166	+34
+11x	1	6.83	000	+13
+1	2	4.10	095	-01
+2	3	3.10	030	+08
+3	4	1.99	322	+02
+4	5	3.76	053	+01
+5	6	3.43	117	-06
+6	7	1.60	041	+04
+
+7	8	3.14	062	-03
+8	9	2.04	115	+03
+9	10	1.58	042	+01
+10	11	3.75	060	+12
+11	12	3.61	350	-11
+12	13	2.11	295	+06
+13	14	2.98	288	+07
+14	15	2.60	033	+05
+15	16	5.11	083	+03
+16	17	4.63	084	0
+
+17	18	2.72	015	-03
+18	19	3.99	092	-02
+20	19	3.52	287	0
+20	21	5.14	090	+06
+21	22	3.44	056	0
+22	23	1.82	067	-04
+23	24	2.29	125	+06
+24	25	2.27	036	-06
+25	26	2.24	007	+40
+26	27	3.12	095	+23
+
+27	28	4.28	353	+11
+27	29	5.88	046	+26
+29	30	4.33	073	+24
+27	31	3.21	012	+31
+31	32	4.83	336	+42
+32	33	4.10	320	+06
+33	34	5.28	305	-01
+34	35	6.35	072	+01
+35	36	2.26	099	+04
+
+36	37	9.37	319	-03
+37	38	2.46	326	+11
+38	39	2.23	233	-08
+
+*data passage station left right up down ignoreall
+
+stal	3	0.5	2	0.2	tip of stalagmite at edge of chamber, old station from allabovewellpitch3.12
+11x	3	0	3	1.2	old station on wall - couldn't read numberproperly, I thought was 6 but from notes and looking at the leg it was 41 from neinlet1
+1	0.2	1.2	0.2	0.5	l wall at start of crawl / end of chamber
+2	1.2	0.1	0.2	1.4	r wall
+3	1	0.3	0	1.6	ceiling after hole, numbered
+4	0.4	1.3	0	0.5	ceiling, numbered in pencil
+5	0.3	1.3	0.2	1.1	l wall
+6	1.1	0.3	0.3	1.5	r wall
+7	0.5	0.3	0.4	3	r wall
+
+8	0.7	0.1	0.6	6	l wall - very deep but tight in slot beneath
+9	1	0.3	0.6	6	r wall, wider below
+10	0.8	0.2	0.9	6	r wall
+11	1	0.1	0.5	1.3	r wall numbered in pencil
+12	0.4	0.4	1.5	8	r wall
+13	1	0.8	0.5	10	r wwall (hung tape down to water to get good estimate of down)
+14	0.8	1.4	0	0.6	ceiling / l wall at bend
+15	0.9	0.7	0	1.2	ceiling numbered in pencil
+16	0.8	0.2	0.1	10	r wall
+17	0.5	0.6	0.1	3	ceiling numbered in pencil
+
+18	0.2	1.2	1.3	0.5	l wall
+19	3	1	0.2	8.0	tip of large, distinctive stalagmite on ledge past bad step into inlet. Measured down using tape from here to pool by rocking boulder in NE Inlet
+20	0.2	0.9	0.4	0.3	l wall
+21	0.4	0.2	0.2	0.4	r wall
+22	0.5	0	0.3	2	r wall
+23	0.2	0.8	0.3	1.8	l wall - standing on floor for first time in an age
+24	1.3	0.1	0.4	1.6	r wall by too tight inlet on right
+25	1.1	0.3	0.3	1.2	r wall numbered at start of chamber
+26	0	3	1	1.4	l wall just inside chamber, not sure if up is correct
+27	3	0	7	1.5	r wall
+
+28	0.5	0	8	2	r wall start of left inlet and end of chamber
+29	0	0.9	4.5	2	l wall at start of r inlet / end of chamber
+30	0	0.2	1.5	2	high on l wall wehre narrows
+31	1.2	2	6	1.6	wall / ceiling mid-chamber
+32	0.2	0.1	2.5	1.9	r wall
+33	0.5	0.1	0.4	4	r wall past small aven / roof inlet (up is 2 in thin very thin rift)
+34	0.6	1.7	2.5	2.5	l wall at corner, numbered in pencil
+35	0	0.5	0.1	2.1	l wall
+36	1.2	0.3	0	2.1	r wall at junction
+
+37	0.1	0.4	4	0.6	l wall
+38	1.1	0	2.3	1.2	r wall, numbered
+39	0.1	0.4	0.1	0.7	l wall before inlet narrows, numbered
+
+*end neinletupperlevel
+
+
+
+

@@ -1,0 +1,125 @@
+*begin lowdoukleftatsteps
+
+*export 67x 13x
+
+*title "Low Douk from passage on left at top of Steps Chamber to return to main streamway below Steps"
+*date 2010.01.17
+*team Notes Becka Lawson
+*team Instruments Julian Todd
+
+*instrument comp&clino Becka's tandem tape Becka's 30m tape
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+67x	2	2.63	163	-18
+2	3	2.32	145	+06
+3	4	1.51	164	-13
+5	4	1.70	289	+28
+6	5	2.52	328	-08
+7	6	2.96	325	+02
+8	7	1.83	044	-14
+9	8	1.01	352	-19
+10	9	3.60	032	+10
+11	10	1.88	031	0
+
+12	11	1.52	335	-18
+13	12	6.28	037	+12
+14	13	1.28	314	+09
+15	14	1.84	002	+02
+16	15	2.75	094	+03
+17	16	3.74	065	+45
+18	17	1.85	144	+11
+19	18	0.83	055	-44
+20	19	2.41	110	+08
+21	20	2.53	156	0
+22	21	2.67	097	+21
+
+23	22	3.40	052	+14
+24	23	1.78	332	-10
+24	25	1.98	221	-31	; legs reversed in notes (wrote 25 to 24)
+26	22	2.56	042	-63
+27	26	2.19	090	+03
+28	27	2.55	021	-02
+29	28	2.83	098	-08
+30	29	2.44	024	-30
+31	30	2.08	061	-09
+
+32	31	3.04	033	-24
+33	32	1.35	117	-18
+34	33	2.34	192	-15
+35	34	7.56	117	+64
+36	35	6.30	230	+48
+36	37	2.54	150	-13
+37	38	3.61	075	-15
+37	39	3.25	350	-07
+39	40	4.39	009	-08
+40	41	3.20	000	-28
+
+13x	41	2.12	284	+08
+41	42	3.10	310	-04
+
+43	35	8.90	185	-28
+44	11	1.87	-	down
+45	44	2.85	120	-20
+45	46	2.29	349	-11
+46	47	3.30	110	-20
+46	48	2.98	086	+29
+48	49	3.00	002	-02
+
+*data passage station left right up down ignoreall
+67x    1.2	2.4	1	3     (up 4 in brackets) old station from LowDoukStreamway Becka/Richard/Dave trip last month NOT numbered (at least not in liquid paper) but on l wall where would drop down in Steps Chamber, high above stream - note the low douk to sump survey may be linked into station 66, not station 67 and I should double check that this station is correct too
+2	0.8	0.6	0.4	1.2	(up 3 in brackets) rock spike below small stal at start of passage on left out of Steps chamber
+3	0.5	0.3	0.4	1.5	numbered in pencil
+4	0.6	0.1	1.3	1.5	r wall at start of short oxbow
+5	0	0.6	1.2	0.5	l wall at puddle
+6	0.5	0.2	0.4	0.9	r wall stal
+7	0.1	0.7	1.1	1.4	l wall at corner
+8	0.5	0	1.3	1.6	r wall
+9	0.5	1	1.3	1.9	high rock spike at inlet and curtain on rhs, four way junction, numbered
+
+10	0.4	0.2	2.1	1.5	spike on r wall at corner (straight on at 4 way junction)
+11	0.5	0	2.2	1.6	(right is passage) junction with small inlet on left
+12	0.3	0.5	1.5	2.3	base of large stal / curtain
+13	0.4	0	2.5	1.2	r wall just after another inlet on left
+14	0.3	0	2.5	1.6	r wall at corner
+15	0	0.6	3	1.9	l wall at drop by stalagmite, numbered in pencil
+16	0.2	0.4	1.5	4	(up 3 in brackets) spike on l wall at inlet
+17	0.4	0.1	3	1.1	r wall in cascades
+18	0	0.4	3.5	1.6	l wall
+19	0.5	0	3	2.1	r wall at corner
+
+20	0	1	2.5	2	l wall
+21	1	0.1	1.4	2.3	r wall
+22	0.4	0	2.2	1.2	r wall numbered in pencil
+23	0.4	0	2.1	1	r wall
+24	0	0.7	1.8	1.5	l wall before pitch
+25	0.2	0.4	2.2	1	(down 8 in brackets) liquid paper at edge for first drop down to chamber (should be able to get a leg right down) - station on rock overhanging pitch, before oxbow
+26	0.2	0.5	0.2	1.1	(down 3 in brackets) start of high inlet in roof, numbered in pencil
+27	0.5	0.1	0.2	1.1	r wall
+28	0.1	0.5	0.3	0.6	l wall
+29	0.5	0.1	0.5	0.5	r wall
+30	0.2	0.4	0.2	1.2	l ceiling numbered in pencil
+31	0.4	0.1	0.5	0.3	stal on r wall
+
+32	0.1	0.5	0.2	0.7	l wall
+33	0.1	0.5	1	1.2	l wall
+34	0.5	0.1	0.4	0.8	(down 2.5 in brackets) r wall numbered in pencil
+35	0.4	0	4	1.7	l wall at start of chamber and end of tube, numbered in pencil
+36	0	2	5	1	base of chamber, l wall
+37	1.5	0.2	2.2	0.5	r wall
+38	0.5	1.4	1.3	5	unmarked, on ledge directly above main streamway
+39	1.1	1	1	0.2	floor of crawl before hole to stream
+40	1.2	0	0.2	0.3	r wall in crawl
+41	1.2	1	1.4	0.3	(right is passage) rock in inlet
+42	0.3	0.3	0.2	0.1	unmarked in inlet, probably too tight beyond this point
+
+43	1.5	1.5	4	1.3	back wall of chamber up mud climb, numbered in pencil
+44	0.3	0.4	0	3	roof of inlet on right
+45	0.2	0.4	2	0.8	back wall, left of stream
+46	0.2	1	6	0.1	chamber with waterfall
+47	0.7	0.3	7	0	unmarked at base of waterfall
+48	1.1	0	1.2	0.7	r wall of crawl
+49	0.4	0.1	1.3	0.1	tip of small (5cm tall) stal on floor at junction 
+
+*end lowdoukleftatsteps

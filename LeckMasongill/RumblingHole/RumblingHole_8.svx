@@ -1,0 +1,38 @@
+;Cave:	Rumbling Hole
+;Surveyors:	Richard Bendall/Emma Martindale
+;Date:	2008.01.11 
+;Instruments:	Red Rose Sunto Compass & Clino kit 2, Tape	
+
+*begin RumblingHole_8
+*export 007
+;* equate 007 RumblingHole_1.017
+
+*Title "Rumbling Hole"
+;*calibrate compass
+*calibrate Tape	-.10
+*calibrate declination +3.38
+;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
+;Model Used IGRF11 		
+;54.1994n 2.5124w  2008.01.11 
+
+;stn to stn	tape	comp	clino	 L    R   U   D
+;start of 11/02/08 survey of Lost Elephant area
+001	000	6.00	269	+13	;stn420 is too tight continuation
+001	002	4.38	086	-15	;0.2 0.3 5.0 1.6 stn001 is base ofaven
+001	001a	5.00	-	Up	;Guess to show aven
+002	003	4.11	092	+1	;0.3 0.0 1.0 0.5 stn002
+003	004	2.78	075	-7	;0.4 0.0 0.5 1.4 stn003
+004	005	8.35	082	-26	;0.2 0.2 1.0 1.4 stn004
+005	006	6.97	085	-4	;0.5 0.8 6.0 1.2 stn005
+006	007	3.06	093	-26	;0.1 0.1 0.5 2.8 stn006
+*flags duplicate
+007	008	1.50	346	0.0	;1.5 0.0 8.0 1.5 stn007 is RumblingHole_1.017
+008	009	7.50	-	UP	;0.0 1.5 ? ?	stn008 is bottom of pitch 7
+009	010	2.40	246	+14	;1.0 0.0 10.0 9.0 stn009 is pitch head
+*flags not duplicate
+010	011	7.00	266	-9	;0.1 0.8 1.2 ? stn010
+011	012	5.80	-	DOWN	;0.4 0.0 0.4 5.8 stn011 is head of lost elephant pitch
+
+*end RumblingHole_8
+
+

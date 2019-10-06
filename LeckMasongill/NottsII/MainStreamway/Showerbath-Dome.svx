@@ -1,0 +1,135 @@
+*begin Showerbath-Dome
+
+
+
+;Date: 14/11/2011
+
+;Cave: Notts II
+
+;Survey Kit RRCPC No ?
+
+;Instruments: Dave Ramsay
+
+;Book: Neil Pacey
+
+;Tape: Richard Bendall
+
+
+
+;Tape started at -10 centimetres (original notes - no Corrections)
+
+;Showerbath-Showerbath Tag -Dome Tag 
+*Title "Showerbath to Dome"
+
+
+
+*export 11	;Tag Showerbath Inlet 
+*export 17	;Thread below Echo Inlet
+*export 25	;Tag for Sir Digby Spodes Inlet (Missing)
+*export 36	;Tag at Dome Inlet
+
+
+*CALIBRATE tape -.10		;Tape was 10 centimetres too long
+
+*calibrate declination +2.45	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.1994n 2.5124w  2011.11.14
+	
+
+;Station 	Tape	Compass	Clino	 
+2	1	4.66	334	+34	
+2	3	11.46	147	-22	
+3	4	15.10	151	-24	
+4	5	3.45	115	-9	
+
+5	6	15.75	159	-23		
+
+6	7	6.24	145	-10	
+7	8	2.32	157	-22	
+	
+8	9	8.24	142	-8	
+9	10	1.8	205	-35		
+
+10	11	3.12	-	Down		
+
+11	12	6.15	100	-1	
+12	13	8.68	136	0.0	
+13	14	11.31	078	+0.5	
+14	15	6.45	048	+2
+	
+15	16	5.39	130	+0.5	
+16	17	4.07	217	+6	
+17	18	6.07	144	-1	
+18	19	8.38	073	+0.5	
+19	20	6.46	107	+1	
+20	21	3.87	169	-2	
+21	22	6.63	141	+3
+	
+22	23	5.87	087	+2	
+23	24	3.27	128	+17
+24	25	6.3	047	-1.5
+25	26	1.27	222	-18
+25	27	13.29	140	-1
+27	28	5.81	179	+2
+28	29	4.41	211	+6	
+
+29	30	6.25	197	0.0
+30	31	8.06	209	+3
+31	32	1.83	240	-0.5
+32	33	5.49	185	+7
+33	34	2.22	220	-9
+34	35	4.44	132	+2
+35	36	2.62	143	-5
+
+*data passage station left right up down ignoreall
+
+
+1	1.1	1.2	1.5	0.3	;Boulder at Scaffed section
+
+
+2	1.0	0.3	0.5	0.7	;projection from roof
+3	0.3	1.0	3.0	1.1	;by Curtain
+4	2.5	0.4	10.0	1.1	;Spike at inlet
+5	0.3	1.8	0.5	1.6	;LH wall
+6	2.0	0.1	6.0	1.4	;RH Wall
+7	1.3	0.9	1.1	1.1	;Stone on mudbank	
+8	1.1	0.6	0.0	0.4	;Roof
+
+
+9	0.2	3.5	1.1	0.9	;Pebble on mudbank
+10	0.0	3.8	3.0	5.0	;Edge of stream
+11	0.5	0.0	7.0	1.9	;Showerbath TAG
+12	0.8	0.1	8.0	1.4
+	;RH Wall
+13	0.9	0.1	5.0	1.5	;RH Wall
+14	0.8	0.1	5.5	1.5	;RH Wall
+15	0.0	1.0	5.5	1.6	;LH wall
+
+16	0.1	0.9	6.0	1.6	;LH wall
+17	0.4	0.1	4.0	1.7	;Thread below Echo Inlet
+18	0.8	0.1	4.0	1.5	;RH Wall
+19	0.1	0.7	4.5	1.5	;LH Wall
+20	0.1	0.9	4.5	1.5	;LH Wall
+21	0.1	1.0	4.5	1.4	;LH Wall
+
+22	0.3	0.1	5.0	1.4	;RH Wall
+
+23	0.1	0.6	5.0	1.8	;LH Wall	
+24	1.0	0.1	3.0	2.4	;RH Wall
+25	0.0	1.3	4.5	1.9	;LH Wall
+26	1.8	0.0	5.0	1.4	;RH Wall(Tag location but could not find Tag-need to be checked out)
+27	0.1	1.1	5.0	1.3	;LH Wall
+28	0.1	1.1	5.5	1.2	;LH Wall
+29	0.1	0.5	6.0	1.6	;LH Wall
+
+30	0.1	1.0	6.0	1.5	;LH Wall
+31	0.1	0.8	5.5	1.5	;LH Wall
+32	0.1	0.7	5.5	1.6	;RH Wall
+33	0.1	0.7	5.5	1.6	;LH Wall
+34	0.9	0.1	5.0	1.5	;RH Wall
+35	0.7	0.1	5.5	1.5	;RH Wall
+36	0.0	0.7	5.5	1.3	;Tag at Dome
+
+*end Showerbath-Dome
+
+
+

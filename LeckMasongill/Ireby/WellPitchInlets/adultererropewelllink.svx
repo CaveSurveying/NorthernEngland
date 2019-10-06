@@ -1,0 +1,34 @@
+; Locn:	Leck Fell
+; Cave:	Ireby Fell Cavern
+; Link from traverse before Adulterers to between Rope and Well pitch
+
+*begin adultererropewelllink
+
+*export x23 2
+
+*title "Link from traverse before Adulterers to between Rope and Well pitch"
+*date 2009.10.25
+*team Instruments Julian Todd
+*team Notes Becka Lawson
+*Instrument Becka's 30m tape and Becka's tandem comp & clino with backup Becka's Pony read backwards by Becka (Pony measurements after semicolon on each line)
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+1	x23	2.30	252	+45	; 254	+45 Pony taken same direction as compass (forward) for this leg
+1	2	14.23	134	-54	; 121	-51 Pony taken same direction as compass (forward) for this leg
+; 2	3	4.80	271	-01	; 277	0	leg taken just in case station 2 not on old survey - didn't need this leg
+
+
+*data passage station left right up down ignoreall
+
+x23	-	-	-	-	final bolt on R wall (as go towards Adulterers) of traverse - near to station 23 on abovewellpitch survey and before do final bit of traverse
+1	-	-	-	-	boulder above pit between x23 and Adulterers
+2	-	-	-	-	phanger above drop inbetween rope and well pitches - stn 63 of ropepitch survey
+;3	-	-	-	-	old station from rope pitch survey, station 62
+
+*end adultererropewelllink
+
+
+
+

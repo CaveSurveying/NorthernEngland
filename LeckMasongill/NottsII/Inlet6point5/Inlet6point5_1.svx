@@ -1,0 +1,57 @@
+; Locn:	Leck Fell
+; Cave:	Notts II
+; Inlet 6.5
+
+*begin Inlet6point5_1
+
+*export 11
+
+*title "Inlet 6.5"
+*date 2012.11.08
+*team Insts Richard Bendall
+;*team tape 
+*team Notes Dave Ramsay
+*instrument RR kit 2
+
+*calibrate tape +0.20	; +ve if tape was too short, -ve if too long
+
+
+*calibrate declination +2.36	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.1994n 2.5124w  2012.11.05
+
+*data normal from to tape compass clino
+
+;from	to	tape	compass	clino	remarks
+
+1	2	2.79	195	-3
+2	3	4.53	238	+17
+3	4	3.75	228	-25
+4	5	4.26	235	-10
+4	6	3.84	340	-3
+
+1	7	3.22	265	-1
+7	8	2.72	302	+2
+8	9	2.72	217	0.0
+
+1	10	8.35	-	down
+10	11	4.84	123	+7
+
+*data passage station left right up down ignoreall
+
+1	4.0	1.6	0.0	8.4	;Hanger over pitch
+2	1.2	0.5	0.8	0.1
+3	0.9	0.2	0.3	0.7
+4	0.1	1.2	1.1	0.7	;Flake
+5	1.0	0.3	0.3	0.3	;Small hole above pit
+6	0.4	0.4	0.3	0.0
+7	1.2	0.2	0.9	0.7
+8	0.5	0.5	0.3	0.2
+9	0.4	0.4	0.4	0.0
+10	2.5	1.0	8.4	0.0
+
+;*equate Mainstreamway.Jimlet-DaylightAven.5 Inlet6point5.Inlet6point5_1.11					;Added by Richard 08/11/12
+;*include Inlet6point5/Inlet6point5		;Inlet 6.5				Added by Richard 08/11/12
+
+*end Inlet6point5_1
+
+

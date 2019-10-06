@@ -1,0 +1,39 @@
+*begin Inlet5
+
+;Inlet5 including New Extensions
+
+*export Inlet5-Resurvey-1.1
+*export Inlet5-resurvey-2.20
+
+;*export Inlet5-1.001 
+;*export Inlet5-1.019
+;*export Inlet5-2.033 
+;*export Inlet5-2.052
+;*export Inlet5-3.052 
+;*export Inlet5-3.061
+;*export NewExtension.001 
+;*export NewExtension.015b
+
+;*include Inlet5-1
+;*include Inlet5-2
+;*include Inlet5-3
+;*include NewExtension
+
+*include Inlet5-Resurvey-1
+*include Inlet5-Resurvey-2
+*include Inlet5-Resurvey-3
+*include Inlet5-Resurvey-4
+*include Inlet5-Resurvey-5
+
+*equate Inlet5-Resurvey-1.36 Inlet5-Resurvey-2.36x
+*equate Inlet5-Resurvey-2.1 Inlet5-Resurvey-3.16
+*equate Inlet5-Resurvey-3.1 Inlet5-Resurvey-4.x1
+*equate Inlet5-Resurvey-2.20 Inlet5-Resurvey-5.20x
+
+;*equate Inlet5-1.019 Inlet5-2.033
+;*equate Inlet5-2.052 Inlet5-3.052
+;*equate Inlet5-3.061 NewExtension.015b
+;*equate Inlet5-1.001 Inlet5-Resurvey-1.1	; TEMP ADDED BY BECKA 20/12/11 TO CHECK ACCURACY OF RESURVEY
+;*equate NewExtension.015 Inlet5-Resurvey-2.x	; TEMP ADDED BY BECKA 20/12/11 TO CHECK ACCURACY OF RESURVEY
+
+*end Inlet5

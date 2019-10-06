@@ -1,0 +1,37 @@
+
+*begin FlakeAven
+*export 13x 30x
+
+*title "Large Pot - Red Herring - Flake Aven"
+*date 2011.12.30
+*team Tape Dave Ramsay
+*team Instruments Andy Chapman
+*team Notes Becka Lawson
+*instrument Becka's Tandem as comp and clino and Becka's 30m tape read from *30cm*
+
+*calibrate tape 0.30	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+; 12x	13x	4.31	314	-02	; duplicate leg from old survey so commented out
+13x	1	1.95	262	-02
+1	2	4.09	-	down
+2	3	3.30	266	-44
+3	4	6.60	350	-70
+4	5	5.39	326	-62
+5	6	2.33	322	-37
+6	30x	10.48	302	-85
+
+*data passage station left right up down ignoreall
+
+; 12x	2	2	3	1.7	old station below fifth pitch
+13x	1.3	0.3	0.1	2	old station in bedding plane at start of Flake Aven
+1	1.2	2	0.3	5	abpve first Flake Aven pitch
+2	0.5	 1.2	4	0.5
+3	0.3	1.3	1.5	4	by second of the Flake Aven pitches
+4	0	1.2	6	5	just above rebelay
+5	0	1.4	8	1.8	just above spits for final (third) Flake Aven pitch
+6	0	1.5	10	8	inbetween 2 spits for third Flake Aven pitch
+30x	-	-	-	-	old station on main Red Herring route
+
+*end FlakeAven

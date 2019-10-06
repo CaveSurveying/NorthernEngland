@@ -1,0 +1,47 @@
+; Locn:	Leck Fell
+; Cave:	Notts II
+; CurryInlet
+
+*begin GardenofGanesh
+
+*export 1 
+
+*title "Curry Inlet-GardenofGanesh"
+*date 2012.01.02
+*team Insts Richard Bendall
+*team tape Richard Bendall
+*team Notes Dave Ramsay
+*instrument Compass and Clino - rr2
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+
+*calibrate declination +2.44	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.1994n 2.5124w  2012.01.02
+
+*data normal from to tape compass clino
+
+;from	to	tape	compass	clino	remarks
+
+1	10	7.29	135	-2
+10	11	6.78	165	0.0
+11	12	7.03	118	+6
+12	13	2.45	162	+30
+13	14	3.09	-	up
+14	15	3.88	217	-16
+15	16	2.18	-	Down	
+
+*data passage station left right up down ignoreall
+
+10	0.0	0.8	0.3	1.2	;LH Wall
+11	1.3	0.1	0.5	0.4
+12	0.2	1.0	0.4	0.4
+13	1.1	1.1	6.0	0.0
+14	1.5	0.0	3.5	3.0
+15	0.0	2.0	4.5	2.6	;Tag
+16	0.0	0.3	6.0	0.2	;top lip of continuing passage roof
+
+
+*end GardenofGanesh
+
+

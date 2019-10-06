@@ -1,0 +1,38 @@
+; Locn:	Leck Fell
+; Cave:	Ireby Fell Cavern
+; To (too tight) pitch head beyond squeeze into MAD, Mutually Assured Destruction
+
+*begin neinlet10
+
+*export 5x
+
+*title "North East Inlet 10"
+*date 2011.05.19
+*team Tape Patrick Warren
+*team Insts Neil Pacey
+*team Notes Becka Lawson
+*instrument Compass and Clino - Becka's tandem compass-clino and Becka's tape read from 0cm
+
+*calibrate tape 0.20	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+2	1	3.90	324	-02
+3	1	4.96	152	+45
+4	3	4.20	258	+37
+5x	4	1.04	148	+65
+2	x	3.00	110	0	; leg estimated along rift
+
+*data passage station left right up down ignoreall
+
+1	1	0	5	1.3	spit for handline climb up
+2	0	0.3	3	1.7	numbered
+3	2	0	7	1.9	numbered, start of narrow rift heading to pitch
+4	1.3	0	2.5	1.6	numbered, below handline
+5x	1.3	1.3	3	1.1	old station numbered 5
+
+*end neinlet10
+
+
+
+

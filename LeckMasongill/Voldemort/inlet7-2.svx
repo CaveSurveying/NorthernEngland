@@ -1,0 +1,29 @@
+*begin inlet7-2
+*export 016
+*export	012
+*data normal from to tape compass clino ignoreall
+*units length metres
+*calibrate tape 0.0
+*units compass degrees
+*calibrate compass 0.0
+*units clino degrees
+*calibrate clino 0.0
+
+;Cave:	Notts II - Inlet 7
+;Description:	Oliver Lloyd Aven - Pleasures of the Palm
+;Date:	31/10/2004
+;Surveyors:	Instruments: Dave Ramsay; Notes: Richard Bendall
+;Instruments: RRCPC Kit 4 (Tape 3m Short)
+
+
+
+
+;From	To	Tape	Compass	Clino		L	R	U	D	Comments
+
+012	013	1.75	001	+6		;0.3	0.3	0.5	1.7	
+013	014	3.00	053	+1		;0.5	0.3	0.3	0.3	Stn 14 Small Roof Dome xrift roof
+014	015	2.90	041	-3		;0.3	0.4	0.2	0.3
+015	016	3.45	029	-9		;0.5	0.3	0.2	0.3	Sandy slope down to sump	
+
+
+*end inlet7-2

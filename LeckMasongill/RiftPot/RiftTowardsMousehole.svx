@@ -1,0 +1,95 @@
+*begin RiftTowardsMousehole
+*export 23 208 213 14 21
+
+*title "Coates Cavern then towards Large"
+*date 2010.12.28
+*team Instruments Andy Chapman
+*team Notes Neil Pacey
+*team Notes Sally White
+*team Tape Becka Lawson
+*instrument Neil's DistoX
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+*flags duplicate ; (Coates Cavern) duplicates circuit
+
+213	1x	25.63	153.4	0		; 213 old numbered station from Coates Cavern survey
+1x	2x	17.53	274.7	-0.6	; clino written as -0.06 but I don't think this is right - CHECK
+2x	3x	25.32	322.3	+06.0
+3x	4x	9.94	333.1	+0.6
+208	4x	3.34	250.8	+23.7	; 208 old numbered station from Coates Cavern survey
+; 208	5z	22.16	273.2	-02.8	; ignore this leg as looks like it wasn't to an old station
+208	209	19.84	003.2	+12.4
+209	210	18.12	112.7	-02.6	; 209 old numbered station from Coates Cavern survey
+210	5x	6.86	137.6	+16.6	; 210 old numbered station from Coates Cavern survey
+5x	213	14.50	159.1	-20.0	; 5 at bottom of large stal
+
+*flags not duplicate
+
+1x	2	5.07	185.8	+43.0	
+2	3	6.17	131.7	-01.9
+3	4	8.20	074.7	+08.9
+4	5	6.12	032.5	+39.8
+5	6	11.72	319.4	+37.6
+4	7	9.66	117.6	-07.4
+7	8	8.98	117.6	+11.0
+8	9	11.07	121.8	-00.9
+
+9	10	4.75	124.1	+11.5
+10	11	9.28	154.5	-30.1
+11	12	13.56	106.5	+31.8
+12	13	12.17	179.2	-10.3	
+13	14	10.83	224.3	+54.0
+14	15	8.00	088.0	+01.2	
+13	16	14.16	112.4	-29.6
+16	17	8.71	063.6	-00.9	
+17	18	18.13	140.7	+10.9
+
+18	19	11.90	121.3	+03.9
+19	20	11.14	131.6	+08.8
+20	21	13.11	118.7	+21.0
+20	22	13.76	011.1	+04.6
+20	23	12.55	080.1	-03.9
+
+*data passage station left right up down ignoreall
+213	0	23	3	1.5	LRUDs a mess - don't know which corresponds to which station from here on down
+1x	2	-	4	1
+2x	0	20	2	2
+3x	0	14	5	2
+4x	12	21	5	0.5
+208	26	30	3	0.5
+209	3	30	10.5	2
+210	0	30	8	3
+5x	8	20	7	4	LRUDs a mess - don't know which corresponds to which station from here on up and some missing
+
+2x	4	7	4	1
+2	2	1.5	0	1
+3	7	0	0.5	0.35
+;	4	16	14	19	0.1	ignore this LRUD as in direction of climb up
+5	5	0	13	2	numbered
+6	4	2	10	2	numbered - second bolt up of 3m bolt climb
+4	5	2.5	18	0
+7	2.4	6	1	0.2
+8	2.5	5	1	3
+
+9	1	2.5	0.6	0.3
+10	0.3	2.5	10	0
+11	8	4	5	0
+12	0	5.5	6	1.6	numbered
+;	13	3	4	5.5	0	ignore this LRUD as in direction of side passage - maybe Crystal Passage
+14	0	3	1.5	3	numbered
+15	0.3	1	0.2	0.2
+13	9	3	7	0
+16	12	1	8	1.5	numbered
+17	8	9	4	2
+
+18	11	6	0	3
+19	14	4	1	0
+20	10	4	5	1	numbered
+21	1	5	7	2	numbered
+22	4	0	4	2
+23	1.5	15	5	2	numbered in ceiling near left wall before start of crawl to mousehole
+
+*end RiftTowardsMousehole

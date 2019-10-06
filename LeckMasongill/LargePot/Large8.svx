@@ -1,0 +1,27 @@
+
+*begin Large8
+*export 54x
+
+*title "Small side passage until too tight"
+*date 2011.01.22
+*team Tape Neil Pacey
+*team Instruments Becka Lawson
+*team Notes Becka Lawson
+*instrument Becka's Tandem as comp and clino and Becka's 30m tape read from *20cm* as end now fallen off!
+
+*calibrate tape 0.20	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+1	54x	2.45	340	-14
+1	2	5.94	142	+24
+2	3	8.00	110	+15
+
+*data passage station left right up down ignoreall
+
+54x	1	1.5	2	1.8
+1	1.2	0	2.5	1.5
+2	0	0.5	0.7	0.7
+3	0.2	0.2	0.7	0.7
+
+*end Large8

@@ -1,0 +1,49 @@
+*begin LazloStrog11
+*export  49x
+
+*title "Cupcake, extension from Hubert Carstairs II chamber - extension found by Sam Allshorn and Mike Cooper on 20 August 2013"
+
+*date 2015.12.20
+*team Instruments Nathaniel Dalton
+*team Notes Becka Lawson
+*team Dog Sam Allshorn
+*instrument Becka's Distox2
+
+*calibrate tape 0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+2	1	5.45	075	+02	; took longest of 3 distox shots
+2	3	12.96	282	-01
+3	4	13.66	272	-05
+3	5	2.95	345	-12
+5	6	1.83	021	+43
+6	7	7.84	029	+01	; notes said 030 but Distox top file is clearly 029 compass
+7	8	9.15	041	+11
+8	9	3.39	278	+25
+8	10	2.91	070	+02
+9	11	1.82	297	+43	; changed as first 2 Distox readings 1.81 + 1.82 (last 1.89)
+11	12	2.82	258	+24
+12	13	4.39	228	-22
+13	14	3.14	264	-03
+14	49x	10.84	252.5	+30
+
+*data passage station left right up down ignoreall
+
+1	0.2	1.5	0.2	0.2	leg through straws to unmarked point where passage turns left - passage continues for 10-15m to small chamber with no way on
+2	2.2	1.5	0	1.5	numbered in ceiling just beyond prominent area of white flowstone
+3	10	3	0	3	ceiling
+4	2	3	0	1	floor
+5	2.2	4	0.6	4	floor, mid chamber, right could also be zero if go to ceiling block (huge); notes said up 6 but I'm sure it wasn't so changed to 0.6
+6	-	-	-	-	unmarked leg to far end of chamber where water enters
+7	3	12	1	1.7	numbered in liquid paint, on left floor
+8	2	1	0.3	0.2	numbered below loose slope which leads to chamber
+9	2	1.2	1.5	0.1	block on loose slope
+10	-	-	-	-	unmarked, top of mud slope where too-tight window looks onto passage beyond station 1 of this survey (confirmed with vocal connection)
+11	0.5	1.1	1.3	0.3	block in loose slope
+12	2.5	2	0	1.3	ceiling along loose crawl above slope approx point of breakthrough (boulders moved to enter extension)
+13	0.4	1.2	0.3	1.5	boulder beyond breakthrough point
+14	2	1	0.3	0.3	floor
+49x	-	-	-	-	old numbered survey station in Hubert Carstairs II chamber on r wall as look towards Cupcake
+
+*end LazloStrog11

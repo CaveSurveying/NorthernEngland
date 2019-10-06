@@ -1,0 +1,11 @@
+*begin Inlet18
+
+*export Sump3
+*equate Inlet18_1.000 Sump3
+
+*include Inlet18_1
+*include Inlet18_2
+
+*equate Inlet18_1.012 Inlet18_2.019
+
+*end Inlet18

@@ -1,0 +1,139 @@
+*begin Jimlet-DaylightAven
+
+
+
+;Date: 21/11/2011
+
+;Cave: Notts II
+
+;Survey Kit RRCPC No ?
+
+;Instruments: Richard Bendall
+;Book: Dave Ramsay
+;Tape: Richard Bendall
+
+
+
+;Tape started at -10 centimetres (original notes - no Corrections)
+
+
+*Title "Jimlet-DaylightAven"
+
+
+
+*export 1	;Drilled hole true left at Jimlet 
+*export 3	;Point of large fallen flake on corner
+*export 5	;survey dot in first airbell start of 6.5 & 3/4
+*export 15	;Drilled Hole at Curry Junction
+*export 27	;Drilled Hole at Inlet 5 junction
+*export 35	;Drilled Hole opposite Inlet 4
+*export 39	;Knot base of Daylight Aven up rope
+
+
+*CALIBRATE tape -.10		;Tape was 10 centimetres too long
+
+*calibrate declination +2.45	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.1994n 2.5124w  2011.11.14
+
+;Station 	Tape	Compass	Clino	
+ 
+1	2	16.45	269	0.0	
+2	3	9.75	210	-5	
+3	4	8.98	301	+7	
+4	5	3.17	243	+10	
+
+
+3	6	8.69	142	+2.5		
+
+6	7	20.14	148	0.0	
+7	8	20.28	079	0.0	
+	
+8	9	15.57	154	-2
+9	10	8.56	178	-1		
+
+10	11	6.97	092	-2		
+
+11	12	8.56	140	+5	
+12	13	10.46	138	-4.5	
+13	14	13.85	171	0.0	
+14	15	12.22	090	+5
+15	16	6.15	004	-2
+15	17	18.93	201	-2
+	
+17	18	12.66	200	-0.5	
+18	19	10.37	212	+1	
+19	20	14.33	155	-0.5	
+20	21	20.51	201	-2	
+21	22	15.04	177	+1.5
+22	23	15.33	208	-4	
+23	24	7.47	238	+0.5
+
+24	25	19.47	187	+1
+25	26	13.05	179	0.0
+26	27	8.50	155	+5.5
+; 27	28	10.17	241	-2	; duplicate leg with Inlet5-Resurvey-1 so commented out by Becka 20/12/11
+27	29	11.52	064	-3.5
+29	30	14.57	101	+0.5	
+30	31	8.11	071	-3
+
+31	32	15.89	098	+2
+32	33	19.33	174	-2
+33	34	14.72	168	+1
+34	35	9.26	156	-3
+35	36	7.15	152	+4
+36	37	6.13	233	+18
+36	38	11.84	158	-1.5
+38	39	3.94	132	-2.5
+
+*data passage station left right up down ignoreall
+
+
+
+1	2.2	0.0	6.0	1.6	;Drilled hole true left wall
+2	2.9	0.0	5.5	1.4	;RH Wall
+3	2.5	2.5	5.0	1.2	;Edge of block
+4	0.4	0.4	0.0	0.3	;Roof
+5	0.2	0.3	0.0	0.4	;Roof at end of inlet 6.5
+6	3.0	1.5	6.0	1.4	;RH Wall
+7	3.2	0.0	2.0	1.4	;RH Wall
+8	0.0	2.6	2.2	1.4	;LH Wall
+
+9	0.1	2.3	2.1	1.1	;LH Wall
+10	2.8	0.0	2.7	1.5	;RH Wall
+11	0.1	2.2	3.0	1.0	;LH Wall
+12	0.1	2.3	2.2	1.4	;LH Wall
+13	3.0	0.2	2.5	1.0	;RH Wall
+14	5.0	1.0	3.0	1.1	;Stone on shelf
+15	0.2	4.0	1.0	2.0	;Drilled hole at Curry Junction
+16	0.0	4.5	1.0	0.7	;LH Wall
+
+17	2.5	0.4	0.8	1.1	;RH Wall
+18	2.2	0.8	0.9	1.1	;RH Wall
+19	2.6	.01	0.4	1.4	;RH Wall
+20	0.7	1.8	0.3	1.4	;Stall in Roof
+21	2.1	0.5	1.0	1.1	;Projection RH Wall
+22	0.5	2.1	1.0	1.2	;LH Wall
+23	1.5	0.1	1.8	1.5	;RH Wall in pool
+24	2.0	1.0	1.4	1.1	;RH Wall
+
+25	2.2	0.1	0.6	1.4	;RH Wall
+26	2.5	0.1	0.8	1.2	;RH Wall
+27	4.0	0.5	0.0	2.1	;Drilled hole in roof at inlet 5 Junction
+; 28	1.8	0.0	0.5	1.2	;RH Wall - duplicate leg with Inlet5-Resurvey-1 so commented out by Becka 20/12/11
+29	0.1	2.2	0.7	1.4	;LH Wall
+30	2.7	0.8	0.5	1.7	;Roof
+31	2.5	0.4	0.8	1.1	;Stall on shelf
+
+32	0.4	2.2	0.8	1.5	;On mud LH
+33	2.0	0.5	1.1	1.2	;RH Shelf
+34	1.9	0.1	1.1	1.6	;RH Wall
+35	2.0	0.0	3.5	1.3	;Drilled Hole RH Wall opposite inlet 4
+36	0.1	3.0	2.2	1.5	;LH Wall opposite Inlet 2.5
+37	0.3	0.3	0.2	0.4	;Inlet 2.5
+38	3.0	0.1	2.5	1.3	;Spike RH Wall
+39	1.2	1.4	8.0	0.9	;Knot on rope Daylight Aven
+
+*end Jimlet-DaylightAven
+
+
+
