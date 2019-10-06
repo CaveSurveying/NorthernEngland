@@ -1,4 +1,4 @@
-perl table.pl $1 | gawk -f pivot.awk | sort -k3 \
+perl table.pl $1 | gawk -f caves.awk | sort -k3 \
     | gawk '{ print; x += $1 }; END { printf "%8.2f\tmetres\tTOTAL\n", x; }'
 
 perl length.pl $1.svx

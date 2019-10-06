@@ -1,35 +1,42 @@
-# Easegill-Pippikin survex data files
+# Unix tools for cave data statistics
 
-This subdirectory contains survex data files for the connected
-components of the Lancaster Hole / Easegill / Pippikin Pot system.
+This subdirectory contains a number of perl, awk and shell scripts to
+automate the extraction of statistics from suitably formatted cave
+data sets, in particular the [Easegill-Pippikin](../Easegill-Pippikin)
+and [LeckMasongill](../LeckMasongill) data sets in this repository.
 
-These have been modified from the originals in the Cave Registry Data
-Archive so that the individual caves now break at the cave
-descriptions in the new edition of Northern Caves, and duplicate /
-splay legs have been identified and flagged.  This means that the cave
-lengths can be computed automatically.  A complete list of these
-changes (which affect the claimed length of the system) is given in
-`duplicates.dat`.
-
-This directory contains a number of useful unix tools:
+The main usage is
 
 ```
-./duplicates.sh Easegill-Pippikin > duplicates.dat
+./duplicates.sh <master>
 ```
-generates the above mentioned list in a tab-delimited text file.
-
-
-```
-./table.sh Easegill-Pippikin > table.dat
-```
-generates a table of lengths of individual pieces of cave, as a tab-delimited text file.
+generates a list of survey data marked duplicate and splay in a tab-delimited text format.
 
 ```
-./pivot.sh Easegill-Pippikin > pivot.dat
+./table.sh <master>
 ```
-folds (or pivots) these into actual cave lengths, also a tab-delimited text file.
+generates a table of lengths of individual pieces of cave, as tab-delimited text.
 
-For convenience the tab-delimited text files `pivot.dat`, `table.dat`, and `duplicates.dat`
-have been imported into the  spreadsheet [`data_summary.ods`](data_summary.ods).
+```
+./pivot.sh <master>
+```
+folds (or pivots) these into actual cave lengths, also as tab-delimited text.
+
+In these `<master>` should be the name of the master survex file omitting the `.svx` suffix.
+
+For convenience a Makefile is provided to run these scripts against a given data set.
+
+For example, to extract cave statistics for
+[Easegill-Pippikin](../Easegill-Pippikin), copy the contents of this
+directory to the top level directory containing the file
+`Easegill-Pippikin.svx` and run the following command, at a command prompt:
+
+```
+MASTER = Easegill-Pippikin make tables
+```
+This will generate the `pivot.dat`, `table.dat`, and `duplicates.dat`
+files containing the above information.  For examples of these, see
+the [Easegill-Pippikin](../Easegill-Pippikin) and
+[LeckMasongill](../LeckMasongill) subdirectories.
 
 _Patrick B Warren, April 2015 -- October 2019_

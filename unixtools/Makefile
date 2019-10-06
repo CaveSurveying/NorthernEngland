@@ -1,5 +1,7 @@
 # To use this provide the master file, for example at a command prompt
-# $> MASTER = Easegill-Pippikin make
+# $> MASTER=EaseGill-Pippikin make tables
+# $> MASTER=LeckMasongill make tables
+
 
 current : $(MASTER).3d
 
@@ -10,8 +12,8 @@ $(MASTER).3d : $(MASTER).svx
 tables : $(MASTER).svx
 	./duplicates.sh $(MASTER) > duplicates.txt
 	./table.sh $(MASTER) > table.txt
-	./pivot.sh $(MASTER) > pivot.txt
-	@echo Created tab-delimited text files: duplicates.txt, table.txt, pivot.txt
+	./caves.sh $(MASTER) > caves.txt
+	@echo Created tab-delimited text files: duplicates.txt, table.txt, caves.txt
 
 clean :
 	find . -name "*.3d" -exec rm {} \;
