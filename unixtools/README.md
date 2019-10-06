@@ -32,8 +32,8 @@ directory to the Easegill-Pippikin top level directory (containing the file
 ```
 MASTER = Easegill-Pippikin make tables
 ```
-This will generate `pivot.dat`, `table.dat`, and `duplicates.dat`
-tab-delimited text files containing the above information.  For
+This will generate `caves.dat`, `table.dat`, and `duplicates.dat`
+as tab-delimited text files containing the above information.  For
 examples of these, see the [Easegill-Pippikin](../Easegill-Pippikin)
 and [LeckMasongill](../LeckMasongill) subdirectories.
 
