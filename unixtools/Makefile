@@ -1,4 +1,5 @@
-MASTER = EaseGill-Pippikin
+# To use this provide the master file, for example at a command prompt
+# $> MASTER = Easegill-Pippikin make
 
 current : $(MASTER).3d
 

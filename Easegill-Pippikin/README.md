@@ -1,4 +1,4 @@
-# Easegill / Pippikin survex data files
+# Easegill-Pippikin survex data files
 
 This subdirectory contains survex data files for the connected
 components of the Lancaster Hole / Easegill / Pippikin Pot system.
