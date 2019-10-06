@@ -11,6 +11,5 @@ files for the Lancaster Hole / Easegill / Pippikin Pot system.
 [LeckMasongill](LeckMasongill) contains modified survex data
 files for the Leck Fell and Masongill cave systems.
 
-[unixtools](unixtools) contains a number of perl, awk,
-and shell scripts to automate the extraction of cave statistics from
-the above data sets.
+[unixtools](unixtools) contains scripts to automate the extraction of
+cave statistics from the above data sets.

@@ -1,5 +1,5 @@
 # To use this provide the master file, for example at a command prompt
-# $> MASTER=EaseGill-Pippikin make tables
+# $> MASTER=Easegill-Pippikin make tables
 # $> MASTER=LeckMasongill make tables
 
 
