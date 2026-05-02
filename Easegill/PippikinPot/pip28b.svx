@@ -1,0 +1,41 @@
+;Cave:		Pippikin - End of upstream Dickeries to confluence of upstream passages
+;Surveyors:	R.Duffy(notes)/S.Lieberman(instr)
+;Date:		07/07/13
+;Instruments:	PAG + new disto
+
+;*equate	Pip28b.005 Pip28a.019 ; moved to parent file
+;*equate	Pip28b.005e Pip28c.001 ; moved to parent file
+
+*begin	pip28b
+
+*export 005
+*export 005e
+
+*calibrate compass	+6.5
+*calibrate clino	+0.5
+*calibrate tape	  0.0	
+
+002	001	05.07	346.0	 00.0
+002	003	02.87	083.0	+02.0
+003	004	03.20	117.0	 00.0
+004	005	04.15	142.0	-02.0
+
+005	005a	05.74	063.0	+02.0
+005a	005b	02.74	103.0	+01.0
+005b	005c	05.92	078.0	 00.0
+005c	005d	07.76	101.0	+01.0
+005d	005e	06.89	050.0	+03.0
+
+*end	pip28b
+
+;st		l		r		u		d		comments
+;1		1.0		2.0		0.5		0.3		head height middle of junction beyond too small and sump
+;2		0.5		0.3		0.4		0.2		head height wet gravel floor
+;3		0.5		0.3		0.3		0.4		head height wet gravel floor
+;4		1.2		1.0		0.3		0.3		head height wet gravel floor
+;5		passage		0.8		0.2		0.4		head height 1m downstream of small stal on slab at Junction
+;5a		0.5		1.2		0.5		0.3		head height in streamway of gravel leading into small sided trench
+;5b		0.8		1.0 alcove		0.5		0.5		head height in streamway of gravel
+;5c		1.0low		0.5		0.3		0.3		head height in streamway of gravel
+;5d		0.6		0.6		0.3		0.5		head height in streamway of gravel draughting strongly outward
+;5e		3.0high1.2low	2.0		+8.5dribaven	0.5		point of rock on right of passage below aven

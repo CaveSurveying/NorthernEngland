@@ -1,0 +1,64 @@
+;Cave:		Pipikin Pot - Gour Hall
+;Surveyors:	R.Duffy(notes)/S.Lieberman(instr)/T.Speight(spotter)
+;Date:		11/05/13
+;Instruments:	kit PAG + new disto
+
+;*equate	pip18d.005 pip18b.001 ; moved to parent file
+;*equate	Pip18d.002 Pip18.006 ; moved to parent file
+
+*begin	pip18d
+
+*export 002
+*export 005
+
+*calibrate compass	+6.50
+*calibrate clino	+0.50
+*calibrate tape		 0.00
+
+*flags duplicate
+002	001	03.38	070.5	-01.0	;st001 is stal on ledge
+013	001	20.17	173.0	+01.0
+*flags not duplicate
+
+*flags splay
+002	003	09.44	143.0	-22.0	;st002 is wall above left mud bank
+002	004	19.15	162.0	-23.0
+002	006	13.06	188.5	-17.0
+002	007	13.43	218.0	-08.0
+002	008	15.48	223.0	-02.0
+002	009	14.70	240.5	+08.0
+002	010	10.77	247.0	+05.0
+002	011	16.03	316.0	+18.0
+002	012	15.39	335.0	+13.0
+*flags not splay
+
+013	015	09.98	329.0	+17.0	;13-15-15a distinct passage leading off chamber
+015	015a	09.98	335.0	+55.0
+002	005	17.99	173.0	-21.5	;Survey pip18b is duplicate so this leg connects extremeways
+
+*flags splay
+013	014	07.75	116.0	+07.0
+013	016	13.17	000.0	 00.0
+013	017	09.29	040.0	-24.0
+*flags not splay
+
+*end	pip18d
+
+;st		l		r		u		d		comments
+;1		0/5		13/8		2/0		1/6		stal on left ledge
+;2		3/3		10/2		8/9		1/6		head height below aven
+;3										wall above mudbank
+;4		0/5drop		ch		3/0		0/5		hole into Earby dig
+;5		1/0		ch		2/5		0/7		Extreme Ways entrance
+;6						slope		0/6
+;7						5/0		1/2
+;8						3/0		0/6		rt side of small alcove 1.5m into
+;9										small stal at top of slope 1.5m into and up
+;10						2/7h0/5l		1/7
+;11										highest point in chambers edge
+;12						0		0/5
+;13		6/5		5/8		1/9h1/1l		1/4		heading outward
+;14		
+;15		
+;16		
+;17		3/0		2/0		1/2		1/6

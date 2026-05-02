@@ -1,0 +1,36 @@
+;Cave:		Pippikin - Downstream Dickeries
+;Surveyors:	A. Whitney (inst)/S.Lieberman(notes)
+;Date:		05/09/2013
+;Instruments:	PAG +new disto
+
+;*equate Pip28ai.001 Pip28a.008a ;tag on stal. moved to parent file
+
+*begin	pip28ai
+
+*export 001
+
+*calibrate compass	+6.5
+*calibrate clino	+0.5
+*calibrate tape	  0.0
+
+002	001	02.63	248.0	-04.0
+002	003	03.27	254.0	-34.0
+003	004	04.15	197.0	-42.0
+005	004	02.71	357.0	-25.0
+005	006	05.54	123.0	+03.0
+006	007	04.19	137.0	-23.0
+007	008	01.50	064.0	-25.0
+008	009	04.28	161.0	 00.0
+
+*end	pip28ai
+
+;st		l		r		u		d		comments
+;1										tag on stal above stream
+;2		1.3		0.8		0.3		2.3
+;3		0.2		0.3		2.5		2.0		between st3/4 is clamber down above stream
+;4		0.3		0.3		0.6		0.2
+;5		0.3		0.2		1.0		0.9
+;6		0.1		0.3		0.4		0.8
+;7		0.5w/1.8b	0.8		1.0		0.4
+;8		0.5		2.1		0.3		0		st8 is centre of small limestone slab at top end of canal
+;9		0		0.8		0.1		0.2		beyond st9 narrows with nose air space

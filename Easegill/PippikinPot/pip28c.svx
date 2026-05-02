@@ -1,0 +1,73 @@
+;Cave:		Pippikin - Dickeries aven in right hand upstream to large aven
+;Surveyors:	R.Duffy(notes)/S.Lieberman(instr)
+;Date:		22/08/13
+;Instruments:	PAG + new disto
+
+;*equate	Pip28c.001 Pip28b.005e ; moved to parent file
+
+*begin	pip28c
+
+*export 001
+*export 026
+
+*calibrate compass	+6.5
+*calibrate clino	+0.5
+*calibrate tape	  0.0
+
+001	002	03.34	007.0	 00.0
+002	003	04.44	066.0	+06.0
+003	004	01.36	114.0	 00.0
+004	005	04.37	096.0	+05.0
+005	006	03.05	190.0	+04.0
+006	007	02.33	215.0	-04.0
+007	008	03.46	134.0	+04.0
+008	009	06.02	160.0	+02.5
+009	010	02.20	091.0	-07.0
+011	010	02.28	359.0	-12.0
+011	012	03.65	121.0	+03.0
+012	013	03.32	098.0	+04.0
+013	014	02.93	080.0	 00.0
+014	015	04.36	095.0	-03.0
+016	015	01.40	267.0	-07.0
+016	017	01.36	031.0	 00.0
+017	018	01.79	072.0	+06.0
+019	018	02.70	216.0	 00.0
+019	020	01.50	350.0	-24.0
+020	021	04.14	048.0	+06.0
+021	022	02.39	098.0	 00.0
+022	023	02.52	139.0	+02.0
+023	024	03.92	056.0	+02.5
+024	025	04.67	037.0	+01.0
+025	026	03.77	084.0	+11.0
+026	027	06.93	 -	UP
+
+*end	pip28c
+
+;st		l		r		u		d		comments
+;1		3h/1.2l		1/bd		aven		0.8/0bd		boulder point at bottom of aven on right
+;2		1.5h/0.3l		1h/0.6l		0.3		0.3		head height on gravel bank left
+;3		0.5		1		0.4		0.5		head height just in front of pool
+;4		0.2ledge/0.5l	0.5		0.4		0.4		head height in middle of passage
+;5		0.5h/0.8l		0.8h/0.5l		0.3		0.6		head height back resting against boulder facing upstream
+;6		0.5		0.5		0.3		0.5		head height near small straw on left
+;7		0.5h/0.4l		0.5		0.3		0.4		head height middle of passage
+;8		0.5h/0.3l		0.5		0.3		0.4		head height middle of passage
+;9		0.7		0.4		0.4		0.4		head height middle of passage
+;10		0.3		passage		0.5		0.3water/0.6floor	stal bracket above pool on corner
+;11		0.5		0.4		0.2		0.4		head height middle of passage
+;12		0.4		0.3		0.4		0.3		head height middle of passage
+;13		0.4		0.4		0.4		0.4		head height middle of passage
+;14		0.4		0.3		0.5		0.4		head height middle of passage
+;15		0.3		0.3		1h/0.2l		0.3		toe of foot in squeeze
+;16		0.3		0.3		1		0.3		head with foot in squeeze
+;17		0.3		0.3		1.3		0.2		head height middle of passage
+;18		0.3		0		1.2		0.4		head height middle of passage
+;19		0.3		0.3		1		0.4		head height middle of passage
+;20		0.4		1h/0.2l		0.5		1		head height middle of passage corner
+;21		width high1.2 low 0.5		0.4		1.6		head height middle of passage just beyond tiny inlet on L high
+;22		width high 0.8 low 0.5		0.2		1.2		head height middle of passage with alcove on left
+;23		0.4		1 alcove		0.5		0.8		head height middle of passage with high link to alcove L & alcove R high
+;24		0.8		0.3		0.5		0.8		head height middle of passage in trench 0.3 wide
+;25		0.3		0.3		0.4		0		head height middle of passage on bend before aven
+;26		3.1 wide		2.7across	7		0.3from bd	tip of large rectangular boulder at foot of aven
+;27		top of aven							small inlet in roof ahead and inlet continues below right wall of aven

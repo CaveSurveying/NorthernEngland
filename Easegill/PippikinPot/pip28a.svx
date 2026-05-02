@@ -1,0 +1,72 @@
+;Cave:		Pippikin - DustyJunction tag to upstream Dickeries to confluence of inlet passages
+;Surveyors:	R.Duffy(notes)/S.Lieberman(instr)
+;Date:		11/07/13
+;Instruments:	PAG + new disto
+
+;*equate Pip28a.001 Pip02a.001 ;st001=tag in roof at Dusty Junction. moved to parent file
+;*equate Pip28a.019 Pip28b.005 ; moved to parent file
+;*equate Pip28a.008a Pip28ai.001 ;tag on stal. moved to parent file
+
+*begin	Pip28a
+
+*export 001
+*export 008a
+*export 019
+
+*calibrate compass	+6.5
+*calibrate clino	+0.5
+*calibrate tape	  0.0	
+
+*flags duplicate
+001	002	00.69	 -	DOWN
+002	003	08.35	092.0	+03.5
+003	004	11.34	149.0	+01.5
+*flags not duplicate
+
+005	004	06.53	251.0	+21.0
+005	006	03.05	 -	DOWN
+007	006	03.35	161.0	+13.5
+007	008	05.19	058.0	-10.0
+
+008	008a	02.67	247.0	+00.5
+
+008	009	06.57	037.0	+02.0
+009	010	09.81	061.0	+03.0
+010	011	07.83	021.0	+03.0
+011	012	02.83	006.0	 00.0
+012	013	06.05	050.0	+02.5
+013	014	06.97	004.0	+00.5
+014	015	02.42	070.0	+07.0
+
+015	015a	06.18	114.0	+02.0
+
+015	016	10.40	007.0	+02.0
+016	017	05.70	354.0	 00.0
+017	018	08.86	036.0	+03.0
+018	019	02.42	332.0	+04.0
+
+
+*end	Pip28a
+
+;st		l		r		u		d		comments
+;1										st1=tag in roof at Dusty Junction
+;2		
+;3		1.2h/0.4bd	2.0		0.5		0.8		on way to Red Wall
+;4		0.8		3.0		0.5		bd/0.5
+;5		3.6		0.3wall		3.3		3.0
+;6		0.4		0.4		6.3		0		bottom of climb down in alcove
+;7		1.3alcove rtLcorner0.6	4.3hole		1.1
+;8		0.8h/1.0stream	1.3slope	0.5		1.8to stream
+;8a										tag on stal column
+;9		1h/0.3streamway	0.6h		0.3		1.2to stream
+;10		1h/0.5streamway	0.8h		0.3		1.2
+;11		0.7h/0.5streamway	1h		0.3		0.8
+;12		0.7h/0.8streamway	1.2h		0.4		0.5
+;13		1h/0.5streamway	0.7h		0.2		0.8
+;14		0.6h/1m wide pool	1.2h		0.2		0.3h/0.8low
+;15		1h/0.4streamway	inlet		0.3		0.4
+;15a										tight inlet
+;16		1.2		1		0.3		0.3
+;17		0.8		1.2		0.2		0.3
+;18		1.3alcove/1low	1.2alcove/0low	0.3		0.6
+;19										stream junction of last survey Pip28b
