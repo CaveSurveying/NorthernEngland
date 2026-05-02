@@ -5,8 +5,8 @@ Repository for issues for caves in the
 
 ## Subdirectories
 
-[Easegill-Pippikin](Easegill-Pippikin) contains modified survex data
-files for the Lancaster Hole / Easegill / Pippikin Pot system.
+[Easegill](Easegill) contains modified survex data
+files for the Lancaster Hole / Easegill system, including Pippikin.
 
 [LeckMasongill](LeckMasongill) contains modified survex data
 files for the Leck Fell and Masongill cave systems.
