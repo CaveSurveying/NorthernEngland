@@ -1,0 +1,45 @@
+;Cave:		Tigers Inlet upper left hand branch from Whisper Aven
+;Surveyors:	R.Duffy(notes)/S.Lieberman(instr)
+;Date:		03/10/13
+;Instruments:	PAG + new disto
+
+;*equate  Lk02ci.004g lk02.008 ;tag at Tiger's Inlet upper left hand branch
+;*equate  Lk02ci.004c Lk02c.002a  ;small stal
+
+*begin	lk02ci
+
+*export 004c 004g
+
+*calibrate compass		+06.5
+*calibrate clino		-00.5
+*calibrate tape		 00.0
+
+001	001a	10.70	 -	UP
+001	002	04.44	157.0	-32.0
+002	003	01.48	 -	DOWN
+004	003	01.09	330.0	+08.0
+004	004a	03.66	235.0	-03.0
+004	004b	05.12	131.0	+01.0
+004b	004c	02.02	134.5	+05.0
+
+*flags duplicate
+004d	004c	02.78	257.0	-02.0
+004d	004e	01.42	 -	DOWN
+004f	004e	05.52	293.0	-04.0
+004f	004g	10.19	076.5	-02.0
+*flags not duplicate
+
+*end	lk02ci
+
+;st		l		r		u		d		comments
+;1		1.0		0.6		5.2		1.5		far end of aven at floor
+;2		3.4		1.7h/4.5bed	8.6h/0.6l		1.5
+;3		bd		bd		st2		1.5		wall above bouldery drop
+;4		0.7bd		2.0		0.2		2.8		sitting above pit in floor
+;4a		beding 2m wide							
+;4b		4.6		0.3		0.3		0.1		small stal on raised calcite
+;4c		2.6mud fill	0.7		0.1		0.1		small stal
+;4d		1.3mud fill	1.3		0.2		1.4		head height above drop to bedding passage
+;4e										bottom of drop in bedding
+;4f		1.6		1.4		0.2		0.6
+;4g										TAG

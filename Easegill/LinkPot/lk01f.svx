@@ -1,0 +1,30 @@
+;Cave:		Link Pot - Echo Aven top of pitch resurvey
+;Surveyors:	R.Duffy(notes)/S.Lieberman(instr.)
+;Date:		03/03/13
+;Instruments:	PAG + new Disto
+
+*equate	Lk01f.C Lk01.032
+
+*begin	Lk01f
+
+*export c
+
+*calibrate compass	+6.50
+*calibrate clino	+0.50
+*calibrate tape	  0.00	
+
+*flags duplicate
+2	1	02.07	243.0	-09.0
+2	A	01.85	247.0	+18.0
+B	A	01.52	328.0	-22.0
+B	C	04.61	218.0	-53.0	
+*flags duplicate
+
+*end	Lk01f
+
+;st		l		r		u		d		comments
+;1										st1 is old traverse bolt on corner
+;2										st2 is possibly previous survey station?
+;A		0/3		0/0		2/5		4/5		stA is first new P hanger
+;B		0/3		0/3		1/0		4/7		stB is head height on corner by first Y hang
+;C										stC is Y hang knot top of Echo aven

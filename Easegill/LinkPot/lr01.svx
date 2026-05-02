@@ -1,0 +1,48 @@
+; Link Pot, Lone Ranger Series, from Serendipity pitch to Tonto aven
+; surveyors: Becka Lawson, Patrick Warren (PBW)
+; equipment: Becka reading Becka's disto, PBW notes
+; date 29/11/14 (November 29, 2014)
+
+*begin lr01
+*export 001
+*export 014
+
+*flags duplicate ; (Serendipity) tie-in duplicates 010-013 in lk18
+002  001   1.91  271  +25 ; station 1 is tagged pitch anchor for Serendipity pitch
+003  002  10.56  241   -4 
+004  003  11.92  320   +1
+*flags not duplicate
+005  004   4.81  346  -80 ; this leg is up the rope climb
+005  006   0.90  047   +9 ; tie-in: station 6 is anchor for rope on rope climb
+007  005   1.51  259  -30
+008  007   1.65  286  -11.5
+009  008   1.37  272   -6
+010  009   1.59  284   +6
+011  010   1.75  291   -1
+012  011   1.28  002   -1
+013  012   1.99  288   -3
+014  013   1.71  253  -20
+*flags splay ; (Lone Ranger) into Expulsion series
+014  014a 16.76  193   -1 ; shot down RH passage at junction ; station 14 numbered in roof
+*flags not splay
+015  014   3.77  225   +1
+016  015   9.23  224    0
+017  016   7.56  249   -1
+018  017   4.75  233    0
+019  018   3.62  264   +1
+020  019   5.11  287   -1.5
+021  020   3.98  258   -2
+022  021   3.59  221    0
+022  022a  6.42  277   -1 ; shot back down LH side passage
+023  022   7.71  277   -2
+024  023   4.18  289   +3.5
+025  024   7.68  267   -2.5
+026  025   5.15  287   -7
+027  026   3.37  228  -47 ; station 27 is numbered on wall at base of Tonto aven
+*flags splay ; (Lone Ranger) around Tonto aven
+027  027a 10.73  342 +84.5 ; shot up the aven
+027  027b  2.82  017 +10 ; shot into rift opposite point of entry
+026  026a 12.93  109  +2 ; shot along continuation of main passage
+*flags not splay
+
+*end lr01

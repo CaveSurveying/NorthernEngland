@@ -11,6 +11,7 @@
 *export 025
 *export 020
 *export 004
+*export 008a
 
 *calibrate compass		+3.00
 *calibrate clino		+0.50

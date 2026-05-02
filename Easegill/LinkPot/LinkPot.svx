@@ -62,26 +62,46 @@
 *equate lk20i.014 lk22.025 ; from lk20i.svx
 *equate lk21.010 lk22.001 ; from lk21.svx
 
+*equate	lk01d.001 lk01.020 ; from lk01d.svx
+*equate	lk01e.006 lk01.034 ; from lk01e.svx
+*equate	lk02x.001 lk02.005 ; from lk02x.svx
+*equate lk02ci.004g lk02.008 ; tag at Tiger's Inlet upper left hand branch ; from lk02ci.svx
+*equate lk02ci.004c lk02c.002a  ; small stal ; from lk02ci.svx
+*equate	lk02ei.001 lk02e.008a ; from lk02ei.svx
+*equate lr01.001 lk11.012 ; tag on bolt at top of Serendipity Pitch
+
+*equate lr01.014 loneranger.path4288.3 ; T-junction with larger passage
+*equate lr01.014 expulsion.path3149.3 ; T-junction with larger passage
+
 *include	lk01
 *include	lk01a
 *include	lk01b
 *include	lk01c
+*include	lk01d
+*include	lk01e
+;*include	lk01f ; resurvey of the top of Echo aven to check original survey.
 *include	lk02
 *include	lk02i
 *include	lk02a
 *include	lk02ai
 *include	lk02b
 *include	lk02c
+*include	lk02ci
 *include	lk02d
 *include	lk02e
+*include	lk02ei
+*include	lk02x
 *include	lk03
 *include	lk04
+;*include	lk04a ; duplicate of lk04, original survey is better
+;*include	lk04b ; duplicate of lk05, original survey is better 
 *include	lk05
 *include	lk06
 *include	lk07
 *include	lk07a
 *include	lk07b
 *include	lk08
+;*include	Lk09	; see Fleur Loveridge/Duncan/Helen
 *include	lk10
 *include	lk11
 *include	lk11a
@@ -98,5 +118,10 @@
 *include	lk20i
 *include	lk21
 *include	lk22
+
+*include	lr01 ; Lone Ranger Series
+
+*include	loneranger ; fake Lone Ranger data
+*include	expulsion ; fake Expulsion data
 
 *end LinkPot

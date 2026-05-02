@@ -1,0 +1,37 @@
+;Cave:		Link Pot - Echo Aven(base)
+;Surveyors:	R.Duffy(notes)/S.Lieberman(instr.)
+;Date:		03/03/13
+;Instruments:	PAG + new Disto
+
+;*equate	Lk01e.006 Lk01.034
+
+*begin	lk01e
+
+*export 006
+
+*calibrate compass	+6.50
+*calibrate clino	+0.50
+*calibrate tape	  0.00	
+
+002	001	05.60	149.0	+35.0
+002	003	04.64	331.0	-01.0
+003	004	04.32	306.0	-23.0
+
+004	004a	02.14	075.5	+03.0
+
+004	005	04.98	028.0	-29.0
+005	006	06.98	293.5	-14.0
+007	006	05.13	202.0	-27.0
+;007	008	04.00
+
+*end	lk01e
+
+;st		l		r		u		d		comments
+;1		0/2		0/2		3/0		0/5		st1 is ascending choke
+;2		0/2		1/0		5/0		0/3		head height lying on slope
+;3		2/3		1/2		19/6		1/3foot5/8floor
+;4		0/2		3/2		22/2		1/5		standing on ledge
+;4a		2/2		1/2		21/3		4/2		head height on string hanging from small inlet
+;5		2/6flake5/3wall	0/2		sloping wall	1/5
+;6		2/6		4/2		tag		0/7
+;7		0/9		0/2		4/6		1/4		head height standing opposite Echo Echo Pot Pot rope

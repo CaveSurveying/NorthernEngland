@@ -1,0 +1,48 @@
+;Cave:		Link Pot-Passages on left downstream of Echo Crawl junction
+;Surveyors:	R.Duffy(notes)/S.Lieberman(instr.)
+;Date:		17/02/2013
+;Instruments:	PAG + new Disto
+
+;*equate	Lk01d.001 Lk01.020
+
+*begin	lk01d
+
+*export 001
+
+*calibrate compass	+6.50
+*calibrate clino	  0.00
+;*calibrate tape		
+
+002	001	04.63	082.0	-07.5	;st001=Tag Echo Crawl junction
+002	003	04.54	196.5	-06.0	;leg into left-hand passage
+003	004	00.80	 -	DOWN	;st004 is start of first side passage on right
+005	004	01.96	077.0	+07.0
+005	006	04.24	289.0	-10.0
+006	007	02.92	205.0	-21.0	;Echo Pot
+ ;to next side passage on right fruther up slope
+004	004a	01.46	 -	UP
+004a	004b	02.44	214.0	-06.0	;st004b is start of next side passage on right
+004c	004b	03.85	086.0	+07.0
+004d	004c	01.81	118.0	  00.0
+004e	004d	04.80	153.0	+05.0	
+004f	004e	02.13	229.0	-05.0
+004f	004g	01.24	339.0	-03.0	
+004h	004g	01.76	207.0	-06.0
+
+*end	lk01d
+
+;st		l		r		u		d	comments
+;1									st001=Tag Echo Crawl junction
+;2		1/4		0/2		0/3		2/1
+;3		1/1		1/0		0/9		0/8
+;4		
+;5		0/2		0/2		0/3		0/5
+;6		0/3		0/3		0/8		1/5
+;7		0/0		0/3		1/5		pitch
+;4b		3/0		0/5		0/5		0/1		
+;4c		0/2		0/2		0/3		0/2
+;4d		0/3		0/4		0/4		0/2
+;4e		0/3		0/2		0/4		0/1
+;4f		0/4		0/2		0/2		0/4
+;4g		0/4		0/3		0/3		0/2
+;4h		1m wide				3/7to floor of main passage
