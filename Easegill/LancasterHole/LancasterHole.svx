@@ -91,6 +91,7 @@
 *equate	md8.120	mw6.012 ; from main
 *equate	md8.105	mw6.006c ; from main
 *equate	l1.023 mw1.001 ; from main
+*equate md8i.001 md8.124 ; from md8i.svx
 
 *include	bark
 *include	col
@@ -128,6 +129,7 @@
 *include	md8b
 *include	md8c
 *include	md8d
+*include	md8i
 *include	heh1
 *include	heh2
 *include	sc1

@@ -59,7 +59,7 @@
 38	39	2.5	063	+01
 39	40	3.7	008	  0
 6	41	6.3	193	  0
-*flags duplicate ; (Dark Side Grind) tie-in duplicates 001-003 in picklepassage3
+*flags duplicate ; (Pickle Passage) tie-in duplicates 001-003 in picklepassage3
 41	42	2.7	078	+01
 42	43	3.3	125	-04
 41	44	6.6	238	-01

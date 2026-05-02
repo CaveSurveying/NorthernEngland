@@ -1,0 +1,50 @@
+;Cave:		Lancaster Hole - Sideline sidepassage
+;Surveyors:	S.Lieberman(notes)/Andy Chapman (instr.)
+;Date:		26/06/11
+;Instruments:	PAG + disto
+
+; *equate	maw4a.001 maw4.014
+
+*begin	maw4a
+
+*export 001
+
+*calibrate compass +6.00
+*calibrate clino    0.00
+*calibrate tape     0.00	
+
+001	002	01.32	098.0	+11.5
+002	003	04.66	110.0	+04.5
+003	004	08.21	146.0	+05.5
+004	005	02.60	105.0	 00.0
+005	006	05.45	130.0	+03.0
+006	007	03.77	150.0	 00.0
+007	008	01.17	143.0	 00.0
+008	009	01.35	117.0	+04.0
+009	010	03.18	166.0	+03.0
+010	011	01.95	110.0	+03.5
+011	012	03.12	111.0	+04.5
+012	013	01.50	169.0	+00.5
+013	014	01.93	081.0	+04.0
+014	015	04.73	173.0	+05.5
+015	016	04.01	153.0	+03.5
+
+*end	maw4a
+
+;st	l	r	u	d	comments
+;1	0.5	1	0.4	0.3	tag on stal
+;2	0.6	1.2	0.4	0.3	knobble on left
+;3	0.1	0.7	0.2	0.2	left wall
+;4	0.4	0.4	0.2	0.2	small tube to right too tight
+;5	0.2	0.2	0.2	0.2
+;6	1	0.1	0.1	0.2
+;7	0.5	0.4	0.2	0.2
+;8	0	0.6	0.1	0.2	left wall
+;9	0.2	0.4	0.2	0.2
+;10	0.4	0.4	0.3	0.3
+;11	0.5	0	0.2	0.3	right wall
+;12	0.4	0.3	0.4	0.3	eccentric on wall
+;13	0.3	0.3	0.2	0.4
+;14	0.2	0.5	0.2	0.3
+;15	0	0.6	0.1	0.3	left wall
+;16	0.2	0.2	0	0.1	mud choke

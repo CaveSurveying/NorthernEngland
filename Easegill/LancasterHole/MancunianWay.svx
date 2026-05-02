@@ -13,10 +13,12 @@
 *equate maw2.20 maw5.021 ; from maw2.svx
 *equate maw2.4 maw4.001 ; from maw2.svx
 *equate	maw1.026 cy12ai.001
+*equate	maw4a.001 maw4.014 ; from maw4a.svx
 
 *include	maw1
 *include	maw2
 *include	maw4
+*include	maw4a
 *include	maw5
 *include 	cy12ai
 

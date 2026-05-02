@@ -26,6 +26,7 @@
 *export 122c
 *export 135
 *export 105
+*export 124
 
 *calibrate compass	+5.37
 
@@ -86,7 +87,9 @@
 122b	122c	17.80	324.0	-02.0	;BullPot sump line belay
 122	123	08.50	120.0	-01.0
 123	124	11.80	070.0	-06.0	;1.8m cascade
+*flags duplicate ; (Wilf Taylor's) superseded by md8i
 124	124a	10.00	100.0	 00.0	;side passage to sump
+*flags not duplicate
 124	125	11.40	160.0	-01.0	;Hole in floor
 125	126	17.40	157.0	-01.0
 126	127	26.60	149.0	 00.0

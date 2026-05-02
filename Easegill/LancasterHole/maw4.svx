@@ -8,6 +8,7 @@
 
 *begin	maw4
 *export 001
+*export 014
 *export 021
 
 *calibrate compass	+3.00
@@ -28,11 +29,13 @@
 012	013	06.00	327.0	-05.0
 013	014	05.30	349.0	-03.0
 
+*flags duplicate ; (Mancunian Way) side passage resurveyed in maw4a
 014	014a	06.87	112.0	+06.0	;right hand sandy crawl flat out
 014a	014b	08.90	132.5	+04.0	;st014b has too small passage to right on bend
 014b	014c	04.10	110.0	+04.0
 014c	014d	03.60	088.5	+01.0
 014d	014e	05.00	080.0	 00.0	;this is an estimated leg unsurveyed to possible passage through pretties
+*flags not duplicate
 
 014	015	09.10	318.0	 00.0
 015	016	05.32	336.0	-01.0

@@ -5,7 +5,6 @@
 *export es.000
 *export wm.001
 *export GrindEasyStRoofTube.001
-*export gri02.009
 
 *equate darkside.1 grindinghalt3.0 ; from darkside.svx
 *equate darkside.44 gri03.001 ; from darkside.svx
@@ -51,7 +50,6 @@
 *equate gri01.000 gri02.045 ; from gri01.svx
 *equate gri01.055 wm.017 ; from gri01.svx
 *equate gri02.009 gri03.019 ; from gri02.svx
-*equate gri02.009 gri04.0 ; tie ine fake centreline
 *equate GrindEasyStRoofTube.022 GrindEasyStRoofTube2.006 ; from GrindEasyStRoofTube2.svx
 *equate GrindEasyStRoofTube.045 PicklePassage1.001 ; from PicklePassage1.svx
 *equate grindinghalt1.21 grindinghalt3.20 ; from grindinghalt1.svx
@@ -99,7 +97,6 @@
 *include	gri01
 *include	gri02
 *include	gri03
-*include gri04 ; fake centreline for Clean Passage
 *include	darkside
 *include	grindinghalt1
 *include	grindinghalt3
